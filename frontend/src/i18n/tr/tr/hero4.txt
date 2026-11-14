@@ -1,0 +1,40 @@
+1	Canlı saha çalışması
+2	# ülke
+3	Örneklem dağılımı
+4	Profesyoneller
+5	Doktorlar
+6	Kota takibi
+7	Çevrimiçi
+8	Yüz yüze
+9	yakınımdaki en iyi ortak
+10	Markanız
+11	İlk sonuç · # ★
+12	Huni
+13	Etkileşim
+14	Dönüşüm
+15	Kanallar
+16	# yıldızlı yorum
+17	Mimari
+18	Süreç hattı
+19	Güvenlik taraması
+20	Yayına alma
+21	Nakit akışı
+22	Gelir
+23	Giderler
+24	Net
+25	Uyum
+26	Defterler mutabık
+27	Banka · GST · Defter-i kebir
+28	Fatura
+29	Ödendi
+30	Pazarla
+31	Dengele
+32	Çek
+33	Planla
+34	Başlat
+35	Kaydet
+36	Uy
+37	Danış
+38	# hizmet
+39	Önceki slayt
+40	Sonraki slayt

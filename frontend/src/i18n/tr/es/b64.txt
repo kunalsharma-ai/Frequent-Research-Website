@@ -1,0 +1,54 @@
+1	El reto
+2	Capacidades
+3	actividades enumeradas
+4	Capacidad
+5	actividades
+6	Actividades
+7	Actividades de nuestro catálogo de servicios
+8	Capacidad anterior
+9	Capacidad siguiente
+10	Etapa
+11	← Etapa anterior
+12	Etapa siguiente →
+13	Mensual
+14	ciclo de nómina
+15	+ GST aplicable
+16	inclusiones
+17	Volver al resumen
+18	Sugerido
+19	Comparar todas las funciones
+20	Destacar un plan
+21	Términos:
+22	Herramienta interactiva
+23	Hablar de sus necesidades
+24	Requisitos
+25	Ver la oferta
+26	Abrir todo
+27	respuestas
+28	Buscar en las preguntas
+29	Solicitar un presupuesto a medida
+30	Presupuesto a medida · por escrito antes de empezar
+31	¿Qué ocurre antes de comprometerse?
+32	Ver planes
+33	Reservar una consulta gratuita de # minutos
+34	Girar
+35	Mostrar código QR
+36	Para quién es
+37	Ir
+38	Ofertas comerciales
+39	A quién apoyamos
+40	Alcance
+41	Servicios relacionados
+42	Hablar de este requisito
+43	Las actividades incluidas en su contrato dependen del plan elegido y del alcance por escrito.
+44	Función
+45	Precio
+46	Precio por declaración
+47	Nuestro producto
+48	Descargar
+49	Comparativa de nuestros paquetes de servicio publicados. Lo no indicado se confirma en el alcance de su contrato.
+50	Más popular
+51	Ver todo
+52	Desde
+53	Elegir
+54	Proceso en # pasos

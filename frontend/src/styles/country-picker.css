@@ -1,0 +1,37 @@
+/* ===== Country-code picker with flags (build 41) — prefix cc- ===== */
+.cc-flag{display:inline-block;flex:none;width:20px;height:15px;border-radius:2px;background:url("../assets/images/flags/flags-sprite.webp") no-repeat;background-size:320px 240px;box-shadow:0 0 0 1px rgba(0,0,0,.08)}
+.cc-flag--globe{display:inline-grid;place-items:center;background:#eef1fa;box-shadow:none}
+.cc-flag--globe svg{width:13px;height:13px;fill:none;stroke:#0B22A8;stroke-width:1.8}
+.cc-btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-width:0;padding:0 10px;border:0;background:#f3f5fa;color:#14193D;font:700 .95rem/1 var(--display,system-ui);cursor:pointer;white-space:nowrap;transition:background .2s}
+.cc-btn:hover{background:#e8ecf8}
+.cc-btn:focus-visible{outline:2px solid #1E5BFF;outline-offset:-2px}
+.cc-btn__caret{width:6px;height:6px;margin:-3px 0 0 1px;border-right:2px solid #8A93AE;border-bottom:2px solid #8A93AE;transform:rotate(45deg);transition:transform .2s}
+.cc-btn[aria-expanded="true"] .cc-btn__caret{transform:rotate(225deg);margin-top:3px}
+/* inside the existing field shells */
+.phone .cc-btn.phone__cc{align-self:stretch;padding:0 8px}
+.fm-phone .cc-btn.fm-phone__cc{background:transparent;padding:0 10px 0 12px;height:auto;align-self:stretch}
+.fm-phone .cc-btn.fm-phone__cc:after{display:none}
+.fm-phone .cc-btn.fm-phone__cc .cc-btn__code{font:800 .9rem var(--display);color:var(--n,#14193D)}
+.rv-phone .cc-btn{flex:none;min-width:96px;border:1.5px solid #dde2ec;border-radius:12px;background:#fff}
+.rv-phone .cc-btn:focus-visible{outline:0;border-color:#1E5BFF;box-shadow:0 0 0 3px rgba(30,91,255,.18)}
+/* popover (rendered on <body>) */
+.cc-pop{position:fixed;z-index:2147483000;display:flex;flex-direction:column;overflow:hidden;background:#fff;border-radius:14px;box-shadow:0 24px 60px -18px rgba(7,16,79,.45),0 0 0 1px #e3e8f7;animation:ccIn .18s ease both;font-family:var(--body,system-ui)}
+@keyframes ccIn{from{opacity:0;transform:translateY(-4px) scale(.98)}}
+.cc-pop__search{display:flex;align-items:center;gap:8px;padding:10px 12px;border-bottom:1px solid #eef1f7}
+.cc-pop__search svg{width:16px;height:16px;fill:none;stroke:#8A93AE;stroke-width:2;flex:none}
+.cc-pop__search input{flex:1;min-width:0;border:0;outline:0;font:inherit;font-size:.95rem;color:#14193D;background:transparent;padding:4px 0}
+.cc-pop__list{list-style:none;margin:0;padding:6px;overflow-y:auto;overscroll-behavior:contain}
+.cc-pop__head{padding:8px 10px 4px;font-size:.7rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#8A93AE}
+.cc-opt{display:flex;align-items:center;gap:10px;padding:8px 10px;border-radius:9px;cursor:pointer;color:#14193D;font-size:.92rem}
+.cc-opt.is-act{background:#eef1fa}
+.cc-opt.is-sel{font-weight:700}
+.cc-opt.is-sel .cc-opt__code{color:#0B22A8}
+.cc-opt__name{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cc-opt__code{flex:none;font-variant-numeric:tabular-nums;color:#525C78;font-weight:600}
+.cc-pop__none{padding:10px;font-size:.84rem;color:#525C78}
+@media (prefers-reduced-motion:reduce){.cc-pop{animation:none}.cc-btn__caret{transition:none}}
+/* build 56: list is always above any dialog (it was hidden behind the download/review dialogs), plus a little polish */
+.cc-pop{border-top:3px solid transparent;background:linear-gradient(#fff,#fff) padding-box,linear-gradient(90deg,#1E5BFF,#7C4DFF,#F0457E) border-box;box-shadow:0 30px 70px -20px rgba(7,16,79,.55),0 0 0 1px #e3e8f7}
+.cc-pop__head{position:sticky;top:-6px;z-index:1;background:#fff}
+.cc-opt{transition:background .15s,transform .15s}
+.cc-opt.is-act{transform:translateX(3px)}

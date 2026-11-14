@@ -1,0 +1,173 @@
+.qd {
+  background: radial-gradient(ellipse 50% 50% at 75% 50%, rgba(167, 139, 250, 0.16), transparent 70%);
+}
+.qd-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: clamp(30px, 6vw, 90px);
+  align-items: center;
+}
+.qd-signals {
+  margin-top: 36px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.qd-signals button {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-align: left;
+  padding: 14px 16px;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.025);
+  transition: border-color 0.25s, background 0.25s, transform 0.25s;
+}
+.qd-signals button:hover {
+  transform: translateY(-2px);
+}
+.qd-signals button.on {
+  border-color: rgba(255, 107, 107, 0.55);
+  background: rgba(255, 107, 107, 0.08);
+}
+.qd-switch {
+  flex: none;
+  width: 36px;
+  height: 20px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  position: relative;
+  transition: background 0.25s;
+}
+.qd-switch i {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #fff;
+  transition: transform 0.25s var(--ease-out);
+}
+.on .qd-switch {
+  background: var(--coral);
+}
+.on .qd-switch i {
+  transform: translateX(16px);
+}
+.qd-label {
+  flex: 1;
+  min-width: 0;
+}
+.qd-label strong {
+  display: block;
+  font-size: 14.5px;
+}
+.qd-label small {
+  display: block;
+  color: var(--muted);
+  font-size: 12.5px;
+  line-height: 1.35;
+}
+.qd-pen {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--coral);
+}
+.qd-meter {
+  display: grid;
+  justify-items: center;
+  text-align: center;
+}
+.qd-ring {
+  position: relative;
+  width: min(380px, 80vw);
+  aspect-ratio: 1;
+}
+.qd-ring svg {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+  filter: drop-shadow(0 0 40px color-mix(in srgb, var(--hue) 40%, transparent));
+}
+.qd-ring circle {
+  fill: none;
+  stroke-width: 18;
+}
+.qd-ring .track {
+  stroke: rgba(255, 255, 255, 0.06);
+}
+.qd-ring .tick {
+  stroke: rgba(255, 255, 255, 0.12);
+  stroke-width: 30;
+}
+.qd-ring .val {
+  stroke: var(--hue);
+  stroke-linecap: round;
+  transition: stroke 0.4s;
+}
+.qd-ring .thr {
+  stroke: #fff;
+  stroke-width: 34;
+}
+.qd-num {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-content: center;
+}
+.qd-num span {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(72px, 10vw, 112px);
+  line-height: 1;
+  color: var(--hue);
+  transition: color 0.4s;
+}
+.qd-num small {
+  color: var(--muted);
+  font-size: 14px;
+  margin-top: 6px;
+}
+.qd-verdict {
+  margin-top: 18px;
+  padding: 10px 20px;
+  border-radius: 999px;
+  font-weight: 600;
+  border: 1px solid;
+}
+.qd-verdict.ok {
+  color: var(--lime);
+  border-color: rgba(184, 243, 90, 0.4);
+  background: rgba(184, 243, 90, 0.08);
+}
+.qd-verdict.review {
+  color: var(--amber);
+  border-color: rgba(255, 181, 71, 0.4);
+  background: rgba(255, 181, 71, 0.08);
+}
+.qd-verdict.bad {
+  color: var(--coral);
+  border-color: rgba(255, 107, 107, 0.4);
+  background: rgba(255, 107, 107, 0.08);
+}
+.qd-note {
+  color: var(--muted);
+  font-size: 13px;
+  max-width: 340px;
+  margin: 16px 0 0;
+}
+@media (max-width: 900px) {
+  .qd-grid {
+    grid-template-columns: 1fr;
+  }
+  .qd-meter {
+    order: -1;
+  }
+}
+@media (max-width: 560px) {
+  .qd-signals {
+    grid-template-columns: 1fr;
+  }
+}

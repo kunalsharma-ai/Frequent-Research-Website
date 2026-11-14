@@ -1,0 +1,125 @@
+# Frontend container: serves the Vite build and passes /api/ (versioned: /api/v1/…) to the backend container.
+# ${BACKEND_URL} is filled in when the container starts (default http://backend:8787, see the Dockerfile).
+# Build 82.1: request limits per visitor (the first address in X-Forwarded-For when a proxy is in front, else the
+# connection's address). Sign-in: 10 a minute; the rest of the API: 20 a second with bursts of 60.
+map $http_x_forwarded_for $fr_client { "" $remote_addr; "~^(?P<first>[^,\s]+)" $first; default $remote_addr; }
+limit_req_zone $fr_client zone=fr_api:20m rate=20r/s;
+limit_req_zone $fr_client zone=fr_login:10m rate=10r/m;
+limit_req_status 429;
+
+server {
+  listen 80;
+  server_name _;
+  root /usr/share/nginx/html;
+  index index.html;
+  absolute_redirect off;
+  server_tokens off;
+  client_max_body_size 5m;
+
+  # pre-compressed copies written by the build (*.gz), plus on-the-fly gzip for anything else
+  gzip on;
+  gzip_static on;
+  gzip_comp_level 6;
+  gzip_min_length 1024;
+  gzip_types text/css application/javascript text/javascript application/json image/svg+xml text/plain application/xml;
+
+  include /etc/nginx/snippets/security-headers.conf;
+
+  # build 82.7 (SEO audit: "Implement a redirect to HTTPS"): the site has one address, https://www.frequentresearch.com.
+  # A visit over plain http (as told by the proxy in front, X-Forwarded-Proto) or to frequentresearch.com without www
+  # is sent there permanently. Local tests (localhost, no proxy header) are not redirected. The proxy in front should do
+  # the same itself (docs/go-live/21-SEO.md).
+  set $fr_https "";
+  if ($http_x_forwarded_proto = "http") { set $fr_https "go"; }
+  if ($host = "frequentresearch.com") { set $fr_https "go"; }
+  if ($fr_https = "go") { return 301 https://www.frequentresearch.com$request_uri; }
+
+  # hidden files and backups are never served
+  location ~ /\.(?!well-known) { return 404; }
+  location ~* \.(bak|old|orig|swp|env|log|sql|ini|conf)$ { return 404; }
+
+  # admin sign-in, first set-up and the MFA step: slowed down against password guessing (longest prefix wins)
+  location ^~ /api/v1/admin/login { limit_req zone=fr_login burst=10 nodelay; proxy_pass ${BACKEND_URL}; proxy_http_version 1.1; proxy_set_header Host $host; proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for; proxy_set_header X-Forwarded-Proto $scheme; }
+  location ^~ /api/v1/admin/setup { limit_req zone=fr_login burst=10 nodelay; proxy_pass ${BACKEND_URL}; proxy_http_version 1.1; proxy_set_header Host $host; proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for; proxy_set_header X-Forwarded-Proto $scheme; }
+  location ^~ /api/v1/admin/step-up { limit_req zone=fr_login burst=10 nodelay; proxy_pass ${BACKEND_URL}; proxy_http_version 1.1; proxy_set_header Host $host; proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for; proxy_set_header X-Forwarded-Proto $scheme; }
+  location ^~ /api/admin/login { limit_req zone=fr_login burst=10 nodelay; proxy_pass ${BACKEND_URL}; proxy_http_version 1.1; proxy_set_header Host $host; proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for; proxy_set_header X-Forwarded-Proto $scheme; }
+  location ^~ /api/admin/setup { limit_req zone=fr_login burst=10 nodelay; proxy_pass ${BACKEND_URL}; proxy_http_version 1.1; proxy_set_header Host $host; proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for; proxy_set_header X-Forwarded-Proto $scheme; }
+  location ^~ /api/admin/step-up { limit_req zone=fr_login burst=10 nodelay; proxy_pass ${BACKEND_URL}; proxy_http_version 1.1; proxy_set_header Host $host; proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for; proxy_set_header X-Forwarded-Proto $scheme; }
+
+  # build 82: the onboarding portals deliver whole submissions with their documents (up to about 95 MB)
+  location ^~ /api/v1/integrations/onboarding/ { client_max_body_size 100m; proxy_pass ${BACKEND_URL}; proxy_http_version 1.1; proxy_set_header Host $host; proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for; proxy_set_header X-Forwarded-Proto $scheme; proxy_read_timeout 120s; proxy_request_buffering on; }
+
+  location ^~ /api/ {
+    limit_req zone=fr_api burst=60 nodelay;
+    proxy_pass ${BACKEND_URL};
+    client_max_body_size 25m;   # super admin uploads (photos, PDFs, videos); the API checks its own limits
+    proxy_http_version 1.1;
+    proxy_set_header Host $host;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header X-Forwarded-Proto $scheme;
+    proxy_read_timeout 30s;
+  }
+
+  # celebration days: the super admin's copy from the backend; without one (404) the calendar the site ships with
+  # (exact addresses, so they win over the /api/ block above)
+  location = /api/v1/celebrations {
+    proxy_pass ${BACKEND_URL};
+    proxy_set_header Host $host;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_intercept_errors on;
+    error_page 404 502 503 504 = @celebrations;
+  }
+  location = /api/celebrations {
+    proxy_pass ${BACKEND_URL};
+    proxy_set_header Host $host;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_intercept_errors on;
+    error_page 404 502 503 504 = @celebrations;
+  }
+  location @celebrations {
+    add_header Cache-Control "public, max-age=300";
+    include /etc/nginx/snippets/security-headers.conf;
+    try_files /data/celebrations-$arg_year.json /data/celebrations.json =404;
+  }
+
+  # the super admin panel: the app shell (the panel loads its data from /api/v1/admin/…), never cached or indexed
+  location ^~ /admin {
+    add_header Cache-Control "no-store";
+    add_header X-Robots-Tag "noindex, nofollow" always;
+    # the admin is never shown inside another site's frame
+    add_header X-Content-Type-Options nosniff always;
+    add_header Referrer-Policy no-referrer always;
+    add_header Strict-Transport-Security "max-age=31536000; includeSubDomains" always;
+    add_header X-Frame-Options DENY always;
+    add_header Content-Security-Policy "frame-ancestors 'none'; base-uri 'self'; object-src 'none'" always;
+    add_header Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=(), usb=()" always;
+    try_files /404.html =404;
+  }
+
+  location = /healthz { access_log off; default_type text/plain; return 200 "ok\n"; }
+
+  # services that were removed or merged (301), generated from src/config/redirects.json
+  include /etc/nginx/fr/*.conf;
+
+  # Vite file names carry a content hash, language files too: cache for a year
+  location ^~ /assets/ { add_header Cache-Control "public, max-age=31536000, immutable"; include /etc/nginx/snippets/security-headers.conf; try_files $uri =404; }
+  location ^~ /i18n/ { add_header Cache-Control "public, max-age=31536000, immutable"; include /etc/nginx/snippets/security-headers.conf; try_files $uri =404; }
+  # build 74: other pictures, fonts and media (team photos, panel books, videos) are kept for 30 days
+  location ~* \.(webp|png|jpe?g|svg|avif|gif|ico|woff2?|ttf|mp3|mp4|webm|pdf)$ { add_header Cache-Control "public, max-age=2592000"; include /etc/nginx/snippets/security-headers.conf; try_files $uri =404; }
+
+  # /path/ -> /path (the canonical form) when that page exists
+  location ~ ^(.+)/$ {
+    if (-f $document_root$1/index.html) { return 301 $1; }
+    add_header Cache-Control "no-cache";
+    include /etc/nginx/snippets/security-headers.conf;
+    try_files $uri $uri/index.html =404;
+  }
+  location / {
+    add_header Cache-Control "no-cache";
+    include /etc/nginx/snippets/security-headers.conf;
+    try_files $uri $uri/index.html =404;
+  }
+  # 404.html is the app itself (it shows its own "not found" view), sent with status 404
+  error_page 404 /404.html;
+  location = /404.html { internal; add_header Cache-Control "no-cache"; include /etc/nginx/snippets/security-headers.conf; }
+}

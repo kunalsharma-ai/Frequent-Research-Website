@@ -1,0 +1,57 @@
+1	Ascolta ogni voce che conta.
+2	Da una domanda a una decisione sicura.
+3	Sondaggi, panel e insight in #+ mercati
+4	Unisciti ai nostri panel: la tua opinione vale
+5	Fatti trovare. Fatti amare. Fatti scegliere.
+6	Campagne che trasformano chi scorre in clienti.
+7	SEO, annunci, social e performance marketing
+8	Contenuti per cui i tuoi clienti si fermano davvero
+9	Entrano idee. Esce software.
+10	Siti, app e piattaforme progettati per crescere.
+11	Web, mobile, SaaS, cloud e IA
+12	Esperienze che i tuoi utenti amano ogni giorno
+13	Numeri che tornano. Sempre.
+14	Conti in ordine, adempimenti puntuali, decisioni chiare.
+15	Contabilità, GST, paghe, fisco e CFO virtuale
+16	Serenità per i fondatori e i loro team
+17	Per le aziende
+18	Per consumatori e professionisti
+19	Per il tuo pubblico
+20	+# altri
+21	Scopri le Ricerche di mercato
+22	Scopri il Marketing digitale
+23	Scopri IT e sviluppo
+24	Scopri Contabilità e finanza
+25	Leggi nella tua lingua
+26	
+27	Marketing
+28	
+29	Acquirente
+30	
+31	Studente
+32	Genitore
+33	Ingegnere
+34	
+35	Insight pronto
+36	Decisione
+37	Quanti
+38	Quali
+39	Panel
+40	Nuovo lead
+41	Post condiviso
+42	Checkout
+43	Acquista ora
+44	Cloud
+45	Interfaccia
+46	Build
+47	Test
+48	Online
+49	Libro mastro
+50	Contabilità
+51	Paghe
+52	
+53	Riconciliato ✓
+54	Metti in pausa
+55	Riproduci slide
+56	Scegli un servizio
+57	I nostri servizi

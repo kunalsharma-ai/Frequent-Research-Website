@@ -1,0 +1,82 @@
+/* Build 65 update 4: language and theme switch scenes (src/components/site/Fx65.jsx). Prefix fx5-. */
+@property --fx5-r{syntax:"<length>";inherits:true;initial-value:0px}
+.fx5-lang{position:fixed;inset:0;z-index:2147483000;pointer-events:none;overflow:hidden;--ease:cubic-bezier(.22,1,.36,1)}
+.fx5-lang__bg{position:absolute;inset:0;background:
+  radial-gradient(60vmax 60vmax at var(--x) var(--y),color-mix(in srgb,var(--c1) 55%,#07152E) 0%,transparent 70%),
+  radial-gradient(70vmax 50vmax at calc(100% - var(--x)) calc(100% - var(--y)),color-mix(in srgb,var(--c2) 40%,#07152E) 0%,transparent 70%),
+  #07152E}
+.fx5-lang__bg::after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 50% 50%,transparent 30%,rgba(3,8,22,.55) 100%)}
+.fx5-lang__cv{position:absolute;inset:0;width:100%;height:100%}
+/* reveal shapes (enter) */
+.fx5-lang>.fx5-lang__bg,.fx5-lang>.fx5-lang__cv{transition:clip-path .62s var(--ease),-webkit-mask-size .62s var(--ease),opacity .5s}
+.fx5-lang--ripple .fx5-lang__bg,.fx5-lang--bloom .fx5-lang__bg{clip-path:circle(0 at var(--x) var(--y))}
+.fx5-lang--ripple.is-in .fx5-lang__bg,.fx5-lang--bloom.is-in .fx5-lang__bg{clip-path:circle(150vmax at var(--x) var(--y))}
+.fx5-lang--diamond .fx5-lang__bg{clip-path:polygon(var(--px) var(--py),var(--px) var(--py),var(--px) var(--py),var(--px) var(--py))}
+.fx5-lang--diamond.is-in .fx5-lang__bg{clip-path:polygon(var(--px) -220%,320% var(--py),var(--px) 320%,-220% var(--py))}
+.fx5-lang--curtain .fx5-lang__bg{clip-path:inset(50% 0 50% 0)}
+.fx5-lang--curtain.is-in .fx5-lang__bg{clip-path:inset(0 0 0 0)}
+.fx5-lang--sweep .fx5-lang__bg{clip-path:polygon(100% 0,100% 0,100% 100%,100% 100%)}
+.fx5-lang--sweep.is-in .fx5-lang__bg{clip-path:polygon(-30% 0,100% 0,100% 100%,0 100%)}
+.fx5-lang--wave .fx5-lang__bg{clip-path:polygon(0 0,0 0,0 100%,0 100%)}
+.fx5-lang--wave.is-in .fx5-lang__bg{clip-path:polygon(0 0,130% 0,100% 100%,0 100%)}
+.fx5-lang--ink .fx5-lang__bg{--fx5-r:0px;-webkit-mask:radial-gradient(circle at var(--x) var(--y),#000 var(--fx5-r),transparent calc(var(--fx5-r) + 40px)),radial-gradient(circle at 20% 80%,#000 calc(var(--fx5-r) * .8),transparent calc(var(--fx5-r) * .8 + 60px)),radial-gradient(circle at 85% 70%,#000 calc(var(--fx5-r) * .7),transparent calc(var(--fx5-r) * .7 + 60px));mask:radial-gradient(circle at var(--x) var(--y),#000 var(--fx5-r),transparent calc(var(--fx5-r) + 40px)),radial-gradient(circle at 20% 80%,#000 calc(var(--fx5-r) * .8),transparent calc(var(--fx5-r) * .8 + 60px)),radial-gradient(circle at 85% 70%,#000 calc(var(--fx5-r) * .7),transparent calc(var(--fx5-r) * .7 + 60px));transition:--fx5-r .8s var(--ease),opacity .5s}
+.fx5-lang--ink.is-in .fx5-lang__bg{--fx5-r:160vmax}
+.fx5-lang--shutter .fx5-lang__bg{opacity:0;transition:opacity .2s .45s}
+.fx5-lang--shutter.is-in .fx5-lang__bg{opacity:1}
+.fx5-blinds{position:absolute;inset:0;display:grid;grid-template-columns:repeat(7,1fr);z-index:0}
+.fx5-blinds i{background:linear-gradient(180deg,color-mix(in srgb,var(--c1) 55%,#07152E),#07152E 70%,color-mix(in srgb,var(--c2) 40%,#07152E));transform:scaleY(0);transform-origin:top;transition:transform .5s var(--ease)}
+.fx5-blinds i:nth-child(2n){transform-origin:bottom}
+.fx5-lang.is-in .fx5-blinds i{transform:scaleY(1)}
+.fx5-blinds i:nth-child(1){transition-delay:0s}.fx5-blinds i:nth-child(2){transition-delay:.04s}.fx5-blinds i:nth-child(3){transition-delay:.08s}.fx5-blinds i:nth-child(4){transition-delay:.12s}.fx5-blinds i:nth-child(5){transition-delay:.16s}.fx5-blinds i:nth-child(6){transition-delay:.2s}.fx5-blinds i:nth-child(7){transition-delay:.24s}
+/* centre text */
+.fx5-lang__txt{position:absolute;inset:0;display:grid;place-content:center;justify-items:center;gap:10px;padding:24px;text-align:center;color:#fff}
+.fx5-lang__ring{position:absolute;left:50%;top:50%;width:min(62vmin,520px);aspect-ratio:1;translate:-50% -50%;border-radius:50%;border:1px solid color-mix(in srgb,var(--c3) 45%,transparent);box-shadow:0 0 0 18px color-mix(in srgb,var(--c1) 10%,transparent),0 0 0 46px color-mix(in srgb,var(--c2) 6%,transparent),inset 0 0 80px color-mix(in srgb,var(--c1) 30%,transparent);scale:.4;opacity:0;transition:scale 1s var(--ease) .15s,opacity .6s .15s}
+.fx5-lang.is-in .fx5-lang__ring{scale:1;opacity:1}
+.fx5-lang--bloom .fx5-lang__ring{border-style:dashed;animation:fx5-spin 6s linear infinite}
+.fx5-lang__name{position:relative;font:800 clamp(2.1rem,9vw,6.4rem)/1.15 Manrope,Inter,"Noto Sans",system-ui,sans-serif;letter-spacing:-.02em;text-shadow:0 0 40px color-mix(in srgb,var(--c1) 70%,transparent),0 4px 30px rgba(0,0,0,.4);max-width:94vw;overflow-wrap:anywhere}
+.fx5-lang__name span{display:inline-block;opacity:0;transform:translateY(.55em) rotateX(70deg) scale(.7);filter:blur(8px);transition:transform .7s var(--ease),opacity .5s,filter .6s;transition-delay:calc(.22s + var(--i) * 45ms)}
+.fx5-lang--sweep .fx5-lang__name span{transform:translateX(-.8em) scale(.8)}
+.fx5-lang--wave .fx5-lang__name span{transform:translateY(-.6em) scale(.8)}
+.fx5-lang--wave .fx5-lang__name span:nth-child(2n){transform:translateY(.6em) scale(.8)}
+.fx5-lang--ink .fx5-lang__name span{transform:scale(1.8);filter:blur(16px)}
+.fx5-lang--diamond .fx5-lang__name span{transform:rotate(-25deg) scale(.4)}
+.fx5-lang.is-in .fx5-lang__name span{opacity:1;transform:none;filter:none}
+.fx5-lang__hi{position:relative;font:600 clamp(1.1rem,3vw,1.7rem)/1.3 Inter,"Noto Sans",system-ui,sans-serif;color:var(--c3);color:color-mix(in srgb,var(--c3) 70%,#fff);opacity:0;transform:translateY(14px);transition:opacity .6s .55s,transform .7s var(--ease) .55s}
+.fx5-lang__en{position:relative;font:700 .78rem/1 Inter,sans-serif;letter-spacing:.24em;text-transform:uppercase;color:rgba(230,236,255,.75);opacity:0;transition:opacity .6s .7s}
+.fx5-lang__en::before,.fx5-lang__en::after{content:"";display:inline-block;width:28px;height:1px;margin:0 10px;vertical-align:middle;background:currentColor;opacity:.6}
+.fx5-lang.is-in .fx5-lang__hi{opacity:1;transform:none}
+.fx5-lang.is-in .fx5-lang__en{opacity:1}
+/* exit: the scene lifts and blurs away while the page settles in */
+.fx5-lang.is-out{transition:opacity .75s ease,filter .75s ease,transform .75s var(--ease);opacity:0;filter:blur(10px);transform:scale(1.08)}
+html.fx5-settle{background:#07152E}
+html.fx5-settle body{animation:fx5-settle .9s var(--k5-ease,cubic-bezier(.22,1,.36,1))}
+@keyframes fx5-settle{from{transform:scale(.975);filter:blur(5px) saturate(1.3)}to{transform:none;filter:none}}
+@keyframes fx5-spin{to{rotate:360deg}}
+/* reduced motion: a plain cross-fade */
+.fx5-lang.fx5-rm *{transition:none!important;animation:none!important}
+.fx5-lang.fx5-rm .fx5-lang__bg{clip-path:none!important;-webkit-mask:none!important;mask:none!important}
+.fx5-lang.fx5-rm{opacity:0;transition:opacity .25s}
+.fx5-lang.fx5-rm.is-in{opacity:1}
+.fx5-lang.fx5-rm.is-in.is-out{opacity:0;filter:none;transform:none}
+.fx5-lang.fx5-rm .fx5-lang__name span,.fx5-lang.fx5-rm .fx5-lang__hi,.fx5-lang.fx5-rm .fx5-lang__en{opacity:1;transform:none;filter:none}
+@media (prefers-reduced-motion:reduce){html.fx5-settle body{animation:none}}
+
+/* theme sky */
+.fx5-sky{position:fixed;inset:0;z-index:2147482990;pointer-events:none;overflow:hidden;transition:opacity .65s ease}
+.fx5-sky.is-out{opacity:0}
+.fx5-sky__cv{position:absolute;inset:0;width:100%;height:100%}
+.fx5-sky--dark{background:radial-gradient(70vmax 70vmax at var(--x) var(--y),rgba(65,105,225,.35),rgba(7,21,46,.2) 45%,transparent 70%),linear-gradient(180deg,rgba(4,9,28,.62),rgba(11,36,71,.4))}
+.fx5-sky--light{background:radial-gradient(70vmax 70vmax at var(--x) var(--y),rgba(255,214,120,.55),rgba(255,236,190,.25) 40%,transparent 70%),linear-gradient(180deg,rgba(255,244,214,.4),rgba(255,226,170,.18))}
+.fx5-moon,.fx5-sun,.fx5-rays,.fx5-flare{position:absolute;left:var(--x);top:var(--y);border-radius:50%}
+.fx5-moon{width:120px;height:120px;margin:-60px 0 0 -60px;box-shadow:inset -26px 10px 0 0 #F4E9C8;filter:drop-shadow(0 0 26px rgba(244,233,200,.65));animation:fx5-moon 1.5s cubic-bezier(.22,1,.36,1) both}
+@keyframes fx5-moon{0%{transform:translate(0,0) scale(.2) rotate(-40deg);opacity:0}35%{opacity:1}100%{transform:translate(-26vw,22vh) scale(1) rotate(0);opacity:1}}
+.fx5-shoot{position:absolute;left:70%;top:12%;width:160px;height:2px;border-radius:2px;background:linear-gradient(90deg,transparent,#fff);transform:rotate(155deg);opacity:0;animation:fx5-shoot .9s .35s ease-out both}
+.fx5-shoot--2{left:35%;top:20%;width:110px;animation-delay:.75s}
+@keyframes fx5-shoot{0%{opacity:0;translate:0 0}20%{opacity:1}100%{opacity:0;translate:-38vw 16vh}}
+.fx5-sun{width:150px;height:150px;margin:-75px 0 0 -75px;background:radial-gradient(circle,#FFF6D8 0 30%,#FFD27A 52%,rgba(255,180,70,0) 70%);animation:fx5-sun 1.5s cubic-bezier(.22,1,.36,1) both}
+@keyframes fx5-sun{0%{transform:scale(.1);opacity:0}30%{opacity:1}100%{transform:translate(-18vw,18vh) scale(1.5);opacity:.9}}
+.fx5-rays{width:160vmax;height:160vmax;margin:-80vmax 0 0 -80vmax;background:repeating-conic-gradient(from 0deg,rgba(255,214,120,.16) 0 4deg,transparent 4deg 15deg);-webkit-mask:radial-gradient(circle,#000 0,transparent 55%);mask:radial-gradient(circle,#000 0,transparent 55%);animation:fx5-rays 1.6s ease-out both}
+@keyframes fx5-rays{0%{transform:scale(.05) rotate(0);opacity:0}25%{opacity:1}100%{transform:scale(1) rotate(40deg);opacity:0}}
+.fx5-flare{width:24px;height:24px;margin:-12px 0 0 -12px;box-shadow:0 0 0 2px rgba(255,214,120,.5);animation:fx5-flare 1s ease-out both}
+@keyframes fx5-flare{to{transform:scale(40);opacity:0}}
+@media (prefers-reduced-motion:reduce){.fx5-sky{display:none}}

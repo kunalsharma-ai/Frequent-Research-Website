@@ -1,0 +1,57 @@
+1	Önemli olan her sesi duyun.
+2	Tek bir sorudan emin bir karara.
+3	#+ pazarda anket, panel ve içgörü
+4	Panellerimize katılın — fikriniz kazandırır
+5	Bulunun. Sevilin. Seçilin.
+6	Kaydıranları müşteriye dönüştüren kampanyalar.
+7	SEO, reklam, sosyal medya ve performans pazarlaması
+8	Müşterilerinizin gerçekten durup baktığı içerikler
+9	Fikir girer. Yazılım çıkar.
+10	Ölçeklenmek için tasarlanmış web siteleri, uygulamalar ve platformlar.
+11	Web, mobil, SaaS, bulut ve yapay zekâ geliştirme
+12	Kullanıcılarınızın her gün keyif aldığı deneyimler
+13	Her zaman tutan rakamlar.
+14	Temiz defterler, zamanında uyum, net kararlar.
+15	Defter tutma, GST, bordro, vergi ve sanal CFO
+16	Kurucular ve ekipleri için gönül rahatlığı
+17	İşletmeler için
+18	Tüketiciler ve profesyoneller için
+19	Kitleniz için
+20	+# daha
+21	Pazar Araştırmasını keşfedin
+22	Dijital Pazarlamayı keşfedin
+23	BT ve Geliştirmeyi keşfedin
+24	Muhasebe ve Finansı keşfedin
+25	Kendi dilinizde okuyun
+26	
+27	Pazarlama
+28	
+29	Alışverişçi
+30	
+31	Öğrenci
+32	Ebeveyn
+33	Mühendis
+34	
+35	İçgörü hazır
+36	Karar
+37	Nicel
+38	Nitel
+39	Paneller
+40	Yeni potansiyel müşteri
+41	Gönderi paylaşıldı
+42	Ödeme
+43	Hemen al
+44	Bulut
+45	Arayüz
+46	Derleme
+47	Test
+48	Yayında
+49	Defter-i kebir
+50	Defter tutma
+51	Bordro
+52	
+53	Mutabık ✓
+54	Slaytları duraklat
+55	Slaytları oynat
+56	Bir hizmet seçin
+57	Hizmetlerimiz

@@ -1,0 +1,54 @@
+1	Thách thức
+2	Năng lực
+3	hoạt động được liệt kê
+4	Năng lực
+5	hoạt động
+6	Hoạt động
+7	Hoạt động trong danh mục dịch vụ
+8	Năng lực trước
+9	Năng lực tiếp theo
+10	Giai đoạn
+11	← Giai đoạn trước
+12	Giai đoạn tiếp →
+13	Hằng tháng
+14	chu kỳ tính lương
+15	+ GST áp dụng
+16	hạng mục
+17	Quay lại tóm tắt
+18	Gợi ý
+19	So sánh mọi tính năng
+20	Làm nổi bật một gói
+21	Thuật ngữ:
+22	Công cụ tương tác
+23	Trao đổi nhu cầu của bạn
+24	Điều kiện
+25	Xem ưu đãi
+26	Mở tất cả
+27	câu trả lời
+28	Tìm trong câu hỏi
+29	Yêu cầu báo giá riêng
+30	Báo giá riêng · bằng văn bản trước khi bắt đầu
+31	Điều gì diễn ra trước khi bạn cam kết?
+32	Xem các gói
+33	Đặt lịch tư vấn miễn phí # phút
+34	Lật
+35	Hiện mã QR
+36	Dành cho ai
+37	Đi
+38	Ưu đãi thương mại
+39	Chúng tôi hỗ trợ ai
+40	Phạm vi
+41	Dịch vụ liên quan
+42	Trao đổi nhu cầu này
+43	Các hoạt động trong hợp đồng phụ thuộc vào gói đã chọn và phạm vi bằng văn bản.
+44	Tính năng
+45	Giá
+46	Giá mỗi tờ khai
+47	Sản phẩm của chúng tôi
+48	Tải xuống
+49	So sánh theo các gói dịch vụ đã công bố. Nội dung không liệt kê sẽ được xác nhận trong phạm vi hợp đồng.
+50	Phổ biến nhất
+51	Xem tất cả
+52	Từ
+53	Chọn
+54	Quy trình # bước

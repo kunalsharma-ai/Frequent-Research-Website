@@ -1,0 +1,40 @@
+1	Lapangan langsung
+2	# negara
+3	Komposisi sampel
+4	Profesional
+5	Dokter
+6	Pelacak kuota
+7	Online
+8	Tatap muka
+9	mitra terbaik di dekat saya
+10	Merek Anda
+11	Hasil teratas · # ★
+12	Corong
+13	Libatkan
+14	Konversi
+15	Kanal
+16	Ulasan # bintang
+17	Arsitektur
+18	Pipeline
+19	Pemindaian keamanan
+20	Deploy
+21	Arus kas
+22	Pendapatan
+23	Biaya
+24	Bersih
+25	Kepatuhan
+26	Pembukuan direkonsiliasi
+27	Bank · GST · Buku besar
+28	Faktur
+29	Lunas
+30	Pasarkan
+31	Seimbangkan
+32	Tarik
+33	Rencanakan
+34	Luncurkan
+35	Catat
+36	Patuhi
+37	Beri saran
+38	# layanan
+39	Slide sebelumnya
+40	Slide berikutnya

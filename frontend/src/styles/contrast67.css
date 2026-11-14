@@ -1,0 +1,59 @@
+/* Build 67: readable text on coloured buttons, chips and tabs (both themes). White text sat on gradients whose light
+   end (a pale tint of the palette colour) left it at 1.5–3:1. Each fill keeps its own colours (the same variables);
+   a navy veil (#060C28) that is clear at the strong end and deeper at the pale end is laid over it, so the light end
+   stays the same hue but is dark enough for white text. Solid text colours on plain backgrounds are corrected by
+   src/app/contrastGuard.jsx. Measured with rw/cverify.cjs (pixel check). */
+:root{--v67:rgba(6,12,40,.26);--v67b:rgba(6,12,40,.5)}
+
+.ft-rate{background:linear-gradient(120deg,rgba(6,12,40,.44),rgba(6,12,40,.58)),linear-gradient(120deg,#FFB020,#F0457E)}
+.fe-join{background:linear-gradient(110deg,var(--v67),var(--v67b)),linear-gradient(110deg,var(--a),var(--b))}
+.in6-tik__stub{background:linear-gradient(160deg,var(--v67),var(--v67b)),linear-gradient(160deg,var(--c),color-mix(in srgb,var(--c2) 70%,var(--c)))}
+.in6-teams button.is-on{background:linear-gradient(115deg,var(--v67),var(--v67b)),linear-gradient(115deg,var(--c),color-mix(in srgb,var(--c2) 60%,var(--c)))}
+.af5-split__nav button.is-on{background:linear-gradient(120deg,var(--v67),var(--v67b)),linear-gradient(120deg,var(--a1),color-mix(in srgb,var(--a1) 50%,var(--dk)))}
+.oj5-tchip{background:linear-gradient(135deg,var(--v67),var(--v67b)),linear-gradient(135deg,var(--c1),var(--c2))}
+.oj5-ch__copy>.k5-rv--up>span{background-image:linear-gradient(135deg,var(--v67),var(--v67b)),linear-gradient(135deg,#22D3EE,#2563EB)!important}
+.dl5-get:not(.dl5-get--ghost){background:linear-gradient(120deg,var(--v67),var(--v67b)),linear-gradient(120deg,var(--c),var(--c2))}
+.dl5-nav__a.is-on{background:linear-gradient(120deg,var(--v67),var(--v67b)),linear-gradient(120deg,var(--c,#0B1437),var(--c2,#334155))}
+.rr-cta__svc{background:linear-gradient(120deg,var(--v67),var(--v67b)),linear-gradient(120deg,var(--v1),var(--v2))}
+.rr-ch:not(.rr-ch--dm):not(.rr-ch--it) .rr-ch__rate{background:linear-gradient(120deg,var(--v67),var(--v67b)),linear-gradient(120deg,var(--v1),var(--v2))}
+.pr5-feats__tabs button.is-on{background:linear-gradient(120deg,var(--v67),var(--v67b)),linear-gradient(120deg,var(--p1),var(--p2))}
+.pr5-pass__main ol li em{box-shadow:inset 0 0 0 99px rgba(6,12,40,.2)}
+.pb10-world__in em{background:linear-gradient(100deg,var(--v67),var(--v67b)),linear-gradient(100deg,var(--c1),color-mix(in srgb,var(--c1) 40%,var(--c2)))}
+.pb10-btn--glow{background:linear-gradient(100deg,var(--v67),var(--v67b)),linear-gradient(100deg,var(--c1),color-mix(in srgb,var(--c1) 50%,var(--c2)))}
+.sv7-btn--main{background:linear-gradient(110deg,var(--v67),var(--v67b)),linear-gradient(110deg,var(--s1),color-mix(in srgb,var(--s2) 70%,var(--s1)))}
+.frk-btn{background:linear-gradient(120deg,var(--v67),var(--v67b)),linear-gradient(120deg,var(--b1),var(--b2))}
+.fg-next{background-image:linear-gradient(120deg,var(--v67),var(--v67b)),linear-gradient(120deg,#1E5BFF,#22D3EE)!important}
+.vw-lens.is-on{box-shadow:inset 0 0 0 99px rgba(6,12,40,.22)}
+.gx-tree__g{box-shadow:inset 0 0 0 999px rgba(6,12,40,.3)}
+.rc19-portal__list,.rc19-portal__pct{color:#fff!important}
+.ab18-jt__aud.is-on{box-shadow:inset 0 0 0 99px rgba(6,12,40,.22)}
+/* the same white labels, a touch of shadow so the letters keep an edge on the brightest part of the fill */
+.ft-rate,.fe-join,.in6-tik__stub,.in6-teams button.is-on,.af5-split__nav button.is-on,.oj5-tchip,.dl5-get:not(.dl5-get--ghost),.dl5-nav__a.is-on,.rr-cta__svc,.rr-ch__rate,.pr5-feats__tabs button.is-on,.pb10-world__in em,.pb10-btn--glow,.sv7-btn--main,.frk-btn,.fg-next,.gx-tree__g{text-shadow:0 1px 2px rgba(4,8,30,.28)}
+
+/* dark theme only: places where the generated dark colours turned a dark label light, or a dark chip light */
+[data-theme="dark"] .gx-case--all,[data-theme="dark"] .gx-case--all h3,[data-theme="dark"] .gx-case--all .gx-pcard__go{color:#1B1203!important}
+[data-theme="dark"] .tm-feat__src{background:rgba(0,0,0,.55)!important;color:#fff!important}
+[data-theme="dark"] .fm-go{background:linear-gradient(135deg,var(--v67),var(--v67b)),linear-gradient(135deg,var(--c),color-mix(in srgb,var(--c) 60%,var(--n)))!important}
+[data-theme="dark"] .stat--2 .stat__num{color:#B9A6FF}
+@media (prefers-reduced-motion:reduce){.frk-btn:before{display:none}}
+.gx-tree__in div span,.gx-tree__in div b{color:#fff}
+.gx-tree__g{box-shadow:inset 0 0 0 999px rgba(6,12,40,.38)}
+
+/* build 67, pass 4: the last labels under 3:1 from the pixel check (both themes) */
+.oj5-team a{background:linear-gradient(150deg,var(--v67),var(--v67b)),linear-gradient(150deg,var(--c1),var(--c2))}
+.oj5-ch__copy>.k5-rv--up>span{background-image:linear-gradient(135deg,rgba(6,12,40,.4),rgba(6,12,40,.58)),linear-gradient(135deg,#22D3EE,#2563EB)!important}
+.tm-tab.is-on{background:linear-gradient(135deg,var(--v67),var(--v67b)),linear-gradient(135deg,var(--c),var(--lt))}
+.dl7-every__tabs button.is-on{background:linear-gradient(110deg,var(--v67),var(--v67b)),linear-gradient(110deg,var(--c),color-mix(in srgb,var(--c2) 60%,var(--c)))}
+.fq-help button,.fq-sec__help button{background:linear-gradient(135deg,var(--v67),var(--v67b)),linear-gradient(135deg,var(--q1),var(--q2))}
+.afh-ex__chips button.is-on{box-shadow:inset 0 0 0 99px rgba(6,12,40,.34)}
+.af5-split__nav button.is-on span,.pr5-feats__tabs button.is-on span{color:#fff}
+.rc19-rail a.is-on em{color:#FFE6C7}
+.oj5-team a,.tm-tab.is-on,.dl7-every__tabs button.is-on,.fq-help button,.fq-sec__help button,.afh-ex__chips button.is-on{text-shadow:0 1px 2px rgba(4,8,30,.28)}
+:root:not([data-theme="dark"]) .ab18-sxc__top em{color:color-mix(in srgb,currentColor 70%,#0B1437)}
+:root:not([data-theme="dark"]) .hh-final .hh-final__copy .hm-kicker{color:#0B7A5C!important}
+[data-theme="dark"] .stats .stat--2 .stat__num{color:#B9A6FF!important;-webkit-text-fill-color:#B9A6FF}
+[data-theme="dark"] .k3-tech__g li.is-on{color:#06231F}
+:root:not([data-theme="dark"]) .ie__head .ie__k{color:#0B7A7A}
+/* dark theme: the generated dark sheet put the old gradient text fill back on the home headline (.hz-tag), which drew
+   stray strokes above "One brief." (Kunal, 6 Nov). The build-9 headline colours each line itself. */
+html[data-theme="dark"] .hz-tag.hza9-tag{background:none!important;-webkit-background-clip:border-box!important;background-clip:border-box!important;color:#fff}

@@ -1,0 +1,71 @@
+1	QR ve Bağlantı
+2	Bizi, panellerimizi ve Sampledge'i takip etmek için tarayın.
+3	Koyu temaya geç
+4	Açık temaya geç
+5	Koyu tema
+6	Açık tema
+7	Tanıdık geldi mi?
+8	Nasıl yardımcı olduğumuzu görmek için bir fişin üzerine gelin veya dokunun.
+9	Nasıl yardımcı oluruz
+10	Neler dahil
+11	Nasıl çalışırız
+12	Paketler ve fiyatlar
+13	En popüler
+14	Temel
+15	Büyüme
+16	Premium
+17	Tüm özellikleri karşılaştır
+18	Tam karşılaştırmayı gizle
+19	Temel çıktılar
+20	Dahil değil
+21	Bilmekte fayda var
+22	Kimlerle çalışıyoruz
+23	İşletme türünüze göre tasarlandı
+24	Şununla iyi gider
+25	İlgili finans hizmetleri
+26	20 dakikalık ücretsiz danışmanlık alın
+27	Paketleri ve fiyatları gör
+28	Fiyatlandırma nasıl işler
+29	Paketler
+30	Paketler başlangıç
+31	Başlangıç
+32	GST hariç
+33	yetkinlik alanı
+34	kapsanan faaliyet
+35	şeffaf paket
+36	adımlı süreç
+37	Özel teklif
+38	Kampanyalar birleştirilemez. Uygunluk teklifinizde onaylanır.
+39	Ücretsiz görüşmemi ayarla
+40	Her rakamdaki netlik tek bir konuşmayla başlar
+41	Fiyat gezgini
+42	Şeffaf paketler yan yana
+43	Paketler
+44	Lansman kampanyaları
+45	Sürpriz yok
+46	Net ticari koşullar
+47	Neden önemli
+48	Dört uzman ekip
+49	/ay
+50	/yıl
+51	/beyanname
+52	/proje
+53	Defter ve Raporlama
+54	Vergi ve Uyum
+55	Planlama ve Finansman
+56	Stratejik Finans
+57	Seç
+58	QR'ı göster
+59	Resmi panel
+60	Takip için tarayın
+61	WhatsApp desteği
+62	Her panel.
+63	Her profil. Tek tarama.
+64	Web sitesini, sosyal medya hesaplarını ve WhatsApp desteğini görmek için bir panel seçin — her birinin kendi QR kodu var.
+65	panel QR kodu
+66	Tüm panellerimiz tek yerde:
+67	02 · Araştırma panellerimiz
+68	finans hizmeti
+69	hizmet başına net paket
+70	ücretsiz tanışma görüşmesi
+71	Keşfet

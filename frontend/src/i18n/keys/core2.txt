@@ -1,0 +1,394 @@
+1	#-min interview
+2	(of #)
+3	(opens in a new tab)
+4	+# # # or Skip
+5	, and store my details as described in the
+6	, designation
+7	, rating and review.
+8	. You can change it any time before publishing.
+9	? Use different details
+10	A specialist has your request
+11	About this page
+12	Accurate books
+13	Actionable insight
+14	All countries
+15	Almost there
+16	Also review us on Google
+17	And which country are you in?
+18	And your phone number with country code — or type Skip.
+19	Anything to add?
+20	Appointment · #
+21	Ask our assistant instead
+22	Assistant is typing
+23	Back
+24	Balanced
+25	Be the first
+26	Better leads
+27	Branded PDF · generated instantly · watermarked
+28	Breaking even
+29	Breakthrough
+30	Can I download a case study? How do I get the case study PDF?
+31	Change language
+32	Change the look for another service you picked
+33	Check your inbox
+34	Choose a rating from # to #.
+35	Choose your country.
+36	Clean code
+37	Client testimonials
+38	Climbing
+39	Clinical study · Cardiology
+40	Close preview
+41	Collapse all
+42	Company name
+43	Compliance on time
+44	Confidential and anonymous
+45	Consent
+46	Country
+47	Country code
+48	Designation
+49	Designation · Company
+50	Dismiss
+51	Do you have a brochure for each service?
+52	Doctor
+53	Document
+54	Does Sampledge have a yearly plan discount?
+55	Download again
+56	Download the
+57	Download —
+58	Download:
+59	Downloaded
+60	ESOMAR # is a standard set of # questions buyers ask online sample providers about their panels, sourcing, quality checks and data protection. Our full answers are published on the ESOMAR # page.
+61	Easy to follow
+62	Edit
+63	Edit your company and country
+64	Edit your name and email
+65	Email ID
+66	Email and phone stay private.
+67	Email me the PDF
+68	Email us
+69	Encryption
+70	Engineers
+71	Enter a valid email, like name@company.com.
+72	Enter a valid phone number.
+73	Enter code
+74	Enter your company name.
+75	Enter your email address.
+76	Enter your first name.
+77	Enter your full name.
+78	Enter your last name.
+79	Enter your phone number.
+80	Excellent
+81	Expert study · B#B decision-makers
+82	Fair
+83	Field notes
+84	Fieldwork finished on schedule.
+85	Filings and compliance were always on time.
+86	Finance answers
+87	Find us on Google
+88	First name
+89	Flags appear here as reviewers add their country.
+90	Follow-up after delivery could be better.
+91	For business professionals
+92	For caregivers
+93	For doctors, nurses & HCPs
+94	For doctors, specialists, nurses and pharmacists
+95	For everyday consumers
+96	For example: name@company.com
+97	For family members and carers looking after a loved one
+98	For managers, specialists and decision-makers
+99	For patients
+100	For people living with a health condition
+101	Format
+102	Fresh creative
+103	Full name
+104	GDPR-aligned
+105	Goal, audience, markets or timeline…
+106	Good
+107	Good to know
+108	Government & opinion research
+109	Grounded
+110	Guide
+111	Hard-to-reach audience
+112	Hello! What would you like to know? You can ask in your own words — for example “How much does an online survey cost?”
+113	Hi there 👋
+114	Honest reporting
+115	How can I leave a review or rate Frequent Research?
+116	How did the build go?
+117	How easy was it to get the treatment you needed?
+118	How far did we take your brand?
+119	How healthy were your numbers?
+120	How strong were the insights?
+121	I agree that Frequent Research may contact me about this download and store my details as described in the
+122	I confirm this review describes my own experience, and I agree that Frequent Research may publish it on this website with my name, country
+123	I couldn't find that country. Please type its name, for example India or United Kingdom.
+124	I don't have a published answer for that one — the specialist will cover it.
+125	I'm not completely sure, but these pages look closest to your question:
+126	In orbit
+127	In the red
+128	Inconclusive
+129	Industry questions
+130	Inside this book
+131	Is it
+132	It typically includes
+133	Just now
+134	Keep this language
+135	Keep this under # characters.
+136	Keep your name under # characters.
+137	Keep your review under # characters.
+138	Language
+139	Last name
+140	Let me connect you with a specialist — fill in this short card and we'll reply by email, usually within one working day.
+141	Lift-off
+142	Loading panel books…
+143	Machine translation · Powered by Google Translate
+144	Marketers
+145	Medication · #
+146	Milestones met
+147	Milestones were delivered on time.
+148	Missed timing
+149	More receipts
+150	More visibility
+151	Needs follow-up
+152	Never published.
+153	Never shared or sold
+154	New post
+155	No country matches “
+156	No language matches “
+157	No problem. Ask me anything else — or tap “Talk to a specialist” whenever you're ready.
+158	No problem. Which country are you in?
+159	No question matches “
+160	No reviews match these filters yet.
+161	No thanks
+162	No, send it
+163	Not
+164	Not now
+165	Now, may I have your full name so a specialist can follow up?
+166	Nurse
+167	On-time fieldwork
+168	One
+169	One last check, then publish
+170	One overall score for your experience
+171	One security check and your PDF downloads instantly.
+172	Optimised
+173	Optional · never published.
+174	Other country
+175	Our panels
+176	Our search visibility improved.
+177	Our specialist will pick this up — you'll get a reply by email.
+178	Our translations, completed by your browser's built-in translator
+179	Panel member help
+180	Pharmacist
+181	Phone / WhatsApp
+182	Phone country code
+183	Phone number
+184	Pick at least one service you are reviewing.
+185	Please email
+186	Please include your country code, for example +# # # — or type Skip.
+187	Please leave out web links.
+188	Please tick to agree before downloading.
+189	Please tick to agree before publishing.
+190	Please try again, or email
+191	Please use a permanent work or personal email.
+192	Poor
+193	Prepared for
+194	Preparing your PDF…
+195	Previous receipts
+196	Printing “
+197	Private
+198	Private and respectful
+199	Proactive advice
+200	Professional confidentiality
+201	Profitable
+202	Progress updates could have been more frequent.
+203	Progress was easy to follow.
+204	Publish my review
+205	Published
+206	Publishing…
+207	QR code linking to the Frequent Research Fieldwork Solutions Pvt. Ltd. Google Business Profile
+208	QR code with the
+209	QR codes
+210	Questions about research, marketing, tech or finance? Ask me — I answer instantly.
+211	Questions were answered quickly.
+212	Quick phrases — tap to add to your review
+213	Quick replies
+214	Rate now
+215	Rate us in under a minute — your review goes straight onto our testimonials.
+216	Read in
+217	Read the full answer on
+218	Reader questions
+219	Ready · #/#
+220	Related questions
+221	Reply by email · usually within one working day
+222	Reporting was short, clear and honest.
+223	Research panel
+224	Responsive
+225	Review sent
+226	Reviewer
+227	Rewarded for your time
+228	Rewards for your insight
+229	Search country
+230	Search country or code
+231	Sector sections
+232	Security check
+233	Select your country
+234	Send to a specialist
+235	Sending…
+236	Sent to
+237	Sent to your inbox
+238	Share my experience ✓
+239	Share the realities of caring for someone so services, support and products can be designed around real needs.
+240	Share what you know in studies for brands, agencies and B#B research — and get rewarded for your time.
+241	Share your experience in your own words…
+242	Share your story, your way
+243	Shipped flawlessly
+244	Short, scheduled sessions
+245	Show a new security code
+246	Show more reviews
+247	Shown as a deck of survey responses
+248	Shown as a live social feed
+249	Shown as a terminal review log
+250	Shown as printed receipts
+251	Skip
+252	Sky-high
+253	Slow updates
+254	So we can tailor follow-ups to your market — never spam.
+255	Solid insight
+256	Solid support
+257	Some signal
+258	Some timelines slipped.
+259	Sorry, I couldn't reach our team just now. Please try again, or use email / WhatsApp.
+260	Sorry, I didn't catch that. Could you type just your full name? For example: Asha Rao
+261	Sound off
+262	Source
+263	Specialist
+264	Specialty matched
+265	Specialty-matched studies
+266	Stable software
+267	Statement
+268	Step # · In your words
+269	Step # · Your rating
+270	Step # · Your reviewer badge
+271	Strong insight
+272	Studies matched to your role
+273	Suggested questions
+274	Support after launch was solid.
+275	Take part in healthcare studies matched to your specialty and experience, and get rewarded for your professional time.
+276	Take part when it suits you
+277	Tap to rate · # to #
+278	Tell researchers what living with a condition is really like — your voice helps make treatment and care better for everyone.
+279	Thank you
+280	Thank you — your answer is anonymous.
+281	Thanks for stopping by — have a great day!
+282	Thanks! Briefly, what do you need — your goal, audience, markets or timeline?
+283	Thanks! Your phone or WhatsApp number with country code, if you'd like a call — for example +# # #. You can skip this.
+284	That code doesn't match. Try again or tap ↻ for a new one.
+285	The Downloads page has a panel book for every country we profile — a business (B#B) edition and a consumer (B#C) edition — plus brochures for each of our four services. Choose a country, share a few details and the PDF downloads instantly.
+286	The PDF could not be created in this browser. Please try again or write to info@frequentresearch.com.
+287	The PDF tool did not load. Please refresh the page and try again.
+288	The books were accurate.
+289	The code was clean and maintainable.
+290	The creative ideas stood out.
+291	The data was clean and ready to use.
+292	The download was cancelled. Use “Download again” whenever you're ready.
+293	The findings were clear and actionable.
+294	The leads were the right fit for us.
+295	The monthly reports told us what to fix.
+296	The panel book list could not be loaded. Please refresh the page, or write to info@frequentresearch.com.
+297	The scope could have been defined more clearly at the start.
+298	The security code is still loading.
+299	The software was stable and well built.
+300	The team replied quickly.
+301	They covered every market we needed.
+302	They flagged issues before they became problems.
+303	They reached an audience we had struggled to find.
+304	This document is not available yet.
+305	This panel book could not be loaded. Please try again.
+306	Three quick details and your copy is on its way.
+307	Top returns
+308	Translated by the Frequent Research team
+309	Trust & privacy
+310	Turn chat sound on
+311	Type the characters shown in the picture
+312	Type the code
+313	Type the security code shown.
+314	Unclear scope
+315	Unlock
+316	Unlock & download
+317	Unlock your copy
+318	Unlocked — your PDF is ready
+319	Use letters only (spaces, dots, apostrophes and hyphens are fine).
+320	Use letters only.
+321	Useful MIS
+322	Verified expert
+323	Verified, confidential panels
+324	Very good
+325	View our Google Business Profile
+326	Watermarked
+327	We listen to you.
+328	Welcome back,
+329	What IT and software development services do you offer?
+330	What accounts and finance services do you offer?
+331	What digital marketing services do you offer?
+332	What is the ESOMAR # questionnaire?
+333	What is the history of Frequent Research? When was it founded?
+334	What market research services do you offer?
+335	What should we do better?
+336	What stood out?
+337	What would make it great?
+338	Where can I get the B#B or consumer panel book for a country?
+339	Where do you work?
+340	Who's reading?
+341	Who's writing this review?
+342	Work
+343	Work email
+344	Worked with Frequent Research?
+345	Worked with our
+346	Write a Google review
+347	Write at least # characters (#/#).
+348	Write the first one
+349	Yes — yearly billing on Sampledge saves #% compared with paying monthly for twelve months. Pricing and plans are on the Sampledge page, and every plan button takes you to the Sampledge site.
+350	Yes. Every case study on the Industries & Case Studies pages has a Download PDF button. Share a few details and a watermarked PDF downloads straight away.
+351	Yes. There are separate brochures for Market Research, Digital Marketing, IT & Development and Finance & Accounts on the Downloads page.
+352	You care for them.
+353	You're welcome! Anything else I can help with?
+354	Your PDF is downloading now. Check your browser's downloads if it doesn't open automatically.
+355	Your browser
+356	Your clinical insight
+357	Your country
+358	Your details from earlier in this visit are ready — one click for “
+359	Your experience can
+360	Your experience matters
+361	Your expertise,
+362	Your first name needs at least # letters.
+363	Your full name
+364	Your name
+365	Your name needs at least # letters.
+366	Your question
+367	Your rating out of #
+368	Your request could not be sent.
+369	Your review
+370	Your review (required)
+371	Your review at a glance
+372	Your review could not be sent.
+373	Your review has reached our team, and you can already see it in the Client Testimonials section.
+374	Your review has reached us. It will appear in our client testimonials as soon as it has been checked.
+375	Your review is live in our client testimonials and on the Rates & Reviews page.
+376	and company
+377	by email
+378	company name
+379	days ago
+380	improve healthcare.
+381	no reviews yet
+382	not now
+383	out of # from
+384	panel book
+385	privacy policy
+386	profile tables
+387	reviews yet
+388	sector sections
+389	shapes better care.
+390	team? Yours can be the first.
+391	with the teams you picked
+392	· watermarked
+393	” with your name on it.
+394	”. Choose “Other country” to type a code.

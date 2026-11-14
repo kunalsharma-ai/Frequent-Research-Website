@@ -1,0 +1,50 @@
+1	Khảo sát trực tiếp
+2	Bạn có khả năng giới thiệu thương hiệu này đến mức nào?
+3	Đã hoàn thành
+4	Kéo để xoay
+5	Được tài trợ
+6	xu hướng tăng
+7	Đã đối chiếu
+8	Doanh thu
+9	Mua hàng
+10	Tiền · Thuế · Lợi nhuận
+11	Hướng máy. Quét mã.
+12	Luôn kết nối.
+13	Mọi kênh ở một nơi: Frequent Research, ba panel nghiên cứu của chúng tôi và Sampledge — website, trang mạng xã hội và hỗ trợ WhatsApp, mỗi kênh có mã QR riêng.
+14	thương hiệu
+15	số WhatsApp
+16	Liên hệ trực tiếp
+17	# kênh.
+18	Chỉ một lần quét.
+19	Theo dõi công ty đứng sau các panel — tin tức nghiên cứu, insight, đời sống đội ngũ và thông báo, nay có cả trên Threads.
+20	Website chính thức
+21	Mở website
+22	Mở
+23	Trò chuyện
+24	# · Panel nghiên cứu
+25	# · Sản phẩm của chúng tôi
+26	Quét để bắt đầu.
+27	Công cụ DIY quản lý dự án & quản lý mẫu
+28	Tự lên kế hoạch dự án, quản lý mẫu và theo dõi khảo sát thực địa — theo dõi Sampledge trên mọi kênh hoặc trò chuyện với bộ phận hỗ trợ qua WhatsApp.
+29	Truy cập sampledge.com
+30	Hỗ trợ WhatsApp của Sampledge
+31	# · Liên hệ trực tiếp
+32	Hãy trò chuyện với chúng tôi.
+33	Hoặc tìm chúng tôi.
+34	Trò chuyện với đội ngũ Frequent Research
+35	Tìm chúng tôi & để lại đánh giá
+36	Mở trên Google
+37	Tất cả panel của chúng tôi
+38	Mở trung tâm panel
+39	Bắt đầu trò chuyện
+40	Mỗi mã được tạo từ đường dẫn chính thức và được kiểm tra bằng trình đọc QR trước khi đăng. Một số WhatsApp duy nhất, +# # #, hỗ trợ mọi panel và Sampledge.
+41	Đi tới một thương hiệu
+42	Trò chuyện và cập nhật nhanh
+43	Trải nghiệm của bạn có thể cải thiện chăm sóc sức khỏe.
+44	Biến ý kiến của bạn thành phần thưởng.
+45	Chia sẻ ý kiến. Nhận thưởng mỗi lần.
+46	Nhân viên y tế, người chăm sóc và bệnh nhân
+47	Người tiêu dùng và người làm kinh doanh
+48	# · Frequent Research
+49	Hỗ trợ WhatsApp
+50	Truy cập

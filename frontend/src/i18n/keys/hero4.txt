@@ -1,0 +1,40 @@
+1	Live fieldwork
+2	# countries
+3	Sample mix
+4	Professionals
+5	Doctors
+6	Quota tracker
+7	Online
+8	Face-to-face
+9	best partner near me
+10	Your brand
+11	Top result · # ★
+12	Funnel
+13	Engage
+14	Convert
+15	Channels
+16	#-star review
+17	Architecture
+18	Pipeline
+19	Security scan
+20	Deploy
+21	Cash flow
+22	Revenue
+23	Costs
+24	Net
+25	Compliance
+26	Books reconciled
+27	Bank · GST · Ledger
+28	Invoice
+29	Paid
+30	Market
+31	Balance
+32	Attract
+33	Plan
+34	Launch
+35	Record
+36	Comply
+37	Advise
+38	# services
+39	Previous slide
+40	Next slide

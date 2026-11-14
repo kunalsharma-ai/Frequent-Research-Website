@@ -1,0 +1,54 @@
+1	Die Herausforderung
+2	Leistungsbereiche
+3	aufgeführte Tätigkeiten
+4	Leistungsbereich
+5	Tätigkeiten
+6	Tätigkeiten
+7	Tätigkeiten aus unserem Leistungskatalog
+8	Vorheriger Bereich
+9	Nächster Bereich
+10	Phase
+11	← Vorherige Phase
+12	Nächste Phase →
+13	Monatlicher
+14	Lohnzyklus
+15	+ anfallende GST
+16	Leistungen
+17	Zurück zur Übersicht
+18	Empfohlen
+19	Alle Funktionen vergleichen
+20	Tarif hervorheben
+21	Begriffe:
+22	Interaktives Tool
+23	Ihren Bedarf besprechen
+24	Voraussetzungen
+25	Angebot anzeigen
+26	Alle öffnen
+27	Antworten
+28	Fragen durchsuchen
+29	Individuelles Angebot anfordern
+30	Individuelles Angebot · schriftlich vor Arbeitsbeginn
+31	Was passiert, bevor Sie sich festlegen?
+32	Tarife ansehen
+33	Kostenlose #-minütige Beratung buchen
+34	Umdrehen
+35	QR-Code zeigen
+36	Für wen es ist
+37	Los
+38	Angebote
+39	Für wen wir arbeiten
+40	Umfang
+41	Verwandte Leistungen
+42	Diesen Bedarf besprechen
+43	Welche Tätigkeiten Ihr Auftrag umfasst, hängt vom gewählten Tarif und vom schriftlichen Umfang ab.
+44	Funktion
+45	Preis
+46	Preis pro Erklärung
+47	Unser Produkt
+48	Herunterladen
+49	Tarifvergleich aus unseren veröffentlichten Leistungspaketen. Nicht Aufgeführtes wird im Auftragsumfang bestätigt.
+50	Am beliebtesten
+51	Alle ansehen
+52	Ab
+53	Wählen
+54	Prozess in # Schritten

@@ -1,0 +1,79 @@
+/* Build 78 super admin screens (admin/Builder.jsx, admin/Marketing.jsx). Loaded with the admin only. */
+.adm-scan{position:fixed;left:-20000px;top:0;width:1280px;height:900px;border:0;visibility:hidden;pointer-events:none}
+.adm-row--end{justify-content:flex-end}
+.adm78-map{display:flex;flex-direction:column;gap:6px;position:sticky;top:12px;max-height:calc(100vh - 24px);overflow:auto;padding-right:4px}
+.adm78-map details{background:var(--card,#fff);border:1px solid var(--ln,#DDE2EC);border-radius:12px;padding:6px 8px}
+.adm78-map summary{cursor:pointer;font:700 .9rem Manrope,sans-serif;padding:4px 2px}
+.adm78-map summary small{color:#7A86A8;font-weight:600}
+.adm78-map ul{list-style:none;margin:4px 0 0;padding:0}
+.adm78-map button{display:block;width:100%;text-align:left;background:none;border:0;border-radius:8px;padding:6px 8px;font:600 .88rem Inter,sans-serif;color:#0B1437;cursor:pointer}
+.adm78-map>button{background:var(--card,#fff);border:1px solid var(--ln,#DDE2EC)}
+.adm78-map button small{display:block;color:#7A86A8;font-weight:500;font-size:.75rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.adm78-map button:hover{background:#EEF2FF}
+.adm78-map button.is-on{background:#0B1437;color:#fff}
+.adm78-map button.is-on small{color:#C8D0EA}
+.adm78-pick{padding:40px 0}
+.adm78-secs{list-style:none;padding:0;margin:0 0 10px;display:grid;gap:8px}
+.adm78-secs li.is-hidden{opacity:.55}
+.adm78-sw{display:flex;gap:6px;margin-top:6px;flex-wrap:wrap}
+.adm78-sw button{width:24px;height:24px;border-radius:50%;border:1px solid #C8D0EA;cursor:pointer;padding:0}
+.adm78-checks{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center}
+.adm78-tabs{display:flex;flex-wrap:wrap;margin:0 0 16px}
+.adm78-tpls{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:10px}
+.adm78-tpl{display:flex;flex-direction:column;align-items:center;gap:6px;padding:10px;border:2px solid var(--ln,#DDE2EC);border-radius:12px;background:#fff;font:700 .8rem Manrope,sans-serif;color:#0B1437;cursor:pointer}
+.adm78-tpl.is-on{border-color:#2F6BFF;box-shadow:0 0 0 3px rgba(47,107,255,.18)}
+.adm78-tpl i{display:flex;flex-direction:column;gap:4px;width:84px;height:66px;padding:6px;border-radius:10px;background:#fff;border:1px solid #DDE2EC;overflow:hidden;position:relative}
+.adm78-tpl b{display:block;height:28px;border-radius:6px;background:linear-gradient(135deg,#2F6BFF,#6D4AFF)}
+.adm78-tpl s{display:block;height:6px;border-radius:3px;background:#C8D0EA;text-decoration:none}
+.adm78-tpl s+s{width:60%}
+.adm78-tpl.t-glass i{background:linear-gradient(160deg,#fff,#EEF2FF);border-color:rgba(47,107,255,.3)}
+.adm78-tpl.t-minimal i{border:0;background:none}
+.adm78-tpl.t-bordered i{border:2px solid #0B1437;border-radius:3px;box-shadow:3px 3px 0 #2F6BFF}
+.adm78-tpl.t-horizontal i{flex-direction:row;flex-wrap:wrap}.adm78-tpl.t-horizontal b{width:34px;height:52px}.adm78-tpl.t-horizontal s{width:30px}
+.adm78-tpl.t-overlay b{position:absolute;inset:0;height:auto;border-radius:0}.adm78-tpl.t-overlay s{position:relative;margin-top:auto;background:#fff}
+.adm78-tpl.t-magazine i{display:grid;grid-template-columns:1fr 1fr;gap:4px}.adm78-tpl.t-magazine b{height:24px}
+.adm78-tpl.t-navy i{background:#0B1437;border-color:#0B1437}.adm78-tpl.t-navy s{background:#3A4672}
+.adm78-tpl.t-cards i{display:grid;grid-template-columns:1fr 1fr;gap:4px}
+.adm78-mail{position:sticky;top:12px}
+.adm78-mail iframe{width:100%;height:760px;border:1px solid var(--ln,#DDE2EC);border-radius:14px;background:#EEF2FB}
+.adm78-warn{margin:0 0 14px}
+.adm78-plats{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 12px}
+.adm78-page h2 small{font-weight:500;font-size:.8rem;margin-left:6px}
+.adm78-page h3{margin-top:0}
+.adm-table tr.is-hidden td{opacity:.5}
+@media (max-width:900px){.adm78-map{position:static;max-height:none}.adm78-mail iframe{height:560px}}
+.adm78-secs .adm-card__h,.adm-items .adm-card__h{min-width:0;flex-wrap:wrap}
+.adm78-secs .adm-card__t{min-width:0;flex:1 1 260px}
+.adm78-secs .adm-card__t b{overflow:hidden;text-overflow:ellipsis}
+.adm78-stack .adm-f{display:flex;flex-direction:column;align-items:stretch;gap:6px}
+.adm78-stack .adm-f__v{min-width:0}
+.adm78-mailgrid{display:grid;grid-template-columns:minmax(340px,1fr) minmax(340px,1fr);gap:16px;align-items:start}
+@media (max-width:1200px){.adm78-mailgrid{grid-template-columns:1fr}}
+/* build 78.1: every page's content, section by section */
+.adm78-content{display:grid;gap:8px;margin-bottom:10px}
+.adm78-content__h{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-top:8px;font:700 .85rem Manrope,sans-serif;color:#0B1437}
+.adm78-content__h .adm-in{max-width:260px}
+.adm78-content__note{font-size:.8rem;margin:4px 0 0}
+.adm78-txt{display:grid;gap:4px;padding:6px 8px;border-left:3px solid transparent;border-radius:6px}
+.adm78-txt.is-changed{border-left-color:#2F6BFF;background:#F1F4FC}
+.adm78-txt.is-removed{border-left-color:#C8577E;background:#FBEFF3}
+.adm78-txt.is-removed .adm-in{text-decoration:line-through;opacity:.6}
+.adm78-txt .adm-in{width:100%;min-width:0}
+.adm78-txt textarea.adm-in{resize:vertical;font:inherit}
+.adm78-txt__a{display:flex;align-items:center;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+.adm78-txt__a small{margin-right:auto;font-size:.75rem}
+.adm78-imgs{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.adm78-img{display:grid;gap:6px;padding:8px;border:1px solid var(--ln,#DDE2EC);border-radius:10px;background:#fff;min-width:0}
+.adm78-img.is-changed{border-color:#2F6BFF}
+.adm78-img img{width:100%;height:100px;object-fit:contain;background:#EEF2FB;border-radius:6px}
+.adm78-img small{font-size:.72rem;color:#5A6482;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.adm78-link{display:grid;grid-template-columns:minmax(120px,1fr) 2fr auto;gap:8px;align-items:center;padding:4px 8px;border-radius:6px}
+.adm78-link.is-changed{background:#F1F4FC}
+.adm78-link span{font-size:.85rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.adm78-link .adm-in{min-width:0}
+.adm78-style{margin-top:8px;border-top:1px solid var(--ln,#DDE2EC);padding-top:8px}
+.adm78-style summary{cursor:pointer;font:700 .85rem Manrope,sans-serif;color:#0B1437}
+@media (max-width:700px){.adm78-link{grid-template-columns:1fr}}
+.adm78-logonow{display:flex;align-items:center;gap:12px;margin-bottom:8px;flex-wrap:wrap}
+.adm78-logo{display:inline-flex;align-items:center;min-height:56px;padding:6px 14px;border:1px solid var(--ln,#DDE2EC);border-radius:12px;background:#fff;max-width:100%;overflow:hidden}
+.adm78-logo--dark{background:#0B1437}

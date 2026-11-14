@@ -1,0 +1,71 @@
+1	QR e Conecte-se
+2	Escaneie para seguir a gente, nossos painéis e o Sampledge.
+3	Mudar para o tema escuro
+4	Mudar para o tema claro
+5	Tema escuro
+6	Tema claro
+7	Parece familiar?
+8	Passe o cursor ou toque em um recibo para ver como ajudamos.
+9	Como ajudamos
+10	O que está incluído
+11	Como trabalhamos
+12	Planos e preços
+13	Mais popular
+14	Essencial
+15	Crescimento
+16	Premium
+17	Comparar todos os recursos
+18	Ocultar a comparação completa
+19	Principais entregas
+20	Não incluído
+21	Bom saber
+22	Com quem trabalhamos
+23	Feito para o seu tipo de negócio
+24	Combina bem com
+25	Serviços financeiros relacionados
+26	Agende uma consulta gratuita de 20 minutos
+27	Ver planos e preços
+28	Como funcionam os preços
+29	Planos a partir de
+30	Planos a partir de
+31	A partir de
+32	sem GST
+33	áreas de atuação
+34	atividades cobertas
+35	planos transparentes
+36	etapas do processo
+37	Orçamento personalizado
+38	As ofertas não são cumulativas. A elegibilidade é confirmada na sua proposta.
+39	Agendar minha ligação gratuita
+40	Clareza em cada número começa com uma conversa
+41	Explorador de preços
+42	Planos transparentes, lado a lado
+43	Pacotes
+44	Ofertas de lançamento
+45	Sem surpresas
+46	Condições comerciais claras
+47	Por que isso importa
+48	Quatro equipes especializadas
+49	/mês
+50	/ano
+51	/declaração
+52	/projeto
+53	Contabilidade e relatórios
+54	Impostos e conformidade
+55	Planejamento e financiamento
+56	Finanças estratégicas
+57	Escolher
+58	Ver QR
+59	Painel oficial
+60	Escaneie para seguir
+61	Suporte via WhatsApp
+62	Cada painel.
+63	Cada perfil. Um escaneamento.
+64	Escolha um painel para ver o site, os perfis sociais e o suporte via WhatsApp, cada um com seu próprio QR code.
+65	QR codes dos painéis
+66	Todos os nossos painéis em um só lugar:
+67	02 · Nossos painéis de pesquisa
+68	serviços financeiros
+69	planos claros cada
+70	ligação de descoberta gratuita
+71	Explorar

@@ -1,0 +1,40 @@
+1	Rilevazione in diretta
+2	# paesi
+3	Composizione del campione
+4	Professionisti
+5	Medici
+6	Monitoraggio quote
+7	Online
+8	Di persona
+9	miglior partner vicino a me
+10	Il tuo brand
+11	Primo risultato · # ★
+12	Funnel
+13	Coinvolgere
+14	Convertire
+15	Canali
+16	Recensione a # stelle
+17	Architettura
+18	Pipeline
+19	Scansione di sicurezza
+20	Rilascio
+21	Flusso di cassa
+22	Ricavi
+23	Costi
+24	Netto
+25	Adempimenti
+26	Conti riconciliati
+27	Banca · GST · Libro mastro
+28	Fattura
+29	Pagata
+30	Promuovere
+31	Bilanciare
+32	Attrarre
+33	Pianificare
+34	Lanciare
+35	Registrare
+36	Adempiere
+37	Consigliare
+38	# servizi
+39	Slide precedente
+40	Slide successiva

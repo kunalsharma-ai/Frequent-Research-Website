@@ -1,0 +1,40 @@
+1	Terrain en direct
+2	# pays
+3	Composition de l'échantillon
+4	Professionnels
+5	Médecins
+6	Suivi des quotas
+7	En ligne
+8	Face à face
+9	meilleur partenaire près de moi
+10	Votre marque
+11	Premier résultat · # ★
+12	Entonnoir
+13	Engager
+14	Convertir
+15	Canaux
+16	Avis # étoiles
+17	Architecture
+18	Pipeline
+19	Scan de sécurité
+20	Déploiement
+21	Trésorerie
+22	Chiffre d'affaires
+23	Coûts
+24	Net
+25	Conformité
+26	Comptes rapprochés
+27	Banque · GST · Grand livre
+28	Facture
+29	Payée
+30	Promouvoir
+31	Équilibrer
+32	Attirer
+33	Planifier
+34	Lancer
+35	Enregistrer
+36	Se conformer
+37	Conseiller
+38	# services
+39	Diapositive précédente
+40	Diapositive suivante

@@ -1,0 +1,71 @@
+1	QR e Contatti
+2	Scansiona per seguire noi, i nostri panel e Sampledge.
+3	Passa al tema scuro
+4	Passa al tema chiaro
+5	Tema scuro
+6	Tema chiaro
+7	Ti suona familiare?
+8	Passa il cursore o tocca una ricevuta per vedere come aiutiamo.
+9	Come aiutiamo
+10	Cosa è incluso
+11	Come lavoriamo
+12	Piani e prezzi
+13	Il più scelto
+14	Essential
+15	Growth
+16	Premium
+17	Confronta tutte le funzioni
+18	Nascondi il confronto completo
+19	Risultati principali
+20	Non incluso
+21	Da sapere
+22	Con chi lavoriamo
+23	Pensato per il tuo tipo di attività
+24	Si abbina bene a
+25	Servizi finanziari correlati
+26	Prenota una consulenza gratuita di 20 minuti
+27	Vedi piani e prezzi
+28	Come funzionano i prezzi
+29	Piani da
+30	Piani a partire da
+31	A partire da
+32	GST esclusa
+33	aree di competenza
+34	attività coperte
+35	piani trasparenti
+36	fasi del processo
+37	Preventivo su misura
+38	Le offerte non sono cumulabili. L'idoneità è confermata nella tua proposta.
+39	Prenota la mia chiamata gratuita
+40	La chiarezza in ogni numero inizia con una conversazione
+41	Esplora i prezzi
+42	Piani trasparenti, a confronto
+43	Pacchetti
+44	Offerte di lancio
+45	Nessuna sorpresa
+46	Condizioni commerciali chiare
+47	Perché è importante
+48	Quattro team di esperti
+49	/mese
+50	/anno
+51	/dichiarazione
+52	/progetto
+53	Contabilità e reporting
+54	Fisco e conformità
+55	Pianificazione e finanziamenti
+56	Finanza strategica
+57	Scegli
+58	Mostra QR
+59	Panel ufficiale
+60	Scansiona per seguire
+61	Assistenza WhatsApp
+62	Ogni panel.
+63	Ogni profilo. Una scansione.
+64	Scegli un panel per vedere sito, profili social e assistenza WhatsApp, ognuno con il proprio codice QR.
+65	codici QR dei panel
+66	Tutti i nostri panel in un unico posto:
+67	02 · I nostri panel di ricerca
+68	servizi finanziari
+69	piani chiari ciascuno
+70	chiamata conoscitiva gratuita
+71	Esplora

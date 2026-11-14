@@ -1,0 +1,96 @@
+/* ===== Design layer (build 58) =====
+   1. Header: fits the new language button at every width; a thin colour-graded reading-progress line (pure CSS,
+      scroll-driven, compositor-only; browsers without support simply don't show it).
+   2. Colour grades: each light home section gets its own soft key light, so the page moves through different moods
+      (sky → violet → mint → peach → lilac → amber) instead of repeating plain white blocks. Static gradients only.
+   3. Mobile dock (FRD_Dock in Hero58.jsx) replaces the stacked floating buttons on phones. */
+
+/* 1. header */
+@media (min-width:1181px) and (max-width:1600px){
+  .header .nav__link{padding-inline:9px}
+  .header .sr-btn span{display:none}
+}
+@media (min-width:1181px) and (max-width:1380px){
+  .header .nav__link{padding-inline:7px;font-size:.88rem}
+  .header .fri-btn--header .fri-btn__t{display:none}
+  .header .fri-btn--header{padding:0 7px;gap:0}
+  .header__actions .btn--primary{padding-inline:18px}
+}
+@media (min-width:1181px) and (max-width:1260px){
+  .header .nav__link{padding-inline:5px;font-size:.84rem}
+  .header .caret{display:none}
+}
+/* translated header: longer words (ru/de/fr…) — compact further so nothing overflows 1181–1600px */
+@media (min-width:1181px) and (max-width:1600px){
+  html.fri-on .header .fri-btn--header .fri-btn__t{display:none}
+  html.fri-on .header .fri-btn--header{padding:0 7px;gap:0}
+  html.fri-on .header .nav__link{padding-inline:6px;font-size:.84rem;letter-spacing:-.005em}
+  html.fri-on .header .caret{display:none}
+  html.fri-on .header__actions{gap:8px;min-width:0}
+  html.fri-on .header__actions .btn--primary{padding-inline:14px;font-size:.86rem;white-space:nowrap}
+}
+@media (min-width:1181px) and (max-width:1380px){
+  html.fri-on .header .nav__link{padding-inline:4px;font-size:.78rem}
+  html.fri-on .header__actions .btn--primary{padding-inline:12px;font-size:.8rem}
+}
+@supports (animation-timeline: scroll()){
+  .header{--fr-prog:1}
+  .header::before{content:"";position:absolute;left:0;right:0;bottom:0;height:3px;z-index:2;pointer-events:none;background:linear-gradient(90deg,#22d3ee,#6366f1 35%,#a855f7 60%,#f0457e 80%,#fbbf24);transform-origin:0 50%;transform:scaleX(0);animation:frdProg linear both;animation-timeline:scroll(root)}
+  @keyframes frdProg{to{transform:scaleX(1)}}
+}
+
+/* 2. colour grades (home) */
+.stats{position:relative;background-image:linear-gradient(180deg,#eef2ff 0%,#ffffff 70%)}
+.stats::after{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:linear-gradient(90deg,#60a5fa,#2dd4bf,#a78bfa,#fbbf24)}
+.ca{background-image:radial-gradient(48% 70% at 0% 0%,rgba(56,189,248,.14),transparent 70%),linear-gradient(180deg,#fff 0%,#f4f6fb 100%)!important}
+.hm-partner{background-image:radial-gradient(42% 60% at 100% 10%,rgba(167,139,250,.18),transparent 70%),radial-gradient(30% 40% at 0% 100%,rgba(96,165,250,.12),transparent 70%)}
+.hm-svc{background-image:radial-gradient(45% 55% at 92% 0%,rgba(45,212,191,.16),transparent 70%),radial-gradient(35% 45% at 0% 90%,rgba(56,189,248,.1),transparent 70%)}
+.hm-panels{background-image:radial-gradient(45% 60% at 8% 0%,rgba(251,146,60,.13),transparent 70%),radial-gradient(40% 55% at 100% 100%,rgba(244,114,182,.12),transparent 70%)}
+.hm-ind{background-image:radial-gradient(50% 60% at 80% 40%,rgba(196,181,253,.28),transparent 70%),radial-gradient(35% 50% at 0% 0%,rgba(125,211,252,.18),transparent 70%)!important}
+.section--tint{background-image:radial-gradient(45% 60% at 100% 0%,rgba(251,191,36,.14),transparent 70%),radial-gradient(35% 50% at 0% 100%,rgba(52,211,153,.1),transparent 70%)}
+/* complementary heading accents per mood */
+.hm-partner h2 em,.hm-partner h2 span{color:#7c3aed}
+.hm-svc h2 em,.hm-svc h2 span{color:#0d9488}
+.hm-panels h2 em,.hm-panels h2 span{color:#ea580c}
+.section--tint .section__head h2{background:linear-gradient(90deg,#07104f,#b45309);-webkit-background-clip:text;background-clip:text;color:transparent}
+
+/* 3. mobile dock */
+.frd{display:none}
+@media (max-width:720px){
+  .frd{position:fixed;left:10px;right:10px;bottom:calc(10px + env(safe-area-inset-bottom,0px));z-index:2147480500;display:grid;grid-template-columns:repeat(5,1fr);align-items:end;height:62px;padding:0 6px;border-radius:22px;background:rgba(8,13,46,.94);box-shadow:0 18px 40px -18px rgba(3,6,30,.8),inset 0 0 0 1px rgba(255,255,255,.08);transition:transform .25s ease,opacity .25s}
+  .frd.is-hidden{transform:translateY(130%);opacity:0;pointer-events:none}
+  .frd__i{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;height:62px;border:0;background:none;color:#c9d1f5;font:600 .66rem/1 var(--body);text-decoration:none;cursor:pointer;-webkit-tap-highlight-color:transparent}
+  .frd__i:active{color:#fff;transform:scale(.94)}
+  .frd__i--wa .frk-i{color:#4ade80}
+  .frd__i--go .frk-i{color:#7cf3e1}
+  .frd__i.active{color:#fff}
+  .frd__lang{justify-self:center;align-self:start;display:flex;flex-direction:column;align-items:center;gap:3px;margin-top:-20px;border:0;background:none;color:#fff;font:700 .66rem/1 var(--body);cursor:pointer}
+  .frd__lang .fri-glyph{width:54px;height:54px;box-shadow:0 0 0 5px rgba(8,13,46,.94),0 10px 24px -6px rgba(99,102,241,.8)}
+  .frd__lang .fri-glyph__globe{width:28px;height:28px}
+  .frd__lang .fri-glyph__wheel{width:20px;height:20px;line-height:20px;font-size:11px;right:-2px;bottom:-1px}
+  .frd__lang span:last-child{max-width:72px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  /* the separate floating buttons give way to the dock */
+  .fw,.rv-fab,.fc-launch:not(.is-open){display:none!important}
+  .fc-teaser{bottom:calc(84px + env(safe-area-inset-bottom,0px))!important}
+  body{padding-bottom:calc(84px + env(safe-area-inset-bottom,0px))}
+  .fri-toast{bottom:calc(84px + env(safe-area-inset-bottom,0px))}
+  html.fc-is-open .frd{transform:translateY(130%);opacity:0;pointer-events:none}
+}
+@media (prefers-reduced-motion:reduce){.header::before{display:none}}
+
+/* 4. speed: home sections below the fold skip style, layout and paint until they come near the screen
+      (the browser remembers each section's real height once it has been shown, so the scrollbar settles) */
+.hm-partner{content-visibility:auto;contain-intrinsic-size:auto 1000px}
+.gov-home{content-visibility:auto;contain-intrinsic-size:auto 900px}
+.hm-svc{content-visibility:auto;contain-intrinsic-size:auto 860px}
+.ie{content-visibility:auto;contain-intrinsic-size:auto 950px}
+.frx{content-visibility:auto;contain-intrinsic-size:auto 1300px}
+.hm-panels{content-visibility:auto;contain-intrinsic-size:auto 1000px}
+.fe{content-visibility:auto;contain-intrinsic-size:auto 1160px}
+.hm-why{content-visibility:auto;contain-intrinsic-size:auto 1080px}
+.hm-ind{content-visibility:auto;contain-intrinsic-size:auto 1000px}
+.vw{content-visibility:auto;contain-intrinsic-size:auto 1020px}
+/* update 26: .section--tint no longer skips rendering: it holds lists of very different heights (72 blog cards), so the page grew by 9000 px while scrolling */
+.hh-final{content-visibility:auto;contain-intrinsic-size:auto 530px}
+footer.ft{content-visibility:auto;contain-intrinsic-size:auto 1640px}
+@media (max-width:720px){.hm-partner,.gov-home,.hm-svc,.ie,.frx,.hm-panels,.fe,.hm-why,.hm-ind,.vw{contain-intrinsic-size:auto 1500px}footer.ft{contain-intrinsic-size:auto 2200px}}

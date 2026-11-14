@@ -1,0 +1,95 @@
+/* ===== performance (build 52) — loaded last =====
+   1. Sections scrolled out of view pause their animations (class set by FRP_usePerf in Floaters.jsx).
+   2. Continuous animations of paint-only properties (background-position, box-shadow, conic @property angles) are
+      replaced with transform/opacity versions the compositor can run without repainting. */
+.frp-off,.frp-off *,.frp-off *::before,.frp-off *::after{animation-play-state:paused!important}
+
+/* light sweeps: move a gradient strip with transform instead of animating background-position */
+.frk-logo__sheen{inset:0 auto 0 0;width:45%;background:linear-gradient(105deg,transparent,rgba(255,255,255,.95) 45%,rgba(150,190,255,.5) 55%,transparent);background-size:auto;animation:frpSweep 6s ease-in-out infinite}
+.header__logo .br-lock::after{inset:0 auto 0 0;width:45%;background:linear-gradient(105deg,transparent,rgba(255,255,255,.9) 45%,rgba(150,190,255,.45) 55%,transparent);background-size:auto;animation:frpSweep 7s ease-in-out 1.5s infinite}
+.header__actions .btn--primary{animation:none;background-size:100% 100%}
+.header__actions .btn--primary::before{inset:0 auto 0 0;width:50%;background:linear-gradient(105deg,transparent,rgba(255,255,255,.45),transparent);background-size:auto;animation:frpSweep 4.5s ease-in-out infinite}
+.header__actions .btn--primary::after{box-shadow:none;animation:frpBlink 2s ease-in-out infinite}
+@keyframes frpSweep{0%,55%{transform:translateX(-130%) skewX(-12deg)}85%,100%{transform:translateX(330%) skewX(-12deg)}}
+@keyframes frpBlink{50%{opacity:.35;transform:scale(.7)}}
+
+/* rotating conic halos/borders: rotate an oversized conic layer inside a clipping wrapper */
+.frk-logo__halo{background:conic-gradient(#1E5BFF,#22D3EE,#7C4DFF,#F0457E,#1E5BFF);animation:frpSpin 8s linear infinite}
+.lt-form{overflow:hidden}
+.lt-form__ring{inset:-60%;border-radius:0;background:conic-gradient(var(--c1),var(--c2),#FFD166,var(--c1));animation:frpSpin 6s linear infinite}
+.cn-holo{overflow:hidden;background:none;animation:none;isolation:isolate}
+.cn-holo::before{content:"";position:absolute;inset:-60%;z-index:-1;background:conic-gradient(var(--c1),var(--c2),#FFD166,var(--c1));animation:frpSpin 7s linear infinite;animation-delay:calc(var(--i)*-1.5s)}
+.fq--dm .fq-item.is-open{overflow:hidden}
+.fq--dm .fq-item.is-open:before{inset:-60%;border-radius:0;background:conic-gradient(var(--q1),var(--q2),#FFD166,var(--q1));animation:frpSpin 4s linear infinite}
+.fq--dm .fq-item.is-open:after{inset:1.5px;border-radius:24px}
+@keyframes frpSpin{to{transform:rotate(360deg)}}
+
+/* pulses: opacity/transform only */
+.fw__orb{animation:none}
+.vt-write{animation:none;background-size:100% 100%}
+.fc-launch{animation:none;background-size:100% 100%}
+.vt__pulse,.rv-side__k i,.ph__kick i{animation:frpBlink 2s ease-in-out infinite;box-shadow:none}
+/* base home "flow" chips: jump between states instead of re-painting every frame */
+.hh-flow li{animation-timing-function:steps(1,end)}
+
+/* below-the-fold sections skip layout/paint until near the viewport */
+.vt,.cn-social,.cn-panels,.cn-direct,.lt-next,.fq-sec,.dx-more{content-visibility:auto;contain-intrinsic-size:auto 900px}
+/* base animations that moved `left` (layout every frame) → transform */
+.br-run::after{left:0;animation:frpRun 4.8s ease-in-out infinite}
+@keyframes frpRun{0%{transform:translateX(-100%)}60%,100%{transform:translateX(455%)}}
+.hm-value__mid{container-type:inline-size}
+.hm-value__mid i{left:0;animation:frpRunDot 2.8s linear infinite;animation-delay:var(--d)}
+@keyframes frpRunDot{from{transform:translateX(0)}to{transform:translateX(calc(100cqw - 10px))}}
+.cn-phone__laser{top:8%;animation:frpLaser 1.6s ease-in-out infinite alternate}
+@keyframes frpLaser{to{transform:translateY(560%)}}
+.mka__dot{transition:none}
+
+/* ===== build 56 — smooth mode (html.fr-lite, set by FRP_useLite on slower devices) =====
+   Looping decorative animations play once and stop; backdrop blur (expensive while scrolling) is switched off.
+   Entrance animations, transitions, layout and content are unchanged. */
+/* update 17 (Kunal): loops keep running in smooth mode too; only backdrop blur is switched off */
+html.fr-lite *,html.fr-lite *::before,html.fr-lite *::after{-webkit-backdrop-filter:none!important;backdrop-filter:none!important}
+html.fr-lite .header{background:rgba(255,255,255,.97)}
+/* everyone: large blurred colour blobs no longer drift (a moving 90 px blur is re-rasterised every frame) */
+.rr-hero__sky i,.frx__bg i,.ojx-hero__bg i,.vw__bg i,.rx-head__bg i,.fg-stage__aura i,.rr-ch__bg i,.lt-hero__bg i,.ph__bg i,.oj-hero__bg i{animation:none!important}
+
+/* build 65 update 5: element-level pause for looping animations out of view (Perf65.jsx) and while the tab is hidden */
+.frp5-off,.frp5-off::before,.frp5-off::after,html.frp5-hidden *,html.frp5-hidden *::before,html.frp5-hidden *::after{animation-play-state:paused!important}
+/* build 65 update 5: looping paint-only animations that run while on screen, replaced with compositor-only versions */
+.ft-mega__fill{clip-path:none;opacity:0;animation:frp5Fade 9s cubic-bezier(.6,0,.3,1) infinite}
+@keyframes frp5Fade{0%{opacity:0}45%,70%{opacity:.55}100%{opacity:0}}
+.ab5-loop__flow{stroke-dashoffset:0;transform-box:fill-box;transform-origin:center;animation:frpSpin 18s linear infinite}
+.pc5-wave{overflow:hidden}
+.pc5-wave__shine{inset:0 auto 0 0;width:400%;background-size:50% 100%;animation:frp5Slide 6.4s linear infinite}
+@keyframes frp5Slide{to{transform:translateX(-50%)}}
+.pc5-book{overflow:hidden}
+.pc5-book__shine{inset:0 auto 0 0;width:45%;background:linear-gradient(115deg,transparent,rgba(255,255,255,.18) 50%,transparent);background-size:auto;animation:frpSweep 5s ease-in-out infinite}
+.gx-cov__scan{top:0;bottom:0;height:auto;background:linear-gradient(180deg,transparent,rgba(242,140,40,.12) 30px,transparent 60px) no-repeat;background-size:100% 60px;animation:frp5Scan 6s linear infinite}
+@keyframes frp5Scan{from{transform:translateY(-60px)}to{transform:translateY(100%)}}
+.k5-ink,.k5-w.k5-ink>span{animation:none}
+.header .nav__link.active,.header .nav__link--hl.active,.header .nav__link:active,.header .nav__link--hl{animation:none!important}
+/* update 17: .br-sheen / .frk-sam__word sheen loop endlessly again */
+.k5-vb__eq i{height:100%;transform-origin:bottom;animation-name:frp5Eq}
+@keyframes frp5Eq{0%,100%{transform:scaleY(.4)}50%{transform:scaleY(1)}}
+.frx-bigfunnel i{inset:-22px 0 0 0;animation-name:frp5Funnel}
+@keyframes frp5Funnel{to{transform:translateY(22px)}}
+/* blog covers: up to a dozen animated SVG covers were repainting every frame on the blog list (SVG animations are not
+   composited). Covers now hold still and animate while hovered. */
+/* update 17: blog covers animate while on screen (off-screen ones stay paused) */
+/* covers off screen are skipped entirely by the browser (size kept by the aspect ratio, so nothing jumps) */
+svg.frb{aspect-ratio:1200/630;content-visibility:auto}
+/* build 65 update 5: the page body holds a full screen while a route renders, so the footer no longer flashes into
+   view and then jumps down (layout shift on every page) */
+#root>main{min-height:calc(100vh - 76px)}
+/* floating buttons fade out while scrolling and come back when the page rests (Perf65.jsx) */
+.k5-vb-mini,.rv-fab,a.fw,.fc-launch{transition:opacity .25s ease,transform .25s ease}
+
+/* update 8 speed pass: the logo sheen (background-position, repaints every frame) runs only when a logo is pointed at */
+.br-sheen{animation-name:none!important}
+:hover>.br-sheen{animation-name:brSweep!important;animation-iteration-count:1!important}
+.k5-cd__arc{transition:none!important}
+/* update 8 speed pass: home process steps pulse with a composited tint instead of repainting colours every frame */
+.hm-flow li{position:relative;isolation:isolate;animation:none!important}
+.hm-flow li::before{content:"";position:absolute;inset:0;z-index:-1;border-radius:inherit;background:var(--c);opacity:0;animation:hmStepO 3.6s infinite;animation-delay:calc(var(--k)*.6s)}
+@keyframes hmStepO{0%,100%{opacity:0}15%,35%{opacity:.28}}
+

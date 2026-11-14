@@ -1,0 +1,78 @@
+/* build 65 update 26 (go-live check): fixes found by the full-site sweep */
+
+/* 3D industries sphere on the home page: only the front labels show their text, so labels no longer pile on top of
+   each other, and the "58 industries" core always stays readable */
+.hm-sphere__n.is-mid span{display:none}
+.hm-sphere__n.is-mid{padding:5px}
+.hm-sphere__core{z-index:101}
+
+/* region and all-countries panel books: the combined profile loads every country book first; the loading box now
+   keeps about the room the profile needs, so the page below no longer jumps down ~550 px when it appears */
+.pb10-prof .pb10-load{min-height:560px;display:flex;flex-direction:column;align-items:center;justify-content:center}
+
+/* ===== update 26: the new Frequent Research logo (no tagline / quality / ISO lines, bigger wordmark) ===== */
+.fx-fr-main.fx-fr26{width:calc(var(--h) * var(--ratio))}
+/* footer: big, but never wider than its column */
+.ft-brand__logo .ft19-logo{--h:104px}
+.ft-brand__logo .ft19-logo .fx-fr26{width:calc(var(--h) * var(--ratio))!important;max-width:100%;height:auto!important}
+@media (max-width:640px){.ft-brand__logo .ft19-logo{--h:86px}}
+/* the fieldwork line follows RESEARCH a little sooner now that the lines in between are gone */
+.fx-fr26.is-in .l-t-fieldwork{animation-delay:1.7s}
+/* the old SVG comet (repainted every frame) gives way to the composited light ring below */
+.fx-fr26 .fx-orbit,.fx-fr26 .fr-glint{display:none!important}
+
+/* 1. a soft blue light breathes behind the globe */
+.fx26-halo{position:absolute;border-radius:50%;pointer-events:none;background:radial-gradient(circle,rgba(47,107,255,.42) 0%,rgba(109,74,255,.18) 42%,rgba(47,107,255,0) 68%);transform:scale(.9);opacity:0}
+.fx-fr26.is-in .fx26-halo{animation:fx26Halo 4.6s ease-in-out 1.2s infinite}
+@keyframes fx26Halo{0%,100%{transform:scale(.92);opacity:.4}50%{transform:scale(1.14);opacity:.95}}
+
+/* 2. a comet of light circles the globe (the ring turns; nothing repaints) */
+.fx26-ring{position:absolute;pointer-events:none;border-radius:50%;opacity:0}
+.fx26-ring i{position:absolute;inset:-2.5%;border-radius:50%;background:conic-gradient(from 0deg,rgba(127,176,255,0) 0 66%,rgba(127,176,255,.25) 72%,rgba(90,150,255,1) 97%,#fff 100%);-webkit-mask:radial-gradient(closest-side,transparent 90.5%,#000 92%,#000 98.5%,transparent 100%);mask:radial-gradient(closest-side,transparent 90.5%,#000 92%,#000 98.5%,transparent 100%)}
+.fx26-ring::after{content:"";position:absolute;left:50%;top:-.6%;width:8%;aspect-ratio:1;translate:-50% -50%;border-radius:50%;background:radial-gradient(circle,#fff 0 20%,rgba(158,192,255,.9) 36%,rgba(47,107,255,0) 70%)}
+.fx-fr26.is-in .fx26-ring{animation:fx26RingIn .8s ease 1.4s both,fx26Spin 5.2s linear 1.4s infinite}
+@keyframes fx26RingIn{from{opacity:0}to{opacity:1}}
+@keyframes fx26Spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+
+/* 3. the blue F turns once in 3D every few seconds */
+.fx-fr26.is-in .l-f>img{animation:fx26Flip 8s cubic-bezier(.65,0,.3,1) 4s infinite;backface-visibility:visible}
+@keyframes fx26Flip{0%,84%{transform:perspective(700px) rotateY(0deg)}96%,100%{transform:perspective(700px) rotateY(360deg)}}
+
+/* 4. a star twinkles at the end of FREQUENT */
+.fx26-star{position:absolute;width:calc(var(--h) * .2);aspect-ratio:1;translate:-50% -50%;pointer-events:none;background:linear-gradient(135deg,#fff,#9FC0FF 60%,#6D4AFF);clip-path:polygon(50% 0,61% 39%,100% 50%,61% 61%,50% 100%,39% 61%,0 50%,39% 39%);transform:scale(0);opacity:0}
+.fx-fr26.is-in .fx26-star{animation:fx26Star 3.8s ease-in-out 2.4s infinite}
+@keyframes fx26Star{0%,55%,100%{transform:scale(0) rotate(0deg);opacity:0}70%{transform:scale(1) rotate(45deg);opacity:1}85%{transform:scale(.2) rotate(90deg);opacity:0}}
+/* 5. the light sweep across the whole logo comes a little more often */
+.fx-fr26{--shine-every:5.5s;--shine-delay:2.6s}
+
+/* Connect page brand tabs: names were cut off ("Frequent Res…", "Tur…"). Partner tabs show their logo on top (the logo
+   already spells the name; the name stays for screen readers) and the count below; other names may wrap to two lines */
+.cq5-brandtab b{white-space:normal;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.cq5-brandtab:has(.frl-plate--k-t2o,.frl-plate--k-mfr,.frl-plate--k-mho){flex-direction:column;align-items:flex-start;justify-content:center;gap:6px}
+.cq5-brandtab:has(.frl-plate--k-t2o,.frl-plate--k-mfr,.frl-plate--k-mho) .cq5-brandtab__logo{max-width:100%}
+.cq5-brandtab:has(.frl-plate--k-t2o,.frl-plate--k-mfr,.frl-plate--k-mho) .frl-plate{max-width:100%;--h:24px!important}
+.cq5-brandtab:has(.frl-plate--k-t2o,.frl-plate--k-mfr,.frl-plate--k-mho) b{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* smoothness: two loops that repainted or re-laid out every frame now move with transform/opacity only */
+/* Connect: the scan line on the phone moved with `top` (layout every frame) */
+.cq5-phone__laser{top:24%!important;height:38%!important;background:none!important;box-shadow:none!important;animation:none!important}
+.cq5-phone__laser::before{content:"";position:absolute;inset:0;background:radial-gradient(50% 7px at 50% 1px,rgba(169,189,255,.55),rgba(169,189,255,0)) top/100% 14px no-repeat,linear-gradient(90deg,transparent,#A9BDFF,transparent) top/100% 2px no-repeat;animation:cq26Laser 2.8s ease-in-out infinite}
+@keyframes cq26Laser{0%,100%{transform:translateY(0);opacity:.25}50%{transform:translateY(100%);opacity:1}}
+/* Our Team: the pulsing dot animated box-shadow */
+.tm-kick__dot{position:relative;animation:none!important;box-shadow:none!important}
+.tm-kick__dot::after{content:"";position:absolute;inset:0;border-radius:50%;background:rgba(110,224,206,.6);animation:tm26Ping 2.2s ease-out infinite}
+@keyframes tm26Ping{0%{transform:scale(1);opacity:.7}70%,100%{transform:scale(3.4);opacity:0}}
+@media (prefers-reduced-motion:reduce){.cq5-phone__laser::before,.tm-kick__dot::after{animation:none}}
+
+/* build 74: a link followed on the home page before the rest of the site has arrived: a thin bar along the top */
+html.fr-full-loading::after{content:"";position:fixed;left:0;top:0;width:100%;height:3px;z-index:2147483000;pointer-events:none;background:linear-gradient(90deg,#2F6BFF,#6D4AFF);transform-origin:0 50%;animation:fr74Bar 1.6s cubic-bezier(.3,.7,.4,1) infinite}
+@keyframes fr74Bar{0%{transform:scaleX(0);opacity:1}80%{transform:scaleX(.9);opacity:1}100%{transform:scaleX(1);opacity:0}}
+/* build 74: the turning industries are clickable pictures (HomePage.jsx, HM_Sphere) */
+.hm-sphere__n{cursor:pointer;user-select:none;-webkit-user-select:none}
+/* build 74: room held for a home page section that is about to be added (app/home/HomePage.jsx, HM_Later) */
+.hm-later{min-height:520px}
+/* build 74: the service tiles fade in when their section comes into view (they waited off screen half-faded before) */
+.hm-svc:not(.is-in) .hm-tiles>li{animation-play-state:paused}
+/* build 74: on phones "We do" sits on its own line, so a longer service name never jumps the box (and the page) to the
+   next line while the words change */
+@media (max-width:640px){.hza9-tick__we{flex-basis:100%}}

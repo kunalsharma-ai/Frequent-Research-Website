@@ -1,0 +1,123 @@
+.sec {
+  background: linear-gradient(180deg, transparent, rgba(56, 189, 248, 0.05) 50%, transparent);
+}
+.sec-top {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  align-items: center;
+  gap: 40px;
+}
+.vault {
+  position: relative;
+  height: 260px;
+  perspective: 900px;
+  display: grid;
+  place-items: center;
+}
+.vault-cube {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  transform-style: preserve-3d;
+  animation: cube 16s linear infinite;
+}
+@keyframes cube {
+  from {
+    transform: rotateX(-22deg) rotateY(0deg);
+  }
+  to {
+    transform: rotateX(-22deg) rotateY(360deg);
+  }
+}
+.vault-face {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  border-radius: 22px;
+  border: 1px solid rgba(126, 232, 250, 0.45);
+  background: linear-gradient(140deg, rgba(34, 211, 238, 0.22), rgba(99, 102, 241, 0.28) 55%, rgba(168, 85, 247, 0.3));
+  color: #e9fbff;
+  box-shadow: inset 0 0 40px rgba(126, 232, 250, 0.18);
+  backface-visibility: visible;
+}
+.f0 {
+  transform: translateZ(70px);
+}
+.f1 {
+  transform: rotateY(90deg) translateZ(70px);
+}
+.f2 {
+  transform: rotateY(180deg) translateZ(70px);
+}
+.f3 {
+  transform: rotateY(-90deg) translateZ(70px);
+}
+.f4 {
+  transform: rotateX(90deg) translateZ(70px);
+}
+.f5 {
+  transform: rotateX(-90deg) translateZ(70px);
+}
+.vault-shadow {
+  position: absolute;
+  bottom: 14px;
+  width: 180px;
+  height: 30px;
+  border-radius: 50%;
+  background: radial-gradient(ellipse, rgba(99, 102, 241, 0.6), transparent 70%);
+  filter: blur(10px);
+}
+.sec-grid {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  background: var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--line);
+}
+.sec-item {
+  background: var(--ink-1);
+  padding: 28px 24px;
+  transition: background 0.3s;
+}
+.sec-item:hover {
+  background: #100e2a;
+}
+.sec-icon {
+  display: inline-grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  color: var(--sky);
+  background: rgba(56, 189, 248, 0.1);
+  border: 1px solid rgba(56, 189, 248, 0.25);
+}
+.sec-item h3 {
+  margin: 16px 0 6px;
+  font-size: 17px;
+}
+.sec-item p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14.5px;
+}
+@media (max-width: 980px) {
+  .sec-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .sec-top {
+    grid-template-columns: 1fr;
+  }
+  .vault {
+    height: 220px;
+  }
+}
+@media (max-width: 520px) {
+  .sec-grid {
+    grid-template-columns: 1fr;
+  }
+}

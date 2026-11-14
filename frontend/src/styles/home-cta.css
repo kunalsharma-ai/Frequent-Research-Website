@@ -1,0 +1,27 @@
+/* ===== "Have a business challenge?" band (build 51) — light treatment so it no longer repeats the dark footer CTA ===== */
+.hh-final{color:#0D1440;background:radial-gradient(40% 60% at 8% 15%,#DDE8FF,transparent 70%),radial-gradient(35% 55% at 95% 90%,#FFE3EE,transparent 70%),radial-gradient(30% 40% at 70% 5%,#DFFBF1,transparent 70%),#F7F8FD}
+.hh-final:before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(#0D144008 1px,transparent 1px),linear-gradient(90deg,#0D144008 1px,transparent 1px);background-size:32px 32px;mask-image:radial-gradient(70% 80% at 50% 50%,#000,transparent);-webkit-mask-image:radial-gradient(70% 80% at 50% 50%,#000,transparent)}
+.hh-final .hh-final__beam{opacity:.25;background:linear-gradient(90deg,transparent,#1E5BFF,transparent)}
+.hh-final .hh-final__beam--2{background:linear-gradient(90deg,transparent,#F0457E,transparent)}
+.hh-final .hh-final__copy h2,.hh-final h2{color:#0D1440!important;-webkit-text-fill-color:#0D1440!important;background:none!important}
+.hh-final .hm-kicker{color:#0F9D74!important}
+.hh-final .hh-final__sub{color:#4A5378}
+.hh-final .hh-type{background:#fff;border:1px solid #E1E6F3;box-shadow:0 20px 40px -30px rgba(13,20,64,.4)}
+.hh-final .hh-type__label{color:#6A7397}
+.hh-final .hh-type b{color:#3B2BD9;font-family:"Fraunces",Georgia,serif;font-style:italic;font-weight:600}
+.hh-final .hh-type i{background:#3B2BD9}
+.hh-final .hh-door{background:#fff;color:#0D1440;border:1px solid #E6EAF5;box-shadow:0 14px 30px -26px rgba(13,20,64,.5);overflow:hidden}
+.hh-final .hh-door:after{content:"";position:absolute;left:0;top:14px;bottom:14px;width:4px;border-radius:0 4px 4px 0;background:var(--c)}
+.hh-final .hh-door:before{background:linear-gradient(120deg,transparent 30%,color-mix(in srgb,var(--c) 10%,transparent) 50%,transparent 70%)}
+.hh-final .hh-door__ic{background:color-mix(in srgb,var(--c) 12%,#fff);border:0;color:var(--c)}
+.hh-final .hh-door__need{color:#6A7397}
+.hh-final .hh-door__go{border-color:#E1E6F3;color:#0D1440}
+.hh-final .hh-doors li.is-on .hh-door,.hh-final .hh-door:hover{background:#fff;border-color:color-mix(in srgb,var(--c) 45%,#fff);box-shadow:0 26px 50px -28px var(--c)}
+.hh-final .hh-doors li.is-on .hh-door__ic{background:var(--c);color:#fff}
+.hh-final .hh-doors li.is-on .hh-door__need{color:#4A5378}
+.hh-final .hh-doors li.is-on .hh-door__go{background:var(--c);color:#fff;border-color:var(--c)}
+.hh-final .hh-door--main .hh-door,.hh-final .hh-doors li.hh-door--main.is-on .hh-door{color:#fff;border:0;background:linear-gradient(120deg,#0B22A8,#3B2BD9 60%,#7C4DFF);box-shadow:0 28px 50px -26px #3B2BD9}
+.hh-final .hh-door--main .hh-door:after{display:none}
+.hh-final .hh-door--main .hh-door__ic{background:#ffffff26;color:#fff}
+.hh-final .hh-door--main .hh-door__need{color:#D7DDFF}
+.hh-final .hh-door--main .hh-door__go{background:#fff;color:#0B22A8}

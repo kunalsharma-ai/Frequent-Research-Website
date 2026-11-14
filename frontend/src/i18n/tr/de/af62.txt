@@ -1,0 +1,71 @@
+1	QR & Kontakt
+2	Scannen, um uns, unseren Panels und Sampledge zu folgen.
+3	Zum dunklen Design wechseln
+4	Zum hellen Design wechseln
+5	Dunkles Design
+6	Helles Design
+7	Kommt Ihnen das bekannt vor?
+8	Fahren Sie über einen Beleg oder tippen Sie darauf, um zu sehen, wie wir helfen.
+9	So helfen wir
+10	Was enthalten ist
+11	So arbeiten wir
+12	Pakete & Preise
+13	Am beliebtesten
+14	Essential
+15	Growth
+16	Premium
+17	Alle Leistungen vergleichen
+18	Vollständigen Vergleich ausblenden
+19	Wichtigste Ergebnisse
+20	Nicht enthalten
+21	Gut zu wissen
+22	Für wen wir arbeiten
+23	Gemacht für Ihre Art von Unternehmen
+24	Passt gut zu
+25	Verwandte Finanzleistungen
+26	Kostenlose 20-minütige Beratung buchen
+27	Pakete & Preise ansehen
+28	So funktionieren die Preise
+29	Pakete ab
+30	Pakete ab
+31	Ab
+32	zzgl. GST
+33	Leistungsbereiche
+34	abgedeckte Tätigkeiten
+35	transparente Pakete
+36	Prozessschritte
+37	Individuelles Angebot
+38	Angebote sind nicht kombinierbar. Die Berechtigung wird in Ihrem Angebot bestätigt.
+39	Kostenloses Gespräch buchen
+40	Klarheit in jeder Zahl beginnt mit einem Gespräch
+41	Preis-Explorer
+42	Transparente Pakete im direkten Vergleich
+43	Bundles
+44	Einführungsangebote
+45	Keine Überraschungen
+46	Klare Geschäftsbedingungen
+47	Warum das wichtig ist
+48	Vier Expertenteams
+49	/Monat
+50	/Jahr
+51	/Erklärung
+52	/Projekt
+53	Buchhaltung & Reporting
+54	Steuern & Compliance
+55	Planung & Finanzierung
+56	Strategische Finanzen
+57	Wählen
+58	QR anzeigen
+59	Offizielles Panel
+60	Scannen und folgen
+61	WhatsApp-Support
+62	Jedes Panel.
+63	Jedes Profil. Ein Scan.
+64	Wählen Sie ein Panel, um Website, Social-Media-Profile und WhatsApp-Support zu sehen – jeweils mit eigenem QR-Code.
+65	Panel-QR-Codes
+66	Alle unsere Panels an einem Ort:
+67	02 · Unsere Forschungspanels
+68	Finanzleistungen
+69	klare Pakete je Leistung
+70	kostenloses Erstgespräch
+71	Entdecken

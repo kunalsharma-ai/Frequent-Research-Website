@@ -1,0 +1,349 @@
+/* Build 65 update 22 — celebration banner (cb22) and intro splash (sp22). Loops animate transform / opacity only. */
+
+/* ── banner ─────────────────────────────────────────────────────────────────────────── */
+.cb22{position:relative;z-index:3;display:grid;grid-template-columns:112px minmax(0,1fr) auto;align-items:center;gap:18px;margin:0 0 clamp(10px,1.6vh,18px);padding:10px 56px 10px 12px;min-height:124px;border-radius:22px;overflow:hidden;isolation:isolate;color:#fff;background:#0B1437;border:1px solid rgba(255,255,255,.16);box-shadow:0 18px 48px -22px rgba(0,0,0,.7),inset 0 1px 0 rgba(255,255,255,.08);animation:cb22In .9s cubic-bezier(.2,.8,.2,1) both;transition:opacity .4s ease,transform .4s ease}
+.cb22.is-closing{animation:cb22Out .7s cubic-bezier(.5,0,.2,1) forwards;pointer-events:none}
+.cb22--major{border-color:color-mix(in srgb,var(--c1) 55%,rgba(255,255,255,.2));box-shadow:0 0 0 1px color-mix(in srgb,var(--c1) 25%,transparent),0 22px 60px -24px color-mix(in srgb,var(--c1) 60%,#000)}
+.cb22__grade{position:absolute;inset:0;z-index:-2;background:radial-gradient(60% 160% at 0% 50%,color-mix(in srgb,var(--c1) 36%,transparent),transparent 70%),radial-gradient(50% 140% at 100% 0%,color-mix(in srgb,var(--c3) 30%,transparent),transparent 70%),radial-gradient(40% 120% at 70% 120%,color-mix(in srgb,var(--c2) 24%,transparent),transparent 70%),linear-gradient(100deg,#0e1c55,#0B1437 55%,#0f1850);animation:cb22Breath 7s ease-in-out infinite alternate}
+.cb22__sheen{position:absolute;top:-20%;bottom:-20%;left:0;width:22%;z-index:-1;background:linear-gradient(100deg,transparent,rgba(255,255,255,.09),transparent);transform:translateX(-120%) skewX(-18deg);animation:cb22Sheen 7s ease-in-out 1.2s infinite;pointer-events:none}
+.cb22__fx{position:absolute;inset:0;z-index:-1;pointer-events:none;overflow:hidden}
+.cb22-p{position:absolute;left:var(--x);top:var(--y);width:calc(15px * var(--s));height:calc(15px * var(--s));opacity:0;animation:var(--t) linear var(--d) infinite both;will-change:transform,opacity}
+.cb22-p svg{display:block;width:100%;height:100%}
+.cb22-p--c0{color:var(--c1)}.cb22-p--c1{color:var(--c2)}.cb22-p--c2{color:var(--c3)}
+.cb22-p--fall{top:-18px;animation-name:cb22Fall}
+.cb22-p--rise{top:auto;bottom:-18px;animation-name:cb22Rise}
+.cb22-p--drift{animation-name:cb22Drift;animation-timing-function:ease-in-out}
+.cb22-p--burst{animation-name:cb22Burst;animation-timing-function:ease-out;width:calc(26px * var(--s));height:calc(26px * var(--s))}
+.cb22-p--twinkle{animation-name:cb22Twinkle;animation-timing-function:ease-in-out;animation-duration:calc(var(--t) * .45)}
+.cb22-p--fly{animation-name:cb22Fly;animation-timing-function:ease-in-out;width:calc(22px * var(--s));height:calc(22px * var(--s))}
+.cb22-p--sway{animation-name:cb22SwayP;animation-timing-function:ease-in-out;animation-direction:alternate;animation-duration:calc(var(--t) * .5)}
+.cb22--xmas .cb22-p--c0,.cb22--tricolour .cb22-p--c1{color:#fff}
+.cb22--colours .cb22-p--burst{filter:blur(1.5px)}
+
+.cb22__art{position:relative;width:112px;height:112px;display:grid;place-items:center;animation:cb22ArtIn 1s cubic-bezier(.3,1.4,.4,1) .15s both}
+.cb22__art svg{position:relative;width:100%;height:100%;overflow:visible;filter:drop-shadow(0 6px 14px rgba(0,0,0,.35))}
+.cb22__halo{position:absolute;inset:4px;border-radius:50%;background:radial-gradient(circle,color-mix(in srgb,var(--c1) 40%,transparent),transparent 68%);animation:cb22Glow 3.2s ease-in-out infinite}
+.cb22__art::before{content:"";position:absolute;inset:3px;border-radius:50%;background:radial-gradient(circle at 40% 30%,color-mix(in srgb,var(--c1) 26%,#13235f),#0B1437 72%);box-shadow:inset 0 0 0 1.5px color-mix(in srgb,var(--c1) 55%,transparent),0 10px 26px -10px color-mix(in srgb,var(--c1) 70%,#000)}
+.cb22__art::after{content:"";position:absolute;inset:-4px;border-radius:50%;border:1.5px dashed color-mix(in srgb,var(--c2) 55%,transparent);animation:cb22Spin 22s linear infinite}
+.cb22--waves .cb22__art::before,.cb22--globe .cb22__art::before{background:#0B1437}
+.cb22__bunting{position:absolute;left:0;right:0;top:-2px;height:22px;display:flex;justify-content:space-between;padding:0 14px;z-index:-1;pointer-events:none}
+.cb22__bunting::before{content:"";position:absolute;left:0;right:0;top:2px;height:1px;background:color-mix(in srgb,var(--c2) 60%,transparent)}
+.cb22__bunting i{display:block;width:12px;height:15px;margin-top:2px;clip-path:polygon(0 0,100% 0,50% 100%);background:var(--c1);opacity:.75;transform-origin:50% 0;animation:cb22Swing 2.4s ease-in-out infinite alternate;animation-delay:calc(var(--k) * -.23s)}
+.cb22__bunting i:nth-child(3n+2){background:var(--c2)}.cb22__bunting i:nth-child(3n){background:var(--c3)}
+.cb22__art svg *{transform-box:fill-box;transform-origin:center}
+
+.cb22__copy{min-width:0}
+.cb22__eye{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin:0 0 4px;font-size:11.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.72)}
+.cb22__eye>span:nth-child(2){color:#fff}
+.cb22__live{width:8px;height:8px;border-radius:50%;background:var(--c1);box-shadow:0 0 0 3px color-mix(in srgb,var(--c1) 30%,transparent);animation:cb22Live 1.6s ease-in-out infinite}
+.cb22__date{letter-spacing:.04em;text-transform:none;font-weight:600}
+.cb22__cat{padding:2px 9px;border-radius:999px;border:1px solid color-mix(in srgb,var(--c1) 60%,transparent);background:color-mix(in srgb,var(--c1) 16%,transparent);color:#fff;letter-spacing:.06em}
+.cb22__t{margin:0;font-size:clamp(19px,1.9vw,28px);line-height:1.15;font-weight:800;letter-spacing:-.01em;background:linear-gradient(92deg,#fff 20%,color-mix(in srgb,var(--c1) 70%,#fff) 60%,color-mix(in srgb,var(--c3) 60%,#fff));-webkit-background-clip:text;background-clip:text;color:transparent;animation:cb22Up .8s cubic-bezier(.2,.8,.2,1) .25s both}
+.cb22--tricolour .cb22__t{background-image:linear-gradient(92deg,#FFB366,#fff 50%,#5fd35a)}
+.cb22__m{margin:4px 0 0;font-size:13.5px;line-height:1.45;color:rgba(255,255,255,.8);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;animation:cb22Up .8s cubic-bezier(.2,.8,.2,1) .4s both}
+
+.cb22__side{display:flex;flex-direction:column;align-items:flex-end;gap:10px;max-width:470px;animation:cb22Up .8s cubic-bezier(.2,.8,.2,1) .5s both}
+.cb22__flags{display:flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+.cb22__flag{display:block;width:46px;height:34px;border-radius:7px;overflow:hidden;box-shadow:0 6px 16px -6px rgba(0,0,0,.6),0 0 0 1px rgba(255,255,255,.25);transform-origin:0 50%;animation:cb22Wave 2.6s ease-in-out infinite alternate;animation-delay:calc(var(--k) * -.6s)}
+.cb22__flag img{display:block;width:100%;height:100%;object-fit:cover}
+.cb22__flag-wait{display:block;width:100%;height:100%;background:rgba(255,255,255,.15)}
+.cb22__world{display:inline-flex;align-items:center;gap:7px;padding:6px 12px 6px 8px;border-radius:999px;font-size:12.5px;font-weight:700;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);color:#fff}
+.cb22__world svg{color:var(--c1);animation:cb22Spin 14s linear infinite}
+.cb22__also{display:flex;flex-wrap:nowrap;align-items:center;justify-content:flex-end;gap:6px}
+.cb22__also b{font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.6);margin-right:2px}
+.cb22__chip{display:inline-flex;align-items:center;gap:6px;max-width:190px;padding:4px 10px 4px 6px;border-radius:999px;font-size:12px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);color:rgba(255,255,255,.92)}
+.cb22__chip img{width:18px;height:13px;border-radius:3px;object-fit:cover;flex:none}
+.cb22__mini{flex:none;color:var(--c2)}
+.cb22__chip:nth-of-type(n+3){display:none}
+.cb22__x{position:absolute;top:10px;right:10px;width:32px;height:32px;display:grid;place-items:center;border-radius:50%;border:1px solid rgba(255,255,255,.22);background:rgba(11,20,55,.55);color:#fff;cursor:pointer;transition:transform .2s ease,background .2s ease}
+.cb22__x:hover{transform:rotate(90deg);background:rgba(255,255,255,.16)}
+.cb22__x:focus-visible{outline:2px solid #fff;outline-offset:2px}
+
+/* motif scenes */
+.cb22a-glow{animation:cb22Glow 3s ease-in-out infinite}
+.cb22a-wave{animation:cb22Wv 6s linear infinite}
+.cb22a-wave--2{animation-duration:4.4s;animation-direction:reverse}
+.cb22a-wave--3{animation-duration:3.4s}
+.cb22a-bob{transform-origin:50% 100%!important;animation:cb22Bob 3s ease-in-out infinite}
+.cb22a-spin-slow{animation:cb22Spin 30s linear infinite}
+.cb22a-spin{animation:cb22Spin 8s linear infinite}
+.cb22a-flame{transform-origin:50% 100%!important;animation:cb22Flick 1.3s ease-in-out infinite alternate}
+.cb22a-puff{opacity:0;animation:cb22Puff 4.2s ease-out infinite;animation-delay:calc(var(--k) * .7s)}
+.cb22a-sway{transform-origin:50% 100%;animation:cb22Sway 3.6s ease-in-out infinite alternate}
+.cb22a-rock{animation:cb22Rock 6s ease-in-out infinite alternate}
+.cb22a-twinkle{animation:cb22Twinkle 2.2s ease-in-out infinite}
+.cb22a-swing{transform-origin:50% 0;animation:cb22Swing 3.2s ease-in-out infinite alternate;animation-delay:calc(var(--k,0) * -1.1s)}
+.cb22a-blink{animation:cb22Blink 1.4s ease-in-out infinite alternate;animation-delay:calc(var(--k,0) * -.35s)}
+.cb22a-hop{animation:cb22Hop 1.8s ease-in-out infinite;animation-delay:calc(var(--k,0) * -.5s)}
+.cb22a-flag{transform-origin:0 50%!important;animation:cb22FlagW 2.4s ease-in-out infinite alternate}
+.cb22a-pop{opacity:0;animation:cb22Pop 2.7s ease-out infinite;animation-delay:calc(var(--k) * .9s)}
+.cb22a-halo{animation:cb22Halo 2.8s ease-out infinite}
+.cb22a-halo--2{animation-delay:1.4s}
+.cb22a-breathe{animation:cb22Breathe 2.4s ease-in-out infinite}
+.cb22a-bounce{animation:cb22Bounce 1.3s cubic-bezier(.4,0,.6,1) infinite}
+.cb22a-shadow{animation:cb22Shadow 1.3s cubic-bezier(.4,0,.6,1) infinite}
+.cb22a-bar{transform-origin:50% 100%!important;animation:cb22Bar 2.4s ease-in-out infinite alternate;animation-delay:calc(var(--k) * -.6s)}
+.cb22a-drop{animation:cb22Drop 2.6s cubic-bezier(.5,0,.75,0) infinite}
+.cb22a-tick{opacity:0;animation:cb22Tick 3.6s ease-out infinite;animation-delay:calc(var(--k) * .5s)}
+.cb22a-orbit{animation:cb22Spin 10s linear infinite}
+.cb22a-beat{animation:cb22Beat 1.5s ease-in-out infinite}
+.cb22a-page{transform-origin:0 50%!important;animation:cb22Page 4.4s ease-in-out infinite}
+.cb22a-ripple{animation:cb22Halo 3.4s ease-out infinite}
+.cb22a-ripple--2{animation-delay:1.7s}
+.cb22a-petal{transform-origin:50% 100%!important;transform:rotate(var(--a));animation:cb22Petal 4s ease-in-out infinite alternate;animation-delay:calc(var(--k) * -.4s)}
+.cb22a-glide{animation:cb22Glide 4s ease-in-out infinite alternate}
+.cb22a-wing{transform-origin:30% 100%!important;animation:cb22Wing .7s ease-in-out infinite alternate}
+.cb22a-flap{animation:cb22Flap 2.6s ease-in-out infinite}
+.cb22a-meridian{transform-box:view-box!important;animation:cb22Mer 2.6s linear infinite}
+
+/* build 72: smooth open/close so the hero below glides instead of jumping */
+/* build 74: the banner floats over the top of the hero instead of pushing it down, so nothing on the page moves when it
+   appears or leaves (no layout shift); it drops in and lifts away with transform and opacity only */
+.cb22-wrap{position:absolute;left:0;right:0;top:0;z-index:30;pointer-events:none}
+.cb22-wrap>.cb22{pointer-events:auto;margin:0;animation:cb22Float .85s cubic-bezier(.2,.9,.25,1.08) both}
+.cb22-wrap.is-closing{pointer-events:none}
+.cb22-wrap>.cb22.is-closing{animation:cb22Out .7s cubic-bezier(.5,0,.2,1) forwards}
+@keyframes cb22Float{0%{opacity:0;transform:translateY(-28px) scale(.94)}60%{opacity:1;transform:translateY(4px) scale(1.01)}100%{opacity:1;transform:none}}
+@keyframes cb22Out{0%{opacity:1;transform:none;filter:none}30%{opacity:1;transform:translateY(3px) scale(1.012);filter:brightness(1.25)}100%{opacity:0;transform:translateY(-22px) scale(.93);filter:blur(6px) brightness(1.1)}}
+/* the 10-second countdown along the bottom edge; it waits while the visitor points at or tabs into the banner */
+.cb22__timer{position:absolute;left:14px;right:14px;bottom:6px;height:3px;border-radius:3px;background:rgba(255,255,255,.12);overflow:hidden;z-index:4;pointer-events:none}
+.cb22__timer i{display:block;height:100%;border-radius:inherit;background:linear-gradient(90deg,var(--c1),var(--c2),var(--c3));transform-origin:left center;animation:cb22Count 10s linear forwards}
+.cb22:hover .cb22__timer i,.cb22:focus-within .cb22__timer i,.cb22.is-away .cb22__timer i{animation-play-state:paused}
+@keyframes cb22Count{from{transform:scaleX(1)}to{transform:scaleX(0)}}
+@media (prefers-reduced-motion:reduce){.cb22.is-closing{animation:none;opacity:0}.cb22__timer i{animation:none}}
+@media (prefers-reduced-motion:reduce){.cb22-wrap>.cb22{animation:none}}
+@keyframes cb22In{from{opacity:0;transform:translateY(-14px) scale(.985)}to{opacity:1;transform:none}}
+@keyframes cb22ArtIn{from{opacity:0;transform:scale(.55) rotate(-8deg)}to{opacity:1;transform:none}}
+@keyframes cb22Up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@keyframes cb22Breath{from{opacity:.85}to{opacity:1}}
+@keyframes cb22Sheen{0%{transform:translateX(-120%) skewX(-18deg)}45%,100%{transform:translateX(560%) skewX(-18deg)}}
+@keyframes cb22Live{50%{opacity:.35}}
+@keyframes cb22Fall{0%{opacity:0;transform:translate3d(0,0,0) rotate(0)}12%{opacity:.95}85%{opacity:.8}100%{opacity:0;transform:translate3d(var(--dx),170px,0) rotate(var(--r))}}
+@keyframes cb22Rise{0%{opacity:0;transform:translate3d(0,0,0) scale(1)}15%{opacity:.95}100%{opacity:0;transform:translate3d(var(--dx),-160px,0) scale(.55)}}
+@keyframes cb22Drift{0%{opacity:0;transform:translate3d(-40px,0,0)}25%,70%{opacity:.85}100%{opacity:0;transform:translate3d(70px,-10px,0)}}
+@keyframes cb22Burst{0%{opacity:0;transform:scale(.15)}25%{opacity:.95;transform:scale(1)}100%{opacity:0;transform:scale(1.6)}}
+@keyframes cb22Twinkle{0%,100%{opacity:.15;transform:scale(.45)}50%{opacity:1;transform:scale(1)}}
+@keyframes cb22Fly{0%{opacity:0;transform:translate3d(-90px,14px,0)}20%,75%{opacity:.9}100%{opacity:0;transform:translate3d(130px,-18px,0)}}
+@keyframes cb22SwayP{0%{opacity:.85;transform:rotate(-14deg) translateY(0)}100%{opacity:.85;transform:rotate(14deg) translateY(-10px)}}
+@keyframes cb22Glow{0%,100%{opacity:.55}50%{opacity:1}}
+@keyframes cb22Wv{to{transform:translateX(-90px)}}
+@keyframes cb22Bob{0%,100%{transform:translateY(0) rotate(-4deg)}50%{transform:translateY(-4px) rotate(4deg)}}
+@keyframes cb22Spin{to{transform:rotate(360deg)}}
+@keyframes cb22Flick{0%{transform:scale(1,1) rotate(-2deg)}50%{transform:scale(.92,1.08) rotate(2deg)}100%{transform:scale(1.04,.94) rotate(-1deg)}}
+@keyframes cb22Puff{0%{opacity:0;transform:scale(.15)}22%{opacity:1;transform:scale(1.08)}65%{opacity:.9;transform:scale(1)}100%{opacity:0;transform:scale(1.3)}}
+@keyframes cb22Sway{from{transform:rotate(-8deg)}to{transform:rotate(8deg)}}
+@keyframes cb22Rock{from{transform:rotate(-7deg)}to{transform:rotate(5deg)}}
+@keyframes cb22Swing{from{transform:rotate(-9deg)}to{transform:rotate(9deg)}}
+@keyframes cb22Blink{from{opacity:1}to{opacity:.25}}
+@keyframes cb22Hop{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@keyframes cb22FlagW{from{transform:skewY(-3deg) scaleX(.97)}to{transform:skewY(3deg) scaleX(1)}}
+@keyframes cb22Pop{0%{opacity:0;transform:scale(.1)}30%{opacity:1;transform:scale(1)}70%,100%{opacity:0;transform:scale(1.18)}}
+@keyframes cb22Halo{0%{opacity:.85;transform:scale(.7)}100%{opacity:0;transform:scale(1.3)}}
+@keyframes cb22Breathe{0%,100%{transform:scale(1)}50%{transform:scale(1.07)}}
+@keyframes cb22Bounce{0%,100%{transform:translateY(0) scale(1.06,.92)}12%{transform:translateY(-4px) scale(1)}50%{transform:translateY(-26px) scale(1)}}
+@keyframes cb22Shadow{0%,100%{transform:scale(1);opacity:.35}50%{transform:scale(.55);opacity:.15}}
+@keyframes cb22Bar{from{transform:scaleY(.62)}to{transform:scaleY(1)}}
+@keyframes cb22Drop{0%{opacity:0;transform:translateY(-30px) scaleX(1)}20%{opacity:1}45%{transform:translateY(-8px) scaleX(-1)}75%{opacity:1;transform:translateY(16px) scaleX(1)}100%{opacity:0;transform:translateY(16px) scaleX(1)}}
+@keyframes cb22Tick{0%{opacity:0;transform:scale(.4)}15%,80%{opacity:1;transform:scale(1)}100%{opacity:0;transform:scale(1)}}
+@keyframes cb22Beat{0%,100%{transform:scale(1)}15%{transform:scale(1.12)}30%{transform:scale(1)}45%{transform:scale(1.07)}}
+@keyframes cb22Page{0%,15%{transform:scaleX(1)}50%,65%{transform:scaleX(-1)}100%{transform:scaleX(1)}}
+@keyframes cb22Petal{from{transform:rotate(calc(var(--a) * .55))}to{transform:rotate(var(--a))}}
+@keyframes cb22Glide{from{transform:translate(-6px,3px)}to{transform:translate(6px,-5px)}}
+@keyframes cb22Wing{from{transform:scaleY(1)}to{transform:scaleY(.4)}}
+@keyframes cb22Flap{0%,100%{transform:translate(0,0) scaleY(1)}25%{transform:translate(-6px,4px) scaleY(.5)}50%{transform:translate(-12px,0) scaleY(1)}75%{transform:translate(-6px,-4px) scaleY(.5)}}
+@keyframes cb22Mer{to{transform:translateX(-19px)}}
+@keyframes cb22Wave{from{transform:perspective(180px) rotateY(-14deg) skewY(-3deg)}to{transform:perspective(180px) rotateY(10deg) skewY(3deg)}}
+
+@media (max-width:1100px){
+  .cb22{grid-template-columns:96px minmax(0,1fr);gap:8px 14px}
+  .cb22__art{width:96px;height:96px}
+  .cb22__side{grid-column:2;flex-direction:row;flex-wrap:wrap;align-items:center;justify-content:flex-start;max-width:none}
+  .cb22__flags,.cb22__also{justify-content:flex-start}
+}
+@media (max-width:640px){
+  .cb22__bunting i:nth-child(n+14){display:none}
+  .cb22{grid-template-columns:72px minmax(0,1fr);padding:10px 44px 12px 8px;border-radius:18px;min-height:0}
+  .cb22__art{width:72px;height:72px;align-self:start}
+  .cb22__eye{font-size:10.5px;gap:4px 8px}
+  .cb22__date{display:none}
+  .cb22__t{font-size:17px}
+  .cb22__m{font-size:12.5px;-webkit-line-clamp:2}
+  .cb22__side{grid-column:1 / -1;gap:6px;padding-left:4px;flex-wrap:nowrap;overflow:hidden}
+  .cb22__flags,.cb22__also{flex-wrap:nowrap}
+  .cb22__also b{display:none}
+  .cb22__world{padding:4px 10px 4px 6px;font-size:11.5px}
+  .cb22__world svg{width:16px;height:16px}
+  .cb22__chip:nth-of-type(n+2){display:none}
+  .cb22__flag{width:36px;height:27px}
+  .cb22__chip{max-width:170px}
+  .cb22__chip:nth-of-type(n+3){display:none}
+  .cb22__x{top:8px;right:8px;width:30px;height:30px}
+}
+.hz.is-away .cb22 *,.hz.is-away .cb22{animation-play-state:paused!important}
+@media (prefers-reduced-motion:reduce){
+  .cb22,.cb22 *{animation:none!important}
+  .cb22__fx{display:none}
+}
+
+/* ── intro splash ───────────────────────────────────────────────────────────────────── */
+html.sp22-lock,html.sp22-lock body{overflow:hidden!important}
+.sp22{position:fixed;inset:0;z-index:2147483600;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:clamp(18px,3.4vh,34px);padding:24px 16px;overflow:hidden;color:#fff;background:#050b2c;transition:opacity .85s ease .15s,transform 1s cubic-bezier(.6,0,.2,1) .1s}
+.sp22.is-out{opacity:0;transform:scale(1.06);pointer-events:none;transition:opacity .6s ease .35s,transform .9s cubic-bezier(.6,0,.2,1) .2s}
+.sp22.is-out .sp22__copy,.sp22.is-out .sp22__eng,.sp22.is-out .sp22__rings,.sp22.is-out .sp22__dots,.sp22.is-out .sp22__skip{opacity:0;transition:opacity .22s ease}
+.sp22::after{content:"";position:absolute;left:50%;top:50%;width:40vmax;height:40vmax;margin:-20vmax 0 0 -20vmax;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.9),rgba(159,231,220,.35) 45%,transparent 70%);opacity:0;transform:scale(0);pointer-events:none}
+.sp22.is-out::after{animation:sp22Flash .8s ease-out both}
+@keyframes sp22Flash{0%{opacity:.9;transform:scale(.1)}100%{opacity:0;transform:scale(3.2)}}
+.sp22__bg{position:absolute;inset:0;pointer-events:none}
+.sp22__aur{position:absolute;width:90vmax;height:90vmax;left:50%;top:50%;margin:-45vmax 0 0 -45vmax;border-radius:50%;opacity:.55}
+.sp22__aur--a{background:radial-gradient(circle at 30% 30%,rgba(47,107,255,.55),transparent 55%);animation:sp22Spin 26s linear infinite}
+.sp22__aur--b{background:radial-gradient(circle at 70% 70%,rgba(109,74,255,.45),transparent 55%),radial-gradient(circle at 30% 80%,rgba(14,156,136,.25),transparent 50%);animation:sp22Spin 34s linear infinite reverse}
+.sp22__grid{position:absolute;inset:-10%;background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);background-size:56px 56px;animation:sp22Grid 6s ease-in-out infinite alternate}
+.sp22__dots{position:absolute;inset:0;pointer-events:none}
+.sp22-dot{position:absolute;left:50%;top:50%;width:calc(7px * var(--s));height:calc(7px * var(--s));margin:-3px;border-radius:50%;opacity:0;animation:sp22Converge 4.2s cubic-bezier(.5,0,.3,1) var(--d) infinite}
+.sp22-dot--0{background:#2F6BFF;box-shadow:0 0 10px #2F6BFF}.sp22-dot--1{background:#9FE7DC;box-shadow:0 0 10px #0E9C88}.sp22-dot--2{background:#a78bfa;box-shadow:0 0 10px #6D4AFF}.sp22-dot--3{background:#FFC27A;box-shadow:0 0 10px #D99A2B}
+.sp22__stage{position:relative;width:min(54vmin,420px);aspect-ratio:1;flex:none}
+.sp22__rings,.sp22__arcs{position:absolute;inset:0}
+.sp22__arcs{width:100%;height:100%;overflow:visible}
+.sp22__ring{position:absolute;border-radius:50%}
+.sp22__ring--1{inset:-9%;border:1px dashed rgba(255,255,255,.2);animation:sp22Spin 48s linear infinite}
+.sp22__ring--2{inset:14%;border:1px solid rgba(159,231,220,.28);border-top-color:transparent;border-bottom-color:transparent;animation:sp22Spin 14s linear infinite reverse}
+.sp22__ring--3{inset:24%;background:radial-gradient(circle,rgba(47,107,255,.28),transparent 70%);animation:sp22Glow 3s ease-in-out infinite}
+.sp22__arc{transform-box:view-box;transform-origin:100px 100px;opacity:0;animation:sp22Arc 1.5s cubic-bezier(.2,.9,.2,1) both;animation-delay:calc(.35s + var(--k) * .22s)}
+.sp22__arc path{filter:drop-shadow(0 0 6px currentColor)}
+.sp22__eng{list-style:none;margin:0;padding:0}
+.sp22__e{position:absolute;display:flex;flex-direction:column;gap:2px;width:max-content;max-width:180px;opacity:0;animation:sp22Up .9s ease both;animation-delay:calc(1.3s + var(--k) * .18s)}
+.sp22__e b{font-size:14px;font-weight:800;color:#fff;white-space:nowrap}
+.sp22__e span{font-size:12px;color:var(--c);filter:brightness(1.5);font-weight:600}
+.sp22__e::before{content:"";width:22px;height:3px;border-radius:2px;background:var(--c);margin-bottom:4px}
+.sp22__e--0{left:88%;top:6%}
+.sp22__e--1{left:88%;bottom:6%}
+.sp22__e--2{right:88%;bottom:6%;text-align:right;align-items:flex-end}
+.sp22__e--3{right:88%;top:6%;text-align:right;align-items:flex-end}
+.sp22__logo{position:absolute;left:50%;top:50%;width:40%;aspect-ratio:1;min-width:128px;transform:translate(-50%,-50%);padding:0;border:0;border-radius:50%;background:none;cursor:pointer;animation:sp22LogoIn 1.1s cubic-bezier(.3,1.5,.4,1) .2s both}
+.sp22__disc{position:absolute;inset:0;display:grid;place-items:center;border-radius:50%;background:radial-gradient(circle at 35% 30%,#fff,#e9efff 60%,#cdd9ff);box-shadow:0 0 0 6px rgba(255,255,255,.12),0 0 60px rgba(47,107,255,.65),inset 0 -8px 18px rgba(47,107,255,.25);animation:sp22Breathe 2.8s ease-in-out 1.4s infinite;transition:transform .25s ease;color:#0B1437;font-weight:800;font-size:28px}
+.sp22__disc>*{width:66%;height:auto}
+.sp22__disc .frlx{width:66%!important}
+.sp22__logo:hover .sp22__disc{transform:scale(1.06)}
+.sp22__logo:focus-visible{outline:none}
+.sp22__logo:focus-visible .sp22__disc{box-shadow:0 0 0 4px #fff,0 0 0 8px #2F6BFF,0 0 60px rgba(47,107,255,.65)}
+.sp22__pulse{position:absolute;inset:0;border-radius:50%;border:2px solid rgba(159,231,220,.7);animation:sp22Pulse 2.4s ease-out 1.2s infinite;opacity:0}
+.sp22__pulse--2{animation-delay:2.4s;border-color:rgba(255,194,122,.65)}
+.sp22.is-out .sp22__logo{transition:transform .9s cubic-bezier(.6,0,.2,1),opacity .7s ease;transform:translate(-50%,-50%) scale(1.8);opacity:0}
+.sp22__copy{position:relative;text-align:center}
+.sp22__brand{margin:0;font-size:clamp(24px,3.4vw,40px);font-weight:800;letter-spacing:.02em;background:linear-gradient(92deg,#fff,#c7d6ff 50%,#9FE7DC);-webkit-background-clip:text;background-clip:text;color:transparent;animation:sp22Up 1s ease 1.6s both}
+.sp22__line{margin:8px 0 0;font-size:clamp(13px,1.4vw,16px);color:rgba(255,255,255,.8)}
+.sp22__line span{display:inline-block;opacity:0;animation:sp22Up .7s ease both}
+.sp22__line span:nth-child(1){animation-delay:1.9s}.sp22__line span:nth-child(2){animation-delay:2.1s}.sp22__line span:nth-child(3){animation-delay:2.3s}.sp22__line span:nth-child(4){animation-delay:2.5s}
+.sp22__hint{display:inline-flex;align-items:center;gap:10px;margin:16px 0 0;padding:8px 16px 8px 10px;border-radius:999px;font-size:13px;font-weight:700;letter-spacing:.04em;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);animation:sp22Up .8s ease 2.8s both}
+.sp22__tap{position:relative;width:14px;height:14px;border-radius:50%;background:#FFC27A}
+.sp22__tap::after{content:"";position:absolute;inset:-5px;border-radius:50%;border:2px solid #FFC27A;animation:sp22Pulse 1.6s ease-out infinite}
+.sp22__skip{position:absolute;right:18px;bottom:18px;padding:8px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.06);color:rgba(255,255,255,.85);font:600 13px/1 inherit;font-family:inherit;cursor:pointer;animation:sp22Up .6s ease 1s both}
+.sp22__skip:hover{background:rgba(255,255,255,.14)}
+.sp22__skip:focus-visible{outline:2px solid #fff;outline-offset:2px}
+@keyframes sp22Spin{to{transform:rotate(360deg)}}
+@keyframes sp22Grid{from{opacity:.4;transform:scale(1)}to{opacity:.9;transform:scale(1.04)}}
+@keyframes sp22Converge{0%{opacity:0;transform:translate(var(--fx),var(--fy)) scale(1.2)}25%{opacity:1}85%{opacity:.9}100%{opacity:0;transform:translate(0,0) scale(.2)}}
+@keyframes sp22Glow{0%,100%{opacity:.6;transform:scale(.95)}50%{opacity:1;transform:scale(1.05)}}
+@keyframes sp22Arc{from{opacity:0;transform:rotate(-140deg) scale(1.55)}to{opacity:1;transform:none}}
+@keyframes sp22Up{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+@keyframes sp22LogoIn{from{opacity:0;transform:translate(-50%,-50%) scale(.3) rotate(-30deg)}to{opacity:1;transform:translate(-50%,-50%)}}
+@keyframes sp22Breathe{0%,100%{transform:scale(1)}50%{transform:scale(1.045)}}
+@keyframes sp22Pulse{0%{opacity:.8;transform:scale(1)}100%{opacity:0;transform:scale(1.65)}}
+@media (max-width:640px){
+  .sp22__stage{width:min(62vw,300px)}
+  .sp22__e{max-width:96px}
+  .sp22__e b{font-size:11.5px;white-space:normal}
+  .sp22__e span{display:none}
+  .sp22__e--0,.sp22__e--1{left:84%}
+  .sp22__e--2,.sp22__e--3{right:84%}
+  .sp22__line span{display:block}
+}
+@media (prefers-reduced-motion:reduce){
+  .sp22 *{animation-duration:.01s!important;animation-iteration-count:1!important}
+  .sp22__dots{display:none}
+}
+
+/* ── update 22b: festival scenes and per-day icon scenes ─────────────────────────────── */
+.fa22-light{animation:fa22Light 3.2s ease-in-out infinite;animation-delay:calc(var(--k,0) * .38s)}
+.fa22-spin-rev{animation:cb22Spin 24s linear infinite reverse}
+.fa22-rays{animation:cb22Spin 30s linear infinite}
+.fa22-breath{animation:cb22Breathe 3s ease-in-out infinite}
+.fa22-float{animation:cb22Hop 3.2s ease-in-out infinite}
+.fa22-popcorn{animation:fa22Pop 1.8s ease-out infinite;animation-delay:calc(var(--k) * .42s)}
+.fa22-shake{animation:fa22Shake .5s ease-in-out infinite alternate}
+.fa22-string{animation:cb22Blink .3s ease-in-out infinite alternate;animation-delay:calc(var(--k) * -.08s)}
+.fa22-shoot{animation:fa22Shoot 2s cubic-bezier(.3,0,.2,1) infinite}
+.fa22-sunrise{animation:fa22Rise 4.5s ease-in-out infinite alternate}
+.fa22-lid{animation:fa22Lid 3s ease-in-out infinite}
+.fa22-hop{animation:fa22HopX 2.4s ease-in-out infinite alternate}
+.fa22-splash{opacity:0;animation:fa22Splash 1.8s ease-out infinite;animation-delay:calc(var(--k) * .3s)}
+.fa22-page{transform-origin:0 50%!important;animation:cb22Page 3.6s ease-in-out infinite}
+.fa22-row{animation:fa22Row 1s ease-in-out infinite alternate}
+.fa22-roll{animation:cb22Spin 3s linear infinite}
+.fa22-thread{animation:cb22Blink 1.6s ease-in-out infinite alternate}
+.fa22-clash{animation:fa22Clash 1s ease-in-out infinite alternate}
+.fa22-clash--r{animation-name:fa22ClashR}
+.fa22-drip{animation:fa22Drip 2.2s ease-in infinite}
+.fa22-ears{animation:fa22Ears 2.2s ease-in-out infinite alternate}
+.fa22-trunk{transform-origin:50% 0!important;animation:fa22Trunk 2.6s ease-in-out infinite alternate}
+.fa22-beam{animation:cb22Blink 2s ease-in-out infinite alternate;animation-delay:calc(var(--k) * -.6s)}
+.fa22-write{animation:fa22Write .9s ease-in-out infinite alternate}
+.fa22-tick{animation:cb22Spin 4s steps(60) infinite}
+.fa22-slide{transform-box:view-box!important;animation:fa22Slide 3s linear infinite}
+.fa22-orbit{animation:cb22Spin 16s linear infinite}
+.fa22-orbit--r{animation-direction:reverse;animation-duration:20s}
+.fa22-orbit>g,.fa22-orbit>circle{transform-box:view-box}
+.fa22m{transform-box:fill-box;transform-origin:center}
+.fa22m--float{animation:fa22mFloat 3s ease-in-out infinite alternate}
+.fa22m--swing{transform-origin:50% 0;animation:cb22Swing 2.6s ease-in-out infinite alternate}
+.fa22m--beat{animation:cb22Beat 1.6s ease-in-out infinite}
+.fa22m--flip{animation:fa22mFlip 4.2s ease-in-out infinite}
+.fa22m--bounce{animation:fa22mBounce 1.4s cubic-bezier(.4,0,.6,1) infinite}
+.fa22m--wobble{animation:fa22mWobble 2.4s ease-in-out infinite}
+.fa22m--tilt{animation:fa22mTilt 3.4s ease-in-out infinite alternate}
+.fa22m--zoom{animation:fa22mZoom 2.6s ease-in-out infinite alternate}
+.fa22m--orbit{animation:fa22mOrbit 5s linear infinite}
+.fa22m--shake{animation:fa22mShake 2.8s ease-in-out infinite}
+.fa22m--drift{animation:fa22mDrift 3.6s ease-in-out infinite alternate}
+.fa22m--rock{transform-origin:50% 100%;animation:cb22Rock 2.2s ease-in-out infinite alternate}
+@keyframes fa22Light{0%,100%{opacity:.18}25%,75%{opacity:1}}
+@keyframes fa22Pop{0%{opacity:0;transform:translateY(0)}20%{opacity:1}55%{transform:translateY(-26px)}100%{opacity:0;transform:translateY(-6px)}}
+@keyframes fa22Shake{from{transform:rotate(-8deg)}to{transform:rotate(8deg)}}
+@keyframes fa22Shoot{0%{opacity:0;transform:translateX(-24px)}15%{opacity:1}70%{opacity:1;transform:translateX(26px)}100%{opacity:0;transform:translateX(30px)}}
+@keyframes fa22Rise{from{transform:translateY(16px)}to{transform:translateY(0)}}
+@keyframes fa22Lid{0%,30%{transform:rotate(0) translateY(0)}55%,80%{transform:rotate(-24deg) translateY(-8px)}100%{transform:rotate(0) translateY(0)}}
+@keyframes fa22HopX{0%{transform:translate(-12px,0)}25%{transform:translate(-6px,-12px)}50%{transform:translate(0,0)}75%{transform:translate(6px,-12px)}100%{transform:translate(12px,0)}}
+@keyframes fa22Splash{0%{opacity:0;transform:scale(.3)}30%{opacity:1}100%{opacity:0;transform:scale(1.1)}}
+@keyframes fa22Row{from{transform:rotate(-28deg)}to{transform:rotate(22deg)}}
+@keyframes fa22Clash{from{transform:rotate(-16deg)}to{transform:rotate(6deg)}}
+@keyframes fa22ClashR{from{transform:rotate(16deg)}to{transform:rotate(-6deg)}}
+@keyframes fa22Drip{0%{opacity:0;transform:translateY(-4px) scaleY(.6)}30%{opacity:1}100%{opacity:0;transform:translateY(16px) scaleY(1.2)}}
+@keyframes fa22Ears{from{transform:scaleX(1)}to{transform:scaleX(1.08)}}
+@keyframes fa22Trunk{from{transform:rotate(-8deg)}to{transform:rotate(10deg)}}
+@keyframes fa22Write{from{transform:translate(-8px,0) rotate(-4deg)}to{transform:translate(8px,3px) rotate(4deg)}}
+@keyframes fa22Slide{to{transform:translateX(28px)}}
+@keyframes fa22mFloat{from{transform:translateY(-5px)}to{transform:translateY(5px)}}
+@keyframes fa22mFlip{0%,20%{transform:scaleX(1)}50%,70%{transform:scaleX(-1)}100%{transform:scaleX(1)}}
+@keyframes fa22mBounce{0%,100%{transform:translateY(0) scale(1.05,.95)}50%{transform:translateY(-14px) scale(1)}}
+@keyframes fa22mWobble{0%,100%{transform:rotate(0)}20%{transform:rotate(-9deg)}40%{transform:rotate(7deg)}60%{transform:rotate(-4deg)}80%{transform:rotate(2deg)}}
+@keyframes fa22mTilt{from{transform:translateX(-4px) rotate(-8deg)}to{transform:translateX(4px) rotate(8deg)}}
+@keyframes fa22mZoom{from{transform:scale(.86)}to{transform:scale(1.1)}}
+@keyframes fa22mOrbit{0%{transform:translate(0,-5px)}25%{transform:translate(5px,0)}50%{transform:translate(0,5px)}75%{transform:translate(-5px,0)}100%{transform:translate(0,-5px)}}
+@keyframes fa22mShake{0%,60%,100%{transform:rotate(0)}65%{transform:rotate(-10deg)}70%{transform:rotate(10deg)}75%{transform:rotate(-8deg)}80%{transform:rotate(8deg)}85%{transform:rotate(-4deg)}90%{transform:rotate(0)}}
+@keyframes fa22mDrift{from{transform:translateX(-7px)}to{transform:translateX(7px)}}
+
+/* update 23: the whole intro is clickable; menu-bar sound switch */
+.sp22{cursor:pointer}
+.frs-hbtn svg{overflow:visible}
+.frs-hbtn__w,.frs-hbtn__x{transform-origin:16px 12px;transition:transform .3s ease,opacity .3s ease}
+.frs-hbtn.is-on .frs-hbtn__x{opacity:0;transform:scale(.4)}
+.frs-hbtn.is-off .frs-hbtn__w{opacity:0;transform:scale(.4)}
+.frs-hbtn.is-off{color:#6B7395}
+html[data-theme="dark"] body .frs-hbtn.is-off{color:#9AA3C7}
+.frs-hbtn:hover{transform:translateY(-1px)}
+@media (max-width:420px){.frs-hbtn{width:38px;height:38px}}
+@media (prefers-reduced-motion:reduce){.frs-hbtn__w,.frs-hbtn__x{transition:none}}
+/* update 26: 5-second countdown line under the hint; the intro opens the site by itself when it is full */
+.sp22__timer{display:block;width:min(220px,60vw);height:3px;margin:12px auto 0;border-radius:3px;background:#ffffff26;overflow:hidden}
+.sp22__timer i{display:block;height:100%;background:linear-gradient(90deg,#FFC27A,#9FE7DC);transform-origin:left center;transform:scaleX(0);animation:sp22Timer 5s linear forwards}
+@keyframes sp22Timer{to{transform:scaleX(1)}}

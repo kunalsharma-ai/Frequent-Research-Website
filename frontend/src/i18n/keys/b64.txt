@@ -1,0 +1,54 @@
+1	The challenge
+2	Capabilities
+3	listed activities
+4	Capability
+5	activities
+6	Activities
+7	Activities in our service catalogue
+8	Previous capability
+9	Next capability
+10	Stage
+11	← Previous stage
+12	Next stage →
+13	Monthly
+14	payroll cycle
+15	+ applicable GST
+16	inclusions
+17	Back to summary
+18	Suggested
+19	Compare every feature
+20	Highlight a plan
+21	Terms:
+22	Interactive tool
+23	Discuss your requirements
+24	Eligibility
+25	Show the offer
+26	Expand all
+27	answers
+28	Search the questions
+29	Request a tailored quote
+30	Custom quote · written before work begins
+31	What happens before you commit?
+32	View Plans
+33	Book a Free #-Minute Consultation
+34	Flip
+35	Show QR code
+36	Who it is for
+37	Go
+38	Commercial offers
+39	Who we support
+40	Scope
+41	Related services
+42	Discuss This Requirement
+43	Activities included in your engagement depend on the selected plan and written scope.
+44	Feature
+45	Price
+46	Price per return
+47	Our product
+48	Download
+49	Plan comparison from our published service packages. Anything not listed is confirmed in your engagement scope.
+50	Most popular
+51	See all
+52	Starting from
+53	Choose
+54	#-step process

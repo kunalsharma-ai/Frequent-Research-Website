@@ -1,0 +1,394 @@
+1	Phỏng vấn # phút
+2	(trên #)
+3	(mở trong thẻ mới)
+4	+# # # hoặc gõ Bỏ qua
+5	, và lưu thông tin của tôi như mô tả trong
+6	, chức danh
+7	, điểm đánh giá và nhận xét.
+8	. Bạn có thể thay đổi bất cứ lúc nào trước khi đăng.
+9	? Dùng thông tin khác
+10	Chuyên viên đã nhận yêu cầu của bạn
+11	Về trang này
+12	Sổ sách chính xác
+13	Insight có thể hành động
+14	Tất cả quốc gia
+15	Sắp xong rồi
+16	Hãy đánh giá chúng tôi trên Google nữa
+17	Bạn đang ở quốc gia nào?
+18	Và số điện thoại kèm mã quốc gia — hoặc gõ Bỏ qua.
+19	Bạn muốn bổ sung gì không?
+20	Lịch hẹn · #
+21	Hỏi trợ lý của chúng tôi
+22	Trợ lý đang nhập
+23	Quay lại
+24	Cân bằng
+25	Hãy là người đầu tiên
+26	Khách hàng tiềm năng tốt hơn
+27	PDF có thương hiệu · tạo ngay · có hình mờ
+28	Hòa vốn
+29	Đột phá
+30	Tôi có thể tải tình huống điển hình không? Làm sao nhận bản PDF?
+31	Đổi ngôn ngữ
+32	Đổi giao diện cho dịch vụ khác bạn đã chọn
+33	Kiểm tra hộp thư của bạn
+34	Chọn điểm từ # đến #.
+35	Chọn quốc gia của bạn.
+36	Mã sạch
+37	Ý kiến khách hàng
+38	Đang tăng
+39	Nghiên cứu lâm sàng · Tim mạch
+40	Đóng xem trước
+41	Thu gọn tất cả
+42	Tên công ty
+43	Tuân thủ đúng hạn
+44	Bảo mật và ẩn danh
+45	Đồng ý
+46	Quốc gia
+47	Mã quốc gia
+48	Chức danh
+49	Chức danh · Công ty
+50	Bỏ qua
+51	Có tài liệu giới thiệu cho từng dịch vụ không?
+52	Bác sĩ
+53	Tài liệu
+54	Sampledge có giảm giá gói năm không?
+55	Tải lại
+56	Tải
+57	Tải —
+58	Tải:
+59	Đã tải
+60	ESOMAR # là bộ # câu hỏi tiêu chuẩn mà người mua đặt ra cho nhà cung cấp mẫu trực tuyến về panel, nguồn, kiểm tra chất lượng và bảo vệ dữ liệu. Câu trả lời đầy đủ của chúng tôi được công bố trên trang ESOMAR #.
+61	Dễ theo dõi
+62	Sửa
+63	Sửa công ty và quốc gia
+64	Sửa tên và email
+65	Địa chỉ email
+66	Email và số điện thoại được giữ kín.
+67	Gửi PDF qua email cho tôi
+68	Gửi email cho chúng tôi
+69	Mã hóa
+70	Kỹ sư
+71	Nhập email hợp lệ, ví dụ ten@congty.com.
+72	Nhập số điện thoại hợp lệ.
+73	Nhập mã
+74	Nhập tên công ty.
+75	Nhập địa chỉ email.
+76	Nhập tên của bạn.
+77	Nhập họ và tên.
+78	Nhập họ của bạn.
+79	Nhập số điện thoại.
+80	Xuất sắc
+81	Nghiên cứu chuyên gia · Người ra quyết định B#B
+82	Tạm được
+83	Ghi chú thực địa
+84	Khảo sát thực địa hoàn thành đúng tiến độ.
+85	Khai báo và tuân thủ luôn đúng hạn.
+86	Câu trả lời về tài chính
+87	Tìm chúng tôi trên Google
+88	Tên
+89	Cờ sẽ xuất hiện ở đây khi người đánh giá thêm quốc gia.
+90	Việc theo dõi sau bàn giao có thể tốt hơn.
+91	Dành cho người làm chuyên môn
+92	Dành cho người chăm sóc
+93	Dành cho bác sĩ, điều dưỡng và nhân viên y tế
+94	Dành cho bác sĩ, chuyên gia, điều dưỡng và dược sĩ
+95	Dành cho người tiêu dùng
+96	Ví dụ: ten@congty.com
+97	Dành cho người nhà và người chăm sóc người thân
+98	Dành cho quản lý, chuyên gia và người ra quyết định
+99	Dành cho bệnh nhân
+100	Dành cho người đang sống chung với bệnh
+101	Định dạng
+102	Sáng tạo mới mẻ
+103	Họ và tên
+104	Phù hợp GDPR
+105	Mục tiêu, đối tượng, thị trường hoặc tiến độ…
+106	Tốt
+107	Điều nên biết
+108	Nghiên cứu chính phủ và dư luận
+109	Vững chắc
+110	Hướng dẫn
+111	Đối tượng khó tiếp cận
+112	Xin chào! Bạn muốn biết điều gì? Hãy hỏi bằng lời của bạn — ví dụ “Một khảo sát trực tuyến tốn bao nhiêu?”
+113	Xin chào 👋
+114	Báo cáo trung thực
+115	Làm sao để đánh giá Frequent Research?
+116	Quá trình phát triển diễn ra thế nào?
+117	Việc nhận được điều trị cần thiết dễ đến mức nào?
+118	Chúng tôi đã đưa thương hiệu của bạn đi xa đến đâu?
+119	Các con số của bạn lành mạnh đến mức nào?
+120	Insight mạnh đến mức nào?
+121	Tôi đồng ý để Frequent Research liên hệ với tôi về lượt tải này và lưu thông tin của tôi như mô tả trong
+122	Tôi xác nhận đánh giá này mô tả trải nghiệm của chính tôi, và tôi đồng ý để Frequent Research đăng trên website này kèm tên, quốc gia
+123	Tôi không tìm thấy quốc gia đó. Vui lòng gõ tên, ví dụ Ấn Độ hoặc Vương quốc Anh.
+124	Tôi chưa có câu trả lời được công bố cho câu này — chuyên viên sẽ xử lý.
+125	Tôi không hoàn toàn chắc, nhưng các trang này gần nhất với câu hỏi của bạn:
+126	Vào quỹ đạo
+127	Thua lỗ
+128	Chưa kết luận
+129	Câu hỏi ngành
+130	Nội dung sổ tay
+131	Có phải
+132	Thường bao gồm
+133	Vừa xong
+134	Giữ ngôn ngữ này
+135	Không quá # ký tự.
+136	Tên không quá # ký tự.
+137	Đánh giá không quá # ký tự.
+138	Ngôn ngữ
+139	Họ
+140	Để tôi kết nối bạn với chuyên viên — điền thẻ ngắn này và chúng tôi sẽ trả lời qua email, thường trong một ngày làm việc.
+141	Cất cánh
+142	Đang tải sổ tay panel…
+143	Dịch máy · Cung cấp bởi Google Dịch
+144	Người làm marketing
+145	Thuốc · #
+146	Đạt các mốc
+147	Các mốc được bàn giao đúng hạn.
+148	Trễ tiến độ
+149	Thêm biên lai
+150	Hiển thị nhiều hơn
+151	Cần theo dõi
+152	Không bao giờ công khai.
+153	Không bao giờ chia sẻ hay bán
+154	Bài đăng mới
+155	Không có quốc gia khớp với “
+156	Không có ngôn ngữ khớp với “
+157	Không sao. Hãy hỏi điều khác — hoặc chạm “Trao đổi với chuyên viên” khi bạn sẵn sàng.
+158	Không sao. Bạn đang ở quốc gia nào?
+159	Không có câu hỏi khớp với “
+160	Chưa có đánh giá nào khớp với bộ lọc này.
+161	Không, cảm ơn
+162	Không, gửi luôn
+163	Không
+164	Để sau
+165	Cho tôi biết họ tên của bạn để chuyên viên có thể liên hệ nhé?
+166	Điều dưỡng
+167	Thực địa đúng hạn
+168	Một
+169	Kiểm tra lần cuối rồi đăng
+170	Một điểm tổng cho trải nghiệm của bạn
+171	Một bước kiểm tra bảo mật và PDF tải về ngay.
+172	Đã tối ưu
+173	Không bắt buộc · không bao giờ công khai.
+174	Quốc gia khác
+175	Các panel của chúng tôi
+176	Khả năng hiển thị tìm kiếm của chúng tôi đã cải thiện.
+177	Chuyên viên sẽ tiếp nhận — bạn sẽ nhận phản hồi qua email.
+178	Bản dịch của chúng tôi, được bổ sung bởi trình dịch tích hợp của trình duyệt
+179	Trợ giúp thành viên panel
+180	Dược sĩ
+181	Điện thoại / WhatsApp
+182	Mã quốc gia điện thoại
+183	Số điện thoại
+184	Chọn ít nhất một dịch vụ bạn đang đánh giá.
+185	Vui lòng email
+186	Vui lòng kèm mã quốc gia, ví dụ +# # # — hoặc gõ Bỏ qua.
+187	Vui lòng không chèn liên kết web.
+188	Vui lòng đánh dấu đồng ý trước khi tải.
+189	Vui lòng đánh dấu đồng ý trước khi đăng.
+190	Vui lòng thử lại, hoặc email
+191	Vui lòng dùng email công việc hoặc cá nhân lâu dài.
+192	Kém
+193	Chuẩn bị cho
+194	Đang chuẩn bị PDF…
+195	Biên lai trước
+196	Đang in “
+197	Riêng tư
+198	Riêng tư và tôn trọng
+199	Tư vấn chủ động
+200	Bảo mật nghề nghiệp
+201	Có lãi
+202	Cập nhật tiến độ có thể thường xuyên hơn.
+203	Tiến độ dễ theo dõi.
+204	Đăng đánh giá của tôi
+205	Đã đăng
+206	Đang đăng…
+207	Mã QR dẫn tới Hồ sơ doanh nghiệp trên Google của Frequent Research Fieldwork Solutions Pvt. Ltd.
+208	Mã QR với
+209	Mã QR
+210	Có câu hỏi về nghiên cứu, marketing, công nghệ hoặc tài chính? Hỏi tôi — tôi trả lời ngay.
+211	Câu hỏi được trả lời nhanh.
+212	Cụm từ nhanh — chạm để thêm vào đánh giá
+213	Trả lời nhanh
+214	Đánh giá ngay
+215	Đánh giá chúng tôi trong chưa đầy một phút — đánh giá của bạn được đưa thẳng vào mục ý kiến khách hàng.
+216	Đọc bằng
+217	Đọc câu trả lời đầy đủ tại
+218	Câu hỏi của độc giả
+219	Sẵn sàng · #/#
+220	Câu hỏi liên quan
+221	Trả lời qua email · thường trong một ngày làm việc
+222	Báo cáo ngắn gọn, rõ ràng và trung thực.
+223	Panel nghiên cứu
+224	Phản hồi nhanh
+225	Đã gửi đánh giá
+226	Người đánh giá
+227	Được thưởng cho thời gian của bạn
+228	Thưởng cho hiểu biết của bạn
+229	Tìm quốc gia
+230	Tìm quốc gia hoặc mã
+231	Phần theo ngành
+232	Kiểm tra bảo mật
+233	Chọn quốc gia
+234	Gửi cho chuyên viên
+235	Đang gửi…
+236	Đã gửi tới
+237	Đã gửi vào hộp thư của bạn
+238	Chia sẻ trải nghiệm ✓
+239	Chia sẻ thực tế chăm sóc người khác để dịch vụ, hỗ trợ và sản phẩm được thiết kế theo nhu cầu thật.
+240	Chia sẻ hiểu biết trong các nghiên cứu cho thương hiệu, công ty và nghiên cứu B#B — và nhận thưởng cho thời gian của bạn.
+241	Chia sẻ trải nghiệm bằng lời của bạn…
+242	Kể câu chuyện theo cách của bạn
+243	Bàn giao hoàn hảo
+244	Buổi ngắn, có lịch hẹn
+245	Hiện mã bảo mật mới
+246	Xem thêm đánh giá
+247	Hiển thị dạng bộ thẻ trả lời khảo sát
+248	Hiển thị dạng bảng tin mạng xã hội
+249	Hiển thị dạng nhật ký terminal
+250	Hiển thị dạng biên lai in
+251	Bỏ qua
+252	Vút cao
+253	Cập nhật chậm
+254	Để chúng tôi theo dõi phù hợp thị trường của bạn — không bao giờ spam.
+255	Insight vững chắc
+256	Hỗ trợ vững chắc
+257	Có tín hiệu
+258	Một số mốc thời gian bị trễ.
+259	Xin lỗi, hiện tôi không liên hệ được với đội ngũ. Vui lòng thử lại hoặc dùng email / WhatsApp.
+260	Xin lỗi, tôi chưa hiểu. Bạn có thể chỉ gõ họ tên không? Ví dụ: Asha Rao
+261	Âm thanh tắt
+262	Nguồn
+263	Chuyên viên
+264	Khớp chuyên khoa
+265	Nghiên cứu theo chuyên khoa
+266	Phần mềm ổn định
+267	Tuyên bố
+268	Bước # · Bằng lời của bạn
+269	Bước # · Điểm của bạn
+270	Bước # · Huy hiệu người đánh giá
+271	Insight mạnh
+272	Nghiên cứu phù hợp vai trò của bạn
+273	Câu hỏi gợi ý
+274	Hỗ trợ sau khi ra mắt rất tốt.
+275	Tham gia các nghiên cứu y tế phù hợp chuyên khoa và kinh nghiệm, và nhận thưởng cho thời gian chuyên môn của bạn.
+276	Tham gia khi thuận tiện
+277	Chạm để đánh giá · # đến #
+278	Hãy cho các nhà nghiên cứu biết thực sự sống chung với bệnh là như thế nào — tiếng nói của bạn giúp cải thiện điều trị và chăm sóc cho mọi người.
+279	Cảm ơn
+280	Cảm ơn — câu trả lời của bạn là ẩn danh.
+281	Cảm ơn bạn đã ghé thăm — chúc một ngày tốt lành!
+282	Cảm ơn! Ngắn gọn, bạn cần gì — mục tiêu, đối tượng, thị trường hay tiến độ?
+283	Cảm ơn! Số điện thoại hoặc WhatsApp kèm mã quốc gia nếu bạn muốn được gọi — ví dụ +# # #. Bạn có thể bỏ qua.
+284	Mã không khớp. Thử lại hoặc chạm ↻ để lấy mã mới.
+285	Trang Tải về có sổ tay panel cho mỗi quốc gia chúng tôi lập hồ sơ — một bản doanh nghiệp (B#B) và một bản người tiêu dùng (B#C) — cùng tài liệu giới thiệu bốn dịch vụ. Chọn quốc gia, điền vài thông tin và PDF tải về ngay.
+286	Không thể tạo PDF trên trình duyệt này. Vui lòng thử lại hoặc gửi thư tới info@frequentresearch.com.
+287	Công cụ PDF chưa tải được. Hãy làm mới trang và thử lại.
+288	Sổ sách chính xác.
+289	Mã sạch và dễ bảo trì.
+290	Ý tưởng sáng tạo nổi bật.
+291	Dữ liệu sạch và sẵn sàng sử dụng.
+292	Đã hủy tải. Dùng “Tải lại” khi bạn sẵn sàng.
+293	Kết quả rõ ràng và có thể hành động.
+294	Khách hàng tiềm năng rất phù hợp với chúng tôi.
+295	Báo cáo hằng tháng cho biết cần sửa gì.
+296	Không thể tải danh sách sổ tay panel. Hãy làm mới trang hoặc gửi thư tới info@frequentresearch.com.
+297	Phạm vi có thể được xác định rõ hơn ngay từ đầu.
+298	Mã bảo mật vẫn đang tải.
+299	Phần mềm ổn định và được xây dựng tốt.
+300	Đội ngũ phản hồi nhanh.
+301	Họ bao quát mọi thị trường chúng tôi cần.
+302	Họ cảnh báo vấn đề trước khi chúng xảy ra.
+303	Họ tiếp cận được đối tượng chúng tôi khó tìm.
+304	Tài liệu này chưa có.
+305	Không thể tải sổ tay panel này. Vui lòng thử lại.
+306	Ba thông tin nhanh và bản của bạn đang trên đường tới.
+307	Lợi nhuận cao nhất
+308	Do đội ngũ Frequent Research dịch
+309	Tin cậy và quyền riêng tư
+310	Bật âm thanh trò chuyện
+311	Nhập các ký tự trong hình
+312	Nhập mã
+313	Nhập mã bảo mật hiển thị.
+314	Phạm vi chưa rõ
+315	Mở khóa
+316	Mở khóa và tải
+317	Mở khóa bản của bạn
+318	Đã mở khóa — PDF đã sẵn sàng
+319	Chỉ dùng chữ cái (được dùng khoảng trắng, dấu chấm, dấu nháy và gạch nối).
+320	Chỉ dùng chữ cái.
+321	MIS hữu ích
+322	Chuyên gia đã xác minh
+323	Panel đã xác minh, bảo mật
+324	Rất tốt
+325	Xem Hồ sơ doanh nghiệp Google của chúng tôi
+326	Có hình mờ
+327	Chúng tôi lắng nghe bạn.
+328	Chào mừng trở lại,
+329	Các bạn cung cấp dịch vụ CNTT và phát triển phần mềm nào?
+330	Các bạn cung cấp dịch vụ kế toán và tài chính nào?
+331	Các bạn cung cấp dịch vụ marketing số nào?
+332	Bảng câu hỏi ESOMAR # là gì?
+333	Lịch sử của Frequent Research thế nào? Thành lập khi nào?
+334	Các bạn cung cấp dịch vụ nghiên cứu thị trường nào?
+335	Chúng tôi nên cải thiện điều gì?
+336	Điều gì nổi bật?
+337	Điều gì sẽ khiến trải nghiệm tuyệt vời hơn?
+338	Tôi có thể lấy sổ tay panel B#B hoặc người tiêu dùng của một quốc gia ở đâu?
+339	Bạn làm việc ở đâu?
+340	Ai đang đọc?
+341	Ai đang viết đánh giá này?
+342	Công việc
+343	Email công việc
+344	Đã từng làm việc với Frequent Research?
+345	Đã từng làm việc với đội
+346	Viết đánh giá Google
+347	Viết ít nhất # ký tự (#/#).
+348	Viết đánh giá đầu tiên
+349	Có — thanh toán theo năm trên Sampledge tiết kiệm #% so với trả hằng tháng trong mười hai tháng. Giá và gói có trên trang Sampledge, và mỗi nút gói sẽ đưa bạn tới website Sampledge.
+350	Có. Mỗi tình huống điển hình trên các trang Ngành và tình huống điển hình đều có nút Tải PDF. Điền vài thông tin và bản PDF có hình mờ sẽ tải về ngay.
+351	Có. Trang Tải về có tài liệu riêng cho Nghiên cứu thị trường, Marketing số, CNTT và phát triển, Tài chính và kế toán.
+352	Bạn chăm sóc họ.
+353	Không có gì! Tôi có thể giúp gì thêm?
+354	PDF của bạn đang tải. Kiểm tra mục tải xuống của trình duyệt nếu không tự mở.
+355	Trình duyệt của bạn
+356	Hiểu biết lâm sàng của bạn
+357	Quốc gia của bạn
+358	Thông tin bạn nhập trước đó trong lượt truy cập này đã sẵn sàng — một cú nhấp cho “
+359	Trải nghiệm của bạn có thể
+360	Trải nghiệm của bạn quan trọng
+361	Chuyên môn của bạn,
+362	Tên cần ít nhất # chữ cái.
+363	Họ và tên của bạn
+364	Tên của bạn
+365	Tên cần ít nhất # chữ cái.
+366	Câu hỏi của bạn
+367	Điểm của bạn trên #
+368	Không thể gửi yêu cầu của bạn.
+369	Đánh giá của bạn
+370	Đánh giá của bạn (bắt buộc)
+371	Tóm tắt đánh giá
+372	Không thể gửi đánh giá của bạn.
+373	Đánh giá của bạn đã đến đội ngũ và bạn đã có thể thấy nó trong mục Ý kiến khách hàng.
+374	Chúng tôi đã nhận đánh giá. Đánh giá sẽ xuất hiện trong mục ý kiến khách hàng sau khi được kiểm tra.
+375	Đánh giá của bạn đã hiển thị trong mục ý kiến khách hàng và trang Đánh giá.
+376	và công ty
+377	qua email
+378	tên công ty
+379	ngày trước
+380	cải thiện y tế.
+381	chưa có đánh giá
+382	để sau
+383	trên # từ
+384	sổ tay panel
+385	chính sách quyền riêng tư
+386	bảng hồ sơ
+387	đánh giá
+388	phần theo ngành
+389	góp phần chăm sóc tốt hơn.
+390	? Đánh giá của bạn có thể là đầu tiên.
+391	cùng các đội bạn đã chọn
+392	· có hình mờ
+393	” kèm tên của bạn.
+394	”. Chọn “Quốc gia khác” để nhập mã.

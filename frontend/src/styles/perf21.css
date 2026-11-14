@@ -1,0 +1,11 @@
+/* Build 65 update 21 — speed pass (Kunal: "lagging, hanging, glitches").
+   1. Hidden hero slides no longer run their loops (they were ticking every frame while invisible).
+   2. The review badge's text ring turns as one composited layer (the SVG itself spun before, which re-laid out the
+      button every frame on every page).
+   3. Small "live" dots pulse with opacity instead of animated box-shadows (repainted every frame). */
+.hz-slide:not(.is-on) *,.hz-slide:not(.is-on) *::before,.hz-slide:not(.is-on) *::after{animation-play-state:paused!important}
+.rv-fab__spin{position:absolute;inset:0;display:block;animation:rvFabSpin 14s linear infinite;will-change:transform}
+.rv-fab__spin .rv-fab__ring{animation:none!important}
+.fc-launch__t small i{animation:fr21Blink 2s ease-in-out infinite!important;box-shadow:0 0 0 3px rgba(46,230,166,.25)!important}
+@keyframes fr21Blink{50%{opacity:.35}}
+@media (prefers-reduced-motion:reduce){.rv-fab__spin{animation:none}}

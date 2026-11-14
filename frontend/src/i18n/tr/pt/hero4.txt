@@ -1,0 +1,40 @@
+1	Campo ao vivo
+2	# países
+3	Composição da amostra
+4	Profissionais
+5	Médicos
+6	Controle de cotas
+7	Online
+8	Presencial
+9	melhor parceiro perto de mim
+10	Sua marca
+11	Primeiro resultado · # ★
+12	Funil
+13	Engajar
+14	Converter
+15	Canais
+16	Avaliação # estrelas
+17	Arquitetura
+18	Pipeline
+19	Varredura de segurança
+20	Deploy
+21	Fluxo de caixa
+22	Receita
+23	Custos
+24	Líquido
+25	Conformidade
+26	Livros conciliados
+27	Banco · GST · Razão
+28	Fatura
+29	Paga
+30	Divulgar
+31	Equilibrar
+32	Atrair
+33	Planejar
+34	Lançar
+35	Registrar
+36	Cumprir
+37	Aconselhar
+38	# serviços
+39	Slide anterior
+40	Próximo slide

@@ -1,0 +1,71 @@
+1	QR & Connect
+2	Scan to follow us, our panels and Sampledge.
+3	Switch to dark theme
+4	Switch to light theme
+5	Dark theme
+6	Light theme
+7	Sound familiar?
+8	Hover or tap a receipt to see how we help.
+9	How we help
+10	What's included
+11	How we work
+12	Plans & pricing
+13	Most popular
+14	Essential
+15	Growth
+16	Premium
+17	Compare all features
+18	Hide the full comparison
+19	Key deliverables
+20	Not included
+21	Good to know
+22	Who we work with
+23	Built for your kind of business
+24	Pairs well with
+25	Related finance services
+26	Book a free 20-minute consultation
+27	See plans & pricing
+28	How pricing works
+29	Plans from
+30	Plans starting from
+31	Starting from
+32	excl. GST
+33	capability areas
+34	activities covered
+35	transparent plans
+36	step process
+37	Custom quote
+38	Offers do not stack. Eligibility is confirmed in your proposal.
+39	Book my free call
+40	Clarity in every number starts with one conversation
+41	Price explorer
+42	Transparent plans, side by side
+43	Bundles
+44	Launch offers
+45	No surprises
+46	Clear commercial terms
+47	Why it matters
+48	Four teams of expertise
+49	/month
+50	/year
+51	/return
+52	/project
+53	Books & Reporting
+54	Tax & Compliance
+55	Planning & Funding
+56	Strategic Finance
+57	Choose
+58	Show QR
+59	Official panel
+60	Scan to follow
+61	WhatsApp support
+62	Every panel.
+63	Every profile. One scan.
+64	Pick a panel to see its website, social profiles and WhatsApp support — each with its own QR code.
+65	panel QR codes
+66	All our panels in one place:
+67	02 · Our research panels
+68	finance services
+69	clear plans each
+70	free discovery call
+71	Explore

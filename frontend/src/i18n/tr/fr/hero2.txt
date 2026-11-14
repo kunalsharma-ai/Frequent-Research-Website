@@ -1,0 +1,57 @@
+1	Écoutez chaque voix qui compte.
+2	D'une question à une décision sûre.
+3	Enquêtes, panels et insights dans #+ marchés
+4	Rejoignez nos panels : votre avis est récompensé
+5	Être trouvé. Être aimé. Être choisi.
+6	Des campagnes qui transforment les scrolleurs en clients.
+7	SEO, publicité, réseaux sociaux et marketing à la performance
+8	Des contenus qui arrêtent vraiment vos clients
+9	Des idées en entrée. Du logiciel en sortie.
+10	Sites, applis et plateformes conçus pour grandir.
+11	Web, mobile, SaaS, cloud et IA
+12	Des expériences que vos utilisateurs aiment chaque jour
+13	Des chiffres qui tombent juste. Toujours.
+14	Comptes propres, conformité à l'heure, décisions claires.
+15	Comptabilité, GST, paie, fiscalité et DAF externalisé
+16	La sérénité pour les fondateurs et leurs équipes
+17	Pour les entreprises
+18	Pour les consommateurs et les professionnels
+19	Pour votre audience
+20	+# de plus
+21	Découvrir les Études de marché
+22	Découvrir le Marketing digital
+23	Découvrir l'IT et le développement
+24	Découvrir la Comptabilité et la finance
+25	Lire dans votre langue
+26	
+27	Marketing
+28	
+29	Acheteur
+30	
+31	Étudiant
+32	Parent
+33	Ingénieur
+34	
+35	Insight prêt
+36	Décision
+37	Quanti
+38	Quali
+39	Panels
+40	Nouveau lead
+41	Post partagé
+42	Paiement
+43	Acheter
+44	Cloud
+45	Interface
+46	Build
+47	Test
+48	En ligne
+49	Grand livre
+50	Comptabilité
+51	Paie
+52	
+53	Rapproché ✓
+54	Mettre en pause
+55	Lire les diapositives
+56	Choisir un service
+57	Nos services

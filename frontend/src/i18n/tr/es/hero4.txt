@@ -1,0 +1,40 @@
+1	Trabajo de campo en vivo
+2	# países
+3	Composición de la muestra
+4	Profesionales
+5	Médicos
+6	Control de cuotas
+7	Online
+8	Presencial
+9	mejor socio cerca de mí
+10	Su marca
+11	Primer resultado · # ★
+12	Embudo
+13	Interactuar
+14	Convertir
+15	Canales
+16	Reseña de # estrellas
+17	Arquitectura
+18	Pipeline
+19	Análisis de seguridad
+20	Despliegue
+21	Flujo de caja
+22	Ingresos
+23	Costes
+24	Neto
+25	Cumplimiento
+26	Libros conciliados
+27	Banco · GST · Mayor
+28	Factura
+29	Pagada
+30	Promover
+31	Cuadrar
+32	Atraer
+33	Planificar
+34	Lanzar
+35	Registrar
+36	Cumplir
+37	Asesorar
+38	# servicios
+39	Diapositiva anterior
+40	Diapositiva siguiente

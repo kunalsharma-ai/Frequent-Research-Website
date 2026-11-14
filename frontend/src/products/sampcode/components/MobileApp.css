@@ -1,0 +1,99 @@
+.mob {
+  overflow: hidden;
+  background: radial-gradient(ellipse 50% 60% at 75% 50%, rgba(34, 211, 238, 0.13), transparent 70%);
+}
+.mob-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: clamp(30px, 5vw, 80px);
+  align-items: center;
+}
+.mob-points {
+  list-style: none;
+  padding: 0;
+  margin: 30px 0 0;
+  display: grid;
+  gap: 12px;
+}
+.mob-points li {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.mob-points svg {
+  color: var(--cyan);
+}
+.mob-stores {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+}
+.mob-stores span {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  padding: 10px 18px;
+  border-radius: 14px;
+  border: 1px solid var(--line-strong);
+  background: rgba(255, 255, 255, 0.04);
+  font-weight: 600;
+}
+.mob-phones {
+  position: relative;
+  height: 640px;
+}
+.mob-phone {
+  position: absolute;
+  width: 250px;
+}
+.mob-phone.p0 {
+  left: 0;
+  top: 60px;
+  z-index: 1;
+}
+.mob-phone.p1 {
+  left: 50%;
+  margin-left: -135px;
+  width: 270px;
+  top: 0;
+  z-index: 2;
+}
+.mob-phone.p2 {
+  right: 0;
+  top: 90px;
+  z-index: 1;
+}
+.mob-phone.p0 .phone,
+.mob-phone.p2 .phone {
+  filter: brightness(0.75);
+}
+@media (max-width: 980px) {
+  .mob-grid {
+    grid-template-columns: 1fr;
+  }
+  .mob-phones {
+    height: 520px;
+    max-width: 520px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .mob-phone {
+    width: 190px;
+  }
+  .mob-phone.p1 {
+    width: 210px;
+    margin-left: -105px;
+  }
+}
+@media (max-width: 480px) {
+  .mob-phones {
+    height: 420px;
+  }
+  .mob-phone {
+    width: 140px;
+  }
+  .mob-phone.p1 {
+    width: 170px;
+    margin-left: -85px;
+  }
+}

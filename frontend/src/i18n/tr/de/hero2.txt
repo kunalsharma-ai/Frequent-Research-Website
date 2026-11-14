@@ -1,0 +1,57 @@
+1	Hören Sie jede Stimme, die zählt.
+2	Von einer Frage zu einer sicheren Entscheidung.
+3	Umfragen, Panels und Insights in #+ Märkten
+4	Machen Sie bei unseren Panels mit – Ihre Meinung zahlt sich aus
+5	Gefunden werden. Geliebt werden. Gewählt werden.
+6	Kampagnen, die aus Scrollern Kunden machen.
+7	SEO, Anzeigen, Social Media und Performance-Marketing
+8	Inhalte, bei denen Ihre Kunden wirklich stehen bleiben
+9	Ideen rein. Software raus.
+10	Websites, Apps und Plattformen, gebaut zum Skalieren.
+11	Web, Mobile, SaaS, Cloud und KI
+12	Erlebnisse, die Ihre Nutzer jeden Tag genießen
+13	Zahlen, die aufgehen. Immer.
+14	Saubere Bücher, pünktliche Compliance, klare Entscheidungen.
+15	Buchhaltung, GST, Lohn, Steuern und virtueller CFO
+16	Sorgenfreiheit für Gründer und ihre Teams
+17	Für Unternehmen
+18	Für Verbraucher und Fachleute
+19	Für Ihre Zielgruppe
+20	+# weitere
+21	Marktforschung entdecken
+22	Digitalmarketing entdecken
+23	IT & Entwicklung entdecken
+24	Buchhaltung & Finanzen entdecken
+25	In Ihrer Sprache lesen
+26	
+27	Marketing
+28	
+29	Käufer
+30	
+31	Student
+32	Eltern
+33	Ingenieur
+34	
+35	Insight bereit
+36	Entscheidung
+37	Quanti
+38	Quali
+39	Panels
+40	Neuer Lead
+41	Beitrag geteilt
+42	Kasse
+43	Jetzt kaufen
+44	Cloud
+45	Oberfläche
+46	Build
+47	Test
+48	Live
+49	Hauptbuch
+50	Buchhaltung
+51	Lohn
+52	
+53	Abgestimmt ✓
+54	Slides pausieren
+55	Slides abspielen
+56	Leistung wählen
+57	Unsere Leistungen

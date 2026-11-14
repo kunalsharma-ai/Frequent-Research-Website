@@ -1,0 +1,693 @@
+1	# de # estrellas
+2	# paneles
+3	# agencias distintas
+4	# equipos especializados
+5	De # a hoy: paneles, salud, TI y más.
+6	Respuesta en # día hábil
+7	e inteligencia de audiencias
+8	(se abre
+9	, una marca de
+10	. Todos los derechos reservados.
+11	Un mensaje de nuestro Director General, Fundador y CEO
+12	Responde un especialista
+13	Un negocio exitoso no se construye en un solo paso.
+14	Una comunidad mundial de encuestas con un umbral de canje bajo.
+15	Soluciones de IA y automatización
+16	Desarrollo e integración de API
+17	Nosotros
+18	Sobre nosotros
+19	Servicios de contabilidad y teneduría de libros
+20	Consultoría contable y financiera
+21	Contabilidad y finanzas
+22	Publicidad
+23	Aeroespacial
+24	Plazos acordados
+25	Agricultura
+26	Todos
+27	Todas las opiniones
+28	Además, ¿puede su equipo gestionar la campaña de LinkedIn para el lanzamiento?
+29	Una visión general de Frequent Research: servicios, productos, paneles y equipos.
+30	Analizar
+31	Análisis
+32	Responda encuestas breves desde su móvil o portátil y reciba recompensas por cada opinión que comparta.
+33	Las respuestas provienen de nuestro sitio web. Al chatear acepta nuestra
+34	Solicitud
+35	Mantenimiento y soporte de aplicaciones
+36	Mantenimiento y soporte de aplicaciones: software empresarial fiable mientras crece
+37	Aplicar control de calidad, verificación y validación de datos.
+38	Apps · web · nube · pruebas
+39	¿Tienen certificación ISO?
+40	Armas y equipos de seguridad
+41	Al crecer hacia el marketing, la tecnología y las finanzas, ese principio no ha cambiado. Necesite lo que necesite, trabajará con personas que escuchan primero, explican con claridad y le acompañan mucho después de terminar el proyecto.
+42	Pregunte ahora
+43	Pregunte lo que quiera…
+44	Pregúntenos lo que quiera
+45	Asistente · respuestas de nuestro sitio web
+46	En Frequent Research creemos que una investigación sólida se basa en dos pilares: la tecnología y las personas.
+47	Viabilidad de audiencia
+48	Apoyo en auditoría y cumplimiento
+49	Automatizar procesos
+50	Automatización
+51	Automoción
+52	Panel B#B y del sector público
+53	Marketing digital B#B
+54	Audiencias B#B
+55	Audiencias B#B por cargo, nivel, sector y tamaño de empresa.
+56	Patatas horneadas
+57	Opinión de beneficiarios
+58	Blog
+59	Blogs
+60	Contabilidad · impuestos · nóminas · CFO virtual
+61	Radiodifusión
+62	Presupuestos y previsión financiera
+63	Definir la metodología, la audiencia y el enfoque de investigación adecuados.
+64	Gane visibilidad, atraiga audiencias cualificadas, genere leads y convierta el tráfico digital en crecimiento medible.
+65	Construya. Crezca. Escale.
+66	Desarrollado internamente por nuestro equipo de investigación
+67	Servicios de finanzas empresariales
+68	Panel de profesionales
+69	Libro del panel de profesionales
+70	Valoración de empresas
+71	Profesionales
+72	Enfoque orientado al negocio
+73	Empresas y
+74	Las empresas suelen contratar agencias distintas para investigación, marketing, tecnología y finanzas. Nosotros las reunimos.
+75	Empresas:
+76	CAPI · CATI · Online · Presencial
+77	CATI — Entrevista telefónica asistida por ordenador
+78	Desarrollo de CRM
+79	¿Puedo unirme a su panel de investigación?
+80	Solicitud de empleo
+81	Empleo
+82	Cuidador
+83	Cuidadores
+84	Certificado
+85	Certificados y responsables
+86	Sistemas de gestión certificados en investigación de mercados, calidad y seguridad de la información, y miembro corporativo de ESOMAR.
+87	Chat
+88	Chatee con Frequent Research
+89	Chatee con nosotros
+90	Química
+91	Elija un directivo
+92	Elija un equipo
+93	Elija su idioma
+94	Investigación de satisfacción ciudadana
+95	Miembros del panel ciudadano (B#C)
+96	Canjear recompensas
+97	Comunicación clara
+98	Valoraciones y opiniones de clientes para cada servicio.
+99	Voces de clientes
+100	Clientes
+101	Clientes que repiten
+102	Cerrar
+103	Cerrar chat
+104	Cerrar menú
+105	Cerrar búsqueda
+106	Cerrar el formulario de opinión
+107	Servicios de nube y DevOps
+108	Recoger
+109	Comunidades que gestionamos
+110	Empresa
+111	Folleto corporativo
+112	Comparar
+113	Complete su perfil
+114	Conecte con audiencias de consumidores, B#B y salud para reclutamiento y muestras de investigación, y construya proyectos en torno a las personas que importan a su negocio.
+115	Conecte con los encuestados adecuados gracias a nuestra capacidad global de paneles y trabajo de campo.
+116	Construcción
+117	Consumidor
+118	Panel de investigación de consumidores y profesionales
+119	Panel de consumidores
+120	Libro del panel de consumidores
+121	Audiencias de consumidores
+122	Consumidores
+123	Contacto
+124	Marketing de contenidos
+125	Controlar
+126	Controlar → Informes → Claridad financiera
+127	Política de cookies
+128	Copiar dirección de correo
+129	Copiar número de teléfono
+130	Asesoría de finanzas corporativas
+131	Ilustración de portada de “Mantenimiento y soporte de aplicaciones: software empresarial fiable mientras crece”
+132	Ilustración de portada de “Consultoría TI para empresas en crecimiento: decisiones tecnológicas con confianza”
+133	Ilustración de portada de “Planificación de inversiones para empresas y propietarios: poner a trabajar los excedentes con sensatez”
+134	Ilustración de portada de “Mantenimiento y soporte web: un sitio rápido, seguro y operativo cada día”
+135	Servicios creativos
+136	Cultura y patrimonio
+137	Aplicaciones empresariales a medida
+138	Desarrollo de software a medida
+139	Servicios de ciberseguridad
+140	Plataforma DIY
+141	Datos
+142	Desarrollo de análisis de datos y paneles
+143	Procesamiento y análisis de datos
+144	Protección de datos
+145	Datos perdidos entre agencias
+146	Datos → Investigación → Insights
+147	Responsables de decisiones
+148	Defensa
+149	Entregar
+150	Diseño
+151	Diseñamos y desarrollamos sitios web, software, apps móviles, plataformas SaaS, paneles, soluciones de IA y aplicaciones empresariales.
+152	Devashish Roy en LinkedIn (se abre en una nueva pestaña)
+153	Devashish Roy, Director de TI y RR. HH.
+154	Desarrollar tecnología
+155	Desarrollar una plataforma de software
+156	Digital
+157	Analítica digital e informes
+158	Marketing digital
+159	Auditoría de marketing digital
+160	Consulta de marketing digital
+161	Consultoría de marketing digital
+162	Marketing digital
+163	Director de TI y RR. HH.
+164	Director de Gestión de Proyectos y Suministro
+165	Hable de su necesidad de investigación
+166	Hable de un proyecto de TI
+167	¿Trabajan con médicos y profesionales sanitarios?
+168	Procesos documentados y auditados que mantienen una calidad constante en cada servicio.
+169	Descargas
+170	Descargas y libros de panel
+171	Arrastre la esfera para explorar
+172	Due diligence y análisis financiero
+173	Desarrollo de comercio electrónico
+174	Marketing de comercio electrónico
+175	Desarrollo de ERP
+176	Miembro de ESOMAR
+177	Miembro de ESOMAR (abre esomar.org en una nueva pestaña)
+178	Miembro de ESOMAR · MSME
+179	Educación
+180	Energía eléctrica
+181	Electrónica
+182	Correo electrónico
+183	Email marketing
+184	Energía
+185	Entretenimiento
+186	Eventos, celebraciones y momentos del equipo.
+187	Cada opinión, una a una en primer plano
+188	Todos los servicios, en un solo lugar
+189	Ejemplo
+190	Realizar una recogida de datos de alta calidad con las metodologías adecuadas.
+191	Ejecución
+192	Explorar
+193	Conozca la investigación gubernamental
+194	Explore nuestros servicios
+195	Explore sectores y casos de estudio
+196	Moda
+197	Viabilidad lista
+198	Sectores destacados
+199	Trabajo de campo
+200	Fieldwork Solutions Pvt. Ltd.
+201	Cine
+202	Filtrar opiniones por servicio
+203	Finanzas
+204	Finanzas y contabilidad
+205	Finanzas y contabilidad
+206	Consulta financiera
+207	Modelización financiera
+208	Planificación y asesoría financiera
+209	Claridad financiera
+210	Servicios financieros
+211	Encuentre la audiencia adecuada para su investigación.
+212	Encuentre su audiencia
+213	Pesca
+214	Floral
+215	Síganos
+216	Alimentación y bebidas
+217	Para compradores, usuarios y hogares
+218	Pasos del formulario
+219	Cuatro briefings, cuatro planes
+220	Cuatro grupos de contactos
+221	Inicio de Frequent Research
+222	Frequent Research en cifras
+223	Frequent Research en Facebook
+224	Frequent Research en Instagram
+225	Frequent Research en LinkedIn
+226	Frequent Research en Pinterest
+227	Frequent Research en X
+228	Frequent Research en YouTube
+229	Frequent Research — Insights • Analítica • Crecimiento
+230	Del insight a la ejecución
+231	Desde la seguridad de la información y la infraestructura tecnológica hasta el desarrollo del talento y los procesos operativos, reforzamos continuamente cómo trabajan juntos nuestras personas y sistemas.
+232	Desde grandes encuestas ciudadanas hasta estudios de opinión pública, estudios de beneficiarios y evaluaciones de políticas, Frequent Research ayuda a las organizaciones a obtener insights estructurados y fiables de poblaciones diversas en distintos mercados y regiones.
+233	De nuestro blog
+234	Desde startups y pymes hasta grandes organizaciones, nuestros servicios crecen con sus necesidades.
+235	Barrita de fruta
+236	Servicios de GST
+237	Galería
+238	Juegos y apuestas
+239	Generar leads
+240	Empezar
+241	Las buenas decisiones empiezan con buena información. Ayudamos a las organizaciones a entender qué piensa la gente, qué necesita, qué compra y por qué, en audiencias B#C, B#B y de salud.
+242	Google Ads / PPC
+243	Gobierno
+244	Investigación gubernamental y de opinión pública
+245	Investigación gubernamental y de opinión
+246	Encuestas gubernamentales y del sector público
+247	Investigación gubernamental y de opinión pública para decisiones que importan
+248	Investigación gubernamental
+249	Evaluación de programas públicos
+250	Crecimiento
+251	Encantados de ayudar. Tres preguntas rápidas y le enviaremos la viabilidad y un presupuesto.
+252	¿Tiene un reto empresarial?
+253	Contar con un CFO virtual cambió nuestras reuniones de consejo. GST, TDS y nóminas se gestionan a tiempo, y la…
+254	Profesionales sanitarios
+255	Salud
+256	Panel de salud
+257	Libro del panel de salud
+258	Panel de investigación de profesionales sanitarios, pacientes y cuidadores
+259	Audiencias de salud
+260	Profesionales sanitarios, pacientes y cuidadores por especialidad y patología.
+261	Ayudamos a las empresas a entender mejor, construir de forma más inteligente, crecer más rápido y gestionar con confianza.
+262	¡Hola! Soy el asistente de Frequent Research. Pregúnteme lo que quiera sobre nuestros servicios, paneles, precios, plazos o calidad: cada respuesta procede de nuestro sitio web, con la página para leer más.
+263	¡Hola! Necesitamos la viabilidad para # cardiólogos en EAU y Arabia Saudí.
+264	Inicio
+265	Horticultura
+266	Hostelería
+267	Encuestas de hogares y socioeconómicas
+268	¿Cuánto dura una encuesta online?
+269	Cómo participan los miembros en
+270	¿Cuánto cuesta un proyecto?
+271	Cómo protegemos la calidad de los datos, del reclutamiento al informe.
+272	Cómo trabajamos con usted
+273	Soy…
+274	Necesito…
+275	Certificación ISO # – Investigación de mercados, opinión y social
+276	Certificación ISO # – Sistemas de gestión de la calidad
+277	ISO # seguridad de los datos
+278	ISO # – Investigación de mercados, opinión y social
+279	ISO # – Sistemas de gestión de la calidad
+280	Certificación ISO/IEC # – Gestión de la seguridad de la información
+281	ISO/IEC # – Gestión de la seguridad de la información
+282	TI y desarrollo
+283	TI y desarrollo
+284	Consultoría TI
+285	Consultoría TI para empresas en crecimiento: decisiones tecnológicas con confianza
+286	Consulta de proyecto TI
+287	Proyecto de TI
+288	Mejorar su posicionamiento en Google
+289	Guías detalladas de nuestros equipos de investigación, marketing, tecnología y finanzas.
+290	Impuesto sobre la renta y declaración ITR
+291	Estándares independientes detrás de cada proyecto
+292	Robots industriales y automatización
+293	Sectores y casos de estudio
+294	Sectores en los que trabajamos
+295	Marketing de influencers
+296	Gestión de la seguridad de la información
+297	Gestión de la seguridad de la información
+298	Servicios de información
+299	Tecnologías de la información
+300	Controles de seguridad de la información que protegen los datos de clientes, encuestados y proyectos.
+301	Insight
+302	Insights
+303	Respuestas al instante
+304	Traducción instantánea
+305	Seguros
+306	Capacidades integradas
+307	Servicios de internet
+308	Inversión
+309	Planificación de inversiones
+310	Planificación de inversiones para empresas y propietarios: poner a trabajar los excedentes con sensatez
+311	Facturas
+312	Cargo
+313	Únase a un panel de investigación
+314	Únase a un panel de investigación
+315	Únase gratis
+316	Únase a nuestros paneles de investigación
+317	Únase a nuestros equipos de investigación, marketing, tecnología y finanzas.
+318	Fases del recorrido
+319	Capacidades clave
+320	Temas clave de este mensaje
+321	Landing pages y CRO
+322	Lanzar un producto
+323	Generación de leads
+324	Dirección
+325	Visión de la dirección
+326	Mensaje de la dirección
+327	Leads
+328	Ocio
+329	Hablemos
+330	Hablemos
+331	Hablemos.
+332	LinkedIn: Devashish Roy
+333	LinkedIn: Manish Arora
+334	LinkedIn: Sachin Gupta
+335	Asistente en vivo
+336	Estado del trabajo de campo en directo
+337	Ubicación
+338	Colaboración a largo plazo
+339	MIS e informes financieros
+340	MSME — Micro, pequeñas y medianas empresas
+341	Principal
+342	Mantenimiento y
+343	Director General | Fundador | CEO
+344	Mangolpur Kalan, Nueva Delhi – #, India
+345	Manish Arora en LinkedIn (se abre en una nueva pestaña)
+346	Manish Arora, Director General | Fundador | CEO
+347	Fabricación
+348	Investigación de mercados
+349	Investigación de mercados
+350	Investigación de mercados, opinión y social
+351	Investigación de mercados, opinión y social
+352	Automatización del marketing
+353	Mercados cubiertos con trabajo de campo
+354	Medios de comunicación
+355	Quizás más tarde
+356	Carne y aves
+357	Conozca a nuestro Director General, Fundador y CEO, y a nuestros directores.
+358	Conozca a las personas detrás de cada proyecto.
+359	Miembro de ESOMAR, la asociación mundial de la comunidad de datos, investigación e insights, y una MSME (micro, pequeña y mediana empresa).
+360	Miembros
+361	Membresía
+362	Minería
+363	Móvil
+364	Desarrollo de apps móviles
+365	Multimodo
+366	Música
+367	Logotipo de MyFrequentRewards
+368	Logotipo de MyHealthOpinions
+369	Nueva conversación
+370	Medios informativos
+371	Siguiente directivo
+372	Siguiente opinión
+373	Siguiente paso
+374	Sin compromiso
+375	No sé por dónde empezar
+376	Enfermeros, farmacéuticos y profesionales sanitarios afines
+377	Oficina
+378	Recogida de datos offline
+379	Una familia Sampledge, dos herramientas: gestione sus proyectos de investigación o cree su propia audiencia.
+380	Un briefing, un plan
+381	Un socio de negocio. Múltiples capacidades. Resultados medibles.
+382	Un solo socio
+383	Un socio para cada etapa de su negocio
+384	Un socio · cuatro equipos
+385	Un único punto de contacto
+386	Recogida de datos online
+387	Gestión de la reputación online
+388	Abrir en Mapas
+389	Abrir menú
+390	Nuestra trayectoria
+391	Nuestras valoraciones y opiniones
+392	Nuestro equipo
+393	Nuestro compromiso con estándares internacionales de calidad y seguridad refleja nuestra apuesta por la coherencia, la transparencia y la gestión responsable de los datos.
+394	Nuestras consultas orgánicas casi se duplicaron en seis meses. Y lo más importante: los leads eran empresas del tamaño adecu…
+395	Nuestros procesos de calidad, investigación y seguridad de la información están certificados y auditados, y somos miembro corporativo de la asociación mundial de investigación.
+396	Nuestros paneles de investigación
+397	Nuestra historia, visión, misión y valores.
+398	Nuestro equipo está listo para escuchar. Cuéntenos qué quiere conseguir.
+399	Nuestros equipos
+400	Nuestros equipos apoyan a organizaciones de una amplia variedad de sectores.
+401	Paciente
+402	Pacientes
+403	Servicios de nóminas
+404	Marketing de resultados
+405	Petróleo y gas
+406	Farmacéutica
+407	Teléfono
+408	Médicos y especialistas
+409	Elija un equipo o busque entre todo lo que hacemos. Cada servicio tiene su propia página con el proceso, los beneficios y preguntas frecuentes.
+410	Elija uno.
+411	Planificación de
+412	Investigación de políticas
+413	Populares
+414	Preguntas frecuentes
+415	Portales
+416	Publicado en este sitio
+417	Directivo anterior
+418	Opinión anterior
+419	Privacidad y ética de la investigación
+420	Política de privacidad
+421	Productos
+422	Profesional
+423	Servicios profesionales
+424	Perfiles, datos demográficos y opciones de segmentación de nuestros paneles de consumidores.
+425	Herramienta de gestión de proyectos
+426	Seguimiento de proyectos y cuotas en un solo lugar
+427	Gestión de proyectos
+428	Proyectos entregados
+429	Ofrecer resultados accionables que respalden las decisiones de negocio.
+430	Encuestas de opinión pública
+431	Publicar
+432	Editorial
+433	Papel y celulosa
+434	Investigación cualitativa
+435	Gestión de la calidad
+436	Proceso de calidad
+437	Sistemas de gestión de la calidad
+438	Investigación cuantitativa
+439	Acciones rápidas
+440	Encuesta rápida · # min
+441	Cuotas
+442	Valórenos y opine
+443	Valore y opine sobre Frequent Research
+444	Valoración
+445	Alcance
+446	Llegue a nuevos clientes y mejore su visibilidad online
+447	Contáctenos directamente
+448	Lea opiniones de clientes
+449	Leer la guía →
+450	Lea todo el sitio web en su idioma: más de # idiomas.
+451	Lea este sitio web en su idioma
+452	Listos cuando usted lo esté.
+453	Inmobiliario
+454	Resultados fiables
+455	Informes
+456	Informes e insights
+457	Solicitar viabilidad de audiencia
+458	Solicitar viabilidad de investigación
+459	Solicitar una consulta
+460	Solicitar presupuesto
+461	Solicitar una demo de Sampledge
+462	Solicitar una demo de Sampledge
+463	Solicitar presupuesto
+464	Solicitar viabilidad de audiencia
+465	Investigación
+466	Consultoría de investigación
+467	Ciclo de diseño de la investigación
+468	Ética de la investigación
+469	Viabilidad de investigación
+470	Paneles de investigación
+471	Gestión de proyectos de investigación, simplificada.
+472	Investigación, marketing, tecnología y finanzas trabajan juntos, no en silos separados.
+473	Pensamiento basado en la investigación
+474	Investigar un nuevo mercado
+475	Registros de encuestados e incentivos
+476	Comercio minorista
+477	Opinión
+478	Recompensa obtenida
+479	Recompensas por encuestas completadas
+480	Especialista adecuado asignado
+481	Investigación rural y agrícola
+482	Servicios SEO
+483	SEO · anuncios · redes · contenido
+484	Desarrollo SaaS
+485	Sachin Gupta en LinkedIn (se abre en una nueva pestaña)
+486	Sachin Gupta, Director de Gestión de Proyectos y Suministro
+487	En el día
+488	Gestión de proveedores de muestra
+489	Sampledge Plataforma DIY
+490	Sampledge Herramienta de gestión de proyectos
+491	Sampledge reúne los flujos de trabajo de investigación, la gestión de muestras y las operaciones diarias en un espacio de trabajo digital inteligente.
+492	Demo de Sampledge
+493	Sampledge — Plataforma DIY
+494	Sampledge — Herramienta de gestión de proyectos
+495	Soluciones escalables
+496	Escalar
+497	Escanee y conecte
+498	Escanee y conecte — todos los códigos QR
+499	Escanee para seguirnos
+500	Puntuación de cada servicio
+501	Buscar
+502	Buscar (Ctrl+K)
+503	Buscar idiomas
+504	Resultados de búsqueda
+505	Buscar servicios
+506	Buscar servicios, p. ej. CATI, SEO, nóminas, app móvil
+507	Buscar servicios, paneles, sectores, artículos…
+508	Buscar en el sitio
+509	Buscar en el sitio (Ctrl+K)
+510	Experiencia sectorial en
+511	Sectores
+512	Sectores que atendemos y cómo trabajamos.
+513	Ver todo
+514	Ver todas las valoraciones y opiniones
+515	Seleccione…
+516	Semiconductores
+517	Enviar
+518	Servicio
+519	Área de servicio
+520	Servicios
+521	Menú de servicios
+522	Servicios que valora (elija uno o varios)
+523	Comparta opiniones, gane recompensas justas
+524	Comparta su opinión. Mejore productos. Gane recompensas.
+525	Datos compartidos entre equipos
+526	Construcción naval
+527	Mostrar a Devashish Roy
+528	Mostrar a Manish Arora
+529	Mostrar a Sachin Gupta
+530	Regístrese gratis
+531	Simplifique la contabilidad, los impuestos, las nóminas, los informes financieros, las finanzas empresariales y la gestión financiera estratégica.
+532	Singapur
+533	Saltar al contenido
+534	Publicidad en redes sociales
+535	Marketing en redes sociales
+536	Software
+537	Pruebas de software y QA
+538	Otra cosa
+539	Sonido
+540	Sonido activado
+541	Servicios especializados en cuatro equipos
+542	Especialidad
+543	Deporte
+544	Inicie su proyecto
+545	Iniciar una nueva conversación
+546	Contabilidad para startups y pymes
+547	Estados y territorios con equipos de campo · # distritos
+548	Acero
+549	Paso # de #
+550	Paso # · Elija su mundo
+551	Refuerce sus finanzas
+552	Reforzar las operaciones financieras
+553	Proveedores
+554	Soporte: mantener
+555	Encuestas que se adaptan a su día
+556	Encuestas · paneles · trabajo de campo · insight
+557	Servicios de TDS
+558	Responder encuestas
+559	En menos de un minuto
+560	Hable con un experto en finanzas
+561	Hable con un especialista
+562	Hable con un experto
+563	Planificación y asesoría fiscal
+564	Tecnología
+565	Basado en tecnología y datos
+566	Tecnología creada para la investigación
+567	Tecnología → Automatización → Escala
+568	Telecomunicaciones
+569	Cuéntenos qué necesita
+570	Cuéntenos su siguiente paso.
+571	Cuéntenos su objetivo, audiencia, mercado o plazos.
+572	Términos y condiciones
+573	Textil
+574	Gracias por su confianza. Esperamos trabajar con usted.
+575	El equipo directivo de Frequent Research
+576	Nuestras mejores relaciones con clientes empezaron con una conversación sencilla y honesta sobre lo que era posible. Preferimos decirle pronto que una audiencia es difícil de alcanzar, o que otro enfoque funcionará mejor, antes que prometer algo que no podemos cumplir.
+577	Los desarrolladores rehicieron nuestro portal de reservas a tiempo y explicaron claramente cada decisión (#).
+578	Los desarrolladores rehicieron nuestro portal de reservas a tiempo y explicaron claramente cada decisión.
+579	La norma internacional sobre cómo se planifica, se realiza en campo, se procesa y se informa la investigación.
+580	El especialista adecuado responde en un día hábil
+581	Su equipo demuestra una sólida gestión de proyectos, una comunicación clara y una comprensión práctica de los requisitos de investigación. Son receptivos, minuciosos y comprometidos con entregar resultados fiables en los plazos acordados. Su capacidad para gestionar los requisitos del proyecto con eficiencia los convierte en un socio de investigación fiable.
+582	Rehicieron nuestra app de operaciones de campo y la conectaron a nuestro CRM. Nuestro equipo dejó de volver a teclear datos, y mu…
+583	Reclutaron un panel difícil de alcanzar de responsables de compras hospitalarias en tres países, dentro de nuestro plazo.…
+584	Tres comunidades que gestionamos nosotros mismos, para que nuestros clientes obtengan encuestados verificados y perfilados, y nuestros miembros reciban recompensas justas.
+585	Consejo: comparta cualquier página en un idioma añadiendo ?lang=es (u otro código) al enlace.
+586	Tabaco
+587	Hoy
+588	Mezcla de frutos secos
+589	Transforme los insights
+590	Convertir los datos de investigación en hallazgos significativos.
+591	Traducido por nuestro equipo
+592	Transporte y logística
+593	Desactivar el sonido del chat
+594	Logotipo de Turn#Opinion
+595	Escriba su mensaje
+596	Diseño UI/UX
+597	Entender
+598	Comprenda mercados, clientes, competidores y oportunidades con investigación fiable e insights accionables.
+599	Comprender la pregunta de negocio, los objetivos y los requisitos de investigación.
+600	Entienda su mercado
+601	Suele responder rápido
+602	Suele responder en un día hábil
+603	Validar
+604	Validación
+605	Encuestados verificados y perfilados
+606	Verifique su cuenta
+607	Video marketing
+608	Videojuegos
+609	Servicios de CFO virtual
+610	Visibilidad
+611	Visibilidad → Leads → Crecimiento
+612	Visite el blog
+613	Agua
+614	Queremos ser una extensión fiable de su equipo, no solo terminar un proyecto.
+615	Combinamos datos, tecnología, plataformas digitales y experiencia humana para crear soluciones más inteligentes.
+616	Seguimos invirtiendo en personas, tecnología y procesos para ofrecer soluciones de investigación fiables a clientes de todo el mundo.
+617	Nos centramos en soluciones prácticas que respaldan sus objetivos comerciales, no solo en entregables.
+618	Invertimos en tecnología segura y fiable y en un equipo cualificado y responsable para garantizar precisión, eficiencia, confidencialidad y la confianza del cliente.
+619	Leemos su mensaje
+620	Ofrecemos la calidad que usted espera
+621	Empezamos por entender el mercado, el cliente y el problema de negocio antes de recomendar una solución.
+622	Le acompañamos en cada una.
+623	Usamos su investigación para dimensionar la oportunidad y su equipo digital para lanzarla. Un socio, un plan, …
+624	Desarrollo de aplicaciones web
+625	Sitio web
+626	Desarrollo web
+627	Mantenimiento y soporte web
+628	Mantenimiento y soporte web: un sitio rápido, seguro y operativo cada día
+629	¿En qué podemos ayudar?
+630	¿En qué podemos ayudarle?
+631	Lo que dicen los clientes,
+632	Qué ocurre después
+633	¿Qué le gustaría hacer?
+634	Trabaje en lo que trabaje, el equipo adecuado ya está en la sala:
+635	Marketing por WhatsApp
+636	Soporte por WhatsApp
+637	Soporte por WhatsApp
+638	Soporte por WhatsApp: chatee con nosotros en el +# # #
+639	Escríbanos por WhatsApp
+640	¿Dónde puedo descargar un libro de panel?
+641	Ya necesite entender su mercado, llegar a nuevos clientes, desarrollar tecnología, mejorar su visibilidad online o reforzar sus finanzas, nuestro equipo está listo para escuchar.
+642	¿Qué servicio le prestamos?
+643	¿Qué snack compraría?
+644	¿Por qué elegir Frequent Research?
+645	Por qué nosotros
+646	En # día hábil
+647	Madera
+648	¿Trabajó con más de un equipo? Elíjalos todos: su opinión se mostrará en cada uno.
+649	Trabajar con Frequent Research ha sido una experiencia fluida y profesional.
+650	Sí. Nuestro equipo digital se unirá a la misma llamada. Un socio, cuatro equipos.
+651	Usted
+652	Recibe una respuesta clara
+653	Su negocio
+654	Su negocio no siempre necesita otro proveedor. A veces necesita un socio que entienda el panorama completo.
+655	Sus datos siguen siendo privados
+656	Sus datos
+657	Su experiencia puede mejorar la salud de todos.
+658	Su mensaje
+659	Su necesidad
+660	Su opinión
+661	una propuesta, viabilidad o presupuesto, sin compromiso.
+662	menú Nosotros
+663	y asignamos al especialista adecuado para su briefing.
+664	casos de estudio
+665	certificado
+666	países
+667	menú Descargas
+668	viable
+669	para empresas en
+670	en una nueva pestaña)
+671	sectores
+672	en acción.
+673	idiomas
+674	más
+675	siguiente
+676	a menudo con las primeras preguntas que afinan el plan.
+677	tiene recompensa.
+678	menú Portales
+679	menú Productos
+680	mercados de investigación
+681	opinión
+682	grupos sectoriales
+683	servicio a servicio.
+684	servicios
+685	servicios en
+686	servicios · # equipos
+687	servicios →
+688	servicios, un equipo
+689	equipos
+690	para cerrar
+691	para moverse
+692	para abrir
+693	— a menudo con las primeras preguntas que afinan su briefing.

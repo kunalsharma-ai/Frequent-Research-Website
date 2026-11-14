@@ -1,0 +1,50 @@
+1	Sondaggio dal vivo
+2	Quanto è probabile che consigli questo marchio?
+3	Completate
+4	Trascina per ruotare
+5	Sponsorizzato
+6	in crescita
+7	Riconciliato
+8	Vendite
+9	Acquisti
+10	Cassa · Tasse · Utile
+11	Inquadra. Scansiona.
+12	Resta in contatto.
+13	Tutti i canali in un unico posto: Frequent Research, i nostri tre panel di ricerca e Sampledge — siti web, profili social e assistenza WhatsApp, ognuno con il proprio codice QR.
+14	marchi
+15	numero WhatsApp
+16	Contatti diretti
+17	# canali.
+18	A una scansione di distanza.
+19	Segui l’azienda dietro i panel — novità sulla ricerca, insight, vita del team e annunci, ora anche su Threads.
+20	Sito ufficiale
+21	Apri il sito
+22	Apri
+23	Chatta
+24	# · Panel di ricerca
+25	# · Il nostro prodotto
+26	Basta una scansione.
+27	Strumento DIY per la gestione di progetti e campioni
+28	Pianifica progetti, gestisci i campioni e segui il lavoro sul campo in autonomia — segui Sampledge su ogni canale o chatta con l’assistenza su WhatsApp.
+29	Visita sampledge.com
+30	Assistenza WhatsApp di Sampledge
+31	# · Contatti diretti
+32	Parla con noi.
+33	Oppure trovaci.
+34	Chatta con il team di Frequent Research
+35	Trovaci e lascia una recensione
+36	Apri su Google
+37	Tutti i nostri panel
+38	Apri l’hub dei panel
+39	Avvia una chat
+40	Ogni codice è stato generato dai link ufficiali e verificato con un decoder QR prima della pubblicazione. Un unico numero WhatsApp, +# # #, assiste tutti i panel e Sampledge.
+41	Vai a un marchio
+42	Conversazioni e aggiornamenti rapidi
+43	La tua esperienza può migliorare la sanità.
+44	Trasforma la tua opinione in premi.
+45	Condividi la tua opinione. Guadagna ogni volta.
+46	Professionisti sanitari, caregiver e pazienti
+47	Consumatori e professionisti
+48	# · Frequent Research
+49	Assistenza WhatsApp
+50	Visita

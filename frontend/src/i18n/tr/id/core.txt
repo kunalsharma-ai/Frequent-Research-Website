@@ -1,0 +1,693 @@
+1	# dari # bintang
+2	# panel
+3	# agensi terpisah
+4	# tim spesialis
+5	Dari # hingga kini: panel, kesehatan, TI, dan lainnya.
+6	Balasan dalam # hari kerja
+7	& intelijen audiens
+8	(membuka
+9	, merek dari
+10	. Hak cipta dilindungi undang-undang.
+11	Pesan dari Direktur Utama, Pendiri & CEO kami
+12	Spesialis akan membalas
+13	Perjalanan bisnis yang sukses tidak terjadi dalam satu langkah.
+14	Komunitas survei global dengan batas penukaran hadiah yang rendah.
+15	Solusi AI & Otomasi
+16	Pengembangan & Integrasi API
+17	Tentang
+18	Tentang Kami
+19	Layanan Akuntansi & Pembukuan
+20	Konsultasi Akuntansi & Keuangan
+21	Akuntansi & Keuangan
+22	Periklanan
+23	Kedirgantaraan
+24	Tenggat yang disepakati
+25	Pertanian
+26	Semua
+27	Semua suara
+28	Selain itu — bisakah tim Anda menjalankan kampanye LinkedIn untuk peluncuran?
+29	Gambaran umum Frequent Research: layanan, produk, panel, dan tim.
+30	Analisis
+31	Analisis
+32	Jawab survei singkat dari ponsel atau laptop Anda dan dapatkan hadiah untuk setiap pendapat yang Anda bagikan.
+33	Jawaban berasal dari situs web kami. Dengan mengobrol, Anda menyetujui
+34	Lamaran
+35	Pemeliharaan & Dukungan Aplikasi
+36	Pemeliharaan dan Dukungan Aplikasi: Perangkat Lunak Bisnis yang Andal Saat Bertumbuh
+37	Menerapkan kontrol kualitas, verifikasi, dan validasi data.
+38	Aplikasi · web · cloud · pengujian
+39	Apakah Anda bersertifikat ISO?
+40	Senjata & peralatan keamanan
+41	Seiring berkembang ke pemasaran, teknologi, dan keuangan, prinsip itu tidak berubah. Apa pun kebutuhan Anda, Anda akan bekerja dengan orang-orang yang mendengarkan lebih dulu, menjelaskan dengan jelas, dan tetap mendampingi lama setelah proyek selesai.
+42	Tanya sekarang
+43	Tanyakan apa saja…
+44	Tanyakan apa saja
+45	Asisten · jawaban dari situs web kami
+46	Di Frequent Research, kami percaya riset yang kuat dibangun di atas dua fondasi: teknologi dan manusia.
+47	Kelayakan audiens
+48	Dukungan Audit & Kepatuhan
+49	Mengotomatiskan proses
+50	Otomasi
+51	Otomotif
+52	Panel B#B & sektor publik
+53	Pemasaran Digital B#B
+54	Audiens B#B
+55	Audiens B#B berdasarkan peran, senioritas, industri, dan ukuran perusahaan.
+56	Keripik panggang
+57	Umpan Balik Penerima Manfaat
+58	Blog
+59	Blog
+60	Pembukuan · pajak · penggajian · CFO virtual
+61	Penyiaran
+62	Penganggaran & Proyeksi Keuangan
+63	Menyusun metodologi riset, audiens, dan pendekatan yang tepat.
+64	Bangun visibilitas, tarik audiens berkualitas, hasilkan prospek, dan ubah lalu lintas digital menjadi pertumbuhan terukur.
+65	Bangun. Tumbuh. Berkembang.
+66	Dikembangkan sendiri oleh tim riset kami
+67	Layanan Keuangan Bisnis
+68	Panel Bisnis
+69	Buku Panel Bisnis
+70	Valuasi Bisnis
+71	Profesional bisnis
+72	Pendekatan berfokus bisnis
+73	Bisnis dan
+74	Bisnis sering menyewa agensi terpisah untuk riset, pemasaran, teknologi, dan keuangan. Kami menyatukannya.
+75	Bisnis:
+76	CAPI · CATI · Online · Tatap muka
+77	CATI — Wawancara Telepon Berbantuan Komputer
+78	Pengembangan CRM
+79	Bisakah saya bergabung dengan panel riset Anda?
+80	Lamaran Karier
+81	Karier
+82	Pengasuh
+83	Pengasuh
+84	Bersertifikat
+85	Bersertifikat & akuntabel
+86	Sistem manajemen bersertifikat untuk riset pasar, mutu, dan keamanan informasi, serta anggota korporat ESOMAR.
+87	Obrolan
+88	Mengobrol dengan Frequent Research
+89	Mengobrol dengan kami
+90	Kimia
+91	Pilih pemimpin
+92	Pilih tim
+93	Pilih bahasa Anda
+94	Riset Kepuasan Warga
+95	Anggota panel warga (B#C)
+96	Klaim hadiah
+97	Komunikasi yang jelas
+98	Peringkat dan ulasan klien untuk setiap layanan.
+99	Suara klien
+100	Klien
+101	Klien yang kembali lagi
+102	Tutup
+103	Tutup obrolan
+104	Tutup menu
+105	Tutup pencarian
+106	Tutup formulir ulasan
+107	Layanan Cloud & DevOps
+108	Kumpulkan
+109	Komunitas yang kami kelola
+110	Perusahaan
+111	Brosur Perusahaan
+112	Bandingkan
+113	Lengkapi profil Anda
+114	Terhubung dengan audiens konsumen, B#B, dan kesehatan yang relevan untuk rekrutmen dan kebutuhan sampel riset, lalu bangun proyek di sekitar orang-orang yang penting bagi bisnis Anda.
+115	Jangkau responden yang tepat melalui kemampuan panel dan kerja lapangan global.
+116	Konstruksi
+117	Konsumen
+118	Panel Riset Konsumen & Bisnis
+119	Panel Konsumen
+120	Buku Panel Konsumen
+121	Audiens konsumen
+122	Konsumen
+123	Hubungi Kami
+124	Pemasaran Konten
+125	Kendalikan
+126	Kendalikan → Pelaporan → Kejelasan keuangan
+127	Kebijakan Cookie
+128	Salin alamat email
+129	Salin nomor telepon
+130	Penasihat Keuangan Korporat
+131	Ilustrasi sampul untuk “Pemeliharaan dan Dukungan Aplikasi: Perangkat Lunak Bisnis yang Andal Saat Bertumbuh”
+132	Ilustrasi sampul untuk “Konsultasi TI untuk Bisnis yang Bertumbuh: Membuat Keputusan Teknologi dengan Percaya Diri”
+133	Ilustrasi sampul untuk “Perencanaan Investasi untuk Bisnis dan Pemilik: Memanfaatkan Dana Surplus dengan Bijak”
+134	Ilustrasi sampul untuk “Pemeliharaan dan Dukungan Situs Web: Situs Cepat, Aman, dan Berfungsi Setiap Hari”
+135	Layanan kreatif
+136	Budaya & warisan
+137	Aplikasi Bisnis Kustom
+138	Pengembangan Perangkat Lunak Kustom
+139	Layanan Keamanan Siber
+140	Marketplace DIY
+141	Data
+142	Pengembangan Analitik Data & Dasbor
+143	Pemrosesan & Analitik Data
+144	Perlindungan Data
+145	Data hilang di antara agensi
+146	Data → Riset → Wawasan
+147	Pengambil keputusan
+148	Pertahanan
+149	Serahkan
+150	Desain
+151	Merancang dan membangun situs web, perangkat lunak, aplikasi seluler, platform SaaS, dasbor, solusi AI, dan aplikasi bisnis.
+152	Devashish Roy di LinkedIn (membuka di tab baru)
+153	Devashish Roy, Direktur – TI & SDM
+154	Kembangkan teknologi
+155	Mengembangkan platform perangkat lunak
+156	Digital
+157	Analitik & Pelaporan Digital
+158	Pemasaran Digital
+159	Audit Pemasaran Digital
+160	Konsultasi Pemasaran Digital
+161	Konsultan Pemasaran Digital
+162	Pemasaran digital
+163	Direktur – TI & SDM
+164	Direktur – Manajemen Proyek & Pasokan
+165	Diskusikan Kebutuhan Riset Anda
+166	Diskusikan Proyek TI
+167	Apakah Anda bekerja dengan dokter dan tenaga kesehatan?
+168	Proses terdokumentasi dan diaudit yang menjaga mutu tetap konsisten di setiap layanan.
+169	Unduhan
+170	Unduhan & buku panel
+171	Seret bola untuk menjelajah
+172	Uji Tuntas & Analisis Keuangan
+173	Pengembangan E-commerce
+174	Pemasaran E-commerce
+175	Pengembangan ERP
+176	Anggota ESOMAR
+177	Anggota ESOMAR (membuka esomar.org di tab baru)
+178	Anggota ESOMAR · MSME
+179	Pendidikan
+180	Tenaga listrik
+181	Elektronik
+182	Email
+183	Pemasaran Email
+184	Energi
+185	Hiburan
+186	Acara, perayaan, dan momen tim.
+187	Setiap ulasan, satu per satu dalam sorotan
+188	Semua layanan, di satu tempat
+189	Contoh
+190	Melaksanakan pengumpulan data berkualitas tinggi dengan metodologi yang tepat.
+191	Eksekusi
+192	Jelajahi
+193	Jelajahi Riset Pemerintah
+194	Jelajahi Layanan Kami
+195	Jelajahi industri & studi kasus
+196	Fesyen
+197	Kelayakan siap
+198	Industri unggulan
+199	Kerja lapangan
+200	Fieldwork Solutions Pvt. Ltd.
+201	Film
+202	Saring ulasan berdasarkan layanan
+203	Keuangan
+204	Keuangan & Akuntansi
+205	Keuangan & akuntansi
+206	Konsultasi Keuangan
+207	Pemodelan Keuangan
+208	Perencanaan & Penasihat Keuangan
+209	Kejelasan keuangan
+210	Layanan keuangan
+211	Temukan audiens yang tepat untuk riset Anda.
+212	Temukan audiens Anda
+213	Perikanan
+214	Bunga
+215	Ikuti kami
+216	Makanan & minuman
+217	Untuk pembeli, pengguna, dan rumah tangga sehari-hari
+218	Langkah formulir
+219	Empat brief, empat rencana
+220	Empat set kontak
+221	Beranda Frequent Research
+222	Frequent Research dalam angka
+223	Frequent Research di Facebook
+224	Frequent Research di Instagram
+225	Frequent Research di LinkedIn
+226	Frequent Research di Pinterest
+227	Frequent Research di X
+228	Frequent Research di YouTube
+229	Frequent Research — Wawasan • Analitik • Pertumbuhan
+230	Dari Wawasan ke Eksekusi
+231	Dari keamanan informasi dan infrastruktur teknologi hingga pengembangan talenta dan proses operasional, kami terus memperkuat cara orang dan sistem kami bekerja bersama.
+232	Dari survei warga berskala besar hingga riset opini publik, studi penerima manfaat, dan evaluasi kebijakan, Frequent Research membantu organisasi mengumpulkan wawasan terstruktur dan andal dari populasi yang beragam di berbagai pasar dan wilayah.
+233	Dari blog kami
+234	Dari startup dan UKM hingga organisasi besar, layanan kami tumbuh sesuai kebutuhan Anda.
+235	Batang buah
+236	Layanan GST
+237	Galeri
+238	Gim & taruhan
+239	Menghasilkan prospek
+240	Mulai
+241	Keputusan yang baik dimulai dari informasi yang baik. Kami membantu organisasi memahami apa yang dipikirkan orang, apa yang mereka butuhkan, apa yang mereka beli dan alasannya, di audiens B#C, B#B, dan kesehatan.
+242	Google Ads / PPC
+243	Pemerintah
+244	Riset Pemerintah & Jajak Pendapat
+245	Riset Pemerintah & Opini
+246	Survei Pemerintah & Sektor Publik
+247	Riset pemerintah & jajak pendapat untuk keputusan yang penting
+248	Riset Pemerintah
+249	Evaluasi Program Pemerintah
+250	Pertumbuhan
+251	Senang membantu. Tiga pertanyaan singkat dan kami akan mengirim kelayakan serta penawaran harga.
+252	Punya tantangan bisnis?
+253	Memiliki CFO virtual mengubah cara kami menjalankan rapat dewan. GST, TDS, dan penggajian ditangani tepat waktu, dan…
+254	Tenaga Kesehatan
+255	Kesehatan
+256	Panel Kesehatan
+257	Buku Panel Kesehatan
+258	Panel Riset Tenaga Kesehatan, Pasien & Pengasuh
+259	Audiens kesehatan
+260	Tenaga kesehatan, pasien, dan pengasuh berdasarkan spesialisasi dan kondisi.
+261	Membantu bisnis memahami lebih baik, membangun lebih cerdas, tumbuh lebih cepat, dan mengelola dengan percaya diri.
+262	Halo! Saya asisten Frequent Research. Tanyakan apa saja tentang layanan, panel, harga, jadwal, atau mutu kami — setiap jawaban berasal dari situs web kami, beserta halaman untuk dibaca lebih lanjut.
+263	Halo! Kami butuh kelayakan untuk # ahli jantung di UEA dan Arab Saudi.
+264	Beranda
+265	Hortikultura
+266	Perhotelan
+267	Survei Rumah Tangga & Sosial Ekonomi
+268	Berapa lama survei online berlangsung?
+269	Cara anggota berpartisipasi di
+270	Berapa biaya sebuah proyek?
+271	Cara kami menjaga mutu data dari rekrutmen hingga pelaporan.
+272	Cara kami bekerja dengan Anda
+273	Saya seorang…
+274	Saya perlu…
+275	Bersertifikat ISO # – Riset pasar, opini & sosial
+276	Bersertifikat ISO # – Sistem manajemen mutu
+277	ISO # keamanan data
+278	ISO # – Riset pasar, opini & sosial
+279	ISO # – Sistem manajemen mutu
+280	Bersertifikat ISO/IEC # – Manajemen keamanan informasi
+281	ISO/IEC # – Manajemen keamanan informasi
+282	TI & Pengembangan
+283	TI & pengembangan
+284	Konsultasi TI
+285	Konsultasi TI untuk Bisnis yang Bertumbuh: Membuat Keputusan Teknologi dengan Percaya Diri
+286	Konsultasi Proyek TI
+287	Proyek TI
+288	Meningkatkan peringkat Google Anda
+289	Panduan mendalam dari tim riset, pemasaran, teknologi, dan keuangan kami.
+290	Pajak Penghasilan & Pelaporan ITR
+291	Standar independen di balik setiap proyek
+292	Robot industri & otomasi
+293	Industri & Studi Kasus
+294	Industri yang kami layani
+295	Pemasaran Influencer
+296	Manajemen Keamanan Informasi
+297	Manajemen keamanan informasi
+298	Layanan informasi
+299	Teknologi informasi
+300	Kontrol keamanan informasi yang melindungi data klien, responden, dan proyek.
+301	Wawasan
+302	Wawasan
+303	Jawaban instan
+304	Terjemahan instan
+305	Asuransi
+306	Kemampuan terintegrasi
+307	Layanan internet
+308	Investasi
+309	Perencanaan Investasi
+310	Perencanaan Investasi untuk Bisnis dan Pemilik: Memanfaatkan Dana Surplus dengan Bijak
+311	Faktur
+312	Jabatan
+313	Bergabung dengan Panel Riset
+314	Bergabung dengan panel riset
+315	Gabung gratis
+316	Bergabung dengan panel riset kami
+317	Bergabunglah dengan tim riset, pemasaran, teknologi, dan keuangan kami.
+318	Fase perjalanan
+319	Kemampuan utama
+320	Tema utama dalam pernyataan ini
+321	Halaman Arahan & CRO
+322	Meluncurkan produk
+323	Generasi Prospek
+324	Kepemimpinan
+325	Perspektif kepemimpinan
+326	Pernyataan kepemimpinan
+327	Prospek
+328	Rekreasi
+329	Mari Bicara
+330	Mari bicara
+331	Mari bicara.
+332	LinkedIn: Devashish Roy
+333	LinkedIn: Manish Arora
+334	LinkedIn: Sachin Gupta
+335	Asisten langsung
+336	Status kerja lapangan langsung
+337	Lokasi
+338	Kemitraan jangka panjang
+339	MIS & Pelaporan Keuangan
+340	MSME — Usaha Mikro, Kecil & Menengah
+341	Utama
+342	Pemeliharaan dan
+343	Direktur Utama | Pendiri | CEO
+344	Mangolpur Kalan, New Delhi – #, India
+345	Manish Arora di LinkedIn (membuka di tab baru)
+346	Manish Arora, Direktur Utama | Pendiri | CEO
+347	Manufaktur
+348	Riset Pasar
+349	Riset pasar
+350	Riset Pasar, Opini & Sosial
+351	Riset pasar, opini & sosial
+352	Otomasi Pemasaran
+353	Pasar yang dicakup kerja lapangan riset
+354	Media massa
+355	Mungkin nanti
+356	Daging & unggas
+357	Kenali Direktur Utama, Pendiri & CEO serta para Direktur kami.
+358	Kenali orang-orang di balik setiap proyek.
+359	Anggota ESOMAR, asosiasi global komunitas data, riset, dan wawasan, serta MSME (Usaha Mikro, Kecil & Menengah).
+360	Anggota
+361	Keanggotaan
+362	Pertambangan
+363	Seluler
+364	Pengembangan Aplikasi Seluler
+365	Multi-mode
+366	Musik
+367	Logo MyFrequentRewards
+368	Logo MyHealthOpinions
+369	Percakapan baru
+370	Media berita
+371	Pemimpin berikutnya
+372	Ulasan berikutnya
+373	Langkah berikutnya
+374	Tanpa kewajiban
+375	Tidak tahu harus mulai dari mana
+376	Perawat, apoteker & tenaga kesehatan terkait
+377	Kantor
+378	Pengumpulan Data Offline
+379	Satu keluarga Sampledge, dua alat — jalankan proyek riset Anda, atau bangun audiens Anda sendiri.
+380	Satu brief, satu rencana
+381	Satu mitra bisnis. Beragam kemampuan. Hasil yang terukur.
+382	Satu mitra
+383	Mitra untuk setiap tahap bisnis Anda
+384	Satu mitra · empat tim
+385	Satu titik kontak
+386	Pengumpulan Data Online
+387	Manajemen Reputasi Online
+388	Buka di Maps
+389	Buka menu
+390	Perjalanan Kami
+391	Peringkat & Ulasan Kami
+392	Tim Kami
+393	Komitmen kami terhadap standar mutu dan keamanan yang diakui internasional mencerminkan fokus kami pada konsistensi, transparansi, dan pengelolaan data yang bertanggung jawab.
+394	Pertanyaan organik kami kira-kira berlipat dua dalam enam bulan. Yang lebih penting, prospeknya adalah perusahaan berukuran tep…
+395	Proses mutu, riset, dan keamanan informasi kami bersertifikat dan diaudit, dan kami adalah anggota korporat asosiasi riset global.
+396	Panel riset kami
+397	Kisah, visi, misi, dan nilai kami.
+398	Tim kami siap mendengarkan. Ceritakan apa yang ingin Anda capai.
+399	Tim kami
+400	Tim kami mendukung organisasi di berbagai sektor.
+401	Pasien
+402	Pasien
+403	Layanan Penggajian
+404	Pemasaran Kinerja
+405	Minyak & gas
+406	Farmasi
+407	Telepon
+408	Dokter & spesialis
+409	Pilih tim, atau cari di semua layanan kami. Setiap layanan memiliki halaman sendiri berisi proses, manfaat, dan FAQ.
+410	Pilih satu.
+411	Perencanaan untuk
+412	Riset Kebijakan
+413	Populer
+414	Pertanyaan populer
+415	Portal
+416	Diposting di situs ini
+417	Pemimpin sebelumnya
+418	Ulasan sebelumnya
+419	Privasi & Etika Riset
+420	Kebijakan Privasi
+421	Produk
+422	Profesional
+423	Layanan profesional
+424	Profil, demografi, dan opsi penargetan di panel konsumen kami.
+425	Alat Manajemen Proyek
+426	Pelacakan proyek dan kuota di satu tempat
+427	Manajemen proyek
+428	Proyek diselesaikan
+429	Memberikan hasil yang dapat ditindaklanjuti untuk mendukung keputusan bisnis.
+430	Jajak Pendapat Publik
+431	Terbitkan
+432	Penerbitan
+433	Pulp & kertas
+434	Riset Kualitatif
+435	Manajemen Mutu
+436	Proses Mutu
+437	Sistem manajemen mutu
+438	Riset Kuantitatif
+439	Aksi cepat
+440	Survei cepat · # mnt
+441	Kuota
+442	Beri peringkat & ulasan
+443	Beri peringkat dan ulasan untuk Frequent Research
+444	Peringkat
+445	Jangkau
+446	Jangkau pelanggan baru dan tingkatkan visibilitas online Anda
+447	Hubungi kami langsung
+448	Baca ulasan klien
+449	Baca panduan →
+450	Baca seluruh situs web dalam bahasa Anda — #+ bahasa.
+451	Baca situs web ini dalam bahasa Anda
+452	Siap kapan pun Anda siap.
+453	Properti
+454	Hasil yang andal
+455	Pelaporan
+456	Pelaporan & Wawasan
+457	Minta Kelayakan Audiens
+458	Minta Kelayakan Riset
+459	Minta Konsultasi
+460	Minta Penawaran
+461	Minta Demo Sampledge
+462	Minta demo Sampledge
+463	Minta penawaran
+464	Minta kelayakan audiens
+465	Riset
+466	Konsultansi Riset
+467	Siklus Desain Riset
+468	Etika Riset
+469	Kelayakan riset
+470	Panel riset
+471	Manajemen proyek riset, lebih sederhana.
+472	Riset, pemasaran, teknologi, dan keuangan bekerja bersama, bukan dalam silo terpisah.
+473	Pemikiran berbasis riset
+474	Meriset pasar baru
+475	Catatan responden dan insentif
+476	Ritel
+477	Ulasan
+478	Hadiah diperoleh
+479	Hadiah untuk survei yang diselesaikan
+480	Spesialis yang tepat ditugaskan
+481	Riset Pedesaan & Pertanian
+482	Layanan SEO
+483	SEO · iklan · sosial · konten
+484	Pengembangan SaaS
+485	Sachin Gupta di LinkedIn (membuka di tab baru)
+486	Sachin Gupta, Direktur – Manajemen Proyek & Pasokan
+487	Hari yang sama
+488	Manajemen pemasok sampel
+489	Sampledge Marketplace DIY
+490	Sampledge Alat Manajemen Proyek
+491	Sampledge menyatukan alur kerja proyek riset, manajemen sampel, dan operasional harian dalam satu ruang kerja digital yang cerdas.
+492	Demo Sampledge
+493	Sampledge — Marketplace DIY
+494	Sampledge — Alat Manajemen Proyek
+495	Solusi yang dapat diskalakan
+496	Skala
+497	Pindai & Terhubung
+498	Pindai & Terhubung — semua kode QR
+499	Pindai untuk mengikuti
+500	Skor untuk setiap layanan
+501	Cari
+502	Cari (Ctrl+K)
+503	Cari bahasa
+504	Hasil pencarian
+505	Cari layanan
+506	Cari layanan, mis. CATI, SEO, penggajian, aplikasi seluler
+507	Cari layanan, panel, industri, artikel…
+508	Cari di situs
+509	Cari di situs (Ctrl+K)
+510	Keahlian sektor di
+511	Sektor
+512	Sektor yang kami layani dan cara kami bekerja.
+513	Lihat semua
+514	Lihat semua peringkat & ulasan
+515	Pilih…
+516	Semikonduktor
+517	Kirim
+518	Layanan
+519	Bidang layanan
+520	Layanan
+521	Menu layanan
+522	Layanan yang Anda ulas (pilih satu atau lebih)
+523	Bagikan pendapat, dapatkan hadiah yang adil
+524	Bagikan pendapat Anda. Bentuk produk yang lebih baik. Dapatkan hadiah.
+525	Data bersama antar tim
+526	Pembuatan kapal
+527	Tampilkan Devashish Roy
+528	Tampilkan Manish Arora
+529	Tampilkan Sachin Gupta
+530	Daftar gratis
+531	Sederhanakan akuntansi, perpajakan, penggajian, pelaporan keuangan, keuangan bisnis, dan manajemen keuangan strategis.
+532	Singapura
+533	Lewati ke konten
+534	Iklan Media Sosial
+535	Pemasaran Media Sosial
+536	Perangkat lunak
+537	Pengujian Perangkat Lunak & QA
+538	Lainnya
+539	Suara
+540	Suara aktif
+541	Layanan spesialis di empat tim
+542	Spesialisasi
+543	Olahraga
+544	Mulai Proyek Anda
+545	Mulai percakapan baru
+546	Akuntansi Startup & UKM
+547	Negara bagian & wilayah persatuan dengan tim lapangan · # distrik
+548	Baja
+549	Langkah # dari #
+550	Langkah # · Pilih dunia Anda
+551	Perkuat keuangan Anda
+552	Memperkuat operasional keuangan
+553	Pemasok
+554	Dukungan: Menjaga
+555	Survei yang pas dengan hari Anda
+556	Survei · panel · kerja lapangan · wawasan
+557	Layanan TDS
+558	Isi survei
+559	Kurang dari satu menit
+560	Bicara dengan Ahli Keuangan
+561	Bicara dengan spesialis
+562	Bicara dengan Ahli
+563	Perencanaan & Penasihat Pajak
+564	Teknologi
+565	Berbasis teknologi & data
+566	Teknologi yang dibangun untuk riset
+567	Teknologi → Otomasi → Skala
+568	Telekomunikasi
+569	Ceritakan kebutuhan Anda
+570	Ceritakan langkah berikutnya.
+571	Ceritakan tujuan, audiens, pasar, atau jadwal Anda.
+572	Syarat & Ketentuan
+573	Tekstil
+574	Terima kasih atas kepercayaan Anda. Kami menantikan kerja sama dengan Anda.
+575	Orang-orang yang Memimpin Frequent Research
+576	Hubungan klien terbaik kami dimulai dengan percakapan sederhana dan jujur tentang apa yang mungkin. Kami lebih suka memberi tahu Anda sejak awal bahwa sebuah audiens sulit dijangkau, atau bahwa pendekatan lain akan lebih baik, daripada menjanjikan sesuatu yang tidak bisa kami tepati.
+577	Para pengembang membangun ulang portal pemesanan kami tepat waktu dan menjelaskan setiap pertimbangan dengan jelas (#).
+578	Para pengembang membangun ulang portal pemesanan kami tepat waktu dan menjelaskan setiap pertimbangan dengan jelas.
+579	Standar internasional tentang cara riset direncanakan, dilaksanakan di lapangan, diproses, dan dilaporkan.
+580	Spesialis yang tepat membalas dalam satu hari kerja
+581	Tim mereka menunjukkan manajemen proyek yang kuat, komunikasi yang jelas, dan pemahaman praktis tentang kebutuhan riset. Mereka responsif, teliti, dan berkomitmen memberikan hasil yang andal sesuai tenggat yang disepakati. Kemampuan mereka mengelola kebutuhan proyek secara efisien menjadikan mereka mitra riset yang dapat diandalkan.
+582	Mereka membangun ulang aplikasi operasional lapangan kami dan menghubungkannya ke CRM. Tim kami tidak lagi mengetik ulang data, dan…
+583	Mereka merekrut panel kepala pengadaan rumah sakit yang sulit dijangkau di tiga negara, sesuai jadwal kami.…
+584	Tiga komunitas yang kami kelola sendiri, sehingga klien mendapatkan responden terverifikasi dan berprofil, dan anggota mendapatkan hadiah yang adil.
+585	Tip: bagikan halaman apa pun dalam satu bahasa dengan menambahkan ?lang=id (atau kode lain) ke tautan.
+586	Tembakau
+587	Hari ini
+588	Kacang campur
+589	Ubah wawasan
+590	Mengubah data riset menjadi temuan yang bermakna.
+591	Diterjemahkan oleh tim kami
+592	Transportasi & logistik
+593	Matikan suara obrolan
+594	Logo Turn#Opinion
+595	Ketik pesan Anda
+596	Desain UI/UX
+597	Pahami
+598	Pahami pasar, pelanggan, pesaing, dan peluang melalui riset yang andal dan wawasan yang dapat ditindaklanjuti.
+599	Memahami pertanyaan bisnis, tujuan, dan kebutuhan riset.
+600	Pahami pasar Anda
+601	Biasanya membalas cepat
+602	Biasanya membalas dalam satu hari kerja
+603	Validasi
+604	Validasi
+605	Responden terverifikasi dan berprofil
+606	Verifikasi akun Anda
+607	Pemasaran Video
+608	Gim video
+609	Layanan CFO Virtual
+610	Visibilitas
+611	Visibilitas → Prospek → Pertumbuhan
+612	Kunjungi blog
+613	Air
+614	Kami ingin menjadi perpanjangan tim Anda yang andal, bukan sekadar menyelesaikan proyek.
+615	Kami memadukan data, teknologi, platform digital, dan keahlian manusia untuk membangun solusi yang lebih cerdas.
+616	Kami terus berinvestasi pada orang, teknologi, dan proses untuk memberikan solusi riset yang andal bagi klien di seluruh dunia.
+617	Kami berfokus pada solusi praktis yang mendukung tujuan komersial Anda, bukan sekadar hasil kerja.
+618	Kami berinvestasi pada teknologi yang aman dan andal serta tenaga kerja yang terampil dan bertanggung jawab untuk menjamin akurasi, efisiensi, kerahasiaan, dan kepercayaan klien.
+619	Kami membaca pesan Anda
+620	Kami memberikan mutu yang Anda harapkan
+621	Kami mulai dengan memahami pasar, pelanggan, dan masalah bisnis sebelum merekomendasikan solusi.
+622	Kami mendampingi Anda di setiap tahapnya.
+623	Kami memakai riset mereka untuk mengukur peluang dan tim digital mereka untuk meluncurkannya. Satu mitra, satu rencana, …
+624	Pengembangan Aplikasi Web
+625	Situs web
+626	Pengembangan Situs Web
+627	Pemeliharaan & Dukungan Situs Web
+628	Pemeliharaan dan Dukungan Situs Web: Situs Cepat, Aman, dan Berfungsi Setiap Hari
+629	Apa yang bisa kami bantu?
+630	Apa yang bisa kami bantu untuk Anda?
+631	Apa kata klien,
+632	Apa yang terjadi
+633	Apa yang ingin Anda lakukan?
+634	Apa pun yang Anda kerjakan, tim yang tepat sudah siap:
+635	Pemasaran WhatsApp
+636	Dukungan WhatsApp
+637	Dukungan WhatsApp
+638	Dukungan WhatsApp: mengobrol dengan kami di +# # #
+639	WhatsApp kami
+640	Di mana saya bisa mengunduh buku panel?
+641	Baik Anda perlu memahami pasar, menjangkau pelanggan baru, mengembangkan teknologi, meningkatkan visibilitas online, atau memperkuat keuangan, tim kami siap mendengarkan.
+642	Layanan apa yang kami berikan untuk Anda?
+643	Camilan mana yang akan Anda beli?
+644	Mengapa memilih Frequent Research?
+645	Mengapa kami
+646	Dalam # hari kerja
+647	Kayu
+648	Bekerja dengan lebih dari satu tim? Pilih semuanya — ulasan Anda ditampilkan di masing-masing.
+649	Bekerja dengan Frequent Research merupakan pengalaman yang lancar dan profesional.
+650	Ya. Tim digital kami akan bergabung dalam panggilan yang sama. Satu mitra, empat tim.
+651	Anda
+652	Anda mendapat jawaban yang jelas
+653	Bisnis Anda
+654	Bisnis Anda tidak selalu butuh vendor lain. Terkadang yang dibutuhkan adalah mitra yang memahami gambaran besar.
+655	Data Anda tetap privat
+656	Detail Anda
+657	Pengalaman Anda dapat meningkatkan layanan kesehatan bagi semua orang.
+658	Pesan Anda
+659	Kebutuhan Anda
+660	Pendapat Anda
+661	proposal, kelayakan, atau penawaran — tanpa kewajiban.
+662	menu tentang
+663	dan menugaskan spesialis yang tepat untuk brief Anda.
+664	studi kasus
+665	bersertifikat
+666	negara
+667	menu unduhan
+668	layak
+669	untuk Bisnis yang
+670	di tab baru)
+671	industri
+672	menjadi aksi.
+673	bahasa
+674	lainnya
+675	berikutnya
+676	sering kali disertai pertanyaan awal yang mempertajam rencana.
+677	berbuah hadiah.
+678	menu portal
+679	menu produk
+680	pasar riset
+681	ulasan
+682	kelompok sektor
+683	layanan demi layanan.
+684	layanan
+685	layanan di
+686	layanan · # tim
+687	layanan →
+688	layanan, satu tim
+689	tim
+690	untuk menutup
+691	untuk berpindah
+692	untuk membuka
+693	— sering kali disertai pertanyaan awal yang mempertajam brief Anda.

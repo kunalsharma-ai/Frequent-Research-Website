@@ -1,0 +1,272 @@
+/* ---------- Scroll reveal ---------- */
+.reveal {
+  opacity: 0;
+  transition: opacity 0.9s var(--ease-out) var(--reveal-delay, 0ms), transform 0.9s var(--ease-out) var(--reveal-delay, 0ms), filter 0.9s var(--ease-out) var(--reveal-delay, 0ms);
+  will-change: opacity, transform;
+}
+.reveal-up {
+  transform: translateY(36px);
+}
+.reveal-right {
+  transform: translateX(40px) rotateY(-8deg);
+}
+.reveal-zoom {
+  transform: scale(0.92);
+  filter: blur(6px);
+}
+.reveal.is-in {
+  opacity: 1;
+  transform: none;
+  filter: none;
+}
+
+/* ---------- Keyframes ---------- */
+@keyframes riseIn {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes screenIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.98);
+    filter: blur(4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
+}
+@keyframes gradientPan {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+@keyframes btnShift {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(94, 234, 212, 0.6);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(94, 234, 212, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(94, 234, 212, 0);
+  }
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+@keyframes floaty {
+  0%,
+  100% {
+    translate: 0 0;
+  }
+  50% {
+    translate: 0 -12px;
+  }
+}
+@keyframes blobA {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(12vw, 8vh) scale(1.15);
+  }
+}
+@keyframes blobB {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(-10vw, 12vh) scale(0.9);
+  }
+}
+@keyframes blobC {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(8vw, -10vh) scale(1.2);
+  }
+}
+@keyframes floorScroll {
+  to {
+    background-position: 0 64px, 0 0;
+  }
+}
+@keyframes tagGlow {
+  0%,
+  20%,
+  100% {
+    color: var(--text-3);
+    text-shadow: none;
+  }
+  8% {
+    color: var(--teal);
+    text-shadow: 0 0 20px rgba(94, 234, 212, 0.8);
+  }
+}
+@keyframes scrollCue {
+  0% {
+    opacity: 0;
+    transform: translateY(0);
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+}
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+@keyframes timer {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+@keyframes spin {
+  to {
+    rotate: 360deg;
+  }
+}
+@keyframes counterSpin {
+  from {
+    transform: translate(-50%, -50%) rotate(calc(-1 * var(--a)));
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(calc(-1 * var(--a) - 360deg));
+  }
+}
+@keyframes counterSpinRev {
+  from {
+    transform: translate(-50%, -50%) rotate(calc(-1 * var(--a)));
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(calc(-1 * var(--a) + 360deg));
+  }
+}
+@keyframes corePulse {
+  0%,
+  100% {
+    scale: 1;
+  }
+  50% {
+    scale: 1.05;
+  }
+}
+@keyframes dueGlow {
+  0%,
+  70%,
+  100% {
+    box-shadow: none;
+    scale: 1;
+  }
+  80% {
+    box-shadow: 0 0 24px rgba(255, 255, 255, 0.5);
+    scale: 1.12;
+  }
+}
+@keyframes starDrift {
+  to {
+    background-position: 300px 600px;
+  }
+}
+@keyframes lineFlow {
+  from {
+    stroke-dasharray: 0 100;
+  }
+  to {
+    stroke-dasharray: 100 0;
+  }
+}
+@keyframes globeSpin {
+  to {
+    background-position: 220px 0, 0 0, 0 0;
+  }
+}
+
+/* ---------- Reduced motion: everything still, nothing hidden ---------- */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    animation-delay: 0ms !important;
+    transition-duration: 0.01ms !important;
+    transition-delay: 0ms !important;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
+  .marquee-track {
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: center;
+    transform: none !important;
+  }
+  .marquee-item[aria-hidden='true'] {
+    display: none;
+  }
+  .rotator-word {
+    display: none;
+  }
+  .rotator-word:first-of-type {
+    display: inline;
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
+  .collapse-chip {
+    transform: translate(-50%, -50%) translate(calc(var(--x) * var(--k, 1)), var(--y));
+  }
+  .collapse-core {
+    transform: none;
+    opacity: 1;
+  }
+}

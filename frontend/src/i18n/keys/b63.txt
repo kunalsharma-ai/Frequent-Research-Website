@@ -1,0 +1,50 @@
+1	Live survey
+2	How likely are you to recommend this brand?
+3	Completes
+4	Drag to spin
+5	Sponsored
+6	trend up
+7	Reconciled
+8	Sales
+9	Purchases
+10	Cash · Tax · Profit
+11	Point. Scan.
+12	Stay connected.
+13	Every channel in one place: Frequent Research, our three research panels and Sampledge — websites, social profiles and WhatsApp support, each with its own QR code.
+14	brands
+15	WhatsApp number
+16	Direct lines
+17	# channels.
+18	One scan away.
+19	Follow the company behind the panels — research news, insights, team life and announcements, now on Threads too.
+20	Official website
+21	Open the website
+22	Open
+23	Chat
+24	# · Research panel
+25	# · Our product
+26	Scan your way in.
+27	Project Management & Sample Management DIY tool
+28	Plan projects, manage samples and track fieldwork yourself — follow Sampledge on every channel or chat with support on WhatsApp.
+29	Visit sampledge.com
+30	Sampledge WhatsApp support
+31	# · Direct lines
+32	Talk to us.
+33	Or find us.
+34	Chat with the Frequent Research team
+35	Find us & leave a review
+36	Open on Google
+37	All our panels
+38	Open the panel hub
+39	Start a chat
+40	Every code was generated from the official links and checked with a QR decoder before publishing. One WhatsApp number, +# # #, supports every panel and Sampledge.
+41	Jump to a brand
+42	Conversations and quick updates
+43	Your experience can improve healthcare.
+44	Turn your opinion into rewards.
+45	Share your views. Earn every time.
+46	Healthcare professionals, caregivers and patients
+47	Consumers and business professionals
+48	# · Frequent Research
+49	WhatsApp support
+50	Visit

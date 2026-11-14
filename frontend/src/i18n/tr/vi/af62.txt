@@ -1,0 +1,71 @@
+1	QR & Kết nối
+2	Quét để theo dõi chúng tôi, các panel và Sampledge.
+3	Chuyển sang giao diện tối
+4	Chuyển sang giao diện sáng
+5	Giao diện tối
+6	Giao diện sáng
+7	Nghe quen không?
+8	Di chuột hoặc chạm vào một hóa đơn để xem chúng tôi giúp thế nào.
+9	Chúng tôi giúp thế nào
+10	Bao gồm những gì
+11	Cách chúng tôi làm việc
+12	Gói dịch vụ & bảng giá
+13	Phổ biến nhất
+14	Cơ bản
+15	Tăng trưởng
+16	Cao cấp
+17	So sánh tất cả tính năng
+18	Ẩn bảng so sánh đầy đủ
+19	Kết quả bàn giao chính
+20	Không bao gồm
+21	Cần biết
+22	Chúng tôi làm việc với ai
+23	Phù hợp với loại hình doanh nghiệp của bạn
+24	Kết hợp tốt với
+25	Dịch vụ tài chính liên quan
+26	Đặt lịch tư vấn miễn phí 20 phút
+27	Xem gói & bảng giá
+28	Cách tính giá
+29	Gói từ
+30	Gói chỉ từ
+31	Chỉ từ
+32	chưa gồm GST
+33	lĩnh vực năng lực
+34	hoạt động được bao gồm
+35	gói minh bạch
+36	bước quy trình
+37	Báo giá riêng
+38	Ưu đãi không cộng dồn. Điều kiện áp dụng được xác nhận trong đề xuất của bạn.
+39	Đặt cuộc gọi miễn phí
+40	Sự rõ ràng trong từng con số bắt đầu từ một cuộc trò chuyện
+41	Khám phá giá
+42	Các gói minh bạch, đặt cạnh nhau
+43	Gói kết hợp
+44	Ưu đãi ra mắt
+45	Không phát sinh bất ngờ
+46	Điều khoản thương mại rõ ràng
+47	Vì sao điều này quan trọng
+48	Bốn đội ngũ chuyên môn
+49	/tháng
+50	/năm
+51	/tờ khai
+52	/dự án
+53	Sổ sách & Báo cáo
+54	Thuế & Tuân thủ
+55	Kế hoạch & Nguồn vốn
+56	Tài chính chiến lược
+57	Chọn
+58	Hiện mã QR
+59	Panel chính thức
+60	Quét để theo dõi
+61	Hỗ trợ qua WhatsApp
+62	Mọi panel.
+63	Mọi hồ sơ. Một lần quét.
+64	Chọn một panel để xem website, mạng xã hội và hỗ trợ WhatsApp — mỗi mục có mã QR riêng.
+65	mã QR của panel
+66	Tất cả panel của chúng tôi ở một nơi:
+67	02 · Các panel nghiên cứu của chúng tôi
+68	dịch vụ tài chính
+69	gói rõ ràng mỗi dịch vụ
+70	cuộc gọi tìm hiểu miễn phí
+71	Khám phá

@@ -1,0 +1,17 @@
+{
+"tu":"INDIA_MAP","Ii":"findVertical","Kc":"PRODUCTS","IM":"VERTICAL_DETAILS","Uy":"TESTIMONIALS","Q1":"CAREERS","AS":"CERTIFICATIONS","Kp":"DOWNLOADS",
+"QM":"CertBadge","LM":"EsomarBadge","Oc":"TrustBadges",
+"vf":"isPlaceholder","L1":"GOV_FAQS","nO":"STOP_WORDS","gS":"chatNormalize","fS":"chatStem","u5":"chatKey","h5":"chatTokens","p5":"CHAT_ANSWERS","En":"addAnswer","sO":"CHAT_SERVICE_ALIASES",
+"io":"PHONE_COUNTRIES","iA":"phoneError","wS":"CHAT_TOPICS","oO":"phoneFromText",
+"vS":"useInView","Wu":"prefersReducedMotion","rA":"useJsonLd","Nu":"IndustryIcon",
+"ct":"industry","jk":"INDUSTRY_GROUPS","xr":"INDUSTRIES","d0":"findIndustry","H1":"SERVICE_GUIDES",
+"jn":"PageHero","ks":"CtaSection","Ks":"CtaSectionBlock","f5":"phoneDialCode","gm":"serviceNames","UD":"MARKETPLACE_PRODUCT","QD":"SAMPLEDGE_PRODUCT","Zh":"ENQUIRY_TYPES","u0":"EnquiryForm",
+"FM":"TURN2OPINION_LOGO","jM":"MFR_LOGO","PM":"MHO_LOGO","RM":"PANEL_LOGOS","wf":"panelLogo","Au":"PanelMark","AO":"PanelInitials","BS":"PanelsSection","EU":"findGuide",
+"oA":"FaqList","FI":"WhyUs","m5":"TeamCaption","jI":"GuideLink","Vk":"VERTICAL_FORM_KEY","MD":"VerticalPageBody","w5":"ProcessSection","OD":"VERTICAL_PAGE_MODULE",
+"dS":"SERVICE_COUNT","kS":"ServicesExplorer","Vp":"BlogCover","mu":"RichText","Kk":"blogSlug","kD":"BLOG_FORM_KEY","xD":"BlogFigure",
+"Jo":"COMPANY","y5":"LEGAL_PAGES","SD":"RESEARCH_STAGES","ID":"QUALITY_CONTROLS","TD":"BRIEF_QUESTIONS","ED":"PRIVACY_SERVICE_LINKS","TQ":"findLegalPage","qk":"legalSlug",
+"uS":"PANELS_URL","EM":"findPortal","hS":"portalJoinUrl","$r":"GOV_CASE_STUDY","Nk":"govCaseSlug","mS":"GOV_STATS","d5":"GOV_SERVICES",
+"SM":"findService","TM":"serviceFaqs","kf":"SERVICE_INDUSTRIES","Yk":"SERVICE_PANELS","LD":"SERVICE_FORM_KEY","A5":"ClientReviews",
+"NM":"HOME_STATS","hO":"CountUp","bS":"StatsBand","xS":"LeadersSection","PU":"HOME_VALUES","XU":"ProductPage",
+"zD":"SHOW_ALL_CASES","PI":"CASE_FILES","RI":"caseFile","W1":"hasCases","NI":"loadCases","xf":"CASE_COUNTRIES","gu":"countryName"
+}

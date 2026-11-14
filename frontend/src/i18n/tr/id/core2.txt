@@ -1,0 +1,394 @@
+1	Wawancara # menit
+2	(dari #)
+3	(membuka di tab baru)
+4	+# # # atau ketik Lewati
+5	, dan menyimpan detail saya sebagaimana dijelaskan dalam
+6	, jabatan
+7	, peringkat, dan ulasan.
+8	. Anda bisa mengubahnya kapan saja sebelum diterbitkan.
+9	? Gunakan detail lain
+10	Spesialis telah menerima permintaan Anda
+11	Tentang halaman ini
+12	Pembukuan akurat
+13	Wawasan yang dapat ditindaklanjuti
+14	Semua negara
+15	Hampir selesai
+16	Beri ulasan juga di Google
+17	Dan Anda berada di negara mana?
+18	Dan nomor telepon Anda dengan kode negara — atau ketik Lewati.
+19	Ada yang ingin ditambahkan?
+20	Janji temu · #
+21	Tanyakan ke asisten kami saja
+22	Asisten sedang mengetik
+23	Kembali
+24	Seimbang
+25	Jadilah yang pertama
+26	Prospek lebih baik
+27	PDF bermerek · dibuat instan · bertanda air
+28	Impas
+29	Terobosan
+30	Bisakah saya mengunduh studi kasus? Bagaimana cara mendapatkan PDF studi kasus?
+31	Ganti bahasa
+32	Ubah tampilan untuk layanan lain yang Anda pilih
+33	Periksa kotak masuk Anda
+34	Pilih peringkat dari # hingga #.
+35	Pilih negara Anda.
+36	Kode yang rapi
+37	Testimoni klien
+38	Terus naik
+39	Studi klinis · Kardiologi
+40	Tutup pratinjau
+41	Ciutkan semua
+42	Nama perusahaan
+43	Kepatuhan tepat waktu
+44	Rahasia dan anonim
+45	Persetujuan
+46	Negara
+47	Kode negara
+48	Jabatan
+49	Jabatan · Perusahaan
+50	Tutup
+51	Apakah ada brosur untuk setiap layanan?
+52	Dokter
+53	Dokumen
+54	Apakah Sampledge punya diskon paket tahunan?
+55	Unduh lagi
+56	Unduh
+57	Unduh —
+58	Unduh:
+59	Terunduh
+60	ESOMAR # adalah kumpulan standar # pertanyaan yang diajukan pembeli kepada penyedia sampel online tentang panel, sumber, pemeriksaan mutu, dan perlindungan data mereka. Jawaban lengkap kami dipublikasikan di halaman ESOMAR #.
+61	Mudah diikuti
+62	Ubah
+63	Ubah perusahaan dan negara Anda
+64	Ubah nama dan email Anda
+65	Alamat email
+66	Email dan telepon tetap privat.
+67	Kirim PDF ke email saya
+68	Email kami
+69	Enkripsi
+70	Insinyur
+71	Masukkan email yang valid, seperti nama@perusahaan.com.
+72	Masukkan nomor telepon yang valid.
+73	Masukkan kode
+74	Masukkan nama perusahaan Anda.
+75	Masukkan alamat email Anda.
+76	Masukkan nama depan Anda.
+77	Masukkan nama lengkap Anda.
+78	Masukkan nama belakang Anda.
+79	Masukkan nomor telepon Anda.
+80	Luar biasa
+81	Studi pakar · Pengambil keputusan B#B
+82	Cukup
+83	Catatan lapangan
+84	Kerja lapangan selesai sesuai jadwal.
+85	Pelaporan dan kepatuhan selalu tepat waktu.
+86	Jawaban keuangan
+87	Temukan kami di Google
+88	Nama depan
+89	Bendera muncul di sini saat pengulas menambahkan negaranya.
+90	Tindak lanjut setelah penyerahan bisa lebih baik.
+91	Untuk profesional bisnis
+92	Untuk pengasuh
+93	Untuk dokter, perawat & tenaga kesehatan
+94	Untuk dokter, spesialis, perawat, dan apoteker
+95	Untuk konsumen sehari-hari
+96	Contoh: nama@perusahaan.com
+97	Untuk anggota keluarga dan pengasuh yang merawat orang tersayang
+98	Untuk manajer, spesialis, dan pengambil keputusan
+99	Untuk pasien
+100	Untuk orang yang hidup dengan kondisi kesehatan
+101	Format
+102	Kreativitas segar
+103	Nama lengkap
+104	Selaras dengan GDPR
+105	Tujuan, audiens, pasar, atau jadwal…
+106	Baik
+107	Perlu diketahui
+108	Riset pemerintah & opini
+109	Membumi
+110	Panduan
+111	Audiens yang sulit dijangkau
+112	Halo! Apa yang ingin Anda ketahui? Tanyakan dengan kata-kata Anda sendiri — misalnya “Berapa biaya survei online?”
+113	Halo 👋
+114	Pelaporan jujur
+115	Bagaimana cara memberi ulasan atau peringkat untuk Frequent Research?
+116	Bagaimana pengembangannya berjalan?
+117	Seberapa mudah mendapatkan perawatan yang Anda butuhkan?
+118	Seberapa jauh kami membawa merek Anda?
+119	Seberapa sehat angka-angka Anda?
+120	Seberapa kuat wawasannya?
+121	Saya setuju Frequent Research boleh menghubungi saya tentang unduhan ini dan menyimpan detail saya sebagaimana dijelaskan dalam
+122	Saya menyatakan ulasan ini menggambarkan pengalaman saya sendiri, dan saya setuju Frequent Research menerbitkannya di situs web ini dengan nama, negara
+123	Saya tidak menemukan negara itu. Ketik namanya, misalnya India atau Inggris.
+124	Saya belum punya jawaban yang dipublikasikan untuk itu — spesialis akan menanganinya.
+125	Saya tidak sepenuhnya yakin, tetapi halaman-halaman ini paling dekat dengan pertanyaan Anda:
+126	Di orbit
+127	Merugi
+128	Belum meyakinkan
+129	Pertanyaan industri
+130	Isi buku ini
+131	Apakah
+132	Biasanya mencakup
+133	Baru saja
+134	Pertahankan bahasa ini
+135	Maksimal # karakter.
+136	Nama maksimal # karakter.
+137	Ulasan maksimal # karakter.
+138	Bahasa
+139	Nama belakang
+140	Saya hubungkan Anda dengan spesialis — isi kartu singkat ini dan kami akan membalas lewat email, biasanya dalam satu hari kerja.
+141	Lepas landas
+142	Memuat buku panel…
+143	Terjemahan mesin · Didukung oleh Google Terjemahan
+144	Pemasar
+145	Obat · #
+146	Tonggak tercapai
+147	Tonggak diserahkan tepat waktu.
+148	Jadwal meleset
+149	Struk lainnya
+150	Visibilitas meningkat
+151	Perlu tindak lanjut
+152	Tidak pernah dipublikasikan.
+153	Tidak pernah dibagikan atau dijual
+154	Postingan baru
+155	Tidak ada negara yang cocok dengan “
+156	Tidak ada bahasa yang cocok dengan “
+157	Tidak masalah. Tanyakan hal lain — atau ketuk “Bicara dengan spesialis” kapan pun Anda siap.
+158	Tidak masalah. Anda berada di negara mana?
+159	Tidak ada pertanyaan yang cocok dengan “
+160	Belum ada ulasan yang cocok dengan filter ini.
+161	Tidak, terima kasih
+162	Tidak, kirim saja
+163	Bukan
+164	Nanti saja
+165	Boleh saya tahu nama lengkap Anda agar spesialis dapat menindaklanjuti?
+166	Perawat
+167	Kerja lapangan tepat waktu
+168	Satu
+169	Satu pemeriksaan terakhir, lalu terbitkan
+170	Satu skor keseluruhan untuk pengalaman Anda
+171	Satu pemeriksaan keamanan dan PDF Anda langsung terunduh.
+172	Teroptimasi
+173	Opsional · tidak pernah dipublikasikan.
+174	Negara lain
+175	Panel kami
+176	Visibilitas pencarian kami meningkat.
+177	Spesialis kami akan menanganinya — Anda akan menerima balasan lewat email.
+178	Terjemahan kami, dilengkapi penerjemah bawaan browser Anda
+179	Bantuan anggota panel
+180	Apoteker
+181	Telepon / WhatsApp
+182	Kode negara telepon
+183	Nomor telepon
+184	Pilih setidaknya satu layanan yang Anda ulas.
+185	Silakan email
+186	Sertakan kode negara, misalnya +# # # — atau ketik Lewati.
+187	Jangan sertakan tautan web.
+188	Centang persetujuan sebelum mengunduh.
+189	Centang persetujuan sebelum menerbitkan.
+190	Coba lagi, atau email
+191	Gunakan email kerja atau pribadi yang permanen.
+192	Buruk
+193	Disiapkan untuk
+194	Menyiapkan PDF Anda…
+195	Struk sebelumnya
+196	Mencetak “
+197	Privat
+198	Privat dan penuh hormat
+199	Saran proaktif
+200	Kerahasiaan profesional
+201	Menguntungkan
+202	Pembaruan kemajuan bisa lebih sering.
+203	Kemajuan mudah diikuti.
+204	Terbitkan ulasan saya
+205	Diterbitkan
+206	Menerbitkan…
+207	Kode QR yang menautkan ke Profil Bisnis Google Frequent Research Fieldwork Solutions Pvt. Ltd.
+208	Kode QR dengan
+209	Kode QR
+210	Pertanyaan tentang riset, pemasaran, teknologi, atau keuangan? Tanya saya — saya jawab seketika.
+211	Pertanyaan dijawab dengan cepat.
+212	Frasa cepat — ketuk untuk menambahkan ke ulasan Anda
+213	Balasan cepat
+214	Beri peringkat sekarang
+215	Beri kami peringkat dalam waktu kurang dari semenit — ulasan Anda langsung masuk ke testimoni kami.
+216	Baca dalam
+217	Baca jawaban lengkap di
+218	Pertanyaan pembaca
+219	Siap · #/#
+220	Pertanyaan terkait
+221	Balasan lewat email · biasanya dalam satu hari kerja
+222	Pelaporan singkat, jelas, dan jujur.
+223	Panel riset
+224	Responsif
+225	Ulasan terkirim
+226	Pengulas
+227	Dihargai atas waktu Anda
+228	Hadiah atas wawasan Anda
+229	Cari negara
+230	Cari negara atau kode
+231	Bagian sektor
+232	Pemeriksaan keamanan
+233	Pilih negara Anda
+234	Kirim ke spesialis
+235	Mengirim…
+236	Terkirim ke
+237	Terkirim ke kotak masuk Anda
+238	Bagikan pengalaman saya ✓
+239	Bagikan realitas merawat seseorang agar layanan, dukungan, dan produk dirancang berdasarkan kebutuhan nyata.
+240	Bagikan pengetahuan Anda dalam studi untuk merek, agensi, dan riset B#B — dan dapatkan hadiah atas waktu Anda.
+241	Bagikan pengalaman Anda dengan kata-kata sendiri…
+242	Ceritakan kisah Anda, dengan cara Anda
+243	Diserahkan tanpa cela
+244	Sesi singkat dan terjadwal
+245	Tampilkan kode keamanan baru
+246	Tampilkan lebih banyak ulasan
+247	Ditampilkan sebagai tumpukan jawaban survei
+248	Ditampilkan sebagai feed sosial langsung
+249	Ditampilkan sebagai log terminal
+250	Ditampilkan sebagai struk cetak
+251	Lewati
+252	Melambung tinggi
+253	Pembaruan lambat
+254	Agar tindak lanjut sesuai pasar Anda — tidak pernah spam.
+255	Wawasan solid
+256	Dukungan solid
+257	Ada sinyal
+258	Beberapa jadwal mundur.
+259	Maaf, saya tidak dapat menghubungi tim kami saat ini. Coba lagi, atau gunakan email / WhatsApp.
+260	Maaf, saya kurang menangkap. Bisakah Anda mengetik nama lengkap saja? Contoh: Asha Rao
+261	Suara mati
+262	Sumber
+263	Spesialis
+264	Spesialisasi cocok
+265	Studi sesuai spesialisasi
+266	Perangkat lunak stabil
+267	Pernyataan
+268	Langkah # · Dengan kata-kata Anda
+269	Langkah # · Peringkat Anda
+270	Langkah # · Lencana pengulas Anda
+271	Wawasan kuat
+272	Studi yang sesuai dengan peran Anda
+273	Pertanyaan yang disarankan
+274	Dukungan setelah peluncuran solid.
+275	Ikuti studi kesehatan yang sesuai dengan spesialisasi dan pengalaman Anda, dan dapatkan hadiah atas waktu profesional Anda.
+276	Ikut kapan pun Anda sempat
+277	Ketuk untuk memberi peringkat · # hingga #
+278	Ceritakan kepada peneliti seperti apa sebenarnya hidup dengan suatu kondisi — suara Anda membantu memperbaiki pengobatan dan perawatan untuk semua.
+279	Terima kasih
+280	Terima kasih — jawaban Anda anonim.
+281	Terima kasih telah berkunjung — semoga hari Anda menyenangkan!
+282	Terima kasih! Singkatnya, apa yang Anda butuhkan — tujuan, audiens, pasar, atau jadwal?
+283	Terima kasih! Nomor telepon atau WhatsApp Anda dengan kode negara, jika ingin ditelepon — misalnya +# # #. Anda bisa melewatinya.
+284	Kode tidak cocok. Coba lagi atau ketuk ↻ untuk kode baru.
+285	Halaman Unduhan memiliki buku panel untuk setiap negara yang kami profilkan — edisi bisnis (B#B) dan edisi konsumen (B#C) — serta brosur untuk keempat layanan kami. Pilih negara, isi beberapa detail, dan PDF langsung terunduh.
+286	PDF tidak dapat dibuat di browser ini. Coba lagi atau tulis ke info@frequentresearch.com.
+287	Alat PDF tidak termuat. Muat ulang halaman dan coba lagi.
+288	Pembukuannya akurat.
+289	Kodenya rapi dan mudah dipelihara.
+290	Ide kreatifnya menonjol.
+291	Datanya bersih dan siap digunakan.
+292	Unduhan dibatalkan. Gunakan “Unduh lagi” kapan pun Anda siap.
+293	Temuannya jelas dan dapat ditindaklanjuti.
+294	Prospeknya sangat cocok untuk kami.
+295	Laporan bulanan memberi tahu apa yang perlu diperbaiki.
+296	Daftar buku panel tidak dapat dimuat. Muat ulang halaman, atau tulis ke info@frequentresearch.com.
+297	Cakupan bisa didefinisikan lebih jelas sejak awal.
+298	Kode keamanan masih dimuat.
+299	Perangkat lunaknya stabil dan dibangun dengan baik.
+300	Tim membalas dengan cepat.
+301	Mereka mencakup setiap pasar yang kami butuhkan.
+302	Mereka menandai masalah sebelum menjadi masalah besar.
+303	Mereka menjangkau audiens yang sulit kami temukan.
+304	Dokumen ini belum tersedia.
+305	Buku panel ini tidak dapat dimuat. Coba lagi.
+306	Tiga detail singkat dan salinan Anda segera dikirim.
+307	Imbal hasil tertinggi
+308	Diterjemahkan oleh tim Frequent Research
+309	Kepercayaan & privasi
+310	Nyalakan suara obrolan
+311	Ketik karakter yang ditampilkan di gambar
+312	Ketik kode
+313	Ketik kode keamanan yang ditampilkan.
+314	Cakupan tidak jelas
+315	Buka
+316	Buka & unduh
+317	Buka salinan Anda
+318	Terbuka — PDF Anda siap
+319	Gunakan huruf saja (spasi, titik, apostrof, dan tanda hubung diperbolehkan).
+320	Gunakan huruf saja.
+321	MIS yang berguna
+322	Pakar terverifikasi
+323	Panel terverifikasi dan rahasia
+324	Sangat baik
+325	Lihat Profil Bisnis Google kami
+326	Bertanda air
+327	Kami mendengarkan Anda.
+328	Selamat datang kembali,
+329	Layanan TI dan pengembangan perangkat lunak apa yang Anda tawarkan?
+330	Layanan akuntansi dan keuangan apa yang Anda tawarkan?
+331	Layanan pemasaran digital apa yang Anda tawarkan?
+332	Apa itu kuesioner ESOMAR #?
+333	Bagaimana sejarah Frequent Research? Kapan didirikan?
+334	Layanan riset pasar apa yang Anda tawarkan?
+335	Apa yang harus kami perbaiki?
+336	Apa yang paling berkesan?
+337	Apa yang akan membuatnya luar biasa?
+338	Di mana saya bisa mendapatkan buku panel B#B atau konsumen untuk suatu negara?
+339	Di mana Anda bekerja?
+340	Siapa yang membaca?
+341	Siapa yang menulis ulasan ini?
+342	Kerja
+343	Email kerja
+344	Pernah bekerja dengan Frequent Research?
+345	Pernah bekerja dengan tim
+346	Tulis ulasan Google
+347	Tulis minimal # karakter (#/#).
+348	Tulis yang pertama
+349	Ya — penagihan tahunan di Sampledge menghemat #% dibandingkan membayar bulanan selama dua belas bulan. Harga dan paket ada di halaman Sampledge, dan setiap tombol paket membawa Anda ke situs Sampledge.
+350	Ya. Setiap studi kasus di halaman Industri & Studi Kasus memiliki tombol Unduh PDF. Isi beberapa detail dan PDF bertanda air langsung terunduh.
+351	Ya. Ada brosur terpisah untuk Riset Pasar, Pemasaran Digital, TI & Pengembangan, serta Keuangan & Akuntansi di halaman Unduhan.
+352	Anda merawat mereka.
+353	Sama-sama! Ada lagi yang bisa saya bantu?
+354	PDF Anda sedang diunduh. Periksa unduhan browser jika tidak terbuka otomatis.
+355	Browser Anda
+356	Wawasan klinis Anda
+357	Negara Anda
+358	Detail Anda dari kunjungan ini sudah siap — satu klik untuk “
+359	Pengalaman Anda dapat
+360	Pengalaman Anda penting
+361	Keahlian Anda,
+362	Nama depan Anda minimal # huruf.
+363	Nama lengkap Anda
+364	Nama Anda
+365	Nama Anda minimal # huruf.
+366	Pertanyaan Anda
+367	Peringkat Anda dari #
+368	Permintaan Anda tidak dapat dikirim.
+369	Ulasan Anda
+370	Ulasan Anda (wajib)
+371	Ringkasan ulasan Anda
+372	Ulasan Anda tidak dapat dikirim.
+373	Ulasan Anda telah sampai ke tim kami, dan Anda sudah bisa melihatnya di bagian Testimoni Klien.
+374	Ulasan Anda sudah kami terima. Ulasan akan muncul di testimoni klien setelah diperiksa.
+375	Ulasan Anda sudah tayang di testimoni klien dan halaman Peringkat & Ulasan.
+376	dan perusahaan
+377	lewat email
+378	nama perusahaan
+379	hari lalu
+380	meningkatkan layanan kesehatan.
+381	belum ada ulasan
+382	nanti saja
+383	dari # berdasarkan
+384	buku panel
+385	kebijakan privasi
+386	tabel profil
+387	ulasan sejauh ini
+388	bagian sektor
+389	membentuk perawatan yang lebih baik.
+390	? Ulasan Anda bisa menjadi yang pertama.
+391	dengan tim yang Anda pilih
+392	· bertanda air
+393	” dengan nama Anda.
+394	”. Pilih “Negara lain” untuk mengetik kode.

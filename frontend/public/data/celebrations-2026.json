@@ -1,0 +1,10088 @@
+{
+"version": 1,
+"source": "Global_Special_Days_Festival_Calendar_2026.xlsx",
+"updated": "2026-11-04",
+"timezone": "Asia/Kolkata",
+"events": [
+{
+"date": "2026-01-01",
+"name": "New Year's Day",
+"title": "New Year's Day",
+"full": "New Year's Day",
+"category": "Global Festival / Holiday",
+"region": "Global",
+"importance": "high",
+"motif": "fireworks",
+"flags": [],
+"global": true,
+"message": "Happy New Year's Day! Warm wishes to our clients, panellists and partners around the world.",
+"also": [
+{
+"name": "Global Family Day",
+"flags": [],
+"motif": "hearts"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"scene": "new-years-day"
+},
+{
+"date": "2026-01-02",
+"name": "World Introvert Day",
+"title": "World Introvert Day",
+"full": "World Introvert Day",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "hearts",
+"flags": [],
+"global": true,
+"message": "Today is World Introvert Day. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"headphones",
+"book"
+],
+"anim": {
+"move": 0,
+"back": 0,
+"fx": 0,
+"pal": 0
+}
+},
+{
+"date": "2026-01-03",
+"name": "Savitribai Phule Jayanti (pioneer of women's education)",
+"title": "Savitribai Phule Jayanti",
+"full": "Savitribai Phule Jayanti (pioneer of women's education)",
+"category": "National / Commemorative Day (India)",
+"region": "India",
+"importance": "medium",
+"motif": "coins",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour Savitribai Phule Jayanti.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"school",
+"pencil"
+],
+"anim": {
+"move": 1,
+"back": 7,
+"fx": 3,
+"pal": 5
+}
+},
+{
+"date": "2026-01-04",
+"name": "World Braille Day (UN)",
+"title": "World Braille Day",
+"full": "World Braille Day (UN)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "book",
+"flags": [],
+"global": true,
+"message": "Today is World Braille Day. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"braille",
+"eye"
+],
+"anim": {
+"move": 2,
+"back": 4,
+"fx": 6,
+"pal": 2
+}
+},
+{
+"date": "2026-01-06",
+"name": "CES 2026 begins – Las Vegas",
+"title": "CES 2026 begins",
+"full": "CES 2026 begins – Las Vegas (Jan 6–9)",
+"category": "Industry Event / Conference",
+"region": "USA / Global",
+"importance": "high",
+"motif": "tech",
+"flags": [
+"US"
+],
+"global": true,
+"message": "CES 2026 begins: let's meet and talk about what's next.",
+"also": [
+{
+"name": "Epiphany",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM",
+"IT",
+"Finance"
+],
+"show": true,
+"icon": [
+"device-tv",
+"cpu"
+],
+"anim": {
+"move": 3,
+"back": 1,
+"fx": 2,
+"pal": 7
+}
+},
+{
+"date": "2026-01-07",
+"name": "Orthodox Christmas",
+"title": "Orthodox Christmas",
+"full": "Orthodox Christmas",
+"category": "Global Festival / Holiday",
+"region": "Russia, E. Europe, Ethiopia",
+"importance": "medium",
+"motif": "xmas",
+"flags": [],
+"global": true,
+"message": "Happy Orthodox Christmas! Warm wishes to our clients, panellists and partners around the world.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"scene": "orthodox-christmas"
+},
+{
+"date": "2026-01-08",
+"name": "CES 2026 – AI, devices & tech launches",
+"title": "CES 2026",
+"full": "CES 2026 – AI, devices & tech launches (Day 3)",
+"category": "Industry Event / Conference",
+"region": "USA / Global",
+"importance": "medium",
+"motif": "tech",
+"flags": [
+"US"
+],
+"global": true,
+"message": "CES 2026: let's meet and talk about what's next.",
+"also": [],
+"services": [
+"DM",
+"IT",
+"Finance"
+],
+"show": true,
+"icon": [
+"device-desktop",
+"wifi"
+],
+"anim": {
+"move": 4,
+"back": 8,
+"fx": 5,
+"pal": 4
+}
+},
+{
+"date": "2026-01-09",
+"name": "Pravasi Bharatiya Divas (NRI Day)",
+"title": "Pravasi Bharatiya Divas",
+"full": "Pravasi Bharatiya Divas (NRI Day)",
+"category": "National / Commemorative Day (India)",
+"region": "India",
+"importance": "medium",
+"motif": "dove",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour Pravasi Bharatiya Divas.",
+"also": [
+{
+"name": "CES 2026 closes",
+"flags": [],
+"motif": "tech"
+}
+],
+"services": [
+"MR",
+"DM",
+"IT",
+"Finance"
+],
+"show": true,
+"icon": [
+"plane-arrival",
+"home-heart"
+],
+"anim": {
+"move": 5,
+"back": 5,
+"fx": 1,
+"pal": 1
+}
+},
+{
+"date": "2026-01-10",
+"name": "World Hindi Day",
+"title": "World Hindi Day",
+"full": "World Hindi Day",
+"category": "National / Commemorative Day (India)",
+"region": "India / Global",
+"importance": "medium",
+"motif": "book",
+"flags": [
+"IN"
+],
+"global": true,
+"message": "Today we remember and honour World Hindi Day.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"language-hiragana",
+"message-language"
+],
+"anim": {
+"move": 6,
+"back": 2,
+"fx": 4,
+"pal": 6
+}
+},
+{
+"date": "2026-01-11",
+"name": "Lal Bahadur Shastri Punyatithi",
+"title": "Lal Bahadur Shastri Punyatithi",
+"full": "Lal Bahadur Shastri Punyatithi",
+"category": "National / Commemorative Day (India)",
+"region": "India",
+"importance": "medium",
+"motif": "dove",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour Lal Bahadur Shastri Punyatithi.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"wheat",
+"flag"
+],
+"anim": {
+"move": 0,
+"back": 1,
+"fx": 3,
+"pal": 3
+},
+"solemn": true
+},
+{
+"date": "2026-01-12",
+"name": "National Youth Day (Swami Vivekananda Jayanti)",
+"title": "National Youth Day",
+"full": "National Youth Day (Swami Vivekananda Jayanti)",
+"category": "National / Commemorative Day (India)",
+"region": "India",
+"importance": "high",
+"motif": "hearts",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour National Youth Day.",
+"also": [
+{
+"name": "Q3 FY26 results season begins",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"icon": [
+"run",
+"bolt"
+],
+"anim": {
+"move": 8,
+"back": 6,
+"fx": 4,
+"pal": 1
+}
+},
+{
+"date": "2026-01-13",
+"name": "Lohri",
+"title": "Lohri",
+"full": "Lohri",
+"category": "Festival (India)",
+"region": "North India (Punjab, Haryana, Delhi)",
+"importance": "major",
+"motif": "bonfire",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Happy Lohri! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "lohri"
+},
+{
+"date": "2026-01-14",
+"name": "Makar Sankranti / Pongal / Uttarayan / Magh Bihu",
+"title": "Makar Sankranti",
+"full": "Makar Sankranti / Pongal / Uttarayan / Magh Bihu",
+"category": "Festival (India)",
+"region": "Pan-India",
+"importance": "major",
+"motif": "kite",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Happy Makar Sankranti! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "makar-sankranti"
+},
+{
+"date": "2026-01-15",
+"name": "Indian Army Day",
+"title": "Indian Army Day",
+"full": "Indian Army Day",
+"category": "National / Commemorative Day (India)",
+"region": "India",
+"importance": "high",
+"motif": "dove",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour Indian Army Day.",
+"also": [
+{
+"name": "Get to Know Your Customers Day",
+"flags": [],
+"motif": "survey"
+},
+{
+"name": "Mattu Pongal",
+"flags": [],
+"motif": "kite"
+},
+{
+"name": "Wikipedia Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM",
+"IT",
+"Finance"
+],
+"show": true,
+"icon": [
+"shield-star",
+"medal"
+],
+"anim": {
+"move": 9,
+"back": 3,
+"fx": 0,
+"pal": 6
+}
+},
+{
+"date": "2026-01-16",
+"name": "National Startup Day (India)",
+"title": "National Startup Day (India)",
+"full": "National Startup Day (India)",
+"category": "IT & Technology",
+"region": "India",
+"importance": "high",
+"motif": "tech",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Celebrating National Startup Day (India) with every builder, coder and maker.",
+"also": [],
+"services": [
+"DM",
+"IT"
+],
+"show": true,
+"icon": [
+"rocket",
+"bulb"
+],
+"anim": {
+"move": 10,
+"back": 0,
+"fx": 3,
+"pal": 3
+}
+},
+{
+"date": "2026-01-18",
+"name": "Australian Open begins",
+"title": "Australian Open begins",
+"full": "Australian Open begins (Jan 18 – Feb 1)",
+"category": "Sports & Mega Events",
+"region": "Australia / Global",
+"importance": "medium",
+"motif": "sport",
+"flags": [
+"AU"
+],
+"global": true,
+"message": "Cheering on Australian Open begins! Good luck to every team and every fan.",
+"also": [
+{
+"name": "World Religion Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"sun-high",
+"ball-tennis"
+],
+"anim": {
+"move": 11,
+"back": 7,
+"fx": 6,
+"pal": 0
+}
+},
+{
+"date": "2026-01-19",
+"name": "World Economic Forum Annual Meeting, Davos",
+"title": "World Economic Forum Annual Meeting, Davos",
+"full": "World Economic Forum Annual Meeting, Davos (Jan 19–23)",
+"category": "Industry Event / Conference",
+"region": "Switzerland / Global",
+"importance": "high",
+"motif": "coins",
+"flags": [
+"CH"
+],
+"global": true,
+"message": "World Economic Forum Annual Meeting, Davos: let's meet and talk about what's next.",
+"also": [
+{
+"name": "Martin Luther King Jr. Day",
+"flags": [],
+"motif": "globe"
+},
+{
+"name": "'Blue Monday'",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM",
+"IT",
+"Finance"
+],
+"show": true,
+"icon": [
+"building-skyscraper",
+"world"
+],
+"anim": {
+"move": 0,
+"back": 5,
+"fx": 2,
+"pal": 5
+}
+},
+{
+"date": "2026-01-20",
+"name": "WEF Davos – global outlook & risk discussions",
+"title": "WEF Davos",
+"full": "WEF Davos – global outlook & risk discussions",
+"category": "Industry Event / Conference",
+"region": "Global",
+"importance": "medium",
+"motif": "globe",
+"flags": [
+"CH"
+],
+"global": true,
+"message": "WEF Davos: let's meet and talk about what's next.",
+"also": [],
+"services": [
+"DM",
+"IT",
+"Finance"
+],
+"show": true,
+"icon": [
+"snowflake",
+"microphone-2"
+],
+"anim": {
+"move": 1,
+"back": 2,
+"fx": 5,
+"pal": 2
+}
+},
+{
+"date": "2026-01-21",
+"name": "National Hugging Day",
+"title": "National Hugging Day",
+"full": "National Hugging Day",
+"category": "Global Observance (UN / International)",
+"region": "USA",
+"importance": "medium",
+"motif": "hearts",
+"flags": [
+"US"
+],
+"global": false,
+"message": "Today is National Hugging Day. We join the world in raising awareness.",
+"also": [
+{
+"name": "Statehood Day",
+"flags": [],
+"motif": "dove"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"friends",
+"heart-handshake"
+],
+"anim": {
+"move": 2,
+"back": 9,
+"fx": 2,
+"pal": 7
+}
+},
+{
+"date": "2026-01-23",
+"name": "Vasant Panchami / Saraswati Puja",
+"title": "Vasant Panchami",
+"full": "Vasant Panchami / Saraswati Puja",
+"category": "Festival (India)",
+"region": "Pan-India",
+"importance": "major",
+"motif": "lotus",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Happy Vasant Panchami! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [
+{
+"name": "Parakram Diwas",
+"flags": [],
+"motif": "lotus"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "vasant-panchami"
+},
+{
+"date": "2026-01-24",
+"name": "National Girl Child Day",
+"title": "National Girl Child Day",
+"full": "National Girl Child Day",
+"category": "National / Commemorative Day (India)",
+"region": "India",
+"importance": "high",
+"motif": "hearts",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour National Girl Child Day.",
+"also": [
+{
+"name": "International Day of Education",
+"flags": [],
+"motif": "book"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"mood-kid",
+"star"
+],
+"anim": {
+"move": 3,
+"back": 6,
+"fx": 5,
+"pal": 4
+}
+},
+{
+"date": "2026-01-25",
+"name": "National Voters' Day",
+"title": "National Voters' Day",
+"full": "National Voters' Day",
+"category": "National / Commemorative Day (India)",
+"region": "India",
+"importance": "high",
+"motif": "dove",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour National Voters' Day.",
+"also": [
+{
+"name": "National Tourism Day",
+"flags": [],
+"motif": "globe"
+},
+{
+"name": "World Leprosy Day",
+"flags": [],
+"motif": "ribbon"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"checkbox",
+"ballpen"
+],
+"anim": {
+"move": 4,
+"back": 3,
+"fx": 1,
+"pal": 2
+}
+},
+{
+"date": "2026-01-26",
+"name": "Republic Day",
+"title": "Republic Day",
+"full": "Republic Day (77th)",
+"category": "National / Commemorative Day (India)",
+"region": "India",
+"importance": "major",
+"motif": "tricolour",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour Republic Day.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"scene": "republic-day"
+},
+{
+"date": "2026-01-27",
+"name": "International Holocaust Remembrance Day (UN)",
+"title": "International Holocaust Remembrance Day",
+"full": "International Holocaust Remembrance Day (UN)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "high",
+"motif": "dove",
+"flags": [],
+"global": true,
+"message": "Today is International Holocaust Remembrance Day. We join the world in raising awareness.",
+"also": [
+{
+"name": "US Fed FOMC meeting begins",
+"flags": [
+"US"
+],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"icon": [
+"candle",
+"star"
+],
+"anim": {
+"move": 0,
+"back": 1,
+"fx": 3,
+"pal": 7
+},
+"solemn": true
+},
+{
+"date": "2026-01-28",
+"name": "Data Privacy Day",
+"title": "Data Privacy Day",
+"full": "Data Privacy Day",
+"category": "IT & Technology",
+"region": "Global",
+"importance": "high",
+"motif": "tech",
+"flags": [],
+"global": true,
+"message": "Celebrating Data Privacy Day with every builder, coder and maker.",
+"also": [
+{
+"name": "US Fed FOMC rate decision",
+"flags": [
+"US"
+],
+"motif": "globe"
+},
+{
+"name": "Lala Lajpat Rai Jayanti",
+"flags": [],
+"motif": "lotus"
+}
+],
+"services": [
+"MR",
+"DM",
+"IT",
+"Finance"
+],
+"show": true,
+"icon": [
+"lock-square-rounded",
+"shield-lock"
+],
+"anim": {
+"move": 6,
+"back": 7,
+"fx": 0,
+"pal": 4
+}
+},
+{
+"date": "2026-01-29",
+"name": "Indian Newspaper Day",
+"title": "Indian Newspaper Day",
+"full": "Indian Newspaper Day",
+"category": "National / Commemorative Day (India)",
+"region": "India",
+"importance": "medium",
+"motif": "dove",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour Indian Newspaper Day.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"news",
+"printer"
+],
+"anim": {
+"move": 7,
+"back": 4,
+"fx": 3,
+"pal": 1
+}
+},
+{
+"date": "2026-01-30",
+"name": "Martyrs' Day / Shaheed Diwas (Gandhi Punyatithi)",
+"title": "Martyrs' Day",
+"full": "Martyrs' Day / Shaheed Diwas (Gandhi Punyatithi)",
+"category": "National / Commemorative Day (India)",
+"region": "India",
+"importance": "high",
+"motif": "dove",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour Martyrs' Day.",
+"also": [
+{
+"name": "Anti-Leprosy Day (India)",
+"flags": [
+"IN"
+],
+"motif": "ribbon"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"flower",
+"feather"
+],
+"anim": {
+"move": 10,
+"back": 1,
+"fx": 2,
+"pal": 6
+},
+"solemn": true
+},
+{
+"date": "2026-01-31",
+"name": "TDS return due – Q3",
+"title": "TDS return due",
+"full": "TDS return due – Q3 (Oct–Dec)",
+"category": "Finance, Banking & Tax",
+"region": "India",
+"importance": "medium",
+"motif": "coins",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "TDS return due: an important date for every business. Our Accounts & Finance team is here to help.",
+"also": [],
+"services": [
+"MR",
+"Finance"
+],
+"show": true,
+"icon": [
+"receipt-tax",
+"calendar-due"
+],
+"anim": {
+"move": 9,
+"back": 8,
+"fx": 3,
+"pal": 3
+}
+},
+{
+"date": "2026-02-01",
+"name": "Union Budget 2026-27 presented",
+"title": "Union Budget 2026-27 presented",
+"full": "Union Budget 2026-27 presented",
+"category": "Finance, Banking & Tax",
+"region": "India",
+"importance": "high",
+"motif": "coins",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Union Budget 2026-27 presented: an important date for every business. Our Accounts & Finance team is here to help.",
+"also": [
+{
+"name": "Guru Ravidas Jayanti",
+"flags": [],
+"motif": "lotus"
+},
+{
+"name": "Indian Coast Guard Day",
+"flags": [
+"IN"
+],
+"motif": "waves"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"icon": [
+"briefcase-2",
+"report-money"
+],
+"anim": {
+"move": 10,
+"back": 5,
+"fx": 6,
+"pal": 0
+}
+},
+{
+"date": "2026-02-02",
+"name": "World Wetlands Day",
+"title": "World Wetlands Day",
+"full": "World Wetlands Day",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "waves",
+"flags": [],
+"global": true,
+"message": "Today is World Wetlands Day. We join the world in raising awareness.",
+"also": [
+{
+"name": "Groundhog Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"droplets",
+"fish"
+],
+"anim": {
+"move": 11,
+"back": 2,
+"fx": 2,
+"pal": 5
+}
+},
+{
+"date": "2026-02-03",
+"name": "Shab-e-Barat",
+"title": "Shab-e-Barat",
+"full": "Shab-e-Barat",
+"category": "Festival (India)",
+"region": "India / Muslim world",
+"importance": "medium",
+"motif": "crescent",
+"flags": [
+"IN"
+],
+"global": true,
+"message": "Happy Shab-e-Barat! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "shab-e-barat"
+},
+{
+"date": "2026-02-04",
+"name": "World Cancer Day",
+"title": "World Cancer Day",
+"full": "World Cancer Day",
+"category": "Healthcare & Wellness",
+"region": "Global",
+"importance": "high",
+"motif": "ribbon",
+"flags": [],
+"global": true,
+"message": "World Cancer Day: health matters. Our MyHealthOpinions community helps every voice be heard.",
+"also": [
+{
+"name": "RBI MPC meeting begins",
+"flags": [],
+"motif": "coins"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"icon": [
+"ribbon-health",
+"heart"
+],
+"anim": {
+"move": 10,
+"back": 1,
+"fx": 2,
+"pal": 3
+},
+"solemn": true
+},
+{
+"date": "2026-02-06",
+"name": "RBI Monetary Policy decision",
+"title": "RBI Monetary Policy decision",
+"full": "RBI Monetary Policy decision",
+"category": "Finance, Banking & Tax",
+"region": "India",
+"importance": "high",
+"motif": "coins",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "RBI Monetary Policy decision: an important date for every business. Our Accounts & Finance team is here to help.",
+"also": [
+{
+"name": "Winter Olympics open",
+"flags": [],
+"motif": "sport"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"icon": [
+"building-bank",
+"percentage"
+],
+"anim": {
+"move": 1,
+"back": 7,
+"fx": 1,
+"pal": 0
+}
+},
+{
+"date": "2026-02-07",
+"name": "ICC Men's T20 World Cup begins – India & Sri Lanka",
+"title": "ICC Men's T20 World Cup begins",
+"full": "ICC Men's T20 World Cup begins – India & Sri Lanka (Feb 7 – Mar 8)",
+"category": "Sports & Mega Events",
+"region": "India / Sri Lanka",
+"importance": "high",
+"motif": "sport",
+"flags": [
+"IN"
+],
+"global": true,
+"message": "Cheering on ICC Men's T20 World Cup begins! Good luck to every team and every fan.",
+"also": [
+{
+"name": "Rose Day",
+"flags": [],
+"motif": "hearts"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"cricket",
+"trophy"
+],
+"anim": {
+"move": 2,
+"back": 4,
+"fx": 4,
+"pal": 5
+}
+},
+{
+"date": "2026-02-08",
+"name": "Super Bowl LX",
+"title": "Super Bowl LX",
+"full": "Super Bowl LX",
+"category": "Sports & Mega Events",
+"region": "USA",
+"importance": "high",
+"motif": "sport",
+"flags": [
+"US"
+],
+"global": false,
+"message": "Cheering on Super Bowl LX! Good luck to every team and every fan.",
+"also": [
+{
+"name": "Propose Day",
+"flags": [],
+"motif": "hearts"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"ball-american-football",
+"trophy"
+],
+"anim": {
+"move": 3,
+"back": 1,
+"fx": 0,
+"pal": 2
+}
+},
+{
+"date": "2026-02-09",
+"name": "National Pizza Day / Chocolate Day (Valentine's Week)",
+"title": "National Pizza Day",
+"full": "National Pizza Day / Chocolate Day (Valentine's Week)",
+"category": "Digital Marketing & E-commerce",
+"region": "USA / India",
+"importance": "medium",
+"motif": "sale",
+"flags": [
+"IN",
+"US"
+],
+"global": false,
+"message": "National Pizza Day: the right moment to reach the right audience.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"pizza",
+"flame"
+],
+"anim": {
+"move": 4,
+"back": 8,
+"fx": 4,
+"pal": 7
+}
+},
+{
+"date": "2026-02-10",
+"name": "Safer Internet Day",
+"title": "Safer Internet Day",
+"full": "Safer Internet Day (2nd Tue of Feb)",
+"category": "IT & Technology",
+"region": "Global",
+"importance": "high",
+"motif": "tech",
+"flags": [],
+"global": true,
+"message": "Celebrating Safer Internet Day with every builder, coder and maker.",
+"also": [
+{
+"name": "National Deworming Day",
+"flags": [],
+"motif": "globe"
+},
+{
+"name": "World Pulses Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM",
+"IT"
+],
+"show": true,
+"icon": [
+"shield-check",
+"world-www"
+],
+"anim": {
+"move": 5,
+"back": 5,
+"fx": 0,
+"pal": 4
+}
+},
+{
+"date": "2026-02-11",
+"name": "International Day of Women & Girls in Science (UN)",
+"title": "International Day of Women & Girls in Science",
+"full": "International Day of Women & Girls in Science (UN)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "high",
+"motif": "tech",
+"flags": [],
+"global": true,
+"message": "Today is International Day of Women & Girls in Science. We join the world in raising awareness.",
+"also": [
+{
+"name": "National Foundation Day",
+"flags": [],
+"motif": "dove"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"microscope",
+"atom"
+],
+"anim": {
+"move": 6,
+"back": 2,
+"fx": 3,
+"pal": 1
+}
+},
+{
+"date": "2026-02-12",
+"name": "National Productivity Day",
+"title": "National Productivity Day",
+"full": "National Productivity Day",
+"category": "National / Commemorative Day (India)",
+"region": "India",
+"importance": "medium",
+"motif": "dove",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour National Productivity Day.",
+"also": [
+{
+"name": "Darwin Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"gauge",
+"trending-up"
+],
+"anim": {
+"move": 7,
+"back": 9,
+"fx": 6,
+"pal": 6
+}
+},
+{
+"date": "2026-02-13",
+"name": "World Radio Day (UNESCO)",
+"title": "World Radio Day",
+"full": "World Radio Day (UNESCO)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "high",
+"motif": "book",
+"flags": [],
+"global": true,
+"message": "Today is World Radio Day. We join the world in raising awareness.",
+"also": [
+{
+"name": "National Women's Day",
+"flags": [],
+"motif": "hearts"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"radio",
+"antenna-bars-5"
+],
+"anim": {
+"move": 8,
+"back": 6,
+"fx": 2,
+"pal": 4
+}
+},
+{
+"date": "2026-02-14",
+"name": "Valentine's Day",
+"title": "Valentine's Day",
+"full": "Valentine's Day",
+"category": "Global Festival / Holiday",
+"region": "Global",
+"importance": "high",
+"motif": "hearts",
+"flags": [],
+"global": true,
+"message": "Happy Valentine's Day! Warm wishes to our clients, panellists and partners around the world.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"scene": "valentines-day"
+},
+{
+"date": "2026-02-15",
+"name": "Maha Shivaratri",
+"title": "Maha Shivaratri",
+"full": "Maha Shivaratri",
+"category": "Festival (India)",
+"region": "Pan-India / Nepal",
+"importance": "major",
+"motif": "lotus",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Happy Maha Shivaratri! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "maha-shivaratri"
+},
+{
+"date": "2026-02-16",
+"name": "Presidents' Day",
+"title": "Presidents' Day",
+"full": "Presidents' Day",
+"category": "Global Festival / Holiday",
+"region": "USA",
+"importance": "medium",
+"motif": "lotus",
+"flags": [
+"US"
+],
+"global": false,
+"message": "Happy Presidents' Day! Warm wishes to our clients, panellists and partners around the world.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"scene": "presidents-day"
+},
+{
+"date": "2026-02-17",
+"name": "Chinese / Lunar New Year – Year of the Horse",
+"title": "Chinese Lunar New Year",
+"full": "Chinese / Lunar New Year – Year of the Horse",
+"category": "Global Festival / Holiday",
+"region": "China, East & SE Asia, Global diaspora",
+"importance": "high",
+"motif": "lantern",
+"flags": [
+"CN"
+],
+"global": true,
+"message": "Happy Chinese Lunar New Year! Warm wishes to our clients, panellists and partners around the world.",
+"also": [
+{
+"name": "Mardi Gras",
+"flags": [],
+"motif": "globe"
+},
+{
+"name": "Annular solar eclipse",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"scene": "chinese-new-year"
+},
+{
+"date": "2026-02-18",
+"name": "Ash Wednesday – Lent begins",
+"title": "Ash Wednesday",
+"full": "Ash Wednesday – Lent begins",
+"category": "Global Festival / Holiday",
+"region": "Christian world",
+"importance": "medium",
+"motif": "lotus",
+"flags": [],
+"global": true,
+"message": "Ash Wednesday: the start of Lent, a season of reflection.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"scene": "ash-wednesday",
+"solemn": true
+},
+{
+"date": "2026-02-19",
+"name": "Ramadan begins (India)",
+"title": "Ramadan begins (India)",
+"full": "Ramadan begins (India)",
+"category": "Festival (India)",
+"region": "India / Muslim world",
+"importance": "high",
+"motif": "crescent",
+"flags": [
+"IN"
+],
+"global": true,
+"message": "Happy Ramadan begins (India)! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [
+{
+"name": "Chhatrapati Shivaji Maharaj Jayanti",
+"flags": [],
+"motif": "lotus"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "ramadan-begins"
+},
+{
+"date": "2026-02-20",
+"name": "World Day of Social Justice (UN)",
+"title": "World Day of Social Justice",
+"full": "World Day of Social Justice (UN)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "dove",
+"flags": [],
+"global": true,
+"message": "Today is World Day of Social Justice. We join the world in raising awareness.",
+"also": [
+{
+"name": "Statehood Day",
+"flags": [],
+"motif": "dove"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"scale",
+"users"
+],
+"anim": {
+"move": 9,
+"back": 3,
+"fx": 5,
+"pal": 1
+}
+},
+{
+"date": "2026-02-21",
+"name": "International Mother Language Day (UNESCO)",
+"title": "International Mother Language Day",
+"full": "International Mother Language Day (UNESCO)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "high",
+"motif": "hearts",
+"flags": [],
+"global": true,
+"message": "Today is International Mother Language Day. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"alphabet-latin",
+"messages"
+],
+"anim": {
+"move": 10,
+"back": 0,
+"fx": 1,
+"pal": 6
+}
+},
+{
+"date": "2026-02-22",
+"name": "Winter Olympics closing ceremony",
+"title": "Winter Olympics closing ceremony",
+"full": "Winter Olympics closing ceremony",
+"category": "Sports & Mega Events",
+"region": "Italy / Global",
+"importance": "medium",
+"motif": "sport",
+"flags": [
+"IT"
+],
+"global": true,
+"message": "Cheering on Winter Olympics closing ceremony! Good luck to every team and every fan.",
+"also": [
+{
+"name": "World Thinking Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"ski-jumping",
+"snowflake"
+],
+"anim": {
+"move": 11,
+"back": 7,
+"fx": 5,
+"pal": 3
+}
+},
+{
+"date": "2026-02-23",
+"name": "World Understanding & Peace Day (Rotary)",
+"title": "World Understanding & Peace Day",
+"full": "World Understanding & Peace Day (Rotary)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "dove",
+"flags": [],
+"global": true,
+"message": "Today is World Understanding & Peace Day. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"hearts",
+"world"
+],
+"anim": {
+"move": 0,
+"back": 5,
+"fx": 1,
+"pal": 0
+}
+},
+{
+"date": "2026-02-24",
+"name": "Central Excise Day",
+"title": "Central Excise Day",
+"full": "Central Excise Day",
+"category": "Finance, Banking & Tax",
+"region": "India",
+"importance": "medium",
+"motif": "coins",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Central Excise Day: an important date for every business. Our Accounts & Finance team is here to help.",
+"also": [],
+"services": [
+"MR",
+"Finance"
+],
+"show": true,
+"icon": [
+"file-invoice",
+"building-factory"
+],
+"anim": {
+"move": 1,
+"back": 2,
+"fx": 4,
+"pal": 5
+}
+},
+{
+"date": "2026-02-27",
+"name": "World NGO Day",
+"title": "World NGO Day",
+"full": "World NGO Day",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "hearts",
+"flags": [],
+"global": true,
+"message": "Today is World NGO Day. We join the world in raising awareness.",
+"also": [
+{
+"name": "Marathi Bhasha Din",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"heart-handshake",
+"users-group"
+],
+"anim": {
+"move": 2,
+"back": 9,
+"fx": 0,
+"pal": 2
+}
+},
+{
+"date": "2026-02-28",
+"name": "National Science Day (C.V. Raman Effect)",
+"title": "National Science Day",
+"full": "National Science Day (C.V. Raman Effect)",
+"category": "National / Commemorative Day (India)",
+"region": "India",
+"importance": "high",
+"motif": "tech",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour National Science Day.",
+"also": [
+{
+"name": "Rare Disease Day",
+"flags": [],
+"motif": "ribbon"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"flask",
+"atom-2"
+],
+"anim": {
+"move": 3,
+"back": 6,
+"fx": 3,
+"pal": 7
+}
+},
+{
+"date": "2026-03-01",
+"name": "Zero Discrimination Day (UN)",
+"title": "Zero Discrimination Day",
+"full": "Zero Discrimination Day (UN)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "hearts",
+"flags": [],
+"global": true,
+"message": "Today is Zero Discrimination Day. We join the world in raising awareness.",
+"also": [
+{
+"name": "World Civil Defence Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"equal",
+"users"
+],
+"anim": {
+"move": 4,
+"back": 3,
+"fx": 6,
+"pal": 5
+}
+},
+{
+"date": "2026-03-02",
+"name": "MWC (Mobile World Congress) Barcelona begins",
+"title": "MWC (Mobile World Congress) Barcelona begins",
+"full": "MWC (Mobile World Congress) Barcelona begins (Mar 2–5)",
+"category": "Industry Event / Conference",
+"region": "Spain / Global",
+"importance": "high",
+"motif": "tech",
+"flags": [
+"ES"
+],
+"global": true,
+"message": "MWC (Mobile World Congress) Barcelona begins: let's meet and talk about what's next.",
+"also": [],
+"services": [
+"DM",
+"IT",
+"Finance"
+],
+"show": true,
+"icon": [
+"device-mobile",
+"antenna"
+],
+"anim": {
+"move": 5,
+"back": 0,
+"fx": 2,
+"pal": 2
+}
+},
+{
+"date": "2026-03-03",
+"name": "Holika Dahan (Holi eve)",
+"title": "Holika Dahan",
+"full": "Holika Dahan (Holi eve)",
+"category": "Festival (India)",
+"region": "Pan-India",
+"importance": "major",
+"motif": "bonfire",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Happy Holika Dahan! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [
+{
+"name": "World Wildlife Day",
+"flags": [],
+"motif": "leaf"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "holika-dahan"
+},
+{
+"date": "2026-03-04",
+"name": "Holi (Dhulandi) – Festival of Colours",
+"title": "Holi (Dhulandi)",
+"full": "Holi (Dhulandi) – Festival of Colours",
+"category": "Festival (India)",
+"region": "Pan-India / Global diaspora",
+"importance": "major",
+"motif": "colours",
+"flags": [
+"IN"
+],
+"global": true,
+"message": "Happy Holi (Dhulandi)! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "holi"
+},
+{
+"date": "2026-03-05",
+"name": "MWC Barcelona closes",
+"title": "MWC Barcelona closes",
+"full": "MWC Barcelona closes",
+"category": "Industry Event / Conference",
+"region": "Spain / Global",
+"importance": "medium",
+"motif": "globe",
+"flags": [
+"ES"
+],
+"global": true,
+"message": "MWC Barcelona closes: let's meet and talk about what's next.",
+"also": [],
+"services": [
+"DM",
+"IT",
+"Finance"
+],
+"show": true,
+"icon": [
+"device-mobile-message",
+"world"
+],
+"anim": {
+"move": 6,
+"back": 7,
+"fx": 6,
+"pal": 7
+}
+},
+{
+"date": "2026-03-07",
+"name": "Jan Aushadhi Diwas",
+"title": "Jan Aushadhi Diwas",
+"full": "Jan Aushadhi Diwas",
+"category": "Healthcare & Wellness",
+"region": "India",
+"importance": "medium",
+"motif": "ribbon",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Jan Aushadhi Diwas: health matters. Our MyHealthOpinions community helps every voice be heard.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"pill",
+"first-aid-kit"
+],
+"anim": {
+"move": 7,
+"back": 4,
+"fx": 2,
+"pal": 4
+}
+},
+{
+"date": "2026-03-08",
+"name": "International Women's Day",
+"title": "International Women's Day",
+"full": "International Women's Day",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "high",
+"motif": "hearts",
+"flags": [],
+"global": true,
+"message": "Today is International Women's Day. We join the world in raising awareness.",
+"also": [
+{
+"name": "ICC Men's T20 World Cup Final",
+"flags": [],
+"motif": "sport"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"woman",
+"sparkles"
+],
+"anim": {
+"move": 8,
+"back": 1,
+"fx": 5,
+"pal": 1
+}
+},
+{
+"date": "2026-03-10",
+"name": "CISF Raising Day",
+"title": "CISF Raising Day",
+"full": "CISF Raising Day",
+"category": "National / Commemorative Day (India)",
+"region": "India",
+"importance": "medium",
+"motif": "dove",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour CISF Raising Day.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"shield-half",
+"building-factory-2"
+],
+"anim": {
+"move": 9,
+"back": 8,
+"fx": 1,
+"pal": 6
+}
+},
+{
+"date": "2026-03-12",
+"name": "World Kidney Day",
+"title": "World Kidney Day",
+"full": "World Kidney Day (2nd Thu of Mar)",
+"category": "Healthcare & Wellness",
+"region": "Global",
+"importance": "medium",
+"motif": "ribbon",
+"flags": [],
+"global": true,
+"message": "World Kidney Day: health matters. Our MyHealthOpinions community helps every voice be heard.",
+"also": [
+{
+"name": "World Day Against Cyber Censorship",
+"flags": [],
+"motif": "tech"
+}
+],
+"services": [
+"MR",
+"DM",
+"IT"
+],
+"show": true,
+"icon": [
+"filter",
+"droplet"
+],
+"anim": {
+"move": 10,
+"back": 5,
+"fx": 4,
+"pal": 3
+}
+},
+{
+"date": "2026-03-13",
+"name": "World Sleep Day",
+"title": "World Sleep Day",
+"full": "World Sleep Day",
+"category": "Healthcare & Wellness",
+"region": "Global",
+"importance": "medium",
+"motif": "ribbon",
+"flags": [],
+"global": true,
+"message": "World Sleep Day: health matters. Our MyHealthOpinions community helps every voice be heard.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"moon",
+"zzz"
+],
+"anim": {
+"move": 11,
+"back": 2,
+"fx": 0,
+"pal": 0
+}
+},
+{
+"date": "2026-03-14",
+"name": "Pi Day / International Day of Mathematics",
+"title": "Pi Day",
+"full": "Pi Day / International Day of Mathematics",
+"category": "IT & Technology",
+"region": "Global",
+"importance": "medium",
+"motif": "tech",
+"flags": [],
+"global": true,
+"message": "Celebrating Pi Day with every builder, coder and maker.",
+"also": [],
+"services": [
+"DM",
+"IT"
+],
+"show": true,
+"icon": [
+"math-pi",
+"circle"
+],
+"anim": {
+"move": 0,
+"back": 0,
+"fx": 3,
+"pal": 6
+}
+},
+{
+"date": "2026-03-15",
+"name": "World Consumer Rights Day",
+"title": "World Consumer Rights Day",
+"full": "World Consumer Rights Day",
+"category": "Market Research & Consumer Insights",
+"region": "Global",
+"importance": "high",
+"motif": "survey",
+"flags": [],
+"global": true,
+"message": "World Consumer Rights Day: every opinion counts, and we make sure it is heard.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"shopping-cart-check",
+"scale"
+],
+"anim": {
+"move": 1,
+"back": 7,
+"fx": 0,
+"pal": 3
+}
+},
+{
+"date": "2026-03-16",
+"name": "National Vaccination Day",
+"title": "National Vaccination Day",
+"full": "National Vaccination Day",
+"category": "Healthcare & Wellness",
+"region": "India",
+"importance": "medium",
+"motif": "ribbon",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "National Vaccination Day: health matters. Our MyHealthOpinions community helps every voice be heard.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"vaccine",
+"shield-check"
+],
+"anim": {
+"move": 2,
+"back": 4,
+"fx": 3,
+"pal": 0
+}
+},
+{
+"date": "2026-03-17",
+"name": "St. Patrick's Day",
+"title": "St. Patrick's Day",
+"full": "St. Patrick's Day",
+"category": "Global Festival / Holiday",
+"region": "Ireland / Global",
+"importance": "high",
+"motif": "lotus",
+"flags": [
+"IE"
+],
+"global": true,
+"message": "Happy St. Patrick's Day! Warm wishes to our clients, panellists and partners around the world.",
+"also": [
+{
+"name": "US Fed FOMC meeting begins",
+"flags": [
+"US"
+],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "st-patricks"
+},
+{
+"date": "2026-03-18",
+"name": "US Fed FOMC rate decision + economic projections",
+"title": "US Fed FOMC rate decision",
+"full": "US Fed FOMC rate decision + economic projections",
+"category": "Finance, Banking & Tax",
+"region": "USA / Global markets",
+"importance": "high",
+"motif": "coins",
+"flags": [
+"US"
+],
+"global": true,
+"message": "US Fed FOMC rate decision: an important date for every business. Our Accounts & Finance team is here to help.",
+"also": [
+{
+"name": "Global Recycling Day",
+"flags": [],
+"motif": "globe"
+},
+{
+"name": "Ordnance Factories Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"icon": [
+"chart-line",
+"percentage"
+],
+"anim": {
+"move": 3,
+"back": 1,
+"fx": 6,
+"pal": 5
+}
+},
+{
+"date": "2026-03-19",
+"name": "Ugadi / Gudi Padwa / Cheti Chand – Chaitra Navratri begins",
+"title": "Ugadi",
+"full": "Ugadi / Gudi Padwa / Cheti Chand – Chaitra Navratri begins",
+"category": "Festival (India)",
+"region": "Pan-India (Hindu New Year)",
+"importance": "major",
+"motif": "lotus",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Happy Ugadi! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "ugadi"
+},
+{
+"date": "2026-03-20",
+"name": "International Day of Happiness (UN)",
+"title": "International Day of Happiness",
+"full": "International Day of Happiness (UN)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "high",
+"motif": "globe",
+"flags": [],
+"global": true,
+"message": "Today is International Day of Happiness. We join the world in raising awareness.",
+"also": [
+{
+"name": "Nowruz Persian New Year",
+"flags": [],
+"motif": "fireworks"
+},
+{
+"name": "World Sparrow Day",
+"flags": [],
+"motif": "leaf"
+},
+{
+"name": "World Oral Health Day",
+"flags": [],
+"motif": "ribbon"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"mood-happy",
+"sun"
+],
+"anim": {
+"move": 4,
+"back": 8,
+"fx": 2,
+"pal": 2
+}
+},
+{
+"date": "2026-03-21",
+"name": "Eid-ul-Fitr (Ramzan Id)",
+"title": "Eid-ul-Fitr",
+"full": "Eid-ul-Fitr (Ramzan Id)",
+"category": "Festival (India)",
+"region": "India / Muslim world",
+"importance": "major",
+"motif": "crescent",
+"flags": [
+"IN"
+],
+"global": true,
+"message": "Happy Eid-ul-Fitr! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "eid-ul-fitr"
+},
+{
+"date": "2026-03-22",
+"name": "World Water Day (UN)",
+"title": "World Water Day",
+"full": "World Water Day (UN)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "high",
+"motif": "waves",
+"flags": [],
+"global": true,
+"message": "Today is World Water Day. We join the world in raising awareness.",
+"also": [
+{
+"name": "Bihar Diwas",
+"flags": [
+"IN"
+],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"bucket-droplet",
+"droplets"
+],
+"anim": {
+"move": 5,
+"back": 5,
+"fx": 5,
+"pal": 7
+}
+},
+{
+"date": "2026-03-23",
+"name": "Shaheed Diwas (Bhagat Singh, Rajguru, Sukhdev)",
+"title": "Shaheed Diwas",
+"full": "Shaheed Diwas (Bhagat Singh, Rajguru, Sukhdev)",
+"category": "National / Commemorative Day (India)",
+"region": "India",
+"importance": "high",
+"motif": "lotus",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour Shaheed Diwas.",
+"also": [
+{
+"name": "World Meteorological Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"flame",
+"star"
+],
+"anim": {
+"move": 10,
+"back": 1,
+"fx": 2,
+"pal": 4
+},
+"solemn": true
+},
+{
+"date": "2026-03-24",
+"name": "World Tuberculosis Day",
+"title": "World Tuberculosis Day",
+"full": "World Tuberculosis Day",
+"category": "Healthcare & Wellness",
+"region": "Global",
+"importance": "high",
+"motif": "ribbon",
+"flags": [],
+"global": true,
+"message": "World Tuberculosis Day: health matters. Our MyHealthOpinions community helps every voice be heard.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"lungs",
+"stethoscope"
+],
+"anim": {
+"move": 7,
+"back": 9,
+"fx": 4,
+"pal": 1
+}
+},
+{
+"date": "2026-03-25",
+"name": "Int'l Day of Remembrance of Victims of Slavery (UN)",
+"title": "Int'l Day of Remembrance of Victims of Slavery",
+"full": "Int'l Day of Remembrance of Victims of Slavery (UN)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "dove",
+"flags": [],
+"global": true,
+"message": "Today is Int'l Day of Remembrance of Victims of Slavery. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"link-off",
+"candle"
+],
+"anim": {
+"move": 10,
+"back": 1,
+"fx": 2,
+"pal": 7
+},
+"solemn": true
+},
+{
+"date": "2026-03-26",
+"name": "Ram Navami",
+"title": "Ram Navami",
+"full": "Ram Navami",
+"category": "Festival (India)",
+"region": "Pan-India",
+"importance": "major",
+"motif": "lotus",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Happy Ram Navami! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "ram-navami"
+},
+{
+"date": "2026-03-27",
+"name": "World Theatre Day",
+"title": "World Theatre Day",
+"full": "World Theatre Day",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "book",
+"flags": [],
+"global": true,
+"message": "Today is World Theatre Day. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"masks-theater",
+"ticket"
+],
+"anim": {
+"move": 9,
+"back": 3,
+"fx": 4,
+"pal": 4
+}
+},
+{
+"date": "2026-03-28",
+"name": "Earth Hour",
+"title": "Earth Hour",
+"full": "Earth Hour (8:30–9:30 pm local)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "high",
+"motif": "leaf",
+"flags": [],
+"global": true,
+"message": "Today is Earth Hour. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"bulb-off",
+"world"
+],
+"anim": {
+"move": 10,
+"back": 0,
+"fx": 0,
+"pal": 1
+}
+},
+{
+"date": "2026-03-29",
+"name": "Palm Sunday",
+"title": "Palm Sunday",
+"full": "Palm Sunday",
+"category": "Global Festival / Holiday",
+"region": "Christian world",
+"importance": "medium",
+"motif": "lotus",
+"flags": [],
+"global": true,
+"message": "Happy Palm Sunday! Warm wishes to our clients, panellists and partners around the world.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"scene": "palm-sunday"
+},
+{
+"date": "2026-03-30",
+"name": "Rajasthan Diwas",
+"title": "Rajasthan Diwas",
+"full": "Rajasthan Diwas",
+"category": "National / Commemorative Day (India)",
+"region": "Rajasthan",
+"importance": "medium",
+"motif": "dove",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour Rajasthan Diwas.",
+"also": [
+{
+"name": "International Day of Zero Waste",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"building-castle",
+"sun"
+],
+"anim": {
+"move": 11,
+"back": 7,
+"fx": 3,
+"pal": 6
+}
+},
+{
+"date": "2026-03-31",
+"name": "Mahavir Jayanti",
+"title": "Mahavir Jayanti",
+"full": "Mahavir Jayanti",
+"category": "Festival (India)",
+"region": "Pan-India (Jain)",
+"importance": "major",
+"motif": "lotus",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Happy Mahavir Jayanti! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [
+{
+"name": "Financial Year-End FY 2025-26",
+"flags": [],
+"motif": "coins"
+},
+{
+"name": "World Backup Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM",
+"IT",
+"Finance"
+],
+"show": true,
+"scene": "mahavir-jayanti"
+},
+{
+"date": "2026-04-01",
+"name": "New Financial Year FY 2026-27 begins",
+"title": "New Financial Year FY 2026-27 begins",
+"full": "New Financial Year FY 2026-27 begins",
+"category": "Finance, Banking & Tax",
+"region": "India",
+"importance": "high",
+"motif": "coins",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "New Financial Year FY 2026-27 begins: an important date for every business. Our Accounts & Finance team is here to help.",
+"also": [
+{
+"name": "April Fools' Day",
+"flags": [],
+"motif": "globe"
+},
+{
+"name": "Utkal Divas",
+"flags": [],
+"motif": "globe"
+},
+{
+"name": "Passover begins",
+"flags": [
+"IL"
+],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"icon": [
+"calendar-dollar",
+"chart-arrows-vertical"
+],
+"anim": {
+"move": 0,
+"back": 5,
+"fx": 6,
+"pal": 3
+}
+},
+{
+"date": "2026-04-02",
+"name": "Hanuman Jayanti",
+"title": "Hanuman Jayanti",
+"full": "Hanuman Jayanti",
+"category": "Festival (India)",
+"region": "Pan-India",
+"importance": "major",
+"motif": "lotus",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Happy Hanuman Jayanti! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [
+{
+"name": "World Autism Awareness Day",
+"flags": [],
+"motif": "ribbon"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "hanuman-jayanti"
+},
+{
+"date": "2026-04-03",
+"name": "Good Friday",
+"title": "Good Friday",
+"full": "Good Friday",
+"category": "Global Festival / Holiday",
+"region": "India (gazetted) / Christian world",
+"importance": "high",
+"motif": "dove",
+"flags": [],
+"global": true,
+"message": "Good Friday: a day of quiet reflection for Christians around the world.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"scene": "good-friday",
+"solemn": true
+},
+{
+"date": "2026-04-04",
+"name": "International Day for Mine Awareness (UN)",
+"title": "International Day for Mine Awareness",
+"full": "International Day for Mine Awareness (UN)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "globe",
+"flags": [],
+"global": true,
+"message": "Today is International Day for Mine Awareness. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"alert-triangle",
+"shield"
+],
+"anim": {
+"move": 1,
+"back": 2,
+"fx": 2,
+"pal": 0
+}
+},
+{
+"date": "2026-04-05",
+"name": "Easter Sunday",
+"title": "Easter Sunday",
+"full": "Easter Sunday",
+"category": "Global Festival / Holiday",
+"region": "Christian world / Global",
+"importance": "high",
+"motif": "dove",
+"flags": [],
+"global": true,
+"message": "Happy Easter Sunday! Warm wishes to our clients, panellists and partners around the world.",
+"also": [
+{
+"name": "National Maritime Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"scene": "easter-sunday"
+},
+{
+"date": "2026-04-06",
+"name": "Easter Monday",
+"title": "Easter Monday",
+"full": "Easter Monday",
+"category": "Global Festival / Holiday",
+"region": "Europe, Australia etc.",
+"importance": "medium",
+"motif": "dove",
+"flags": [
+"AU"
+],
+"global": true,
+"message": "Happy Easter Monday! Warm wishes to our clients, panellists and partners around the world.",
+"also": [
+{
+"name": "RBI MPC meeting begins",
+"flags": [],
+"motif": "coins"
+},
+{
+"name": "International Day of Sport for Development & Peace",
+"flags": [],
+"motif": "sport"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "easter-monday"
+},
+{
+"date": "2026-04-07",
+"name": "World Health Day (WHO)",
+"title": "World Health Day",
+"full": "World Health Day (WHO)",
+"category": "Healthcare & Wellness",
+"region": "Global",
+"importance": "high",
+"motif": "ribbon",
+"flags": [],
+"global": true,
+"message": "World Health Day: health matters. Our MyHealthOpinions community helps every voice be heard.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"heartbeat",
+"stethoscope"
+],
+"anim": {
+"move": 2,
+"back": 9,
+"fx": 5,
+"pal": 5
+}
+},
+{
+"date": "2026-04-08",
+"name": "RBI Monetary Policy decision",
+"title": "RBI Monetary Policy decision",
+"full": "RBI Monetary Policy decision (1st of FY27)",
+"category": "Finance, Banking & Tax",
+"region": "India",
+"importance": "high",
+"motif": "coins",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "RBI Monetary Policy decision: an important date for every business. Our Accounts & Finance team is here to help.",
+"also": [],
+"services": [
+"MR",
+"Finance"
+],
+"show": true,
+"icon": [
+"currency-rupee",
+"building-bank"
+],
+"anim": {
+"move": 3,
+"back": 6,
+"fx": 2,
+"pal": 2
+}
+},
+{
+"date": "2026-04-10",
+"name": "World Homeopathy Day",
+"title": "World Homeopathy Day",
+"full": "World Homeopathy Day",
+"category": "Healthcare & Wellness",
+"region": "Global",
+"importance": "medium",
+"motif": "ribbon",
+"flags": [],
+"global": true,
+"message": "World Homeopathy Day: health matters. Our MyHealthOpinions community helps every voice be heard.",
+"also": [
+{
+"name": "National Siblings Day",
+"flags": [],
+"motif": "hearts"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"leaf",
+"flask-2"
+],
+"anim": {
+"move": 4,
+"back": 3,
+"fx": 5,
+"pal": 0
+}
+},
+{
+"date": "2026-04-11",
+"name": "National Safe Motherhood Day / World Parkinson's Day",
+"title": "National Safe Motherhood Day",
+"full": "National Safe Motherhood Day / World Parkinson's Day",
+"category": "Healthcare & Wellness",
+"region": "India / Global",
+"importance": "medium",
+"motif": "hearts",
+"flags": [
+"IN"
+],
+"global": true,
+"message": "National Safe Motherhood Day: health matters. Our MyHealthOpinions community helps every voice be heard.",
+"also": [
+{
+"name": "Jyotiba Phule Jayanti",
+"flags": [],
+"motif": "lotus"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"mood-heart",
+"baby-carriage"
+],
+"anim": {
+"move": 5,
+"back": 0,
+"fx": 1,
+"pal": 5
+}
+},
+{
+"date": "2026-04-12",
+"name": "Orthodox Easter",
+"title": "Orthodox Easter",
+"full": "Orthodox Easter",
+"category": "Global Festival / Holiday",
+"region": "E. Europe, Greece, Russia",
+"importance": "medium",
+"motif": "dove",
+"flags": [
+"RU"
+],
+"global": true,
+"message": "Happy Orthodox Easter! Warm wishes to our clients, panellists and partners around the world.",
+"also": [
+{
+"name": "International Day of Human Space Flight",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM",
+"IT"
+],
+"show": true,
+"scene": "orthodox-easter"
+},
+{
+"date": "2026-04-13",
+"name": "Songkran – Thai New Year",
+"title": "Songkran Thai New Year",
+"full": "Songkran – Thai New Year (Apr 13–15)",
+"category": "Global Festival / Holiday",
+"region": "Thailand, Laos, Myanmar",
+"importance": "high",
+"motif": "fireworks",
+"flags": [
+"TH"
+],
+"global": false,
+"message": "Happy Songkran Thai New Year! Warm wishes to our clients, panellists and partners around the world.",
+"also": [
+{
+"name": "Jallianwala Bagh Massacre anniversary",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"scene": "songkran"
+},
+{
+"date": "2026-04-14",
+"name": "Baisakhi / Vaisakhi, Tamil New Year (Puthandu), Vishu, Bohag Bihu + Dr. B.R. Ambedkar Jayanti",
+"title": "Baisakhi",
+"full": "Baisakhi / Vaisakhi, Tamil New Year (Puthandu), Vishu, Bohag Bihu + Dr. B.R. Ambedkar Jayanti",
+"category": "Festival (India)",
+"region": "Punjab, TN, Kerala, Assam / India",
+"importance": "major",
+"motif": "lotus",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Happy Baisakhi! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "baisakhi"
+},
+{
+"date": "2026-04-15",
+"name": "Pohela Boishakh – Bengali New Year",
+"title": "Pohela Boishakh",
+"full": "Pohela Boishakh – Bengali New Year",
+"category": "Festival (India)",
+"region": "West Bengal, Tripura, Bangladesh",
+"importance": "high",
+"motif": "fireworks",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Happy Pohela Boishakh! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [
+{
+"name": "US Tax Day",
+"flags": [
+"US"
+],
+"motif": "coins"
+},
+{
+"name": "World Art Day",
+"flags": [],
+"motif": "globe"
+},
+{
+"name": "Himachal Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "pohela-boishakh"
+},
+{
+"date": "2026-04-16",
+"name": "Get to Know Your Customers Day",
+"title": "Get to Know Your Customers Day",
+"full": "Get to Know Your Customers Day (3rd Thu of quarter)",
+"category": "Market Research & Consumer Insights",
+"region": "Global",
+"importance": "high",
+"motif": "survey",
+"flags": [],
+"global": true,
+"message": "Get to Know Your Customers Day: every opinion counts, and we make sure it is heard.",
+"also": [
+{
+"name": "World Voice Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"user-search",
+"message-circle"
+],
+"anim": {
+"move": 6,
+"back": 7,
+"fx": 4,
+"pal": 2
+}
+},
+{
+"date": "2026-04-17",
+"name": "World Haemophilia Day",
+"title": "World Haemophilia Day",
+"full": "World Haemophilia Day",
+"category": "Healthcare & Wellness",
+"region": "Global",
+"importance": "medium",
+"motif": "ribbon",
+"flags": [],
+"global": true,
+"message": "World Haemophilia Day: health matters. Our MyHealthOpinions community helps every voice be heard.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"droplet-heart",
+"heart"
+],
+"anim": {
+"move": 7,
+"back": 4,
+"fx": 0,
+"pal": 7
+}
+},
+{
+"date": "2026-04-18",
+"name": "World Heritage Day",
+"title": "World Heritage Day",
+"full": "World Heritage Day",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "high",
+"motif": "leaf",
+"flags": [],
+"global": true,
+"message": "Today is World Heritage Day. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"building-monument",
+"world"
+],
+"anim": {
+"move": 8,
+"back": 1,
+"fx": 3,
+"pal": 4
+}
+},
+{
+"date": "2026-04-19",
+"name": "World Liver Day",
+"title": "World Liver Day",
+"full": "World Liver Day",
+"category": "Healthcare & Wellness",
+"region": "Global",
+"importance": "medium",
+"motif": "ribbon",
+"flags": [],
+"global": true,
+"message": "World Liver Day: health matters. Our MyHealthOpinions community helps every voice be heard.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"medical-cross",
+"apple"
+],
+"anim": {
+"move": 9,
+"back": 8,
+"fx": 6,
+"pal": 1
+}
+},
+{
+"date": "2026-04-20",
+"name": "Akshaya Tritiya (gold-buying day)",
+"title": "Akshaya Tritiya",
+"full": "Akshaya Tritiya (gold-buying day)",
+"category": "Festival (India)",
+"region": "Pan-India",
+"importance": "major",
+"motif": "lotus",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Happy Akshaya Tritiya! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "akshaya-tritiya"
+},
+{
+"date": "2026-04-21",
+"name": "World Creativity & Innovation Day (UN)",
+"title": "World Creativity & Innovation Day",
+"full": "World Creativity & Innovation Day (UN)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "high",
+"motif": "book",
+"flags": [],
+"global": true,
+"message": "Today is World Creativity & Innovation Day. We join the world in raising awareness.",
+"also": [
+{
+"name": "National Civil Services Day",
+"flags": [],
+"motif": "tech"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"bulb",
+"palette"
+],
+"anim": {
+"move": 10,
+"back": 5,
+"fx": 3,
+"pal": 6
+}
+},
+{
+"date": "2026-04-22",
+"name": "Earth Day",
+"title": "Earth Day",
+"full": "Earth Day",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "high",
+"motif": "leaf",
+"flags": [],
+"global": true,
+"message": "Today is Earth Day. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"world",
+"leaf"
+],
+"anim": {
+"move": 11,
+"back": 2,
+"fx": 6,
+"pal": 3
+}
+},
+{
+"date": "2026-04-23",
+"name": "World Book & Copyright Day (UNESCO)",
+"title": "World Book & Copyright Day",
+"full": "World Book & Copyright Day (UNESCO)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "high",
+"motif": "book",
+"flags": [],
+"global": true,
+"message": "Today is World Book & Copyright Day. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"book",
+"copyright"
+],
+"anim": {
+"move": 0,
+"back": 0,
+"fx": 2,
+"pal": 1
+}
+},
+{
+"date": "2026-04-24",
+"name": "National Panchayati Raj Day",
+"title": "National Panchayati Raj Day",
+"full": "National Panchayati Raj Day",
+"category": "National / Commemorative Day (India)",
+"region": "India",
+"importance": "medium",
+"motif": "dove",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour National Panchayati Raj Day.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"building-community",
+"users-group"
+],
+"anim": {
+"move": 1,
+"back": 7,
+"fx": 5,
+"pal": 6
+}
+},
+{
+"date": "2026-04-25",
+"name": "World Malaria Day",
+"title": "World Malaria Day",
+"full": "World Malaria Day",
+"category": "Healthcare & Wellness",
+"region": "Global",
+"importance": "medium",
+"motif": "ribbon",
+"flags": [],
+"global": true,
+"message": "World Malaria Day: health matters. Our MyHealthOpinions community helps every voice be heard.",
+"also": [
+{
+"name": "World Veterinary Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"bug",
+"shield"
+],
+"anim": {
+"move": 2,
+"back": 4,
+"fx": 1,
+"pal": 3
+}
+},
+{
+"date": "2026-04-26",
+"name": "World Intellectual Property Day (WIPO)",
+"title": "World Intellectual Property Day",
+"full": "World Intellectual Property Day (WIPO)",
+"category": "IT & Technology",
+"region": "Global",
+"importance": "high",
+"motif": "tech",
+"flags": [],
+"global": true,
+"message": "Celebrating World Intellectual Property Day with every builder, coder and maker.",
+"also": [],
+"services": [
+"DM",
+"IT"
+],
+"show": true,
+"icon": [
+"certificate",
+"bulb"
+],
+"anim": {
+"move": 3,
+"back": 1,
+"fx": 4,
+"pal": 0
+}
+},
+{
+"date": "2026-04-27",
+"name": "World Design Day",
+"title": "World Design Day",
+"full": "World Design Day",
+"category": "Digital Marketing & E-commerce",
+"region": "Global",
+"importance": "medium",
+"motif": "sale",
+"flags": [],
+"global": true,
+"message": "World Design Day: the right moment to reach the right audience.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"vector-bezier",
+"palette"
+],
+"anim": {
+"move": 4,
+"back": 8,
+"fx": 0,
+"pal": 5
+}
+},
+{
+"date": "2026-04-28",
+"name": "World Day for Safety & Health at Work (ILO)",
+"title": "World Day for Safety & Health at Work (ILO)",
+"full": "World Day for Safety & Health at Work (ILO)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "ribbon",
+"flags": [],
+"global": true,
+"message": "Today is World Day for Safety & Health at Work (ILO). We join the world in raising awareness.",
+"also": [
+{
+"name": "US Fed FOMC meeting begins",
+"flags": [
+"US"
+],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"icon": [
+"helmet",
+"shield-check"
+],
+"anim": {
+"move": 5,
+"back": 5,
+"fx": 4,
+"pal": 2
+}
+},
+{
+"date": "2026-04-29",
+"name": "US Fed FOMC rate decision",
+"title": "US Fed FOMC rate decision",
+"full": "US Fed FOMC rate decision",
+"category": "Finance, Banking & Tax",
+"region": "USA / Global markets",
+"importance": "high",
+"motif": "coins",
+"flags": [
+"US"
+],
+"global": true,
+"message": "US Fed FOMC rate decision: an important date for every business. Our Accounts & Finance team is here to help.",
+"also": [
+{
+"name": "International Dance Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"icon": [
+"chart-candle",
+"scale"
+],
+"anim": {
+"move": 6,
+"back": 2,
+"fx": 0,
+"pal": 7
+}
+},
+{
+"date": "2026-04-30",
+"name": "Ayushman Bharat Diwas",
+"title": "Ayushman Bharat Diwas",
+"full": "Ayushman Bharat Diwas",
+"category": "Healthcare & Wellness",
+"region": "India",
+"importance": "medium",
+"motif": "ribbon",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Ayushman Bharat Diwas: health matters. Our MyHealthOpinions community helps every voice be heard.",
+"also": [
+{
+"name": "International Jazz Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"health-recognition",
+"heart"
+],
+"anim": {
+"move": 7,
+"back": 9,
+"fx": 3,
+"pal": 4
+}
+},
+{
+"date": "2026-05-01",
+"name": "Buddha Purnima (Vesak)",
+"title": "Buddha Purnima",
+"full": "Buddha Purnima (Vesak)",
+"category": "Festival (India)",
+"region": "India, Nepal, SE Asia",
+"importance": "major",
+"motif": "lotus",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Happy Buddha Purnima! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [
+{
+"name": "International Labour Day",
+"flags": [],
+"motif": "dove"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "buddha-purnima"
+},
+{
+"date": "2026-05-03",
+"name": "World Press Freedom Day (UNESCO)",
+"title": "World Press Freedom Day",
+"full": "World Press Freedom Day (UNESCO)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "high",
+"motif": "book",
+"flags": [],
+"global": true,
+"message": "Today is World Press Freedom Day. We join the world in raising awareness.",
+"also": [
+{
+"name": "World Laughter Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"microphone",
+"news"
+],
+"anim": {
+"move": 8,
+"back": 6,
+"fx": 6,
+"pal": 2
+}
+},
+{
+"date": "2026-05-04",
+"name": "Star Wars Day",
+"title": "Star Wars Day",
+"full": "Star Wars Day (\"May the 4th\")",
+"category": "Digital Marketing & E-commerce",
+"region": "Global",
+"importance": "medium",
+"motif": "sale",
+"flags": [],
+"global": true,
+"message": "Star Wars Day: the right moment to reach the right audience.",
+"also": [
+{
+"name": "International Firefighters' Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"planet",
+"star"
+],
+"anim": {
+"move": 9,
+"back": 3,
+"fx": 2,
+"pal": 7
+}
+},
+{
+"date": "2026-05-05",
+"name": "World Hand Hygiene Day / World Asthma Day",
+"title": "World Hand Hygiene Day",
+"full": "World Hand Hygiene Day / World Asthma Day",
+"category": "Healthcare & Wellness",
+"region": "Global",
+"importance": "medium",
+"motif": "ribbon",
+"flags": [],
+"global": true,
+"message": "World Hand Hygiene Day: health matters. Our MyHealthOpinions community helps every voice be heard.",
+"also": [
+{
+"name": "Children's Day",
+"flags": [],
+"motif": "hearts"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"hand-sanitizer",
+"droplets"
+],
+"anim": {
+"move": 10,
+"back": 0,
+"fx": 5,
+"pal": 4
+}
+},
+{
+"date": "2026-05-07",
+"name": "World Password Day",
+"title": "World Password Day",
+"full": "World Password Day (1st Thu of May)",
+"category": "IT & Technology",
+"region": "Global",
+"importance": "high",
+"motif": "tech",
+"flags": [],
+"global": true,
+"message": "Celebrating World Password Day with every builder, coder and maker.",
+"also": [],
+"services": [
+"DM",
+"IT"
+],
+"show": true,
+"icon": [
+"password",
+"key"
+],
+"anim": {
+"move": 11,
+"back": 7,
+"fx": 1,
+"pal": 1
+}
+},
+{
+"date": "2026-05-08",
+"name": "World Red Cross Day / World Thalassaemia Day",
+"title": "World Red Cross Day",
+"full": "World Red Cross Day / World Thalassaemia Day",
+"category": "Healthcare & Wellness",
+"region": "Global",
+"importance": "medium",
+"motif": "ribbon",
+"flags": [],
+"global": true,
+"message": "World Red Cross Day: health matters. Our MyHealthOpinions community helps every voice be heard.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"first-aid-kit",
+"heart"
+],
+"anim": {
+"move": 0,
+"back": 5,
+"fx": 5,
+"pal": 6
+}
+},
+{
+"date": "2026-05-09",
+"name": "Rabindranath Tagore Jayanti",
+"title": "Rabindranath Tagore Jayanti",
+"full": "Rabindranath Tagore Jayanti",
+"category": "National / Commemorative Day (India)",
+"region": "West Bengal / India",
+"importance": "medium",
+"motif": "lotus",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour Rabindranath Tagore Jayanti.",
+"also": [
+{
+"name": "Europe Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"writing",
+"feather"
+],
+"anim": {
+"move": 1,
+"back": 2,
+"fx": 1,
+"pal": 3
+}
+},
+{
+"date": "2026-05-10",
+"name": "Mother's Day",
+"title": "Mother's Day",
+"full": "Mother's Day (2nd Sun of May)",
+"category": "Global Festival / Holiday",
+"region": "India, USA, Global",
+"importance": "high",
+"motif": "hearts",
+"flags": [
+"IN",
+"US"
+],
+"global": true,
+"message": "Happy Mother's Day! Warm wishes to our clients, panellists and partners around the world.",
+"also": [
+{
+"name": "World Lupus Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"scene": "mothers-day"
+},
+{
+"date": "2026-05-11",
+"name": "National Technology Day",
+"title": "National Technology Day",
+"full": "National Technology Day",
+"category": "IT & Technology",
+"region": "India",
+"importance": "high",
+"motif": "tech",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Celebrating National Technology Day with every builder, coder and maker.",
+"also": [],
+"services": [
+"DM",
+"IT"
+],
+"show": true,
+"icon": [
+"cpu-2",
+"rocket"
+],
+"anim": {
+"move": 2,
+"back": 9,
+"fx": 4,
+"pal": 0
+}
+},
+{
+"date": "2026-05-12",
+"name": "International Nurses Day",
+"title": "International Nurses Day",
+"full": "International Nurses Day",
+"category": "Healthcare & Wellness",
+"region": "Global",
+"importance": "high",
+"motif": "ribbon",
+"flags": [],
+"global": true,
+"message": "International Nurses Day: health matters. Our MyHealthOpinions community helps every voice be heard.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"nurse",
+"heart"
+],
+"anim": {
+"move": 3,
+"back": 6,
+"fx": 0,
+"pal": 5
+}
+},
+{
+"date": "2026-05-14",
+"name": "Ascension Day",
+"title": "Ascension Day",
+"full": "Ascension Day",
+"category": "Global Festival / Holiday",
+"region": "Europe",
+"importance": "medium",
+"motif": "lotus",
+"flags": [],
+"global": true,
+"message": "Happy Ascension Day! Warm wishes to our clients, panellists and partners around the world.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"scene": "ascension-day"
+},
+{
+"date": "2026-05-15",
+"name": "International Day of Families (UN)",
+"title": "International Day of Families",
+"full": "International Day of Families (UN)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "high",
+"motif": "globe",
+"flags": [],
+"global": true,
+"message": "Today is International Day of Families. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"users-group",
+"home"
+],
+"anim": {
+"move": 4,
+"back": 3,
+"fx": 3,
+"pal": 3
+}
+},
+{
+"date": "2026-05-16",
+"name": "National Dengue Day",
+"title": "National Dengue Day",
+"full": "National Dengue Day",
+"category": "Healthcare & Wellness",
+"region": "India",
+"importance": "medium",
+"motif": "ribbon",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "National Dengue Day: health matters. Our MyHealthOpinions community helps every voice be heard.",
+"also": [
+{
+"name": "Sikkim Statehood Day",
+"flags": [],
+"motif": "dove"
+},
+{
+"name": "Shani Jayanti",
+"flags": [],
+"motif": "lotus"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"icon": [
+"spray",
+"shield"
+],
+"anim": {
+"move": 5,
+"back": 0,
+"fx": 6,
+"pal": 0
+}
+},
+{
+"date": "2026-05-17",
+"name": "World Telecommunication & Information Society Day (ITU)",
+"title": "World Telecommunication & Information Society Day",
+"full": "World Telecommunication & Information Society Day (ITU)",
+"category": "IT & Technology",
+"region": "Global",
+"importance": "high",
+"motif": "tech",
+"flags": [],
+"global": true,
+"message": "Celebrating World Telecommunication & Information Society Day with every builder, coder and maker.",
+"also": [
+{
+"name": "World Hypertension Day",
+"flags": [],
+"motif": "ribbon"
+}
+],
+"services": [
+"MR",
+"DM",
+"IT"
+],
+"show": true,
+"icon": [
+"antenna-bars-5",
+"satellite"
+],
+"anim": {
+"move": 6,
+"back": 7,
+"fx": 2,
+"pal": 5
+}
+},
+{
+"date": "2026-05-18",
+"name": "International Museum Day",
+"title": "International Museum Day",
+"full": "International Museum Day",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "book",
+"flags": [],
+"global": true,
+"message": "Today is International Museum Day. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"building-arch",
+"photo"
+],
+"anim": {
+"move": 7,
+"back": 4,
+"fx": 6,
+"pal": 2
+}
+},
+{
+"date": "2026-05-20",
+"name": "World Bee Day / World Metrology Day",
+"title": "World Bee Day",
+"full": "World Bee Day / World Metrology Day",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "leaf",
+"flags": [],
+"global": true,
+"message": "Today is World Bee Day. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"brand-hipchat",
+"flower"
+],
+"anim": {
+"move": 8,
+"back": 1,
+"fx": 2,
+"pal": 7
+}
+},
+{
+"date": "2026-05-21",
+"name": "Global Accessibility Awareness Day",
+"title": "Global Accessibility Awareness Day",
+"full": "Global Accessibility Awareness Day (3rd Thu of May)",
+"category": "IT & Technology",
+"region": "Global",
+"importance": "high",
+"motif": "tech",
+"flags": [],
+"global": true,
+"message": "Celebrating Global Accessibility Awareness Day with every builder, coder and maker.",
+"also": [
+{
+"name": "Anti-Terrorism Day",
+"flags": [],
+"motif": "globe"
+},
+{
+"name": "World Day for Cultural Diversity",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM",
+"IT"
+],
+"show": true,
+"icon": [
+"accessible",
+"device-laptop"
+],
+"anim": {
+"move": 9,
+"back": 8,
+"fx": 5,
+"pal": 4
+}
+},
+{
+"date": "2026-05-22",
+"name": "International Day for Biological Diversity",
+"title": "International Day for Biological Diversity",
+"full": "International Day for Biological Diversity",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "globe",
+"flags": [],
+"global": true,
+"message": "Today is International Day for Biological Diversity. We join the world in raising awareness.",
+"also": [
+{
+"name": "Bitcoin Pizza Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"icon": [
+"butterfly",
+"plant"
+],
+"anim": {
+"move": 10,
+"back": 5,
+"fx": 1,
+"pal": 1
+}
+},
+{
+"date": "2026-05-24",
+"name": "Pentecost",
+"title": "Pentecost",
+"full": "Pentecost",
+"category": "Global Festival / Holiday",
+"region": "Christian world",
+"importance": "medium",
+"motif": "lotus",
+"flags": [],
+"global": true,
+"message": "Happy Pentecost! Warm wishes to our clients, panellists and partners around the world.",
+"also": [
+{
+"name": "French Open (Roland Garros) begins",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"scene": "pentecost"
+},
+{
+"date": "2026-05-25",
+"name": "Memorial Day",
+"title": "Memorial Day",
+"full": "Memorial Day",
+"category": "Global Festival / Holiday",
+"region": "USA",
+"importance": "medium",
+"motif": "dove",
+"flags": [
+"US"
+],
+"global": false,
+"message": "Memorial Day: remembering those who gave their lives in service.",
+"also": [
+{
+"name": "Africa Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"scene": "memorial-day",
+"solemn": true
+},
+{
+"date": "2026-05-27",
+"name": "Eid al-Adha (Bakrid / Id-ul-Zuha)",
+"title": "Eid al-Adha",
+"full": "Eid al-Adha (Bakrid / Id-ul-Zuha)",
+"category": "Festival (India)",
+"region": "India / Muslim world",
+"importance": "major",
+"motif": "crescent",
+"flags": [
+"IN"
+],
+"global": true,
+"message": "Happy Eid al-Adha! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "eid-al-adha"
+},
+{
+"date": "2026-05-28",
+"name": "Menstrual Hygiene Day",
+"title": "Menstrual Hygiene Day",
+"full": "Menstrual Hygiene Day",
+"category": "Healthcare & Wellness",
+"region": "Global",
+"importance": "medium",
+"motif": "ribbon",
+"flags": [],
+"global": true,
+"message": "Menstrual Hygiene Day: health matters. Our MyHealthOpinions community helps every voice be heard.",
+"also": [
+{
+"name": "Veer Savarkar Jayanti",
+"flags": [],
+"motif": "lotus"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"calendar-heart",
+"droplet"
+],
+"anim": {
+"move": 11,
+"back": 2,
+"fx": 4,
+"pal": 6
+}
+},
+{
+"date": "2026-05-29",
+"name": "International Day of UN Peacekeepers / Everest Day",
+"title": "International Day of UN Peacekeepers",
+"full": "International Day of UN Peacekeepers / Everest Day",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "dove",
+"flags": [],
+"global": true,
+"message": "Today is International Day of UN Peacekeepers. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"helmet-off",
+"world"
+],
+"anim": {
+"move": 0,
+"back": 0,
+"fx": 0,
+"pal": 4
+}
+},
+{
+"date": "2026-05-30",
+"name": "Goa Statehood Day / Hindi Journalism Day",
+"title": "Goa Statehood Day",
+"full": "Goa Statehood Day / Hindi Journalism Day",
+"category": "National / Commemorative Day (India)",
+"region": "India",
+"importance": "medium",
+"motif": "dove",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour Goa Statehood Day.",
+"also": [
+{
+"name": "World MS Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"beach",
+"sun"
+],
+"anim": {
+"move": 1,
+"back": 7,
+"fx": 3,
+"pal": 1
+}
+},
+{
+"date": "2026-05-31",
+"name": "World No Tobacco Day (WHO)",
+"title": "World No Tobacco Day",
+"full": "World No Tobacco Day (WHO)",
+"category": "Healthcare & Wellness",
+"region": "Global",
+"importance": "high",
+"motif": "ribbon",
+"flags": [],
+"global": true,
+"message": "World No Tobacco Day: health matters. Our MyHealthOpinions community helps every voice be heard.",
+"also": [
+{
+"name": "TDS return due",
+"flags": [],
+"motif": "coins"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"icon": [
+"smoking-no",
+"lungs"
+],
+"anim": {
+"move": 2,
+"back": 4,
+"fx": 0,
+"pal": 6
+}
+},
+{
+"date": "2026-06-01",
+"name": "Global Day of Parents / World Milk Day",
+"title": "Global Day of Parents",
+"full": "Global Day of Parents / World Milk Day",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "hearts",
+"flags": [],
+"global": true,
+"message": "Today is Global Day of Parents. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"users",
+"heart"
+],
+"anim": {
+"move": 3,
+"back": 1,
+"fx": 3,
+"pal": 3
+}
+},
+{
+"date": "2026-06-02",
+"name": "Telangana Formation Day",
+"title": "Telangana Formation Day",
+"full": "Telangana Formation Day",
+"category": "National / Commemorative Day (India)",
+"region": "Telangana",
+"importance": "medium",
+"motif": "dove",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour Telangana Formation Day.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"flag-2",
+"sun"
+],
+"anim": {
+"move": 4,
+"back": 8,
+"fx": 6,
+"pal": 0
+}
+},
+{
+"date": "2026-06-03",
+"name": "World Bicycle Day (UN)",
+"title": "World Bicycle Day",
+"full": "World Bicycle Day (UN)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "leaf",
+"flags": [],
+"global": true,
+"message": "Today is World Bicycle Day. We join the world in raising awareness.",
+"also": [
+{
+"name": "RBI MPC meeting begins",
+"flags": [],
+"motif": "coins"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"icon": [
+"bike",
+"sun"
+],
+"anim": {
+"move": 5,
+"back": 5,
+"fx": 2,
+"pal": 5
+}
+},
+{
+"date": "2026-06-05",
+"name": "World Environment Day (UN)",
+"title": "World Environment Day",
+"full": "World Environment Day (UN)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "high",
+"motif": "leaf",
+"flags": [],
+"global": true,
+"message": "Today is World Environment Day. We join the world in raising awareness.",
+"also": [
+{
+"name": "RBI Monetary Policy decision",
+"flags": [],
+"motif": "coins"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"icon": [
+"plant-2",
+"world"
+],
+"anim": {
+"move": 6,
+"back": 2,
+"fx": 5,
+"pal": 2
+}
+},
+{
+"date": "2026-06-07",
+"name": "World Food Safety Day",
+"title": "World Food Safety Day",
+"full": "World Food Safety Day",
+"category": "Healthcare & Wellness",
+"region": "Global",
+"importance": "medium",
+"motif": "ribbon",
+"flags": [],
+"global": true,
+"message": "World Food Safety Day: health matters. Our MyHealthOpinions community helps every voice be heard.",
+"also": [
+{
+"name": "French Open finals",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"tools-kitchen-2",
+"shield-check"
+],
+"anim": {
+"move": 7,
+"back": 9,
+"fx": 1,
+"pal": 7
+}
+},
+{
+"date": "2026-06-08",
+"name": "World Oceans Day (UN)",
+"title": "World Oceans Day",
+"full": "World Oceans Day (UN)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "high",
+"motif": "waves",
+"flags": [],
+"global": true,
+"message": "Today is World Oceans Day. We join the world in raising awareness.",
+"also": [
+{
+"name": "World Brain Tumour Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"ripple",
+"fish-hook"
+],
+"anim": {
+"move": 8,
+"back": 6,
+"fx": 4,
+"pal": 5
+}
+},
+{
+"date": "2026-06-11",
+"name": "FIFA World Cup 2026 kicks off – USA, Canada, Mexico",
+"title": "FIFA World Cup 2026 kicks off",
+"full": "FIFA World Cup 2026 kicks off – USA, Canada, Mexico (Jun 11 – Jul 19)",
+"category": "Sports & Mega Events",
+"region": "North America / Global",
+"importance": "high",
+"motif": "sport",
+"flags": [
+"US",
+"CA",
+"MX"
+],
+"global": true,
+"message": "Cheering on FIFA World Cup 2026 kicks off! Good luck to every team and every fan.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"ball-football",
+"world"
+],
+"anim": {
+"move": 9,
+"back": 3,
+"fx": 1,
+"pal": 2
+}
+},
+{
+"date": "2026-06-12",
+"name": "World Day Against Child Labour (ILO)",
+"title": "World Day Against Child Labour (ILO)",
+"full": "World Day Against Child Labour (ILO)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "hearts",
+"flags": [],
+"global": true,
+"message": "Today is World Day Against Child Labour (ILO). We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"baby-carriage",
+"book"
+],
+"anim": {
+"move": 10,
+"back": 0,
+"fx": 4,
+"pal": 7
+}
+},
+{
+"date": "2026-06-13",
+"name": "International Albinism Awareness Day",
+"title": "International Albinism Awareness Day",
+"full": "International Albinism Awareness Day",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "hearts",
+"flags": [],
+"global": true,
+"message": "Today is International Albinism Awareness Day. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"sun-off",
+"heart"
+],
+"anim": {
+"move": 11,
+"back": 7,
+"fx": 0,
+"pal": 4
+}
+},
+{
+"date": "2026-06-14",
+"name": "World Blood Donor Day",
+"title": "World Blood Donor Day",
+"full": "World Blood Donor Day",
+"category": "Healthcare & Wellness",
+"region": "Global",
+"importance": "high",
+"motif": "ribbon",
+"flags": [],
+"global": true,
+"message": "World Blood Donor Day: health matters. Our MyHealthOpinions community helps every voice be heard.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"droplet-plus",
+"heart"
+],
+"anim": {
+"move": 0,
+"back": 5,
+"fx": 3,
+"pal": 1
+}
+},
+{
+"date": "2026-06-15",
+"name": "Global Wind Day / World Elder Abuse Awareness Day",
+"title": "Global Wind Day",
+"full": "Global Wind Day / World Elder Abuse Awareness Day",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "leaf",
+"flags": [],
+"global": true,
+"message": "Today is Global Wind Day. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"wind",
+"windmill"
+],
+"anim": {
+"move": 1,
+"back": 2,
+"fx": 6,
+"pal": 6
+}
+},
+{
+"date": "2026-06-16",
+"name": "Islamic New Year",
+"title": "Islamic New Year",
+"full": "Islamic New Year (Hijri 1448)",
+"category": "Global Festival / Holiday",
+"region": "Muslim world",
+"importance": "high",
+"motif": "crescent",
+"flags": [],
+"global": true,
+"message": "Happy Islamic New Year! Warm wishes to our clients, panellists and partners around the world.",
+"also": [
+{
+"name": "US Fed FOMC meeting begins",
+"flags": [
+"US"
+],
+"motif": "globe"
+},
+{
+"name": "International Day of Family Remittances",
+"flags": [],
+"motif": "tech"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "islamic-new-year"
+},
+{
+"date": "2026-06-17",
+"name": "US Fed FOMC rate decision + economic projections",
+"title": "US Fed FOMC rate decision",
+"full": "US Fed FOMC rate decision + economic projections",
+"category": "Finance, Banking & Tax",
+"region": "USA / Global markets",
+"importance": "high",
+"motif": "coins",
+"flags": [
+"US"
+],
+"global": true,
+"message": "US Fed FOMC rate decision: an important date for every business. Our Accounts & Finance team is here to help.",
+"also": [
+{
+"name": "Desertification & Drought Day",
+"flags": [],
+"motif": "leaf"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"icon": [
+"chart-dots-3",
+"percentage"
+],
+"anim": {
+"move": 2,
+"back": 9,
+"fx": 2,
+"pal": 3
+}
+},
+{
+"date": "2026-06-18",
+"name": "Sustainable Gastronomy Day / Autistic Pride Day",
+"title": "Sustainable Gastronomy Day",
+"full": "Sustainable Gastronomy Day / Autistic Pride Day",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "leaf",
+"flags": [],
+"global": true,
+"message": "Today is Sustainable Gastronomy Day. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"chef-hat",
+"leaf"
+],
+"anim": {
+"move": 3,
+"back": 6,
+"fx": 5,
+"pal": 0
+}
+},
+{
+"date": "2026-06-19",
+"name": "Dragon Boat Festival",
+"title": "Dragon Boat Festival",
+"full": "Dragon Boat Festival",
+"category": "Global Festival / Holiday",
+"region": "China / East Asia",
+"importance": "high",
+"motif": "lantern",
+"flags": [
+"CN"
+],
+"global": false,
+"message": "Happy Dragon Boat Festival! Warm wishes to our clients, panellists and partners around the world.",
+"also": [
+{
+"name": "Juneteenth",
+"flags": [],
+"motif": "globe"
+},
+{
+"name": "World Sickle Cell Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"scene": "dragon-boat"
+},
+{
+"date": "2026-06-20",
+"name": "World Refugee Day (UN)",
+"title": "World Refugee Day",
+"full": "World Refugee Day (UN)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "dove",
+"flags": [],
+"global": true,
+"message": "Today is World Refugee Day. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"tent",
+"heart-handshake"
+],
+"anim": {
+"move": 4,
+"back": 3,
+"fx": 2,
+"pal": 6
+}
+},
+{
+"date": "2026-06-21",
+"name": "International Day of Yoga",
+"title": "International Day of Yoga",
+"full": "International Day of Yoga",
+"category": "National / Commemorative Day (India)",
+"region": "India / Global",
+"importance": "high",
+"motif": "ribbon",
+"flags": [
+"IN"
+],
+"global": true,
+"message": "Today we remember and honour International Day of Yoga.",
+"also": [
+{
+"name": "Father's Day",
+"flags": [],
+"motif": "hearts"
+},
+{
+"name": "World Music Day",
+"flags": [],
+"motif": "globe"
+},
+{
+"name": "June Solstice",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"yoga",
+"sun"
+],
+"anim": {
+"move": 5,
+"back": 0,
+"fx": 5,
+"pal": 3
+}
+},
+{
+"date": "2026-06-23",
+"name": "International Olympic Day",
+"title": "International Olympic Day",
+"full": "International Olympic Day",
+"category": "Sports & Mega Events",
+"region": "Global",
+"importance": "medium",
+"motif": "sport",
+"flags": [],
+"global": true,
+"message": "Cheering on International Olympic Day! Good luck to every team and every fan.",
+"also": [
+{
+"name": "UN Public Service Day",
+"flags": [],
+"motif": "hearts"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"olympic-torch",
+"medal"
+],
+"anim": {
+"move": 6,
+"back": 7,
+"fx": 1,
+"pal": 0
+}
+},
+{
+"date": "2026-06-25",
+"name": "Day of the Seafarer (IMO)",
+"title": "Day of the Seafarer",
+"full": "Day of the Seafarer (IMO)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "waves",
+"flags": [],
+"global": true,
+"message": "Today is Day of the Seafarer. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"anchor",
+"ship"
+],
+"anim": {
+"move": 7,
+"back": 4,
+"fx": 4,
+"pal": 5
+}
+},
+{
+"date": "2026-06-26",
+"name": "Muharram / Ashura",
+"title": "Muharram",
+"full": "Muharram / Ashura",
+"category": "Festival (India)",
+"region": "India / Muslim world",
+"importance": "major",
+"motif": "crescent",
+"flags": [
+"IN"
+],
+"global": true,
+"message": "Muharram: today we stand with everyone observing this day of remembrance.",
+"also": [],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "muharram",
+"solemn": true
+},
+{
+"date": "2026-06-27",
+"name": "MSME Day (UN)",
+"title": "MSME Day",
+"full": "MSME Day (UN)",
+"category": "Finance, Banking & Tax",
+"region": "Global / India",
+"importance": "high",
+"motif": "coins",
+"flags": [
+"IN"
+],
+"global": true,
+"message": "MSME Day: an important date for every business. Our Accounts & Finance team is here to help.",
+"also": [],
+"services": [
+"MR",
+"Finance"
+],
+"show": true,
+"icon": [
+"building-store",
+"briefcase"
+],
+"anim": {
+"move": 8,
+"back": 1,
+"fx": 0,
+"pal": 2
+}
+},
+{
+"date": "2026-06-29",
+"name": "National Statistics Day (P.C. Mahalanobis)",
+"title": "National Statistics Day",
+"full": "National Statistics Day (P.C. Mahalanobis)",
+"category": "Market Research & Consumer Insights",
+"region": "India",
+"importance": "high",
+"motif": "survey",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "National Statistics Day: every opinion counts, and we make sure it is heard.",
+"also": [
+{
+"name": "Sant Kabir Das Jayanti",
+"flags": [],
+"motif": "lotus"
+},
+{
+"name": "Wimbledon begins",
+"flags": [],
+"motif": "sport"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"icon": [
+"chart-pie",
+"chart-histogram"
+],
+"anim": {
+"move": 9,
+"back": 8,
+"fx": 3,
+"pal": 7
+}
+},
+{
+"date": "2026-06-30",
+"name": "Social Media Day",
+"title": "Social Media Day",
+"full": "Social Media Day",
+"category": "Digital Marketing & E-commerce",
+"region": "Global",
+"importance": "high",
+"motif": "sale",
+"flags": [],
+"global": true,
+"message": "Social Media Day: the right moment to reach the right audience.",
+"also": [
+{
+"name": "Quarter-end Q1 FY27",
+"flags": [],
+"motif": "globe"
+},
+{
+"name": "International Asteroid Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"icon": [
+"share",
+"thumb-up"
+],
+"anim": {
+"move": 10,
+"back": 5,
+"fx": 6,
+"pal": 4
+}
+},
+{
+"date": "2026-07-01",
+"name": "National Doctors' Day",
+"title": "National Doctors' Day",
+"full": "National Doctors' Day",
+"category": "Healthcare & Wellness",
+"region": "India",
+"importance": "high",
+"motif": "ribbon",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "National Doctors' Day: health matters. Our MyHealthOpinions community helps every voice be heard.",
+"also": [
+{
+"name": "Chartered Accountants' Day & GST Day",
+"flags": [],
+"motif": "coins"
+},
+{
+"name": "Digital India anniversary",
+"flags": [
+"IN"
+],
+"motif": "tech"
+},
+{
+"name": "Canada Day",
+"flags": [
+"CA"
+],
+"motif": "fireworks"
+}
+],
+"services": [
+"MR",
+"DM",
+"IT",
+"Finance"
+],
+"show": true,
+"icon": [
+"stethoscope",
+"heart"
+],
+"anim": {
+"move": 11,
+"back": 2,
+"fx": 3,
+"pal": 1
+}
+},
+{
+"date": "2026-07-02",
+"name": "World Sports Journalists Day / World UFO Day",
+"title": "World Sports Journalists Day",
+"full": "World Sports Journalists Day / World UFO Day",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "sport",
+"flags": [],
+"global": true,
+"message": "Today is World Sports Journalists Day. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"ballpen",
+"trophy"
+],
+"anim": {
+"move": 0,
+"back": 0,
+"fx": 6,
+"pal": 7
+}
+},
+{
+"date": "2026-07-03",
+"name": "International Plastic Bag Free Day",
+"title": "International Plastic Bag Free Day",
+"full": "International Plastic Bag Free Day",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "leaf",
+"flags": [],
+"global": true,
+"message": "Today is International Plastic Bag Free Day. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"shopping-bag-x",
+"leaf"
+],
+"anim": {
+"move": 1,
+"back": 7,
+"fx": 2,
+"pal": 4
+}
+},
+{
+"date": "2026-07-04",
+"name": "Independence Day (USA)",
+"title": "Independence Day (USA)",
+"full": "Independence Day (USA)",
+"category": "Global Festival / Holiday",
+"region": "USA",
+"importance": "high",
+"motif": "tricolour",
+"flags": [
+"US"
+],
+"global": false,
+"message": "Happy Independence Day (USA)! Warm wishes to our clients, panellists and partners around the world.",
+"also": [
+{
+"name": "Tour de France begins",
+"flags": [
+"FR"
+],
+"motif": "sport"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"scene": "independence-day-usa"
+},
+{
+"date": "2026-07-06",
+"name": "World Zoonoses Day",
+"title": "World Zoonoses Day",
+"full": "World Zoonoses Day",
+"category": "Healthcare & Wellness",
+"region": "Global",
+"importance": "medium",
+"motif": "ribbon",
+"flags": [],
+"global": true,
+"message": "World Zoonoses Day: health matters. Our MyHealthOpinions community helps every voice be heard.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"paw",
+"virus"
+],
+"anim": {
+"move": 2,
+"back": 4,
+"fx": 5,
+"pal": 1
+}
+},
+{
+"date": "2026-07-07",
+"name": "World Chocolate Day",
+"title": "World Chocolate Day",
+"full": "World Chocolate Day",
+"category": "Digital Marketing & E-commerce",
+"region": "Global",
+"importance": "medium",
+"motif": "sale",
+"flags": [],
+"global": true,
+"message": "World Chocolate Day: the right moment to reach the right audience.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"candy",
+"cookie"
+],
+"anim": {
+"move": 3,
+"back": 1,
+"fx": 1,
+"pal": 6
+}
+},
+{
+"date": "2026-07-11",
+"name": "World Population Day (UN)",
+"title": "World Population Day",
+"full": "World Population Day (UN)",
+"category": "Market Research & Consumer Insights",
+"region": "Global",
+"importance": "high",
+"motif": "ribbon",
+"flags": [],
+"global": true,
+"message": "World Population Day: every opinion counts, and we make sure it is heard.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"users-plus",
+"world"
+],
+"anim": {
+"move": 4,
+"back": 8,
+"fx": 4,
+"pal": 3
+}
+},
+{
+"date": "2026-07-12",
+"name": "Wimbledon finals",
+"title": "Wimbledon finals",
+"full": "Wimbledon finals",
+"category": "Sports & Mega Events",
+"region": "UK / Global",
+"importance": "medium",
+"motif": "sport",
+"flags": [
+"GB"
+],
+"global": true,
+"message": "Cheering on Wimbledon finals! Good luck to every team and every fan.",
+"also": [
+{
+"name": "Paper Bag Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"ball-tennis",
+"trophy"
+],
+"anim": {
+"move": 5,
+"back": 5,
+"fx": 0,
+"pal": 0
+}
+},
+{
+"date": "2026-07-14",
+"name": "Bastille Day",
+"title": "Bastille Day",
+"full": "Bastille Day",
+"category": "Global Festival / Holiday",
+"region": "France",
+"importance": "medium",
+"motif": "fireworks",
+"flags": [
+"FR"
+],
+"global": false,
+"message": "Happy Bastille Day! Warm wishes to our clients, panellists and partners around the world.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"scene": "bastille-day"
+},
+{
+"date": "2026-07-15",
+"name": "World Youth Skills Day (UN)",
+"title": "World Youth Skills Day",
+"full": "World Youth Skills Day (UN)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "high",
+"motif": "hearts",
+"flags": [],
+"global": true,
+"message": "Today is World Youth Skills Day. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"tool",
+"school"
+],
+"anim": {
+"move": 6,
+"back": 2,
+"fx": 4,
+"pal": 5
+}
+},
+{
+"date": "2026-07-16",
+"name": "Jagannath Rath Yatra",
+"title": "Jagannath Rath Yatra",
+"full": "Jagannath Rath Yatra",
+"category": "Festival (India)",
+"region": "Odisha (Puri), Gujarat, Pan-India",
+"importance": "major",
+"motif": "lotus",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Happy Jagannath Rath Yatra! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [
+{
+"name": "Get to Know Your Customers Day",
+"flags": [],
+"motif": "survey"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "rath-yatra"
+},
+{
+"date": "2026-07-17",
+"name": "World Emoji Day",
+"title": "World Emoji Day",
+"full": "World Emoji Day",
+"category": "Digital Marketing & E-commerce",
+"region": "Global",
+"importance": "high",
+"motif": "sale",
+"flags": [],
+"global": true,
+"message": "World Emoji Day: the right moment to reach the right audience.",
+"also": [
+{
+"name": "World Day for International Justice",
+"flags": [],
+"motif": "dove"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"mood-wink-2",
+"message-circle"
+],
+"anim": {
+"move": 7,
+"back": 9,
+"fx": 0,
+"pal": 2
+}
+},
+{
+"date": "2026-07-18",
+"name": "Nelson Mandela International Day (UN)",
+"title": "Nelson Mandela International Day",
+"full": "Nelson Mandela International Day (UN)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "high",
+"motif": "globe",
+"flags": [],
+"global": true,
+"message": "Today is Nelson Mandela International Day. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"hand-stop",
+"heart"
+],
+"anim": {
+"move": 8,
+"back": 6,
+"fx": 3,
+"pal": 0
+}
+},
+{
+"date": "2026-07-19",
+"name": "FIFA World Cup 2026 Final (New York/New Jersey)",
+"title": "FIFA World Cup 2026 Final",
+"full": "FIFA World Cup 2026 Final (New York/New Jersey)",
+"category": "Sports & Mega Events",
+"region": "USA / Global",
+"importance": "high",
+"motif": "sport",
+"flags": [
+"US"
+],
+"global": true,
+"message": "Cheering on FIFA World Cup 2026 Final! Good luck to every team and every fan.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"trophy",
+"ball-football"
+],
+"anim": {
+"move": 9,
+"back": 3,
+"fx": 6,
+"pal": 5
+}
+},
+{
+"date": "2026-07-20",
+"name": "International Moon Day",
+"title": "International Moon Day",
+"full": "International Moon Day (Apollo 11)",
+"category": "IT & Technology",
+"region": "Global",
+"importance": "medium",
+"motif": "tech",
+"flags": [],
+"global": true,
+"message": "Celebrating International Moon Day with every builder, coder and maker.",
+"also": [
+{
+"name": "International Chess Day",
+"flags": [],
+"motif": "sport"
+}
+],
+"services": [
+"MR",
+"DM",
+"IT"
+],
+"show": true,
+"icon": [
+"moon-stars",
+"rocket"
+],
+"anim": {
+"move": 10,
+"back": 0,
+"fx": 2,
+"pal": 2
+}
+},
+{
+"date": "2026-07-22",
+"name": "World Brain Day",
+"title": "World Brain Day",
+"full": "World Brain Day",
+"category": "Healthcare & Wellness",
+"region": "Global",
+"importance": "medium",
+"motif": "ribbon",
+"flags": [],
+"global": true,
+"message": "World Brain Day: health matters. Our MyHealthOpinions community helps every voice be heard.",
+"also": [
+{
+"name": "National Flag Adoption Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"mood-nerd",
+"bolt"
+],
+"anim": {
+"move": 11,
+"back": 7,
+"fx": 5,
+"pal": 7
+}
+},
+{
+"date": "2026-07-23",
+"name": "Commonwealth Games open – Glasgow",
+"title": "Commonwealth Games open",
+"full": "Commonwealth Games open – Glasgow (Jul 23 – Aug 2)",
+"category": "Sports & Mega Events",
+"region": "UK / Commonwealth",
+"importance": "high",
+"motif": "sport",
+"flags": [
+"GB"
+],
+"global": false,
+"message": "Cheering on Commonwealth Games open! Good luck to every team and every fan.",
+"also": [
+{
+"name": "National Broadcasting Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"medal-2",
+"flag"
+],
+"anim": {
+"move": 0,
+"back": 5,
+"fx": 1,
+"pal": 4
+}
+},
+{
+"date": "2026-07-24",
+"name": "Income Tax Day",
+"title": "Income Tax Day",
+"full": "Income Tax Day",
+"category": "Finance, Banking & Tax",
+"region": "India",
+"importance": "high",
+"motif": "coins",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Income Tax Day: an important date for every business. Our Accounts & Finance team is here to help.",
+"also": [],
+"services": [
+"MR",
+"Finance"
+],
+"show": true,
+"icon": [
+"receipt-2",
+"building-bank"
+],
+"anim": {
+"move": 1,
+"back": 2,
+"fx": 5,
+"pal": 1
+}
+},
+{
+"date": "2026-07-25",
+"name": "World Drowning Prevention Day (UN)",
+"title": "World Drowning Prevention Day",
+"full": "World Drowning Prevention Day (UN)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "waves",
+"flags": [],
+"global": true,
+"message": "Today is World Drowning Prevention Day. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"swimming",
+"lifebuoy"
+],
+"anim": {
+"move": 2,
+"back": 9,
+"fx": 1,
+"pal": 6
+}
+},
+{
+"date": "2026-07-26",
+"name": "Kargil Vijay Diwas",
+"title": "Kargil Vijay Diwas",
+"full": "Kargil Vijay Diwas",
+"category": "National / Commemorative Day (India)",
+"region": "India",
+"importance": "high",
+"motif": "dove",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour Kargil Vijay Diwas.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"mountain",
+"flag"
+],
+"anim": {
+"move": 3,
+"back": 6,
+"fx": 4,
+"pal": 3
+}
+},
+{
+"date": "2026-07-28",
+"name": "World Hepatitis Day",
+"title": "World Hepatitis Day",
+"full": "World Hepatitis Day",
+"category": "Healthcare & Wellness",
+"region": "Global",
+"importance": "medium",
+"motif": "ribbon",
+"flags": [],
+"global": true,
+"message": "World Hepatitis Day: health matters. Our MyHealthOpinions community helps every voice be heard.",
+"also": [
+{
+"name": "World Nature Conservation Day",
+"flags": [],
+"motif": "leaf"
+},
+{
+"name": "US Fed FOMC meeting begins",
+"flags": [
+"US"
+],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"icon": [
+"droplet-half-2",
+"shield"
+],
+"anim": {
+"move": 4,
+"back": 3,
+"fx": 0,
+"pal": 1
+}
+},
+{
+"date": "2026-07-29",
+"name": "Guru Purnima",
+"title": "Guru Purnima",
+"full": "Guru Purnima",
+"category": "Festival (India)",
+"region": "Pan-India",
+"importance": "major",
+"motif": "lotus",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Happy Guru Purnima! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [
+{
+"name": "International Tiger Day",
+"flags": [],
+"motif": "leaf"
+},
+{
+"name": "US Fed FOMC rate decision",
+"flags": [
+"US"
+],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "guru-purnima"
+},
+{
+"date": "2026-07-30",
+"name": "International Day of Friendship (UN)",
+"title": "International Day of Friendship",
+"full": "International Day of Friendship (UN)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "hearts",
+"flags": [],
+"global": true,
+"message": "Today is International Day of Friendship. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"heart-star",
+"sparkles"
+],
+"anim": {
+"move": 5,
+"back": 0,
+"fx": 3,
+"pal": 6
+}
+},
+{
+"date": "2026-07-31",
+"name": "ITR filing deadline – AY 2026-27 (non-audit individuals)",
+"title": "ITR filing deadline",
+"full": "ITR filing deadline – AY 2026-27 (non-audit individuals)",
+"category": "Finance, Banking & Tax",
+"region": "India",
+"importance": "high",
+"motif": "coins",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "ITR filing deadline: an important date for every business. Our Accounts & Finance team is here to help.",
+"also": [
+{
+"name": "System Administrator Appreciation Day",
+"flags": [],
+"motif": "globe"
+},
+{
+"name": "TDS return due",
+"flags": [],
+"motif": "coins"
+}
+],
+"services": [
+"MR",
+"DM",
+"IT",
+"Finance"
+],
+"show": true,
+"icon": [
+"file-text",
+"calendar-time"
+],
+"anim": {
+"move": 6,
+"back": 7,
+"fx": 6,
+"pal": 3
+}
+},
+{
+"date": "2026-08-01",
+"name": "World Wide Web Day",
+"title": "World Wide Web Day",
+"full": "World Wide Web Day",
+"category": "IT & Technology",
+"region": "Global",
+"importance": "high",
+"motif": "tech",
+"flags": [],
+"global": true,
+"message": "Celebrating World Wide Web Day with every builder, coder and maker.",
+"also": [
+{
+"name": "World Breastfeeding Week begins",
+"flags": [],
+"motif": "ribbon"
+},
+{
+"name": "Lokmanya Tilak Punyatithi",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM",
+"IT"
+],
+"show": true,
+"icon": [
+"world-www",
+"network"
+],
+"anim": {
+"move": 7,
+"back": 4,
+"fx": 2,
+"pal": 0
+}
+},
+{
+"date": "2026-08-02",
+"name": "Friendship Day",
+"title": "Friendship Day",
+"full": "Friendship Day (1st Sun of Aug)",
+"category": "Digital Marketing & E-commerce",
+"region": "India / Global",
+"importance": "high",
+"motif": "hearts",
+"flags": [
+"IN"
+],
+"global": true,
+"message": "Friendship Day: the right moment to reach the right audience.",
+"also": [
+{
+"name": "Commonwealth Games close",
+"flags": [
+"GB"
+],
+"motif": "sport"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"mood-smile-beam",
+"heart"
+],
+"anim": {
+"move": 8,
+"back": 1,
+"fx": 6,
+"pal": 5
+}
+},
+{
+"date": "2026-08-03",
+"name": "RBI MPC meeting begins",
+"title": "RBI MPC meeting begins",
+"full": "RBI MPC meeting begins (Aug 3–5)",
+"category": "Finance, Banking & Tax",
+"region": "India",
+"importance": "medium",
+"motif": "coins",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "RBI MPC meeting begins: an important date for every business. Our Accounts & Finance team is here to help.",
+"also": [],
+"services": [
+"MR",
+"Finance"
+],
+"show": true,
+"icon": [
+"calendar-plus",
+"building-bank"
+],
+"anim": {
+"move": 9,
+"back": 8,
+"fx": 2,
+"pal": 2
+}
+},
+{
+"date": "2026-08-05",
+"name": "RBI Monetary Policy decision",
+"title": "RBI Monetary Policy decision",
+"full": "RBI Monetary Policy decision",
+"category": "Finance, Banking & Tax",
+"region": "India",
+"importance": "high",
+"motif": "coins",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "RBI Monetary Policy decision: an important date for every business. Our Accounts & Finance team is here to help.",
+"also": [],
+"services": [
+"MR",
+"Finance"
+],
+"show": true,
+"icon": [
+"percentage",
+"currency-rupee"
+],
+"anim": {
+"move": 10,
+"back": 5,
+"fx": 5,
+"pal": 7
+}
+},
+{
+"date": "2026-08-06",
+"name": "Hiroshima Day",
+"title": "Hiroshima Day",
+"full": "Hiroshima Day",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "dove",
+"flags": [],
+"global": true,
+"message": "Today is Hiroshima Day. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"plant",
+"candle"
+],
+"anim": {
+"move": 0,
+"back": 1,
+"fx": 3,
+"pal": 4
+},
+"solemn": true
+},
+{
+"date": "2026-08-07",
+"name": "National Handloom Day",
+"title": "National Handloom Day",
+"full": "National Handloom Day",
+"category": "National / Commemorative Day (India)",
+"region": "India",
+"importance": "high",
+"motif": "dove",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour National Handloom Day.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"needle-thread",
+"shirt"
+],
+"anim": {
+"move": 0,
+"back": 0,
+"fx": 4,
+"pal": 2
+}
+},
+{
+"date": "2026-08-08",
+"name": "International Cat Day",
+"title": "International Cat Day",
+"full": "International Cat Day",
+"category": "Digital Marketing & E-commerce",
+"region": "Global",
+"importance": "medium",
+"motif": "sale",
+"flags": [],
+"global": true,
+"message": "International Cat Day: the right moment to reach the right audience.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"cat",
+"fish"
+],
+"anim": {
+"move": 1,
+"back": 7,
+"fx": 0,
+"pal": 7
+}
+},
+{
+"date": "2026-08-09",
+"name": "Quit India Movement Day (Aug Kranti Diwas)",
+"title": "Quit India Movement Day",
+"full": "Quit India Movement Day (Aug Kranti Diwas)",
+"category": "National / Commemorative Day (India)",
+"region": "India",
+"importance": "high",
+"motif": "dove",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour Quit India Movement Day.",
+"also": [
+{
+"name": "International Day of the World's Indigenous Peoples",
+"flags": [],
+"motif": "globe"
+},
+{
+"name": "National Day",
+"flags": [],
+"motif": "fireworks"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"speakerphone",
+"flag"
+],
+"anim": {
+"move": 2,
+"back": 4,
+"fx": 3,
+"pal": 4
+}
+},
+{
+"date": "2026-08-10",
+"name": "World Lion Day / World Biofuel Day",
+"title": "World Lion Day",
+"full": "World Lion Day / World Biofuel Day",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "leaf",
+"flags": [],
+"global": true,
+"message": "Today is World Lion Day. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"crown",
+"paw"
+],
+"anim": {
+"move": 3,
+"back": 1,
+"fx": 0,
+"pal": 1
+}
+},
+{
+"date": "2026-08-12",
+"name": "International Youth Day (UN)",
+"title": "International Youth Day",
+"full": "International Youth Day (UN)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "high",
+"motif": "hearts",
+"flags": [],
+"global": true,
+"message": "Today is International Youth Day. We join the world in raising awareness.",
+"also": [
+{
+"name": "World Elephant Day",
+"flags": [],
+"motif": "leaf"
+},
+{
+"name": "Total solar eclipse",
+"flags": [],
+"motif": "globe"
+},
+{
+"name": "not visible in India)",
+"flags": [
+"IN"
+],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"mood-crazy-happy",
+"bolt"
+],
+"anim": {
+"move": 4,
+"back": 8,
+"fx": 3,
+"pal": 6
+}
+},
+{
+"date": "2026-08-13",
+"name": "World Organ Donation Day",
+"title": "World Organ Donation Day",
+"full": "World Organ Donation Day",
+"category": "Healthcare & Wellness",
+"region": "Global",
+"importance": "medium",
+"motif": "ribbon",
+"flags": [],
+"global": true,
+"message": "World Organ Donation Day: health matters. Our MyHealthOpinions community helps every voice be heard.",
+"also": [
+{
+"name": "International Left-Handers Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"heart-plus",
+"hand-stop"
+],
+"anim": {
+"move": 5,
+"back": 5,
+"fx": 6,
+"pal": 3
+}
+},
+{
+"date": "2026-08-14",
+"name": "Partition Horrors Remembrance Day",
+"title": "Partition Horrors Remembrance Day",
+"full": "Partition Horrors Remembrance Day",
+"category": "National / Commemorative Day (India)",
+"region": "India",
+"importance": "medium",
+"motif": "dove",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour Partition Horrors Remembrance Day.",
+"also": [
+{
+"name": "Independence Day",
+"flags": [],
+"motif": "tricolour"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"heart-broken",
+"flower"
+],
+"anim": {
+"move": 10,
+"back": 1,
+"fx": 2,
+"pal": 0
+},
+"solemn": true
+},
+{
+"date": "2026-08-15",
+"name": "Independence Day – Har Ghar Tiranga",
+"title": "Independence Day",
+"full": "Independence Day (80th) – Har Ghar Tiranga",
+"category": "National / Commemorative Day (India)",
+"region": "India",
+"importance": "major",
+"motif": "tricolour",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour Independence Day.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"scene": "independence-day-india"
+},
+{
+"date": "2026-08-19",
+"name": "World Photography Day",
+"title": "World Photography Day",
+"full": "World Photography Day",
+"category": "Digital Marketing & E-commerce",
+"region": "Global",
+"importance": "high",
+"motif": "sale",
+"flags": [],
+"global": true,
+"message": "World Photography Day: the right moment to reach the right audience.",
+"also": [
+{
+"name": "World Humanitarian Day",
+"flags": [],
+"motif": "dove"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"camera",
+"aperture"
+],
+"anim": {
+"move": 7,
+"back": 9,
+"fx": 5,
+"pal": 5
+}
+},
+{
+"date": "2026-08-20",
+"name": "World Mosquito Day",
+"title": "World Mosquito Day",
+"full": "World Mosquito Day",
+"category": "Healthcare & Wellness",
+"region": "Global",
+"importance": "medium",
+"motif": "ribbon",
+"flags": [],
+"global": true,
+"message": "World Mosquito Day: health matters. Our MyHealthOpinions community helps every voice be heard.",
+"also": [
+{
+"name": "Sadbhavana Diwas",
+"flags": [],
+"motif": "dove"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"virus-search",
+"alert-triangle"
+],
+"anim": {
+"move": 8,
+"back": 6,
+"fx": 1,
+"pal": 3
+}
+},
+{
+"date": "2026-08-21",
+"name": "World Senior Citizens Day",
+"title": "World Senior Citizens Day",
+"full": "World Senior Citizens Day",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "hearts",
+"flags": [],
+"global": true,
+"message": "Today is World Senior Citizens Day. We join the world in raising awareness.",
+"also": [
+{
+"name": "World Entrepreneurs' Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"icon": [
+"old",
+"heart"
+],
+"anim": {
+"move": 9,
+"back": 3,
+"fx": 4,
+"pal": 0
+}
+},
+{
+"date": "2026-08-22",
+"name": "Madras Day",
+"title": "Madras Day",
+"full": "Madras Day",
+"category": "National / Commemorative Day (India)",
+"region": "Chennai",
+"importance": "medium",
+"motif": "dove",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour Madras Day.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"building-lighthouse",
+"sun"
+],
+"anim": {
+"move": 10,
+"back": 0,
+"fx": 1,
+"pal": 5
+}
+},
+{
+"date": "2026-08-23",
+"name": "National Space Day",
+"title": "National Space Day",
+"full": "National Space Day (Chandrayaan-3 landing)",
+"category": "IT & Technology",
+"region": "India",
+"importance": "high",
+"motif": "tech",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Celebrating National Space Day with every builder, coder and maker.",
+"also": [],
+"services": [
+"DM",
+"IT"
+],
+"show": true,
+"icon": [
+"satellite",
+"moon"
+],
+"anim": {
+"move": 11,
+"back": 7,
+"fx": 4,
+"pal": 2
+}
+},
+{
+"date": "2026-08-26",
+"name": "Onam (Thiruvonam) + Milad-un-Nabi (Eid-e-Milad)",
+"title": "Onam (Thiruvonam)",
+"full": "Onam (Thiruvonam) + Milad-un-Nabi (Eid-e-Milad)",
+"category": "Festival (India)",
+"region": "Kerala / Malayali diaspora / India / Muslim world",
+"importance": "major",
+"motif": "lotus",
+"flags": [
+"IN"
+],
+"global": true,
+"message": "Happy Onam (Thiruvonam)! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "onam"
+},
+{
+"date": "2026-08-28",
+"name": "Raksha Bandhan",
+"title": "Raksha Bandhan",
+"full": "Raksha Bandhan",
+"category": "Festival (India)",
+"region": "Pan-India",
+"importance": "major",
+"motif": "hearts",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Happy Raksha Bandhan! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "raksha-bandhan"
+},
+{
+"date": "2026-08-29",
+"name": "National Sports Day (Major Dhyan Chand)",
+"title": "National Sports Day",
+"full": "National Sports Day (Major Dhyan Chand)",
+"category": "Sports & Mega Events",
+"region": "India",
+"importance": "high",
+"motif": "sport",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Cheering on National Sports Day! Good luck to every team and every fan.",
+"also": [
+{
+"name": "Telugu Language Day",
+"flags": [],
+"motif": "book"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"ball-basketball",
+"medal"
+],
+"anim": {
+"move": 0,
+"back": 5,
+"fx": 0,
+"pal": 7
+}
+},
+{
+"date": "2026-08-30",
+"name": "Small Industry Day",
+"title": "Small Industry Day",
+"full": "Small Industry Day",
+"category": "Finance, Banking & Tax",
+"region": "India",
+"importance": "high",
+"motif": "coins",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Small Industry Day: an important date for every business. Our Accounts & Finance team is here to help.",
+"also": [],
+"services": [
+"MR",
+"Finance"
+],
+"show": true,
+"icon": [
+"building-factory",
+"tool"
+],
+"anim": {
+"move": 1,
+"back": 2,
+"fx": 3,
+"pal": 4
+}
+},
+{
+"date": "2026-08-31",
+"name": "World Blog Day",
+"title": "World Blog Day",
+"full": "World Blog Day",
+"category": "Digital Marketing & E-commerce",
+"region": "Global",
+"importance": "high",
+"motif": "sale",
+"flags": [],
+"global": true,
+"message": "World Blog Day: the right moment to reach the right audience.",
+"also": [
+{
+"name": "US Open tennis begins",
+"flags": [
+"US"
+],
+"motif": "sport"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"article",
+"pencil"
+],
+"anim": {
+"move": 2,
+"back": 9,
+"fx": 6,
+"pal": 1
+}
+},
+{
+"date": "2026-09-01",
+"name": "National Nutrition Week",
+"title": "National Nutrition Week",
+"full": "National Nutrition Week (Sep 1–7)",
+"category": "Healthcare & Wellness",
+"region": "India",
+"importance": "medium",
+"motif": "ribbon",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "National Nutrition Week: health matters. Our MyHealthOpinions community helps every voice be heard.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"salad",
+"apple"
+],
+"anim": {
+"move": 3,
+"back": 6,
+"fx": 2,
+"pal": 6
+}
+},
+{
+"date": "2026-09-02",
+"name": "World Coconut Day",
+"title": "World Coconut Day",
+"full": "World Coconut Day",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "leaf",
+"flags": [],
+"global": true,
+"message": "Today is World Coconut Day. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"tree",
+"bottle"
+],
+"anim": {
+"move": 4,
+"back": 3,
+"fx": 5,
+"pal": 4
+}
+},
+{
+"date": "2026-09-04",
+"name": "Krishna Janmashtami",
+"title": "Krishna Janmashtami",
+"full": "Krishna Janmashtami",
+"category": "Festival (India)",
+"region": "Pan-India",
+"importance": "major",
+"motif": "lotus",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Happy Krishna Janmashtami! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "janmashtami"
+},
+{
+"date": "2026-09-05",
+"name": "Teachers' Day (Dr. S. Radhakrishnan Jayanti)",
+"title": "Teachers' Day",
+"full": "Teachers' Day (Dr. S. Radhakrishnan Jayanti)",
+"category": "National / Commemorative Day (India)",
+"region": "India",
+"importance": "high",
+"motif": "hearts",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour Teachers' Day.",
+"also": [
+{
+"name": "International Day of Charity",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"chalkboard",
+"apple"
+],
+"anim": {
+"move": 5,
+"back": 0,
+"fx": 2,
+"pal": 1
+}
+},
+{
+"date": "2026-09-07",
+"name": "Labor Day",
+"title": "Labor Day",
+"full": "Labor Day",
+"category": "Global Festival / Holiday",
+"region": "USA / Canada",
+"importance": "medium",
+"motif": "lotus",
+"flags": [
+"US",
+"CA"
+],
+"global": false,
+"message": "Happy Labor Day! Warm wishes to our clients, panellists and partners around the world.",
+"also": [
+{
+"name": "Independence Day",
+"flags": [],
+"motif": "tricolour"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"scene": "labor-day"
+},
+{
+"date": "2026-09-08",
+"name": "International Literacy Day (UNESCO)",
+"title": "International Literacy Day",
+"full": "International Literacy Day (UNESCO)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "high",
+"motif": "book",
+"flags": [],
+"global": true,
+"message": "Today is International Literacy Day. We join the world in raising awareness.",
+"also": [
+{
+"name": "World Physiotherapy Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"book-2",
+"abc"
+],
+"anim": {
+"move": 6,
+"back": 7,
+"fx": 5,
+"pal": 6
+}
+},
+{
+"date": "2026-09-10",
+"name": "World Suicide Prevention Day",
+"title": "World Suicide Prevention Day",
+"full": "World Suicide Prevention Day",
+"category": "Healthcare & Wellness",
+"region": "Global",
+"importance": "medium",
+"motif": "ribbon",
+"flags": [],
+"global": true,
+"message": "World Suicide Prevention Day: health matters. Our MyHealthOpinions community helps every voice be heard.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"phone-call",
+"heart"
+],
+"anim": {
+"move": 0,
+"back": 1,
+"fx": 3,
+"pal": 3
+},
+"solemn": true
+},
+{
+"date": "2026-09-11",
+"name": "Rosh Hashanah – Jewish New Year (begins evening)",
+"title": "Rosh Hashanah",
+"full": "Rosh Hashanah – Jewish New Year (begins evening)",
+"category": "Global Festival / Holiday",
+"region": "Jewish world",
+"importance": "medium",
+"motif": "fireworks",
+"flags": [
+"IL"
+],
+"global": true,
+"message": "Happy Rosh Hashanah! Warm wishes to our clients, panellists and partners around the world.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"scene": "rosh-hashanah"
+},
+{
+"date": "2026-09-12",
+"name": "Rosh Hashanah",
+"title": "Rosh Hashanah",
+"full": "Rosh Hashanah (Day 1)",
+"category": "Global Festival / Holiday",
+"region": "Jewish world",
+"importance": "medium",
+"motif": "lotus",
+"flags": [
+"IL"
+],
+"global": true,
+"message": "Happy Rosh Hashanah! Warm wishes to our clients, panellists and partners around the world.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"scene": "rosh-hashanah-honey"
+},
+{
+"date": "2026-09-13",
+"name": "Programmers' Day",
+"title": "Programmers' Day",
+"full": "Programmers' Day (256th day of the year)",
+"category": "IT & Technology",
+"region": "Global",
+"importance": "high",
+"motif": "tech",
+"flags": [],
+"global": true,
+"message": "Celebrating Programmers' Day with every builder, coder and maker.",
+"also": [],
+"services": [
+"DM",
+"IT"
+],
+"show": true,
+"icon": [
+"code",
+"terminal-2"
+],
+"anim": {
+"move": 8,
+"back": 1,
+"fx": 4,
+"pal": 0
+}
+},
+{
+"date": "2026-09-14",
+"name": "Ganesh Chaturthi",
+"title": "Ganesh Chaturthi",
+"full": "Ganesh Chaturthi (10-day festival begins)",
+"category": "Festival (India)",
+"region": "Maharashtra, Karnataka, Pan-India",
+"importance": "major",
+"motif": "lotus",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Happy Ganesh Chaturthi! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "ganesh-chaturthi"
+},
+{
+"date": "2026-09-15",
+"name": "Engineers' Day (M. Visvesvaraya Jayanti)",
+"title": "Engineers' Day",
+"full": "Engineers' Day (M. Visvesvaraya Jayanti)",
+"category": "IT & Technology",
+"region": "India",
+"importance": "high",
+"motif": "tech",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Celebrating Engineers' Day with every builder, coder and maker.",
+"also": [
+{
+"name": "International Day of Democracy",
+"flags": [],
+"motif": "dove"
+},
+{
+"name": "US Fed FOMC meeting begins",
+"flags": [
+"US"
+],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM",
+"IT",
+"Finance"
+],
+"show": true,
+"icon": [
+"settings",
+"building-bridge-2"
+],
+"anim": {
+"move": 9,
+"back": 8,
+"fx": 0,
+"pal": 5
+}
+},
+{
+"date": "2026-09-16",
+"name": "US Fed FOMC rate decision + economic projections",
+"title": "US Fed FOMC rate decision",
+"full": "US Fed FOMC rate decision + economic projections",
+"category": "Finance, Banking & Tax",
+"region": "USA / Global markets",
+"importance": "high",
+"motif": "coins",
+"flags": [
+"US"
+],
+"global": true,
+"message": "US Fed FOMC rate decision: an important date for every business. Our Accounts & Finance team is here to help.",
+"also": [
+{
+"name": "World Ozone Day",
+"flags": [],
+"motif": "leaf"
+},
+{
+"name": "Independence Day",
+"flags": [],
+"motif": "tricolour"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"icon": [
+"trending-down",
+"percentage"
+],
+"anim": {
+"move": 10,
+"back": 5,
+"fx": 3,
+"pal": 2
+}
+},
+{
+"date": "2026-09-17",
+"name": "Vishwakarma Puja (engineers, industry & IT workplaces)",
+"title": "Vishwakarma Puja",
+"full": "Vishwakarma Puja (engineers, industry & IT workplaces)",
+"category": "Festival (India)",
+"region": "East & North India",
+"importance": "high",
+"motif": "lotus",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Happy Vishwakarma Puja! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "vishwakarma-puja"
+},
+{
+"date": "2026-09-18",
+"name": "World Bamboo Day",
+"title": "World Bamboo Day",
+"full": "World Bamboo Day",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "leaf",
+"flags": [],
+"global": true,
+"message": "Today is World Bamboo Day. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"trees",
+"leaf"
+],
+"anim": {
+"move": 11,
+"back": 2,
+"fx": 6,
+"pal": 7
+}
+},
+{
+"date": "2026-09-19",
+"name": "Software Freedom Day",
+"title": "Software Freedom Day",
+"full": "Software Freedom Day (3rd Sat of Sep)",
+"category": "IT & Technology",
+"region": "Global",
+"importance": "high",
+"motif": "tech",
+"flags": [],
+"global": true,
+"message": "Celebrating Software Freedom Day with every builder, coder and maker.",
+"also": [
+{
+"name": "Asian Games open",
+"flags": [],
+"motif": "sport"
+},
+{
+"name": "Oktoberfest begins",
+"flags": [
+"DE"
+],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM",
+"IT"
+],
+"show": true,
+"icon": [
+"brand-open-source",
+"code"
+],
+"anim": {
+"move": 0,
+"back": 0,
+"fx": 3,
+"pal": 5
+}
+},
+{
+"date": "2026-09-21",
+"name": "International Day of Peace (UN)",
+"title": "International Day of Peace",
+"full": "International Day of Peace (UN)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "high",
+"motif": "dove",
+"flags": [],
+"global": true,
+"message": "Today is International Day of Peace. We join the world in raising awareness.",
+"also": [
+{
+"name": "Yom Kippur",
+"flags": [],
+"motif": "globe"
+},
+{
+"name": "World Alzheimer's Day",
+"flags": [],
+"motif": "ribbon"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"peace",
+"world"
+],
+"anim": {
+"move": 1,
+"back": 7,
+"fx": 6,
+"pal": 2
+}
+},
+{
+"date": "2026-09-22",
+"name": "World Rose Day (cancer patients' welfare)",
+"title": "World Rose Day",
+"full": "World Rose Day (cancer patients' welfare)",
+"category": "Healthcare & Wellness",
+"region": "Global",
+"importance": "medium",
+"motif": "ribbon",
+"flags": [],
+"global": true,
+"message": "World Rose Day: health matters. Our MyHealthOpinions community helps every voice be heard.",
+"also": [
+{
+"name": "September Equinox",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"rosette-discount-check",
+"heart"
+],
+"anim": {
+"move": 10,
+"back": 1,
+"fx": 2,
+"pal": 7
+},
+"solemn": true
+},
+{
+"date": "2026-09-23",
+"name": "Saudi National Day",
+"title": "Saudi National Day",
+"full": "Saudi National Day",
+"category": "Global Festival / Holiday",
+"region": "Saudi Arabia",
+"importance": "medium",
+"motif": "fireworks",
+"flags": [
+"SA"
+],
+"global": false,
+"message": "Happy Saudi National Day! Warm wishes to our clients, panellists and partners around the world.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"scene": "saudi-national-day"
+},
+{
+"date": "2026-09-24",
+"name": "Anant Chaturdashi – Ganesh Visarjan",
+"title": "Anant Chaturdashi",
+"full": "Anant Chaturdashi – Ganesh Visarjan",
+"category": "Festival (India)",
+"region": "Maharashtra / Pan-India",
+"importance": "high",
+"motif": "lotus",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Happy Anant Chaturdashi! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [
+{
+"name": "NSS Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "anant-chaturdashi"
+},
+{
+"date": "2026-09-25",
+"name": "Mid-Autumn (Moon) Festival",
+"title": "Mid-Autumn (Moon) Festival",
+"full": "Mid-Autumn (Moon) Festival",
+"category": "Global Festival / Holiday",
+"region": "China / East & SE Asia",
+"importance": "high",
+"motif": "lantern",
+"flags": [
+"CN"
+],
+"global": true,
+"message": "Happy Mid-Autumn (Moon) Festival! Warm wishes to our clients, panellists and partners around the world.",
+"also": [
+{
+"name": "World Pharmacists Day",
+"flags": [],
+"motif": "ribbon"
+},
+{
+"name": "Antyodaya Diwas",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"scene": "mid-autumn"
+},
+{
+"date": "2026-09-26",
+"name": "World Contraception Day / World Environmental Health Day",
+"title": "World Contraception Day",
+"full": "World Contraception Day / World Environmental Health Day",
+"category": "Healthcare & Wellness",
+"region": "Global",
+"importance": "medium",
+"motif": "leaf",
+"flags": [],
+"global": true,
+"message": "World Contraception Day: health matters. Our MyHealthOpinions community helps every voice be heard.",
+"also": [
+{
+"name": "Pitru Paksha begins",
+"flags": [],
+"motif": "coins"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"icon": [
+"heart-check",
+"shield-check"
+],
+"anim": {
+"move": 3,
+"back": 1,
+"fx": 5,
+"pal": 4
+}
+},
+{
+"date": "2026-09-27",
+"name": "World Tourism Day (UN)",
+"title": "World Tourism Day",
+"full": "World Tourism Day (UN)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "high",
+"motif": "globe",
+"flags": [],
+"global": true,
+"message": "Today is World Tourism Day. We join the world in raising awareness.",
+"also": [
+{
+"name": "Google's birthday",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM",
+"IT"
+],
+"show": true,
+"icon": [
+"luggage",
+"plane"
+],
+"anim": {
+"move": 4,
+"back": 8,
+"fx": 1,
+"pal": 1
+}
+},
+{
+"date": "2026-09-28",
+"name": "International Day for Universal Access to Information",
+"title": "International Day for Universal Access to Information",
+"full": "International Day for Universal Access to Information",
+"category": "IT & Technology",
+"region": "Global",
+"importance": "medium",
+"motif": "tech",
+"flags": [],
+"global": true,
+"message": "Celebrating International Day for Universal Access to Information with every builder, coder and maker.",
+"also": [
+{
+"name": "World Rabies Day",
+"flags": [],
+"motif": "globe"
+},
+{
+"name": "Bhagat Singh Jayanti",
+"flags": [],
+"motif": "lotus"
+}
+],
+"services": [
+"MR",
+"DM",
+"IT"
+],
+"show": true,
+"icon": [
+"info-circle",
+"book"
+],
+"anim": {
+"move": 5,
+"back": 5,
+"fx": 4,
+"pal": 6
+}
+},
+{
+"date": "2026-09-29",
+"name": "World Heart Day",
+"title": "World Heart Day",
+"full": "World Heart Day",
+"category": "Healthcare & Wellness",
+"region": "Global",
+"importance": "high",
+"motif": "ribbon",
+"flags": [],
+"global": true,
+"message": "World Heart Day: health matters. Our MyHealthOpinions community helps every voice be heard.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"heart",
+"heartbeat"
+],
+"anim": {
+"move": 6,
+"back": 2,
+"fx": 0,
+"pal": 3
+}
+},
+{
+"date": "2026-09-30",
+"name": "International Podcast Day",
+"title": "International Podcast Day",
+"full": "International Podcast Day",
+"category": "Digital Marketing & E-commerce",
+"region": "Global",
+"importance": "high",
+"motif": "sale",
+"flags": [],
+"global": true,
+"message": "International Podcast Day: the right moment to reach the right audience.",
+"also": [
+{
+"name": "Tax audit report deadline",
+"flags": [],
+"motif": "coins"
+},
+{
+"name": "International Translation Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"icon": [
+"microphone-2",
+"headphones"
+],
+"anim": {
+"move": 7,
+"back": 9,
+"fx": 4,
+"pal": 0
+}
+},
+{
+"date": "2026-10-01",
+"name": "Cybersecurity Awareness Month begins",
+"title": "Cybersecurity Awareness Month begins",
+"full": "Cybersecurity Awareness Month begins",
+"category": "IT & Technology",
+"region": "Global",
+"importance": "high",
+"motif": "tech",
+"flags": [],
+"global": true,
+"message": "Celebrating Cybersecurity Awareness Month begins with every builder, coder and maker.",
+"also": [
+{
+"name": "International Coffee Day",
+"flags": [],
+"motif": "globe"
+},
+{
+"name": "International Day of Older Persons",
+"flags": [],
+"motif": "hearts"
+},
+{
+"name": "Breast Cancer Awareness Month begins",
+"flags": [],
+"motif": "ribbon"
+}
+],
+"services": [
+"MR",
+"DM",
+"IT"
+],
+"show": true,
+"icon": [
+"shield-lock",
+"bug"
+],
+"anim": {
+"move": 8,
+"back": 6,
+"fx": 0,
+"pal": 6
+}
+},
+{
+"date": "2026-10-02",
+"name": "Gandhi Jayanti & Lal Bahadur Shastri Jayanti",
+"title": "Gandhi Jayanti & Lal Bahadur Shastri Jayanti",
+"full": "Gandhi Jayanti & Lal Bahadur Shastri Jayanti",
+"category": "National / Commemorative Day (India)",
+"region": "India",
+"importance": "major",
+"motif": "lotus",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour Gandhi Jayanti & Lal Bahadur Shastri Jayanti.",
+"also": [
+{
+"name": "International Day of Non-Violence",
+"flags": [],
+"motif": "dove"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"wheel",
+"feather"
+],
+"anim": {
+"move": 9,
+"back": 3,
+"fx": 3,
+"pal": 3
+}
+},
+{
+"date": "2026-10-03",
+"name": "German Unity Day",
+"title": "German Unity Day",
+"full": "German Unity Day",
+"category": "Global Festival / Holiday",
+"region": "Germany",
+"importance": "medium",
+"motif": "dove",
+"flags": [
+"DE"
+],
+"global": false,
+"message": "Happy German Unity Day! Warm wishes to our clients, panellists and partners around the world.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"scene": "german-unity-day"
+},
+{
+"date": "2026-10-04",
+"name": "World Animal Day / World Space Week begins",
+"title": "World Animal Day",
+"full": "World Animal Day / World Space Week begins (Oct 4–10)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "leaf",
+"flags": [],
+"global": true,
+"message": "Today is World Animal Day. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"dog",
+"paw"
+],
+"anim": {
+"move": 10,
+"back": 0,
+"fx": 6,
+"pal": 0
+}
+},
+{
+"date": "2026-10-05",
+"name": "World Teachers' Day (UNESCO)",
+"title": "World Teachers' Day",
+"full": "World Teachers' Day (UNESCO)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "high",
+"motif": "hearts",
+"flags": [],
+"global": true,
+"message": "Today is World Teachers' Day. We join the world in raising awareness.",
+"also": [
+{
+"name": "Customer Service Week begins",
+"flags": [],
+"motif": "survey"
+},
+{
+"name": "World Habitat Day",
+"flags": [],
+"motif": "globe"
+},
+{
+"name": "RBI MPC meeting begins",
+"flags": [],
+"motif": "coins"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"icon": [
+"pencil-star",
+"apple"
+],
+"anim": {
+"move": 11,
+"back": 7,
+"fx": 2,
+"pal": 5
+}
+},
+{
+"date": "2026-10-06",
+"name": "Customer Experience (CX) Day",
+"title": "Customer Experience (CX) Day",
+"full": "Customer Experience (CX) Day (1st Tue of Oct)",
+"category": "Market Research & Consumer Insights",
+"region": "Global",
+"importance": "high",
+"motif": "survey",
+"flags": [],
+"global": true,
+"message": "Customer Experience (CX) Day: every opinion counts, and we make sure it is heard.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"message-heart",
+"star"
+],
+"anim": {
+"move": 0,
+"back": 5,
+"fx": 5,
+"pal": 2
+}
+},
+{
+"date": "2026-10-07",
+"name": "RBI Monetary Policy decision",
+"title": "RBI Monetary Policy decision",
+"full": "RBI Monetary Policy decision",
+"category": "Finance, Banking & Tax",
+"region": "India",
+"importance": "high",
+"motif": "coins",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "RBI Monetary Policy decision: an important date for every business. Our Accounts & Finance team is here to help.",
+"also": [],
+"services": [
+"MR",
+"Finance"
+],
+"show": true,
+"icon": [
+"coins",
+"percentage"
+],
+"anim": {
+"move": 1,
+"back": 2,
+"fx": 1,
+"pal": 7
+}
+},
+{
+"date": "2026-10-08",
+"name": "Indian Air Force Day",
+"title": "Indian Air Force Day",
+"full": "Indian Air Force Day",
+"category": "National / Commemorative Day (India)",
+"region": "India",
+"importance": "high",
+"motif": "dove",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour Indian Air Force Day.",
+"also": [
+{
+"name": "World Sight Day",
+"flags": [],
+"motif": "ribbon"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"plane-tilt",
+"shield-star"
+],
+"anim": {
+"move": 2,
+"back": 9,
+"fx": 5,
+"pal": 4
+}
+},
+{
+"date": "2026-10-09",
+"name": "World Post Day (UPU)",
+"title": "World Post Day",
+"full": "World Post Day (UPU)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "book",
+"flags": [],
+"global": true,
+"message": "Today is World Post Day. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"email-stamp",
+"mail"
+],
+"anim": {
+"move": 3,
+"back": 6,
+"fx": 1,
+"pal": 1
+}
+},
+{
+"date": "2026-10-10",
+"name": "World Mental Health Day",
+"title": "World Mental Health Day",
+"full": "World Mental Health Day",
+"category": "Healthcare & Wellness",
+"region": "Global",
+"importance": "high",
+"motif": "ribbon",
+"flags": [],
+"global": true,
+"message": "World Mental Health Day: health matters. Our MyHealthOpinions community helps every voice be heard.",
+"also": [
+{
+"name": "Mahalaya Amavasya",
+"flags": [],
+"motif": "lotus"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"icon": [
+"mood-smile",
+"heart"
+],
+"anim": {
+"move": 4,
+"back": 3,
+"fx": 4,
+"pal": 7
+}
+},
+{
+"date": "2026-10-11",
+"name": "Sharad Navratri begins – Garba / Dandiya season",
+"title": "Sharad Navratri begins",
+"full": "Sharad Navratri begins (Oct 11–19) – Garba / Dandiya season",
+"category": "Festival (India)",
+"region": "Pan-India (Gujarat, West Bengal)",
+"importance": "major",
+"motif": "lotus",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Happy Sharad Navratri begins! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [
+{
+"name": "International Day of the Girl Child",
+"flags": [],
+"motif": "hearts"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "sharad-navratri"
+},
+{
+"date": "2026-10-12",
+"name": "Thanksgiving (Canada) / Indigenous Peoples' Day (USA)",
+"title": "Thanksgiving (Canada)",
+"full": "Thanksgiving (Canada) / Indigenous Peoples' Day (USA)",
+"category": "Global Festival / Holiday",
+"region": "Canada / USA",
+"importance": "medium",
+"motif": "fireworks",
+"flags": [
+"US",
+"CA"
+],
+"global": false,
+"message": "Happy Thanksgiving (Canada)! Warm wishes to our clients, panellists and partners around the world.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"scene": "thanksgiving-canada"
+},
+{
+"date": "2026-10-13",
+"name": "Ada Lovelace Day",
+"title": "Ada Lovelace Day",
+"full": "Ada Lovelace Day (2nd Tue of Oct – women in STEM)",
+"category": "IT & Technology",
+"region": "Global",
+"importance": "high",
+"motif": "tech",
+"flags": [],
+"global": true,
+"message": "Celebrating Ada Lovelace Day with every builder, coder and maker.",
+"also": [
+{
+"name": "International Day for Disaster Risk Reduction",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM",
+"IT"
+],
+"show": true,
+"icon": [
+"math-function",
+"code"
+],
+"anim": {
+"move": 5,
+"back": 0,
+"fx": 0,
+"pal": 4
+}
+},
+{
+"date": "2026-10-14",
+"name": "World Standards Day",
+"title": "World Standards Day",
+"full": "World Standards Day",
+"category": "IT & Technology",
+"region": "Global",
+"importance": "high",
+"motif": "tech",
+"flags": [],
+"global": true,
+"message": "Celebrating World Standards Day with every builder, coder and maker.",
+"also": [],
+"services": [
+"DM",
+"IT"
+],
+"show": true,
+"icon": [
+"ruler-measure",
+"certificate"
+],
+"anim": {
+"move": 6,
+"back": 7,
+"fx": 3,
+"pal": 1
+}
+},
+{
+"date": "2026-10-15",
+"name": "World Students' Day (Dr. A.P.J. Abdul Kalam Jayanti)",
+"title": "World Students' Day",
+"full": "World Students' Day (Dr. A.P.J. Abdul Kalam Jayanti)",
+"category": "National / Commemorative Day (India)",
+"region": "India",
+"importance": "high",
+"motif": "book",
+"flags": [
+"IN"
+],
+"global": true,
+"message": "Today we remember and honour World Students' Day.",
+"also": [
+{
+"name": "Get to Know Your Customers Day",
+"flags": [],
+"motif": "survey"
+},
+{
+"name": "Global Handwashing Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"backpack",
+"rocket"
+],
+"anim": {
+"move": 7,
+"back": 4,
+"fx": 6,
+"pal": 6
+}
+},
+{
+"date": "2026-10-16",
+"name": "World Food Day (FAO)",
+"title": "World Food Day",
+"full": "World Food Day (FAO)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "high",
+"motif": "leaf",
+"flags": [],
+"global": true,
+"message": "Today is World Food Day. We join the world in raising awareness.",
+"also": [
+{
+"name": "World Anaesthesia Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"bowl-chopsticks",
+"wheat"
+],
+"anim": {
+"move": 8,
+"back": 1,
+"fx": 2,
+"pal": 3
+}
+},
+{
+"date": "2026-10-17",
+"name": "Durga Puja – Maha Shashthi",
+"title": "Durga Puja",
+"full": "Durga Puja – Maha Shashthi",
+"category": "Festival (India)",
+"region": "West Bengal, Assam, Odisha, Tripura",
+"importance": "high",
+"motif": "lotus",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Happy Durga Puja! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [
+{
+"name": "International Day for the Eradication of Poverty",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "durga-puja"
+},
+{
+"date": "2026-10-18",
+"name": "Durga Puja – Maha Saptami",
+"title": "Durga Puja",
+"full": "Durga Puja – Maha Saptami",
+"category": "Festival (India)",
+"region": "West Bengal / East India",
+"importance": "high",
+"motif": "lotus",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Happy Durga Puja! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "durga-puja-dhak"
+},
+{
+"date": "2026-10-19",
+"name": "Durga Ashtami / Maha Navami (Durga Puja)",
+"title": "Durga Ashtami",
+"full": "Durga Ashtami / Maha Navami (Durga Puja)",
+"category": "Festival (India)",
+"region": "Pan-India",
+"importance": "major",
+"motif": "lotus",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Happy Durga Ashtami! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "durga-ashtami"
+},
+{
+"date": "2026-10-20",
+"name": "Dussehra / Vijayadashami",
+"title": "Dussehra",
+"full": "Dussehra / Vijayadashami",
+"category": "Festival (India)",
+"region": "Pan-India",
+"importance": "major",
+"motif": "lotus",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Happy Dussehra! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "dussehra"
+},
+{
+"date": "2026-10-21",
+"name": "Police Commemoration Day",
+"title": "Police Commemoration Day",
+"full": "Police Commemoration Day",
+"category": "National / Commemorative Day (India)",
+"region": "India",
+"importance": "medium",
+"motif": "dove",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour Police Commemoration Day.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"shield-heart",
+"star"
+],
+"anim": {
+"move": 0,
+"back": 1,
+"fx": 3,
+"pal": 0
+},
+"solemn": true
+},
+{
+"date": "2026-10-22",
+"name": "International Stuttering Awareness Day",
+"title": "International Stuttering Awareness Day",
+"full": "International Stuttering Awareness Day",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "hearts",
+"flags": [],
+"global": true,
+"message": "Today is International Stuttering Awareness Day. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"message-2",
+"heart"
+],
+"anim": {
+"move": 10,
+"back": 5,
+"fx": 2,
+"pal": 5
+}
+},
+{
+"date": "2026-10-24",
+"name": "United Nations Day",
+"title": "United Nations Day",
+"full": "United Nations Day",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "high",
+"motif": "globe",
+"flags": [],
+"global": true,
+"message": "Today is United Nations Day. We join the world in raising awareness.",
+"also": [
+{
+"name": "World Polio Day",
+"flags": [],
+"motif": "ribbon"
+},
+{
+"name": "World Development Information Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"flag-pin",
+"world"
+],
+"anim": {
+"move": 11,
+"back": 2,
+"fx": 5,
+"pal": 2
+}
+},
+{
+"date": "2026-10-25",
+"name": "Sharad Purnima / Kojagari Lakshmi Puja",
+"title": "Sharad Purnima",
+"full": "Sharad Purnima / Kojagari Lakshmi Puja",
+"category": "Festival (India)",
+"region": "Pan-India / West Bengal",
+"importance": "high",
+"motif": "lotus",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Happy Sharad Purnima! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "sharad-purnima"
+},
+{
+"date": "2026-10-26",
+"name": "Maharishi Valmiki Jayanti",
+"title": "Maharishi Valmiki Jayanti",
+"full": "Maharishi Valmiki Jayanti",
+"category": "Festival (India)",
+"region": "North India",
+"importance": "high",
+"motif": "lotus",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Happy Maharishi Valmiki Jayanti! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "valmiki-jayanti"
+},
+{
+"date": "2026-10-27",
+"name": "US Fed FOMC meeting begins",
+"title": "US Fed FOMC meeting begins",
+"full": "US Fed FOMC meeting begins (Oct 27–28)",
+"category": "Finance, Banking & Tax",
+"region": "USA / Global markets",
+"importance": "medium",
+"motif": "coins",
+"flags": [
+"US"
+],
+"global": true,
+"message": "US Fed FOMC meeting begins: an important date for every business. Our Accounts & Finance team is here to help.",
+"also": [],
+"services": [
+"MR",
+"Finance"
+],
+"show": true,
+"icon": [
+"calendar-stats",
+"chart-line"
+],
+"anim": {
+"move": 0,
+"back": 0,
+"fx": 1,
+"pal": 0
+}
+},
+{
+"date": "2026-10-28",
+"name": "US Fed FOMC rate decision",
+"title": "US Fed FOMC rate decision",
+"full": "US Fed FOMC rate decision",
+"category": "Finance, Banking & Tax",
+"region": "USA / Global markets",
+"importance": "high",
+"motif": "coins",
+"flags": [
+"US"
+],
+"global": true,
+"message": "US Fed FOMC rate decision: an important date for every business. Our Accounts & Finance team is here to help.",
+"also": [
+{
+"name": "International Animation Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"icon": [
+"arrows-up-down",
+"percentage"
+],
+"anim": {
+"move": 1,
+"back": 7,
+"fx": 4,
+"pal": 5
+}
+},
+{
+"date": "2026-10-29",
+"name": "Karwa Chauth",
+"title": "Karwa Chauth",
+"full": "Karwa Chauth",
+"category": "Festival (India)",
+"region": "North India",
+"importance": "major",
+"motif": "lotus",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Happy Karwa Chauth! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [
+{
+"name": "International Internet Day",
+"flags": [],
+"motif": "tech"
+}
+],
+"services": [
+"MR",
+"DM",
+"IT",
+"Finance"
+],
+"show": true,
+"scene": "karwa-chauth"
+},
+{
+"date": "2026-10-30",
+"name": "World Savings Day",
+"title": "World Savings Day",
+"full": "World Savings Day (India; globally Oct 31)",
+"category": "Finance, Banking & Tax",
+"region": "India / Global",
+"importance": "high",
+"motif": "coins",
+"flags": [
+"IN"
+],
+"global": true,
+"message": "World Savings Day: an important date for every business. Our Accounts & Finance team is here to help.",
+"also": [],
+"services": [
+"MR",
+"Finance"
+],
+"show": true,
+"icon": [
+"pig-money",
+"coins"
+],
+"anim": {
+"move": 2,
+"back": 4,
+"fx": 0,
+"pal": 2
+}
+},
+{
+"date": "2026-10-31",
+"name": "Halloween",
+"title": "Halloween",
+"full": "Halloween",
+"category": "Global Festival / Holiday",
+"region": "USA, UK, Global",
+"importance": "high",
+"motif": "halloween",
+"flags": [
+"US",
+"GB"
+],
+"global": true,
+"message": "Happy Halloween! Warm wishes to our clients, panellists and partners around the world.",
+"also": [
+{
+"name": "Rashtriya Ekta Diwas",
+"flags": [],
+"motif": "lotus"
+},
+{
+"name": "ITR deadline",
+"flags": [],
+"motif": "coins"
+},
+{
+"name": "World Cities Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "halloween"
+},
+{
+"date": "2026-11-01",
+"name": "Ahoi Ashtami",
+"title": "Ahoi Ashtami",
+"full": "Ahoi Ashtami",
+"category": "Festival (India)",
+"region": "North India",
+"importance": "high",
+"motif": "lotus",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Happy Ahoi Ashtami! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [
+{
+"name": "Formation Day",
+"flags": [],
+"motif": "dove"
+},
+{
+"name": "All Saints' Day",
+"flags": [],
+"motif": "leaf"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "ahoi-ashtami"
+},
+{
+"date": "2026-11-02",
+"name": "Día de los Muertos (Day of the Dead) / All Souls' Day",
+"title": "Día de los Muertos",
+"full": "Día de los Muertos (Day of the Dead) / All Souls' Day",
+"category": "Global Festival / Holiday",
+"region": "Mexico / Global",
+"importance": "medium",
+"motif": "lotus",
+"flags": [
+"MX"
+],
+"global": true,
+"message": "Happy Día de los Muertos! Warm wishes to our clients, panellists and partners around the world.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"scene": "dia-de-muertos"
+},
+{
+"date": "2026-11-05",
+"name": "World Tsunami Awareness Day (UN)",
+"title": "World Tsunami Awareness Day",
+"full": "World Tsunami Awareness Day (UN)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "waves",
+"flags": [],
+"global": true,
+"message": "Today is World Tsunami Awareness Day. We join the world in raising awareness.",
+"also": [
+{
+"name": "Guy Fawkes Night",
+"flags": [
+"GB"
+],
+"motif": "bonfire"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"scene": "tsunami-day"
+},
+{
+"date": "2026-11-06",
+"name": "Dhanteras (gold, auto & electronics buying peak)",
+"title": "Dhanteras",
+"full": "Dhanteras (gold, auto & electronics buying peak)",
+"category": "Festival (India)",
+"region": "Pan-India",
+"importance": "major",
+"motif": "diya",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Happy Dhanteras! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "dhanteras"
+},
+{
+"date": "2026-11-07",
+"name": "Naraka Chaturdashi / Choti Diwali",
+"title": "Naraka Chaturdashi",
+"full": "Naraka Chaturdashi / Choti Diwali",
+"category": "Festival (India)",
+"region": "Pan-India",
+"importance": "major",
+"motif": "diya",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Happy Naraka Chaturdashi! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "choti-diwali"
+},
+{
+"date": "2026-11-08",
+"name": "Diwali / Deepavali – Lakshmi Puja, Kali Puja & Muhurat Trading",
+"title": "Diwali",
+"full": "Diwali / Deepavali – Lakshmi Puja, Kali Puja & Muhurat Trading",
+"category": "Festival (India)",
+"region": "Pan-India / Global diaspora",
+"importance": "major",
+"motif": "diya",
+"flags": [
+"IN"
+],
+"global": true,
+"message": "Happy Diwali! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "diwali"
+},
+{
+"date": "2026-11-09",
+"name": "Diwali holiday (day after) / Uttarakhand Foundation Day",
+"title": "Diwali holiday",
+"full": "Diwali holiday (day after) / Uttarakhand Foundation Day",
+"category": "Festival (India)",
+"region": "India",
+"importance": "high",
+"motif": "diya",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Happy Diwali holiday! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [
+{
+"name": "National Legal Services Day",
+"flags": [],
+"motif": "tech"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "diwali-holiday"
+},
+{
+"date": "2026-11-10",
+"name": "Govardhan Puja / Annakut / Balipratipada / Gujarati New Year",
+"title": "Govardhan Puja",
+"full": "Govardhan Puja / Annakut / Balipratipada / Gujarati New Year",
+"category": "Festival (India)",
+"region": "North & West India",
+"importance": "major",
+"motif": "diya",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Happy Govardhan Puja! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [
+{
+"name": "World Science Day for Peace & Development",
+"flags": [],
+"motif": "tech"
+},
+{
+"name": "International Accounting Day",
+"flags": [],
+"motif": "coins"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "govardhan"
+},
+{
+"date": "2026-11-11",
+"name": "Bhai Dooj / Bhai Tika",
+"title": "Bhai Dooj",
+"full": "Bhai Dooj / Bhai Tika",
+"category": "Festival (India)",
+"region": "Pan-India / Nepal",
+"importance": "major",
+"motif": "diya",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Happy Bhai Dooj! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [
+{
+"name": "Singles' Day",
+"flags": [],
+"motif": "sale"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "bhai-dooj"
+},
+{
+"date": "2026-11-12",
+"name": "World Quality Day",
+"title": "World Quality Day",
+"full": "World Quality Day (2nd Thu of Nov)",
+"category": "Market Research & Consumer Insights",
+"region": "Global",
+"importance": "high",
+"motif": "ribbon",
+"flags": [],
+"global": true,
+"message": "World Quality Day: every opinion counts, and we make sure it is heard.",
+"also": [
+{
+"name": "World Pneumonia Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"rosette",
+"check"
+],
+"anim": {
+"move": 3,
+"back": 1,
+"fx": 3,
+"pal": 7
+}
+},
+{
+"date": "2026-11-13",
+"name": "World Kindness Day",
+"title": "World Kindness Day",
+"full": "World Kindness Day",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "high",
+"motif": "hearts",
+"flags": [],
+"global": true,
+"message": "Today is World Kindness Day. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"hand-love-you",
+"heart"
+],
+"anim": {
+"move": 4,
+"back": 8,
+"fx": 0,
+"pal": 4
+}
+},
+{
+"date": "2026-11-14",
+"name": "Children's Day (Pandit Nehru Jayanti)",
+"title": "Children's Day",
+"full": "Children's Day (Pandit Nehru Jayanti)",
+"category": "National / Commemorative Day (India)",
+"region": "India",
+"importance": "high",
+"motif": "hearts",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour Children's Day.",
+"also": [
+{
+"name": "World Diabetes Day",
+"flags": [],
+"motif": "ribbon"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"balloon",
+"star"
+],
+"anim": {
+"move": 5,
+"back": 5,
+"fx": 3,
+"pal": 1
+}
+},
+{
+"date": "2026-11-15",
+"name": "Chhath Puja",
+"title": "Chhath Puja",
+"full": "Chhath Puja",
+"category": "Festival (India)",
+"region": "Bihar, Jharkhand, East UP / diaspora",
+"importance": "major",
+"motif": "lotus",
+"flags": [
+"IN"
+],
+"global": true,
+"message": "Happy Chhath Puja! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "chhath-puja"
+},
+{
+"date": "2026-11-16",
+"name": "Global Entrepreneurship Week",
+"title": "Global Entrepreneurship Week",
+"full": "Global Entrepreneurship Week (Nov 16–22)",
+"category": "Finance, Banking & Tax",
+"region": "Global",
+"importance": "high",
+"motif": "coins",
+"flags": [],
+"global": true,
+"message": "Global Entrepreneurship Week: an important date for every business. Our Accounts & Finance team is here to help.",
+"also": [
+{
+"name": "National Press Day",
+"flags": [],
+"motif": "globe"
+},
+{
+"name": "International Day for Tolerance",
+"flags": [],
+"motif": "dove"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"icon": [
+"mood-spark",
+"briefcase"
+],
+"anim": {
+"move": 6,
+"back": 2,
+"fx": 6,
+"pal": 6
+}
+},
+{
+"date": "2026-11-17",
+"name": "International Students' Day",
+"title": "International Students' Day",
+"full": "International Students' Day",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "book",
+"flags": [],
+"global": true,
+"message": "Today is International Students' Day. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"school-bell",
+"users"
+],
+"anim": {
+"move": 7,
+"back": 9,
+"fx": 2,
+"pal": 3
+}
+},
+{
+"date": "2026-11-18",
+"name": "World Antimicrobial Awareness Week begins / World COPD Day",
+"title": "World Antimicrobial Awareness Week begins",
+"full": "World Antimicrobial Awareness Week begins / World COPD Day",
+"category": "Healthcare & Wellness",
+"region": "Global",
+"importance": "medium",
+"motif": "ribbon",
+"flags": [],
+"global": true,
+"message": "World Antimicrobial Awareness Week begins: health matters. Our MyHealthOpinions community helps every voice be heard.",
+"also": [
+{
+"name": "Naturopathy Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"pills",
+"virus"
+],
+"anim": {
+"move": 8,
+"back": 6,
+"fx": 5,
+"pal": 1
+}
+},
+{
+"date": "2026-11-19",
+"name": "International Men's Day",
+"title": "International Men's Day",
+"full": "International Men's Day",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "high",
+"motif": "hearts",
+"flags": [],
+"global": true,
+"message": "Today is International Men's Day. We join the world in raising awareness.",
+"also": [
+{
+"name": "World Toilet Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"man",
+"heart"
+],
+"anim": {
+"move": 9,
+"back": 3,
+"fx": 1,
+"pal": 6
+}
+},
+{
+"date": "2026-11-20",
+"name": "Universal Children's Day (UN)",
+"title": "Universal Children's Day",
+"full": "Universal Children's Day (UN)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "high",
+"motif": "hearts",
+"flags": [],
+"global": true,
+"message": "Today is Universal Children's Day. We join the world in raising awareness.",
+"also": [
+{
+"name": "Dev Uthani Ekadashi",
+"flags": [],
+"motif": "lotus"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"icon": [
+"horse-toy",
+"star"
+],
+"anim": {
+"move": 10,
+"back": 0,
+"fx": 4,
+"pal": 3
+}
+},
+{
+"date": "2026-11-21",
+"name": "World Television Day (UN)",
+"title": "World Television Day",
+"full": "World Television Day (UN)",
+"category": "Digital Marketing & E-commerce",
+"region": "Global",
+"importance": "high",
+"motif": "sale",
+"flags": [],
+"global": true,
+"message": "World Television Day: the right moment to reach the right audience.",
+"also": [
+{
+"name": "Tulsi Vivah",
+"flags": [],
+"motif": "globe"
+},
+{
+"name": "World Fisheries Day",
+"flags": [],
+"motif": "waves"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"icon": [
+"device-tv-old",
+"antenna"
+],
+"anim": {
+"move": 11,
+"back": 7,
+"fx": 1,
+"pal": 0
+}
+},
+{
+"date": "2026-11-23",
+"name": "Fibonacci Day",
+"title": "Fibonacci Day",
+"full": "Fibonacci Day (11/23)",
+"category": "IT & Technology",
+"region": "Global",
+"importance": "medium",
+"motif": "tech",
+"flags": [],
+"global": true,
+"message": "Celebrating Fibonacci Day with every builder, coder and maker.",
+"also": [],
+"services": [
+"DM",
+"IT"
+],
+"show": true,
+"icon": [
+"spiral",
+"number-1"
+],
+"anim": {
+"move": 0,
+"back": 5,
+"fx": 4,
+"pal": 5
+}
+},
+{
+"date": "2026-11-24",
+"name": "Guru Nanak Jayanti (Gurpurab) / Kartik Purnima / Dev Deepawali",
+"title": "Guru Nanak Jayanti",
+"full": "Guru Nanak Jayanti (Gurpurab) / Kartik Purnima / Dev Deepawali",
+"category": "Festival (India)",
+"region": "Pan-India",
+"importance": "major",
+"motif": "lotus",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Happy Guru Nanak Jayanti! Warm wishes to everyone celebrating, from all of us at Frequent Research.",
+"also": [],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "guru-nanak-jayanti"
+},
+{
+"date": "2026-11-25",
+"name": "Int'l Day for the Elimination of Violence against Women (UN)",
+"title": "Int'l Day for the Elimination of Violence against Women",
+"full": "Int'l Day for the Elimination of Violence against Women (UN)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "hearts",
+"flags": [],
+"global": true,
+"message": "Today is Int'l Day for the Elimination of Violence against Women. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"heart-off",
+"woman"
+],
+"anim": {
+"move": 0,
+"back": 1,
+"fx": 3,
+"pal": 2
+},
+"solemn": true
+},
+{
+"date": "2026-11-26",
+"name": "Constitution Day (Samvidhan Divas)",
+"title": "Constitution Day",
+"full": "Constitution Day (Samvidhan Divas)",
+"category": "National / Commemorative Day (India)",
+"region": "India",
+"importance": "high",
+"motif": "dove",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour Constitution Day.",
+"also": [
+{
+"name": "Thanksgiving (USA)",
+"flags": [
+"US"
+],
+"motif": "fireworks"
+},
+{
+"name": "National Milk Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"license",
+"scale"
+],
+"anim": {
+"move": 2,
+"back": 9,
+"fx": 3,
+"pal": 7
+}
+},
+{
+"date": "2026-11-27",
+"name": "Black Friday",
+"title": "Black Friday",
+"full": "Black Friday",
+"category": "Digital Marketing & E-commerce",
+"region": "USA / Global",
+"importance": "high",
+"motif": "sale",
+"flags": [
+"US"
+],
+"global": true,
+"message": "Black Friday: the right moment to reach the right audience.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"shopping-bag",
+"tag"
+],
+"anim": {
+"move": 3,
+"back": 6,
+"fx": 6,
+"pal": 4
+}
+},
+{
+"date": "2026-11-28",
+"name": "Small Business Saturday",
+"title": "Small Business Saturday",
+"full": "Small Business Saturday",
+"category": "Digital Marketing & E-commerce",
+"region": "USA / Global",
+"importance": "high",
+"motif": "sale",
+"flags": [
+"US"
+],
+"global": true,
+"message": "Small Business Saturday: the right moment to reach the right audience.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"shopping-bag-heart",
+"heart"
+],
+"anim": {
+"move": 4,
+"back": 3,
+"fx": 2,
+"pal": 2
+}
+},
+{
+"date": "2026-11-30",
+"name": "Cyber Monday",
+"title": "Cyber Monday",
+"full": "Cyber Monday",
+"category": "Digital Marketing & E-commerce",
+"region": "USA / Global",
+"importance": "high",
+"motif": "tech",
+"flags": [
+"US"
+],
+"global": true,
+"message": "Cyber Monday: the right moment to reach the right audience.",
+"also": [
+{
+"name": "Computer Security Day",
+"flags": [],
+"motif": "tech"
+}
+],
+"services": [
+"MR",
+"DM",
+"IT"
+],
+"show": true,
+"icon": [
+"shopping-cart",
+"device-laptop"
+],
+"anim": {
+"move": 5,
+"back": 0,
+"fx": 5,
+"pal": 7
+}
+},
+{
+"date": "2026-12-01",
+"name": "World AIDS Day",
+"title": "World AIDS Day",
+"full": "World AIDS Day",
+"category": "Healthcare & Wellness",
+"region": "Global",
+"importance": "high",
+"motif": "ribbon",
+"flags": [],
+"global": true,
+"message": "World AIDS Day: health matters. Our MyHealthOpinions community helps every voice be heard.",
+"also": [
+{
+"name": "Giving Tuesday",
+"flags": [],
+"motif": "globe"
+},
+{
+"name": "BSF Raising Day",
+"flags": [],
+"motif": "dove"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"heart-exclamation",
+"heart"
+],
+"anim": {
+"move": 10,
+"back": 1,
+"fx": 2,
+"pal": 4
+},
+"solemn": true
+},
+{
+"date": "2026-12-02",
+"name": "World Computer Literacy Day",
+"title": "World Computer Literacy Day",
+"full": "World Computer Literacy Day",
+"category": "IT & Technology",
+"region": "Global",
+"importance": "high",
+"motif": "tech",
+"flags": [],
+"global": true,
+"message": "Celebrating World Computer Literacy Day with every builder, coder and maker.",
+"also": [
+{
+"name": "National Pollution Control Day",
+"flags": [],
+"motif": "leaf"
+},
+{
+"name": "UAE National Day",
+"flags": [
+"AE"
+],
+"motif": "fireworks"
+},
+{
+"name": "RBI MPC meeting begins",
+"flags": [],
+"motif": "coins"
+}
+],
+"services": [
+"MR",
+"DM",
+"IT",
+"Finance"
+],
+"show": true,
+"icon": [
+"device-laptop",
+"book"
+],
+"anim": {
+"move": 7,
+"back": 4,
+"fx": 5,
+"pal": 1
+}
+},
+{
+"date": "2026-12-03",
+"name": "International Day of Persons with Disabilities (UN)",
+"title": "International Day of Persons with Disabilities",
+"full": "International Day of Persons with Disabilities (UN)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "high",
+"motif": "ribbon",
+"flags": [],
+"global": true,
+"message": "Today is International Day of Persons with Disabilities. We join the world in raising awareness.",
+"also": [
+{
+"name": "Feast of St. Francis Xavier",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"icon": [
+"wheelchair",
+"heart"
+],
+"anim": {
+"move": 8,
+"back": 1,
+"fx": 1,
+"pal": 6
+}
+},
+{
+"date": "2026-12-04",
+"name": "Indian Navy Day",
+"title": "Indian Navy Day",
+"full": "Indian Navy Day",
+"category": "National / Commemorative Day (India)",
+"region": "India",
+"importance": "high",
+"motif": "waves",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour Indian Navy Day.",
+"also": [
+{
+"name": "RBI Monetary Policy decision",
+"flags": [],
+"motif": "coins"
+},
+{
+"name": "Hanukkah begins",
+"flags": [
+"IL"
+],
+"motif": "xmas"
+},
+{
+"name": "Dec 4–12)",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"icon": [
+"ship",
+"anchor"
+],
+"anim": {
+"move": 9,
+"back": 8,
+"fx": 4,
+"pal": 3
+}
+},
+{
+"date": "2026-12-05",
+"name": "International Volunteer Day / World Soil Day",
+"title": "International Volunteer Day",
+"full": "International Volunteer Day / World Soil Day",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "leaf",
+"flags": [],
+"global": true,
+"message": "Today is International Volunteer Day. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"hand-two-fingers",
+"users"
+],
+"anim": {
+"move": 10,
+"back": 5,
+"fx": 0,
+"pal": 0
+}
+},
+{
+"date": "2026-12-06",
+"name": "Mahaparinirvan Diwas (Dr. Ambedkar)",
+"title": "Mahaparinirvan Diwas",
+"full": "Mahaparinirvan Diwas (Dr. Ambedkar)",
+"category": "National / Commemorative Day (India)",
+"region": "India",
+"importance": "high",
+"motif": "lotus",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour Mahaparinirvan Diwas.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"bookmark",
+"star"
+],
+"anim": {
+"move": 0,
+"back": 1,
+"fx": 3,
+"pal": 5
+},
+"solemn": true
+},
+{
+"date": "2026-12-07",
+"name": "Armed Forces Flag Day",
+"title": "Armed Forces Flag Day",
+"full": "Armed Forces Flag Day",
+"category": "National / Commemorative Day (India)",
+"region": "India",
+"importance": "high",
+"motif": "tech",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour Armed Forces Flag Day.",
+"also": [
+{
+"name": "Computer Science Education Week",
+"flags": [],
+"motif": "tech"
+},
+{
+"name": "International Civil Aviation Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM",
+"IT"
+],
+"show": true,
+"icon": [
+"heart-share",
+"flag"
+],
+"anim": {
+"move": 0,
+"back": 0,
+"fx": 6,
+"pal": 3
+}
+},
+{
+"date": "2026-12-08",
+"name": "US Fed FOMC meeting begins",
+"title": "US Fed FOMC meeting begins",
+"full": "US Fed FOMC meeting begins (Dec 8–9)",
+"category": "Finance, Banking & Tax",
+"region": "USA / Global markets",
+"importance": "medium",
+"motif": "coins",
+"flags": [
+"US"
+],
+"global": true,
+"message": "US Fed FOMC meeting begins: an important date for every business. Our Accounts & Finance team is here to help.",
+"also": [],
+"services": [
+"MR",
+"Finance"
+],
+"show": true,
+"icon": [
+"calendar-week",
+"building-bank"
+],
+"anim": {
+"move": 1,
+"back": 7,
+"fx": 3,
+"pal": 0
+}
+},
+{
+"date": "2026-12-09",
+"name": "US Fed FOMC rate decision + economic projections",
+"title": "US Fed FOMC rate decision",
+"full": "US Fed FOMC rate decision + economic projections",
+"category": "Finance, Banking & Tax",
+"region": "USA / Global markets",
+"importance": "high",
+"motif": "coins",
+"flags": [
+"US"
+],
+"global": true,
+"message": "US Fed FOMC rate decision: an important date for every business. Our Accounts & Finance team is here to help.",
+"also": [
+{
+"name": "International Anti-Corruption Day",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"icon": [
+"chart-arrows",
+"percentage"
+],
+"anim": {
+"move": 2,
+"back": 4,
+"fx": 6,
+"pal": 5
+}
+},
+{
+"date": "2026-12-10",
+"name": "Human Rights Day (UN)",
+"title": "Human Rights Day",
+"full": "Human Rights Day (UN)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "high",
+"motif": "dove",
+"flags": [],
+"global": true,
+"message": "Today is Human Rights Day. We join the world in raising awareness.",
+"also": [
+{
+"name": "Nobel Prize award ceremony",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"gavel",
+"hand-stop"
+],
+"anim": {
+"move": 3,
+"back": 1,
+"fx": 2,
+"pal": 2
+}
+},
+{
+"date": "2026-12-11",
+"name": "International Mountain Day / UNICEF Day",
+"title": "International Mountain Day",
+"full": "International Mountain Day / UNICEF Day",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "leaf",
+"flags": [],
+"global": true,
+"message": "Today is International Mountain Day. We join the world in raising awareness.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"mountain-off",
+"snowflake"
+],
+"anim": {
+"move": 4,
+"back": 8,
+"fx": 5,
+"pal": 7
+}
+},
+{
+"date": "2026-12-12",
+"name": "Universal Health Coverage Day",
+"title": "Universal Health Coverage Day",
+"full": "Universal Health Coverage Day",
+"category": "Healthcare & Wellness",
+"region": "Global",
+"importance": "high",
+"motif": "ribbon",
+"flags": [],
+"global": true,
+"message": "Universal Health Coverage Day: health matters. Our MyHealthOpinions community helps every voice be heard.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"heart-rate-monitor",
+"users"
+],
+"anim": {
+"move": 5,
+"back": 5,
+"fx": 1,
+"pal": 4
+}
+},
+{
+"date": "2026-12-14",
+"name": "National Energy Conservation Day",
+"title": "National Energy Conservation Day",
+"full": "National Energy Conservation Day",
+"category": "National / Commemorative Day (India)",
+"region": "India",
+"importance": "medium",
+"motif": "leaf",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour National Energy Conservation Day.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"bolt",
+"bulb"
+],
+"anim": {
+"move": 6,
+"back": 2,
+"fx": 4,
+"pal": 1
+}
+},
+{
+"date": "2026-12-16",
+"name": "Vijay Diwas",
+"title": "Vijay Diwas",
+"full": "Vijay Diwas (1971 victory)",
+"category": "National / Commemorative Day (India)",
+"region": "India",
+"importance": "high",
+"motif": "dove",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour Vijay Diwas.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"medal",
+"flag"
+],
+"anim": {
+"move": 7,
+"back": 9,
+"fx": 0,
+"pal": 6
+}
+},
+{
+"date": "2026-12-18",
+"name": "Minorities Rights Day",
+"title": "Minorities Rights Day",
+"full": "Minorities Rights Day",
+"category": "National / Commemorative Day (India)",
+"region": "India",
+"importance": "medium",
+"motif": "dove",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour Minorities Rights Day.",
+"also": [
+{
+"name": "International Migrants Day",
+"flags": [],
+"motif": "book"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"user-shield",
+"scale"
+],
+"anim": {
+"move": 8,
+"back": 6,
+"fx": 4,
+"pal": 4
+}
+},
+{
+"date": "2026-12-19",
+"name": "Goa Liberation Day",
+"title": "Goa Liberation Day",
+"full": "Goa Liberation Day",
+"category": "National / Commemorative Day (India)",
+"region": "Goa",
+"importance": "medium",
+"motif": "dove",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour Goa Liberation Day.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"flag-3",
+"sun"
+],
+"anim": {
+"move": 9,
+"back": 3,
+"fx": 0,
+"pal": 1
+}
+},
+{
+"date": "2026-12-20",
+"name": "International Human Solidarity Day",
+"title": "International Human Solidarity Day",
+"full": "International Human Solidarity Day",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "medium",
+"motif": "hearts",
+"flags": [],
+"global": true,
+"message": "Today is International Human Solidarity Day. We join the world in raising awareness.",
+"also": [
+{
+"name": "Gita Jayanti",
+"flags": [],
+"motif": "lotus"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"icon": [
+"circles-relation",
+"heart-handshake"
+],
+"anim": {
+"move": 10,
+"back": 0,
+"fx": 3,
+"pal": 6
+}
+},
+{
+"date": "2026-12-21",
+"name": "World Meditation Day (UN)",
+"title": "World Meditation Day",
+"full": "World Meditation Day (UN)",
+"category": "Global Observance (UN / International)",
+"region": "Global",
+"importance": "high",
+"motif": "lotus",
+"flags": [],
+"global": true,
+"message": "Today is World Meditation Day. We join the world in raising awareness.",
+"also": [
+{
+"name": "December Solstice",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"brightness-half",
+"moon"
+],
+"anim": {
+"move": 11,
+"back": 7,
+"fx": 6,
+"pal": 3
+}
+},
+{
+"date": "2026-12-22",
+"name": "National Mathematics Day (Ramanujan Jayanti)",
+"title": "National Mathematics Day",
+"full": "National Mathematics Day (Ramanujan Jayanti)",
+"category": "National / Commemorative Day (India)",
+"region": "India",
+"importance": "high",
+"motif": "book",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour National Mathematics Day.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"math-symbols",
+"infinity"
+],
+"anim": {
+"move": 0,
+"back": 5,
+"fx": 2,
+"pal": 0
+}
+},
+{
+"date": "2026-12-23",
+"name": "Kisan Diwas (National Farmers' Day)",
+"title": "Kisan Diwas",
+"full": "Kisan Diwas (National Farmers' Day)",
+"category": "National / Commemorative Day (India)",
+"region": "India",
+"importance": "high",
+"motif": "dove",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "Today we remember and honour Kisan Diwas.",
+"also": [],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"tractor",
+"wheat"
+],
+"anim": {
+"move": 1,
+"back": 2,
+"fx": 5,
+"pal": 5
+}
+},
+{
+"date": "2026-12-24",
+"name": "National Consumer Day",
+"title": "National Consumer Day",
+"full": "National Consumer Day",
+"category": "Market Research & Consumer Insights",
+"region": "India",
+"importance": "high",
+"motif": "survey",
+"flags": [
+"IN"
+],
+"global": false,
+"message": "National Consumer Day: every opinion counts, and we make sure it is heard.",
+"also": [
+{
+"name": "Christmas Eve",
+"flags": [],
+"motif": "xmas"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"icon": [
+"basket",
+"scale"
+],
+"anim": {
+"move": 2,
+"back": 9,
+"fx": 1,
+"pal": 2
+}
+},
+{
+"date": "2026-12-25",
+"name": "Christmas",
+"title": "Christmas",
+"full": "Christmas",
+"category": "Festival (India)",
+"region": "India / Global",
+"importance": "major",
+"motif": "xmas",
+"flags": [],
+"global": true,
+"message": "Merry Christmas! Warm wishes to our clients, panellists and partners around the world.",
+"also": [],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "christmas"
+},
+{
+"date": "2026-12-26",
+"name": "Boxing Day / Kwanzaa begins",
+"title": "Boxing Day",
+"full": "Boxing Day / Kwanzaa begins",
+"category": "Global Festival / Holiday",
+"region": "UK, Commonwealth / USA",
+"importance": "high",
+"motif": "sale",
+"flags": [
+"US",
+"GB"
+],
+"global": false,
+"message": "Happy Boxing Day! Warm wishes to our clients, panellists and partners around the world.",
+"also": [
+{
+"name": "Veer Bal Diwas",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM"
+],
+"show": true,
+"scene": "boxing-day"
+},
+{
+"date": "2026-12-31",
+"name": "New Year's Eve",
+"title": "New Year's Eve",
+"full": "New Year's Eve",
+"category": "Global Festival / Holiday",
+"region": "Global",
+"importance": "high",
+"motif": "fireworks",
+"flags": [],
+"global": true,
+"message": "Happy New Year's Eve! Warm wishes to our clients, panellists and partners around the world.",
+"also": [
+{
+"name": "Belated",
+"flags": [],
+"motif": "coins"
+},
+{
+"name": "Calendar-year end",
+"flags": [],
+"motif": "globe"
+}
+],
+"services": [
+"MR",
+"DM",
+"Finance"
+],
+"show": true,
+"scene": "new-years-eve"
+}
+]
+}

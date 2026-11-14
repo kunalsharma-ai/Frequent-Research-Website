@@ -1,0 +1,2 @@
+/* Build 67: on / off switches the super admin sets under Site settings (src/app/cms.jsx, cmsSwitches) */
+html.cms-no-wa .fw,html.cms-no-chat .fc-launch,html.cms-no-chat .fc-panel,html.cms-no-rv .rv-fab,html.cms-no-vd .vd21-fab,html.cms-no-cel .cb22{display:none!important}

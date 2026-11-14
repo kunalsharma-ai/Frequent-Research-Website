@@ -1,0 +1,54 @@
+1	Zorluk
+2	Yetkinlikler
+3	listelenen faaliyet
+4	Yetkinlik
+5	faaliyet
+6	Faaliyetler
+7	Hizmet kataloğumuzdaki faaliyetler
+8	Önceki yetkinlik
+9	Sonraki yetkinlik
+10	Aşama
+11	← Önceki aşama
+12	Sonraki aşama →
+13	Aylık
+14	bordro döngüsü
+15	+ geçerli GST
+16	dahil öğe
+17	Özete dön
+18	Önerilen
+19	Tüm özellikleri karşılaştır
+20	Bir planı öne çıkar
+21	Terimler:
+22	Etkileşimli araç
+23	İhtiyaçlarınızı konuşalım
+24	Uygunluk
+25	Teklifi göster
+26	Tümünü aç
+27	yanıt
+28	Sorularda ara
+29	Özel teklif iste
+30	Özel teklif · iş başlamadan önce yazılı
+31	Taahhütten önce ne olur?
+32	Planları gör
+33	Ücretsiz # dakikalık danışmanlık ayırtın
+34	Çevir
+35	QR kodu göster
+36	Kimler için
+37	Git
+38	Ticari teklifler
+39	Kimleri destekliyoruz
+40	Kapsam
+41	İlgili hizmetler
+42	Bu ihtiyacı konuşalım
+43	Hizmetinize dahil faaliyetler seçilen plana ve yazılı kapsama bağlıdır.
+44	Özellik
+45	Fiyat
+46	Beyanname başına fiyat
+47	Ürünümüz
+48	İndir
+49	Yayımlanan hizmet paketlerimizden plan karşılaştırması. Listelenmeyenler hizmet kapsamınızda teyit edilir.
+50	En popüler
+51	Tümünü gör
+52	Başlangıç
+53	Seç
+54	# adımlı süreç

@@ -1,0 +1,101 @@
+/* Build 65 update 15 — Kunal: keep the effects, light pearl colour that stands apart from the navy site. (Update 14 began as a "night sky" bar.) Kunal, 1 November 2026: a completely new, premium header with the
+   animated logo floating free (no box). Deep navy sky in both themes, drifting aurora light (transform-only loops),
+   a faint star field, a travelling light along the bottom edge, glass controls and a glowing active capsule.
+   Loaded last so it wins over the older header layers (floaters.css, design58.css, perf.css, dark65.css). */
+
+html body .header.hd14{--header-h:80px;position:sticky;background:#FFFFFF!important;background-image:linear-gradient(100deg,#FFFFFF 0%,#F6F8FF 38%,#FFF9F2 70%,#F5FCFB 100%)!important;color:#0B1437;border:0!important;box-shadow:0 1px 0 rgba(11,20,55,.06),0 18px 40px -28px rgba(11,20,55,.45)!important;-webkit-backdrop-filter:none!important;backdrop-filter:none!important;isolation:isolate}
+@media (min-width:1101px){html body .header.hd14.is-scrolled{--header-h:68px}}
+html body .header.hd14.is-scrolled{box-shadow:0 1px 0 rgba(11,20,55,.07),0 16px 36px -20px rgba(11,20,55,.4)!important}
+html body .header.hd14.has-menu{background:#FFFFFF!important;background-image:linear-gradient(100deg,#FFFFFF 0%,#F6F8FF 38%,#FFF9F2 70%,#F5FCFB 100%)!important}
+.hd14 .header__bar{position:relative;z-index:2;height:var(--header-h);transition:height .35s cubic-bezier(.2,.8,.2,1)}
+/* scroll progress line: calm brand colours only */
+html body .header.hd14::before{height:2px;background:linear-gradient(90deg,#2F6BFF,#6D4AFF 55%,#9FE7DC)!important;z-index:3}
+
+/* ---- the sky ---- */
+.hd14-sky{position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none}
+.hd14-aur{position:absolute;top:-120%;width:46%;height:340%;border-radius:50%;opacity:.75;will-change:transform}
+.hd14-aur--a{left:-8%;background:radial-gradient(closest-side,rgba(47,107,255,.16),rgba(47,107,255,0));animation:hd14DriftA 22s ease-in-out infinite}
+.hd14-aur--b{left:34%;background:radial-gradient(closest-side,rgba(109,74,255,.14),rgba(109,74,255,0));animation:hd14DriftB 28s ease-in-out infinite}
+.hd14-aur--c{left:70%;width:38%;background:radial-gradient(closest-side,rgba(255,194,122,.3),rgba(255,194,122,0));animation:hd14DriftA 25s ease-in-out -9s infinite reverse}
+@keyframes hd14DriftA{0%,100%{transform:translate3d(0,0,0) scale(1)}50%{transform:translate3d(14%,6%,0) scale(1.12)}}
+@keyframes hd14DriftB{0%,100%{transform:translate3d(0,4%,0) scale(1.05)}50%{transform:translate3d(-16%,-4%,0) scale(.92)}}
+.hd14-stars{position:absolute;inset:0;background-image:radial-gradient(rgba(47,107,255,.35) .6px,transparent 1.1px),radial-gradient(rgba(109,74,255,.3) .5px,transparent 1px);background-size:46px 46px,73px 73px;background-position:0 0,23px 17px;-webkit-mask:linear-gradient(90deg,transparent,#000 22%,#000 78%,transparent);mask:linear-gradient(90deg,transparent,#000 22%,#000 78%,transparent);opacity:.5}
+.hd14-edge{position:absolute;left:0;right:0;bottom:0;height:2px;background:linear-gradient(90deg,transparent,rgba(47,107,255,.18) 20%,rgba(109,74,255,.18) 80%,transparent);overflow:hidden}
+.hd14-edge b{position:absolute;top:0;left:0;width:22%;height:100%;background:linear-gradient(90deg,transparent,#0E9C88,#2F6BFF,#6D4AFF,transparent);animation:hd14Edge 7s cubic-bezier(.45,0,.2,1) infinite}
+@keyframes hd14Edge{0%{transform:translateX(-110%)}60%,100%{transform:translateX(560%)}}
+
+/* ---- the logo: floats free in its light pool, slightly larger than the old plate ---- */
+.hd14 .header__logo{position:relative;z-index:3;margin-left:-6px}
+.hd14 .header__logo .frl-headfull{--h:58px}
+.hd14.is-scrolled .header__logo .frl-headfull{--h:50px!important}
+.hd14 .header__logo .frl-free__aura{inset:-46% -12%}
+.hd14 .header__logo:focus-visible{outline:2px solid #2F6BFF;outline-offset:4px;border-radius:14px}
+
+/* ---- navigation ---- */
+html body .hd14 .nav__link,html body .hd14 .nav__item>a,html body .hd14 .nav__item>button{position:relative;color:#1B2559!important;background:transparent!important;box-shadow:none!important;border-radius:999px;font-weight:600;letter-spacing:.005em;transition:color .25s,background-color .25s}
+html body .hd14 .nav__link .caret{border-color:currentColor!important;color:currentColor;opacity:.7}
+html body .hd14 .nav__link::after{display:block!important;content:"";position:absolute;left:50%;bottom:4px;width:4px;height:4px;margin-left:-2px;border-radius:50%;background:#2F6BFF!important;opacity:0;transform:translateY(4px) scale(.4);transition:opacity .25s,transform .35s cubic-bezier(.2,.8,.2,1)}
+html body .hd14 .nav__link:hover:not(.active),html body .hd14 .nav__item.is-open .nav__link:not(.active){color:#2F6BFF!important;background:rgba(47,107,255,.07)!important;box-shadow:inset 0 0 0 1px rgba(47,107,255,.16)!important}
+html body .hd14 .nav__link:hover::after,html body .hd14 .nav__item.is-open .nav__link::after{opacity:1;transform:none}
+/* active page: a glowing glass capsule */
+html body .hd14 .nav__link.active,html body .hd14 .nav__link--hl.active{color:#fff!important;background:linear-gradient(135deg,#2F6BFF,#6D4AFF)!important;background-size:100% 100%!important;box-shadow:inset 0 0 0 1px rgba(255,255,255,.3),0 10px 24px -10px rgba(47,107,255,.75)!important;animation:none!important}
+html body .hd14 .nav__link.active::after{opacity:1;transform:none;background:#fff!important;bottom:3px}
+/* Government Research: a warm accent instead of an outlined pill */
+html body .header.hd14 .nav .nav__link--hl:not(.active){color:#A86A10!important;box-shadow:inset 0 0 0 1px rgba(217,154,43,.45)!important;background:rgba(255,194,122,.12)!important}
+html body .header.hd14 .nav .nav__link--hl:not(.active):hover{background:rgba(255,194,122,.24)!important;color:#8A560B!important}
+html body .hd14 .sr-btn{color:#1B2559!important}
+html body .hd14 .sr-btn svg{stroke:currentColor}
+html body .hd14 .nav__link:focus-visible{outline:2px solid #2F6BFF!important;outline-offset:2px}
+
+/* ---- actions: glass controls and a lit call to action ---- */
+html body .hd14 .frt-btn,html body .hd14 .fri-btn--header{background:rgba(255,255,255,.75)!important;border:1px solid rgba(47,107,255,.18)!important;color:#1B2559!important;box-shadow:0 6px 16px -10px rgba(11,20,55,.35)!important}
+html body .hd14 .frt-btn:hover,html body .hd14 .fri-btn--header:hover{background:#fff!important;border-color:rgba(47,107,255,.45)!important}
+html body .hd14 .fri-btn__t{color:#1B2559!important}
+html body .hd14 .header__actions .btn--primary{background:linear-gradient(115deg,#2F6BFF,#6D4AFF)!important;color:#fff!important;border:0!important;box-shadow:0 0 0 1px rgba(255,255,255,.22) inset,0 12px 30px -10px rgba(109,74,255,.95)!important}
+html body .hd14 .header__actions .btn--primary:hover{box-shadow:0 0 0 1px rgba(255,255,255,.4) inset,0 16px 36px -10px rgba(47,107,255,1)!important}
+html body .hd14 .burger{color:#1B2559}
+html body .hd14 .burger span{background:#1B2559!important}
+html body .hd14 .burger{background:rgba(255,255,255,.8)!important;border:1px solid rgba(47,107,255,.2)!important}
+
+/* phones and tablets */
+@media (max-width:1100px){html body .header.hd14{--header-h:70px}html body .hd14~.drawer{top:calc(70px + env(safe-area-inset-top,0px));height:calc(100% - 70px - env(safe-area-inset-top,0px))}.hd14 .header__logo .frl-headfull{--h:48px!important}}
+@media (max-width:640px){html body .header.hd14{--header-h:64px}html body .hd14~.drawer{top:calc(64px + env(safe-area-inset-top,0px));height:calc(100% - 64px - env(safe-area-inset-top,0px))}.hd14 .header__logo .frl-headfull{--h:42px!important}.hd14 .header__logo .frl-free__orbit,.hd14 .header__logo .frl-free__dust{display:none}}
+@media (prefers-reduced-motion:reduce){.hd14-aur,.hd14-edge b{animation:none}}
+
+
+
+/* ---- mobile drawer: the same night sky, light type ---- */
+html body .hd14~.drawer{background:linear-gradient(180deg,#FFFFFF 0%,#F6F8FF 55%,#FFF9F2 100%)!important;color:#0B1437}
+html body .hd14~.drawer .drawer__link{color:#0B1437!important;border-bottom-color:rgba(11,20,55,.08)!important;font-weight:600}
+html body .hd14~.drawer .drawer__link.active,html body .hd14~.drawer .drawer__link[aria-current]{color:#2F6BFF!important}
+html body .hd14~.drawer .drawer__link svg,html body .hd14~.drawer .caret{color:#2F6BFF;border-color:#2F6BFF!important}
+html body .hd14~.drawer .drawer__sub>a,html body .hd14~.drawer .drawer__sub details a{color:#3B4675!important}
+html body .hd14~.drawer .drawer__sub summary{color:#0B1437!important}
+html body .hd14~.drawer .drawer__link:active,html body .hd14~.drawer .drawer__sub a:active{background:rgba(47,107,255,.06)!important}
+html body .hd14~.drawer .drawer__portal{gap:14px;padding:10px 4px!important}
+html body .hd14~.drawer .drawer__portal>span:last-child{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* ---- update 16 (Kunal): dark theme turns the whole header and drawer dark (the night sky) ---- */
+html[data-theme="dark"] body .header.hd14,html[data-theme="dark"] body .header.hd14.has-menu{background:#0B1437!important;background-image:linear-gradient(100deg,#050a24 0%,#0B1437 36%,#121c5c 66%,#0B1437 100%)!important;color:#E8EEFF;box-shadow:0 1px 0 rgba(159,192,255,.12),0 18px 40px -24px rgba(0,0,0,.8)!important}
+html[data-theme="dark"] .hd14-aur--a{background:radial-gradient(closest-side,rgba(47,107,255,.55),rgba(47,107,255,0))}
+html[data-theme="dark"] .hd14-aur--b{background:radial-gradient(closest-side,rgba(109,74,255,.45),rgba(109,74,255,0))}
+html[data-theme="dark"] .hd14-aur--c{background:radial-gradient(closest-side,rgba(14,156,136,.32),rgba(14,156,136,0))}
+html[data-theme="dark"] .hd14-stars{background-image:radial-gradient(rgba(255,255,255,.55) .6px,transparent 1.1px),radial-gradient(rgba(159,231,220,.45) .5px,transparent 1px)}
+html[data-theme="dark"] .hd14-edge{background:linear-gradient(90deg,transparent,rgba(159,192,255,.35) 20%,rgba(159,192,255,.35) 80%,transparent)}
+html[data-theme="dark"] .hd14-edge b{background:linear-gradient(90deg,transparent,#9FE7DC,#fff,#9FC0FF,transparent)}
+html[data-theme="dark"] body .hd14 .nav__link,html[data-theme="dark"] body .hd14 .nav__item>a,html[data-theme="dark"] body .hd14 .nav__item>button,html[data-theme="dark"] body .hd14 .sr-btn{color:rgba(232,238,255,.86)!important}
+html[data-theme="dark"] body .hd14 .nav__link:hover:not(.active),html[data-theme="dark"] body .hd14 .nav__item.is-open .nav__link:not(.active){color:#fff!important;background:rgba(255,255,255,.08)!important;box-shadow:inset 0 0 0 1px rgba(255,255,255,.14)!important}
+html[data-theme="dark"] body .hd14 .nav__link::after{background:#9FE7DC!important}
+html[data-theme="dark"] body .header.hd14 .nav .nav__link--hl:not(.active){color:#FFC27A!important;background:rgba(255,194,122,.08)!important;box-shadow:inset 0 0 0 1px rgba(255,194,122,.4)!important}
+html[data-theme="dark"] body .header.hd14 .nav .nav__link--hl:not(.active):hover{color:#FFD7A6!important;background:rgba(255,194,122,.16)!important}
+html[data-theme="dark"] body .hd14 .frt-btn,html[data-theme="dark"] body .hd14 .fri-btn--header,html[data-theme="dark"] body .hd14 .burger{background:rgba(255,255,255,.07)!important;border:1px solid rgba(255,255,255,.18)!important;color:#fff!important;box-shadow:none!important}
+html[data-theme="dark"] body .hd14 .frt-btn:hover,html[data-theme="dark"] body .hd14 .fri-btn--header:hover{background:rgba(255,255,255,.14)!important;border-color:rgba(255,255,255,.32)!important}
+html[data-theme="dark"] body .hd14 .fri-btn__t{color:#fff!important}
+html[data-theme="dark"] body .hd14 .burger span{background:#fff!important}
+html[data-theme="dark"] body .hd14~.drawer{background:linear-gradient(180deg,#0B1437 0%,#101a55 100%)!important;color:#E8EEFF}
+html[data-theme="dark"] body .hd14~.drawer .drawer__link,html[data-theme="dark"] body .hd14~.drawer .drawer__sub summary{color:#E8EEFF!important;border-bottom-color:rgba(255,255,255,.1)!important}
+html[data-theme="dark"] body .hd14~.drawer .drawer__link.active,html[data-theme="dark"] body .hd14~.drawer .drawer__link[aria-current]{color:#9FE7DC!important}
+html[data-theme="dark"] body .hd14~.drawer .drawer__link svg,html[data-theme="dark"] body .hd14~.drawer .caret{color:#9FC0FF;border-color:#9FC0FF!important}
+html[data-theme="dark"] body .hd14~.drawer .drawer__sub>a,html[data-theme="dark"] body .hd14~.drawer .drawer__sub details a{color:rgba(232,238,255,.78)!important}
+html[data-theme="dark"] body .hd14~.drawer .drawer__link:active,html[data-theme="dark"] body .hd14~.drawer .drawer__sub a:active{background:rgba(255,255,255,.06)!important}
+html[data-theme="dark"] .hd14 .header__logo:focus-visible{outline-color:#9FE7DC}

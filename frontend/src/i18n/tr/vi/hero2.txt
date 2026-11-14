@@ -1,0 +1,57 @@
+1	Lắng nghe mọi tiếng nói quan trọng.
+2	Từ một câu hỏi đến một quyết định chắc chắn.
+3	Khảo sát, panel và insight tại #+ thị trường
+4	Tham gia panel của chúng tôi — ý kiến của bạn được trả công
+5	Được tìm thấy. Được yêu thích. Được lựa chọn.
+6	Chiến dịch biến người lướt thành khách hàng.
+7	SEO, quảng cáo, mạng xã hội và performance marketing
+8	Nội dung khiến khách hàng thực sự dừng lại
+9	Ý tưởng vào. Phần mềm ra.
+10	Website, ứng dụng và nền tảng được thiết kế để mở rộng.
+11	Phát triển web, di động, SaaS, đám mây và AI
+12	Trải nghiệm người dùng yêu thích mỗi ngày
+13	Những con số luôn khớp.
+14	Sổ sách rõ ràng, tuân thủ đúng hạn, quyết định minh bạch.
+15	Kế toán, GST, tính lương, thuế và CFO ảo
+16	An tâm cho nhà sáng lập và đội ngũ
+17	Dành cho doanh nghiệp
+18	Dành cho người tiêu dùng và chuyên gia
+19	Dành cho khán giả của bạn
+20	+# dịch vụ khác
+21	Khám phá Nghiên cứu thị trường
+22	Khám phá Tiếp thị số
+23	Khám phá CNTT & Phát triển
+24	Khám phá Kế toán & Tài chính
+25	Đọc bằng ngôn ngữ của bạn
+26	
+27	Tiếp thị
+28	
+29	Người mua sắm
+30	
+31	Sinh viên
+32	Phụ huynh
+33	Kỹ sư
+34	
+35	Insight sẵn sàng
+36	Quyết định
+37	Định lượng
+38	Định tính
+39	Panel
+40	Lead mới
+41	Đã chia sẻ bài
+42	Thanh toán
+43	Mua ngay
+44	Đám mây
+45	Giao diện
+46	Build
+47	Kiểm thử
+48	Trực tuyến
+49	Sổ cái
+50	Kế toán
+51	Tính lương
+52	
+53	Đã đối chiếu ✓
+54	Tạm dừng trình chiếu
+55	Phát trình chiếu
+56	Chọn dịch vụ
+57	Dịch vụ của chúng tôi

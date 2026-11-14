@@ -1,0 +1,54 @@
+1	O desafio
+2	Capacidades
+3	atividades listadas
+4	Capacidade
+5	atividades
+6	Atividades
+7	Atividades do nosso catálogo de serviços
+8	Capacidade anterior
+9	Próxima capacidade
+10	Etapa
+11	← Etapa anterior
+12	Próxima etapa →
+13	Mensal
+14	ciclo da folha
+15	+ GST aplicável
+16	inclusões
+17	Voltar ao resumo
+18	Sugerido
+19	Comparar todos os recursos
+20	Destacar um plano
+21	Termos:
+22	Ferramenta interativa
+23	Conversar sobre suas necessidades
+24	Elegibilidade
+25	Ver a oferta
+26	Abrir tudo
+27	respostas
+28	Pesquisar nas perguntas
+29	Solicitar orçamento personalizado
+30	Orçamento personalizado · por escrito antes do início
+31	O que acontece antes de você se comprometer?
+32	Ver planos
+33	Agendar uma consulta gratuita de # minutos
+34	Virar
+35	Mostrar QR code
+36	Para quem é
+37	Ir
+38	Ofertas comerciais
+39	Quem apoiamos
+40	Escopo
+41	Serviços relacionados
+42	Conversar sobre esta necessidade
+43	As atividades incluídas no seu contrato dependem do plano escolhido e do escopo por escrito.
+44	Recurso
+45	Preço
+46	Preço por declaração
+47	Nosso produto
+48	Baixar
+49	Comparação dos nossos pacotes de serviços publicados. O que não estiver listado é confirmado no escopo do contrato.
+50	Mais popular
+51	Ver tudo
+52	A partir de
+53	Escolher
+54	Processo em # etapas

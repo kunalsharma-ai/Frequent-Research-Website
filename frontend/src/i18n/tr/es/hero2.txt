@@ -1,0 +1,57 @@
+1	Escuche cada voz que importa.
+2	De una pregunta a una decisión segura.
+3	Encuestas, paneles e insights en #+ mercados
+4	Únase a nuestros paneles: su opinión vale
+5	Que lo encuentren. Que lo quieran. Que lo elijan.
+6	Campañas que convierten a quien hace scroll en cliente.
+7	SEO, anuncios, redes sociales y marketing de resultados
+8	Contenido que hace que sus clientes se detengan
+9	Entran ideas. Sale software.
+10	Webs, apps y plataformas diseñadas para crecer.
+11	Desarrollo web, móvil, SaaS, nube e IA
+12	Experiencias que sus usuarios disfrutan cada día
+13	Números que cuadran. Siempre.
+14	Libros limpios, cumplimiento a tiempo, decisiones claras.
+15	Contabilidad, GST, nóminas, impuestos y CFO virtual
+16	Tranquilidad para fundadores y sus equipos
+17	Para empresas
+18	Para consumidores y profesionales
+19	Para su audiencia
+20	+# más
+21	Explorar Investigación de Mercados
+22	Explorar Marketing Digital
+23	Explorar TI y Desarrollo
+24	Explorar Contabilidad y Finanzas
+25	Leer en su idioma
+26	
+27	Marketing
+28	
+29	Comprador
+30	
+31	Estudiante
+32	Madre o padre
+33	Ingeniero
+34	
+35	Insight listo
+36	Decisión
+37	Cuanti
+38	Cuali
+39	Paneles
+40	Nuevo lead
+41	Publicación compartida
+42	Pago
+43	Comprar ahora
+44	Nube
+45	Interfaz
+46	Compilar
+47	Probar
+48	En vivo
+49	Libro mayor
+50	Contabilidad
+51	Nóminas
+52	
+53	Conciliado ✓
+54	Pausar diapositivas
+55	Reproducir diapositivas
+56	Elija un servicio
+57	Nuestros servicios

@@ -1,0 +1,109 @@
+/* ===== Build 44 — site-wide refinements (loaded after the page styles, before contrast-fixes.css) =====
+   1. WhatsApp button: subtle attention animation (two soft ripples + a short icon nudge, then a long rest).
+   2. Typography tones on dark backgrounds: complementary colours instead of white everywhere.
+      Palette (all ≥ 7:1 on the site navy #07104F): sky #A9C6FF · mist #D3DCF5 · aqua #7FE3D3 · gold #F5CF6E · lilac #C9BDFF.
+      Only selectors that are verified to sit on dark backgrounds are toned; no change to the overall colour scheme. */
+:root{--t-sky:#A9C6FF;--t-mist:#D3DCF5;--t-aqua:#7FE3D3;--t-gold:#F5CF6E;--t-lilac:#C9BDFF}
+
+/* ---- 1. WhatsApp ---- */
+.wa-float{isolation:isolate;overflow:visible}
+.wa-float::before,.wa-float::after{content:"";position:absolute;inset:0;border-radius:50%;border:2px solid rgba(37,211,102,.6);pointer-events:none;z-index:-1;opacity:0;animation:waRipple 6s cubic-bezier(.22,.61,.36,1) 2s infinite}
+.wa-float::after{animation-delay:2.45s}
+.wa-float svg{transform-origin:50% 60%;animation:waNudge 6s ease-in-out 2s infinite}
+.wa-float:hover::before,.wa-float:hover::after,.wa-float:focus-visible::before,.wa-float:focus-visible::after{animation:none;opacity:0}
+.wa-float:hover svg,.wa-float:focus-visible svg{animation:none}
+@keyframes waRipple{0%{transform:scale(1);opacity:.75}30%{transform:scale(1.7);opacity:0}100%{transform:scale(1.7);opacity:0}}
+@keyframes waNudge{0%,14%,100%{transform:none}3%{transform:rotate(-14deg) scale(1.06)}6%{transform:rotate(11deg) scale(1.06)}9%{transform:rotate(-7deg)}12%{transform:rotate(3deg)}}
+@media (prefers-reduced-motion:reduce){.wa-float::before,.wa-float::after,.wa-float svg{animation:none}}
+
+/* ---- 2. Typography tones on dark backgrounds ---- */
+@supports ((-webkit-background-clip:text) or (background-clip:text)){
+  .rc-head--light h2,.pp-head--light h2,.pp-head--light>h3,.products-home .section__head h2,.hm-why h2,.hm-testi h2,.hm-head--light h2,.ab-head--light h2,.cta-band__inner h2,.gov-home__grid h2,.hh-final__copy h2,.ix-final h2{
+    background:linear-gradient(100deg,#fff 0%,#fff 38%,#B8CEFF 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:#fff}
+}
+@media (forced-colors:active){.rc-head--light h2,.pp-head--light h2,.pp-head--light>h3,.products-home .section__head h2,.hm-why h2,.hm-testi h2,.hm-head--light h2,.ab-head--light h2,.cta-band__inner h2,.gov-home__grid h2,.hh-final__copy h2,.ix-final h2{-webkit-text-fill-color:currentColor;background:none}}
+
+/* footer: column headings take their team tone; small headings gold; links sky; strapline mist */
+.footer .footer__col.tone-research h3 a{color:var(--t-sky)}
+.footer .footer__col.tone-digital h3 a{color:var(--t-aqua)}
+.footer .footer__col.tone-tech h3 a{color:var(--t-lilac)}
+.footer .footer__col.tone-finance h3 a{color:var(--t-gold)}
+.footer .footer__col h3 a:hover{color:#fff}
+.footer .footer__sub,.footer .footer__trust h3,.footer .soc h3,.footer .footer__mid>div>h3{color:var(--t-gold)}
+.footer a.footer__more{color:var(--t-sky)}
+.footer a.footer__more:hover{color:#fff}
+.footer .footer__brandline{color:var(--t-mist)}
+.footer .cert--dark figcaption strong{color:var(--t-mist)}
+
+/* home */
+.hm-why .hm-reasons h3{color:var(--t-sky)}
+.hm-why .hm-silo__n b{color:var(--t-gold)}
+.metric--dark .metric__num{color:var(--t-gold)}
+.gov-home a.gov-home__type,.gov-home .gov-home__type span{color:var(--t-mist)}
+
+/* digital marketing strip: alternate tones for rhythm */
+.pp-strip__row li:nth-child(3n+2){color:var(--t-sky)}
+.pp-strip__row li:nth-child(3n){color:var(--t-aqua)}
+
+/* market research pages on navy */
+.od-sec--navy li strong{color:var(--t-sky)}
+.dk-sec--dark.dg-ai .dg-ai__col li{color:var(--t-mist)}
+
+/* about */
+.ab-ov li strong{color:var(--t-sky)}
+.ab-diff .ab-team__proc li,.ab-diff .ab-close__needs li{color:var(--t-mist)}
+.ab-diff .ab-tagline span:nth-child(2){color:var(--t-gold)}
+.ab-diff .ab-tagline span:nth-child(3){color:var(--t-aqua)}
+.ldr .ldr-keys li{color:var(--t-mist)}
+
+/* IT pages (IX kit) on dark */
+.ix-sec--dark .ix-eco__g b{color:var(--t-sky)}
+.ix-sec--dark .pp-head p,.ix-sec--ink .pp-head p{color:var(--t-mist)}
+.ix-sec--dark .pp-kick,.ix-sec--ink .pp-kick{color:var(--t-aqua)}
+
+/* Healthcare Panel: the "People" block was removed (build 44) — the Sectors block now opens its section */
+.hp-sec--soft .container>.hp-sec2:first-child{margin-top:0}
+
+/* home: product tiles and dark section heads */
+.products-home .product-tile__tag{color:var(--t-aqua)}
+.products-home .product-tile--alt .product-tile__tag{color:var(--t-gold)}
+.ldr .ldr-card__msg p:not(.ldr-q__lead){color:var(--t-mist)}
+
+/* ===== Build 46 — home "Technology built for research" tiles + Products menu panels ===== */
+/* Sampledge tile: real interface instead of the abstract bars, wordmark in the heading. */
+.products-home .product-duo{align-items:start}
+.product-tile__art--sam{padding:0;background:linear-gradient(150deg,rgba(18,194,255,.22),rgba(123,92,255,.20) 55%,rgba(255,255,255,.04));
+  border:1px solid rgba(255,255,255,.12);overflow:hidden;position:relative}
+.product-tile__frame{display:block;position:relative;padding:16px 16px 0;overflow:hidden}
+.product-tile__shot{display:block;width:100%;height:216px;object-fit:cover;object-position:top center;border-radius:10px 10px 0 0;
+  -webkit-mask-image:linear-gradient(to bottom,#000 78%,rgba(0,0,0,.25));mask-image:linear-gradient(to bottom,#000 78%,rgba(0,0,0,.25));
+  border-radius:10px 10px 0 0;border:1px solid rgba(255,255,255,.2);border-bottom:0;
+  box-shadow:0 16px 30px -14px rgba(2,8,32,.7);transition:transform .5s cubic-bezier(.2,.8,.2,1)}
+.product-tile:hover .product-tile__shot{transform:translateY(-5px)}
+.product-tile__sheen{position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(70% 60% at 50% 115%,rgba(127,227,211,.35),transparent 70%)}
+.product-tile__h3--logo{margin:0 0 6px}
+.product-tile__logo{display:block;width:clamp(150px,52%,210px);height:auto}
+/* keep the two tiles the same height on wide screens */
+@media (min-width:861px){.products-home .product-tile{display:flex;flex-direction:column;height:100%}
+  .products-home .product-tile__ctas{margin-top:auto}}
+@media (max-width:860px){.product-tile__shot{height:180px}}
+/* the marketplace tile gets its own treatment so the pair reads as designed, not duplicated */
+.products-home .product-tile--alt .product-tile__art{background:radial-gradient(90% 120% at 15% 0%,rgba(110,224,206,.20),rgba(255,255,255,.03) 60%);
+  border:1px solid rgba(255,255,255,.1);height:232px;display:grid;place-items:center}
+.products-home .product-tile--alt .product-tile__art svg{max-height:190px}
+.product-tile__art--sam{height:232px}
+.products-home .product-tile--alt .product-tile__art svg circle{animation:nxTwinkle 4.5s ease-in-out infinite}
+.products-home .product-tile--alt .product-tile__art svg circle:nth-child(4n+2){animation-delay:.9s}
+.products-home .product-tile--alt .product-tile__art svg circle:nth-child(4n+3){animation-delay:1.8s}
+.products-home .product-tile--alt .product-tile__art svg circle:nth-child(4n+4){animation-delay:2.7s}
+@keyframes nxTwinkle{0%,100%{opacity:.35}50%{opacity:1}}
+@media (prefers-reduced-motion:reduce){.products-home .product-tile--alt .product-tile__art svg circle{animation:none}
+  .product-tile:hover .product-tile__shot{transform:none}}
+
+/* Products menu: two branded panels, Sampledge carrying its logo */
+.mega__product--prod{padding-top:20px;min-height:132px}
+.mega__plogo{display:block;width:min(152px,calc(100% - 44px));height:auto;margin:2px 0 12px}
+.mega__pmark{display:grid;place-items:center;width:40px;height:40px;border-radius:12px;margin-bottom:10px;
+  color:#07104F;background:linear-gradient(140deg,#7FE3D3,#A9C6FF)}
+.mega__product--prod strong{margin-bottom:2px}

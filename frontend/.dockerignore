@@ -1,0 +1,6 @@
+node_modules
+dist-single
+dist-preview
+.env
+*.log
+# dist/ is NOT ignored: the go-live package ships the ready-built website there (FRONTEND_MODE=ready)

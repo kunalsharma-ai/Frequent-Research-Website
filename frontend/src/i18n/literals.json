@@ -1,0 +1,4555 @@
+{
+ "# #px Manrope, \"Segoe UI\", system-ui, sans-serif": [
+  "src/components/site/Hero58.jsx"
+ ],
+ "# #px Manrope, system-ui, sans-serif": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "# #px var(--display,system-ui)": [
+  "src/components/site/BlogCover.jsx"
+ ],
+ "# / # split": [
+  "src/components/site/MarketplaceArt.jsx"
+ ],
+ "# Sep #": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "# specialist teams": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "# working day reply": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "# · Follow us": [
+  "src/pages/Connect.jsx"
+ ],
+ "# · Join a research panel": [
+  "src/pages/Connect.jsx"
+ ],
+ "# · Products &amp; direct lines": [
+  "src/pages/Connect.jsx"
+ ],
+ "#+ markets": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "#-min interview": [
+  "src/components/site/Earn.jsx"
+ ],
+ "#px #px": [
+  "src/components/site/Floaters.jsx",
+  "src/components/site/BlogCover.jsx",
+  "src/components/site/MarketplaceArt.jsx"
+ ],
+ "% love it": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "&amp; audience intelligence": [
+  "src/components/site/Products.jsx"
+ ],
+ "(no message)": [
+  "src/components/site/Chat.jsx"
+ ],
+ "(of #)": [
+  "src/pages/Downloads.jsx"
+ ],
+ "(opens": [
+  "src/components/site/Earn.jsx"
+ ],
+ "(opens in a new tab)": [
+  "src/components/site/ReviewPrompt.jsx",
+  "src/components/site/Gate.jsx"
+ ],
+ "+# # # or Skip": [
+  "src/components/site/Chat.jsx"
+ ],
+ ", a brand of": [
+  "src/components/site/Footer.jsx"
+ ],
+ ", and store my details as described in the": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ ", designation": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ ", rating and review.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "-#px -#px": [
+  "src/components/site/CountryPicker.jsx"
+ ],
+ "-step way of working": [
+  "src/pages/Downloads.jsx"
+ ],
+ ". All rights reserved.": [
+  "src/components/site/Footer.jsx"
+ ],
+ ". Change language": [
+  "src/components/site/I18n.jsx"
+ ],
+ ". You can change it any time before publishing.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "; domain=.": [
+  "src/components/site/I18n.jsx"
+ ],
+ "? Use different details": [
+  "src/components/site/Gate.jsx"
+ ],
+ "A broader portfolio": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "A decade of building": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "A panel is more than a contact list — eight layers of checks improve respondent relevance and reduce invalid participation.": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "A research-led partner for market research, digital marketing, IT & development and finance & accounts — with our own research communities.": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "A specialist has your request": [
+  "src/components/site/Chat.jsx"
+ ],
+ "A specialist replies": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "ABCDEFGHJKLMNPQRSTUVWXYZ#": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "AE": [
+  "src/components/site/Chat.jsx"
+ ],
+ "AU": [
+  "src/components/site/Chat.jsx"
+ ],
+ "About": [
+  "src/components/site/Earn.jsx",
+  "src/pages/OurJourney.jsx",
+  "src/pages/RatesReviews.jsx"
+ ],
+ "About Us": [
+  "src/components/site/Footer.jsx"
+ ],
+ "About the panel": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "About this page": [
+  "src/components/site/Chat.jsx"
+ ],
+ "About this service": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "AboutPage": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Accurate books": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Actionable insight": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Add your voice.": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Afaan Oromoo": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Afrikaans": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Ahoj": [
+  "src/components/site/Hero58.jsx"
+ ],
+ "Akan": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Albanian": [
+  "src/components/site/I18n.jsx"
+ ],
+ "All": [
+  "src/components/site/Footer.jsx"
+ ],
+ "All countries": [
+  "src/components/site/CountryPicker.jsx",
+  "src/components/site/FrKit.jsx"
+ ],
+ "All our research communities in one place": [
+  "src/pages/Connect.jsx"
+ ],
+ "All regions": [
+  "src/pages/Downloads.jsx"
+ ],
+ "All reviews": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "All services": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "All voices": [
+  "src/components/site/LiveReviews.jsx"
+ ],
+ "Almost there": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Also review us on Google": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Also — can your team run the LinkedIn campaign for the launch?": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "Amharic": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Analysis": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Analysis & reporting": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "And which country are you in?": [
+  "src/components/site/Chat.jsx"
+ ],
+ "And your phone number with country code — or type Skip.": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Answer": [
+  "src/components/site/Faq.jsx"
+ ],
+ "Answer short surveys from your phone or laptop and get rewarded for every opinion you share.": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Answered": [
+  "src/components/site/Faq.jsx"
+ ],
+ "Answers come from our website. By chatting you agree to our": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Any": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Anything to add?": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Appointment · #": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Approach": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Apps · web · cloud · testing": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Arabic": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Are you ISO certified?": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Armenian": [
+  "src/components/site/I18n.jsx"
+ ],
+ "ArrowDown": [
+  "src/components/site/CountryPicker.jsx",
+  "src/components/site/FrKit.jsx",
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "ArrowLeft": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "ArrowRight": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "ArrowUp": [
+  "src/components/site/CountryPicker.jsx",
+  "src/components/site/FrKit.jsx",
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Asia-Pacific": [
+  "src/pages/Downloads.jsx"
+ ],
+ "Ask a question now": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "Ask anything…": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Ask our assistant instead": [
+  "src/components/site/Faq.jsx"
+ ],
+ "Ask the assistant": [
+  "src/components/site/Faq.jsx"
+ ],
+ "Ask us anything": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Assamese": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Assistant is typing": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Assistant · answers from our website": [
+  "src/components/site/Chat.jsx"
+ ],
+ "At a glance": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Audience": [
+  "src/components/site/MarketplaceArt.jsx"
+ ],
+ "Audience feasibility": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "Audiences": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Avañe'ẽ": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Aymar aru": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Aymara": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Azerbaijani": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Azərbaycan": [
+  "src/components/site/I18n.jsx"
+ ],
+ "B#B": [
+  "src/components/site/MarketplaceArt.jsx",
+  "src/components/site/Products.jsx",
+  "src/components/site/Pdfs.jsx",
+  "src/pages/Downloads.jsx"
+ ],
+ "B#B panel book": [
+  "src/components/site/Pdfs.jsx",
+  "src/pages/Downloads.jsx"
+ ],
+ "B#B panel books": [
+  "src/pages/Downloads.jsx"
+ ],
+ "B#B · IT decision-makers": [
+  "src/components/site/MarketplaceArt.jsx"
+ ],
+ "Back": [
+  "src/components/site/ReviewPrompt.jsx",
+  "src/components/site/Gate.jsx"
+ ],
+ "Bahasa Indonesia": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Bahasa Melayu": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Baked chips": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Balanced": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Bamanankan": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Bambara": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Basa Jawa": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Basa Sunda": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Basque": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Be part of the next chapter": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Be the first": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Belarusian": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Bengali": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Better leads": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Bhojpuri": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Blog": [
+  "src/components/site/Footer.jsx"
+ ],
+ "Bonjour": [
+  "src/components/site/Hero58.jsx"
+ ],
+ "Books · tax · payroll · virtual CFO": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Bosanski": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Bosnian": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Branded PDF · generated instantly · watermarked": [
+  "src/pages/Downloads.jsx"
+ ],
+ "Breadcrumb": [
+  "src/components/site/PageHero.jsx",
+  "src/components/site/MarketplaceArt.jsx",
+  "src/pages/Downloads.jsx",
+  "src/pages/OurJourney.jsx",
+  "src/pages/LetsTalk.jsx",
+  "src/pages/Connect.jsx",
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Breaking even": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Breakthrough": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Brief & design": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Brochure": [
+  "src/pages/Downloads.jsx"
+ ],
+ "Brochure content not found.": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Browse case studies": [
+  "src/components/site/PageHero.jsx"
+ ],
+ "Build": [
+  "src/components/site/PageHero.jsx"
+ ],
+ "Build / execute": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Build Your Sample": [
+  "src/components/site/MarketplaceArt.jsx"
+ ],
+ "Build failed": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Build log": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Build your audience, select your markets, configure quotas and purchase research-ready sample directly through Frequent Research.": [
+  "src/components/site/MarketplaceArt.jsx"
+ ],
+ "Build. Grow. Scale.": [
+  "src/components/site/Hero58.jsx"
+ ],
+ "Built in-house by our research team": [
+  "src/components/site/Products.jsx"
+ ],
+ "Bulgarian": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Burmese": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Business (B#B)": [
+  "src/components/site/Pdfs.jsx",
+  "src/pages/Downloads.jsx"
+ ],
+ "Buy Research Sample.": [
+  "src/components/site/MarketplaceArt.jsx"
+ ],
+ "CA": [
+  "src/components/site/Chat.jsx"
+ ],
+ "CAPTCHA & anti-bot checks": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "CATI": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "CATI professionals in-house (reported)": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "CFOs & finance heads": [
+  "src/components/site/MarketplaceArt.jsx"
+ ],
+ "Campaign room": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Can I download a case study? How do I get the case study PDF?": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Can I join your research panel?": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Careers": [
+  "src/components/site/PageHero.jsx",
+  "src/components/site/Footer.jsx"
+ ],
+ "Caregiver": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Caregivers": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Case study": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Catalan": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Català": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Cebuano": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Certified &amp; accountable": [
+  "src/components/site/Footer.jsx",
+  "src/pages/OurJourney.jsx"
+ ],
+ "Certified and accountable": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Certified management systems for market research, quality and information security, and a corporate member of ESOMAR.": [
+  "src/components/site/Footer.jsx"
+ ],
+ "Certified quality": [
+  "src/pages/Downloads.jsx"
+ ],
+ "ChIJR#zkVYFDTkRXCVhgQK#UqY": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Change language": [
+  "src/components/site/Hero58.jsx"
+ ],
+ "Change the look for another service you picked": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Chat": [
+  "src/components/site/Hero58.jsx"
+ ],
+ "Chat enquiry": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Chat with Frequent Research": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Chat with our team": [
+  "src/pages/Connect.jsx"
+ ],
+ "Chat with us": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Chat — specialist request": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Check your inbox": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Checked": [
+  "src/components/site/MarketplaceArt.jsx"
+ ],
+ "Checks": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Chichewa": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Chinese (Simplified)": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Chinese (Traditional)": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Choose a rating from # to #.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Choose your country.": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "Choose your language": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Ciao": [
+  "src/components/site/Hero58.jsx"
+ ],
+ "Clean code": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Clean data": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Client": [
+  "src/components/site/LiveReviews.jsx",
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Client case studies": [
+  "src/components/site/PageHero.jsx"
+ ],
+ "Client feed": [
+  "src/components/site/LiveReviews.jsx"
+ ],
+ "Client testimonials": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Client voices": [
+  "src/components/site/LiveReviews.jsx"
+ ],
+ "Climbing": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Clinical study · Cardiology": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Close": [
+  "src/components/site/I18n.jsx",
+  "src/components/site/Chat.jsx",
+  "src/components/site/ReviewPrompt.jsx",
+  "src/components/site/Gate.jsx"
+ ],
+ "Close chat": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Close preview": [
+  "src/pages/Downloads.jsx"
+ ],
+ "Close the review form": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Close to the participant experience": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Code": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Collapse all": [
+  "src/components/site/Faq.jsx"
+ ],
+ "CollectionPage": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Company": [
+  "src/components/site/Footer.jsx"
+ ],
+ "Company brochure": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Company name": [
+  "src/components/site/ReviewPrompt.jsx",
+  "src/components/site/Gate.jsx"
+ ],
+ "Company news, insights and hiring": [
+  "src/pages/Connect.jsx"
+ ],
+ "Compliance on time": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Confidential and anonymous": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Configuring…": [
+  "src/components/site/MarketplaceArt.jsx"
+ ],
+ "Consent": [
+  "src/components/site/PageHero.jsx"
+ ],
+ "Consumer": [
+  "src/components/site/MarketplaceArt.jsx",
+  "src/components/site/Products.jsx",
+  "src/components/site/Earn.jsx",
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Consumer (B#C)": [
+  "src/components/site/Pdfs.jsx",
+  "src/pages/Downloads.jsx"
+ ],
+ "Consumer panel": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Consumer panel book": [
+  "src/components/site/Pdfs.jsx",
+  "src/pages/Downloads.jsx"
+ ],
+ "Consumer panel books": [
+  "src/pages/Downloads.jsx"
+ ],
+ "Consumer-panel recruitment begins across more than # global markets, with digital marketing used to recruit verified panellists.": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Consumers": [
+  "src/components/site/PageHero.jsx",
+  "src/components/site/Earn.jsx"
+ ],
+ "Consumers & business professionals": [
+  "src/pages/Connect.jsx"
+ ],
+ "Contact Frequent Research to request a quote, research feasibility, a Sampledge demo or a consultation.": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "Contact Frequent Research to request a quote, research or audience feasibility, a Sampledge demo, or a marketing, IT or finance consultation. Reply within one working day.": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "Content-Type": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "Continue": [
+  "src/components/site/ReviewPrompt.jsx",
+  "src/components/site/Gate.jsx"
+ ],
+ "Cookie Policy": [
+  "src/components/site/Footer.jsx"
+ ],
+ "Copy email address": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "Copy phone number": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "Corporate member": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Corsican": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Corsu": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Countries": [
+  "src/components/site/CountryPicker.jsx",
+  "src/components/site/FrKit.jsx"
+ ],
+ "Countries covered": [
+  "src/components/site/PageHero.jsx"
+ ],
+ "Country": [
+  "src/components/site/LiveReviews.jsx",
+  "src/components/site/Chat.jsx",
+  "src/components/site/ReviewPrompt.jsx",
+  "src/components/site/Gate.jsx"
+ ],
+ "Country code": [
+  "src/components/site/CountryPicker.jsx",
+  "src/components/site/FrKit.jsx"
+ ],
+ "Country panel books": [
+  "src/pages/Downloads.jsx"
+ ],
+ "Cover illustration for “#”": [
+  "src/components/site/BlogCover.jsx"
+ ],
+ "Croatian": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Cymraeg": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Czech": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Cześć": [
+  "src/components/site/Hero58.jsx"
+ ],
+ "DE": [
+  "src/components/site/Chat.jsx"
+ ],
+ "DIY Marketplace": [
+  "src/components/site/Products.jsx"
+ ],
+ "Danish": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Dansk": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Data Protection": [
+  "src/components/site/Footer.jsx"
+ ],
+ "Data collection & fieldwork": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Data processing": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Data quality & validation": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Dedicated healthcare research": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Deploy": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Designation": [
+  "src/components/site/ReviewPrompt.jsx",
+  "src/components/site/Gate.jsx"
+ ],
+ "Designation · Company": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Deutsch": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Dhivehi": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Didn't find it?": [
+  "src/components/site/Faq.jsx"
+ ],
+ "Digital": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "Digital Marketing": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "Digital marketing": [
+  "src/components/site/Chat.jsx",
+  "src/pages/LetsTalk.jsx"
+ ],
+ "Digital marketing reviews feed": [
+  "src/components/site/LiveReviews.jsx"
+ ],
+ "Discovery": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Dismiss": [
+  "src/components/site/Chat.jsx",
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Do you have a brochure for each service?": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Do you have a business (B#B) panel in #? How many professionals or decision makers in #?": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Do you have a consumer (B#C) panel in #? How many consumers in #?": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Do you work with doctors and HCPs?": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Doctor": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Document": [
+  "src/components/site/Gate.jsx",
+  "src/pages/Downloads.jsx"
+ ],
+ "Does Sampledge have a yearly plan discount?": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Dogri": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Download Frequent Research service brochures and country panel books — consumer and business editions for # markets — as branded PDFs, plus our quality process.": [
+  "src/pages/Downloads.jsx"
+ ],
+ "Download PDF": [
+  "src/components/site/Gate.jsx",
+  "src/pages/Downloads.jsx"
+ ],
+ "Download again": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Download brochure": [
+  "src/pages/Downloads.jsx"
+ ],
+ "Download the": [
+  "src/pages/Downloads.jsx"
+ ],
+ "Download the # QR code": [
+  "src/pages/Connect.jsx"
+ ],
+ "Download —": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Download:": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Downloaded": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Downloads": [
+  "src/components/site/Chat.jsx",
+  "src/pages/Downloads.jsx"
+ ],
+ "Downloads & panel books": [
+  "src/components/site/Footer.jsx"
+ ],
+ "Downloads that do the": [
+  "src/pages/Downloads.jsx"
+ ],
+ "Downloads | Service Brochures & Country Panel Books (B#B, B#C)": [
+  "src/pages/Downloads.jsx"
+ ],
+ "Duplicate-registration checks": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Dutch": [
+  "src/components/site/I18n.jsx"
+ ],
+ "EN": [
+  "src/components/site/I18n.jsx",
+  "src/components/site/Hero58.jsx"
+ ],
+ "ESOMAR": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "ESOMAR #": [
+  "src/components/site/Chat.jsx",
+  "src/components/site/Footer.jsx"
+ ],
+ "ESOMAR # is a standard set of # questions buyers ask online sample providers about their panels, sourcing, quality checks and data protection. Our full answers are published on the ESOMAR # page.": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Each team has its own page and services on frequentresearch.com": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Easy to follow": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Edit": [
+  "src/components/site/ReviewPrompt.jsx",
+  "src/components/site/Gate.jsx"
+ ],
+ "Edit your company and country": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Edit your name and email": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Edition": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Eesti": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Email": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "Email ID": [
+  "src/components/site/Chat.jsx",
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Email and phone stay private.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Email me the PDF": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Email us": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Email verification": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Encryption": [
+  "src/components/site/PageHero.jsx"
+ ],
+ "End": [
+  "src/components/site/CountryPicker.jsx"
+ ],
+ "End-to-end capability": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Engineers": [
+  "src/components/site/PageHero.jsx"
+ ],
+ "English": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Enter": [
+  "src/components/site/CountryPicker.jsx",
+  "src/components/site/FrKit.jsx"
+ ],
+ "Enter a valid email, like name@company.com.": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "Enter a valid phone number.": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "Enter code": [
+  "src/components/site/CountryPicker.jsx"
+ ],
+ "Enter your #.": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "Enter your company name.": [
+  "src/components/site/ReviewPrompt.jsx",
+  "src/components/site/Gate.jsx"
+ ],
+ "Enter your email address.": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "Enter your first name.": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "Enter your full name.": [
+  "src/components/site/Chat.jsx",
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Enter your last name.": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "Enter your phone number.": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "Escape": [
+  "src/components/site/CountryPicker.jsx",
+  "src/components/site/FrKit.jsx",
+  "src/components/site/I18n.jsx",
+  "src/components/site/Chat.jsx",
+  "src/components/site/ReviewPrompt.jsx",
+  "src/components/site/Gate.jsx",
+  "src/pages/Downloads.jsx"
+ ],
+ "Español": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Esperanto": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Estonian": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Europe": [
+  "src/pages/Downloads.jsx"
+ ],
+ "Euskara": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Every Frequent Research channel in one place: our social profiles, our research panels, Sampledge and a direct line to the team.": [
+  "src/pages/Connect.jsx"
+ ],
+ "Every code was generated from the links on this website and checked by a QR decoder before publishing.": [
+  "src/pages/Connect.jsx"
+ ],
+ "Every market in our regional panel profiles, in a consumer edition and a business edition.": [
+  "src/pages/Downloads.jsx"
+ ],
+ "Every review": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Every review, one spotlight at a time": [
+  "src/components/site/LiveReviews.jsx"
+ ],
+ "Every score below is worked out live from reviews our clients wrote — nothing typed in, nothing rounded up.": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Everything a service team does, how they work and why clients choose them — in a brochure you can share with your team.": [
+  "src/pages/Downloads.jsx"
+ ],
+ "Ewe": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Example": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "Excellent": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Expand all": [
+  "src/components/site/Faq.jsx"
+ ],
+ "Expansion into customised software and website solutions for many industries, and an in-house CATI team for computer-assisted telephone interviewing.": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Expert study · B#B decision-makers": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Explainers and behind the scenes": [
+  "src/pages/Connect.jsx"
+ ],
+ "Explore": [
+  "src/components/site/Products.jsx",
+  "src/pages/OurJourney.jsx"
+ ],
+ "Explore Audiences": [
+  "src/components/site/MarketplaceArt.jsx"
+ ],
+ "Explore Our Services": [
+  "src/components/site/Hero58.jsx"
+ ],
+ "Explore industries": [
+  "src/components/site/PageHero.jsx"
+ ],
+ "Extra sources only with client approval": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Eʋegbe": [
+  "src/components/site/I18n.jsx"
+ ],
+ "FAQ ·": [
+  "src/components/site/Faq.jsx"
+ ],
+ "FAST": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "FD": [
+  "src/components/site/FrKit.jsx",
+  "src/components/site/Pdfs.jsx"
+ ],
+ "FREQUENT RESEARCH": [
+  "src/components/site/FrKit.jsx",
+  "src/components/site/LiveReviews.jsx"
+ ],
+ "Facebook": [
+  "src/components/site/ReviewPrompt.jsx",
+  "src/pages/Connect.jsx"
+ ],
+ "Fair": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Feasibility": [
+  "src/components/site/MarketplaceArt.jsx"
+ ],
+ "Feasibility ready": [
+  "src/components/site/Products.jsx"
+ ],
+ "Field notes": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Fieldwork": [
+  "src/components/site/Products.jsx",
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Fieldwork Solutions Pvt. Ltd.": [
+  "src/components/site/Footer.jsx"
+ ],
+ "Fieldwork finished on schedule.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Figures are the share of profiled # in each category, taken from the # panel profile. Each table is its own distribution. Feasibility for a specific audience is always confirmed per project.": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Filings and compliance were always on time.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Filipino": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Fill one short form and the branded PDF opens in your browser — no waiting for an email.": [
+  "src/pages/Downloads.jsx"
+ ],
+ "Filter by rating": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Filter by service": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Filter questions": [
+  "src/components/site/Faq.jsx"
+ ],
+ "Filter questions…": [
+  "src/components/site/Faq.jsx"
+ ],
+ "Filter reviews by service": [
+  "src/components/site/LiveReviews.jsx"
+ ],
+ "Finance": [
+  "src/components/site/FrKit.jsx",
+  "src/components/site/PageHero.jsx"
+ ],
+ "Finance & Accounts": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "Finance & accounts": [
+  "src/components/site/Chat.jsx",
+  "src/pages/LetsTalk.jsx"
+ ],
+ "Finance &amp; Accounts · No.": [
+  "src/components/site/LiveReviews.jsx"
+ ],
+ "Finance and accounts reviews": [
+  "src/components/site/LiveReviews.jsx"
+ ],
+ "Finance answers": [
+  "src/components/site/Faq.jsx"
+ ],
+ "Find a country panel book": [
+  "src/pages/Downloads.jsx"
+ ],
+ "Find us & leave a review": [
+  "src/pages/Connect.jsx"
+ ],
+ "Find us on Google": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Finnish": [
+  "src/components/site/I18n.jsx"
+ ],
+ "First name": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Five quick steps, about a minute. Your review appears on this page and in our client testimonials.": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Flags appear here as reviewers add their country.": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Flip for QR": [
+  "src/pages/Connect.jsx"
+ ],
+ "Follow us": [
+  "src/pages/Connect.jsx"
+ ],
+ "Follow-up after delivery could be better.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "For business professionals": [
+  "src/components/site/Earn.jsx"
+ ],
+ "For caregivers": [
+  "src/components/site/Earn.jsx"
+ ],
+ "For doctors, nurses & HCPs": [
+  "src/components/site/Earn.jsx"
+ ],
+ "For doctors, specialists, nurses and pharmacists": [
+  "src/components/site/Earn.jsx"
+ ],
+ "For everyday consumers": [
+  "src/components/site/Earn.jsx"
+ ],
+ "For everyday shoppers, users and households": [
+  "src/components/site/Earn.jsx"
+ ],
+ "For example: name@company.com": [
+  "src/components/site/Chat.jsx"
+ ],
+ "For family members and carers looking after a loved one": [
+  "src/components/site/Earn.jsx"
+ ],
+ "For managers, specialists and decision-makers": [
+  "src/components/site/Earn.jsx"
+ ],
+ "For patients": [
+  "src/components/site/Earn.jsx"
+ ],
+ "For people living with a health condition": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Formal establishment & first proprietary panels": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Format": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Four teams": [
+  "src/components/site/PageHero.jsx"
+ ],
+ "Four teams, one partner": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Four teams.": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Français": [
+  "src/components/site/I18n.jsx"
+ ],
+ "French": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Frequent Research": [
+  "src/components/site/FrKit.jsx",
+  "src/components/site/PageHero.jsx",
+  "src/components/site/Chat.jsx",
+  "src/components/site/Footer.jsx",
+  "src/pages/OurJourney.jsx",
+  "src/pages/LetsTalk.jsx",
+  "src/pages/Connect.jsx",
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Frequent Research - # # Panel Book.pdf": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Frequent Research - # Brochure.pdf": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Frequent Research - # Case Study - #": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Frequent Research - Company Brochure.pdf": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Frequent Research - Healthcare Panel Book.pdf": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Frequent Research - Quality Process.pdf": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Frequent Research Fieldwork Solutions": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "Frequent Research Fieldwork Solutions Private Limited": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Frequent Research Fieldwork Solutions Private Limited is incorporated on # September #, and two proprietary platforms launch: Turn#Opinion and MyFrequentRewards.": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Frequent Research Fieldwork Solutions Pvt. Ltd. helps businesses understand better, build smarter, grow faster and manage with confidence.": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Frequent Research Fieldwork Solutions Pvt. Ltd. | info@frequentresearch.com | +# # # | www.frequentresearch.com": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "Frequent Research Panels": [
+  "src/components/site/ReviewPrompt.jsx",
+  "src/pages/Connect.jsx"
+ ],
+ "Frequent Research Sample Marketplace": [
+  "src/components/site/MarketplaceArt.jsx"
+ ],
+ "Frequent Research home": [
+  "src/components/site/Footer.jsx"
+ ],
+ "Frequent Research on #": [
+  "src/pages/Connect.jsx"
+ ],
+ "Frequent Research · Company brochure": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Frequent Research · Healthcare panel book": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Frequent Research · Quality process": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Frequent Research — Insights • Analytics • Growth": [
+  "src/components/site/Floaters.jsx"
+ ],
+ "FrequentResearch": [
+  "src/components/site/Footer.jsx"
+ ],
+ "FrequentResearchFieldwork": [
+  "src/pages/Connect.jsx"
+ ],
+ "Fresh creative": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Frisian": [
+  "src/components/site/I18n.jsx"
+ ],
+ "From early panel recruitment in # to incorporation in #, proprietary panels, healthcare research, IT and CATI: the Frequent Research journey to today.": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "From our ESOMAR # answers": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "From our first panellists": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "From recruitment to reporting: where respondents come from, how they are verified, and what happens to poor-quality responses.": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "From sample plan": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Fruit bar": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Frysk": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Full name": [
+  "src/components/site/Chat.jsx",
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "GB": [
+  "src/components/site/Chat.jsx"
+ ],
+ "GDPR-aligned": [
+  "src/components/site/PageHero.jsx"
+ ],
+ "Gaeilge": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Gagana Samoa": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Galego": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Galician": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Gallery": [
+  "src/components/site/Footer.jsx"
+ ],
+ "Gen-Z shoppers": [
+  "src/components/site/MarketplaceArt.jsx"
+ ],
+ "Gender split": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Georgian": [
+  "src/components/site/I18n.jsx"
+ ],
+ "German": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Get its panel book.": [
+  "src/pages/Downloads.jsx"
+ ],
+ "Get rewarded.": [
+  "src/pages/Connect.jsx"
+ ],
+ "Get started": [
+  "src/components/site/Footer.jsx"
+ ],
+ "Global coverage": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Goal, audience, markets or timeline…": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Good": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Good to know": [
+  "src/components/site/Faq.jsx"
+ ],
+ "Google": [
+  "src/components/site/ReviewPrompt.jsx",
+  "src/pages/Connect.jsx"
+ ],
+ "Got it. And which country are you in?#": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Government & Opinion Research": [
+  "src/components/site/Footer.jsx"
+ ],
+ "Government & opinion research": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Government research": [
+  "src/components/site/Faq.jsx"
+ ],
+ "Greek": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Grounded": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Growth people": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Guarani": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Guide": [
+  "src/components/site/PageHero.jsx"
+ ],
+ "Guides & insights": [
+  "src/components/site/PageHero.jsx"
+ ],
+ "Gujarati": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Gàidhlig": [
+  "src/components/site/I18n.jsx"
+ ],
+ "HCPs": [
+  "src/components/site/PageHero.jsx"
+ ],
+ "Haitian Creole": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Hallo": [
+  "src/components/site/Hero58.jsx"
+ ],
+ "Halo": [
+  "src/components/site/Hero58.jsx"
+ ],
+ "Happy to help with a quote. Pricing depends on scope — for research, the audience, sample size and markets; for marketing, channels and goals; for technology, features and integrations; for finance, volumes and services. A specialist will send a clear quote, usually within one working day, and the first consultation is free.": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Happy to help. Three quick questions and we'll send feasibility and a quote.": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "Hard-to-reach audience": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Hausa": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Hawaiian": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Health Professionals": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Healthcare": [
+  "src/components/site/MarketplaceArt.jsx",
+  "src/components/site/Products.jsx"
+ ],
+ "Healthcare panel book": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Healthcare professionals, patients & caregivers": [
+  "src/components/site/Pdfs.jsx",
+  "src/pages/Connect.jsx"
+ ],
+ "Healthcare research audiences.": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Healthcare research community for doctors, nurses, other healthcare professionals and healthcare consumers.": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Hebrew": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Hej": [
+  "src/components/site/Hero58.jsx"
+ ],
+ "Hello": [
+  "src/components/site/Hero58.jsx"
+ ],
+ "Hello! What would you like to know? You can ask in your own words — for example “How much does an online survey cost?”": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Helping businesses understand better, build smarter, grow faster and manage with confidence.": [
+  "src/components/site/Footer.jsx"
+ ],
+ "Hi there 👋": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Hi there! I'm the Frequent Research assistant. Ask me anything about our services, panels, pricing, timelines or quality — every answer comes from our website, with the page to read more.": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Hi! We need feasibility for # cardiologists in the UAE and KSA.": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "Highest rated": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Hindi": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Historical figures are milestones reported in our published timeline at the time; they are not current panel sizes. Current panel sizes by country are in our": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Hmong": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Hmoob": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Hola": [
+  "src/components/site/Hero58.jsx"
+ ],
+ "Home": [
+  "src/components/site/CountryPicker.jsx",
+  "src/components/site/PageHero.jsx",
+  "src/components/site/MarketplaceArt.jsx",
+  "src/pages/Downloads.jsx",
+  "src/pages/OurJourney.jsx",
+  "src/pages/LetsTalk.jsx",
+  "src/pages/Connect.jsx",
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Honest reporting": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "How a # consumer-panel recruitment effort grew into a full-service research and business solutions partner with its own research communities.": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "How can I leave a review or rate Frequent Research?": [
+  "src/components/site/Chat.jsx"
+ ],
+ "How did the build go?": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "How easy was it to get the treatment you needed?": [
+  "src/components/site/Earn.jsx"
+ ],
+ "How far did we take your brand?": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "How healthy were your numbers?": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "How it works": [
+  "src/components/site/MarketplaceArt.jsx"
+ ],
+ "How long does an online survey take?": [
+  "src/components/site/Chat.jsx"
+ ],
+ "How members join": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "How much does a project cost?": [
+  "src/components/site/Chat.jsx"
+ ],
+ "How strong were the insights?": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "How the project ran, phase by phase": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "How the stars": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "How we protect data quality": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "How we work": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Hrvatski": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Hungarian": [
+  "src/components/site/I18n.jsx"
+ ],
+ "I agree that Frequent Research may contact me about this download and store my details as described in the": [
+  "src/components/site/Gate.jsx"
+ ],
+ "I am a…": [
+  "src/components/site/Earn.jsx"
+ ],
+ "I confirm this review describes my own experience, and I agree that Frequent Research may publish it on this website with my name, country": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "I couldn't find that country. Please type its name, for example India or United Kingdom.": [
+  "src/components/site/Chat.jsx"
+ ],
+ "I don't have a published answer for that one — the specialist will cover it.": [
+  "src/components/site/Chat.jsx"
+ ],
+ "I'm not completely sure, but these pages look closest to your question:": [
+  "src/components/site/Chat.jsx"
+ ],
+ "IN": [
+  "src/components/site/Chat.jsx",
+  "src/components/site/ReviewPrompt.jsx",
+  "src/components/site/Gate.jsx"
+ ],
+ "INPUT": [
+  "src/components/site/I18n.jsx"
+ ],
+ "ISO": [
+  "src/components/site/Hero58.jsx"
+ ],
+ "ISO #": [
+  "src/components/site/PageHero.jsx",
+  "src/components/site/Pdfs.jsx"
+ ],
+ "ISO # data security": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "ISO # | ISO # | ISO/IEC # | ESOMAR member": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "ISO # · ISO/IEC # · ISO # · ESOMAR member": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "ISO/IEC #": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "IT": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "IT & Development": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "IT & development": [
+  "src/components/site/Chat.jsx"
+ ],
+ "IT decision-makers": [
+  "src/components/site/MarketplaceArt.jsx"
+ ],
+ "IT development & telephone fieldwork": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "IT project": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "Icelandic": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Igbo": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Illustrative engagement": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Illustrative engagement: a representative scenario showing how Frequent Research approaches this kind of work in this sector. It does not describe a specific client, and outcomes are described qualitatively.": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Ilocano": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Ilokano": [
+  "src/components/site/I18n.jsx"
+ ],
+ "In orbit": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "In short": [
+  "src/components/site/Faq.jsx"
+ ],
+ "In the red": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "In their": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Inconclusive": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Incorporated": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Indicative split of the #-# timeline": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Indonesian": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Industries": [
+  "src/components/site/PageHero.jsx"
+ ],
+ "Industries & Case Studies": [
+  "src/components/site/Chat.jsx",
+  "src/components/site/Footer.jsx"
+ ],
+ "Industries & case studies": [
+  "src/components/site/PageHero.jsx"
+ ],
+ "Industries &amp; Case Studies": [
+  "src/components/site/PageHero.jsx"
+ ],
+ "Industry questions": [
+  "src/components/site/Faq.jsx"
+ ],
+ "Information security management": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Inside this book": [
+  "src/pages/Downloads.jsx"
+ ],
+ "Insight you can": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Insights | Analytics | Growth": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "Insights. Analytics. Growth.": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Instagram": [
+  "src/components/site/ReviewPrompt.jsx",
+  "src/pages/Connect.jsx"
+ ],
+ "Instant PDF": [
+  "src/components/site/Gate.jsx",
+  "src/pages/Downloads.jsx"
+ ],
+ "Instant answers": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Instant translation": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Internal quality assurance": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Invoices": [
+  "src/components/site/Products.jsx"
+ ],
+ "Irish": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Is it": [
+  "src/components/site/Chat.jsx"
+ ],
+ "It typically includes": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Italian": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Italiano": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Jambo": [
+  "src/components/site/Hero58.jsx"
+ ],
+ "Japanese": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Javanese": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Job role": [
+  "src/components/site/Products.jsx"
+ ],
+ "Join a research panel": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "Join free": [
+  "src/components/site/Earn.jsx",
+  "src/pages/Connect.jsx"
+ ],
+ "Join our research panels": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Jump to a service": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Just now": [
+  "src/components/site/LiveReviews.jsx"
+ ],
+ "KEY LEARNING": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Kamusta": [
+  "src/components/site/Hero58.jsx"
+ ],
+ "Kannada": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Kazakh": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Keep strengthening respondent quality, expanding international partnerships, improving research technology, developing specialist B#B and healthcare reach, and delivering clear, measurable value.": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Keep this language": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Keep this under # characters.": [
+  "src/components/site/FrKit.jsx",
+  "src/components/site/Chat.jsx"
+ ],
+ "Keep your name under # characters.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Keep your review under # characters.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Khmer": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Kinyarwanda": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Kiswahili": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Konkani": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Korean": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Kreyòl ayisyen": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Krio": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Kurdish (Kurmanji)": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Kurdish (Sorani)": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Kurdî": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Kyrgyz": [
+  "src/components/site/I18n.jsx"
+ ],
+ "L#": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "L# #": [
+  "src/components/site/BlogCover.jsx",
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "L# # L# # Z": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Language": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Language solutions": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Language:": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Lao": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Last name": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Later years": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Latin": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Latina": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Latvian": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Latviešu": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Launch & handover": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Lead": [
+  "src/components/site/PageHero.jsx"
+ ],
+ "Learn": [
+  "src/components/site/PageHero.jsx"
+ ],
+ "Let me connect you with a specialist — fill in this short card and we'll reply by email, usually within one working day.": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Let's Talk": [
+  "src/components/site/Hero58.jsx",
+  "src/pages/LetsTalk.jsx"
+ ],
+ "Let's Talk | Contact Frequent Research": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "Let's talk": [
+  "src/components/site/Footer.jsx"
+ ],
+ "Let's talk about your next project": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Let's talk.": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "Lietuvių": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Lift-off": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Lingala": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Lingála": [
+  "src/components/site/I18n.jsx"
+ ],
+ "LinkedIn": [
+  "src/components/site/ReviewPrompt.jsx",
+  "src/pages/Connect.jsx"
+ ],
+ "Lithuanian": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Live assistant": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "Loading panel books…": [
+  "src/pages/Downloads.jsx"
+ ],
+ "Location": [
+  "src/components/site/Products.jsx"
+ ],
+ "Lowest rated": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Luganda": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Luxembourgish": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Lëtzebuergesch": [
+  "src/components/site/I18n.jsx"
+ ],
+ "M#": [
+  "src/components/site/BlogCover.jsx"
+ ],
+ "M# #": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "M# #H#M# #l-# # # #": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #H#a# # # # #-# #v#a# # # # # # #h#a# # # # # #-#V#zM# #v#h#M# #h#M# #h#": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #V#M# #V#M# #v-#M# #v-#": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #V#M# #h#l-# # # #H#": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #V#l#-#v#M# #l# #v#M# #v.#M# #v.#M# #v.#M# #v.#M# #v.#M# #h#": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #a# # # # # # # # # # # # #-#zM# #a# # # # # # # # # # # # #-#zM# #a# # # # # # # # # # # # #-#": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #a# # # # # # # # # # # # #-#zM# #c#-# #-# #-#s# .# # #-# #-# #-# #-# # # # # # #-.# #-#M# #v#": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #a# # # # # # # # # # # # #-#zM# #h#M# #c# # # # # #M# #c-# #-# # # #": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #a# # # # # # # # # # # # #-#zM# #l-#-#": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #a# # # # # # # # # # # # #-#zM# #v#M# #v.#": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #a# # # # # # # # # # # # #-#zM# #v#l# #": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #a# # # # # # #l#-#a# # # # #-#-#l-# #M# #a# # # # #-# #l-# #a# # # # # # #l#-#": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #a# # # # # #-# # # # # # # #zM# #a# # # # # # #": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #a# # # # # #-# # # # # # # #zM# #a# # # # # # #M# #a# # # # # # #M# #a# # # # # # #": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #a# # # # #-# #M# #v#h-#": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #h#": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #h#M# #h#M# #a# # # # # # #c-.#-# #-# #V#h-#v-.#c#-.#-.#-#-#-#A# # # # # # #z": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #h#M# #l# #-# #": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #h#l# #-# #a# # # # # # #L# #l# #v#a# # # # #-# #A# # # # # # #a# # # # # #-#": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #h#l-# #h#z": [
+  "src/components/site/BlogCover.jsx"
+ ],
+ "M# #h#v#H#l-# #z": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #h#v#H#zM# #V#A# # # # # # #h#A# # # # # # #V#M# #h#M# #v#h#v-#": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #h#v#H#zM# #V#a# # # # # # #v#": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #h#v#H#zM# #h#M# #v#M# #v#": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #h#v#H#zM# #h#v#h-#zM# #h#v#H#zM# #h#v#h-#z": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #h#v#H#zM# #l# # #-#": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #h#v#a# # # # #-# #zM# #H#a# # # # # # #M# #h#a# # # # #-# #M# #v#M# #h#M# #h#": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #h#v#c# #-# #-# #M# #h#v#c# #-# #-# #": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #l# # # .# # # #-# # # #-# #-.# #-# .#L# #l-#-#-#-.#-.#-#L# #l#-#-#-# #-#-# #-.#z": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #l# # #-# # # #L# #l-# # #-#L# #l#-.#z": [
+  "src/components/site/FrKit.jsx",
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "M# #l# # #-#v#l-# #-#-#-# #V#zM# #v#M# #v#": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #l# #-# #-#-#zM# #l# # #-#": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #l# #-# #z": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #l# #L# #": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #l# #M# #L# #": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #l# #v#c# #-# #-# #-#-.#-#-#-#-#V#z": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #l#-#-# #-#-#z": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #l#-#A# # # # # # #zM# #c.# # # # # #l#-# # #-.# #c-# .#-#-#-#-#L# #l# #z": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #l-# # # #M# #l# #-# #M# #l-# #": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #l-#-#c#-# #-# #-#-# #-# #-# #M# #l-# # #-#M# #l-# # #-#M# #l-# #": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #s#-# #-# # # # #-# #-# #S# # # #zM# #a# # # # # # # # # # # # #-#z": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #s-#-#-#-#a# # # # # #-#A# # # # # # #c# #-# #-# #z": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #v#M# #h#": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #v#M# #l# # #-#M# #h#": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #v#M# #v#": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #v#M# #v#M# #h#M# #h#M# #l# #M# #L# #M# #l-# #M# #L# #": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #v#h#a# # # # #-#-#zM# #A# # # # # # #H#z": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #v#h#l# #V#L# #zM# #a# # # # # # #M# #a# # # # # # #": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# #v#h#l# #V#L# #zM# #l# #M# #l-# #": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "M# A# # # # # #": [
+  "src/components/site/BlogCover.jsx"
+ ],
+ "Macedonian": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Machine translation · Powered by Google Translate": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Magyar": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Maithili": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Malagasy": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Malay": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Malayalam": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Maltese": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Malti": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Managed respondent profiles": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Mangolpur Kalan, New Delhi - #, India": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Mangolpur Kalan, New Delhi – #, India": [
+  "src/components/site/Footer.jsx",
+  "src/pages/LetsTalk.jsx"
+ ],
+ "Maori": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Marathi": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Market Research": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "Market research": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Market research, digital marketing, IT &amp; development and finance &amp; accounts.": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Market, opinion & social research": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Marketers": [
+  "src/components/site/PageHero.jsx"
+ ],
+ "Marketing answers": [
+  "src/components/site/Faq.jsx"
+ ],
+ "Markets": [
+  "src/components/site/MarketplaceArt.jsx",
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Maybe later": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Medication · #": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Meiteilon (Manipuri)": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Merhaba": [
+  "src/components/site/Hero58.jsx"
+ ],
+ "Methods": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Middle East & Africa": [
+  "src/pages/Downloads.jsx"
+ ],
+ "Milestones": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Milestones met": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Milestones were delivered on time.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Missed timing": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Mizo": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Mizo ṭawng": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Mongolian": [
+  "src/components/site/I18n.jsx"
+ ],
+ "More documents,": [
+  "src/pages/Downloads.jsx"
+ ],
+ "More receipts": [
+  "src/components/site/LiveReviews.jsx"
+ ],
+ "More visibility": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "MyFrequentRewards": [
+  "src/components/site/ReviewPrompt.jsx",
+  "src/pages/OurJourney.jsx",
+  "src/pages/Connect.jsx"
+ ],
+ "MyHealthOpinions": [
+  "src/components/site/ReviewPrompt.jsx",
+  "src/components/site/Pdfs.jsx",
+  "src/pages/OurJourney.jsx",
+  "src/pages/Connect.jsx"
+ ],
+ "MyHealthOpinions launches in India: a community for doctors, physicians, nurses, other healthcare professionals and healthcare consumers.": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Māori": [
+  "src/components/site/I18n.jsx"
+ ],
+ "NFD": [
+  "src/components/site/CountryPicker.jsx",
+  "src/components/site/FrKit.jsx"
+ ],
+ "Nederlands": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Needs follow-up": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Nepali": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Never published.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Never shared or sold": [
+  "src/components/site/Gate.jsx"
+ ],
+ "New conversation": [
+  "src/components/site/Chat.jsx"
+ ],
+ "New post": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "New sample order": [
+  "src/components/site/MarketplaceArt.jsx"
+ ],
+ "Newest": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Next chapter →": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Next review": [
+  "src/components/site/LiveReviews.jsx"
+ ],
+ "Next step": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "Nice to meet you, #! What's your email address? We'll reply there.": [
+  "src/components/site/Chat.jsx"
+ ],
+ "No": [
+  "src/components/site/LiveReviews.jsx"
+ ],
+ "No country matches “": [
+  "src/components/site/CountryPicker.jsx",
+  "src/components/site/FrKit.jsx",
+  "src/pages/Downloads.jsx"
+ ],
+ "No language matches “": [
+  "src/components/site/I18n.jsx"
+ ],
+ "No problem. Ask me anything else — or tap “Talk to a specialist” whenever you're ready.": [
+  "src/components/site/Chat.jsx"
+ ],
+ "No problem. Which country are you in?": [
+  "src/components/site/Chat.jsx"
+ ],
+ "No question matches “": [
+  "src/components/site/Faq.jsx"
+ ],
+ "No reviews match these filters yet.": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "No thanks": [
+  "src/components/site/I18n.jsx"
+ ],
+ "No, send it": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Norsk": [
+  "src/components/site/I18n.jsx"
+ ],
+ "North America": [
+  "src/pages/Downloads.jsx"
+ ],
+ "Norwegian": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Not": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Not now": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Now, may I have your full name so a specialist can follow up?": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Numbers that": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Nurse": [
+  "src/components/site/Earn.jsx"
+ ],
+ "OUR ANSWER": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Odia": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Office": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "Olá": [
+  "src/components/site/Hero58.jsx"
+ ],
+ "On Your Terms.": [
+  "src/components/site/MarketplaceArt.jsx"
+ ],
+ "On-time fieldwork": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "One": [
+  "src/components/site/PageHero.jsx"
+ ],
+ "One Sampledge family, two tools — run your research projects, or build your own audience.": [
+  "src/components/site/Products.jsx"
+ ],
+ "One brochure per service,": [
+  "src/pages/Downloads.jsx"
+ ],
+ "One business partner. Multiple capabilities. Measurable outcomes.": [
+  "src/components/site/Hero58.jsx"
+ ],
+ "One honest scoreboard.": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "One last check, then publish": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "One overall score for your experience": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "One partner · four teams": [
+  "src/components/site/Footer.jsx"
+ ],
+ "One research-led, quality-first approach, applied sector by sector. Pick an industry to see the challenges we have tackled and what changed.": [
+  "src/components/site/PageHero.jsx"
+ ],
+ "One security check and your PDF downloads instantly.": [
+  "src/components/site/Gate.jsx"
+ ],
+ "One tap or one scan.": [
+  "src/pages/Connect.jsx"
+ ],
+ "Online research community for business professionals and consumers: profiling, survey participation and engagement.": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Open": [
+  "src/pages/Connect.jsx"
+ ],
+ "Open in Maps": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "Open on Google": [
+  "src/pages/Connect.jsx"
+ ],
+ "Open the website": [
+  "src/pages/Connect.jsx"
+ ],
+ "Opt-in registration": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Optimised": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Optional · never published.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Organization": [
+  "src/pages/OurJourney.jsx",
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Oromo": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Other": [
+  "src/components/site/CountryPicker.jsx"
+ ],
+ "Other country": [
+  "src/components/site/CountryPicker.jsx"
+ ],
+ "Our": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Our Journey": [
+  "src/components/site/Chat.jsx",
+  "src/components/site/Footer.jsx",
+  "src/pages/OurJourney.jsx"
+ ],
+ "Our Journey #–# | Frequent Research": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Our Rates & Reviews": [
+  "src/components/site/Footer.jsx",
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Our Rates & Reviews | Frequent Research Client Reviews": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Our Team": [
+  "src/components/site/Footer.jsx"
+ ],
+ "Our approach": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Our documented journey began in # with a consumer-panel recruitment phase. Frequent Research Fieldwork Solutions Private Limited was incorporated on # September #, when Turn#Opinion and MyFrequentRewards were launched; MyHealthOpinions followed in #, and IT development and an in-house CATI team in #.": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Our journey": [
+  "src/components/site/Pdfs.jsx",
+  "src/pages/OurJourney.jsx"
+ ],
+ "Our panels": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Our people": [
+  "src/components/site/PageHero.jsx"
+ ],
+ "Our quality checks at a glance": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Our rates &amp; reviews": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Our research communities": [
+  "src/components/site/Pdfs.jsx",
+  "src/pages/OurJourney.jsx"
+ ],
+ "Our research processes are certified to international standards for market research, quality and information security.": [
+  "src/pages/Downloads.jsx"
+ ],
+ "Our search visibility improved.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Our specialist will pick this up — you'll get a reply by email.": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Our teams": [
+  "src/components/site/Hero58.jsx"
+ ],
+ "Our translations, completed by your browser's built-in translator": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Our website, on your phone": [
+  "src/pages/Connect.jsx"
+ ],
+ "Oʻzbek": [
+  "src/components/site/I18n.jsx"
+ ],
+ "PDF": [
+  "src/components/site/Gate.jsx"
+ ],
+ "PNG": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "POST": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "Panel": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Panel book": [
+  "src/pages/Downloads.jsx"
+ ],
+ "Panel member help": [
+  "src/components/site/Faq.jsx"
+ ],
+ "Panel size": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Panel type": [
+  "src/pages/Downloads.jsx"
+ ],
+ "Panels run by Frequent Research": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Pashto": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Passing": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Patient": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Patients": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Persian": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Pharmacist": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Phone": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "Phone / WhatsApp": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Phone country code": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "Phone number": [
+  "src/components/site/FrKit.jsx",
+  "src/components/site/ReviewPrompt.jsx",
+  "src/components/site/Gate.jsx"
+ ],
+ "Pick a country.": [
+  "src/pages/Downloads.jsx"
+ ],
+ "Pick at least one service you are reviewing.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Pick one.": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "Pinterest": [
+  "src/components/site/ReviewPrompt.jsx",
+  "src/pages/Connect.jsx"
+ ],
+ "Plan": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Plan & design": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Plan a study in #": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Planning research, a campaign, a product or your finances? Tell us what you're working on.": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Planning something similar?": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Please email": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Please include your country code, for example +# # # — or type Skip.": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Please leave out web links.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Please tick to agree before downloading.": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Please tick to agree before publishing.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Please try again, or email": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Please use a permanent work or personal email.": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "Plus": [
+  "src/components/site/PageHero.jsx"
+ ],
+ "Point. Scan.": [
+  "src/pages/Connect.jsx"
+ ],
+ "Polish": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Polski": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Poor": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Popular": [
+  "src/components/site/CountryPicker.jsx",
+  "src/components/site/FrKit.jsx"
+ ],
+ "Popular questions": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Portuguese": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Português": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Posted on this site": [
+  "src/components/site/LiveReviews.jsx"
+ ],
+ "Prepared for": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Prepared for ###": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "Prepared for ### on #": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "Preparing your PDF…": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Preview": [
+  "src/pages/Downloads.jsx"
+ ],
+ "Preview mode: no mail server is connected here, so nothing was sent. On the live website “#” is emailed to #.": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Previous receipts": [
+  "src/components/site/LiveReviews.jsx"
+ ],
+ "Previous review": [
+  "src/components/site/LiveReviews.jsx"
+ ],
+ "Printing “": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Privacy & Research Ethics": [
+  "src/components/site/Footer.jsx"
+ ],
+ "Privacy Policy": [
+  "src/components/site/Chat.jsx",
+  "src/components/site/Gate.jsx",
+  "src/components/site/Footer.jsx"
+ ],
+ "Private": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Private &amp; anonymous": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Private Limited": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Private and respectful": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Proactive advice": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Process": [
+  "src/pages/Downloads.jsx"
+ ],
+ "Products": [
+  "src/components/site/PageHero.jsx",
+  "src/components/site/MarketplaceArt.jsx",
+  "src/components/site/Pdfs.jsx",
+  "src/components/site/Footer.jsx"
+ ],
+ "Professional": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Professional confidentiality": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Professionals": [
+  "src/components/site/PageHero.jsx",
+  "src/components/site/Earn.jsx"
+ ],
+ "Profile of our # business panel: company size, revenue and #.": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Profile of our # consumer panel: demographics, income, household, technology, money, media, lifestyle and consumer categories.": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Profile tables": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Profiled consumers": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Profiled professionals": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Profitable": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Progress updates could have been more frequent.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Progress was easy to follow.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Project Management Tool": [
+  "src/components/site/Products.jsx"
+ ],
+ "Project phases": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Publish": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Publish my review": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Published": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Publishing…": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Punjabi": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Q.": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "QR": [
+  "src/pages/Connect.jsx"
+ ],
+ "QR code linking to the Frequent Research Fieldwork Solutions Pvt. Ltd. Google Business Profile": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "QR code with the": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "QR code: # — #": [
+  "src/pages/Connect.jsx"
+ ],
+ "QR codes": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Qualitative support": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Quality management systems": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Quality process": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Quality, built into the panel": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Quechua": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Questionnaire design": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Questions about quality?": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Questions about research, marketing, tech or finance? Ask me — I answer instantly.": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Questions clients ask": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Questions were answered quickly.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Quick actions": [
+  "src/components/site/Hero58.jsx"
+ ],
+ "Quick phrases — tap to add to your review": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Quick replies": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Quick survey · # min": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Quick takes and announcements": [
+  "src/pages/Connect.jsx"
+ ],
+ "Quotas": [
+  "src/components/site/MarketplaceArt.jsx",
+  "src/components/site/Products.jsx"
+ ],
+ "RATE US ★ REVIEW ★ RATE US ★ REVIEW ★": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Rate &amp; review us": [
+  "src/components/site/LiveReviews.jsx",
+  "src/components/site/Footer.jsx",
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Rate and review Frequent Research": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Rate now": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Rate us in under a minute — your review goes straight onto our testimonials.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Rates &amp; Reviews": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Rating": [
+  "src/components/site/LiveReviews.jsx",
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Rating: #/# — # Services: # Country: # #": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Reach": [
+  "src/components/site/MarketplaceArt.jsx"
+ ],
+ "Reach us directly": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "Read client reviews": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Read every review": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Read in": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Read the full answer on": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Read the whole website in your language — #+ languages.": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Read this website in your language": [
+  "src/components/site/Hero58.jsx"
+ ],
+ "Read what clients say about Frequent Research — ratings and reviews for market research, digital marketing, IT & development and finance & accounts, with live scores per service.": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Reader questions": [
+  "src/components/site/Faq.jsx"
+ ],
+ "Ready to launch": [
+  "src/components/site/MarketplaceArt.jsx"
+ ],
+ "Ready when you are.": [
+  "src/components/site/Footer.jsx"
+ ],
+ "Ready · #/#": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Received": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Recommends": [
+  "src/components/site/LiveReviews.jsx"
+ ],
+ "Region": [
+  "src/components/site/Pdfs.jsx",
+  "src/pages/Downloads.jsx"
+ ],
+ "Related questions": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Repeatable recruitment": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Reply by email · usually within one working day": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Reporting": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Reporting was short, clear and honest.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Request Audience Feasibility": [
+  "src/components/site/Footer.jsx"
+ ],
+ "Request Research Feasibility": [
+  "src/components/site/Footer.jsx"
+ ],
+ "Request a Quote": [
+  "src/components/site/Footer.jsx"
+ ],
+ "Request a Sampledge Demo": [
+  "src/components/site/Footer.jsx"
+ ],
+ "Request a quote": [
+  "src/components/site/Chat.jsx",
+  "src/pages/LetsTalk.jsx"
+ ],
+ "Request healthcare feasibility": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Research": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "Research Ethics": [
+  "src/components/site/Footer.jsx"
+ ],
+ "Research answers": [
+  "src/components/site/Faq.jsx"
+ ],
+ "Research communities": [
+  "src/components/site/PageHero.jsx"
+ ],
+ "Research consulting": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Research delivery grows end to end — recruitment, programming, fieldwork, processing, analysis, language support and consulting — alongside digital marketing, technology and finance & accountancy support.": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Research expertise,": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Research feasibility": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "Research lab": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Research operations software developed by Frequent Research.": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Research panel": [
+  "src/components/site/PageHero.jsx"
+ ],
+ "Research panels": [
+  "src/components/site/Footer.jsx"
+ ],
+ "Research project management software": [
+  "src/pages/Connect.jsx"
+ ],
+ "Research visuals and ideas": [
+  "src/pages/Connect.jsx"
+ ],
+ "Researchers": [
+  "src/components/site/PageHero.jsx"
+ ],
+ "Resource library": [
+  "src/pages/Downloads.jsx"
+ ],
+ "Respondent profiling": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Response #": [
+  "src/components/site/LiveReviews.jsx"
+ ],
+ "Response-pattern monitoring": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Responsive": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Review": [
+  "src/components/site/LiveReviews.jsx",
+  "src/components/site/ReviewPrompt.jsx",
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Review (#/#) — #": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Review sent": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Reviewer": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Reviews from brands we run search, social and content for.": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Reviews from businesses that trust us with books, tax and payroll.": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Reviews from teams who commissioned surveys, panels and fieldwork.": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Reviews from teams whose apps, platforms and integrations we built.": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Reward earned": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Rewarded for your time": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Rewards for completed surveys": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Rewards for your insight": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Romanian": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Română": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Runasimi": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Running average, oldest → newest review": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Russian": [
+  "src/components/site/I18n.jsx"
+ ],
+ "SA": [
+  "src/components/site/Chat.jsx"
+ ],
+ "SECTOR #": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "SEO · ads · social · content": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "SG": [
+  "src/components/site/Chat.jsx"
+ ],
+ "SME owners": [
+  "src/components/site/MarketplaceArt.jsx"
+ ],
+ "Salam": [
+  "src/components/site/Hero58.jsx"
+ ],
+ "Same day": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "Samoan": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Sample Marketplace": [
+  "src/components/site/MarketplaceArt.jsx"
+ ],
+ "Sample sources & recruitment": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Sampledge": [
+  "src/components/site/FrKit.jsx",
+  "src/components/site/Faq.jsx",
+  "src/components/site/PageHero.jsx",
+  "src/components/site/Products.jsx",
+  "src/components/site/Chat.jsx",
+  "src/pages/Connect.jsx"
+ ],
+ "Sampledge demo": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "Sampledge — #": [
+  "src/components/site/Products.jsx"
+ ],
+ "Sampling & recruitment": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Sampling & set-up": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Sanskrit": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Sawubona": [
+  "src/components/site/Hero58.jsx"
+ ],
+ "Scan & Connect": [
+  "src/components/site/Footer.jsx"
+ ],
+ "Scan & Connect | Frequent Research QR Codes": [
+  "src/pages/Connect.jsx"
+ ],
+ "Scan &amp; Connect": [
+  "src/pages/Connect.jsx"
+ ],
+ "Scan &amp; Connect — all QR codes": [
+  "src/pages/Connect.jsx"
+ ],
+ "Scan &amp; connect": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Scan to follow": [
+  "src/pages/Connect.jsx"
+ ],
+ "Scan to follow Frequent Research on LinkedIn, YouTube, Facebook, Instagram, X and Pinterest, join our research panels, open Sampledge or chat with us on WhatsApp.": [
+  "src/pages/Connect.jsx"
+ ],
+ "Scan with your phone camera": [
+  "src/pages/Connect.jsx"
+ ],
+ "Scope": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Scores for every service": [
+  "src/components/site/LiveReviews.jsx"
+ ],
+ "Scots Gaelic": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Scripting & programming": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Scroll the decade": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Search a country…": [
+  "src/pages/Downloads.jsx"
+ ],
+ "Search countries": [
+  "src/pages/Downloads.jsx"
+ ],
+ "Search country": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "Search country or code": [
+  "src/components/site/CountryPicker.jsx"
+ ],
+ "Search languages": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Search reviews": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Search reviews, names, countries…": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Sector by sector": [
+  "src/components/site/PageHero.jsx"
+ ],
+ "Sector groups": [
+  "src/components/site/PageHero.jsx"
+ ],
+ "Sector sections": [
+  "src/pages/Downloads.jsx"
+ ],
+ "Security check": [
+  "src/components/site/ReviewPrompt.jsx",
+  "src/components/site/Gate.jsx"
+ ],
+ "See all rates &amp; reviews": [
+  "src/components/site/LiveReviews.jsx",
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Select your country": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "Send": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Send to a specialist": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Sending…": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Sent to": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Sent to your inbox": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Sepedi": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Serbian": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Service": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Service brochure": [
+  "src/components/site/Pdfs.jsx",
+  "src/pages/Downloads.jsx"
+ ],
+ "Service brochures": [
+  "src/pages/Downloads.jsx"
+ ],
+ "Service brochures and country panel books for": [
+  "src/pages/Downloads.jsx"
+ ],
+ "Services": [
+  "src/components/site/Pdfs.jsx",
+  "src/components/site/Hero58.jsx"
+ ],
+ "Services used": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Services you are reviewing (pick one or more)": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Sesotho": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Share my experience ✓": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Share of voice by service": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Share the realities of caring for someone so services, support and products can be designed around real needs.": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Share what you know in studies for brands, agencies and B#B research — and get rewarded for your time.": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Share your experience in your own words…": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Share your opinion.": [
+  "src/pages/Connect.jsx"
+ ],
+ "Share your story, your way": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Shared on frequentresearch.com": [
+  "src/components/site/LiveReviews.jsx"
+ ],
+ "Ship": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Shipped flawlessly": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Shona": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Short, scheduled sessions": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Show a new security code": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "Show more reviews": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Showing": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Shown as a deck of survey responses": [
+  "src/components/site/LiveReviews.jsx"
+ ],
+ "Shown as a live social feed": [
+  "src/components/site/LiveReviews.jsx"
+ ],
+ "Shown as a terminal review log": [
+  "src/components/site/LiveReviews.jsx"
+ ],
+ "Shown as printed receipts": [
+  "src/components/site/LiveReviews.jsx"
+ ],
+ "Shown publicly: name, country &amp; flag, company": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Shqip": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Since": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Sindhi": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Sinhala": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Six channels.": [
+  "src/pages/Connect.jsx"
+ ],
+ "Skip": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Sky-high": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Slovak": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Slovenian": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Slovenčina": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Slovenščina": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Slow updates": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "So we can tailor follow-ups to your market — never spam.": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Social": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Software that": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Solid insight": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Solid support": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Somali": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Some signal": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Some timelines slipped.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Soomaali": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Sorry, I couldn't reach our team just now. Please try again, or use email / WhatsApp.": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Sorry, I didn't catch that. Could you type just your full name? For example: Asha Rao": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Sort": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Sound": [
+  "src/components/site/Floaters.jsx"
+ ],
+ "Sound off": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Sound on": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Source": [
+  "src/components/site/Chat.jsx"
+ ],
+ "South America": [
+  "src/pages/Downloads.jsx"
+ ],
+ "Spanish": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Specialist": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Specialty": [
+  "src/components/site/Products.jsx"
+ ],
+ "Specialty matched": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Specialty-matched studies": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Stable software": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Standard": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Star split": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Start a chat": [
+  "src/pages/Connect.jsx"
+ ],
+ "Start a new conversation": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Statement": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Stay connected.": [
+  "src/pages/Connect.jsx"
+ ],
+ "Step # of #": [
+  "src/components/site/ReviewPrompt.jsx",
+  "src/components/site/Gate.jsx"
+ ],
+ "Step # · Check &amp; publish": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Step # · Choose your world": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Step # · In your words": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Step # · Your rating": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Step # · Your reviewer badge": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Still curious?": [
+  "src/components/site/Faq.jsx"
+ ],
+ "Straight to": [
+  "src/pages/Connect.jsx"
+ ],
+ "Strong insight": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Studies matched to your role": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Suggested questions": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Sundanese": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Suomi": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Suppliers": [
+  "src/components/site/Products.jsx"
+ ],
+ "Support after launch was solid.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Survey opportunities and rewards for consumers and professionals who share their opinions.": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Surveys that fit your day": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Surveys · panels · fieldwork · insight": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Suspicious-activity checks": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Svenska": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Swahili": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Swedish": [
+  "src/components/site/I18n.jsx"
+ ],
+ "TEXTAREA": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Tab": [
+  "src/components/site/CountryPicker.jsx",
+  "src/components/site/FrKit.jsx",
+  "src/components/site/ReviewPrompt.jsx",
+  "src/components/site/Gate.jsx"
+ ],
+ "Tables in this book": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Tajik": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Take part in healthcare studies matched to your specialty and experience, and get rewarded for your professional time.": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Take part when it suits you": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Takes under a minute": [
+  "src/components/site/LiveReviews.jsx"
+ ],
+ "Talk to a specialist": [
+  "src/components/site/Faq.jsx",
+  "src/components/site/Chat.jsx"
+ ],
+ "Talk to a specialist →": [
+  "src/components/site/Faq.jsx"
+ ],
+ "Talk to an Expert": [
+  "src/components/site/Hero58.jsx"
+ ],
+ "Talk to our # team": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Tamil": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Tap a card to flip it and reveal its QR code — or open the profile straight away.": [
+  "src/pages/Connect.jsx"
+ ],
+ "Tap to rate · # to #": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Targeting and feasibility": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Tatar": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Team moments and stories": [
+  "src/pages/Connect.jsx"
+ ],
+ "Teams": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Tech answers": [
+  "src/components/site/Faq.jsx"
+ ],
+ "Technology": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "Technology built for research": [
+  "src/components/site/Products.jsx"
+ ],
+ "Tell researchers what living with a condition is really like — your voice helps make treatment and care better for everyone.": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Tell us what's next.": [
+  "src/components/site/Footer.jsx"
+ ],
+ "Tell us your goal, audience, market or timeline.": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "Telugu": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Terms & Conditions": [
+  "src/components/site/Footer.jsx"
+ ],
+ "Test": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Test & refine": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Thai": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Thank you": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Thank you — your answer is anonymous.": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Thanks for stopping by — have a great day!": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Thanks! Briefly, what do you need — your goal, audience, markets or timeline?": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Thanks! I'll pass on your question: “#”. Anything to add — goal, audience, markets or timeline?": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Thanks! Your phone or WhatsApp number with country code, if you'd like a call — for example +# # #. You can skip this.": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Thanks, #! A specialist will reply to # within one working day.": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Thanks, #! Your details are noted. (Preview: on the live website this goes straight to our team.) You can also email #.": [
+  "src/components/site/Chat.jsx"
+ ],
+ "That code doesn't match. Try again or tap ↻ for a new one.": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "The Downloads page has a panel book for every country we profile — a business (B#B) edition and a consumer (B#C) edition — plus brochures for each of our four services. Choose a country, share a few details and the PDF downloads instantly.": [
+  "src/components/site/Chat.jsx"
+ ],
+ "The PDF could not be created in this browser. Please try again or write to info@frequentresearch.com.": [
+  "src/components/site/Gate.jsx"
+ ],
+ "The PDF tool did not load. Please refresh the page and try again.": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "The books were accurate.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "The challenge": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "The code was clean and maintainable.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "The company today": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "The creative ideas stood out.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "The data was clean and ready to use.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "The download was cancelled. Use “Download again” whenever you're ready.": [
+  "src/components/site/Gate.jsx"
+ ],
+ "The findings were clear and actionable.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "The foundation phase": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "The full picture": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "The leads were the right fit for us.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "The ledger": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "The monthly reports told us what to fix.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "The outcome": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "The panel book list could not be loaded. Please refresh the page, or write to info@frequentresearch.com.": [
+  "src/pages/Downloads.jsx"
+ ],
+ "The right specialist replies within one working day": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "The scope could have been defined more clearly at the start.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "The security code is still loading.": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "The software was stable and well built.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "The team behind the work": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "The team replied quickly.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "They covered every market we needed.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "They flagged issues before they became problems.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "They reached an audience we had struggled to find.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "This document is not available yet.": [
+  "src/pages/Downloads.jsx"
+ ],
+ "This page covers it: #. #": [
+  "src/components/site/Chat.jsx"
+ ],
+ "This panel book could not be loaded. Please try again.": [
+  "src/pages/Downloads.jsx"
+ ],
+ "Three proprietary panels,": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Three quick details and your copy is on its way.": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Tigrinya": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Timeline": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Tip: share any page in a language by adding ?lang=zh-CN (or another code) to the link.": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Tiếng Việt": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Today": [
+  "src/components/site/Earn.jsx",
+  "src/components/site/LiveReviews.jsx"
+ ],
+ "Tools we use": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Top returns": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Trail mix": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Transform insights": [
+  "src/components/site/Hero58.jsx"
+ ],
+ "Translated by our team": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Translated by the Frequent Research team": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Translator": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Trust & privacy": [
+  "src/components/site/PageHero.jsx"
+ ],
+ "Tsonga": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Turkish": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Turkmen": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Turn chat sound off": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Turn chat sound on": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Turn#Opinion": [
+  "src/components/site/ReviewPrompt.jsx",
+  "src/pages/OurJourney.jsx",
+  "src/pages/Connect.jsx"
+ ],
+ "Twi (Akan)": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Type the characters shown in the picture": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "Type the code": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "Type the security code shown.": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "Type your message": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Typical timelines": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Türkmen": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Türkçe": [
+  "src/components/site/I18n.jsx"
+ ],
+ "US": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Ukrainian": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Unclear scope": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Unlock": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Unlock & download": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Unlock your copy": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Unlocked — your PDF is ready": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Updates, events and celebrations": [
+  "src/pages/Connect.jsx"
+ ],
+ "Urdu": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Use letters only (spaces, dots, apostrophes and hyphens are fine).": [
+  "src/components/site/FrKit.jsx",
+  "src/components/site/Chat.jsx",
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Use letters only.": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "Use the “Rate & Review” tab on the right edge of any page. Pick the service you worked with, add a star rating and a few words; your review then appears in our Client Testimonials.": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Useful MIS": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Usually replies fast": [
+  "src/components/site/Floaters.jsx"
+ ],
+ "Usually replies within a working day": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "Uyghur": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Uzbek": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Verification protects every study": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Verified expert": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Verified, confidential panels": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Very good": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Vietnamese": [
+  "src/components/site/I18n.jsx"
+ ],
+ "View our Google Business Profile": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Visit Sampledge": [
+  "src/pages/Connect.jsx"
+ ],
+ "Visit portal": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Watermarked": [
+  "src/components/site/Gate.jsx"
+ ],
+ "We listen to you.": [
+  "src/components/site/Earn.jsx"
+ ],
+ "We read your message": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "We serve the quality you expect": [
+  "src/components/site/Footer.jsx",
+  "src/components/site/Hero58.jsx"
+ ],
+ "We've emailed “#” to #. It usually arrives within a few minutes — check your spam folder if you don't see it.": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Website": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Website Review": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Welcome back,": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Welsh": [
+  "src/components/site/I18n.jsx"
+ ],
+ "What IT and software development services do you offer?": [
+  "src/components/site/Chat.jsx"
+ ],
+ "What accounts and finance services do you offer?": [
+  "src/components/site/Chat.jsx"
+ ],
+ "What can we help with?": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "What clients say,": [
+  "src/components/site/LiveReviews.jsx"
+ ],
+ "What digital marketing services do you offer?": [
+  "src/components/site/Chat.jsx"
+ ],
+ "What happens": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "What is #?": [
+  "src/components/site/Chat.jsx"
+ ],
+ "What is the ESOMAR # questionnaire?": [
+  "src/components/site/Chat.jsx"
+ ],
+ "What is the history of Frequent Research? When was it founded?": [
+  "src/components/site/Chat.jsx"
+ ],
+ "What makes it different": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "What market research services do you offer?": [
+  "src/components/site/Chat.jsx"
+ ],
+ "What should we do better?": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "What stood out?": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "What would make it great?": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "What would you like to do?": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "What you can count on": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "WhatsApp": [
+  "src/components/site/Chat.jsx",
+  "src/components/site/Hero58.jsx",
+  "src/pages/Connect.jsx"
+ ],
+ "WhatsApp Support": [
+  "src/components/site/Footer.jsx"
+ ],
+ "WhatsApp support": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "WhatsApp support: chat with us on #": [
+  "src/components/site/Floaters.jsx"
+ ],
+ "WhatsApp us": [
+  "src/components/site/Floaters.jsx"
+ ],
+ "Where can I download a panel book?": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Where can I get the B#B or consumer panel book for a country?": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Where do you work?": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Where reviewers are": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Where we're heading": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "Which service did we deliver for you?": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Which snack would you buy?": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Who is in it": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Who we are": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Who's reading?": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Who's writing this review?": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Why clients choose Frequent Research": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "Why it matters": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "With warnings": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Within # working day": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "Work": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Work email": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Worked with Frequent Research?": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Worked with more than one team? Pick them all — your review is shown under each.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Worked with our": [
+  "src/components/site/LiveReviews.jsx"
+ ],
+ "Worked with us?": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Write a Google review": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Write at least # characters (#/#).": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Write the first one": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "Writing the next guide": [
+  "src/components/site/PageHero.jsx"
+ ],
+ "XX": [
+  "src/components/site/CountryPicker.jsx"
+ ],
+ "Xhosa": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Xin chào": [
+  "src/components/site/Hero58.jsx"
+ ],
+ "Xitsonga": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Yes": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Yes — yearly billing on Sampledge saves #% compared with paying monthly for twelve months. Pricing and plans are on the Sampledge page, and every plan button takes you to the Sampledge site.": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Yes. Every case study on the Industries & Case Studies pages has a Download PDF button. Share a few details and a watermarked PDF downloads straight away.": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Yes. Our # business panel profiles # professionals, as published in the # B#B panel book — with company size, revenue and#. You can download the # B#B panel book from the Downloads page.": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Yes. Our # consumer panel profiles # people, as published in the # consumer panel book — with demographics, income, lifestyle, technology and category profiles. You can download the # consumer panel book from the Downloads page.": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Yes. Our digital team will join the same call. One partner, four teams.": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "Yes. There are separate brochures for Market Research, Digital Marketing, IT & Development and Finance & Accounts on the Downloads page.": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Yesterday": [
+  "src/components/site/LiveReviews.jsx"
+ ],
+ "Yiddish": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Yoruba": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Yorùbá": [
+  "src/components/site/I18n.jsx"
+ ],
+ "You": [
+  "src/components/site/ReviewPrompt.jsx",
+  "src/components/site/Gate.jsx"
+ ],
+ "You care for them.": [
+  "src/components/site/Earn.jsx"
+ ],
+ "You get a clear answer": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "You're welcome! Anything else I can help with?": [
+  "src/components/site/Chat.jsx"
+ ],
+ "YouTube": [
+  "src/components/site/ReviewPrompt.jsx",
+  "src/pages/Connect.jsx"
+ ],
+ "Your PDF is downloading now. Check your browser's downloads if it doesn't open automatically.": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Your browser": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Your clinical insight": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Your country": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Your data stays private": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Your details": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Your details from earlier in this visit are ready — one click for “": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Your experience can": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Your experience matters": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Your expertise,": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Your first name needs at least # letters.": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "Your full name": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Your name": [
+  "src/components/site/ReviewPrompt.jsx",
+  "src/components/site/Gate.jsx"
+ ],
+ "Your name needs at least # letters.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Your opinion": [
+  "src/components/site/Earn.jsx"
+ ],
+ "Your question": [
+  "src/components/site/Chat.jsx"
+ ],
+ "Your rating out of #": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Your request could not be sent.": [
+  "src/components/site/FrKit.jsx",
+  "src/components/site/Gate.jsx"
+ ],
+ "Your request reached our team. “#” will be emailed to # shortly.": [
+  "src/components/site/Gate.jsx"
+ ],
+ "Your review": [
+  "src/components/site/LiveReviews.jsx"
+ ],
+ "Your review (required)": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Your review at a glance": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Your review could not be sent.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Your review has reached our team, and you can already see it in the Client Testimonials section.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Your review has reached us. It will appear in our client testimonials as soon as it has been checked.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Your review is live in our client testimonials and on the Rates & Reviews page.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Your review will appear here, exactly as you write it.": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "Zulu": [
+  "src/components/site/I18n.jsx"
+ ],
+ "a an the and or but if of to in on at by for with from about as is are was were be been being do does did can could should would will shall may might must i me my we our us you your yours it its this that these those there here what which who whom whose when where why how am have has had not no yes please tell know want need get give any some more most much many very just also than then so such into over under out up down off again further once all both each few other own same too only s t don now hi hey hello ok okay offer offers offering provide provides providing anything something": [
+  "src/components/site/Chat.jsx"
+ ],
+ "a proposal, feasibility or quote — no obligation.": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "access to the right people.": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "act on.": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "add up.": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "and assign the right specialist for your brief.": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "and company": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "audience composition": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "bcover bcover--# frb frb--# frb--##": [
+  "src/components/site/BlogCover.jsx"
+ ],
+ "build(website, app);": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "by email": [
+  "src/components/site/Gate.jsx"
+ ],
+ "calc(#% + #px)": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "company name": [
+  "src/components/site/ReviewPrompt.jsx",
+  "src/components/site/Gate.jsx"
+ ],
+ "const team = 'IT';": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "countries reachable through the wider recruitment model (reported)": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "country panel books": [
+  "src/pages/Downloads.jsx"
+ ],
+ "days ago": [
+  "src/components/site/LiveReviews.jsx"
+ ],
+ "development practice begins": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "direct lines": [
+  "src/pages/Connect.jsx"
+ ],
+ "each in its own colours.": [
+  "src/pages/Downloads.jsx"
+ ],
+ "for you.": [
+  "src/pages/Downloads.jsx"
+ ],
+ "foundation phase": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "fr reviews --service=it --format=log": [
+  "src/components/site/LiveReviews.jsx"
+ ],
+ "fr score --service=it": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "gave #★ or #★": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "gender profiles": [
+  "src/components/site/Chat.jsx"
+ ],
+ "googtrans=/en/#; path=/#": [
+  "src/components/site/I18n.jsx"
+ ],
+ "googtrans=; path=/; expires=Thu, # Jan # # GMT#": [
+  "src/components/site/I18n.jsx"
+ ],
+ "healthcare consumers (reported at launch)": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "healthcare professionals (reported at launch)": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "hong kong": [
+  "src/components/site/Chat.jsx"
+ ],
+ "hsla(#,#%,#%,.#)": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "illustrative examples, clearly labelled on each sector page.": [
+  "src/components/site/PageHero.jsx"
+ ],
+ "improve healthcare.": [
+  "src/components/site/Earn.jsx"
+ ],
+ "in a new tab)": [
+  "src/components/site/Earn.jsx"
+ ],
+ "industries · tap a sector": [
+  "src/components/site/PageHero.jsx"
+ ],
+ "info@frequentresearch.com": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "info@frequentresearch.com | +# # # (call / WhatsApp)": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "integrated partner for research and business support": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "international markets (reported)": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "into action.": [
+  "src/components/site/Hero58.jsx"
+ ],
+ "kb not loaded": [
+  "src/components/site/Chat.jsx"
+ ],
+ "markets — consumer and business editions — as branded PDFs, ready in seconds.": [
+  "src/pages/Downloads.jsx"
+ ],
+ "min read": [
+  "src/components/site/PageHero.jsx"
+ ],
+ "no reviews yet": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "not now": [
+  "src/components/site/Chat.jsx"
+ ],
+ "often with the first questions that sharpen the plan.": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "one ecosystem.": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "out of #": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "out of # from": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "own words.": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "page-hero fri": [
+  "src/components/site/PageHero.jsx"
+ ],
+ "panel book": [
+  "src/pages/Downloads.jsx"
+ ],
+ "panel books": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "panel books ·": [
+  "src/pages/Downloads.jsx"
+ ],
+ "panel links": [
+  "src/pages/Connect.jsx"
+ ],
+ "panel members": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "physicians & specialists": [
+  "src/components/site/MarketplaceArt.jsx"
+ ],
+ "plus the teams to act on it.": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "privacy policy": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "profile tables": [
+  "src/pages/Downloads.jsx"
+ ],
+ "profiled consumers": [
+  "src/pages/Downloads.jsx"
+ ],
+ "profiled professionals": [
+  "src/pages/Downloads.jsx"
+ ],
+ "proprietary panels": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "proprietary research communities": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "ready in seconds.": [
+  "src/pages/Downloads.jsx"
+ ],
+ "research markets": [
+  "src/components/site/Hero58.jsx"
+ ],
+ "reviews yet": [
+  "src/components/site/LiveReviews.jsx"
+ ],
+ "reviews — it-development": [
+  "src/components/site/LiveReviews.jsx"
+ ],
+ "rgba(#,#)": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "rotate(# # #)": [
+  "src/components/site/MarketplaceArt.jsx"
+ ],
+ "rotate(#deg)": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "rotate(-# # #)": [
+  "src/components/site/MarketplaceArt.jsx"
+ ],
+ "rotateX(#deg) translateZ(#px)": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "rx-go rv-go": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "saudi arabia": [
+  "src/components/site/Chat.jsx"
+ ],
+ "sector sections": [
+  "src/pages/Downloads.jsx"
+ ],
+ "sector-by-sector department and job-title distributions": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "sector-level role profiles": [
+  "src/components/site/Chat.jsx"
+ ],
+ "service brochures": [
+  "src/pages/Downloads.jsx"
+ ],
+ "service by service.": [
+  "src/components/site/LiveReviews.jsx"
+ ],
+ "services explained": [
+  "src/pages/Downloads.jsx"
+ ],
+ "services · # teams": [
+  "src/components/site/Hero58.jsx"
+ ],
+ "shapes better care.": [
+  "src/components/site/Earn.jsx"
+ ],
+ "social channels": [
+  "src/pages/Connect.jsx"
+ ],
+ "talk about.": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "team members (reported)": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "team? Yours can be the first.": [
+  "src/components/site/LiveReviews.jsx"
+ ],
+ "teams today": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "teams under one roof": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "to final report.": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "to four teams under one roof.": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "translate(# #)": [
+  "src/components/site/BlogCover.jsx",
+  "src/components/site/MarketplaceArt.jsx"
+ ],
+ "translate(# #) scale(#)": [
+  "src/components/site/BlogCover.jsx"
+ ],
+ "translateZ(-#px) rotateX(#deg)": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "united arab emirates": [
+  "src/components/site/Chat.jsx"
+ ],
+ "united kingdom": [
+  "src/components/site/Chat.jsx"
+ ],
+ "united states": [
+  "src/components/site/Chat.jsx"
+ ],
+ "url(##)": [
+  "src/components/site/MarketplaceArt.jsx"
+ ],
+ "url(##b)": [
+  "src/components/site/BlogCover.jsx"
+ ],
+ "url(##g#)": [
+  "src/components/site/BlogCover.jsx"
+ ],
+ "url(##g)": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "url(##p)": [
+  "src/components/site/BlogCover.jsx"
+ ],
+ "url(##s)": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "url(#)": [
+  "src/components/site/FrKit.jsx"
+ ],
+ "userSpaceOnUse": [
+  "src/components/site/BlogCover.jsx"
+ ],
+ "verified consumer panellists (reported)": [
+  "src/pages/OurJourney.jsx"
+ ],
+ "what you need.": [
+  "src/pages/Connect.jsx"
+ ],
+ "with the teams you picked": [
+  "src/components/site/ReviewPrompt.jsx"
+ ],
+ "www.frequentresearch.com/services/#": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "xMidYMid slice": [
+  "src/components/site/BlogCover.jsx",
+  "src/components/site/Footer.jsx"
+ ],
+ "· Service brochure": [
+  "src/components/site/Pdfs.jsx"
+ ],
+ "· avg": [
+  "src/components/site/LiveReviews.jsx"
+ ],
+ "· watermarked": [
+  "src/components/site/Gate.jsx"
+ ],
+ "ʻŌlelo Hawaiʻi": [
+  "src/components/site/I18n.jsx"
+ ],
+ "Γεια σας": [
+  "src/components/site/Hero58.jsx"
+ ],
+ "— often with the first questions that sharpen your brief.": [
+  "src/pages/LetsTalk.jsx"
+ ],
+ "” with your name on it.": [
+  "src/components/site/Gate.jsx"
+ ],
+ "”. Choose “Other country” to type a code.": [
+  "src/components/site/CountryPicker.jsx"
+ ],
+ "▲ strong": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "● steady": [
+  "src/pages/RatesReviews.jsx"
+ ],
+ "✓ build passing ·": [
+  "src/pages/RatesReviews.jsx"
+ ]
+}

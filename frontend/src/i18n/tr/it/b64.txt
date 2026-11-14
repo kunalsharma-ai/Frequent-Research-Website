@@ -1,0 +1,54 @@
+1	La sfida
+2	Competenze
+3	attività elencate
+4	Competenza
+5	attività
+6	Attività
+7	Attività del nostro catalogo servizi
+8	Competenza precedente
+9	Competenza successiva
+10	Fase
+11	← Fase precedente
+12	Fase successiva →
+13	Mensile
+14	ciclo paghe
+15	+ GST applicabile
+16	inclusioni
+17	Torna al riepilogo
+18	Consigliato
+19	Confronta tutte le funzioni
+20	Evidenzia un piano
+21	Termini:
+22	Strumento interattivo
+23	Parla delle tue esigenze
+24	Requisiti
+25	Mostra l’offerta
+26	Apri tutto
+27	risposte
+28	Cerca tra le domande
+29	Richiedi un preventivo su misura
+30	Preventivo su misura · scritto prima dell’inizio
+31	Cosa succede prima di impegnarti?
+32	Vedi i piani
+33	Prenota una consulenza gratuita di # minuti
+34	Gira
+35	Mostra il codice QR
+36	A chi si rivolge
+37	Vai
+38	Offerte commerciali
+39	Chi supportiamo
+40	Ambito
+41	Servizi correlati
+42	Parla di questa esigenza
+43	Le attività incluse nell’incarico dipendono dal piano scelto e dall’ambito scritto.
+44	Funzione
+45	Prezzo
+46	Prezzo per dichiarazione
+47	Il nostro prodotto
+48	Scarica
+49	Confronto dai nostri pacchetti di servizi pubblicati. Ciò che non è elencato viene confermato nell’ambito dell’incarico.
+50	Il più scelto
+51	Vedi tutto
+52	A partire da
+53	Scegli
+54	Processo in # fasi

@@ -1,0 +1,71 @@
+1	QR & Connexion
+2	Scannez pour nous suivre, ainsi que nos panels et Sampledge.
+3	Passer au thème sombre
+4	Passer au thème clair
+5	Thème sombre
+6	Thème clair
+7	Ça vous parle ?
+8	Survolez ou touchez un reçu pour voir comment nous aidons.
+9	Comment nous aidons
+10	Ce qui est inclus
+11	Notre méthode
+12	Formules et tarifs
+13	Le plus choisi
+14	Essentiel
+15	Croissance
+16	Premium
+17	Comparer toutes les fonctionnalités
+18	Masquer la comparaison complète
+19	Livrables clés
+20	Non inclus
+21	Bon à savoir
+22	Pour qui nous travaillons
+23	Pensé pour votre type d'entreprise
+24	Se combine bien avec
+25	Services financiers associés
+26	Réservez une consultation gratuite de 20 minutes
+27	Voir les formules et tarifs
+28	Comment fonctionnent les tarifs
+29	Formules dès
+30	Formules à partir de
+31	À partir de
+32	hors GST
+33	domaines de compétence
+34	activités couvertes
+35	formules transparentes
+36	étapes
+37	Devis sur mesure
+38	Les offres ne sont pas cumulables. L'éligibilité est confirmée dans votre proposition.
+39	Réserver mon appel gratuit
+40	La clarté de chaque chiffre commence par une conversation
+41	Explorateur de tarifs
+42	Des formules transparentes, côte à côte
+43	Packs
+44	Offres de lancement
+45	Pas de surprise
+46	Conditions commerciales claires
+47	Pourquoi c'est important
+48	Quatre pôles d'expertise
+49	/mois
+50	/an
+51	/déclaration
+52	/projet
+53	Comptabilité et reporting
+54	Fiscalité et conformité
+55	Planification et financement
+56	Finance stratégique
+57	Choisir
+58	Voir le QR
+59	Panel officiel
+60	Scannez pour suivre
+61	Assistance WhatsApp
+62	Chaque panel.
+63	Chaque profil. Un seul scan.
+64	Choisissez un panel pour voir son site, ses réseaux sociaux et son assistance WhatsApp, chacun avec son propre QR code.
+65	QR codes des panels
+66	Tous nos panels au même endroit :
+67	02 · Nos panels de recherche
+68	services financiers
+69	formules claires chacun
+70	appel découverte gratuit
+71	Découvrir

@@ -1,0 +1,57 @@
+1	Dengarkan setiap suara yang penting.
+2	Dari satu pertanyaan menjadi keputusan yang yakin.
+3	Survei, panel, dan insight di #+ pasar
+4	Bergabunglah dengan panel kami — pendapat Anda dihargai
+5	Ditemukan. Disukai. Dipilih.
+6	Kampanye yang mengubah penggulir menjadi pelanggan.
+7	SEO, iklan, media sosial, dan performance marketing
+8	Konten yang benar-benar membuat pelanggan berhenti
+9	Ide masuk. Perangkat lunak keluar.
+10	Situs, aplikasi, dan platform yang dirancang untuk berkembang.
+11	Pengembangan web, mobile, SaaS, cloud, dan AI
+12	Pengalaman yang dinikmati pengguna setiap hari
+13	Angka yang selalu cocok.
+14	Pembukuan rapi, kepatuhan tepat waktu, keputusan jelas.
+15	Pembukuan, GST, penggajian, pajak, dan CFO virtual
+16	Ketenangan bagi para pendiri dan timnya
+17	Untuk bisnis
+18	Untuk konsumen & profesional
+19	Untuk audiens Anda
+20	+# lainnya
+21	Jelajahi Riset Pasar
+22	Jelajahi Pemasaran Digital
+23	Jelajahi TI & Pengembangan
+24	Jelajahi Akuntansi & Keuangan
+25	Baca dalam bahasa Anda
+26	
+27	Pemasaran
+28	
+29	Pembeli
+30	
+31	Pelajar
+32	Orang tua
+33	Insinyur
+34	
+35	Insight siap
+36	Keputusan
+37	Kuanti
+38	Kuali
+39	Panel
+40	Lead baru
+41	Postingan dibagikan
+42	Checkout
+43	Beli sekarang
+44	Cloud
+45	Antarmuka
+46	Build
+47	Uji
+48	Live
+49	Buku besar
+50	Pembukuan
+51	Penggajian
+52	
+53	Direkonsiliasi ✓
+54	Jeda slide
+55	Putar slide
+56	Pilih layanan
+57	Layanan kami

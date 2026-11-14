@@ -1,0 +1,4415 @@
+{
+"1 MASTER PROMPT ACCOUNTING & BOOKKEEPING SERVICES.txt": {
+"hero": [
+"Hero section",
+"Create a compelling, high-impact opening screen.",
+"Suggested headline:",
+"Reliable Accounting & Bookkeeping Services That Keep Your Business Financially Organized",
+"Supporting copy:",
+"Spend less time managing routine financial records and more time growing your business. Explore accounting and bookkeeping support designed to improve record accuracy, streamline financial workflows, and give your team a clearer view of business performance.",
+"Primary CTA: Request a Free Consultation",
+"Secondary CTA: Explore Our Services",
+"Optional tertiary CTA: Request a Custom Quote",
+"Only use the word “free” if consultations are genuinely offered without charge.",
+"Add a modern interactive financial dashboard featuring illustrative elements such as:",
+"Revenue and expense trends.",
+"Bank reconciliation progress.",
+"Accounts payable and receivable."
+],
+"caps": [],
+"faq": [],
+"process": [
+"Step 1 — Understand",
+"Step 2 — Assess",
+"Step 3 — Define",
+"Step 4 — Organize",
+"Step 5 — Process",
+"Step 6 — Review",
+"Step 7 — Deliver"
+],
+"ind": [
+"9. Who Can Benefit From Our Services?",
+"Create an interactive industry and business-type selector",
+"Startups and entrepreneurs",
+"Small and medium-sized businesses",
+"E-commerce and online retail",
+"Professional services",
+"IT and technology companies",
+"Marketing and creative agencies",
+"Consultants and independent businesses",
+"Wholesale and distribution",
+"Retail operations",
+"Project-based businesses",
+"E-commerce businesses",
+"Professional services firms",
+"Startups",
+"Growing SMEs",
+"CTA: Discuss Your Industry Requirements"
+],
+"kw": []
+},
+"10 MIS & Financial MASTER PROMPT FOR CLAUDE AI.txt": {
+"hero": [
+"Advanced 3D Hero Section.",
+"MIS & Financial Reporting Overview.",
+"Common Business Reporting Challenges.",
+"Complete MIS and Reporting Capabilities.",
+"Interactive Financial Reporting Lifecycle.",
+"Our MIS Reporting Work Process.",
+"Our Work Culture and Client Engagement Methodology.",
+"Interactive Executive MIS Dashboard.",
+"Financial KPI Monitoring.",
+"Reporting Automation and Technology.",
+"Financial Data Quality Assurance.",
+"Industry-Specific MIS Solutions.",
+"Reporting Engagement Models.",
+"Verified Business Outcomes."
+],
+"caps": [
+[
+"DETAILED MIS & FINANCIAL REPORTING CAPABILITIES",
+[
+"Service overview",
+"Business challenges",
+"Target clients",
+"Proposed or verified approach",
+"Detailed methodology",
+"Required data",
+"Technology and tools",
+"Quality checks",
+"Expected deliverables",
+"Potential business benefits",
+"Relevant FAQs",
+"Consultation CTA"
+]
+],
+[
+"MANAGEMENT INFORMATION SYSTEM REPORTING",
+[
+"MIS report design",
+"Financial data collection",
+"Management reporting",
+"KPI monitoring",
+"Periodic reports",
+"Trend analysis",
+"Exception reporting",
+"Executive summaries"
+]
+],
+[
+"FINANCIAL STATEMENT REPORTING SUPPORT",
+[
+"Profit and loss reports",
+"Balance sheet schedules",
+"Cash-flow statements",
+"Financial summaries",
+"Supporting schedules",
+"Reconciliation",
+"Management reporting",
+"Distinguish management reporting support from statutory audit or certification"
+]
+],
+[
+"EXECUTIVE FINANCIAL DASHBOARDS",
+[
+"Executive KPI dashboards",
+"Revenue trends",
+"Expense trends",
+"Profitability",
+"Cash flow",
+"Working capital",
+"Financial ratios",
+"Interactive filters",
+"Management insights"
+]
+],
+[
+"REVENUE AND SALES REPORTING",
+[
+"Revenue analysis",
+"Sales trends",
+"Customer segments",
+"Product performance",
+"Business unit revenue",
+"Revenue variance",
+"Period comparisons",
+"Management reporting"
+]
+],
+[
+"EXPENSE AND COST REPORTING",
+[
+"Expense categorization",
+"Cost center reporting",
+"Department expenses",
+"Fixed costs",
+"Variable costs",
+"Expense trends",
+"Budget comparisons",
+"Cost analysis"
+]
+],
+[
+"PROFITABILITY REPORTING",
+[
+"Gross profit",
+"Operating profit",
+"Net profit",
+"Product profitability",
+"Service profitability",
+"Department profitability",
+"Margin analysis",
+"Profitability dashboards"
+]
+],
+[
+"CASH-FLOW REPORTING",
+[
+"Cash inflows",
+"Cash outflows",
+"Operating cash flow",
+"Cash balances",
+"Cash-flow trends",
+"Liquidity monitoring",
+"Payment schedules",
+"Management reporting"
+]
+],
+[
+"BUDGET VS. ACTUAL REPORTING",
+[
+"Budget data",
+"Actual financial performance",
+"Variance calculations",
+"Department comparisons",
+"Revenue variance",
+"Expense variance",
+"Management explanations",
+"Corrective action tracking"
+]
+],
+[
+"WORKING CAPITAL REPORTING",
+[
+"Receivables",
+"Payables",
+"Inventory",
+"Cash conversion cycle",
+"Aging reports",
+"Liquidity ratios",
+"Working capital trends",
+"Management dashboards"
+]
+],
+[
+"FINANCIAL KPI REPORTING",
+[
+"KPI identification",
+"Metric definitions",
+"Financial ratios",
+"Revenue growth",
+"Gross margin",
+"Operating margin",
+"Cash-flow metrics",
+"Working capital KPIs",
+"Dashboard design"
+]
+],
+[
+"DEPARTMENT AND BUSINESS UNIT REPORTING",
+[
+"Department budgets",
+"Cost center reporting",
+"Business unit revenue",
+"Profitability",
+"Expense allocation",
+"Performance comparisons",
+"Management reporting"
+]
+],
+[
+"MULTI-ENTITY FINANCIAL REPORTING",
+[
+"Entity-level financial information",
+"Reporting consistency",
+"Financial data consolidation",
+"Intercompany considerations",
+"Reporting schedules",
+"Group dashboards",
+"Management summaries",
+"Distinguish management consolidation from statutory consolidation requirements"
+]
+],
+[
+"FINANCIAL REPORTING AUTOMATION",
+[
+"Automated data collection",
+"Data validation",
+"Reporting templates",
+"Scheduled reporting",
+"Dashboard refreshes",
+"Exception alerts",
+"Workflow automation",
+"Process documentation"
+]
+],
+[
+"BUSINESS INTELLIGENCE AND DATA VISUALIZATION",
+[
+"Financial data modeling",
+"Dashboard development",
+"Interactive charts",
+"KPI visualization",
+"Trend analysis",
+"Financial storytelling",
+"Executive reporting",
+"Self-service analytics"
+]
+],
+[
+"OUTSOURCED MIS & FINANCIAL REPORTING",
+[
+"Recurring MIS preparation",
+"Monthly reporting",
+"Financial analysis",
+"KPI monitoring",
+"Dashboard maintenance",
+"Data reconciliation",
+"Management summaries",
+"Reporting process improvement"
+]
+]
+],
+"faq": [],
+"process": [
+"Step 1: Understanding Reporting Requirements",
+"Step 2: Data Source Identification",
+"Step 3: Data Collection and Validation",
+"Step 4: Financial Data Processing",
+"Step 5: Analysis and Dashboard Development",
+"Step 6: Quality Assurance",
+"Step 7: Management Reporting",
+"Step 8: Ongoing Monitoring and Improvement"
+],
+"ind": [
+"15. INDUSTRY-SPECIFIC MIS & FINANCIAL REPORTING",
+"Startups",
+"Manufacturing",
+"Retail",
+"Wholesale Distribution",
+"IT and SaaS",
+"Healthcare",
+"Hospitality",
+"Logistics",
+"Construction",
+"Real Estate",
+"E-Commerce",
+"Professional Services",
+"Educational Institutions",
+"Financial Services",
+"Multi-Location Enterprises",
+"Common reporting challenges",
+"Revenue characteristics",
+"Expense structures",
+"Financial KPIs"
+],
+"kw": [
+"24. HIGH-VALUE SEO KEYWORD STRATEGY",
+"Research relevant commercial and informational keywords.",
+"Do not invent keyword metrics.",
+"Primary Keywords",
+"MIS reporting services",
+"Financial reporting services",
+"MIS and financial reporting",
+"Management information system reporting",
+"Financial MIS services",
+"MIS reporting services in India",
+"Outsourced MIS reporting",
+"Financial dashboard services",
+"Financial reporting outsourcing",
+"Management reporting services",
+"Secondary Keywords",
+"Monthly MIS reporting",
+"Financial performance reporting",
+"Executive financial dashboards",
+"Financial KPI reporting",
+"Revenue reporting services",
+"Expense reporting services",
+"Profitability reporting",
+"Cash-flow reporting",
+"Budget variance reporting",
+"Working capital reporting",
+"Financial data consolidation",
+"Financial reporting automation",
+"Business intelligence reporting",
+"Financial dashboard development",
+"Management reporting outsourcing",
+"Long-Tail Keywords",
+"MIS reporting services for small businesses",
+"Financial reporting outsourcing services in India",
+"Monthly MIS reporting services for companies",
+"Executive financial dashboard development",
+"Financial KPI dashboard services for SMEs",
+"Budget vs. actual reporting services",
+"Financial reporting automation for businesses",
+"Outsourced management reporting services",
+"Financial performance reporting for enterprises"
+]
+},
+"11 Budgeting & Financial Forecasting MASTER PROMPT FOR CLAUDE AI.txt": {
+"hero": [
+"Advanced 3D Hero Section.",
+"Budgeting & Financial Forecasting Overview.",
+"Common Business Planning Challenges.",
+"Complete Budgeting and Forecasting Capabilities.",
+"Interactive Financial Planning Lifecycle.",
+"Our Budgeting and Forecasting Work Process.",
+"Our Work Culture and Client Engagement Methodology.",
+"Interactive Financial Forecasting Simulator.",
+"Budget vs. Actual Dashboard.",
+"Financial Scenario Planning.",
+"Technology and Financial Modeling Tools.",
+"Forecast Quality Assurance Framework.",
+"Industry-Specific Budgeting Solutions.",
+"Budgeting Engagement Models."
+],
+"caps": [
+[
+"DETAILED BUDGETING & FINANCIAL FORECASTING CAPABILITIES",
+[
+"Each service must include:",
+"Service overview",
+"Business challenges",
+"Target clients",
+"Proposed or verified approach",
+"Detailed methodology",
+"Required financial information",
+"Financial tools",
+"Quality assurance",
+"Expected deliverables",
+"Potential business benefits",
+"Relevant FAQs",
+"Consultation CTA"
+]
+],
+[
+"ANNUAL BUSINESS BUDGETING",
+[
+"Annual financial plans",
+"Revenue assumptions",
+"Operating expenses",
+"Department budgets",
+"Capital expenditure",
+"Cash requirements",
+"Budget approvals",
+"Performance monitoring"
+]
+],
+[
+"REVENUE FORECASTING",
+[
+"Historical revenue",
+"Sales trends",
+"Customer segments",
+"Product revenue",
+"Service revenue",
+"Growth assumptions",
+"Seasonality",
+"Revenue scenarios"
+]
+],
+[
+"EXPENSE FORECASTING",
+[
+"Fixed expenses",
+"Variable expenses",
+"Payroll costs",
+"Vendor costs",
+"Operating expenses",
+"Cost inflation assumptions",
+"Expense trends",
+"Forecast revisions"
+]
+],
+[
+"CASH-FLOW FORECASTING",
+[
+"Cash inflows",
+"Cash outflows",
+"Receivables",
+"Payables",
+"Liquidity requirements",
+"Payment schedules",
+"Cash shortfalls",
+"Cash-flow scenarios"
+]
+],
+[
+"ROLLING FORECASTS",
+[
+"Monthly forecast updates",
+"Quarterly forecast updates",
+"Historical performance",
+"Updated assumptions",
+"Revenue revisions",
+"Expense revisions",
+"Cash-flow updates",
+"Management reporting"
+]
+],
+[
+"BUDGET VS. ACTUAL ANALYSIS",
+[
+"Approved budgets",
+"Actual financial performance",
+"Revenue variance",
+"Expense variance",
+"Department variance",
+"Variance explanations",
+"Corrective action tracking",
+"Management reporting"
+]
+],
+[
+"DEPARTMENTAL BUDGETING",
+[
+"Department budgets",
+"Cost centers",
+"Resource allocation",
+"Hiring costs",
+"Operating expenses",
+"Budget approvals",
+"Variance monitoring",
+"Department reporting"
+]
+],
+[
+"CAPITAL EXPENDITURE BUDGETING",
+[
+"Capital expenditure requirements",
+"Project costs",
+"Asset acquisition",
+"Investment timing",
+"Cash-flow impact",
+"Funding requirements",
+"Scenario analysis",
+"Budget monitoring"
+]
+],
+[
+"WORKING CAPITAL FORECASTING",
+[
+"Receivables projections",
+"Payables projections",
+"Inventory assumptions",
+"Cash conversion cycle",
+"Working capital requirements",
+"Liquidity planning",
+"Forecasting models"
+]
+],
+[
+"FINANCIAL SCENARIO PLANNING",
+[
+"Base-case scenarios",
+"Optimistic scenarios",
+"Conservative scenarios",
+"Revenue assumptions",
+"Expense assumptions",
+"Cash-flow impact",
+"Risk considerations",
+"Management decision support"
+]
+],
+[
+"FINANCIAL SENSITIVITY ANALYSIS",
+[
+"Revenue sensitivity",
+"Cost sensitivity",
+"Margin sensitivity",
+"Cash-flow sensitivity",
+"Working capital assumptions",
+"Capital expenditure",
+"Scenario comparisons",
+"Risk indicators"
+]
+],
+[
+"STARTUP FINANCIAL FORECASTING",
+[
+"Startup revenue assumptions",
+"Burn rate",
+"Cash runway",
+"Hiring plans",
+"Operating costs",
+"Funding scenarios",
+"Financial projections",
+"Growth assumptions"
+]
+],
+[
+"BUSINESS EXPANSION FORECASTING",
+[
+"Expansion revenue",
+"New operating expenses",
+"Capital expenditure",
+"Working capital",
+"Cash-flow requirements",
+"Break-even analysis",
+"Financial feasibility",
+"Scenario planning"
+]
+],
+[
+"INTEGRATED THREE-STATEMENT FORECASTING",
+[
+"Forecast profit and loss",
+"Forecast balance sheet",
+"Forecast cash-flow statement",
+"Supporting schedules",
+"Working capital",
+"Debt assumptions",
+"Capital expenditure",
+"Model consistency"
+]
+],
+[
+"OUTSOURCED BUDGETING & FP&A SUPPORT",
+[
+"Recurring budgeting",
+"Rolling forecasts",
+"Budget variance analysis",
+"Management dashboards",
+"Scenario modeling",
+"Financial reporting",
+"Forecast updates",
+"Management reviews"
+]
+]
+],
+"faq": [],
+"process": [
+"Step 1: Understanding Business Objectives",
+"Step 2: Historical Financial Data Collection",
+"Step 3: Data Validation",
+"Step 4: Assumption Development",
+"Step 5: Budget and Forecast Modeling",
+"Step 6: Scenario Analysis and Quality Assurance",
+"Step 7: Management Review",
+"Step 8: Monitoring and Forecast Updates"
+],
+"ind": [
+"16. INDUSTRY-SPECIFIC BUDGETING & FORECASTING",
+"Startups",
+"Manufacturing",
+"Retail",
+"Wholesale Distribution",
+"IT and SaaS",
+"Healthcare",
+"Hospitality",
+"Logistics",
+"Construction",
+"Real Estate",
+"E-Commerce",
+"Professional Services",
+"Educational Institutions",
+"Financial Services",
+"Multi-Location Enterprises",
+"Revenue forecasting challenges",
+"Cost structures",
+"Cash-flow considerations",
+"Working capital requirements"
+],
+"kw": [
+"25. HIGH-VALUE SEO KEYWORD STRATEGY",
+"Research relevant commercial and informational keywords.",
+"Do not invent keyword metrics.",
+"Primary Keywords",
+"Budgeting services",
+"Financial forecasting services",
+"Budgeting and forecasting services",
+"Business budgeting services",
+"Corporate budgeting services",
+"Financial forecasting services in India",
+"Budget planning services",
+"Financial planning and forecasting",
+"Outsourced budgeting services",
+"Budgeting and forecasting consulting",
+"Secondary Keywords",
+"Revenue forecasting services",
+"Expense forecasting services",
+"Cash-flow forecasting services",
+"Rolling forecast services",
+"Budget vs. actual analysis",
+"Departmental budgeting",
+"Capital expenditure budgeting",
+"Working capital forecasting",
+"Financial scenario planning",
+"Financial sensitivity analysis",
+"Startup financial forecasting",
+"Business expansion forecasting",
+"Three-statement financial forecasting",
+"Financial modeling services",
+"Outsourced FP&A services",
+"Long-Tail Keywords",
+"Budgeting and financial forecasting services for businesses",
+"Financial forecasting services for startups",
+"Business budgeting services for SMEs",
+"Outsourced budgeting and forecasting services",
+"Cash-flow forecasting services for companies",
+"Annual budget preparation services",
+"Rolling forecast support for growing businesses",
+"Budget variance analysis services",
+"Financial scenario planning services for companies"
+]
+},
+"12 Audit & Compliance Support MASTER PROMPT FOR CLAUDE AI.txt": {
+"hero": [
+"5. ADVANCED 3D HERO SECTION",
+"Main Headline",
+"Audit & Compliance Support That Helps Your Business Stay Prepared",
+"Supporting Description",
+"Improve audit readiness, organize financial documentation, strengthen accounting controls, track compliance requirements, and coordinate audit-related information through structured business support.",
+"Frequent Research helps organizations prepare financial records, review supporting schedules, manage documentation requirements, and identify areas requiring attention before and during audit-related processes.",
+"Adapt company-specific claims to verified capabilities.",
+"Primary CTA",
+"Book an Audit & Compliance Consultation",
+"Secondary CTA",
+"Explore Audit Support Services",
+"Third CTA",
+"Assess Your Audit Readiness",
+"3D Hero Animation"
+],
+"caps": [
+[
+"DETAILED AUDIT & COMPLIANCE SUPPORT CAPABILITIES",
+[
+"Each service must include:",
+"Service overview",
+"Business challenges",
+"Target clients",
+"Proposed or verified approach",
+"Detailed methodology",
+"Required documents",
+"Technology and tools",
+"Quality checks",
+"Expected deliverables",
+"Potential business benefits",
+"Relevant FAQs",
+"Consultation CTA"
+]
+],
+[
+"AUDIT READINESS ASSESSMENT",
+[
+"Accounting record completeness",
+"Financial statement schedules",
+"Reconciliation status",
+"Supporting documentation",
+"Internal controls",
+"Audit evidence readiness",
+"Identified documentation gaps",
+"Management action plans"
+]
+],
+[
+"STATUTORY AUDIT PREPARATION SUPPORT",
+[
+"Financial records",
+"Ledger schedules",
+"Supporting documents",
+"Reconciliation",
+"Audit evidence",
+"Information requests",
+"Management coordination",
+"Audit query tracking"
+]
+],
+[
+"INTERNAL AUDIT SUPPORT",
+[
+"Internal control documentation",
+"Process walkthroughs",
+"Transaction testing support",
+"Risk identification",
+"Control evidence",
+"Exception reporting",
+"Corrective-action tracking",
+"Management reporting"
+]
+],
+[
+"TAX AUDIT DOCUMENTATION SUPPORT",
+[
+"Accounting records",
+"Tax-related schedules",
+"Ledger reconciliation",
+"Supporting documentation",
+"Information organization",
+"Audit queries",
+"Professional coordination"
+]
+],
+[
+"FINANCIAL STATEMENT REVIEW SUPPORT",
+[
+"Profit and loss schedules",
+"Balance sheet schedules",
+"Trial balance",
+"Ledger balances",
+"Supporting records",
+"Reconciliation",
+"Accounting adjustments",
+"Financial consistency"
+]
+],
+[
+"INTERNAL CONTROL DOCUMENTATION",
+[
+"Financial controls",
+"Approval workflows",
+"Segregation of duties",
+"Transaction authorization",
+"Reconciliation controls",
+"Documentation",
+"Control matrices",
+"Management review"
+]
+],
+[
+"COMPLIANCE DOCUMENTATION MANAGEMENT",
+[
+"Compliance checklists",
+"Required documents",
+"Record organization",
+"Documentation completeness",
+"Review schedules",
+"Version control",
+"Evidence tracking",
+"Management reporting"
+]
+],
+[
+"GST AUDIT AND RECONCILIATION SUPPORT",
+[
+"GST accounting records",
+"Sales reconciliation",
+"Purchase reconciliation",
+"Input tax credit records",
+"Return-related data",
+"Supporting documentation",
+"Exception tracking",
+"Professional coordination",
+"Verify current GST audit and certification requirements before publishing"
+]
+],
+[
+"TDS COMPLIANCE REVIEW SUPPORT",
+[
+"TDS deduction records",
+"Payment schedules",
+"Return-related data",
+"Ledger reconciliation",
+"Supporting documentation",
+"Exception reports",
+"Compliance tracking"
+]
+],
+[
+"PAYROLL COMPLIANCE DOCUMENTATION",
+[
+"Payroll records",
+"Salary registers",
+"PF-related records",
+"ESI-related records",
+"TDS on salaries",
+"Professional tax records where applicable",
+"Reconciliation",
+"Supporting schedules"
+]
+],
+[
+"BANK AND LEDGER RECONCILIATION SUPPORT",
+[
+"Bank statements",
+"General ledger",
+"Transaction matching",
+"Missing entries",
+"Duplicate entries",
+"Unreconciled balances",
+"Reconciliation reports",
+"Corrective actions"
+]
+],
+[
+"AUDIT EVIDENCE AND DOCUMENT MANAGEMENT",
+[
+"Evidence requests",
+"Document checklists",
+"Supporting schedules",
+"File organization",
+"Access controls",
+"Version history",
+"Request tracking",
+"Evidence completeness"
+]
+],
+[
+"RISK AND CONTROL ASSESSMENT SUPPORT",
+[
+"Financial process risks",
+"Control gaps",
+"Risk matrices",
+"Control documentation",
+"Evidence review",
+"Findings tracking",
+"Management action plans",
+"Follow-up monitoring"
+]
+],
+[
+"COMPLIANCE CALENDAR AND TRACKING",
+[
+"Compliance obligations",
+"Applicable deadlines",
+"Responsible owners",
+"Documentation requirements",
+"Review reminders",
+"Completion status",
+"Exception tracking",
+"Management reporting",
+"Verify current deadlines against authoritative official sources"
+]
+],
+[
+"OUTSOURCED AUDIT & COMPLIANCE SUPPORT",
+[
+"Recurring documentation support",
+"Financial reconciliations",
+"Compliance tracking",
+"Audit readiness reviews",
+"Evidence coordination",
+"Control documentation",
+"Management reporting",
+"Corrective-action monitoring"
+]
+]
+],
+"faq": [],
+"process": [
+"Step 1: Understanding Business Requirements",
+"Step 2: Documentation Collection",
+"Step 3: Data Validation",
+"Step 4: Financial Reconciliation",
+"Step 5: Control and Risk Review Support",
+"Step 6: Quality Assurance",
+"Step 7: Audit Coordination",
+"Step 8: Findings and Follow-Up Support"
+],
+"ind": [
+"17. INDUSTRY-SPECIFIC AUDIT & COMPLIANCE SUPPORT",
+"Startups",
+"Manufacturing",
+"Retail",
+"Wholesale Distribution",
+"IT and SaaS",
+"Healthcare",
+"Hospitality",
+"Logistics",
+"Construction",
+"Real Estate",
+"E-Commerce",
+"Professional Services",
+"Educational Institutions",
+"Financial Services",
+"Multi-Location Enterprises",
+"Common audit preparation challenges",
+"Financial documentation requirements",
+"Reconciliation considerations",
+"Internal control considerations"
+],
+"kw": [
+"26. HIGH-VALUE SEO KEYWORD STRATEGY",
+"Research relevant commercial and informational keywords.",
+"Do not invent keyword metrics.",
+"Primary Keywords",
+"Audit support services",
+"Audit and compliance support",
+"Audit preparation services",
+"Audit readiness services",
+"Audit support services in India",
+"Internal audit support services",
+"Compliance support services",
+"Financial audit preparation",
+"Audit documentation services",
+"Corporate compliance support",
+"Secondary Keywords",
+"Statutory audit preparation support",
+"Tax audit documentation support",
+"Financial statement review support",
+"Internal control documentation",
+"Audit evidence management",
+"Financial reconciliation services",
+"Compliance documentation management",
+"GST reconciliation support",
+"TDS compliance review",
+"Payroll compliance documentation",
+"Risk and control assessment",
+"Compliance calendar management",
+"Audit query management",
+"Audit findings tracking",
+"Outsourced compliance support",
+"Long-Tail Keywords",
+"Audit readiness services for small businesses",
+"Audit preparation support for startups",
+"Statutory audit documentation support in India",
+"Internal control documentation services for SMEs",
+"Financial audit preparation services for companies",
+"Tax audit documentation support services",
+"Audit evidence management services",
+"Financial reconciliation support for audit preparation",
+"Compliance tracking services for businesses"
+]
+},
+"13 Corporate Finance Advisory MASTER PROMPT FOR CLAUDE AI.txt": {
+"hero": [
+"5. ADVANCED 3D HERO SECTION",
+"Main Headline",
+"Corporate Finance Advisory for Smarter Capital Decisions and Sustainable Growth",
+"Supporting Description",
+"Evaluate capital requirements, understand financial performance, assess investment opportunities, and prepare for important corporate finance decisions through structured financial analysis and advisory support.",
+"Frequent Research helps businesses organize financial information, develop analytical models, and assess strategic financial options with greater clarity.",
+"Adapt company-specific claims to verified capabilities.",
+"Primary CTA",
+"Book a Corporate Finance Consultation",
+"Secondary CTA",
+"Explore Advisory Services",
+"Third CTA",
+"Analyze Your Capital Structure",
+"3D Hero Animation"
+],
+"caps": [
+[
+"DETAILED CORPORATE FINANCE ADVISORY CAPABILITIES",
+[
+"Each service must include:",
+"Service overview",
+"Business challenges",
+"Target clients",
+"Proposed or verified approach",
+"Detailed methodology",
+"Required financial information",
+"Financial tools",
+"Quality assurance",
+"Expected deliverables",
+"Potential business benefits",
+"Relevant FAQs",
+"Consultation CTA"
+]
+],
+[
+"CORPORATE FINANCIAL STRATEGY SUPPORT",
+[
+"Corporate financial objectives",
+"Financial performance",
+"Capital requirements",
+"Cash-flow considerations",
+"Financing options",
+"Financial risk",
+"Strategic alternatives",
+"Management reporting"
+]
+],
+[
+"CAPITAL STRUCTURE ANALYSIS",
+[
+"Debt",
+"Equity",
+"Financial leverage",
+"Capital costs",
+"Debt service requirements",
+"Financing scenarios",
+"Risk considerations",
+"Capital structure reporting"
+]
+],
+[
+"DEBT FINANCING ANALYSIS",
+[
+"Existing borrowing",
+"Debt obligations",
+"Interest costs",
+"Repayment schedules",
+"Debt service coverage",
+"Financing requirements",
+"Financial projections",
+"Scenario analysis"
+]
+],
+[
+"EQUITY FINANCING READINESS SUPPORT",
+[
+"Capital requirements",
+"Ownership considerations",
+"Financial projections",
+"Business valuation assumptions",
+"Investor documentation",
+"Financial reporting",
+"Transaction readiness",
+"Management presentations"
+]
+],
+[
+"BUSINESS VALUATION ANALYSIS SUPPORT",
+[
+"Historical financial performance",
+"Revenue",
+"Profitability",
+"Cash flow",
+"Discounted cash-flow analysis",
+"Comparable company analysis",
+"Valuation assumptions",
+"Sensitivity analysis",
+"Distinguish analytical valuation support from regulated or formally certified valuation services"
+]
+],
+[
+"INVESTMENT FEASIBILITY ANALYSIS",
+[
+"Investment costs",
+"Revenue assumptions",
+"Operating expenses",
+"Cash-flow projections",
+"Net present value",
+"Internal rate of return",
+"Payback period",
+"Sensitivity analysis"
+]
+],
+[
+"CAPITAL EXPENDITURE PLANNING",
+[
+"Capital expenditure requirements",
+"Asset acquisition",
+"Project budgets",
+"Cash-flow impact",
+"Funding requirements",
+"Financial feasibility",
+"Investment timing",
+"Management reporting"
+]
+],
+[
+"MERGERS AND ACQUISITIONS PREPARATION SUPPORT",
+[
+"Financial information organization",
+"Transaction readiness",
+"Financial analysis",
+"Business valuation assumptions",
+"Due diligence documentation",
+"Financial schedules",
+"Management reporting",
+"Transaction coordination"
+]
+],
+[
+"FINANCIAL DUE DILIGENCE PREPARATION",
+[
+"Financial statements",
+"Revenue analysis",
+"Expense analysis",
+"Working capital",
+"Debt obligations",
+"Financial documentation",
+"Reconciliation",
+"Information requests",
+"Distinguish preparation support from independent assurance or professional due diligence opinions"
+]
+],
+[
+"CORPORATE FINANCIAL RESTRUCTURING ANALYSIS",
+[
+"Existing capital structure",
+"Debt obligations",
+"Cash-flow requirements",
+"Financial performance",
+"Cost structure",
+"Restructuring scenarios",
+"Risk considerations",
+"Management reporting"
+]
+],
+[
+"WORKING CAPITAL OPTIMIZATION ANALYSIS",
+[
+"Receivables",
+"Payables",
+"Inventory",
+"Cash conversion cycle",
+"Liquidity requirements",
+"Operational cash flow",
+"Working capital scenarios",
+"Management reporting"
+]
+],
+[
+"CORPORATE FINANCIAL MODELING",
+[
+"Integrated financial statements",
+"Revenue forecasts",
+"Expense forecasts",
+"Cash-flow projections",
+"Debt schedules",
+"Capital expenditure",
+"Scenario analysis",
+"Sensitivity testing"
+]
+],
+[
+"BUSINESS EXPANSION FINANCIAL ANALYSIS",
+[
+"Expansion objectives",
+"Revenue projections",
+"Operating expenses",
+"Capital expenditure",
+"Working capital",
+"Cash-flow requirements",
+"Investment feasibility",
+"Scenario comparisons"
+]
+],
+[
+"CORPORATE FINANCIAL RISK ASSESSMENT",
+[
+"Liquidity risk",
+"Leverage risk",
+"Cash-flow risk",
+"Interest rate sensitivity",
+"Revenue concentration",
+"Cost volatility",
+"Financial stress testing",
+"Management reporting"
+]
+],
+[
+"OUTSOURCED CORPORATE FINANCE ANALYSIS",
+[
+"Recurring financial analysis",
+"Capital structure monitoring",
+"Financial modeling",
+"Investment feasibility",
+"Financial risk reporting",
+"Management dashboards",
+"Scenario analysis",
+"Strategic finance support"
+]
+]
+],
+"faq": [],
+"process": [
+"Step 1: Understanding Corporate Objectives",
+"Step 2: Financial Data Collection",
+"Step 3: Financial Data Validation",
+"Step 4: Corporate Financial Assessment",
+"Step 5: Financial Modeling",
+"Step 6: Quality Assurance",
+"Step 7: Management Review",
+"Step 8: Ongoing Financial Monitoring"
+],
+"ind": [
+"17. INDUSTRY-SPECIFIC CORPORATE FINANCE SOLUTIONS",
+"Startups",
+"Manufacturing",
+"Retail",
+"Wholesale Distribution",
+"IT and SaaS",
+"Healthcare",
+"Hospitality",
+"Logistics",
+"Construction",
+"Real Estate",
+"E-Commerce",
+"Professional Services",
+"Educational Businesses",
+"Financial Services",
+"Multi-Location Enterprises",
+"Common corporate finance challenges",
+"Capital requirements",
+"Cash-flow characteristics",
+"Financial risk considerations"
+],
+"kw": [
+"26. HIGH-VALUE SEO KEYWORD STRATEGY",
+"Research relevant commercial and informational keywords.",
+"Do not invent keyword metrics.",
+"Primary Keywords",
+"Corporate finance advisory",
+"Corporate finance advisory services",
+"Corporate finance consulting",
+"Corporate financial advisory",
+"Corporate finance services",
+"Corporate finance advisory in India",
+"Business valuation advisory",
+"Capital structure advisory",
+"Corporate financial strategy",
+"Corporate finance consultants",
+"Secondary Keywords",
+"Capital structure analysis",
+"Debt financing analysis",
+"Equity financing readiness",
+"Business valuation analysis",
+"Investment feasibility analysis",
+"Capital expenditure planning",
+"Financial due diligence preparation",
+"M&A preparation support",
+"Financial restructuring analysis",
+"Working capital optimization",
+"Corporate financial modeling",
+"Business expansion finance",
+"Corporate financial risk assessment",
+"Outsourced corporate finance analysis",
+"Long-Tail Keywords",
+"Corporate finance advisory services for businesses",
+"Corporate finance consulting services in India",
+"Capital structure analysis for growing companies",
+"Corporate financial strategy consulting",
+"Business valuation analysis support services",
+"Investment feasibility analysis for companies",
+"Financial due diligence preparation services",
+"Corporate financial restructuring analysis",
+"Corporate finance support for SMEs",
+"Business expansion financial analysis services"
+]
+},
+"14 Investment Planning CLAUDE AI MASTER PROMPT.txt": {
+"hero": [
+"5. ADVANCED 3D HERO SECTION",
+"Main Headline",
+"Investment Planning That Helps Businesses Evaluate Opportunities With Greater Clarity",
+"Supporting Description",
+"Explore investment requirements, compare financial scenarios, assess capital allocation priorities, and evaluate potential financial outcomes through structured investment planning and analytical support.",
+"Frequent Research helps businesses organize investment assumptions, prepare financial models, and understand the financial implications of important capital decisions.",
+"Adapt company-specific claims to verified capabilities.",
+"Primary CTA",
+"Book an Investment Planning Consultation",
+"Secondary CTA",
+"Explore Investment Planning Services",
+"Third CTA",
+"Try Our Investment Planning Simulator",
+"3D Hero Animation"
+],
+"caps": [
+[
+"DETAILED INVESTMENT PLANNING CAPABILITIES",
+[
+"Each service must include:",
+"Service overview",
+"Business challenges",
+"Target clients",
+"Proposed or verified approach",
+"Detailed methodology",
+"Required financial information",
+"Financial tools",
+"Quality assurance",
+"Expected deliverables",
+"Potential business benefits",
+"Relevant FAQs",
+"Consultation CTA"
+]
+],
+[
+"CORPORATE INVESTMENT PLANNING",
+[
+"Corporate investment objectives",
+"Capital requirements",
+"Cash-flow considerations",
+"Investment horizons",
+"Financial assumptions",
+"Investment alternatives",
+"Risk considerations",
+"Management reporting"
+]
+],
+[
+"CAPITAL ALLOCATION ANALYSIS",
+[
+"Available capital",
+"Business priorities",
+"Investment requirements",
+"Capital expenditure",
+"Liquidity reserves",
+"Financial constraints",
+"Allocation scenarios",
+"Management reporting"
+]
+],
+[
+"INVESTMENT FEASIBILITY ANALYSIS",
+[
+"Initial investment",
+"Project costs",
+"Revenue projections",
+"Operating expenses",
+"Cash-flow forecasts",
+"Net present value",
+"Internal rate of return",
+"Payback period"
+]
+],
+[
+"INVESTMENT CASH-FLOW MODELING",
+[
+"Initial capital outflows",
+"Projected cash inflows",
+"Operating costs",
+"Working capital",
+"Capital expenditure",
+"Financing costs",
+"Residual value",
+"Cash-flow scenarios"
+]
+],
+[
+"INVESTMENT RISK ASSESSMENT",
+[
+"Financial risk",
+"Liquidity risk",
+"Market assumptions",
+"Cost volatility",
+"Revenue uncertainty",
+"Interest rate sensitivity",
+"Scenario testing",
+"Risk reporting"
+]
+],
+[
+"INVESTMENT SCENARIO PLANNING",
+[
+"Base-case scenarios",
+"Optimistic scenarios",
+"Conservative scenarios",
+"Revenue assumptions",
+"Expense assumptions",
+"Cash-flow impact",
+"Financial returns",
+"Risk considerations"
+]
+],
+[
+"INVESTMENT SENSITIVITY ANALYSIS",
+[
+"Revenue sensitivity",
+"Cost sensitivity",
+"Discount rate sensitivity",
+"Cash-flow sensitivity",
+"Investment timing",
+"Capital expenditure",
+"Financial return changes",
+"Risk indicators"
+]
+],
+[
+"CAPITAL EXPENDITURE INVESTMENT PLANNING",
+[
+"Asset acquisition",
+"Project investment",
+"Capital budgets",
+"Investment timing",
+"Cash-flow requirements",
+"Financing considerations",
+"Financial feasibility",
+"Management reporting"
+]
+],
+[
+"BUSINESS EXPANSION INVESTMENT ANALYSIS",
+[
+"Expansion objectives",
+"New operating costs",
+"Revenue projections",
+"Capital expenditure",
+"Working capital",
+"Cash-flow requirements",
+"Investment feasibility",
+"Scenario analysis"
+]
+],
+[
+"INVESTMENT RETURN MODELING",
+[
+"Expected project cash flows",
+"Return assumptions",
+"Net present value",
+"Internal rate of return",
+"Payback period",
+"Profitability index",
+"Scenario comparisons",
+"Financial limitations"
+]
+],
+[
+"INVESTMENT HORIZON AND LIQUIDITY PLANNING",
+[
+"Short-term capital requirements",
+"Medium-term investment plans",
+"Long-term capital allocation",
+"Liquidity reserves",
+"Cash-flow timing",
+"Financial obligations",
+"Investment flexibility",
+"Scenario analysis"
+]
+],
+[
+"STARTUP INVESTMENT PLANNING SUPPORT",
+[
+"Startup capital requirements",
+"Cash runway",
+"Burn rate",
+"Hiring plans",
+"Operating expenses",
+"Capital expenditure",
+"Growth assumptions",
+"Financial scenarios"
+]
+],
+[
+"PROJECT INVESTMENT APPRAISAL",
+[
+"Project objectives",
+"Investment costs",
+"Financial projections",
+"Operating assumptions",
+"Discounted cash flow",
+"Project risks",
+"Investment feasibility",
+"Management reporting"
+]
+],
+[
+"INVESTMENT PERFORMANCE MONITORING FRAMEWORKS",
+[
+"Approved investment objectives",
+"Financial KPIs",
+"Project cash flows",
+"Budget comparisons",
+"Performance variance",
+"Risk indicators",
+"Management dashboards",
+"Periodic review"
+]
+],
+[
+"OUTSOURCED INVESTMENT ANALYSIS SUPPORT",
+[
+"Recurring investment analysis",
+"Capital allocation models",
+"Project feasibility",
+"Cash-flow modeling",
+"Risk assessment",
+"Scenario planning",
+"Performance reporting",
+"Management reviews"
+]
+]
+],
+"faq": [],
+"process": [
+"Step 1: Understanding Investment Objectives",
+"Step 2: Financial Data Collection",
+"Step 3: Data Validation",
+"Step 4: Investment Requirement Assessment",
+"Step 5: Investment Financial Modeling",
+"Step 6: Risk and Quality Review",
+"Step 7: Management Review",
+"Step 8: Performance Monitoring Framework"
+],
+"ind": [
+"18. INDUSTRY-SPECIFIC INVESTMENT PLANNING SOLUTIONS",
+"Startups",
+"Manufacturing",
+"Retail",
+"Wholesale Distribution",
+"IT and SaaS",
+"Healthcare",
+"Hospitality",
+"Logistics",
+"Construction",
+"Real Estate",
+"E-Commerce",
+"Professional Services",
+"Educational Businesses",
+"Financial Services",
+"Multi-Location Enterprises",
+"Common investment planning challenges",
+"Capital requirements",
+"Cash-flow characteristics",
+"Investment horizons"
+],
+"kw": [
+"27. HIGH-VALUE SEO KEYWORD STRATEGY",
+"Research relevant commercial and informational keywords.",
+"Do not invent keyword metrics.",
+"Primary Keywords",
+"Investment planning services",
+"Business investment planning",
+"Corporate investment planning",
+"Investment planning consulting",
+"Investment feasibility analysis",
+"Capital allocation analysis",
+"Investment planning services in India",
+"Investment financial modeling",
+"Investment risk assessment",
+"Investment planning support",
+"Secondary Keywords",
+"Corporate investment strategy",
+"Capital allocation planning",
+"Investment cash-flow modeling",
+"Investment scenario analysis",
+"Financial feasibility analysis",
+"Investment sensitivity analysis",
+"Capital expenditure planning",
+"Business expansion investment analysis",
+"Investment return modeling",
+"Investment horizon planning",
+"Liquidity planning",
+"Startup investment planning",
+"Project investment appraisal",
+"Investment performance reporting",
+"Outsourced investment analysis",
+"Long-Tail Keywords",
+"Investment planning services for businesses",
+"Corporate investment planning services in India",
+"Investment feasibility analysis for companies",
+"Capital allocation analysis for growing businesses",
+"Business expansion investment planning services",
+"Project investment appraisal services",
+"Investment cash-flow modeling for businesses",
+"Financial risk assessment for capital investments",
+"Investment scenario planning for companies"
+]
+},
+"15 Due Diligence & Financial Analysis CLAUDE AI MASTER PROMPT.txt": {
+"hero": [
+"5. ADVANCED 3D HERO SECTION",
+"Main Headline",
+"Due Diligence & Financial Analysis for Clearer Business and Transaction Decisions",
+"Supporting Description",
+"Gain a deeper understanding of financial performance, earnings quality, working capital, debt obligations, and potential financial risks through structured financial analysis and due diligence support.",
+"Frequent Research helps businesses organize financial information, assess historical performance, review financial assumptions, and prepare analytical reports for important business decisions.",
+"Adapt company-specific claims to verified capabilities.",
+"Primary CTA",
+"Book a Financial Due Diligence Consultation",
+"Secondary CTA",
+"Explore Financial Analysis Services",
+"Third CTA",
+"Assess Your Business Financial Health",
+"3D Hero Animation"
+],
+"caps": [
+[
+"DETAILED DUE DILIGENCE & FINANCIAL ANALYSIS CAPABILITIES",
+[
+"Each service must include:",
+"Service overview",
+"Business challenges",
+"Target clients",
+"Proposed or verified approach",
+"Detailed methodology",
+"Required financial information",
+"Financial tools",
+"Quality assurance",
+"Expected deliverables",
+"Potential business benefits",
+"Relevant FAQs",
+"Consultation CTA"
+]
+],
+[
+"FINANCIAL DUE DILIGENCE SUPPORT",
+[
+"Financial records",
+"Historical financial performance",
+"Revenue",
+"Expenses",
+"Profitability",
+"Cash flow",
+"Working capital",
+"Debt obligations",
+"Financial risks",
+"Management reporting"
+]
+],
+[
+"BUY-SIDE FINANCIAL DUE DILIGENCE PREPARATION",
+[
+"Acquisition objectives",
+"Target company financial information",
+"Revenue analysis",
+"Earnings quality",
+"Working capital",
+"Net debt",
+"Financial risks",
+"Information requests",
+"Distinguish analytical support from regulated transaction advisory"
+]
+],
+[
+"SELL-SIDE FINANCIAL DUE DILIGENCE PREPARATION",
+[
+"Seller financial documentation",
+"Financial statements",
+"Revenue analysis",
+"Profitability",
+"Working capital",
+"Debt obligations",
+"Data room preparation",
+"Management reporting"
+]
+],
+[
+"QUALITY OF EARNINGS ANALYSIS",
+[
+"Reported earnings",
+"EBITDA",
+"Adjusted EBITDA",
+"Non-recurring items",
+"Accounting adjustments",
+"Revenue quality",
+"Expense normalization",
+"Earnings sustainability considerations"
+]
+],
+[
+"REVENUE QUALITY ASSESSMENT",
+[
+"Revenue recognition information",
+"Revenue trends",
+"Customer concentration",
+"Product revenue",
+"Service revenue",
+"Recurring revenue",
+"Revenue adjustments",
+"Financial reporting"
+]
+],
+[
+"EXPENSE AND COST STRUCTURE ANALYSIS",
+[
+"Operating expenses",
+"Fixed costs",
+"Variable costs",
+"Payroll costs",
+"Vendor expenses",
+"Cost trends",
+"Expense normalization",
+"Profitability impact"
+]
+],
+[
+"PROFITABILITY AND MARGIN ANALYSIS",
+[
+"Gross profit",
+"EBITDA",
+"Operating profit",
+"Net profit",
+"Margin trends",
+"Segment profitability",
+"Profitability adjustments",
+"Financial reporting"
+]
+],
+[
+"WORKING CAPITAL DUE DILIGENCE",
+[
+"Receivables",
+"Payables",
+"Inventory",
+"Working capital trends",
+"Cash conversion cycle",
+"Seasonal variations",
+"Normalized working capital",
+"Transaction considerations"
+]
+],
+[
+"NET DEBT AND DEBT-LIKE ITEMS ANALYSIS",
+[
+"Borrowings",
+"Cash balances",
+"Debt obligations",
+"Lease-related considerations",
+"Accrued liabilities",
+"Debt-like items",
+"Financial schedules",
+"Transaction adjustments"
+]
+],
+[
+"CASH-FLOW QUALITY ANALYSIS",
+[
+"Operating cash flow",
+"Investing cash flow",
+"Financing cash flow",
+"Cash conversion",
+"Working capital changes",
+"Cash-flow sustainability",
+"Historical trends",
+"Financial risks"
+]
+],
+[
+"FINANCIAL STATEMENT ANALYSIS",
+[
+"Profit and loss",
+"Balance sheet",
+"Cash-flow statement",
+"Financial ratios",
+"Historical comparisons",
+"Trend analysis",
+"Financial consistency",
+"Management reporting"
+]
+],
+[
+"FINANCIAL RISK ASSESSMENT",
+[
+"Liquidity risk",
+"Leverage risk",
+"Revenue concentration",
+"Customer concentration",
+"Working capital pressure",
+"Cost volatility",
+"Cash-flow risk",
+"Financial stress scenarios"
+]
+],
+[
+"FINANCIAL FORECAST REVIEW",
+[
+"Revenue assumptions",
+"Expense assumptions",
+"Cash-flow forecasts",
+"Growth projections",
+"Working capital",
+"Capital expenditure",
+"Scenario analysis",
+"Forecast reasonableness"
+]
+],
+[
+"TRANSACTION READINESS AND DATA ROOM SUPPORT",
+[
+"Financial documentation",
+"Data room organization",
+"Financial schedules",
+"Supporting records",
+"Reconciliation",
+"Information requests",
+"Document version control",
+"Transaction preparation"
+]
+],
+[
+"OUTSOURCED FINANCIAL ANALYSIS SUPPORT",
+[
+"Recurring financial analysis",
+"Financial statement review",
+"Profitability analysis",
+"Working capital monitoring",
+"Financial ratio reporting",
+"Risk analysis",
+"Management dashboards",
+"Analytical reporting"
+]
+]
+],
+"faq": [],
+"process": [
+"Step 1: Understanding Transaction Objectives",
+"Step 2: Financial Data Collection",
+"Step 3: Data Validation",
+"Step 4: Historical Financial Analysis",
+"Step 5: Transaction Financial Assessment",
+"Step 6: Quality Assurance",
+"Step 7: Findings and Management Reporting",
+"Step 8: Follow-Up and Documentation Support"
+],
+"ind": [
+"18. INDUSTRY-SPECIFIC DUE DILIGENCE SOLUTIONS",
+"Startups",
+"Manufacturing",
+"Retail",
+"Wholesale Distribution",
+"IT and SaaS",
+"Healthcare",
+"Hospitality",
+"Logistics",
+"Construction",
+"Real Estate",
+"E-Commerce",
+"Professional Services",
+"Educational Businesses",
+"Financial Services",
+"Multi-Location Enterprises",
+"Common financial analysis challenges",
+"Revenue characteristics",
+"Expense structures",
+"Working capital considerations"
+],
+"kw": [
+"27. HIGH-VALUE SEO KEYWORD STRATEGY",
+"Research relevant commercial and informational keywords.",
+"Do not invent keyword metrics.",
+"Primary Keywords",
+"Financial due diligence services",
+"Due diligence and financial analysis",
+"Financial due diligence support",
+"Financial analysis services",
+"Financial due diligence services in India",
+"Business financial due diligence",
+"Financial due diligence consulting",
+"Transaction financial analysis",
+"Financial health assessment",
+"Corporate financial analysis",
+"Secondary Keywords",
+"Buy-side financial due diligence",
+"Sell-side financial due diligence",
+"Quality of earnings analysis",
+"Adjusted EBITDA analysis",
+"Revenue quality assessment",
+"Expense normalization",
+"Profitability analysis",
+"Working capital due diligence",
+"Net debt analysis",
+"Cash-flow quality analysis",
+"Financial statement analysis",
+"Financial risk assessment",
+"Financial forecast review",
+"Transaction readiness support",
+"Financial data room preparation",
+"Long-Tail Keywords",
+"Financial due diligence services for businesses",
+"Financial due diligence support services in India",
+"Buy-side financial due diligence preparation",
+"Sell-side financial due diligence preparation",
+"Quality of earnings analysis services",
+"Working capital analysis for business acquisitions",
+"Net debt analysis for corporate transactions",
+"Financial statement analysis for investors",
+"Financial risk assessment for acquisitions"
+]
+},
+"16 Accounting & Finance Consulting CLAUDE AI MASTER PROMPT.txt": {
+"hero": [
+"5. ADVANCED 3D HERO SECTION",
+"Main Headline",
+"Accounting & Finance Consulting That Helps Businesses Build Stronger Financial Operations",
+"Supporting Description",
+"Improve accounting workflows, strengthen financial reporting processes, organize financial information, and support better management decisions through structured accounting and finance consulting.",
+"Frequent Research helps businesses assess accounting processes, identify operational gaps, and develop practical improvement frameworks for financial management.",
+"Adapt company-specific claims to verified capabilities.",
+"Primary CTA",
+"Book an Accounting & Finance Consultation",
+"Secondary CTA",
+"Explore Consulting Services",
+"Third CTA",
+"Assess Your Finance Operations",
+"3D Hero Animation"
+],
+"caps": [
+[
+"DETAILED ACCOUNTING & FINANCE CONSULTING CAPABILITIES",
+[
+"Each service must include:",
+"Service overview",
+"Business challenges",
+"Target clients",
+"Proposed or verified approach",
+"Detailed methodology",
+"Required financial information",
+"Accounting and finance tools",
+"Quality assurance",
+"Expected deliverables",
+"Potential business benefits",
+"Relevant FAQs",
+"Consultation CTA"
+]
+],
+[
+"ACCOUNTING PROCESS CONSULTING",
+[
+"Existing accounting workflows",
+"Process documentation",
+"General ledger procedures",
+"Transaction processing",
+"Reconciliation",
+"Approval workflows",
+"Process gaps",
+"Improvement recommendations"
+]
+],
+[
+"FINANCIAL MANAGEMENT CONSULTING",
+[
+"Financial performance",
+"Cash-flow management",
+"Working capital",
+"Cost control",
+"Financial reporting",
+"Management dashboards",
+"Financial KPIs",
+"Decision-support frameworks"
+]
+],
+[
+"BOOKKEEPING PROCESS OPTIMIZATION",
+[
+"Transaction recording",
+"Chart of accounts",
+"Bookkeeping workflows",
+"Documentation",
+"Reconciliation",
+"Review procedures",
+"Data consistency",
+"Process improvement"
+]
+],
+[
+"GENERAL LEDGER CONSULTING",
+[
+"Chart of accounts",
+"Ledger structure",
+"Journal entries",
+"Account reconciliation",
+"Month-end close",
+"Reporting consistency",
+"Ledger review",
+"Process documentation"
+]
+],
+[
+"ACCOUNTS PAYABLE PROCESS CONSULTING",
+[
+"Vendor invoices",
+"Payment approvals",
+"Purchase records",
+"Vendor reconciliation",
+"Payment schedules",
+"Exception handling",
+"Workflow documentation",
+"Automation opportunities"
+]
+],
+[
+"ACCOUNTS RECEIVABLE PROCESS CONSULTING",
+[
+"Customer invoices",
+"Receivables tracking",
+"Collections workflows",
+"Customer reconciliation",
+"Aging analysis",
+"Payment allocation",
+"Exception handling",
+"Reporting"
+]
+],
+[
+"FINANCIAL REPORTING PROCESS CONSULTING",
+[
+"Financial statements",
+"Reporting schedules",
+"Data validation",
+"Reconciliation",
+"Management reporting",
+"Reporting timelines",
+"Quality controls",
+"Reporting improvements"
+]
+],
+[
+"CASH-FLOW MANAGEMENT CONSULTING",
+[
+"Cash inflows",
+"Cash outflows",
+"Cash-flow forecasting",
+"Receivables",
+"Payables",
+"Liquidity requirements",
+"Cash-flow monitoring",
+"Management reporting"
+]
+],
+[
+"WORKING CAPITAL CONSULTING",
+[
+"Receivables",
+"Payables",
+"Inventory",
+"Cash conversion cycle",
+"Working capital requirements",
+"Liquidity",
+"Process improvements",
+"Financial reporting"
+]
+],
+[
+"COST AND PROFITABILITY CONSULTING",
+[
+"Operating expenses",
+"Fixed costs",
+"Variable costs",
+"Cost allocation",
+"Gross margins",
+"Operating margins",
+"Department profitability",
+"Financial analysis"
+]
+],
+[
+"ACCOUNTING SOFTWARE CONSULTING",
+[
+"Current accounting systems",
+"Software requirements",
+"Workflow mapping",
+"Data structures",
+"Reporting needs",
+"System configuration support",
+"User adoption",
+"Process documentation"
+]
+],
+[
+"ERP FINANCE PROCESS SUPPORT",
+[
+"ERP finance workflows",
+"General ledger",
+"Accounts payable",
+"Accounts receivable",
+"Financial reporting",
+"Data validation",
+"Process documentation",
+"Integration requirements"
+]
+],
+[
+"FINANCE PROCESS AUTOMATION CONSULTING",
+[
+"Repetitive accounting tasks",
+"Reconciliation workflows",
+"Data validation",
+"Reporting automation",
+"Approval workflows",
+"Exception tracking",
+"Process monitoring",
+"Automation opportunities"
+]
+],
+[
+"INTERNAL CONTROL AND ACCOUNTING POLICY CONSULTING",
+[
+"Accounting policies",
+"Financial controls",
+"Approval matrices",
+"Segregation of duties",
+"Reconciliation controls",
+"Process documentation",
+"Control gaps",
+"Management review"
+]
+],
+[
+"OUTSOURCED ACCOUNTING & FINANCE CONSULTING",
+[
+"Recurring accounting process review",
+"Financial reporting support",
+"Finance workflow improvements",
+"Cash-flow analysis",
+"Working capital monitoring",
+"Management dashboards",
+"Process documentation",
+"Continuous improvement"
+]
+]
+],
+"faq": [],
+"process": [
+"Step 1: Understanding Business Requirements",
+"Step 2: Accounting Process Assessment",
+"Step 3: Financial Data Validation",
+"Step 4: Workflow and Gap Analysis",
+"Step 5: Improvement Framework Development",
+"Step 6: Quality Assurance",
+"Step 7: Management Review",
+"Step 8: Implementation and Monitoring Support"
+],
+"ind": [
+"17. INDUSTRY-SPECIFIC ACCOUNTING & FINANCE CONSULTING",
+"Startups",
+"Manufacturing",
+"Retail",
+"Wholesale Distribution",
+"IT and SaaS",
+"Healthcare",
+"Hospitality",
+"Logistics",
+"Construction",
+"Real Estate",
+"E-Commerce",
+"Professional Services",
+"Educational Institutions",
+"Financial Services",
+"Multi-Location Enterprises",
+"Common accounting challenges",
+"Financial management requirements",
+"Reporting considerations",
+"Cash-flow characteristics"
+],
+"kw": [
+"26. HIGH-VALUE SEO KEYWORD STRATEGY",
+"Research relevant commercial and informational keywords.",
+"Do not invent keyword metrics.",
+"Primary Keywords",
+"Accounting and finance consulting",
+"Accounting consulting services",
+"Finance consulting services",
+"Accounting and finance consulting services",
+"Accounting consulting services in India",
+"Financial management consulting",
+"Finance process consulting",
+"Accounting process improvement",
+"Finance transformation consulting",
+"Business accounting consulting",
+"Secondary Keywords",
+"Bookkeeping process optimization",
+"General ledger consulting",
+"Accounts payable consulting",
+"Accounts receivable consulting",
+"Financial reporting consulting",
+"Cash-flow management consulting",
+"Working capital consulting",
+"Cost and profitability consulting",
+"Accounting software consulting",
+"ERP finance consulting",
+"Finance automation consulting",
+"Internal control consulting",
+"Accounting policy consulting",
+"Financial data quality consulting",
+"Outsourced finance consulting",
+"Long-Tail Keywords",
+"Accounting and finance consulting services for businesses",
+"Accounting consulting services for SMEs in India",
+"Finance process improvement consulting",
+"Financial management consulting for growing businesses",
+"Accounting workflow optimization services",
+"Accounting software consulting for small businesses",
+"Finance automation consulting services",
+"ERP finance process improvement services",
+"Internal accounting control consulting"
+]
+},
+"2 TAX PLANNING & ADVISORY SERVICES.txt": {
+"hero": [
+"6. Hero Section: Make the First Screen Compelling",
+"Design an attractive, interactive hero that communicates the service and its value immediately.",
+"Suggested headline",
+"Tax Planning & Advisory Services for Smarter Financial Decisions",
+"Suggested supporting copy",
+"Understand your tax position, evaluate relevant planning opportunities, and make more informed business decisions with structured tax planning and advisory support from Frequent Research.",
+"Discuss your requirements with our team to explore an approach aligned with your business, financial information, and applicable tax obligations.",
+"Primary CTA",
+"Request a Tax Advisory Consultation",
+"Secondary CTA",
+"Discuss Your Tax Planning Needs",
+"Optional third CTA",
+"Request a Custom Proposal",
+"Use “free consultation” only if consultations are genuinely free."
+],
+"caps": [
+[
+"Comprehensive Tax Planning & Advisory Service Categories",
+[
+"Build a visually rich service section with separate cards or expandable panels. Every service must be confirmed against the actual delivery capabilities of Frequent Research before publication",
+"Service 1: Business Tax Planning",
+"Potential activities:",
+"Understand the business's operating structure",
+"Review relevant financial information",
+"Identify tax-related questions and planning considerations",
+"Evaluate applicable planning options",
+"Consider the tax implications of planned business decisions",
+"Develop a prioritized list of next steps within the agreed scope",
+"Service 2: Corporate Tax Advisory",
+"Potential activities, subject to jurisdiction and professional authorization:",
+"Review corporate tax planning requirements",
+"Identify relevant tax considerations for business activities",
+"Evaluate implications of proposed structural changes",
+"Support planning discussions with finance teams",
+"Organize documentation for professional review",
+"Develop a tax-planning action plan",
+"Service 3: Tax Planning for Startups and SMEs",
+"Potential activities:",
+"Understand the business model and growth stage",
+"Review relevant financial records and operating arrangements",
+"Identify tax-planning considerations for business growth",
+"Assess the tax implications of planned investments or expansion",
+"Organize relevant documentation",
+"Develop a practical planning calendar",
+"Service 4: Income Tax Planning",
+"Include only for eligible clients and supported jurisdictions",
+"Potential activities:",
+"Review relevant income information",
+"Identify applicable tax-planning considerations",
+"Evaluate available options under the relevant law",
+"Compare eligible alternatives where appropriate",
+"Organize supporting documentation",
+"Service 5: Tax-Efficient Business Decisions",
+"Potential activities:",
+"Assess relevant tax considerations before expansion",
+"Review proposed investment or expenditure decisions",
+"Consider changes to business activities or ownership",
+"Evaluate the implications of different options",
+"Present relevant assumptions, limitations, and potential risks",
+"Service 6: Tax Compliance Planning Support",
+"Potential activities:",
+"Identify relevant deadlines",
+"Organize required documents",
+"Develop a compliance calendar",
+"Track outstanding information",
+"Coordinate the review of tax-related records",
+"Identify issues requiring further professional attention",
+"Service 7: Tax Risk Review",
+"Potential activities:",
+"Identify areas that require additional information",
+"Review consistency of available financial documentation",
+"Flag potential discrepancies or unresolved questions",
+"Prioritize matters that need professional review",
+"Document assumptions and recommendations",
+"Service 8: Tax Planning for Business Expansion",
+"Potential activities:",
+"Identify tax-related questions arising from expansion",
+"Review the proposed business model and target markets",
+"Consider the implications of new operations",
+"Identify documentation or specialist advice requirements",
+"Support decision-making through structured analysis",
+"Cross-border, international tax, transfer pricing, and permanent-establishment advice must be offered only when qualified expertise and service capability are confirmed",
+"Service 9: Financial Information and Tax Documentation Support",
+"Potential activities:",
+"Organize relevant financial information",
+"Review completeness of supporting records",
+"Maintain a list of missing documentation",
+"Structure information for advisory review",
+"Help coordinate information between relevant business stakeholders",
+"Service 10: Ongoing Tax Planning Review",
+"Review relevant business changes",
+"Revisit previously identified planning considerations",
+"Update the list of outstanding actions",
+"Identify upcoming deadlines",
+"Discuss new issues that may require professional assessment"
+]
+]
+],
+"faq": [],
+"process": [],
+"ind": [
+"Who Can Benefit From Tax Planning?",
+"Our Approach to Tax Risk and Compliance",
+"Frequently Asked Questions About Tax Planning",
+"Use only one clear primary H1"
+],
+"kw": [
+"Perform keyword research before finalizing the copy.",
+"A. Primary keyword candidates",
+"Research and evaluate:",
+"Tax planning and advisory services.",
+"Tax planning services.",
+"Tax advisory services.",
+"Tax planning consultant.",
+"Tax consulting services.",
+"Business tax advisory.",
+"Corporate tax planning services.",
+"Tax planning for businesses.",
+"Tax advisory for small businesses.",
+"Tax planning consultant for businesses.",
+"B. Commercial-intent keywords",
+"Evaluate the following:",
+"Tax planning services for small businesses.",
+"Business tax planning services.",
+"Corporate tax advisory services.",
+"Tax advisory services for SMEs.",
+"Outsourced tax advisory services.",
+"Professional tax planning services.",
+"Tax consultant for businesses.",
+"Tax advisory firm.",
+"Tax planning consultation.",
+"Business tax consulting services.",
+"Tax-efficient business planning.",
+"Tax advisory for startups.",
+"Tax planning for entrepreneurs.",
+"Tax advisory and compliance support.",
+"Tax planning services cost.",
+"Tax advisory consultation.",
+"C. Service-specific keywords",
+"Evaluate these topic clusters where applicable:",
+"Business and corporate tax planning",
+"Corporate tax planning.",
+"Business tax optimization.",
+"Tax-efficient business structure.",
+"Tax planning before business expansion.",
+"Business restructuring tax implications.",
+"Tax planning for growing businesses."
+]
+},
+"3 MASTER PROMPT INCOME TAX & ITR FILING SERVICES docx.txt": {
+"hero": [
+"7. Hero Section",
+"Create a visually compelling opening section.",
+"Headline",
+"Income Tax & ITR Filing Services Made Simpler",
+"Supporting copy",
+"Organize your tax documents, understand your return-filing requirements, and get support through the agreed ITR preparation and filing process. Frequent Research helps you identify the relevant information, review outstanding items, and understand the next steps for your tax return.",
+"Primary CTA",
+"Request an ITR Filing Consultation",
+"Secondary CTA",
+"Check Your Filing Requirements",
+"The secondary CTA should open an educational checklist, not automatically determine the user's legal filing obligation.",
+"Hero visual",
+"Design a premium interactive tax-filing dashboard featuring:",
+"A document checklist."
+],
+"caps": [
+[
+"Comprehensive Income Tax & ITR Filing Service Categories",
+[
+"Build an interactive service grid. Confirm all services before publication",
+"Service 1: ITR Filing for Salaried Employees",
+"Potential activities:",
+"Review salary-related documents",
+"Organize Form 16 and relevant income information",
+"Review applicable tax statements",
+"Identify relevant deductions and exemptions",
+"Determine the appropriate return category",
+"Prepare the return within the agreed scope",
+"Service 2: ITR Filing for Freelancers and Consultants",
+"Potential activities:",
+"Organize professional income information",
+"Review relevant expense records",
+"Identify applicable reporting requirements",
+"Review available tax-payment information",
+"Determine the appropriate return category",
+"Prepare the return where supported",
+"Service 3: ITR Filing for Self-Employed Individuals",
+"Potential activities:",
+"Review income sources and financial records",
+"Organize relevant business or professional information",
+"Identify the applicable reporting requirements",
+"Review relevant expenses and tax payments",
+"Determine the appropriate filing approach",
+"Service 4: ITR Support for Business Owners",
+"Potential activities:",
+"Organize business income information",
+"Review relevant accounting records",
+"Identify required supporting schedules",
+"Coordinate with existing bookkeeping records",
+"Review tax-related information within the agreed scope",
+"Service 5: ITR Filing With Multiple Income Sources",
+"Potential activities:",
+"Identify relevant income categories",
+"Organize supporting documentation",
+"Review applicable tax statements",
+"Identify incomplete or inconsistent information",
+"Determine the appropriate return category and reporting requirements",
+"Service 6: Capital Gains and Investment-Related Reporting",
+"Include only if Frequent Research can support the relevant transaction types",
+"Potential activities:",
+"Organize relevant capital-gains statements",
+"Review transaction information",
+"Identify required supporting documents",
+"Reconcile relevant reported information",
+"Determine the applicable reporting requirements",
+"Service 7: Tax Regime and Deduction Review",
+"Potential activities:",
+"Collect relevant income and deduction information",
+"Identify applicable tax regimes and options",
+"Compare alternatives where permitted and appropriate",
+"Document the result within the agreed scope",
+"Use the correct rules for the relevant tax year",
+"Service 8: Revised Return Assistance",
+"Review the original filing information",
+"Identify the reported issue",
+"Determine whether a revised return is available under the applicable rules",
+"Identify the required supporting information",
+"Prepare the revision within the agreed scope",
+"Service 9: Belated and Updated Return Assistance",
+"Review the relevant filing period",
+"Check the applicable legal conditions and deadlines",
+"Identify the correct return process",
+"Confirm whether the requested service can be provided",
+"Service 10: Tax Information and Reconciliation Support",
+"Review relevant Form 26AS information",
+"Review AIS and TIS information",
+"Compare relevant tax-payment and income records",
+"Identify discrepancies requiring clarification",
+"Organize the information needed for filing",
+"Use the appropriate official terminology and tools for the relevant tax year",
+"Service 11: ITR Verification Guidance",
+"Provide guidance on the official process",
+"Help the client understand the next steps",
+"Service 12: Refund and Post-Filing Guidance",
+"Identify common documentation or status questions",
+"Help the client understand the next steps within the agreed scope"
+]
+]
+],
+"faq": [],
+"process": [],
+"ind": [
+"Who Can Benefit From Our ITR Support?",
+"Our Income Tax Return Services",
+"Documents Required for ITR Filing",
+"How We Help With the ITR Filing Process",
+"Why Choose Frequent Research?",
+"Our ITR Filing Workflow",
+"Tax Information Review and Documentation",
+"Frequently Asked Questions",
+"Request an ITR Filing Consultation"
+],
+"kw": [
+"4. SEO Keyword Research and Keyword Difficulty",
+"A. Primary keyword candidates",
+"Research:",
+"Income tax return filing services.",
+"ITR filing services.",
+"Income tax filing services.",
+"Income tax return filing.",
+"Online ITR filing services.",
+"Income tax return consultant.",
+"ITR filing assistance.",
+"Income tax return preparation services.",
+"B. High-intent commercial keywords",
+"Evaluate:",
+"ITR filing service provider.",
+"Professional ITR filing services.",
+"Income tax filing consultant.",
+"ITR filing for salaried employees.",
+"ITR filing for freelancers.",
+"ITR filing for self-employed professionals.",
+"Income tax return services for individuals.",
+"Income tax filing services for business owners.",
+"ITR filing assistance online.",
+"Income tax return preparation.",
+"ITR filing fees.",
+"ITR filing charges.",
+"Tax return filing consultant.",
+"Income tax return help.",
+"C. Taxpayer-specific keyword clusters",
+"Salaried employees",
+"ITR filing for salaried employees.",
+"Income tax return filing for salaried individuals.",
+"Salary income tax return assistance.",
+"ITR filing with Form 16.",
+"Tax deduction review for salaried employees.",
+"Freelancers and professionals",
+"ITR filing for freelancers.",
+"Income tax return filing for consultants.",
+"ITR filing for self-employed individuals.",
+"Professional income tax return assistance.",
+"ITR filing for independent professionals."
+]
+},
+"4 GST Service MASTER PROMPT FOR CLAUDE AI.txt": {
+"hero": [
+"5. ADVANCED 3D HERO SECTION",
+"Main Hero Headline",
+"GST Services & Support That Keep Your Business Moving Forward",
+"Supporting Headline",
+"Simplify GST compliance, improve reporting accuracy, manage filing requirements, and gain better visibility into your indirect tax operations with structured GST support from Frequent Research.",
+"Primary CTA",
+"Book a GST Consultation",
+"Secondary CTA",
+"Explore Our GST Services",
+"Additional CTA",
+"Discuss Your Compliance Requirements",
+"Hero Animation Concept",
+"Create a sophisticated interactive 3D financial compliance ecosystem.",
+"The center should feature a rotating glass-like financial dashboard surrounded by floating interface elements representing:"
+],
+"caps": [
+[
+"DETAILED GST SERVICE CAPABILITIES",
+[
+"Each service must include:",
+"Service introduction",
+"Business problems addressed",
+"Who needs the service",
+"How Frequent Research assists",
+"Step-by-step operational workflow",
+"Documents and information required",
+"Tools and technology involved",
+"Review and quality control process",
+"Deliverables",
+"Expected business benefits",
+"Frequently asked questions",
+"Relevant CTA",
+"Service 1: GST Registration Support",
+"New GST registration assistance",
+"Registration documentation",
+"Business information verification",
+"GST application preparation",
+"Application status tracking",
+"Registration amendments",
+"Additional place of business updates",
+"Cancellation and revocation support, where applicable",
+"Coordination on clarification requests",
+"Registration record maintenance",
+"Service 2: GST Return Filing Support",
+"GSTR-1 preparation",
+"GSTR-3B preparation",
+"GSTR-9 annual return support",
+"GSTR-9C reconciliation statement support, where applicable",
+"GSTR-4 support for eligible taxpayers",
+"GSTR-5 and GSTR-6 support where relevant",
+"Filing data collection",
+"Return reconciliation",
+"Liability calculation review",
+"Filing calendar management",
+"Filing acknowledgment tracking",
+"Service 3: Input Tax Credit Reconciliation",
+"Purchase register review",
+"GSTR-2B reconciliation",
+"Supplier invoice matching",
+"Missing invoice identification",
+"Duplicate invoice detection",
+"Mismatch reporting",
+"Vendor follow-up coordination",
+"Eligibility review",
+"Exception management",
+"Reconciliation reporting",
+"Service 4: GST Invoice Reconciliation",
+"Sales register reconciliation",
+"Purchase register reconciliation",
+"GST invoice validation",
+"Tax rate checks",
+"GSTIN validation",
+"Duplicate transaction identification",
+"Credit and debit note reconciliation",
+"Accounting ledger matching",
+"Exception reporting",
+"Audit-ready documentation",
+"Service 5: GST Compliance Management",
+"Compliance calendar setup",
+"Return preparation workflows",
+"Internal control checklists",
+"Compliance status tracking",
+"Filing documentation",
+"Escalation procedures",
+"Deadline monitoring",
+"Monthly compliance reviews",
+"Management reporting",
+"Process improvement",
+"Service 6: E-Invoicing Support",
+"E-invoicing applicability review",
+"Invoice data validation",
+"ERP data preparation",
+"Invoice Reference Number workflows",
+"Invoice reporting processes",
+"Exception handling",
+"Reconciliation",
+"System integration coordination",
+"Operational troubleshooting",
+"Service 7: E-Way Bill Support",
+"E-way bill documentation",
+"Transaction data validation",
+"Movement-related compliance workflows",
+"E-way bill generation support",
+"Operational tracking",
+"Error handling",
+"Reconciliation",
+"Reporting",
+"Service 8: GST Notice and Query Support",
+"Notice classification",
+"Document collection",
+"Transaction reconciliation",
+"Supporting schedules",
+"Response documentation preparation",
+"Deadline tracking",
+"Internal coordination",
+"Professional escalation",
+"Record organization",
+"Service 9: GST Audit and Assessment Support",
+"GST record organization",
+"Financial reconciliation",
+"Transaction-level verification",
+"Supporting schedules",
+"Document preparation",
+"Exception identification",
+"Audit coordination",
+"Internal compliance reviews",
+"Evidence tracking",
+"Service 10: GST Refund Support",
+"Refund eligibility documentation",
+"Application data preparation",
+"Supporting invoices",
+"Export-related documentation",
+"Input Tax Credit reconciliation",
+"Refund status tracking",
+"Clarification coordination",
+"Supporting financial records",
+"Service 11: GST Data Management and Reporting",
+"GST master data",
+"Transaction categorization",
+"Data cleansing",
+"Reconciliation dashboards",
+"Reporting templates",
+"Monthly MIS reporting",
+"Exception tracking",
+"Compliance analytics",
+"Data quality controls",
+"Service 12: Outsourced GST Operations",
+"Monthly GST processing",
+"Dedicated workflow coordination",
+"Accounting data collection",
+"Compliance calendars",
+"Return preparation support",
+"Reconciliation management",
+"Document management",
+"Performance reporting",
+"Escalation procedures",
+"Operational continuity"
+]
+]
+],
+"faq": [],
+"process": [
+"Step 1: Understanding Your Business",
+"Step 2: Requirement Assessment",
+"Step 3: Documentation and Data Collection",
+"Step 4: Data Validation",
+"Step 5: Processing and Reconciliation",
+"Step 6: Quality Assurance",
+"Step 7: Filing and Submission Coordination",
+"Step 8: Reporting and Ongoing Support"
+],
+"ind": [
+"13. INDUSTRY-SPECIFIC GST SUPPORT",
+"E-commerce",
+"Manufacturing",
+"Retail",
+"Wholesale Distribution",
+"Logistics",
+"Professional Services",
+"Technology and SaaS",
+"Healthcare Businesses",
+"Hospitality",
+"Real Estate",
+"Exporters and Importers",
+"Startups and SMEs",
+"Common GST challenges",
+"Transaction complexity",
+"Documentation requirements",
+"Reconciliation considerations",
+"Relevant GST services",
+"Typical support deliverables",
+"Potential operational improvements"
+],
+"kw": [
+"18. ADVANCED SEO STRATEGY",
+"Prioritize:",
+"Commercial intent.",
+"Transactional intent.",
+"Relevant informational intent.",
+"Keyword difficulty.",
+"Search demand.",
+"Conversion potential.",
+"Service relevance.",
+"Geographic targeting.",
+"Do not invent search volumes or keyword difficulty scores.",
+"Primary Keywords",
+"GST services",
+"GST services in India",
+"GST compliance services",
+"GST return filing services",
+"GST registration services",
+"GST consultant",
+"GST filing support",
+"GST accounting services",
+"GST outsourcing services",
+"Secondary Keywords",
+"GST return filing",
+"GST registration online",
+"GST compliance support",
+"GST reconciliation services",
+"GST invoice reconciliation",
+"GSTR-1 filing support",
+"GSTR-3B filing support",
+"GSTR-9 filing assistance",
+"GSTR-2B reconciliation",
+"Input Tax Credit reconciliation",
+"GST refund support",
+"GST notice assistance",
+"GST audit support",
+"GST e-invoicing support",
+"E-way bill support",
+"Outsourced GST compliance",
+"GST data management",
+"GST reporting services"
+]
+},
+"5 TDS Service MASTER DEVELOPMENT PROMPT FOR CLAUDE AI.txt": {
+"hero": [
+"Advanced 3D Hero Section.",
+"TDS Services Introduction.",
+"TDS Compliance Challenges.",
+"Complete TDS Service Capabilities.",
+"Interactive TDS Compliance Lifecycle.",
+"Our TDS Work Process.",
+"Our Working Methodology.",
+"Technology and Tools.",
+"TDS Quality Assurance Framework.",
+"Industry-Specific TDS Solutions.",
+"Key Client Outcomes.",
+"Animated Projects and Deliverables Counters.",
+"Why Choose Frequent Research.",
+"Engagement Models."
+],
+"caps": [
+[
+"DETAILED TDS SERVICE CAPABILITIES",
+[
+"Develop comprehensive, individual content for each service",
+"What the service covers",
+"Why businesses need it",
+"Applicable business scenarios",
+"Common operational challenges",
+"How Frequent Research can assist",
+"Step-by-step work process",
+"Documents required",
+"Technology and systems",
+"Internal quality checks",
+"Expected deliverables",
+"Potential business benefits",
+"Frequently asked questions",
+"Relevant CTA"
+]
+],
+[
+"TDS RETURN FILING SUPPORT",
+[
+"Quarterly TDS return preparation",
+"Form 24Q",
+"Form 26Q",
+"Form 27Q",
+"Form 27EQ for applicable TCS services",
+"Deductor information",
+"Deductee information",
+"Challan details",
+"Transaction reconciliation",
+"Return validation",
+"Submission coordination",
+"Acknowledgment management",
+"Correction statement support",
+"Get TDS Return Filing Support"
+]
+],
+[
+"TDS CALCULATION AND DEDUCTION SUPPORT",
+[
+"Transaction classification",
+"Applicable TDS provisions",
+"Rate verification",
+"Threshold verification",
+"Deduction timing",
+"Vendor payments",
+"Professional fees",
+"Contract payments",
+"Rent",
+"Interest",
+"Commission",
+"Salary-related deduction coordination",
+"Deduction schedules",
+"Exception reporting",
+"Request TDS Calculation Assistance"
+]
+],
+[
+"TDS CHALLAN AND PAYMENT RECONCILIATION",
+[
+"Challan information review",
+"CIN verification",
+"Deduction-to-payment matching",
+"Challan allocation",
+"Payment discrepancy identification",
+"Missing challan records",
+"Duplicate payment investigation",
+"Correction coordination",
+"Reconciliation reports",
+"Supporting documentation",
+"Get TDS Challan Reconciliation Support"
+]
+],
+[
+"FORM 24Q SUPPORT",
+[
+"Salary-related TDS",
+"Payroll data coordination",
+"Employee PAN records",
+"Salary deduction schedules",
+"Quarterly reporting",
+"Annual salary details where applicable",
+"Return validation",
+"Reconciliation",
+"Error correction",
+"Get Form 24Q Assistance"
+]
+],
+[
+"FORM 26Q SUPPORT",
+[
+"Domestic non-salary payments",
+"Vendor payments",
+"Contractor payments",
+"Professional fees",
+"Rent",
+"Commission",
+"Interest",
+"Deductee data",
+"Challan matching",
+"Quarterly statement preparation",
+"Validation",
+"Get Form 26Q Filing Support"
+]
+],
+[
+"FORM 27Q SUPPORT",
+[
+"Relevant payments to non-residents",
+"Transaction classification",
+"Documentation",
+"Applicable withholding provisions",
+"Treaty considerations requiring professional review",
+"Deduction records",
+"Challan matching",
+"Return preparation",
+"Validation",
+"Discuss Form 27Q Requirements"
+]
+],
+[
+"FORM 16 AND FORM 16A SUPPORT",
+[
+"TDS certificate workflows",
+"Employee certificate coordination",
+"Non-salary TDS certificates",
+"TRACES-related processes",
+"Certificate data verification",
+"Deductee information",
+"Certificate reconciliation",
+"Record maintenance",
+"Request TDS Certificate Support"
+]
+],
+[
+"TRACES SUPPORT",
+[
+"TRACES-related workflow coordination",
+"Statement status tracking",
+"Justification report review",
+"Default identification",
+"Certificate processes",
+"Challan information",
+"Deductee record corrections",
+"Documentation management",
+"Resolution tracking",
+"Get TRACES Support"
+]
+],
+[
+"FORM 26AS RECONCILIATION",
+[
+"Tax credit record review",
+"TDS information matching",
+"Deductor information",
+"Certificate comparison",
+"Credit discrepancies",
+"Missing deduction records",
+"Reconciliation schedules",
+"Follow-up documentation",
+"Distinguish between Form 26AS and other available tax information statements where relevant",
+"Request Form 26AS Reconciliation"
+]
+],
+[
+"TDS CORRECTION STATEMENT SUPPORT",
+[
+"PAN errors",
+"Deductee record corrections",
+"Challan mapping issues",
+"Amount mismatches",
+"Incorrect deduction details",
+"Statement validation",
+"Correction preparation",
+"Submission coordination",
+"Status tracking",
+"Get TDS Correction Assistance"
+]
+],
+[
+"TDS NOTICE AND DEFAULT SUPPORT",
+[
+"Notice documentation",
+"Justification report analysis",
+"Short deduction identification",
+"Late payment issues",
+"Interest calculation review",
+"Challan mismatch investigation",
+"Supporting schedules",
+"Response documentation",
+"Escalation to authorized tax professionals",
+"Discuss Your TDS Notice"
+]
+],
+[
+"OUTSOURCED TDS COMPLIANCE MANAGEMENT",
+[
+"Monthly deduction tracking",
+"Deduction schedules",
+"Challan coordination",
+"Quarterly return preparation",
+"Certificate management",
+"Reconciliation",
+"Compliance calendars",
+"Exception reporting",
+"Management dashboards",
+"Process documentation",
+"Ongoing operational support",
+"Explore Outsourced TDS Services"
+]
+]
+],
+"faq": [
+"What is TDS?",
+"Why is TDS deducted?",
+"Who is required to deduct TDS?",
+"What are TDS services?",
+"What is a TDS return?",
+"What is Form 24Q?",
+"What is Form 26Q?",
+"What is Form 27Q?",
+"What is Form 27EQ?",
+"What is the difference between TDS and TCS?",
+"What is TAN?",
+"Is TAN required for TDS compliance?",
+"How is TDS calculated?",
+"What determines the applicable TDS rate?",
+"What are TDS deduction thresholds?",
+"When must TDS be deposited?",
+"What is a TDS challan?",
+"What is challan reconciliation?",
+"What is Form 16?",
+"What is Form 16A?",
+"What is TRACES?",
+"What is Form 26AS?",
+"What causes TDS mismatches?",
+"How can TDS errors be corrected?",
+"What is a TDS correction statement?",
+"What happens if TDS is deducted incorrectly?",
+"What happens if TDS is deposited late?",
+"What happens if a TDS return is filed late?",
+"What is a TDS justification report?",
+"How are TDS notices handled?",
+"Can TDS compliance operations be outsourced?",
+"What documents are needed for TDS return preparation?",
+"How can businesses improve TDS reconciliation?",
+"How does Frequent Research support TDS processing?",
+"How can I request TDS services?"
+],
+"process": [],
+"ind": [
+"13. INDUSTRY-SPECIFIC TDS SERVICES",
+"Startups",
+"Small and Medium Enterprises",
+"Manufacturing",
+"Retail",
+"Wholesale Distribution",
+"IT and SaaS",
+"Professional Services",
+"Real Estate",
+"Construction",
+"Healthcare Businesses",
+"Hospitality",
+"Logistics",
+"E-Commerce",
+"Financial Services",
+"Large Enterprises",
+"Typical payment categories",
+"TDS-related challenges",
+"Documentation requirements",
+"Reconciliation complexity"
+],
+"kw": [
+"22. HIGH-VALUE SEO KEYWORD STRATEGY",
+"Do not invent search-volume figures.",
+"Primary Commercial Keywords",
+"TDS services",
+"TDS services in India",
+"TDS return filing services",
+"TDS compliance services",
+"TDS filing services",
+"TDS consultant",
+"TDS outsourcing services",
+"TDS return preparation",
+"TDS accounting services",
+"TDS compliance outsourcing",
+"Secondary Keywords",
+"TDS return filing",
+"Online TDS return filing",
+"TDS calculation services",
+"TDS challan reconciliation",
+"TDS payment reconciliation",
+"Form 24Q filing",
+"Form 26Q filing",
+"Form 27Q filing",
+"Form 16 support",
+"Form 16A support",
+"TRACES support",
+"Form 26AS reconciliation",
+"TDS correction statement",
+"TDS notice support",
+"TDS compliance management",
+"TDS reconciliation services",
+"TDS certificate processing",
+"Long-Tail Keywords",
+"TDS return filing services for businesses",
+"TDS compliance outsourcing in India",
+"Quarterly TDS return preparation services",
+"TDS filing support for small businesses",
+"TDS challan reconciliation services",
+"Form 24Q filing assistance",
+"Form 26Q return preparation services",
+"TDS correction statement support"
+]
+},
+"6 Payroll Services MASTER PROMPT FOR CLAUDE AI.txt": {
+"hero": [
+"Advanced 3D Hero Section.",
+"Payroll Services Overview.",
+"Common Payroll Challenges.",
+"Complete Payroll Service Capabilities.",
+"Interactive Payroll Processing Lifecycle.",
+"Our Payroll Work Process.",
+"Our Work Culture and Operating Methodology.",
+"Technology and Payroll Systems.",
+"Payroll Quality Assurance Framework.",
+"Payroll Compliance Support.",
+"Industry-Specific Payroll Solutions.",
+"Payroll Outsourcing Models.",
+"Verified Business Outcomes.",
+"Animated Project and Deliverable Counters."
+],
+"caps": [
+[
+"DETAILED PAYROLL SERVICE CAPABILITIES",
+[
+"Service overview",
+"Business challenges",
+"Target clients",
+"Our proposed or verified approach",
+"Detailed processing workflow",
+"Required documents",
+"Tools and technology",
+"Quality checks",
+"Deliverables",
+"Potential business benefits",
+"Relevant FAQs"
+]
+],
+[
+"END-TO-END PAYROLL PROCESSING",
+[
+"Monthly payroll cycles",
+"Employee master data",
+"Salary structures",
+"Attendance inputs",
+"Leave adjustments",
+"Gross salary calculations",
+"Statutory deductions",
+"Net salary calculations",
+"Payroll approvals",
+"Salary registers",
+"Payslip preparation",
+"Reporting"
+]
+],
+[
+"PAYROLL OUTSOURCING",
+[
+"Outsourced payroll operations",
+"Dedicated workflow coordination",
+"Employee data management",
+"Monthly payroll processing",
+"Payroll reconciliation",
+"Reporting",
+"Compliance coordination",
+"Service-level expectations",
+"Escalation management"
+]
+],
+[
+"SALARY CALCULATION AND STRUCTURING",
+[
+"CTC components",
+"Gross salary",
+"Basic salary",
+"Allowances",
+"Variable compensation",
+"Bonuses",
+"Incentives",
+"Deductions",
+"Net salary",
+"Salary revisions",
+"Arrears",
+"Salary structure documentation"
+]
+],
+[
+"ATTENDANCE AND LEAVE INTEGRATION",
+[
+"Attendance data",
+"Leave records",
+"Loss of pay",
+"Overtime",
+"Shift allowances",
+"Attendance exceptions",
+"HR coordination",
+"Payroll input validation",
+"Reconciliation"
+]
+],
+[
+"PF AND ESI COMPLIANCE SUPPORT",
+[
+"Employee eligibility",
+"Employer and employee contributions",
+"Wage data",
+"Contribution calculations",
+"Return preparation support",
+"Payment coordination",
+"Employee records",
+"Reconciliation",
+"Documentation",
+"Verify applicability and current statutory requirements"
+]
+],
+[
+"PAYROLL TDS SUPPORT",
+[
+"Salary-related TDS calculations",
+"Employee tax information",
+"Payroll deduction schedules",
+"Form 24Q coordination",
+"Form 16 support",
+"Tax declaration workflows",
+"Investment proof coordination",
+"Reconciliation"
+]
+],
+[
+"PROFESSIONAL TAX SUPPORT",
+[
+"State-specific applicability",
+"Employee deductions",
+"Employer records",
+"Return preparation",
+"Payment coordination",
+"Compliance calendars",
+"Reconciliation",
+"Documentation"
+]
+],
+[
+"PAYSLIP GENERATION AND EMPLOYEE DOCUMENTATION",
+[
+"Monthly payslips",
+"Salary certificates",
+"Employee payroll records",
+"Earnings and deduction statements",
+"Payroll history",
+"Secure document distribution",
+"Employee queries",
+"Document retention"
+]
+],
+[
+"EMPLOYEE REIMBURSEMENT PROCESSING",
+[
+"Expense claims",
+"Supporting documents",
+"Reimbursement policies",
+"Approval workflows",
+"Payroll integration",
+"Tax treatment review",
+"Payment schedules",
+"Reconciliation"
+]
+],
+[
+"FULL AND FINAL SETTLEMENT",
+[
+"Employee exit information",
+"Unpaid salary",
+"Leave encashment",
+"Notice period adjustments",
+"Recoveries",
+"Reimbursements",
+"Applicable gratuity considerations",
+"Final deductions",
+"Settlement documentation",
+"Approval workflows"
+]
+],
+[
+"PAYROLL RECONCILIATION AND REPORTING",
+[
+"Payroll register reconciliation",
+"Salary expense reconciliation",
+"Bank payment reconciliation",
+"Statutory deduction reconciliation",
+"Month-over-month variance analysis",
+"Exception reports",
+"Management information reports",
+"Audit documentation"
+]
+],
+[
+"PAYROLL DATA MANAGEMENT",
+[
+"Employee master data",
+"Salary records",
+"Bank details",
+"Tax information",
+"Employee changes",
+"Data validation",
+"Secure storage",
+"Access controls",
+"Change logs",
+"Data retention"
+]
+],
+[
+"PAYROLL SOFTWARE SUPPORT",
+[
+"Payroll system configuration assistance",
+"Employee data migration",
+"Salary structure setup",
+"Payroll input templates",
+"System validation",
+"Reporting configuration",
+"Process documentation",
+"User support",
+"Integration coordination"
+]
+],
+[
+"PAYROLL COMPLIANCE MANAGEMENT",
+[
+"Compliance calendars",
+"Applicable statutory requirements",
+"Contribution records",
+"Deduction records",
+"Filing support",
+"Documentation",
+"Deadline monitoring",
+"Internal reviews",
+"Reporting"
+]
+],
+[
+"PAYROLL PROCESS AUTOMATION",
+[
+"Automated data collection",
+"Attendance integration",
+"Salary calculation workflows",
+"Validation rules",
+"Exception alerts",
+"Approval routing",
+"Payroll dashboards",
+"Reporting automation",
+"Process standardization"
+]
+]
+],
+"faq": [],
+"process": [
+"Step 1: Requirement Assessment",
+"Step 2: Employee Data Collection",
+"Step 3: Data Validation",
+"Step 4: Payroll Calculation",
+"Step 5: Statutory Deduction Review",
+"Step 6: Quality Assurance",
+"Step 7: Client Approval and Payment Preparation",
+"Step 8: Reporting and Ongoing Support"
+],
+"ind": [
+"13. INDUSTRY-SPECIFIC PAYROLL SOLUTIONS",
+"Startups",
+"IT Companies",
+"Manufacturing",
+"Retail",
+"Healthcare",
+"Hospitality",
+"Construction",
+"Logistics",
+"Professional Services",
+"E-Commerce",
+"Educational Institutions",
+"Financial Services",
+"BPO and Customer Support",
+"Multi-Location Businesses",
+"Large Enterprises",
+"Payroll complexity",
+"Workforce structure",
+"Attendance considerations",
+"Salary components"
+],
+"kw": [
+"21. HIGH-VALUE PAYROLL SEO STRATEGY",
+"Research relevant commercial and transactional keywords.",
+"Do not invent search volumes or keyword difficulty scores.",
+"Primary Keywords",
+"Payroll services",
+"Payroll services in India",
+"Payroll outsourcing services",
+"Payroll processing services",
+"Payroll management services",
+"Payroll compliance services",
+"Payroll outsourcing companies",
+"Payroll accounting services",
+"Payroll support services",
+"Outsourced payroll services",
+"Secondary Keywords",
+"Payroll processing",
+"Payroll outsourcing",
+"Payroll management",
+"Employee payroll processing",
+"Salary processing services",
+"Payroll reconciliation",
+"Payroll compliance support",
+"PF and ESI compliance",
+"Payroll TDS services",
+"Payslip generation services",
+"Payroll software support",
+"Payroll reporting services",
+"Payroll data management",
+"Full and final settlement services",
+"Payroll automation services",
+"Long-Tail Keywords",
+"Payroll outsourcing services for small businesses",
+"Payroll processing services for startups",
+"End-to-end payroll management services",
+"Monthly payroll processing services in India",
+"Payroll compliance outsourcing for companies",
+"Employee salary processing support",
+"Payroll reconciliation services for businesses",
+"Outsourced payroll management for SMEs",
+"Payroll processing support for enterprises"
+]
+},
+"7 Financial Planning & Advisory MASTER PROMPT FOR CLAUDE AI.txt": {
+"hero": [
+"5. ADVANCED 3D HERO SECTION",
+"Main Heading",
+"Financial Planning & Advisory That Turns Business Data Into Smarter Decisions",
+"Supporting Description",
+"Strengthen financial visibility, improve budgeting and forecasting, understand cash-flow requirements, and support strategic business decisions through structured financial planning and analysis.",
+"Frequent Research helps businesses organize financial information, evaluate performance, and develop practical planning frameworks aligned with their operational goals.",
+"Adapt all company-specific claims to verified capabilities.",
+"Primary CTA",
+"Book a Financial Consultation",
+"Secondary CTA",
+"Explore Our Advisory Services",
+"Additional CTA",
+"Discuss Your Financial Goals",
+"3D Hero Animation"
+],
+"caps": [
+[
+"DETAILED FINANCIAL PLANNING & ADVISORY CAPABILITIES",
+[
+"Develop comprehensive content for each service",
+"Service overview",
+"Business challenges addressed",
+"Target clients",
+"Our proposed or verified approach",
+"Step-by-step methodology",
+"Required financial information",
+"Analytical tools",
+"Quality review procedures",
+"Deliverables",
+"Potential business benefits",
+"Relevant FAQs",
+"Consultation CTA"
+]
+],
+[
+"BUSINESS FINANCIAL PLANNING",
+[
+"Short-term financial planning",
+"Medium-term planning",
+"Long-term planning",
+"Financial objectives",
+"Resource allocation",
+"Financial projections",
+"Business performance monitoring",
+"Strategic planning"
+]
+],
+[
+"BUDGETING AND FORECASTING",
+[
+"Annual budgets",
+"Department budgets",
+"Revenue forecasts",
+"Expense forecasts",
+"Rolling forecasts",
+"Budget assumptions",
+"Variance analysis",
+"Forecast revisions",
+"Management reporting"
+]
+],
+[
+"CASH-FLOW PLANNING AND MANAGEMENT",
+[
+"Cash inflow analysis",
+"Cash outflow analysis",
+"Cash-flow forecasts",
+"Liquidity planning",
+"Payment schedules",
+"Collection forecasting",
+"Cash-flow gaps",
+"Scenario planning",
+"Cash reporting"
+]
+],
+[
+"FINANCIAL MODELING",
+[
+"Three-statement models",
+"Revenue models",
+"Expense models",
+"Cash-flow models",
+"Scenario models",
+"Sensitivity analysis",
+"Business expansion models",
+"Capital expenditure models",
+"Model documentation",
+"Assumption validation"
+]
+],
+[
+"FINANCIAL PERFORMANCE ANALYSIS",
+[
+"Revenue analysis",
+"Expense analysis",
+"Profitability analysis",
+"Margin analysis",
+"KPI monitoring",
+"Trend analysis",
+"Budget variance",
+"Management dashboards",
+"Financial performance reports"
+]
+],
+[
+"WORKING CAPITAL MANAGEMENT",
+[
+"Receivables",
+"Payables",
+"Inventory",
+"Cash conversion cycle",
+"Payment terms",
+"Collection patterns",
+"Working capital requirements",
+"Liquidity monitoring",
+"Operational recommendations"
+]
+],
+[
+"PROFITABILITY AND COST ANALYSIS",
+[
+"Product profitability",
+"Service profitability",
+"Department profitability",
+"Cost allocation",
+"Fixed costs",
+"Variable costs",
+"Contribution margins",
+"Break-even analysis",
+"Cost optimization opportunities"
+]
+],
+[
+"BUSINESS FINANCIAL HEALTH ASSESSMENT",
+[
+"Financial statement review",
+"Liquidity ratios",
+"Profitability ratios",
+"Solvency indicators",
+"Working capital",
+"Cash-flow stability",
+"Financial risks",
+"Performance trends",
+"Management recommendations"
+]
+],
+[
+"STRATEGIC FINANCIAL ADVISORY",
+[
+"Financial decision support",
+"Business planning",
+"Growth scenarios",
+"Capital allocation",
+"Financial risk considerations",
+"Investment appraisal for internal business projects",
+"Strategic financial analysis",
+"Performance improvement planning"
+]
+],
+[
+"BUSINESS EXPANSION FINANCIAL PLANNING",
+[
+"Expansion budgets",
+"Revenue assumptions",
+"Capital expenditure",
+"Operating expenses",
+"Cash requirements",
+"Break-even analysis",
+"Scenario planning",
+"Financial feasibility",
+"Funding requirements"
+]
+],
+[
+"CAPITAL BUDGETING AND INVESTMENT APPRAISAL",
+[
+"Capital expenditure planning",
+"Project cash-flow estimates",
+"Net Present Value",
+"Internal Rate of Return",
+"Payback period",
+"Sensitivity analysis",
+"Risk assessment",
+"Investment alternatives",
+"Management decision support"
+]
+],
+[
+"FINANCIAL RISK ASSESSMENT",
+[
+"Liquidity risk",
+"Cash-flow uncertainty",
+"Revenue concentration",
+"Cost volatility",
+"Financial leverage",
+"Scenario risks",
+"Sensitivity analysis",
+"Risk reporting",
+"Mitigation planning"
+]
+],
+[
+"MANAGEMENT INFORMATION SYSTEM REPORTING",
+[
+"Financial MIS reports",
+"Revenue dashboards",
+"Expense dashboards",
+"Profitability reports",
+"Budget variance reports",
+"Cash-flow summaries",
+"KPI reporting",
+"Executive dashboards",
+"Reporting automation"
+]
+],
+[
+"STARTUP FINANCIAL PLANNING",
+[
+"Startup budgets",
+"Burn rate",
+"Cash runway",
+"Revenue assumptions",
+"Cost planning",
+"Hiring forecasts",
+"Funding scenarios",
+"Unit economics",
+"Financial projections",
+"Investor-readiness documentation"
+]
+],
+[
+"OUTSOURCED FINANCIAL PLANNING & ANALYSIS",
+[
+"Recurring budgeting",
+"Forecasting",
+"Financial reporting",
+"Performance analysis",
+"Management dashboards",
+"Scenario planning",
+"Financial modeling",
+"Periodic reviews",
+"Operational recommendations",
+"Finance team support"
+]
+]
+],
+"faq": [],
+"process": [
+"Step 1: Understanding Business Objectives",
+"Step 2: Financial Information Collection",
+"Step 3: Data Validation and Organization",
+"Step 4: Financial Analysis",
+"Step 5: Financial Modeling and Forecasting",
+"Step 6: Quality Assurance",
+"Step 7: Recommendations and Management Review",
+"Step 8: Monitoring and Continuous Support"
+],
+"ind": [
+"14. INDUSTRY-SPECIFIC FINANCIAL PLANNING",
+"Startups",
+"Manufacturing",
+"Retail",
+"Wholesale Distribution",
+"IT and SaaS",
+"Healthcare",
+"Hospitality",
+"Logistics",
+"Construction",
+"Real Estate",
+"E-Commerce",
+"Professional Services",
+"Educational Institutions",
+"Financial Services",
+"Multi-Location Enterprises",
+"Financial planning challenges",
+"Revenue characteristics",
+"Cost structures",
+"Cash-flow considerations"
+],
+"kw": [
+"23. HIGH-VALUE SEO KEYWORD STRATEGY",
+"Research commercial and informational search demand.",
+"Do not invent search-volume or keyword-difficulty data.",
+"Primary Keywords",
+"Financial planning services",
+"Financial advisory services",
+"Financial planning and advisory",
+"Business financial planning",
+"Corporate financial planning",
+"Financial planning services in India",
+"Financial consulting services",
+"Financial planning and analysis services",
+"FP&A services",
+"Outsourced FP&A services",
+"Secondary Keywords",
+"Business financial advisory",
+"Financial forecasting services",
+"Budgeting and forecasting services",
+"Cash-flow management services",
+"Financial modeling services",
+"Financial performance analysis",
+"Working capital management",
+"Profitability analysis",
+"Financial health assessment",
+"Financial risk assessment",
+"Strategic financial planning",
+"Business expansion financial planning",
+"Capital budgeting services",
+"Financial MIS reporting",
+"Financial dashboard services",
+"Long-Tail Keywords",
+"Financial planning services for small businesses",
+"Financial advisory services for startups",
+"Outsourced financial planning and analysis services",
+"Business budgeting and forecasting services",
+"Cash-flow forecasting services for companies",
+"Financial modeling services for startups",
+"Corporate financial planning support",
+"Financial performance analysis services for SMEs",
+"Financial planning and reporting outsourcing"
+]
+},
+"8 Business Finance Services  MASTER PROMPT FOR CLAUDE AI.txt": {
+"hero": [
+"Premium 3D Hero Section.",
+"Business Finance Services Overview.",
+"Common Business Financing Challenges.",
+"Complete Business Finance Capabilities.",
+"Interactive Business Financing Lifecycle.",
+"Our Business Finance Work Process.",
+"Our Work Culture and Client Engagement Methodology.",
+"Business Funding Readiness Assessment.",
+"Interactive Working Capital Calculator.",
+"Business Finance Documentation Framework.",
+"Technology and Financial Analysis Tools.",
+"Financial Quality Assurance Framework.",
+"Industry-Specific Business Finance Solutions.",
+"Business Finance Engagement Models."
+],
+"caps": [
+[
+"DETAILED BUSINESS FINANCE SERVICE CAPABILITIES",
+[
+"Each service must include:",
+"Service overview",
+"Business challenges addressed",
+"Target audience",
+"Our proposed or verified approach",
+"Step-by-step methodology",
+"Required financial documents",
+"Tools and technology",
+"Quality assurance",
+"Expected deliverables",
+"Potential business benefits",
+"Frequently asked questions",
+"Consultation CTA"
+]
+],
+[
+"BUSINESS FINANCING READINESS SUPPORT",
+[
+"Financing requirement assessment",
+"Financial statement review",
+"Revenue analysis",
+"Cash-flow assessment",
+"Existing debt obligations",
+"Financial ratio review",
+"Documentation readiness",
+"Business profile preparation",
+"Funding requirement summaries"
+]
+],
+[
+"BUSINESS LOAN DOCUMENTATION SUPPORT",
+[
+"Loan application documentation",
+"Business financial statements",
+"Income and expense reports",
+"Cash-flow projections",
+"Bank statement organization",
+"Tax-related financial records",
+"Existing liability schedules",
+"Business profiles",
+"Supporting documents",
+"Application tracking coordination"
+]
+],
+[
+"WORKING CAPITAL FINANCE SUPPORT",
+[
+"Working capital requirements",
+"Receivables analysis",
+"Payables analysis",
+"Inventory requirements",
+"Cash conversion cycle",
+"Short-term financing needs",
+"Working capital projections",
+"Financial reporting",
+"Operational recommendations"
+]
+],
+[
+"CASH-FLOW PLANNING AND FINANCING SUPPORT",
+[
+"Cash inflows",
+"Cash outflows",
+"Liquidity planning",
+"Short-term cash forecasts",
+"Medium-term cash forecasts",
+"Payment obligations",
+"Collection schedules",
+"Cash shortfalls",
+"Financing scenarios",
+"Management reporting"
+]
+],
+[
+"MSME FINANCE DOCUMENTATION SUPPORT",
+[
+"MSME business profiles",
+"Financial documentation",
+"Working capital requirements",
+"Business cash-flow analysis",
+"Financing readiness",
+"Relevant scheme eligibility research",
+"Application document coordination",
+"Supporting financial schedules",
+"Verify scheme requirements against official sources"
+]
+],
+[
+"BUSINESS EXPANSION FINANCE PLANNING",
+[
+"Expansion budgets",
+"Capital expenditure",
+"Revenue assumptions",
+"Operating cost forecasts",
+"Working capital requirements",
+"Cash-flow projections",
+"Funding gaps",
+"Scenario analysis",
+"Financial feasibility",
+"Financing documentation"
+]
+],
+[
+"FINANCIAL STATEMENT PREPARATION SUPPORT",
+[
+"Profit and loss information",
+"Balance sheet schedules",
+"Cash-flow statements",
+"Financial data organization",
+"Accounting reconciliations",
+"Supporting schedules",
+"Management reporting",
+"Documentation review"
+]
+],
+[
+"BUSINESS FINANCIAL ANALYSIS",
+[
+"Revenue analysis",
+"Expense analysis",
+"Profitability analysis",
+"Liquidity ratios",
+"Solvency ratios",
+"Financial leverage",
+"Debt obligations",
+"Cash-flow trends",
+"Working capital",
+"Financial risk indicators"
+]
+],
+[
+"DEBT REPAYMENT AND OBLIGATION PLANNING",
+[
+"Existing loan schedules",
+"Principal balances",
+"Interest obligations",
+"Repayment timelines",
+"Cash-flow requirements",
+"Debt service coverage",
+"Refinancing scenario analysis",
+"Financial risk considerations",
+"Management reporting"
+]
+],
+[
+"PROJECT FINANCE DOCUMENTATION",
+[
+"Project cost estimates",
+"Capital expenditure schedules",
+"Revenue projections",
+"Operating cost projections",
+"Project cash-flow models",
+"Financial feasibility",
+"Repayment scenarios",
+"Sensitivity analysis",
+"Supporting documentation"
+]
+],
+[
+"FINANCIAL PROJECTIONS FOR FUNDING APPLICATIONS",
+[
+"Revenue forecasts",
+"Expense forecasts",
+"Cash-flow forecasts",
+"Working capital assumptions",
+"Debt schedules",
+"Repayment assumptions",
+"Scenario modeling",
+"Financial statements",
+"Assumption documentation"
+]
+],
+[
+"LENDER DOCUMENTATION COORDINATION",
+[
+"Document checklists",
+"Information requests",
+"Financial statement schedules",
+"Supporting documentation",
+"Clarification tracking",
+"Application status coordination",
+"Financial information reconciliation",
+"Document version control"
+]
+],
+[
+"BUSINESS CREDIT PROFILE REVIEW SUPPORT",
+[
+"Existing borrowing information",
+"Repayment history documentation",
+"Financial obligations",
+"Business financial ratios",
+"Credit-related documentation",
+"Information consistency",
+"Financial risk considerations",
+"Readiness reporting"
+]
+],
+[
+"FINANCIAL REPORTING FOR LENDERS",
+[
+"Financial statements",
+"Cash-flow reports",
+"Debt schedules",
+"Financial ratios",
+"Working capital reports",
+"Business performance summaries",
+"Variance analysis",
+"Supporting schedules",
+"Management explanations"
+]
+],
+[
+"OUTSOURCED BUSINESS FINANCE SUPPORT",
+[
+"Recurring financial documentation",
+"Cash-flow reporting",
+"Working capital monitoring",
+"Financing requirement analysis",
+"Debt schedule management",
+"Financial projections",
+"Management reporting",
+"Documentation coordination",
+"Process improvement"
+]
+]
+],
+"faq": [
+"What are business finance services?",
+"Why do businesses need financial support?",
+"What is business financing readiness?",
+"What is working capital?",
+"How is working capital calculated?",
+"What is the cash conversion cycle?",
+"What is business cash-flow planning?",
+"What is business loan documentation?",
+"What documents are commonly needed for business financing?",
+"What is an MSME business loan?",
+"What is working capital finance?",
+"What is project finance?",
+"What is business expansion financing?",
+"What is financial statement analysis?",
+"What is a debt repayment schedule?",
+"What is debt service coverage?",
+"What is a financial projection?",
+"What is business financial modeling?",
+"What is a cash-flow forecast?",
+"What is a funding gap?",
+"What is financing documentation support?",
+"What is lender documentation coordination?",
+"What is business credit readiness?",
+"How can businesses improve financial documentation?",
+"How can companies manage cash-flow gaps?",
+"What is financial feasibility analysis?",
+"What is capital expenditure planning?",
+"What is financial ratio analysis?",
+"What is business finance outsourcing?",
+"How can startups prepare financial projections?",
+"How can MSMEs organize financing documents?",
+"What are common business financing challenges?",
+"How are financial statements reviewed?",
+"How are business finance models validated?",
+"How can financial reporting support lender discussions?",
+"What information is required for finance readiness assessment?",
+"How is confidential business information protected?",
+"Does documentation support guarantee loan approval?",
+"How does Frequent Research approach business finance support?",
+"How can I request a business finance consultation?"
+],
+"process": [
+"Step 1: Understanding Business Objectives",
+"Step 2: Financial Documentation Collection",
+"Step 3: Data Validation",
+"Step 4: Financial Requirement Analysis",
+"Step 5: Financial Modeling and Documentation",
+"Step 6: Quality Assurance",
+"Step 7: Client Review and Coordination",
+"Step 8: Ongoing Monitoring and Support"
+],
+"ind": [
+"16. INDUSTRY-SPECIFIC BUSINESS FINANCE SOLUTIONS",
+"Startups",
+"MSMEs",
+"Manufacturing",
+"Retail",
+"Wholesale Distribution",
+"E-Commerce",
+"IT and SaaS",
+"Healthcare",
+"Hospitality",
+"Logistics",
+"Construction",
+"Real Estate",
+"Exporters",
+"Professional Services",
+"Multi-Location Enterprises",
+"Common financing requirements",
+"Cash-flow characteristics",
+"Working capital challenges",
+"Documentation needs"
+],
+"kw": [
+"25. HIGH-VALUE BUSINESS FINANCE SEO STRATEGY",
+"Research commercially valuable keywords.",
+"Do not invent keyword metrics.",
+"Primary Keywords",
+"Business finance services",
+"Business finance services in India",
+"Business financing services",
+"Business financial services",
+"Business finance consulting",
+"Business finance support",
+"MSME finance services",
+"Working capital finance support",
+"Business loan documentation services",
+"Corporate finance services",
+"Secondary Keywords",
+"Business financing support",
+"Business funding readiness",
+"Working capital management",
+"Cash-flow planning services",
+"Business loan documentation",
+"MSME financing support",
+"Business financial analysis",
+"Financial statement preparation support",
+"Debt repayment planning",
+"Project finance documentation",
+"Financial projections for business loans",
+"Business expansion finance planning",
+"Lender documentation support",
+"Business finance outsourcing",
+"Long-Tail Keywords",
+"Business finance services for small businesses",
+"Business financing support for startups",
+"MSME business finance documentation services",
+"Working capital analysis for manufacturing companies",
+"Business loan documentation support in India",
+"Financial projections for business financing",
+"Business cash-flow planning services",
+"Business finance consulting for SMEs",
+"Business funding readiness assessment",
+"Outsourced business finance support services"
+]
+},
+"9 Startup & SME Accounting MASTER PROMPT FOR CLAUDE AI.txt": {
+"hero": [
+"Advanced 3D Hero Section.",
+"Startup & SME Accounting Overview.",
+"Common Accounting Challenges.",
+"Complete Accounting Service Capabilities.",
+"Interactive Accounting Lifecycle.",
+"Our Accounting Work Process.",
+"Our Work Culture and Client Engagement Methodology.",
+"Interactive Bookkeeping Dashboard.",
+"Technology and Accounting Software.",
+"Accounting Quality Assurance Framework.",
+"Industry-Specific Accounting Solutions.",
+"Startup Accounting Growth Stages.",
+"Accounting Engagement Models.",
+"Verified Business Outcomes."
+],
+"caps": [
+[
+"DETAILED STARTUP & SME ACCOUNTING SERVICE CAPABILITIES",
+[
+"Each service must include:",
+"Service overview",
+"Business challenges",
+"Target audience",
+"Proposed or verified approach",
+"Detailed work process",
+"Required documents",
+"Accounting tools",
+"Quality checks",
+"Expected deliverables",
+"Potential business benefits",
+"Relevant FAQs",
+"Consultation CTA"
+]
+],
+[
+"STARTUP BOOKKEEPING SERVICES",
+[
+"Daily transactions",
+"Sales records",
+"Purchase records",
+"Expense categorization",
+"General ledger",
+"Accounting entries",
+"Supporting documents",
+"Reconciliation",
+"Reporting"
+]
+],
+[
+"SME ACCOUNTING SERVICES",
+[
+"Transaction accounting",
+"Financial record management",
+"Ledger maintenance",
+"Accounts payable",
+"Accounts receivable",
+"Bank reconciliation",
+"Financial reporting",
+"Month-end closing"
+]
+],
+[
+"OUTSOURCED ACCOUNTING SERVICES",
+[
+"Recurring bookkeeping",
+"Transaction processing",
+"Financial reconciliations",
+"Monthly reporting",
+"Accounting documentation",
+"Quality review",
+"Client communication",
+"Scalable service delivery"
+]
+],
+[
+"ACCOUNTS PAYABLE MANAGEMENT",
+[
+"Supplier invoices",
+"Vendor records",
+"Payment schedules",
+"Invoice validation",
+"Purchase reconciliation",
+"Outstanding liabilities",
+"Approval workflows",
+"Accounts payable reporting"
+]
+],
+[
+"ACCOUNTS RECEIVABLE MANAGEMENT",
+[
+"Customer invoices",
+"Receivables tracking",
+"Payment matching",
+"Aging reports",
+"Outstanding balances",
+"Collection coordination",
+"Reconciliation",
+"Reporting"
+]
+],
+[
+"BANK RECONCILIATION SERVICES",
+[
+"Bank statements",
+"Ledger balances",
+"Transaction matching",
+"Missing entries",
+"Duplicate transactions",
+"Unreconciled items",
+"Reconciliation statements",
+"Exception reporting"
+]
+],
+[
+"GENERAL LEDGER ACCOUNTING",
+[
+"Chart of accounts",
+"Journal entries",
+"Ledger classification",
+"Adjustments",
+"Supporting documentation",
+"Ledger review",
+"Trial balance",
+"Reporting"
+]
+],
+[
+"FINANCIAL STATEMENT PREPARATION SUPPORT",
+[
+"Profit and loss statements",
+"Balance sheet schedules",
+"Cash-flow information",
+"Trial balance review",
+"Supporting schedules",
+"Financial data reconciliation",
+"Management reporting",
+"Distinguish preparation support from statutory audit or certification"
+]
+],
+[
+"MONTH-END AND YEAR-END CLOSING",
+[
+"Closing checklists",
+"Ledger review",
+"Accruals",
+"Prepayments",
+"Reconciliations",
+"Expense adjustments",
+"Trial balance",
+"Financial reporting",
+"Documentation"
+]
+],
+[
+"EXPENSE MANAGEMENT AND TRACKING",
+[
+"Expense records",
+"Vendor invoices",
+"Employee reimbursements",
+"Expense categorization",
+"Approval workflows",
+"Expense reporting",
+"Budget comparisons",
+"Documentation"
+]
+],
+[
+"GST AND TDS ACCOUNTING COORDINATION",
+[
+"GST-related accounting records",
+"TDS deduction records",
+"Tax ledger reconciliation",
+"Supporting schedules",
+"Compliance documentation",
+"Financial reporting coordination",
+"Link internally to GST and TDS service pages"
+]
+],
+[
+"ACCOUNTING SOFTWARE SETUP AND SUPPORT",
+[
+"Chart of accounts setup",
+"Opening balances",
+"Vendor records",
+"Customer records",
+"Accounting workflows",
+"Data migration",
+"Transaction templates",
+"Reconciliation",
+"Reporting configuration"
+]
+],
+[
+"STARTUP FINANCIAL REPORTING",
+[
+"Monthly financial reports",
+"Revenue summaries",
+"Expense summaries",
+"Profitability",
+"Cash-flow visibility",
+"Management dashboards",
+"Budget comparisons",
+"Financial KPIs"
+]
+],
+[
+"ACCOUNTING DATA CLEANUP AND RECONCILIATION",
+[
+"Historical records",
+"Missing entries",
+"Duplicate transactions",
+"Incorrect classifications",
+"Bank reconciliation",
+"Ledger corrections",
+"Supporting documents",
+"Cleanup reports"
+]
+],
+[
+"SCALABLE ACCOUNTING OPERATIONS",
+[
+"Accounting process design",
+"Standardized workflows",
+"Documentation",
+"Automation opportunities",
+"Quality-control procedures",
+"Reporting",
+"Team coordination",
+"Growth-stage accounting requirements"
+]
+]
+],
+"faq": [],
+"process": [
+"Step 1: Business Requirement Assessment",
+"Step 2: Financial Document Collection",
+"Step 3: Data Validation",
+"Step 4: Transaction Processing",
+"Step 5: Reconciliation",
+"Step 6: Quality Assurance",
+"Step 7: Financial Reporting",
+"Step 8: Ongoing Support"
+],
+"ind": [
+"14. INDUSTRY-SPECIFIC ACCOUNTING SOLUTIONS",
+"Technology Startups",
+"SaaS Companies",
+"E-Commerce",
+"Retail",
+"Manufacturing",
+"Wholesale Distribution",
+"Healthcare",
+"Hospitality",
+"Logistics",
+"Construction",
+"Real Estate",
+"Professional Services",
+"Educational Businesses",
+"Digital Agencies",
+"Multi-Location SMEs",
+"Common accounting challenges",
+"Transaction types",
+"Revenue recognition considerations",
+"Expense management"
+],
+"kw": [
+"24. HIGH-VALUE SEO KEYWORD STRATEGY",
+"Research commercial and informational keywords.",
+"Use actual keyword data where available.",
+"Do not invent search-volume or keyword-difficulty metrics.",
+"Primary Keywords",
+"Startup accounting services",
+"SME accounting services",
+"Accounting services for startups",
+"Accounting services for small businesses",
+"Small business accounting services",
+"Outsourced accounting services",
+"Bookkeeping services for startups",
+"Startup bookkeeping services",
+"MSME accounting services",
+"Accounting outsourcing services in India",
+"Secondary Keywords",
+"Startup bookkeeping",
+"SME bookkeeping",
+"Small business bookkeeping",
+"Accounts payable services",
+"Accounts receivable services",
+"Bank reconciliation services",
+"General ledger accounting",
+"Financial statement preparation",
+"Month-end closing services",
+"Expense management services",
+"Accounting software support",
+"Financial reporting services",
+"Accounting data cleanup",
+"Outsourced bookkeeping",
+"Startup financial reporting",
+"Long-Tail Keywords",
+"Accounting services for startups in India",
+"Outsourced accounting services for small businesses",
+"Bookkeeping services for early-stage startups",
+"Monthly accounting services for SMEs",
+"Accounting outsourcing for growing companies",
+"Startup bookkeeping and financial reporting services",
+"Bank reconciliation services for small businesses",
+"Accounts payable outsourcing for SMEs"
+]
+}
+}

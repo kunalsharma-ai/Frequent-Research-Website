@@ -1,0 +1,29 @@
+/* Build 43 — contrast fixes: text on dark backgrounds must be white / light.
+   Loaded last (build_dm.js STYLES), so these override the base site styles they target. */
+
+/* IT pages + Market Research hub: motto and final call-to-action headings were inheriting the dark heading colour */
+.ix-motto h2,.ix-final h2,.ix-page .ix-motto h2,.ix-page .ix-final h2{color:#fff}
+
+/* Policy pages: "Contact our team" button text was link-blue on a blue button (invisible) */
+.policy__body a.btn--primary,.policy__body a.btn--primary:hover{color:#fff}
+
+/* Consumer Panel: comparison table header labels were grey on navy */
+.cp-cmp__row--h>span{color:#fff}
+
+/* Data Processing & Analytics: own-tool tile label was grey on navy */
+.dpa-tools .rc-tech__tile--own span{color:#E3A013}
+
+/* Qualitative Research: audience card text on teal */
+.qlt-aud__c2 span{color:#fff}
+
+/* Digital Marketing pages: blue kicker on dark sections */
+.dk-sec--dark .pp-kick,.dk-sec--ink .pp-kick,.dk-hero--dark .pp-kick{color:#6EE0CE}
+
+/* Government & Opinion Research: kicker on dark sections, programme card numbers */
+.gx-head--light .gx-kick{color:#6EE0CE}
+.gx-pcard__n{color:rgba(255,255,255,.7)}
+
+/* Industries: back face of the sector tiles */
+.in-tile__back b{color:rgba(255,255,255,.85)}
+.in-tile__back i{color:#fff}
+.gx-cov .gx-cov__list summary em{color:#6EE0CE}

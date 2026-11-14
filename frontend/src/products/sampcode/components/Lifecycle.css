@@ -1,0 +1,215 @@
+.lc {
+  padding-bottom: 40px;
+}
+.lc-track {
+  position: relative;
+  margin-top: 40px;
+}
+.lc-sticky {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.lc-glow {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 50% 50% at 70% 50%, color-mix(in srgb, var(--accent) 22%, transparent), transparent 70%),
+    radial-gradient(ellipse 30% 40% at 10% 80%, color-mix(in srgb, var(--accent) 12%, transparent), transparent 70%);
+  transition: background 0.8s;
+  pointer-events: none;
+}
+.lc-grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(300px, 0.8fr) 1.5fr;
+  gap: clamp(30px, 4vw, 70px);
+  align-items: center;
+}
+.lc-steps {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 2px;
+}
+.lc-steps > li {
+  border-left: 2px solid var(--line);
+  padding-left: 20px;
+  transition: border-color 0.4s;
+}
+.lc-steps > li.on {
+  border-color: var(--c);
+}
+.lc-steps > li.done {
+  border-color: color-mix(in srgb, var(--c) 40%, transparent);
+}
+.lc-steps button {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  width: 100%;
+  background: none;
+  border: 0;
+  padding: 8px 0;
+  text-align: left;
+}
+.lc-num {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--muted);
+}
+.lc-name {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--muted);
+  transition: color 0.3s, font-size 0.4s;
+}
+.lc-steps li.on .lc-name {
+  color: var(--c);
+  font-size: 30px;
+  text-shadow: 0 0 30px color-mix(in srgb, var(--c) 50%, transparent);
+}
+.lc-steps li.on .lc-num {
+  color: var(--c);
+}
+.lc-body {
+  overflow: hidden;
+}
+.lc-body h3 {
+  margin: 4px 0 8px;
+  font-size: 20px;
+  line-height: 1.3;
+}
+.lc-body p {
+  margin: 0;
+  color: var(--text-2);
+  font-size: 15.5px;
+}
+.lc-body ul {
+  list-style: none;
+  padding: 0;
+  margin: 14px 0 12px;
+  display: grid;
+  gap: 6px;
+  font-size: 14.5px;
+}
+.lc-body li {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.lc-body li svg {
+  color: var(--c);
+  flex: none;
+}
+.lc-visual {
+  position: relative;
+}
+.lc-counter {
+  position: absolute;
+  right: 0;
+  top: -96px;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  font-family: var(--font-display);
+}
+.lc-big {
+  font-size: 84px;
+  font-weight: 700;
+  line-height: 1;
+  color: transparent;
+  -webkit-text-stroke: 1.5px var(--accent);
+  animation: popIn 0.6s var(--ease-out);
+}
+@keyframes popIn {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+}
+.lc-of {
+  color: var(--muted);
+  font-size: 18px;
+}
+.lc-frame {
+  position: relative;
+  perspective: 1400px;
+  display: grid;
+}
+.lc-shot {
+  grid-area: 1 / 1;
+}
+.lc-shot .browser {
+  box-shadow:
+    0 60px 120px -40px rgba(0, 0, 0, 0.9),
+    0 0 90px -20px color-mix(in srgb, var(--accent) 60%, transparent);
+}
+.lc-bar {
+  display: flex;
+  gap: 6px;
+  margin-top: 22px;
+}
+.lc-bar i {
+  flex: 1;
+  height: 4px;
+  border-radius: 4px;
+  background: var(--line);
+  transition: background 0.5s;
+}
+.lc-bar i.on {
+  background: var(--c);
+  box-shadow: 0 0 12px var(--c);
+}
+.lc-mobile {
+  display: none;
+}
+@media (max-width: 900px) {
+  .lc-track {
+    display: none;
+  }
+  .lc-mobile {
+    display: grid;
+    gap: 28px;
+    margin-top: 40px;
+  }
+  .lc-card {
+    padding: 22px;
+    border-radius: var(--radius);
+    border: 1px solid var(--line);
+    background: linear-gradient(160deg, color-mix(in srgb, var(--c) 10%, transparent), rgba(10, 9, 28, 0.6));
+  }
+  .lc-card h3 {
+    margin: 6px 0 8px;
+    font-size: 21px;
+    line-height: 1.25;
+  }
+  .lc-card .lc-name {
+    display: block;
+    color: var(--c);
+    font-size: 26px;
+    margin-bottom: 4px;
+  }
+  .lc-card p {
+    color: var(--text-2);
+    margin: 0 0 18px;
+    font-size: 15.5px;
+  }
+}
+@media (max-height: 760px) and (min-width: 901px) {
+  .lc-counter {
+    display: none;
+  }
+  .lc-steps li.on .lc-name {
+    font-size: 24px;
+  }
+  .lc-body p {
+    font-size: 14.5px;
+  }
+}

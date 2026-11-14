@@ -1,0 +1,50 @@
+1	Pesquisa ao vivo
+2	Qual a probabilidade de você recomendar esta marca?
+3	Concluídas
+4	Arraste para girar
+5	Patrocinado
+6	tendência de alta
+7	Conciliado
+8	Vendas
+9	Compras
+10	Caixa · Impostos · Lucro
+11	Aponte. Escaneie.
+12	Fique conectado.
+13	Todos os canais em um só lugar: Frequent Research, nossos três painéis de pesquisa e Sampledge — sites, perfis sociais e suporte por WhatsApp, cada um com seu próprio QR code.
+14	marcas
+15	número de WhatsApp
+16	Contato direto
+17	# canais.
+18	A um escaneamento de distância.
+19	Siga a empresa por trás dos painéis — notícias de pesquisa, insights, a rotina da equipe e anúncios, agora também no Threads.
+20	Site oficial
+21	Abrir o site
+22	Abrir
+23	Conversar
+24	# · Painel de pesquisa
+25	# · Nosso produto
+26	Escaneie e entre.
+27	Ferramenta DIY de gestão de projetos e de amostras
+28	Planeje projetos, gerencie amostras e acompanhe o campo por conta própria — siga a Sampledge em todos os canais ou converse com o suporte no WhatsApp.
+29	Visitar sampledge.com
+30	Suporte da Sampledge no WhatsApp
+31	# · Contato direto
+32	Fale com a gente.
+33	Ou encontre-nos.
+34	Converse com a equipe da Frequent Research
+35	Encontre-nos e deixe uma avaliação
+36	Abrir no Google
+37	Todos os nossos painéis
+38	Abrir o hub de painéis
+39	Iniciar uma conversa
+40	Cada código foi gerado a partir dos links oficiais e verificado com um leitor de QR antes da publicação. Um único número de WhatsApp, +# # #, atende todos os painéis e a Sampledge.
+41	Ir para uma marca
+42	Conversas e novidades rápidas
+43	Sua experiência pode melhorar a saúde.
+44	Transforme sua opinião em recompensas.
+45	Compartilhe sua opinião. Ganhe sempre.
+46	Profissionais de saúde, cuidadores e pacientes
+47	Consumidores e profissionais
+48	# · Frequent Research
+49	Suporte por WhatsApp
+50	Visitar

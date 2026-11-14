@@ -1,0 +1,40 @@
+1	Feldarbeit live
+2	# Länder
+3	Stichprobenmix
+4	Fachleute
+5	Ärzte
+6	Quoten-Tracker
+7	Online
+8	Persönlich
+9	bester Partner in meiner Nähe
+10	Ihre Marke
+11	Top-Ergebnis · # ★
+12	Funnel
+13	Begeistern
+14	Konvertieren
+15	Kanäle
+16	#-Sterne-Bewertung
+17	Architektur
+18	Pipeline
+19	Sicherheitsscan
+20	Deployment
+21	Cashflow
+22	Umsatz
+23	Kosten
+24	Netto
+25	Compliance
+26	Bücher abgestimmt
+27	Bank · GST · Hauptbuch
+28	Rechnung
+29	Bezahlt
+30	Vermarkten
+31	Bilanzieren
+32	Anziehen
+33	Planen
+34	Starten
+35	Erfassen
+36	Erfüllen
+37	Beraten
+38	# Leistungen
+39	Vorherige Folie
+40	Nächste Folie

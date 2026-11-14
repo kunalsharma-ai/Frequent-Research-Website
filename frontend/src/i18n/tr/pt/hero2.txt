@@ -1,0 +1,57 @@
+1	Ouça cada voz que importa.
+2	De uma pergunta a uma decisão segura.
+3	Pesquisas, painéis e insights em #+ mercados
+4	Participe dos nossos painéis — sua opinião vale
+5	Seja encontrado. Seja amado. Seja escolhido.
+6	Campanhas que transformam quem rola o feed em cliente.
+7	SEO, anúncios, redes sociais e marketing de performance
+8	Conteúdo que faz seus clientes pararem para ver
+9	Entram ideias. Sai software.
+10	Sites, apps e plataformas feitos para escalar.
+11	Web, mobile, SaaS, nuvem e IA
+12	Experiências que seus usuários adoram todos os dias
+13	Números que fecham. Sempre.
+14	Livros em dia, conformidade no prazo, decisões claras.
+15	Contabilidade, GST, folha de pagamento, impostos e CFO virtual
+16	Tranquilidade para fundadores e suas equipes
+17	Para empresas
+18	Para consumidores e profissionais
+19	Para o seu público
+20	+# mais
+21	Conhecer Pesquisa de Mercado
+22	Conhecer Marketing Digital
+23	Conhecer TI e Desenvolvimento
+24	Conhecer Contabilidade e Finanças
+25	Leia no seu idioma
+26	
+27	Marketing
+28	
+29	Consumidor
+30	
+31	Estudante
+32	Pai ou mãe
+33	Engenheiro
+34	
+35	Insight pronto
+36	Decisão
+37	Quanti
+38	Quali
+39	Painéis
+40	Novo lead
+41	Post compartilhado
+42	Checkout
+43	Compre agora
+44	Nuvem
+45	Interface
+46	Build
+47	Teste
+48	No ar
+49	Razão
+50	Contabilidade
+51	Folha
+52	
+53	Conciliado ✓
+54	Pausar slides
+55	Reproduzir slides
+56	Escolha um serviço
+57	Nossos serviços

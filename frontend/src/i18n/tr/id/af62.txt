@@ -1,0 +1,71 @@
+1	QR & Terhubung
+2	Pindai untuk mengikuti kami, panel kami, dan Sampledge.
+3	Beralih ke tema gelap
+4	Beralih ke tema terang
+5	Tema gelap
+6	Tema terang
+7	Terdengar familier?
+8	Arahkan kursor atau ketuk struk untuk melihat cara kami membantu.
+9	Cara kami membantu
+10	Yang termasuk
+11	Cara kami bekerja
+12	Paket & harga
+13	Paling populer
+14	Essential
+15	Growth
+16	Premium
+17	Bandingkan semua fitur
+18	Sembunyikan perbandingan lengkap
+19	Hasil utama
+20	Tidak termasuk
+21	Perlu diketahui
+22	Siapa yang kami bantu
+23	Dirancang untuk jenis bisnis Anda
+24	Cocok dipadukan dengan
+25	Layanan keuangan terkait
+26	Pesan konsultasi gratis 20 menit
+27	Lihat paket & harga
+28	Cara penetapan harga
+29	Paket mulai
+30	Paket mulai dari
+31	Mulai dari
+32	belum termasuk GST
+33	area kapabilitas
+34	aktivitas tercakup
+35	paket transparan
+36	langkah proses
+37	Penawaran khusus
+38	Penawaran tidak dapat digabung. Kelayakan dikonfirmasi dalam proposal Anda.
+39	Pesan panggilan gratis saya
+40	Kejelasan di setiap angka dimulai dari satu percakapan
+41	Penjelajah harga
+42	Paket transparan, berdampingan
+43	Bundel
+44	Penawaran peluncuran
+45	Tanpa kejutan
+46	Ketentuan komersial yang jelas
+47	Mengapa ini penting
+48	Empat tim ahli
+49	/bulan
+50	/tahun
+51	/SPT
+52	/proyek
+53	Pembukuan & Pelaporan
+54	Pajak & Kepatuhan
+55	Perencanaan & Pendanaan
+56	Keuangan Strategis
+57	Pilih
+58	Tampilkan QR
+59	Panel resmi
+60	Pindai untuk mengikuti
+61	Dukungan WhatsApp
+62	Setiap panel.
+63	Setiap profil. Satu pindaian.
+64	Pilih panel untuk melihat situs web, profil media sosial, dan dukungan WhatsApp-nya — masing-masing dengan kode QR sendiri.
+65	kode QR panel
+66	Semua panel kami di satu tempat:
+67	02 · Panel riset kami
+68	layanan keuangan
+69	paket jelas tiap layanan
+70	panggilan perkenalan gratis
+71	Jelajahi

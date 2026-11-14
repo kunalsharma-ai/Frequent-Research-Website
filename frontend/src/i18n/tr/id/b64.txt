@@ -1,0 +1,54 @@
+1	Tantangannya
+2	Kapabilitas
+3	aktivitas terdaftar
+4	Kapabilitas
+5	aktivitas
+6	Aktivitas
+7	Aktivitas dalam katalog layanan kami
+8	Kapabilitas sebelumnya
+9	Kapabilitas berikutnya
+10	Tahap
+11	← Tahap sebelumnya
+12	Tahap berikutnya →
+13	Bulanan
+14	siklus penggajian
+15	+ GST yang berlaku
+16	cakupan
+17	Kembali ke ringkasan
+18	Disarankan
+19	Bandingkan semua fitur
+20	Sorot sebuah paket
+21	Istilah:
+22	Alat interaktif
+23	Diskusikan kebutuhan Anda
+24	Syarat
+25	Tampilkan penawaran
+26	Buka semua
+27	jawaban
+28	Cari pertanyaan
+29	Minta penawaran khusus
+30	Penawaran khusus · tertulis sebelum pekerjaan dimulai
+31	Apa yang terjadi sebelum Anda berkomitmen?
+32	Lihat paket
+33	Pesan konsultasi gratis # menit
+34	Balik
+35	Tampilkan kode QR
+36	Untuk siapa
+37	Buka
+38	Penawaran komersial
+39	Siapa yang kami dukung
+40	Cakupan
+41	Layanan terkait
+42	Diskusikan kebutuhan ini
+43	Aktivitas dalam keterlibatan Anda bergantung pada paket yang dipilih dan cakupan tertulis.
+44	Fitur
+45	Harga
+46	Harga per SPT
+47	Produk kami
+48	Unduh
+49	Perbandingan dari paket layanan yang kami publikasikan. Yang tidak tercantum dikonfirmasi dalam cakupan keterlibatan Anda.
+50	Paling populer
+51	Lihat semua
+52	Mulai dari
+53	Pilih
+54	Proses # langkah

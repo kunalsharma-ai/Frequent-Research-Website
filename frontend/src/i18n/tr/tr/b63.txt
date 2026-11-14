@@ -1,0 +1,50 @@
+1	Canlı anket
+2	Bu markayı tavsiye etme olasılığınız nedir?
+3	Tamamlanan
+4	Döndürmek için sürükleyin
+5	Sponsorlu
+6	yükseliş trendi
+7	Mutabakat yapıldı
+8	Satışlar
+9	Alımlar
+10	Nakit · Vergi · Kâr
+11	Doğrult. Tara.
+12	Bağlantıda kalın.
+13	Tüm kanallar tek yerde: Frequent Research, üç araştırma panelimiz ve Sampledge — web siteleri, sosyal medya profilleri ve WhatsApp desteği, her biri kendi QR koduyla.
+14	marka
+15	WhatsApp numarası
+16	Doğrudan iletişim
+17	# kanal.
+18	Bir tarama uzağınızda.
+19	Panellerin arkasındaki şirketi takip edin — araştırma haberleri, içgörüler, ekipten kareler ve duyurular, artık Threads'te de.
+20	Resmî web sitesi
+21	Web sitesini aç
+22	Aç
+23	Sohbet
+24	# · Araştırma paneli
+25	# · Ürünümüz
+26	Tarayın ve başlayın.
+27	Proje Yönetimi ve Örneklem Yönetimi DIY aracı
+28	Projeleri planlayın, örneklemleri yönetin ve saha çalışmasını kendiniz takip edin — Sampledge'i tüm kanallarda takip edin ya da WhatsApp'ta destekle yazışın.
+29	sampledge.com'u ziyaret edin
+30	Sampledge WhatsApp desteği
+31	# · Doğrudan iletişim
+32	Bizimle konuşun.
+33	Ya da bizi bulun.
+34	Frequent Research ekibiyle sohbet edin
+35	Bizi bulun ve yorum bırakın
+36	Google'da aç
+37	Tüm panellerimiz
+38	Panel merkezini aç
+39	Sohbet başlat
+40	Her kod resmî bağlantılardan oluşturuldu ve yayından önce bir QR okuyucuyla kontrol edildi. Tek bir WhatsApp numarası, +# # #, tüm panellere ve Sampledge'e destek verir.
+41	Bir markaya git
+42	Sohbetler ve kısa güncellemeler
+43	Deneyiminiz sağlık hizmetlerini iyileştirebilir.
+44	Fikrinizi ödüle dönüştürün.
+45	Görüşünüzü paylaşın. Her seferinde kazanın.
+46	Sağlık profesyonelleri, bakım verenler ve hastalar
+47	Tüketiciler ve iş profesyonelleri
+48	# · Frequent Research
+49	WhatsApp desteği
+50	Ziyaret et

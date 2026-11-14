@@ -1,0 +1,394 @@
+1	Intervista di # min
+2	(di #)
+3	(si apre in una nuova scheda)
+4	+# # # oppure scrivi Salta
+5	, e conservi i miei dati come descritto nella
+6	, ruolo
+7	, valutazione e recensione.
+8	. Puoi modificarlo in qualsiasi momento prima della pubblicazione.
+9	? Usa altri dati
+10	Uno specialista ha ricevuto la tua richiesta
+11	Informazioni su questa pagina
+12	Conti precisi
+13	Insight concreto
+14	Tutti i paesi
+15	Ci siamo quasi
+16	Recensiscici anche su Google
+17	E in quale paese ti trovi?
+18	E il tuo numero di telefono con prefisso internazionale, oppure scrivi Salta.
+19	Qualcosa da aggiungere?
+20	Appuntamento · #
+21	Chiedi invece al nostro assistente
+22	L’assistente sta scrivendo
+23	Indietro
+24	Equilibrato
+25	Sii il primo
+26	Lead migliori
+27	PDF personalizzato · generato all’istante · con filigrana
+28	In pareggio
+29	Svolta
+30	Posso scaricare un caso studio? Come ottengo il PDF?
+31	Cambia lingua
+32	Cambia l’aspetto per un altro servizio scelto
+33	Controlla la tua casella di posta
+34	Scegli una valutazione da # a #.
+35	Scegli il tuo paese.
+36	Codice pulito
+37	Testimonianze dei clienti
+38	In crescita
+39	Studio clinico · Cardiologia
+40	Chiudi anteprima
+41	Comprimi tutto
+42	Nome dell’azienda
+43	Adempimenti puntuali
+44	Riservato e anonimo
+45	Consenso
+46	Paese
+47	Prefisso internazionale
+48	Ruolo
+49	Ruolo · Azienda
+50	Chiudi
+51	Avete una brochure per ogni servizio?
+52	Medico
+53	Documento
+54	Sampledge offre uno sconto sul piano annuale?
+55	Scarica di nuovo
+56	Scarica il
+57	Scarica —
+58	Scarica:
+59	Scaricato
+60	ESOMAR # è un insieme standard di # domande che gli acquirenti pongono ai fornitori di campioni online su panel, fonti, controlli di qualità e protezione dei dati. Le nostre risposte complete sono pubblicate nella pagina ESOMAR #.
+61	Facile da seguire
+62	Modifica
+63	Modifica azienda e paese
+64	Modifica nome ed email
+65	Indirizzo email
+66	Email e telefono restano privati.
+67	Inviami il PDF via email
+68	Scrivici
+69	Crittografia
+70	Ingegneri
+71	Inserisci un’email valida, ad esempio nome@azienda.com.
+72	Inserisci un numero di telefono valido.
+73	Inserisci il codice
+74	Inserisci il nome dell’azienda.
+75	Inserisci il tuo indirizzo email.
+76	Inserisci il tuo nome.
+77	Inserisci il tuo nome completo.
+78	Inserisci il tuo cognome.
+79	Inserisci il tuo numero di telefono.
+80	Eccellente
+81	Studio con esperti · Decisori B#B
+82	Discreto
+83	Note dal campo
+84	Il fieldwork si è concluso nei tempi.
+85	Dichiarazioni e adempimenti sempre puntuali.
+86	Risposte sulla finanza
+87	Trovaci su Google
+88	Nome
+89	Le bandiere compaiono qui man mano che i recensori indicano il loro paese.
+90	Il follow-up dopo la consegna potrebbe migliorare.
+91	Per professionisti
+92	Per caregiver
+93	Per medici, infermieri e professionisti sanitari
+94	Per medici, specialisti, infermieri e farmacisti
+95	Per consumatori
+96	Ad esempio: nome@azienda.com
+97	Per familiari e caregiver che assistono una persona cara
+98	Per manager, specialisti e decisori
+99	Per pazienti
+100	Per persone che convivono con una patologia
+101	Formato
+102	Creatività fresca
+103	Nome completo
+104	Conforme al GDPR
+105	Obiettivo, audience, mercati o tempistiche…
+106	Buono
+107	Buono a sapersi
+108	Ricerca governativa e d’opinione
+109	Concreto
+110	Guida
+111	Audience difficile da raggiungere
+112	Ciao! Cosa vorresti sapere? Puoi chiedere con parole tue, ad esempio “Quanto costa un sondaggio online?”
+113	Ciao 👋
+114	Report onesti
+115	Come posso recensire o valutare Frequent Research?
+116	Com’è andato lo sviluppo?
+117	Quanto è stato facile ottenere le cure di cui avevi bisogno?
+118	Fin dove abbiamo portato il tuo brand?
+119	Come stavano i tuoi numeri?
+120	Quanto erano solidi gli insight?
+121	Accetto che Frequent Research mi contatti in merito a questo download e conservi i miei dati come descritto nella
+122	Confermo che questa recensione descrive la mia esperienza personale e accetto che Frequent Research la pubblichi su questo sito con il mio nome, paese
+123	Non ho trovato quel paese. Scrivi il nome, ad esempio India o Regno Unito.
+124	Non ho una risposta pubblicata per questo: se ne occuperà lo specialista.
+125	Non ne sono del tutto sicuro, ma queste pagine sono le più vicine alla tua domanda:
+126	In orbita
+127	In perdita
+128	Non conclusivo
+129	Domande di settore
+130	Contenuto del libro
+131	È
+132	In genere include
+133	Proprio ora
+134	Mantieni questa lingua
+135	Resta sotto i # caratteri.
+136	Il nome deve stare sotto i # caratteri.
+137	La recensione deve stare sotto i # caratteri.
+138	Lingua
+139	Cognome
+140	Ti metto in contatto con uno specialista: compila questa breve scheda e ti risponderemo via email, di solito entro un giorno lavorativo.
+141	Decollo
+142	Caricamento dei libri dei panel…
+143	Traduzione automatica · fornita da Google Traduttore
+144	Professionisti del marketing
+145	Terapia · #
+146	Milestone raggiunte
+147	Le milestone sono state consegnate nei tempi.
+148	Tempi mancati
+149	Altre ricevute
+150	Più visibilità
+151	Serve un follow-up
+152	Mai pubblicato.
+153	Mai condiviso né venduto
+154	Nuovo post
+155	Nessun paese corrisponde a “
+156	Nessuna lingua corrisponde a “
+157	Nessun problema. Chiedimi altro, oppure tocca “Parla con uno specialista” quando vuoi.
+158	Nessun problema. In quale paese ti trovi?
+159	Nessuna domanda corrisponde a “
+160	Ancora nessuna recensione con questi filtri.
+161	No, grazie
+162	No, invia
+163	Non
+164	Non ora
+165	Posso avere il tuo nome completo, così uno specialista potrà ricontattarti?
+166	Infermiere/a
+167	Fieldwork puntuale
+168	Uno
+169	Un ultimo controllo, poi pubblica
+170	Un punteggio complessivo per la tua esperienza
+171	Un controllo di sicurezza e il tuo PDF si scarica subito.
+172	Ottimizzato
+173	Facoltativo · mai pubblicato.
+174	Altro paese
+175	I nostri panel
+176	La nostra visibilità sui motori di ricerca è migliorata.
+177	Il nostro specialista se ne occuperà: riceverai una risposta via email.
+178	Le nostre traduzioni, completate dal traduttore integrato del tuo browser
+179	Aiuto per i membri del panel
+180	Farmacista
+181	Telefono / WhatsApp
+182	Prefisso telefonico
+183	Numero di telefono
+184	Scegli almeno un servizio da recensire.
+185	Scrivi a
+186	Includi il prefisso internazionale, ad esempio +# # #, oppure scrivi Salta.
+187	Non inserire link.
+188	Spunta la casella per accettare prima del download.
+189	Spunta la casella per accettare prima della pubblicazione.
+190	Riprova oppure scrivi a
+191	Usa un’email di lavoro o personale permanente.
+192	Scarso
+193	Preparato per
+194	Preparazione del PDF…
+195	Ricevute precedenti
+196	Stampa di “
+197	Privato
+198	Riservato e rispettoso
+199	Consulenza proattiva
+200	Riservatezza professionale
+201	Redditizio
+202	Gli aggiornamenti sullo stato avrebbero potuto essere più frequenti.
+203	L’avanzamento era facile da seguire.
+204	Pubblica la mia recensione
+205	Pubblicato
+206	Pubblicazione…
+207	Codice QR che rimanda al Profilo dell’attività su Google di Frequent Research Fieldwork Solutions Pvt. Ltd.
+208	Codice QR con il
+209	Codici QR
+210	Domande su ricerca, marketing, tecnologia o finanza? Chiedimi: rispondo subito.
+211	Le domande hanno ricevuto risposte rapide.
+212	Frasi rapide: tocca per aggiungerle alla recensione
+213	Risposte rapide
+214	Valuta ora
+215	Valutaci in meno di un minuto: la tua recensione finisce direttamente tra le nostre testimonianze.
+216	Leggi in
+217	Leggi la risposta completa su
+218	Domande dei lettori
+219	Pronto · #/#
+220	Domande correlate
+221	Risposta via email · di solito entro un giorno lavorativo
+222	I report erano brevi, chiari e onesti.
+223	Panel di ricerca
+224	Reattivo
+225	Recensione inviata
+226	Recensore
+227	Ricompensato per il tuo tempo
+228	Premi per la tua competenza
+229	Cerca paese
+230	Cerca paese o prefisso
+231	Sezioni di settore
+232	Controllo di sicurezza
+233	Seleziona il tuo paese
+234	Invia a uno specialista
+235	Invio…
+236	Inviato a
+237	Inviato alla tua casella
+238	Condividi la mia esperienza ✓
+239	Condividi la realtà dell’assistenza a una persona cara, perché servizi, supporto e prodotti siano pensati su bisogni reali.
+240	Condividi ciò che sai in studi per brand, agenzie e ricerca B#B, e ricevi un premio per il tuo tempo.
+241	Racconta la tua esperienza con parole tue…
+242	Racconta la tua storia, a modo tuo
+243	Consegnato senza errori
+244	Sessioni brevi e programmate
+245	Mostra un nuovo codice di sicurezza
+246	Mostra altre recensioni
+247	Mostrato come un mazzo di risposte a sondaggi
+248	Mostrato come un feed social dal vivo
+249	Mostrato come un log da terminale
+250	Mostrato come ricevute stampate
+251	Salta
+252	Alle stelle
+253	Aggiornamenti lenti
+254	Per adattare i contatti al tuo mercato: mai spam.
+255	Insight solido
+256	Supporto solido
+257	Qualche segnale
+258	Alcune scadenze sono slittate.
+259	Spiacente, non riesco a contattare il nostro team in questo momento. Riprova o usa email / WhatsApp.
+260	Scusa, non ho capito. Puoi scrivere solo il tuo nome completo? Ad esempio: Asha Rao
+261	Suono disattivato
+262	Fonte
+263	Specialista
+264	Specialità corrispondente
+265	Studi in base alla specialità
+266	Software stabile
+267	Dichiarazione
+268	Passo # · Con parole tue
+269	Passo # · La tua valutazione
+270	Passo # · Il tuo badge da recensore
+271	Insight forte
+272	Studi adatti al tuo ruolo
+273	Domande suggerite
+274	Il supporto dopo il lancio è stato solido.
+275	Partecipa a studi sanitari adatti alla tua specialità ed esperienza, e ricevi un premio per il tuo tempo professionale.
+276	Partecipa quando ti è comodo
+277	Tocca per valutare · da # a #
+278	Racconta ai ricercatori com’è davvero convivere con una patologia: la tua voce aiuta a migliorare cure e assistenza per tutti.
+279	Grazie
+280	Grazie: la tua risposta è anonima.
+281	Grazie della visita, buona giornata!
+282	Grazie! In breve, di cosa hai bisogno? Obiettivo, audience, mercati o tempistiche.
+283	Grazie! Il tuo numero di telefono o WhatsApp con prefisso, se desideri una chiamata, ad esempio +# # #. Puoi saltare.
+284	Il codice non corrisponde. Riprova o tocca ↻ per ottenerne uno nuovo.
+285	La pagina Download offre un libro del panel per ogni paese che profiliamo (un’edizione professionisti B#B e una consumer B#C), oltre alle brochure dei nostri quattro servizi. Scegli un paese, inserisci pochi dati e il PDF si scarica subito.
+286	Non è stato possibile creare il PDF in questo browser. Riprova o scrivi a info@frequentresearch.com.
+287	Lo strumento PDF non si è caricato. Aggiorna la pagina e riprova.
+288	I conti erano precisi.
+289	Il codice era pulito e manutenibile.
+290	Le idee creative si sono distinte.
+291	I dati erano puliti e pronti all’uso.
+292	Il download è stato annullato. Usa “Scarica di nuovo” quando vuoi.
+293	I risultati erano chiari e concreti.
+294	I lead erano perfetti per noi.
+295	I report mensili ci dicevano cosa correggere.
+296	Impossibile caricare l’elenco dei libri dei panel. Aggiorna la pagina o scrivi a info@frequentresearch.com.
+297	Il perimetro avrebbe potuto essere definito meglio all’inizio.
+298	Il codice di sicurezza è ancora in caricamento.
+299	Il software era stabile e ben realizzato.
+300	Il team ha risposto rapidamente.
+301	Hanno coperto ogni mercato di cui avevamo bisogno.
+302	Hanno segnalato i problemi prima che diventassero gravi.
+303	Hanno raggiunto un’audience che faticavamo a trovare.
+304	Questo documento non è ancora disponibile.
+305	Impossibile caricare questo libro del panel. Riprova.
+306	Tre dati veloci e la tua copia è in arrivo.
+307	Rendimento massimo
+308	Tradotto dal team di Frequent Research
+309	Fiducia e privacy
+310	Attiva il suono della chat
+311	Scrivi i caratteri mostrati nell’immagine
+312	Scrivi il codice
+313	Scrivi il codice di sicurezza mostrato.
+314	Perimetro poco chiaro
+315	Sblocca
+316	Sblocca e scarica
+317	Sblocca la tua copia
+318	Sbloccato: il tuo PDF è pronto
+319	Usa solo lettere (spazi, punti, apostrofi e trattini sono ammessi).
+320	Usa solo lettere.
+321	MIS utile
+322	Esperto verificato
+323	Panel verificati e riservati
+324	Molto buono
+325	Vedi il nostro Profilo dell’attività su Google
+326	Con filigrana
+327	Ti ascoltiamo.
+328	Bentornato,
+329	Quali servizi IT e di sviluppo software offrite?
+330	Quali servizi di contabilità e finanza offrite?
+331	Quali servizi di digital marketing offrite?
+332	Cos’è il questionario ESOMAR #?
+333	Qual è la storia di Frequent Research? Quando è stata fondata?
+334	Quali servizi di ricerche di mercato offrite?
+335	Cosa dovremmo migliorare?
+336	Cosa ti ha colpito?
+337	Cosa lo renderebbe eccellente?
+338	Dove trovo il libro del panel B#B o consumer di un paese?
+339	Dove lavori?
+340	Chi sta leggendo?
+341	Chi sta scrivendo questa recensione?
+342	Lavoro
+343	Email di lavoro
+344	Hai lavorato con Frequent Research?
+345	Hai lavorato con il nostro team
+346	Scrivi una recensione su Google
+347	Scrivi almeno # caratteri (#/#).
+348	Scrivi la prima
+349	Sì: la fatturazione annuale su Sampledge fa risparmiare il #% rispetto a dodici mesi pagati mensilmente. Prezzi e piani sono nella pagina Sampledge, e ogni pulsante dei piani porta al sito Sampledge.
+350	Sì. Ogni caso studio nelle pagine Settori e casi studio ha un pulsante Scarica PDF. Inserisci pochi dati e un PDF con filigrana si scarica subito.
+351	Sì. Nella pagina Download ci sono brochure separate per Ricerche di mercato, Digital marketing, IT e sviluppo, e Finanza e contabilità.
+352	Tu ti prendi cura di loro.
+353	Prego! Posso aiutarti in altro?
+354	Il tuo PDF è in download. Controlla i download del browser se non si apre automaticamente.
+355	Il tuo browser
+356	La tua esperienza clinica
+357	Il tuo paese
+358	I dati inseriti prima in questa visita sono pronti: un clic per “
+359	La tua esperienza può
+360	La tua esperienza conta
+361	La tua competenza,
+362	Il nome deve avere almeno # lettere.
+363	Il tuo nome completo
+364	Il tuo nome
+365	Il nome deve avere almeno # lettere.
+366	La tua domanda
+367	La tua valutazione su #
+368	Impossibile inviare la richiesta.
+369	La tua recensione
+370	La tua recensione (obbligatoria)
+371	La tua recensione in breve
+372	Impossibile inviare la recensione.
+373	La tua recensione è arrivata al nostro team e la vedi già nella sezione Testimonianze dei clienti.
+374	La tua recensione ci è arrivata. Comparirà tra le testimonianze dei clienti appena verificata.
+375	La tua recensione è online tra le testimonianze dei clienti e nella pagina Valutazioni e recensioni.
+376	e azienda
+377	via email
+378	nome dell’azienda
+379	giorni fa
+380	migliorare la sanità.
+381	ancora nessuna recensione
+382	non ora
+383	su # da
+384	libro del panel
+385	privacy policy
+386	tabelle dei profili
+387	recensioni finora
+388	sezioni di settore
+389	migliora le cure.
+390	? La tua può essere la prima.
+391	con i team che hai scelto
+392	· con filigrana
+393	” con il tuo nome.
+394	”. Scegli “Altro paese” per inserire un prefisso.

@@ -1,0 +1,693 @@
+1	# / # yıldız
+2	# panel
+3	# ayrı ajans
+4	# uzman ekip
+5	#'den bugüne: paneller, sağlık, BT ve daha fazlası.
+6	# iş günü içinde yanıt
+7	ve kitle zekâsı
+8	(açılır
+9	, bir markasıdır:
+10	. Tüm hakları saklıdır.
+11	Genel Müdürümüz, Kurucumuz ve CEO'muzdan bir mesaj
+12	Bir uzman yanıtlar
+13	Başarılı bir iş yolculuğu tek adımda gerçekleşmez.
+14	Ödül kullanım eşiği düşük, dünya çapında bir anket topluluğu.
+15	Yapay Zekâ ve Otomasyon Çözümleri
+16	API Geliştirme ve Entegrasyon
+17	Hakkımızda
+18	Hakkımızda
+19	Muhasebe ve Defter Tutma Hizmetleri
+20	Muhasebe ve Finans Danışmanlığı
+21	Muhasebe ve Finans
+22	Reklamcılık
+23	Havacılık ve uzay
+24	Kararlaştırılan süreler
+25	Tarım
+26	Tümü
+27	Tüm görüşler
+28	Bu arada, ekibiniz lansman için LinkedIn kampanyasını yürütebilir mi?
+29	Frequent Research'e genel bakış: hizmetler, ürünler, paneller ve ekipler.
+30	Analiz et
+31	Analiz
+32	Telefonunuzdan veya dizüstü bilgisayarınızdan kısa anketleri yanıtlayın, paylaştığınız her görüş için ödül kazanın.
+33	Yanıtlar web sitemizden gelir. Sohbet ederek şunu kabul etmiş olursunuz:
+34	Başvuru
+35	Uygulama Bakımı ve Destek
+36	Uygulama Bakımı ve Destek: Büyürken Güvenilir Kalan İş Yazılımları
+37	Kalite kontrol, doğrulama ve veri doğrulama süreçlerini uygulayın.
+38	Uygulamalar · web · bulut · test
+39	ISO sertifikanız var mı?
+40	Silah ve güvenlik ekipmanları
+41	Pazarlama, teknoloji ve finans alanlarına büyürken bu ilke değişmedi. Neye ihtiyacınız olursa olsun, önce dinleyen, açıkça anlatan ve proje bittikten çok sonra da yanınızda olan insanlarla çalışırsınız.
+42	Hemen soru sorun
+43	Her şeyi sorabilirsiniz…
+44	Bize her şeyi sorun
+45	Asistan · web sitemizden yanıtlar
+46	Frequent Research'te güçlü araştırmanın iki temel üzerine kurulduğuna inanıyoruz: teknoloji ve insan.
+47	Kitle fizibilitesi
+48	Denetim ve Uyum Desteği
+49	Süreçleri otomatikleştirme
+50	Otomasyon
+51	Otomotiv
+52	B#B ve kamu sektörü paneli
+53	B#B Dijital Pazarlama
+54	B#B kitleler
+55	Rol, kıdem, sektör ve şirket büyüklüğüne göre B#B kitleler.
+56	Fırınlanmış cips
+57	Yararlanıcı Geri Bildirimi
+58	Blog
+59	Bloglar
+60	Defter · vergi · bordro · sanal CFO
+61	Yayıncılık
+62	Bütçeleme ve Finansal Tahmin
+63	Uygun araştırma metodolojisini, kitleyi ve yaklaşımı oluşturun.
+64	Görünürlük kazanın, nitelikli kitleler çekin, potansiyel müşteri üretin ve dijital trafiği ölçülebilir büyümeye dönüştürün.
+65	İnşa et. Büyü. Ölçeklen.
+66	Araştırma ekibimiz tarafından şirket içinde geliştirildi
+67	İşletme Finansmanı Hizmetleri
+68	İş Dünyası Paneli
+69	İş Dünyası Panel Kitapçığı
+70	İşletme Değerlemesi
+71	İş profesyonelleri
+72	İş odaklı yaklaşım
+73	İşletmeler ve
+74	İşletmeler genellikle araştırma, pazarlama, teknoloji ve finans için ayrı ajanslarla çalışır. Biz bunları bir araya getiriyoruz.
+75	İşletmeler:
+76	CAPI · CATI · Çevrimiçi · Yüz yüze
+77	CATI — Bilgisayar Destekli Telefon Görüşmesi
+78	CRM Geliştirme
+79	Araştırma panelinize katılabilir miyim?
+80	İş Başvurusu
+81	Kariyer
+82	Bakım veren
+83	Bakım verenler
+84	Sertifikalı
+85	Sertifikalı ve hesap verebilir
+86	Pazar araştırması, kalite ve bilgi güvenliği için sertifikalı yönetim sistemleri; ayrıca ESOMAR kurumsal üyesi.
+87	Sohbet
+88	Frequent Research ile sohbet edin
+89	Bizimle sohbet edin
+90	Kimya
+91	Bir yönetici seçin
+92	Bir ekip seçin
+93	Dilinizi seçin
+94	Vatandaş Memnuniyeti Araştırması
+95	Vatandaş paneli üyeleri (B#C)
+96	Ödülleri al
+97	Net iletişim
+98	Her hizmet için müşteri puanları ve yorumları.
+99	Müşterilerin sesi
+100	Müşteriler
+101	Tekrar gelen müşteriler
+102	Kapat
+103	Sohbeti kapat
+104	Menüyü kapat
+105	Aramayı kapat
+106	Değerlendirme formunu kapat
+107	Bulut ve DevOps Hizmetleri
+108	Topla
+109	Yönettiğimiz topluluklar
+110	Şirket
+111	Şirket Broşürü
+112	Karşılaştır
+113	Profilinizi tamamlayın
+114	Araştırma katılımcısı ve örneklem ihtiyaçları için ilgili tüketici, B#B ve sağlık kitlelerine ulaşın; projelerinizi işiniz için önemli olan insanlar etrafında kurun.
+115	Küresel panel ve saha kapasitemizle doğru katılımcılara ulaşın.
+116	İnşaat
+117	Tüketici
+118	Tüketici ve İş Dünyası Araştırma Paneli
+119	Tüketici Paneli
+120	Tüketici Panel Kitapçığı
+121	Tüketici kitleleri
+122	Tüketiciler
+123	Bize Ulaşın
+124	İçerik Pazarlaması
+125	Kontrol et
+126	Kontrol → Raporlama → Finansal netlik
+127	Çerez Politikası
+128	E-posta adresini kopyala
+129	Telefon numarasını kopyala
+130	Kurumsal Finans Danışmanlığı
+131	“Uygulama Bakımı ve Destek: Büyürken Güvenilir Kalan İş Yazılımları” kapak görseli
+132	“Büyüyen İşletmeler için BT Danışmanlığı: Teknoloji Kararlarını Güvenle Almak” kapak görseli
+133	“İşletmeler ve Sahipleri için Yatırım Planlaması: Fazla Fonları Akıllıca Değerlendirmek” kapak görseli
+134	“Web Sitesi Bakımı ve Destek: Siteniz Her Gün Hızlı, Güvenli ve Çalışır Durumda” kapak görseli
+135	Kreatif hizmetler
+136	Kültür ve miras
+137	Özel İş Uygulamaları
+138	Özel Yazılım Geliştirme
+139	Siber Güvenlik Hizmetleri
+140	Kendin Yap Pazaryeri
+141	Veri
+142	Veri Analitiği ve Gösterge Paneli Geliştirme
+143	Veri İşleme ve Analitik
+144	Veri Koruma
+145	Ajanslar arasında kaybolan veriler
+146	Veri → Araştırma → İçgörü
+147	Karar vericiler
+148	Savunma
+149	Teslim et
+150	Tasarım
+151	Web siteleri, yazılımlar, mobil uygulamalar, SaaS platformları, gösterge panelleri, yapay zekâ çözümleri ve iş uygulamaları tasarlıyor ve geliştiriyoruz.
+152	Devashish Roy LinkedIn'de (yeni sekmede açılır)
+153	Devashish Roy, Direktör – BT ve İK
+154	Teknoloji geliştirin
+155	Yazılım platformu geliştirme
+156	Dijital
+157	Dijital Analitik ve Raporlama
+158	Dijital Pazarlama
+159	Dijital Pazarlama Denetimi
+160	Dijital Pazarlama Görüşmesi
+161	Dijital Pazarlama Danışmanlığı
+162	Dijital pazarlama
+163	Direktör – BT ve İK
+164	Direktör – Proje Yönetimi ve Tedarik
+165	Araştırma İhtiyacınızı Görüşün
+166	Bir BT Projesini Görüşün
+167	Doktorlar ve sağlık profesyonelleriyle çalışıyor musunuz?
+168	Her hizmette kaliteyi tutarlı kılan belgelenmiş ve denetlenmiş süreçler.
+169	İndirmeler
+170	İndirmeler ve panel kitapçıkları
+171	Keşfetmek için küreyi sürükleyin
+172	Durum Tespiti ve Finansal Analiz
+173	E-ticaret Geliştirme
+174	E-ticaret Pazarlaması
+175	ERP Geliştirme
+176	ESOMAR üyesi
+177	ESOMAR üyesi (esomar.org yeni sekmede açılır)
+178	ESOMAR üyesi · MSME
+179	Eğitim
+180	Elektrik enerjisi
+181	Elektronik
+182	E-posta
+183	E-posta Pazarlaması
+184	Enerji
+185	Eğlence
+186	Etkinlikler, kutlamalar ve ekip anları.
+187	Her yorum, tek tek spot ışığında
+188	Tüm hizmetler tek bir yerde
+189	Örnek
+190	Uygun metodolojilerle yüksek kaliteli veri toplayın.
+191	Uygulama
+192	Keşfet
+193	Kamu Araştırmalarını Keşfedin
+194	Hizmetlerimizi Keşfedin
+195	Sektörleri ve vaka çalışmalarını keşfedin
+196	Moda
+197	Fizibilite hazır
+198	Öne çıkan sektörler
+199	Saha çalışması
+200	Fieldwork Solutions Pvt. Ltd.
+201	Film
+202	Yorumları hizmete göre filtreleyin
+203	Finans
+204	Finans ve Muhasebe
+205	Finans ve muhasebe
+206	Finans Görüşmesi
+207	Finansal Modelleme
+208	Finansal Planlama ve Danışmanlık
+209	Finansal netlik
+210	Finansal hizmetler
+211	Araştırmanız için doğru kitleyi bulun.
+212	Kitlenizi bulun
+213	Balıkçılık
+214	Çiçekçilik
+215	Bizi takip edin
+216	Gıda ve içecek
+217	Günlük alışveriş yapanlar, kullanıcılar ve haneler için
+218	Form adımları
+219	Dört brif, dört plan
+220	Dört iletişim grubu
+221	Frequent Research ana sayfa
+222	Rakamlarla Frequent Research
+223	Facebook'ta Frequent Research
+224	Instagram'da Frequent Research
+225	LinkedIn'de Frequent Research
+226	Pinterest'te Frequent Research
+227	X'te Frequent Research
+228	YouTube'da Frequent Research
+229	Frequent Research — İçgörü • Analitik • Büyüme
+230	İçgörüden Uygulamaya
+231	Bilgi güvenliği ve teknoloji altyapısından yetenek gelişimine ve operasyonel süreçlere kadar, insanlarımızın ve sistemlerimizin birlikte çalışma biçimini sürekli güçlendiriyoruz.
+232	Büyük ölçekli vatandaş anketlerinden kamuoyu araştırmalarına, yararlanıcı çalışmalarından politika değerlendirmelerine kadar Frequent Research, kuruluşların farklı pazar ve coğrafyalardaki çeşitli nüfuslardan yapılandırılmış, güvenilir içgörüler toplamasına yardımcı olur.
+233	Blogumuzdan
+234	Girişimlerden ve KOBİ'lerden büyük kuruluşlara kadar hizmetlerimiz ihtiyaçlarınızla birlikte büyür.
+235	Meyve barı
+236	GST Hizmetleri
+237	Galeri
+238	Oyun ve bahis
+239	Potansiyel müşteri üretme
+240	Başlayın
+241	İyi kararlar iyi bilgiyle başlar. Kuruluşların insanların ne düşündüğünü, neye ihtiyaç duyduğunu, ne satın aldığını ve nedenini anlamasına yardımcı oluyoruz; B#C, B#B ve sağlık kitlelerinde.
+242	Google Ads / PPC
+243	Kamu
+244	Kamu ve Kamuoyu Araştırmaları
+245	Kamu ve Kamuoyu Araştırması
+246	Kamu ve Kamu Sektörü Anketleri
+247	Önemli kararlar için kamu ve kamuoyu araştırmaları
+248	Kamu Araştırmaları
+249	Kamu Programı Değerlendirmesi
+250	Büyüme
+251	Yardımcı olmaktan memnuniyet duyarız. Üç kısa soru, ardından fizibilite ve teklif gönderelim.
+252	Bir iş sorununuz mu var?
+253	Sanal CFO ile yönetim kurulu toplantılarımız değişti. GST, TDS ve bordro zamanında yürütülüyor ve…
+254	Sağlık Profesyonelleri
+255	Sağlık
+256	Sağlık Paneli
+257	Sağlık Panel Kitapçığı
+258	Sağlık Profesyonelleri, Hastalar ve Bakım Verenler Araştırma Paneli
+259	Sağlık kitleleri
+260	Uzmanlık alanına ve hastalığa göre sağlık profesyonelleri, hastalar ve bakım verenler.
+261	İşletmelerin daha iyi anlamasına, daha akıllı inşa etmesine, daha hızlı büyümesine ve güvenle yönetmesine yardımcı oluyoruz.
+262	Merhaba! Ben Frequent Research asistanıyım. Hizmetlerimiz, panellerimiz, fiyatlar, süreler veya kalite hakkında her şeyi sorabilirsiniz — her yanıt web sitemizden gelir ve daha fazlası için ilgili sayfayı da gösterir.
+263	Merhaba! BAE ve Suudi Arabistan'da # kardiyolog için fizibiliteye ihtiyacımız var.
+264	Ana sayfa
+265	Bahçecilik
+266	Konaklama
+267	Hane ve Sosyoekonomik Anketler
+268	Bir çevrimiçi anket ne kadar sürer?
+269	Üyeler nasıl katılır:
+270	Bir proje ne kadar tutar?
+271	İşe alımdan raporlamaya veri kalitesini nasıl koruyoruz.
+272	Sizinle nasıl çalışıyoruz
+273	Ben bir…
+274	İhtiyacım…
+275	ISO # sertifikalı – Pazar, kamuoyu ve sosyal araştırma
+276	ISO # sertifikalı – Kalite yönetim sistemleri
+277	ISO # veri güvenliği
+278	ISO # – Pazar, kamuoyu ve sosyal araştırma
+279	ISO # – Kalite yönetim sistemleri
+280	ISO/IEC # sertifikalı – Bilgi güvenliği yönetimi
+281	ISO/IEC # – Bilgi güvenliği yönetimi
+282	BT ve Geliştirme
+283	BT ve geliştirme
+284	BT Danışmanlığı
+285	Büyüyen İşletmeler için BT Danışmanlığı: Teknoloji Kararlarını Güvenle Almak
+286	BT Projesi Görüşmesi
+287	BT projesi
+288	Google sıralamanızı iyileştirme
+289	Araştırma, pazarlama, teknoloji ve finans ekiplerimizden kapsamlı rehberler.
+290	Gelir Vergisi ve ITR Beyannamesi
+291	Her projenin arkasında bağımsız standartlar
+292	Endüstriyel robotlar ve otomasyon
+293	Sektörler ve Vaka Çalışmaları
+294	Hizmet verdiğimiz sektörler
+295	Influencer Pazarlaması
+296	Bilgi Güvenliği Yönetimi
+297	Bilgi güvenliği yönetimi
+298	Bilgi hizmetleri
+299	Bilgi teknolojileri
+300	Müşteri, katılımcı ve proje verilerini koruyan bilgi güvenliği kontrolleri.
+301	İçgörü
+302	İçgörüler
+303	Anında yanıtlar
+304	Anında çeviri
+305	Sigorta
+306	Entegre yetenekler
+307	İnternet hizmetleri
+308	Yatırım
+309	Yatırım Planlaması
+310	İşletmeler ve Sahipleri için Yatırım Planlaması: Fazla Fonları Akıllıca Değerlendirmek
+311	Faturalar
+312	Görev
+313	Bir Araştırma Paneline Katılın
+314	Bir araştırma paneline katılın
+315	Ücretsiz katılın
+316	Araştırma panellerimize katılın
+317	Araştırma, pazarlama, teknoloji ve finans ekiplerimize katılın.
+318	Yolculuk aşamaları
+319	Temel yetenekler
+320	Bu mesajın ana temaları
+321	Açılış Sayfası ve CRO
+322	Ürün lansmanı
+323	Potansiyel Müşteri Üretimi
+324	Liderlik
+325	Liderlik bakış açısı
+326	Liderlik mesajı
+327	Potansiyel müşteriler
+328	Boş zaman
+329	Konuşalım
+330	Konuşalım
+331	Konuşalım.
+332	LinkedIn: Devashish Roy
+333	LinkedIn: Manish Arora
+334	LinkedIn: Sachin Gupta
+335	Canlı asistan
+336	Canlı saha durumu
+337	Konum
+338	Uzun vadeli ortaklık
+339	MIS ve Finansal Raporlama
+340	MSME — Mikro, Küçük ve Orta Ölçekli İşletmeler
+341	Ana
+342	Bakım ve
+343	Genel Müdür | Kurucu | CEO
+344	Mangolpur Kalan, Yeni Delhi – #, Hindistan
+345	Manish Arora LinkedIn'de (yeni sekmede açılır)
+346	Manish Arora, Genel Müdür | Kurucu | CEO
+347	İmalat
+348	Pazar Araştırması
+349	Pazar araştırması
+350	Pazar, Kamuoyu ve Sosyal Araştırma
+351	Pazar, kamuoyu ve sosyal araştırma
+352	Pazarlama Otomasyonu
+353	Saha çalışması yapılan pazarlar
+354	Kitle iletişim araçları
+355	Belki sonra
+356	Et ve kanatlı
+357	Genel Müdürümüz, Kurucumuz ve CEO'muz ile direktörlerimizi tanıyın.
+358	Her projenin arkasındaki insanları tanıyın.
+359	Veri, araştırma ve içgörü topluluğunun küresel birliği ESOMAR'ın üyesi ve bir MSME (mikro, küçük ve orta ölçekli işletme).
+360	Üyeler
+361	Üyelik
+362	Madencilik
+363	Mobil
+364	Mobil Uygulama Geliştirme
+365	Çoklu mod
+366	Müzik
+367	MyFrequentRewards logosu
+368	MyHealthOpinions logosu
+369	Yeni sohbet
+370	Haber medyası
+371	Sonraki yönetici
+372	Sonraki yorum
+373	Sonraki adım
+374	Hiçbir yükümlülük yok
+375	Nereden başlayacağınızı bilmiyor musunuz
+376	Hemşireler, eczacılar ve diğer sağlık çalışanları
+377	Ofis
+378	Çevrimdışı Veri Toplama
+379	Tek bir Sampledge ailesi, iki araç — araştırma projelerinizi yönetin veya kendi kitlenizi oluşturun.
+380	Tek brif, tek plan
+381	Tek iş ortağı. Çoklu yetenek. Ölçülebilir sonuçlar.
+382	Tek ortak
+383	İşinizin her aşamasında bir ortak
+384	Tek ortak · dört ekip
+385	Tek iletişim noktası
+386	Çevrimiçi Veri Toplama
+387	Çevrimiçi İtibar Yönetimi
+388	Haritalar'da aç
+389	Menüyü aç
+390	Yolculuğumuz
+391	Puanlarımız ve Yorumlarımız
+392	Ekibimiz
+393	Uluslararası kabul görmüş kalite ve güvenlik standartlarına bağlılığımız, tutarlılık, şeffaflık ve sorumlu veri yönetimine verdiğimiz önemi yansıtır.
+394	Organik taleplerimiz altı ayda yaklaşık iki katına çıktı. Daha da önemlisi, potansiyel müşteriler doğru büyüklükteki şirketlerd…
+395	Kalite, araştırma ve bilgi güvenliği süreçlerimiz sertifikalı ve denetlenmiştir; küresel araştırma birliğinin kurumsal üyesiyiz.
+396	Araştırma panellerimiz
+397	Hikâyemiz, vizyonumuz, misyonumuz ve değerlerimiz.
+398	Ekibimiz dinlemeye hazır. Neyi başarmak istediğinizi anlatın.
+399	Ekiplerimiz
+400	Ekiplerimiz çok çeşitli sektörlerdeki kuruluşlara destek verir.
+401	Hasta
+402	Hastalar
+403	Bordro Hizmetleri
+404	Performans Pazarlaması
+405	Petrol ve gaz
+406	İlaç
+407	Telefon
+408	Hekimler ve uzmanlar
+409	Bir ekip seçin veya yaptığımız her şeyde arama yapın. Her hizmetin süreç, faydalar ve SSS içeren kendi sayfası vardır.
+410	Birini seçin.
+411	Planlama:
+412	Politika Araştırması
+413	Popüler
+414	Popüler sorular
+415	Portallar
+416	Bu sitede yayımlandı
+417	Önceki yönetici
+418	Önceki yorum
+419	Gizlilik ve Araştırma Etiği
+420	Gizlilik Politikası
+421	Ürünler
+422	Profesyonel
+423	Profesyonel hizmetler
+424	Tüketici panellerimizdeki profiller, demografik veriler ve hedefleme seçenekleri.
+425	Proje Yönetim Aracı
+426	Proje ve kota takibi tek yerde
+427	Proje yönetimi
+428	Teslim edilen projeler
+429	İş kararlarını destekleyen uygulanabilir çıktılar sağlayın.
+430	Kamuoyu Yoklamaları
+431	Yayımla
+432	Yayıncılık
+433	Kâğıt hamuru ve kâğıt
+434	Nitel Araştırma
+435	Kalite Yönetimi
+436	Kalite Süreci
+437	Kalite yönetim sistemleri
+438	Nicel Araştırma
+439	Hızlı işlemler
+440	Kısa anket · # dk
+441	Kotalar
+442	Bizi puanlayın ve değerlendirin
+443	Frequent Research'ü puanlayın ve değerlendirin
+444	Puan
+445	Erişim
+446	Yeni müşterilere ulaşın ve çevrimiçi görünürlüğünüzü artırın
+447	Bize doğrudan ulaşın
+448	Müşteri yorumlarını okuyun
+449	Rehberi okuyun →
+450	Tüm web sitesini kendi dilinizde okuyun — #+ dil.
+451	Bu web sitesini kendi dilinizde okuyun
+452	Siz hazır olduğunuzda biz hazırız.
+453	Gayrimenkul
+454	Güvenilir sonuçlar
+455	Raporlama
+456	Raporlama ve İçgörüler
+457	Kitle Fizibilitesi İsteyin
+458	Araştırma Fizibilitesi İsteyin
+459	Görüşme Talep Edin
+460	Teklif İsteyin
+461	Sampledge Demosu İsteyin
+462	Sampledge demosu isteyin
+463	Teklif isteyin
+464	Kitle fizibilitesi isteyin
+465	Araştırma
+466	Araştırma Danışmanlığı
+467	Araştırma Tasarım Döngüsü
+468	Araştırma Etiği
+469	Araştırma fizibilitesi
+470	Araştırma panelleri
+471	Araştırma proje yönetimi, sadeleştirildi.
+472	Araştırma, pazarlama, teknoloji ve finans ayrı silolar yerine birlikte çalışır.
+473	Araştırma odaklı düşünce
+474	Yeni bir pazarı araştırma
+475	Katılımcı ve teşvik kayıtları
+476	Perakende
+477	Yorum
+478	Kazanılan ödül
+479	Tamamlanan anketler için ödüller
+480	Doğru uzman atandı
+481	Kırsal ve Tarımsal Araştırma
+482	SEO Hizmetleri
+483	SEO · reklam · sosyal · içerik
+484	SaaS Geliştirme
+485	Sachin Gupta LinkedIn'de (yeni sekmede açılır)
+486	Sachin Gupta, Direktör – Proje Yönetimi ve Tedarik
+487	Aynı gün
+488	Örneklem tedarikçi yönetimi
+489	Sampledge Kendin Yap Pazaryeri
+490	Sampledge Proje Yönetim Aracı
+491	Sampledge, araştırma proje iş akışlarını, örneklem yönetimini ve günlük operasyonları tek bir akıllı dijital çalışma alanında toplar.
+492	Sampledge demosu
+493	Sampledge — Kendin Yap Pazaryeri
+494	Sampledge — Proje Yönetim Aracı
+495	Ölçeklenebilir çözümler
+496	Ölçeklen
+497	Tara ve Bağlan
+498	Tara ve Bağlan — tüm QR kodları
+499	Takip etmek için tarayın
+500	Her hizmet için puanlar
+501	Ara
+502	Ara (Ctrl+K)
+503	Dil ara
+504	Arama sonuçları
+505	Hizmet ara
+506	Hizmet ara, ör. CATI, SEO, bordro, mobil uygulama
+507	Hizmet, panel, sektör, makale ara…
+508	Sitede ara
+509	Sitede ara (Ctrl+K)
+510	Sektör uzmanlığı:
+511	Sektörler
+512	Hizmet verdiğimiz sektörler ve nasıl teslim ettiğimiz.
+513	Tümünü gör
+514	Tüm puan ve yorumları gör
+515	Seçin…
+516	Yarı iletkenler
+517	Gönder
+518	Hizmet
+519	Hizmet alanı
+520	Hizmetler
+521	Hizmetler menüsü
+522	Değerlendirdiğiniz hizmetler (bir veya daha fazla seçin)
+523	Görüş paylaşın, adil ödüller kazanın
+524	Görüşünüzü paylaşın. Daha iyi ürünlere katkı verin. Ödül kazanın.
+525	Ekipler arasında paylaşılan veriler
+526	Gemi inşası
+527	Devashish Roy'u göster
+528	Manish Arora'yı göster
+529	Sachin Gupta'yı göster
+530	Ücretsiz kaydolun
+531	Muhasebe, vergi, bordro, finansal raporlama, işletme finansmanı ve stratejik finans yönetimini kolaylaştırın.
+532	Singapur
+533	İçeriğe geç
+534	Sosyal Medya Reklamcılığı
+535	Sosyal Medya Pazarlaması
+536	Yazılım
+537	Yazılım Testi ve QA
+538	Başka bir şey
+539	Ses
+540	Ses açık
+541	Dört ekipte uzman hizmetler
+542	Uzmanlık
+543	Spor
+544	Projenizi Başlatın
+545	Yeni bir sohbet başlatın
+546	Girişim ve KOBİ Muhasebesi
+547	Saha ekibi bulunan eyaletler ve birlik toprakları · # ilçe
+548	Çelik
+549	Adım # / #
+550	Adım # · Dünyanızı seçin
+551	Finansınızı güçlendirin
+552	Finansal operasyonları güçlendirme
+553	Tedarikçiler
+554	Destek:
+555	Gününüze uyan anketler
+556	Anketler · paneller · saha · içgörü
+557	TDS Hizmetleri
+558	Anket doldurun
+559	Bir dakikadan kısa sürer
+560	Bir Finans Uzmanıyla Konuşun
+561	Bir uzmanla konuşun
+562	Bir Uzmanla Konuşun
+563	Vergi Planlaması ve Danışmanlık
+564	Teknoloji
+565	Teknoloji ve veri odaklı
+566	Araştırma için geliştirilmiş teknoloji
+567	Teknoloji → Otomasyon → Ölçek
+568	Telekomünikasyon
+569	Neye ihtiyacınız olduğunu anlatın
+570	Sırada ne olduğunu anlatın.
+571	Hedefinizi, kitlenizi, pazarınızı veya takviminizi anlatın.
+572	Şartlar ve Koşullar
+573	Tekstil
+574	Güveniniz için teşekkür ederiz. Sizinle çalışmayı dört gözle bekliyoruz.
+575	Frequent Research'e Liderlik Edenler
+576	En iyi müşteri ilişkilerimiz, neyin mümkün olduğuna dair basit ve dürüst bir konuşmayla başladı. Yerine getiremeyeceğimiz bir söz vermektense, bir kitleye ulaşmanın zor olduğunu ya da farklı bir yaklaşımın daha iyi sonuç vereceğini erkenden söylemeyi tercih ederiz.
+577	Geliştiriciler rezervasyon portalımızı zamanında yeniden oluşturdu ve her tercihi açıkça anlattı (#).
+578	Geliştiriciler rezervasyon portalımızı zamanında yeniden oluşturdu ve her tercihi açıkça anlattı.
+579	Araştırmanın nasıl planlandığı, sahada yürütüldüğü, işlendiği ve raporlandığına dair uluslararası standart.
+580	Doğru uzman bir iş günü içinde yanıtlar
+581	Ekipleri güçlü proje yönetimi, net iletişim ve araştırma gereksinimlerine pratik bir anlayış gösteriyor. Hızlı yanıt veriyor, ayrıntılara özen gösteriyor ve kararlaştırılan süreler içinde güvenilir sonuçlar sunmaya kararlılar. Proje gereksinimlerini verimli yönetme becerileri onları güvenilir bir araştırma ortağı yapıyor.
+582	Saha operasyon uygulamamızı yeniden oluşturdular ve CRM'imize bağladılar. Ekibimiz verileri yeniden girmeyi bıraktı ve…
+583	Üç ülkedeki ulaşılması zor hastane satın alma yöneticilerinden oluşan bir paneli takvimimiz içinde topladılar.…
+584	Kendimiz yönettiğimiz üç topluluk sayesinde müşterilerimiz doğrulanmış, profili çıkarılmış katılımcılara, üyelerimiz de adil ödüllere kavuşur.
+585	İpucu: herhangi bir sayfayı bir dilde paylaşmak için bağlantıya ?lang=tr (veya başka bir kod) ekleyin.
+586	Tütün
+587	Bugün
+588	Karışık kuruyemiş
+589	İçgörüleri
+590	Araştırma verilerini anlamlı bulgulara dönüştürün.
+591	Ekibimiz tarafından çevrildi
+592	Ulaşım ve lojistik
+593	Sohbet sesini kapat
+594	Turn#Opinion logosu
+595	Mesajınızı yazın
+596	UI/UX Tasarımı
+597	Anla
+598	Güvenilir araştırma ve uygulanabilir içgörülerle pazarları, müşterileri, rakipleri ve fırsatları anlayın.
+599	İş sorusunu, hedefleri ve araştırma gereksinimlerini anlayın.
+600	Pazarınızı anlayın
+601	Genellikle hızlı yanıtlar
+602	Genellikle bir iş günü içinde yanıtlar
+603	Doğrula
+604	Doğrulama
+605	Doğrulanmış, profili çıkarılmış katılımcılar
+606	Hesabınızı doğrulayın
+607	Video Pazarlaması
+608	Video oyunları
+609	Sanal CFO Hizmetleri
+610	Görünürlük
+611	Görünürlük → Potansiyel müşteri → Büyüme
+612	Bloga gidin
+613	Su
+614	Yalnızca bir projeyi bitirmeyi değil, ekibinizin güvenilir bir uzantısı olmayı hedefliyoruz.
+615	Daha akıllı çözümler için veriyi, teknolojiyi, dijital platformları ve insan uzmanlığını birleştiriyoruz.
+616	Dünya genelindeki müşterilerimize güvenilir araştırma çözümleri sunmak için insana, teknolojiye ve süreçlere yatırım yapmaya devam ediyoruz.
+617	Yalnızca teslimatlara değil, ticari hedeflerinizi destekleyen pratik çözümlere odaklanıyoruz.
+618	Doğruluk, verimlilik, gizlilik ve müşteri güveni için güvenli, güvenilir teknolojiye ve yetkin, sorumlu bir ekibe yatırım yapıyoruz.
+619	Mesajınızı okuyoruz
+620	Beklediğiniz kaliteyi sunuyoruz
+621	Bir çözüm önermeden önce pazarı, müşteriyi ve iş sorununu anlayarak başlıyoruz.
+622	Her birinde yanınızdayız.
+623	Fırsatı ölçmek için araştırmalarını, lansman için dijital ekiplerini kullandık. Tek ortak, tek plan, …
+624	Web Uygulaması Geliştirme
+625	Web sitesi
+626	Web Sitesi Geliştirme
+627	Web Sitesi Bakımı ve Destek
+628	Web Sitesi Bakımı ve Destek: Siteniz Her Gün Hızlı, Güvenli ve Çalışır Durumda
+629	Nasıl yardımcı olabiliriz?
+630	Size nasıl yardımcı olabiliriz?
+631	Müşteriler ne diyor,
+632	Sonra ne olur
+633	Ne yapmak istersiniz?
+634	Ne üzerinde çalışırsanız çalışın, doğru ekip zaten masada:
+635	WhatsApp Pazarlaması
+636	WhatsApp Destek
+637	WhatsApp destek
+638	WhatsApp destek: +# # # numarasından bizimle sohbet edin
+639	Bize WhatsApp'tan yazın
+640	Panel kitapçığını nereden indirebilirim?
+641	Pazarınızı anlamak, yeni müşterilere ulaşmak, teknoloji geliştirmek, çevrimiçi görünürlüğünüzü artırmak ya da finansınızı güçlendirmek istiyorsanız ekibimiz dinlemeye hazır.
+642	Size hangi hizmeti sunduk?
+643	Hangi atıştırmalığı alırdınız?
+644	Neden Frequent Research?
+645	Neden biz
+646	# iş günü içinde
+647	Ahşap ve kereste
+648	Birden fazla ekiple mi çalıştınız? Hepsini seçin — yorumunuz her birinin altında gösterilir.
+649	Frequent Research ile çalışmak sorunsuz ve profesyonel bir deneyimdi.
+650	Evet. Dijital ekibimiz aynı görüşmeye katılacak. Tek ortak, dört ekip.
+651	Siz
+652	Net bir yanıt alırsınız
+653	İşiniz
+654	İşinizin her zaman başka bir tedarikçiye ihtiyacı yoktur. Bazen büyük resmi anlayan bir ortağa ihtiyaç duyar.
+655	Verileriniz gizli kalır
+656	Bilgileriniz
+657	Deneyiminiz herkes için sağlık hizmetlerini iyileştirebilir.
+658	Mesajınız
+659	İhtiyacınız
+660	Görüşünüz
+661	bir teklif, fizibilite veya fiyat — hiçbir yükümlülük olmadan.
+662	hakkımızda menüsü
+663	ve brifiniz için doğru uzmanı atıyoruz.
+664	vaka çalışması
+665	sertifikalı
+666	ülke
+667	indirmeler menüsü
+668	uygulanabilir
+669	Büyüyen
+670	yeni sekmede)
+671	sektör
+672	eyleme dönüştürün.
+673	dil
+674	daha fazla
+675	sonraki
+676	çoğu zaman planı netleştiren ilk sorularla birlikte.
+677	kazandırır.
+678	portallar menüsü
+679	ürünler menüsü
+680	araştırma pazarı
+681	yorum
+682	sektör grubu
+683	hizmet hizmet.
+684	hizmet
+685	hizmet,
+686	hizmet · # ekip
+687	hizmet →
+688	hizmet, tek ekip
+689	ekip
+690	kapatmak için
+691	gezinmek için
+692	açmak için
+693	— çoğu zaman brifinizi netleştiren ilk sorularla birlikte.

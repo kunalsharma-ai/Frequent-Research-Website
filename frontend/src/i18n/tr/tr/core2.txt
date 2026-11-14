@@ -1,0 +1,394 @@
+1	# dakikalık görüşme
+2	(# içinden)
+3	(yeni sekmede açılır)
+4	+# # # veya Geç yazın
+5	, ve bilgilerimi şurada açıklandığı şekilde saklamasını kabul ediyorum:
+6	, unvanım
+7	, puanım ve yorumumla.
+8	. Yayımlamadan önce istediğiniz zaman değiştirebilirsiniz.
+9	? Başka bilgiler kullan
+10	Talebiniz bir uzmanda
+11	Bu sayfa hakkında
+12	Doğru defterler
+13	Uygulanabilir içgörü
+14	Tüm ülkeler
+15	Neredeyse bitti
+16	Bizi Google'da da değerlendirin
+17	Hangi ülkedesiniz?
+18	Ülke koduyla telefon numaranız — ya da Geç yazın.
+19	Eklemek istediğiniz bir şey var mı?
+20	Randevu · #
+21	Bunun yerine asistanımıza sorun
+22	Asistan yazıyor
+23	Geri
+24	Dengeli
+25	İlk siz olun
+26	Daha iyi potansiyel müşteriler
+27	Markalı PDF · anında oluşturulur · filigranlı
+28	Başa baş
+29	Atılım
+30	Vaka çalışmasını indirebilir miyim? PDF'ini nasıl alırım?
+31	Dili değiştir
+32	Seçtiğiniz başka bir hizmetin görünümüne geçin
+33	Gelen kutunuzu kontrol edin
+34	# ile # arasında bir puan seçin.
+35	Ülkenizi seçin.
+36	Temiz kod
+37	Müşteri görüşleri
+38	Yükselişte
+39	Klinik çalışma · Kardiyoloji
+40	Önizlemeyi kapat
+41	Tümünü daralt
+42	Şirket adı
+43	Zamanında uyum
+44	Gizli ve anonim
+45	Onay
+46	Ülke
+47	Ülke kodu
+48	Unvan
+49	Unvan · Şirket
+50	Kapat
+51	Her hizmet için bir broşürünüz var mı?
+52	Doktor
+53	Belge
+54	Sampledge'in yıllık plan indirimi var mı?
+55	Yeniden indir
+56	İndir:
+57	İndir —
+58	İndir:
+59	İndirildi
+60	ESOMAR #, alıcıların çevrimiçi örneklem sağlayıcılarına panelleri, kaynakları, kalite kontrolleri ve veri koruma hakkında sorduğu # soruluk standart bir settir. Tam yanıtlarımız ESOMAR # sayfasında yayımlanmıştır.
+61	Takibi kolay
+62	Düzenle
+63	Şirketinizi ve ülkenizi düzenleyin
+64	Adınızı ve e-postanızı düzenleyin
+65	E-posta adresi
+66	E-posta ve telefon gizli kalır.
+67	PDF'i bana e-postayla gönder
+68	Bize e-posta gönderin
+69	Şifreleme
+70	Mühendisler
+71	Geçerli bir e-posta girin, ör. ad@sirket.com.
+72	Geçerli bir telefon numarası girin.
+73	Kodu girin
+74	Şirket adınızı girin.
+75	E-posta adresinizi girin.
+76	Adınızı girin.
+77	Tam adınızı girin.
+78	Soyadınızı girin.
+79	Telefon numaranızı girin.
+80	Mükemmel
+81	Uzman çalışması · B#B karar vericiler
+82	Orta
+83	Saha notları
+84	Saha çalışması zamanında tamamlandı.
+85	Beyannameler ve uyum her zaman zamanındaydı.
+86	Finans yanıtları
+87	Bizi Google'da bulun
+88	Ad
+89	Değerlendirenler ülkelerini ekledikçe bayraklar burada görünür.
+90	Teslim sonrası takip daha iyi olabilirdi.
+91	İş profesyonelleri için
+92	Bakım verenler için
+93	Doktorlar, hemşireler ve sağlık profesyonelleri için
+94	Doktorlar, uzmanlar, hemşireler ve eczacılar için
+95	Tüketiciler için
+96	Örneğin: ad@sirket.com
+97	Sevdiği birine bakan aile üyeleri ve bakım verenler için
+98	Yöneticiler, uzmanlar ve karar vericiler için
+99	Hastalar için
+100	Bir sağlık sorunuyla yaşayanlar için
+101	Biçim
+102	Taze yaratıcılık
+103	Tam ad
+104	GDPR uyumlu
+105	Hedef, kitle, pazarlar veya takvim…
+106	İyi
+107	Bilmekte fayda var
+108	Kamu ve kamuoyu araştırması
+109	Sağlam
+110	Rehber
+111	Ulaşılması zor kitle
+112	Merhaba! Ne öğrenmek istersiniz? Kendi cümlelerinizle sorabilirsiniz — örneğin “Bir çevrimiçi anket ne kadar tutar?”
+113	Merhaba 👋
+114	Dürüst raporlama
+115	Frequent Research'ü nasıl değerlendirebilirim?
+116	Geliştirme nasıl geçti?
+117	İhtiyacınız olan tedaviye ulaşmak ne kadar kolaydı?
+118	Markanızı ne kadar ileri taşıdık?
+119	Rakamlarınız ne kadar sağlıklıydı?
+120	İçgörüler ne kadar güçlüydü?
+121	Frequent Research'ün bu indirme hakkında benimle iletişime geçmesini ve bilgilerimi şurada açıklandığı şekilde saklamasını kabul ediyorum:
+122	Bu yorumun kendi deneyimimi anlattığını onaylıyor ve Frequent Research'ün bunu bu web sitesinde adım, ülkem
+123	O ülkeyi bulamadım. Lütfen adını yazın, ör. Hindistan veya Birleşik Krallık.
+124	Bunun için yayımlanmış bir yanıtım yok — uzman ilgilenecek.
+125	Tam emin değilim ama sorunuza en yakın sayfalar şunlar:
+126	Yörüngede
+127	Zararda
+128	Sonuçsuz
+129	Sektör soruları
+130	Bu kitapçıkta
+131	Şu mu:
+132	Genellikle şunları içerir
+133	Az önce
+134	Bu dili koru
+135	# karakterin altında tutun.
+136	Adınızı # karakterin altında tutun.
+137	Yorumunuzu # karakterin altında tutun.
+138	Dil
+139	Soyad
+140	Sizi bir uzmana bağlayayım — bu kısa kartı doldurun, genellikle bir iş günü içinde e-postayla yanıt verelim.
+141	Kalkış
+142	Panel kitapçıkları yükleniyor…
+143	Makine çevirisi · Google Çeviri tarafından
+144	Pazarlamacılar
+145	İlaç · #
+146	Kilometre taşları tamam
+147	Kilometre taşları zamanında teslim edildi.
+148	Kaçırılan süre
+149	Daha fazla fiş
+150	Daha fazla görünürlük
+151	Takip gerekiyor
+152	Asla yayımlanmaz.
+153	Asla paylaşılmaz veya satılmaz
+154	Yeni gönderi
+155	Eşleşen ülke yok: “
+156	Eşleşen dil yok: “
+157	Sorun değil. Başka bir şey sorun — ya da hazır olduğunuzda “Bir uzmanla konuşun”a dokunun.
+158	Sorun değil. Hangi ülkedesiniz?
+159	Eşleşen soru yok: “
+160	Bu filtrelerle eşleşen yorum henüz yok.
+161	Hayır, teşekkürler
+162	Hayır, gönder
+163	Değil
+164	Şimdi değil
+165	Bir uzmanın size ulaşabilmesi için tam adınızı alabilir miyim?
+166	Hemşire
+167	Zamanında saha
+168	Bir
+169	Son bir kontrol, ardından yayımla
+170	Deneyiminiz için tek bir genel puan
+171	Tek bir güvenlik kontrolü ve PDF'iniz anında iner.
+172	Optimize edildi
+173	İsteğe bağlı · asla yayımlanmaz.
+174	Diğer ülke
+175	Panellerimiz
+176	Arama görünürlüğümüz arttı.
+177	Uzmanımız devralacak — yanıtı e-postayla alacaksınız.
+178	Çevirilerimiz, tarayıcınızın yerleşik çevirmeniyle tamamlandı
+179	Panel üyesi yardımı
+180	Eczacı
+181	Telefon / WhatsApp
+182	Telefon ülke kodu
+183	Telefon numarası
+184	Değerlendirdiğiniz en az bir hizmeti seçin.
+185	Lütfen e-posta gönderin:
+186	Lütfen ülke kodunu ekleyin, ör. +# # # — ya da Geç yazın.
+187	Lütfen web bağlantısı eklemeyin.
+188	İndirmeden önce onay kutusunu işaretleyin.
+189	Yayımlamadan önce onay kutusunu işaretleyin.
+190	Lütfen tekrar deneyin veya e-posta gönderin:
+191	Lütfen kalıcı bir iş veya kişisel e-posta kullanın.
+192	Zayıf
+193	Hazırlanan:
+194	PDF'iniz hazırlanıyor…
+195	Önceki fişler
+196	Yazdırılıyor: “
+197	Gizli
+198	Gizli ve saygılı
+199	Proaktif tavsiye
+200	Mesleki gizlilik
+201	Kârlı
+202	İlerleme güncellemeleri daha sık olabilirdi.
+203	İlerlemeyi takip etmek kolaydı.
+204	Yorumumu yayımla
+205	Yayımlandı
+206	Yayımlanıyor…
+207	Frequent Research Fieldwork Solutions Pvt. Ltd. Google İşletme Profili'ne bağlanan QR kodu
+208	QR kodu:
+209	QR kodları
+210	Araştırma, pazarlama, teknoloji veya finans hakkında sorunuz mu var? Bana sorun — anında yanıtlarım.
+211	Sorular hızlıca yanıtlandı.
+212	Hızlı ifadeler — yorumunuza eklemek için dokunun
+213	Hızlı yanıtlar
+214	Şimdi puanla
+215	Bizi bir dakikadan kısa sürede puanlayın — yorumunuz doğrudan müşteri görüşlerine eklenir.
+216	Şu dilde oku:
+217	Tam yanıtı okuyun:
+218	Okuyucu soruları
+219	Hazır · #/#
+220	İlgili sorular
+221	E-postayla yanıt · genellikle bir iş günü içinde
+222	Raporlama kısa, net ve dürüsttü.
+223	Araştırma paneli
+224	Hızlı yanıt veren
+225	Yorum gönderildi
+226	Değerlendiren
+227	Zamanınızın karşılığı
+228	Bilginizin karşılığı
+229	Ülke ara
+230	Ülke veya kod ara
+231	Sektör bölümleri
+232	Güvenlik kontrolü
+233	Ülkenizi seçin
+234	Bir uzmana gönder
+235	Gönderiliyor…
+236	Gönderildi:
+237	Gelen kutunuza gönderildi
+238	Deneyimimi paylaş ✓
+239	Birine bakmanın gerçeklerini paylaşın; hizmetler, destek ve ürünler gerçek ihtiyaçlara göre tasarlansın.
+240	Markalar, ajanslar ve B#B araştırmaları için çalışmalarda bilginizi paylaşın — ve zamanınızın karşılığını alın.
+241	Deneyiminizi kendi cümlelerinizle paylaşın…
+242	Hikâyenizi kendi tarzınızla anlatın
+243	Kusursuz teslim
+244	Kısa, planlı oturumlar
+245	Yeni bir güvenlik kodu göster
+246	Daha fazla yorum göster
+247	Anket yanıtları destesi olarak gösteriliyor
+248	Canlı sosyal akış olarak gösteriliyor
+249	Terminal kaydı olarak gösteriliyor
+250	Basılı fişler olarak gösteriliyor
+251	Geç
+252	Zirvede
+253	Yavaş güncellemeler
+254	Takibi pazarınıza göre yapabilmemiz için — asla spam yok.
+255	Sağlam içgörü
+256	Sağlam destek
+257	Bazı sinyaller
+258	Bazı süreler kaydı.
+259	Üzgünüm, şu anda ekibimize ulaşamadım. Tekrar deneyin veya e-posta / WhatsApp kullanın.
+260	Üzgünüm, anlayamadım. Yalnızca tam adınızı yazabilir misiniz? Örneğin: Asha Rao
+261	Ses kapalı
+262	Kaynak
+263	Uzman
+264	Uzmanlık eşleşti
+265	Uzmanlığa göre eşleşen çalışmalar
+266	Kararlı yazılım
+267	Beyan
+268	Adım # · Kendi cümlelerinizle
+269	Adım # · Puanınız
+270	Adım # · Değerlendirici rozetiniz
+271	Güçlü içgörü
+272	Rolünüze uygun çalışmalar
+273	Önerilen sorular
+274	Lansman sonrası destek sağlamdı.
+275	Uzmanlığınıza ve deneyiminize uygun sağlık araştırmalarına katılın, profesyonel zamanınızın karşılığını alın.
+276	Size uygun olduğunda katılın
+277	Puanlamak için dokunun · # ile #
+278	Araştırmacılara bir hastalıkla yaşamanın gerçekte nasıl olduğunu anlatın — sesiniz herkes için tedaviyi ve bakımı iyileştirir.
+279	Teşekkürler
+280	Teşekkürler — yanıtınız anonimdir.
+281	Uğradığınız için teşekkürler — iyi günler!
+282	Teşekkürler! Kısaca neye ihtiyacınız var — hedef, kitle, pazarlar veya takvim?
+283	Teşekkürler! Arama isterseniz ülke koduyla telefon veya WhatsApp numaranız — ör. +# # #. Bunu atlayabilirsiniz.
+284	Kod eşleşmiyor. Tekrar deneyin veya yeni bir kod için ↻'a dokunun.
+285	İndirmeler sayfasında profilini çıkardığımız her ülke için bir panel kitapçığı — bir iş dünyası (B#B) ve bir tüketici (B#C) sürümü — ve dört hizmetimizin broşürleri bulunur. Bir ülke seçin, birkaç bilgi paylaşın, PDF anında insin.
+286	PDF bu tarayıcıda oluşturulamadı. Lütfen tekrar deneyin veya info@frequentresearch.com adresine yazın.
+287	PDF aracı yüklenmedi. Sayfayı yenileyip tekrar deneyin.
+288	Defterler doğruydu.
+289	Kod temiz ve bakımı kolaydı.
+290	Yaratıcı fikirler öne çıktı.
+291	Veriler temiz ve kullanıma hazırdı.
+292	İndirme iptal edildi. Hazır olduğunuzda “Yeniden indir”i kullanın.
+293	Bulgular net ve uygulanabilirdi.
+294	Potansiyel müşteriler bize tam uygundu.
+295	Aylık raporlar neyi düzeltmemiz gerektiğini gösterdi.
+296	Panel kitapçığı listesi yüklenemedi. Sayfayı yenileyin veya info@frequentresearch.com adresine yazın.
+297	Kapsam başlangıçta daha net tanımlanabilirdi.
+298	Güvenlik kodu hâlâ yükleniyor.
+299	Yazılım kararlı ve iyi yapılmıştı.
+300	Ekip hızlı yanıt verdi.
+301	İhtiyaç duyduğumuz her pazarı kapsadılar.
+302	Sorunları büyümeden önce bildirdiler.
+303	Bulmakta zorlandığımız bir kitleye ulaştılar.
+304	Bu belge henüz mevcut değil.
+305	Bu panel kitapçığı yüklenemedi. Lütfen tekrar deneyin.
+306	Üç kısa bilgi ve kopyanız yolda.
+307	En yüksek getiri
+308	Frequent Research ekibi tarafından çevrildi
+309	Güven ve gizlilik
+310	Sohbet sesini aç
+311	Resimde gösterilen karakterleri yazın
+312	Kodu yazın
+313	Gösterilen güvenlik kodunu yazın.
+314	Belirsiz kapsam
+315	Kilidi aç
+316	Kilidi aç ve indir
+317	Kopyanızın kilidini açın
+318	Kilit açıldı — PDF'iniz hazır
+319	Yalnızca harf kullanın (boşluk, nokta, kesme işareti ve kısa çizgi kullanılabilir).
+320	Yalnızca harf kullanın.
+321	Faydalı MIS
+322	Doğrulanmış uzman
+323	Doğrulanmış, gizli paneller
+324	Çok iyi
+325	Google İşletme Profilimizi görüntüleyin
+326	Filigranlı
+327	Sizi dinliyoruz.
+328	Tekrar hoş geldiniz,
+329	Hangi BT ve yazılım geliştirme hizmetlerini sunuyorsunuz?
+330	Hangi muhasebe ve finans hizmetlerini sunuyorsunuz?
+331	Hangi dijital pazarlama hizmetlerini sunuyorsunuz?
+332	ESOMAR # anketi nedir?
+333	Frequent Research'ün geçmişi nedir? Ne zaman kuruldu?
+334	Hangi pazar araştırması hizmetlerini sunuyorsunuz?
+335	Neyi daha iyi yapmalıyız?
+336	Ne öne çıktı?
+337	Onu mükemmel yapacak olan ne?
+338	Bir ülkenin B#B veya tüketici panel kitapçığını nereden alabilirim?
+339	Nerede çalışıyorsunuz?
+340	Kim okuyor?
+341	Bu yorumu kim yazıyor?
+342	İş
+343	İş e-postası
+344	Frequent Research ile çalıştınız mı?
+345	Şu ekibimizle çalıştınız mı:
+346	Google yorumu yazın
+347	En az # karakter yazın (#/#).
+348	İlkini yazın
+349	Evet — Sampledge'de yıllık faturalandırma, on iki ay aylık ödemeye göre %# tasarruf sağlar. Fiyatlar ve planlar Sampledge sayfasındadır; her plan düğmesi sizi Sampledge sitesine götürür.
+350	Evet. Sektörler ve Vaka Çalışmaları sayfalarındaki her vaka çalışmasında bir PDF İndir düğmesi vardır. Birkaç bilgi paylaşın, filigranlı PDF hemen insin.
+351	Evet. İndirmeler sayfasında Pazar Araştırması, Dijital Pazarlama, BT ve Geliştirme ile Finans ve Muhasebe için ayrı broşürler bulunur.
+352	Siz onlara bakıyorsunuz.
+353	Rica ederim! Başka bir konuda yardımcı olabilir miyim?
+354	PDF'iniz şimdi iniyor. Otomatik açılmazsa tarayıcınızın indirilenlerine bakın.
+355	Tarayıcınız
+356	Klinik içgörünüz
+357	Ülkeniz
+358	Bu ziyarette daha önce girdiğiniz bilgiler hazır — tek tıkla “
+359	Deneyiminiz
+360	Deneyiminiz önemli
+361	Uzmanlığınız,
+362	Adınız en az # harf olmalı.
+363	Tam adınız
+364	Adınız
+365	Adınız en az # harf olmalı.
+366	Sorunuz
+367	# üzerinden puanınız
+368	Talebiniz gönderilemedi.
+369	Yorumunuz
+370	Yorumunuz (zorunlu)
+371	Yorumunuza genel bakış
+372	Yorumunuz gönderilemedi.
+373	Yorumunuz ekibimize ulaştı ve şimdiden Müşteri Görüşleri bölümünde görebilirsiniz.
+374	Yorumunuz bize ulaştı. Kontrol edildikten sonra müşteri görüşlerinde görünecek.
+375	Yorumunuz müşteri görüşlerinde ve Puanlar ve Yorumlar sayfasında yayında.
+376	ve şirketimle
+377	e-postayla
+378	şirket adı
+379	gün önce
+380	sağlık hizmetlerini iyileştirebilir.
+381	henüz yorum yok
+382	şimdi değil
+383	/ # —
+384	panel kitapçığı
+385	gizlilik politikası
+386	profil tabloları
+387	yorum henüz
+388	sektör bölümleri
+389	daha iyi bakım sağlar.
+390	? İlk yorum sizinki olabilir.
+391	seçtiğiniz ekiplerle
+392	· filigranlı
+393	” adınızla.
+394	”. Kod yazmak için “Diğer ülke”yi seçin.

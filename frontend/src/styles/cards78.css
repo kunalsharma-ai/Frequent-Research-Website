@@ -1,0 +1,46 @@
+/* Build 78: card designs for blog posts and case studies, picked in the super admin (Blog > Card design).
+   Nothing here applies until a design is picked: html[data-cms-blog=X] / html[data-cms-cases=X] / one card [data-cms-card=X]
+   (app/cms78.jsx cardTemplates). Loaded only when a design is picked (app/cms78.jsx); dark rules are written here. */
+/* ---- blog cards (.bgrid > .bcard, featured .bfeat) ---- */
+html[data-cms-blog=glass] .bcard,.bcard[data-cms-card=glass]{background:linear-gradient(160deg,rgba(255,255,255,.75),rgba(238,242,255,.6))!important;backdrop-filter:blur(10px);border:1px solid rgba(47,107,255,.2)!important;box-shadow:0 20px 40px -28px rgba(11,20,55,.45)}
+html[data-cms-blog=minimal] .bcard,.bcard[data-cms-card=minimal]{background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important}
+html[data-cms-blog=minimal] .bcard>:first-child,.bcard[data-cms-card=minimal]>:first-child{border-radius:16px;overflow:hidden}
+html[data-cms-blog=minimal] .bcard__body,.bcard[data-cms-card=minimal] .bcard__body{padding:14px 2px 0}
+html[data-cms-blog=bordered] .bcard,.bcard[data-cms-card=bordered]{border:2px solid #0B1437!important;border-radius:6px!important;box-shadow:6px 6px 0 #2F6BFF}
+html[data-cms-blog=bordered] .bcard:hover,.bcard[data-cms-card=bordered]:hover{box-shadow:9px 9px 0 #6D4AFF;transform:translate(-2px,-2px)}
+html[data-cms-blog=horizontal] .bgrid{grid-template-columns:1fr 1fr}
+html[data-cms-blog=horizontal] .bcard,.bcard[data-cms-card=horizontal]{flex-direction:row!important}
+html[data-cms-blog=horizontal] .bcard>:first-child,.bcard[data-cms-card=horizontal]>:first-child{flex:0 0 42%;min-height:100%}
+html[data-cms-blog=overlay] .bcard,.bcard[data-cms-card=overlay]{position:relative;min-height:340px;color:#fff;border:0!important}
+html[data-cms-blog=overlay] .bcard>:first-child,.bcard[data-cms-card=overlay]>:first-child{position:absolute!important;inset:0;height:100%!important;aspect-ratio:auto!important}
+html[data-cms-blog=overlay] .bcard__body,.bcard[data-cms-card=overlay] .bcard__body{position:relative;margin-top:auto;background:linear-gradient(0deg,rgba(11,20,55,.95) 30%,rgba(11,20,55,0));padding-top:70px}
+html[data-cms-blog=overlay] .bcard__body h3,html[data-cms-blog=overlay] .bcard__body p,html[data-cms-blog=overlay] .bcard__body .bmeta,.bcard[data-cms-card=overlay] .bcard__body *{color:#fff!important}
+html[data-cms-blog=magazine] .bgrid{grid-template-columns:repeat(6,1fr)}
+html[data-cms-blog=magazine] .bgrid>.bcard{grid-column:span 2}
+html[data-cms-blog=magazine] .bgrid>.bcard:nth-child(5n+1),html[data-cms-blog=magazine] .bgrid>.bcard:nth-child(5n+2){grid-column:span 3}
+html[data-cms-blog=magazine] .bcard h3{font-size:1.25rem}
+html[data-cms-blog=navy] .bcard,.bcard[data-cms-card=navy]{background:#0B1437!important;border-color:#1E2A5E!important}
+html[data-cms-blog=navy] .bcard h3,.bcard[data-cms-card=navy] h3{color:#fff}
+html[data-cms-blog=navy] .bcard p,html[data-cms-blog=navy] .bcard .bmeta,.bcard[data-cms-card=navy] p,.bcard[data-cms-card=navy] .bmeta{color:#C8D0EA!important}
+html[data-cms-blog=glass] .bfeat{background:linear-gradient(160deg,rgba(255,255,255,.8),rgba(238,242,255,.6));backdrop-filter:blur(10px)}
+html[data-cms-blog=bordered] .bfeat{border:2px solid #0B1437;border-radius:6px;box-shadow:8px 8px 0 #2F6BFF}
+html[data-cms-blog=navy] .bfeat{background:#0B1437;color:#fff}
+html[data-cms-blog=navy] .bfeat p{color:#C8D0EA}
+@media (max-width:860px){
+  html[data-cms-blog=horizontal] .bgrid,html[data-cms-blog=magazine] .bgrid{grid-template-columns:1fr}
+  html[data-cms-blog=magazine] .bgrid>.bcard{grid-column:auto!important}
+  html[data-cms-blog=horizontal] .bcard,.bcard[data-cms-card=horizontal]{flex-direction:column!important}
+}
+/* ---- case study tickets (.in6-tix > li > .in6-tik) ---- */
+html[data-cms-cases=cards] .in6-tix{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px}
+html[data-cms-cases=cards] .in6-tik{flex-direction:column;border-radius:20px}
+html[data-cms-cases=cards] .in6-tik__stub{width:auto;min-height:0;border:0;padding:16px 20px 0}
+html[data-cms-cases=glass] .in6-tik,.in6-tik[data-cms-card=glass]{background:linear-gradient(160deg,rgba(255,255,255,.78),rgba(238,242,255,.55))!important;backdrop-filter:blur(10px);border:1px solid rgba(47,107,255,.2)!important}
+html[data-cms-cases=minimal] .in6-tik,.in6-tik[data-cms-card=minimal]{background:transparent!important;box-shadow:none!important;border:0!important;border-bottom:1px solid #DDE2EC!important;border-radius:0!important}
+html[data-cms-cases=bordered] .in6-tik,.in6-tik[data-cms-card=bordered]{border:2px solid #0B1437!important;border-radius:6px!important;box-shadow:6px 6px 0 #0E9C88!important}
+html[data-cms-cases=navy] .in6-tik,.in6-tik[data-cms-card=navy]{background:#0B1437!important;color:#fff!important}
+html[data-cms-cases=navy] .in6-tik *,.in6-tik[data-cms-card=navy] *{color:inherit}
+/* dark theme */
+html[data-theme=dark][data-cms-blog=glass] .bcard,html[data-theme=dark] .bcard[data-cms-card=glass],html[data-theme=dark][data-cms-blog=glass] .bfeat,html[data-theme=dark][data-cms-cases=glass] .in6-tik{background:linear-gradient(160deg,rgba(18,27,69,.8),rgba(22,17,74,.6))!important;border-color:#26326B!important}
+html[data-theme=dark][data-cms-blog=bordered] .bcard,html[data-theme=dark] .bcard[data-cms-card=bordered],html[data-theme=dark][data-cms-cases=bordered] .in6-tik{border-color:#7FA6FF!important}
+html[data-theme=dark][data-cms-cases=minimal] .in6-tik{border-bottom-color:#26326B!important}

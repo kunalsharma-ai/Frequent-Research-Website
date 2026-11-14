@@ -1,0 +1,24 @@
+/* ===== Theme button + switch transition — build 62 (frt-). Source: src/components/site/Theme.jsx ===== */
+.frt-btn{position:relative;flex:none;display:inline-grid;place-items:center;width:42px;height:42px;padding:0;border-radius:50%;border:1.5px solid transparent;background:linear-gradient(#fff,#fff) padding-box,linear-gradient(140deg,#0B22A8,#1E6BFF 45%,#E8B54A) border-box;color:#0B22A8;cursor:pointer;transition:transform .2s ease,box-shadow .2s ease}
+.frt-btn:hover{transform:translateY(-1px) rotate(-8deg);box-shadow:0 10px 24px -14px rgba(11,34,168,.6)}
+.frt-btn:focus-visible{outline:3px solid #1E6BFF;outline-offset:3px}
+.frt-btn__i{display:grid;place-items:center;line-height:0}
+.frt-btn svg{overflow:visible}
+.frt-btn__sun{transform-origin:12px 12px;transition:transform .45s cubic-bezier(.4,0,.2,1)}
+.frt-btn__cut{transform:translate(9px,-9px);transition:transform .45s cubic-bezier(.4,0,.2,1)}
+.frt-btn__rays{transform-origin:12px 12px;transition:transform .45s cubic-bezier(.4,0,.2,1),opacity .3s ease}
+.frt-btn.is-dark{color:#F7D98B;background:linear-gradient(#0D1230,#0D1230) padding-box,linear-gradient(140deg,#E8B54A,#7C89FF 60%,#1E6BFF) border-box}
+.frt-btn.is-dark .frt-btn__sun{transform:scale(1.55)}
+.frt-btn.is-dark .frt-btn__cut{transform:translate(0,0)}
+.frt-btn.is-dark .frt-btn__rays{transform:rotate(-90deg) scale(.4);opacity:0}
+@media (max-width:420px){.frt-btn{width:38px;height:38px}}
+/* switch: circular reveal from the button (View Transitions API, one snapshot on the compositor) */
+html.frt-vt::view-transition-old(root),html.frt-vt::view-transition-new(root){animation:none;mix-blend-mode:normal}
+html.frt-vt::view-transition-new(root){animation:frtReveal .85s cubic-bezier(.4,0,.2,1)}
+@keyframes frtReveal{from{clip-path:circle(0 at var(--frt-x,90%) var(--frt-y,40px))}to{clip-path:circle(150vmax at var(--frt-x,90%) var(--frt-y,40px))}}
+@media (prefers-reduced-motion:reduce){.frt-btn__sun,.frt-btn__cut,.frt-btn__rays{transition:none}}
+
+/* build 63: copy protection (src/components/site/Protect.jsx) — no text selection outside form fields */
+html.fr-protect body{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+html.fr-protect :is(input,textarea,select,[contenteditable=""],[contenteditable="true"],.fr-copy-ok),html.fr-protect :is(input,textarea,select,[contenteditable=""],[contenteditable="true"],.fr-copy-ok) *{-webkit-user-select:text;user-select:text;-webkit-touch-callout:default}
+html.fr-protect img{-webkit-user-drag:none}

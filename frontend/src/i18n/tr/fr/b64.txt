@@ -1,0 +1,54 @@
+1	Le défi
+2	Capacités
+3	activités répertoriées
+4	Capacité
+5	activités
+6	Activités
+7	Activités de notre catalogue de services
+8	Capacité précédente
+9	Capacité suivante
+10	Étape
+11	← Étape précédente
+12	Étape suivante →
+13	Mensuel
+14	cycle de paie
+15	+ GST applicable
+16	inclusions
+17	Retour au résumé
+18	Suggéré
+19	Comparer toutes les fonctionnalités
+20	Mettre une offre en avant
+21	Termes :
+22	Outil interactif
+23	Discuter de vos besoins
+24	Conditions
+25	Voir l’offre
+26	Tout ouvrir
+27	réponses
+28	Rechercher dans les questions
+29	Demander un devis personnalisé
+30	Devis personnalisé · écrit avant le début des travaux
+31	Que se passe-t-il avant de vous engager ?
+32	Voir les offres
+33	Réserver une consultation gratuite de # minutes
+34	Retourner
+35	Afficher le QR code
+36	À qui il s’adresse
+37	Aller
+38	Offres commerciales
+39	Qui nous accompagnons
+40	Périmètre
+41	Services associés
+42	Discuter de ce besoin
+43	Les activités incluses dans votre mission dépendent de l’offre choisie et du périmètre écrit.
+44	Fonctionnalité
+45	Prix
+46	Prix par déclaration
+47	Notre produit
+48	Télécharger
+49	Comparaison issue de nos offres de services publiées. Tout ce qui n’est pas listé est confirmé dans le périmètre de votre mission.
+50	Le plus populaire
+51	Tout voir
+52	À partir de
+53	Choisir
+54	Processus en # étapes

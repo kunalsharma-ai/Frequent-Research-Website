@@ -1,0 +1,2028 @@
+{
+"b2c": [
+{
+"name": "Canada",
+"slug": "canada",
+"iso": "CA",
+"region": "North America",
+"panel": 77089,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Costa Rica",
+"slug": "costa-rica",
+"iso": "CR",
+"region": "North America",
+"panel": 10363,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Mexico",
+"slug": "mexico",
+"iso": "MX",
+"region": "North America",
+"panel": 255042,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "United States",
+"slug": "united-states",
+"iso": "US",
+"region": "North America",
+"panel": 664807,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Austria",
+"slug": "austria",
+"iso": "AT",
+"region": "Europe",
+"panel": 182261,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Belgium",
+"slug": "belgium",
+"iso": "BE",
+"region": "Europe",
+"panel": 233129,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Bulgaria",
+"slug": "bulgaria",
+"iso": "BG",
+"region": "Europe",
+"panel": 135602,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Czech Republic",
+"slug": "czech-republic",
+"iso": "CZ",
+"region": "Europe",
+"panel": 209877,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Denmark",
+"slug": "denmark",
+"iso": "DK",
+"region": "Europe",
+"panel": 117656,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "France",
+"slug": "france",
+"iso": "FR",
+"region": "Europe",
+"panel": 1292579,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Germany",
+"slug": "germany",
+"iso": "DE",
+"region": "Europe",
+"panel": 1667357,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Ireland",
+"slug": "ireland",
+"iso": "IE",
+"region": "Europe",
+"panel": 100474,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Italy",
+"slug": "italy",
+"iso": "IT",
+"region": "Europe",
+"panel": 1180691,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Netherlands",
+"slug": "netherlands",
+"iso": "NL",
+"region": "Europe",
+"panel": 351299,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Norway",
+"slug": "norway",
+"iso": "NO",
+"region": "Europe",
+"panel": 108701,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Poland",
+"slug": "poland",
+"iso": "PL",
+"region": "Europe",
+"panel": 798292,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Portugal",
+"slug": "portugal",
+"iso": "PT",
+"region": "Europe",
+"panel": 205409,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Romania",
+"slug": "romania",
+"iso": "RO",
+"region": "Europe",
+"panel": 393466,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Russia",
+"slug": "russia",
+"iso": "RU",
+"region": "Europe",
+"panel": 2894252,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Spain",
+"slug": "spain",
+"iso": "ES",
+"region": "Europe",
+"panel": 951160,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Sweden",
+"slug": "sweden",
+"iso": "SE",
+"region": "Europe",
+"panel": 211009,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Switzerland",
+"slug": "switzerland",
+"iso": "CH",
+"region": "Europe",
+"panel": 174830,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Ukraine",
+"slug": "ukraine",
+"iso": "UA",
+"region": "Europe",
+"panel": 791461,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "United Kingdom",
+"slug": "united-kingdom",
+"iso": "GB",
+"region": "Europe",
+"panel": 1350260,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Australia",
+"slug": "australia",
+"iso": "AU",
+"region": "Asia-Pacific",
+"panel": 78546,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Cambodia",
+"slug": "cambodia",
+"iso": "KH",
+"region": "Asia-Pacific",
+"panel": 51598,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "China",
+"slug": "china",
+"iso": "CN",
+"region": "Asia-Pacific",
+"panel": 4277658,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Hong Kong",
+"slug": "hong-kong",
+"iso": "HK",
+"region": "Asia-Pacific",
+"panel": 22467,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "India",
+"slug": "india",
+"iso": "IN",
+"region": "Asia-Pacific",
+"panel": 4252035,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Indonesia",
+"slug": "indonesia",
+"iso": "ID",
+"region": "Asia-Pacific",
+"panel": 551065,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Japan",
+"slug": "japan",
+"iso": "JP",
+"region": "Asia-Pacific",
+"panel": 371820,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Malaysia",
+"slug": "malaysia",
+"iso": "MY",
+"region": "Asia-Pacific",
+"panel": 101835,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "New Zealand",
+"slug": "new-zealand",
+"iso": "NZ",
+"region": "Asia-Pacific",
+"panel": 15558,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Philippines",
+"slug": "philippines",
+"iso": "PH",
+"region": "Asia-Pacific",
+"panel": 346772,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Singapore",
+"slug": "singapore",
+"iso": "SG",
+"region": "Asia-Pacific",
+"panel": 17929,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "South Korea",
+"slug": "south-korea",
+"iso": "KR",
+"region": "Asia-Pacific",
+"panel": 155446,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Taiwan",
+"slug": "taiwan",
+"iso": "TW",
+"region": "Asia-Pacific",
+"panel": 71682,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Thailand",
+"slug": "thailand",
+"iso": "TH",
+"region": "Asia-Pacific",
+"panel": 143398,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Vietnam",
+"slug": "vietnam",
+"iso": "VN",
+"region": "Asia-Pacific",
+"panel": 294597,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Algeria",
+"slug": "algeria",
+"iso": "DZ",
+"region": "Middle East & Africa",
+"panel": 89832,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Egypt",
+"slug": "egypt",
+"iso": "EG",
+"region": "Middle East & Africa",
+"panel": 166531,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Iran",
+"slug": "iran",
+"iso": "IR",
+"region": "Middle East & Africa",
+"panel": 177122,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Israel",
+"slug": "israel",
+"iso": "IL",
+"region": "Middle East & Africa",
+"panel": 18081,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Kenya",
+"slug": "kenya",
+"iso": "KE",
+"region": "Middle East & Africa",
+"panel": 108092,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Kuwait",
+"slug": "kuwait",
+"iso": "KW",
+"region": "Middle East & Africa",
+"panel": 8539,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Nigeria",
+"slug": "nigeria",
+"iso": "NG",
+"region": "Middle East & Africa",
+"panel": 437268,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Qatar",
+"slug": "qatar",
+"iso": "QA",
+"region": "Middle East & Africa",
+"panel": 5391,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Saudi Arabia",
+"slug": "saudi-arabia",
+"iso": "SA",
+"region": "Middle East & Africa",
+"panel": 72837,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "South Africa",
+"slug": "south-africa",
+"iso": "ZA",
+"region": "Middle East & Africa",
+"panel": 119805,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "United Arab Emirates",
+"slug": "united-arab-emirates",
+"iso": "AE",
+"region": "Middle East & Africa",
+"panel": 18885,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Argentina",
+"slug": "argentina",
+"iso": "AR",
+"region": "South America",
+"panel": 910292,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Brazil",
+"slug": "brazil",
+"iso": "BR",
+"region": "South America",
+"panel": 430662,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Chile",
+"slug": "chile",
+"iso": "CL",
+"region": "South America",
+"panel": 392082,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Colombia",
+"slug": "colombia",
+"iso": "CO",
+"region": "South America",
+"panel": 1037541,
+"tables": 33,
+"sectors": 0
+},
+{
+"name": "Peru",
+"slug": "peru",
+"iso": "PE",
+"region": "South America",
+"panel": 681089,
+"tables": 33,
+"sectors": 0
+}
+],
+"b2b": [
+{
+"name": "Canada",
+"slug": "canada",
+"iso": "CA",
+"region": "North America",
+"panel": 69380,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Costa Rica",
+"slug": "costa-rica",
+"iso": "CR",
+"region": "North America",
+"panel": 7254,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Mexico",
+"slug": "mexico",
+"iso": "MX",
+"region": "North America",
+"panel": 76513,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "United States",
+"slug": "united-states",
+"iso": "US",
+"region": "North America",
+"panel": 398884,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Austria",
+"slug": "austria",
+"iso": "AT",
+"region": "Europe",
+"panel": 72904,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Belgium",
+"slug": "belgium",
+"iso": "BE",
+"region": "Europe",
+"panel": 93252,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Bulgaria",
+"slug": "bulgaria",
+"iso": "BG",
+"region": "Europe",
+"panel": 54241,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Czech Republic",
+"slug": "czech-republic",
+"iso": "CZ",
+"region": "Europe",
+"panel": 83951,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Denmark",
+"slug": "denmark",
+"iso": "DK",
+"region": "Europe",
+"panel": 47062,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "France",
+"slug": "france",
+"iso": "FR",
+"region": "Europe",
+"panel": 517032,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Germany",
+"slug": "germany",
+"iso": "DE",
+"region": "Europe",
+"panel": 150062,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Ireland",
+"slug": "ireland",
+"iso": "IE",
+"region": "Europe",
+"panel": 40190,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Italy",
+"slug": "italy",
+"iso": "IT",
+"region": "Europe",
+"panel": 472276,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Netherlands",
+"slug": "netherlands",
+"iso": "NL",
+"region": "Europe",
+"panel": 140520,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Norway",
+"slug": "norway",
+"iso": "NO",
+"region": "Europe",
+"panel": 43480,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Poland",
+"slug": "poland",
+"iso": "PL",
+"region": "Europe",
+"panel": 319317,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Portugal",
+"slug": "portugal",
+"iso": "PT",
+"region": "Europe",
+"panel": 82164,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Romania",
+"slug": "romania",
+"iso": "RO",
+"region": "Europe",
+"panel": 157386,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Russia",
+"slug": "russia",
+"iso": "RU",
+"region": "Europe",
+"panel": 1157701,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Spain",
+"slug": "spain",
+"iso": "ES",
+"region": "Europe",
+"panel": 380464,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Sweden",
+"slug": "sweden",
+"iso": "SE",
+"region": "Europe",
+"panel": 84404,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Switzerland",
+"slug": "switzerland",
+"iso": "CH",
+"region": "Europe",
+"panel": 34966,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Ukraine",
+"slug": "ukraine",
+"iso": "UA",
+"region": "Europe",
+"panel": 316584,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "United Kingdom",
+"slug": "united-kingdom",
+"iso": "GB",
+"region": "Europe",
+"panel": 540104,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Australia",
+"slug": "australia",
+"iso": "AU",
+"region": "Asia-Pacific",
+"panel": 62837,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Cambodia",
+"slug": "cambodia",
+"iso": "KH",
+"region": "Asia-Pacific",
+"panel": 5160,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "China",
+"slug": "china",
+"iso": "CN",
+"region": "Asia-Pacific",
+"panel": 2138829,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Hong Kong",
+"slug": "hong-kong",
+"iso": "HK",
+"region": "Asia-Pacific",
+"panel": 11234,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "India",
+"slug": "india",
+"iso": "IN",
+"region": "Asia-Pacific",
+"panel": 2551221,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Indonesia",
+"slug": "indonesia",
+"iso": "ID",
+"region": "Asia-Pacific",
+"panel": 275533,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Japan",
+"slug": "japan",
+"iso": "JP",
+"region": "Asia-Pacific",
+"panel": 185910,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Malaysia",
+"slug": "malaysia",
+"iso": "MY",
+"region": "Asia-Pacific",
+"panel": 50918,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "New Zealand",
+"slug": "new-zealand",
+"iso": "NZ",
+"region": "Asia-Pacific",
+"panel": 14002,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Philippines",
+"slug": "philippines",
+"iso": "PH",
+"region": "Asia-Pacific",
+"panel": 69354,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Singapore",
+"slug": "singapore",
+"iso": "SG",
+"region": "Asia-Pacific",
+"panel": 12550,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "South Korea",
+"slug": "south-korea",
+"iso": "KR",
+"region": "Asia-Pacific",
+"panel": 77723,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Taiwan",
+"slug": "taiwan",
+"iso": "TW",
+"region": "Asia-Pacific",
+"panel": 35841,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Thailand",
+"slug": "thailand",
+"iso": "TH",
+"region": "Asia-Pacific",
+"panel": 71699,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Vietnam",
+"slug": "vietnam",
+"iso": "VN",
+"region": "Asia-Pacific",
+"panel": 147299,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Algeria",
+"slug": "algeria",
+"iso": "DZ",
+"region": "Middle East & Africa",
+"panel": 35933,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Egypt",
+"slug": "egypt",
+"iso": "EG",
+"region": "Middle East & Africa",
+"panel": 66612,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Iran",
+"slug": "iran",
+"iso": "IR",
+"region": "Middle East & Africa",
+"panel": 70849,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Israel",
+"slug": "israel",
+"iso": "IL",
+"region": "Middle East & Africa",
+"panel": 7232,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Kenya",
+"slug": "kenya",
+"iso": "KE",
+"region": "Middle East & Africa",
+"panel": 43237,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Kuwait",
+"slug": "kuwait",
+"iso": "KW",
+"region": "Middle East & Africa",
+"panel": 3416,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Nigeria",
+"slug": "nigeria",
+"iso": "NG",
+"region": "Middle East & Africa",
+"panel": 174907,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Qatar",
+"slug": "qatar",
+"iso": "QA",
+"region": "Middle East & Africa",
+"panel": 2156,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Saudi Arabia",
+"slug": "saudi-arabia",
+"iso": "SA",
+"region": "Middle East & Africa",
+"panel": 29135,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "South Africa",
+"slug": "south-africa",
+"iso": "ZA",
+"region": "Middle East & Africa",
+"panel": 47922,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "United Arab Emirates",
+"slug": "united-arab-emirates",
+"iso": "AE",
+"region": "Middle East & Africa",
+"panel": 7554,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Argentina",
+"slug": "argentina",
+"iso": "AR",
+"region": "South America",
+"panel": 136544,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Brazil",
+"slug": "brazil",
+"iso": "BR",
+"region": "South America",
+"panel": 172265,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Chile",
+"slug": "chile",
+"iso": "CL",
+"region": "South America",
+"panel": 23525,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Colombia",
+"slug": "colombia",
+"iso": "CO",
+"region": "South America",
+"panel": 933787,
+"tables": 90,
+"sectors": 0
+},
+{
+"name": "Peru",
+"slug": "peru",
+"iso": "PE",
+"region": "South America",
+"panel": 20433,
+"tables": 90,
+"sectors": 0
+}
+],
+"hcp": [
+{
+"name": "Canada",
+"slug": "canada",
+"iso": "CA",
+"region": "North America",
+"panel": 3068,
+"tables": 62,
+"sectors": 0
+},
+{
+"name": "Mexico",
+"slug": "mexico",
+"iso": "MX",
+"region": "North America",
+"panel": 2839,
+"tables": 62,
+"sectors": 0
+},
+{
+"name": "United States",
+"slug": "united-states",
+"iso": "US",
+"region": "North America",
+"panel": 3962,
+"tables": 62,
+"sectors": 0
+},
+{
+"name": "Austria",
+"slug": "austria",
+"iso": "AT",
+"region": "Europe",
+"panel": 2203,
+"tables": 62,
+"sectors": 0
+},
+{
+"name": "Belgium",
+"slug": "belgium",
+"iso": "BE",
+"region": "Europe",
+"panel": 2786,
+"tables": 62,
+"sectors": 0
+},
+{
+"name": "Denmark",
+"slug": "denmark",
+"iso": "DK",
+"region": "Europe",
+"panel": 2071,
+"tables": 62,
+"sectors": 0
+},
+{
+"name": "France",
+"slug": "france",
+"iso": "FR",
+"region": "Europe",
+"panel": 3218,
+"tables": 62,
+"sectors": 0
+},
+{
+"name": "Germany",
+"slug": "germany",
+"iso": "DE",
+"region": "Europe",
+"panel": 3361,
+"tables": 62,
+"sectors": 0
+},
+{
+"name": "Ireland",
+"slug": "ireland",
+"iso": "IE",
+"region": "Europe",
+"panel": 2748,
+"tables": 62,
+"sectors": 0
+},
+{
+"name": "Italy",
+"slug": "italy",
+"iso": "IT",
+"region": "Europe",
+"panel": 3094,
+"tables": 62,
+"sectors": 0
+},
+{
+"name": "Netherlands",
+"slug": "netherlands",
+"iso": "NL",
+"region": "Europe",
+"panel": 2877,
+"tables": 62,
+"sectors": 0
+},
+{
+"name": "Norway",
+"slug": "norway",
+"iso": "NO",
+"region": "Europe",
+"panel": 2043,
+"tables": 62,
+"sectors": 0
+},
+{
+"name": "Poland",
+"slug": "poland",
+"iso": "PL",
+"region": "Europe",
+"panel": 3015,
+"tables": 62,
+"sectors": 0
+},
+{
+"name": "Portugal",
+"slug": "portugal",
+"iso": "PT",
+"region": "Europe",
+"panel": 2392,
+"tables": 62,
+"sectors": 0
+},
+{
+"name": "Romania",
+"slug": "romania",
+"iso": "RO",
+"region": "Europe",
+"panel": 2329,
+"tables": 62,
+"sectors": 0
+},
+{
+"name": "Russia",
+"slug": "russia",
+"iso": "RU",
+"region": "Europe",
+"panel": 2581,
+"tables": 62,
+"sectors": 0
+},
+{
+"name": "Spain",
+"slug": "spain",
+"iso": "ES",
+"region": "Europe",
+"panel": 3172,
+"tables": 62,
+"sectors": 0
+},
+{
+"name": "Sweden",
+"slug": "sweden",
+"iso": "SE",
+"region": "Europe",
+"panel": 2924,
+"tables": 62,
+"sectors": 0
+},
+{
+"name": "Switzerland",
+"slug": "switzerland",
+"iso": "CH",
+"region": "Europe",
+"panel": 2795,
+"tables": 62,
+"sectors": 0
+},
+{
+"name": "United Kingdom",
+"slug": "united-kingdom",
+"iso": "GB",
+"region": "Europe",
+"panel": 3283,
+"tables": 62,
+"sectors": 0
+},
+{
+"name": "China",
+"slug": "china",
+"iso": "CN",
+"region": "Asia-Pacific",
+"panel": 3127,
+"tables": 62,
+"sectors": 0
+},
+{
+"name": "India",
+"slug": "india",
+"iso": "IN",
+"region": "Asia-Pacific",
+"panel": 3874,
+"tables": 62,
+"sectors": 0
+},
+{
+"name": "Indonesia",
+"slug": "indonesia",
+"iso": "ID",
+"region": "Asia-Pacific",
+"panel": 2863,
+"tables": 62,
+"sectors": 0
+},
+{
+"name": "Japan",
+"slug": "japan",
+"iso": "JP",
+"region": "Asia-Pacific",
+"panel": 3246,
+"tables": 62,
+"sectors": 0
+},
+{
+"name": "Malaysia",
+"slug": "malaysia",
+"iso": "MY",
+"region": "Asia-Pacific",
+"panel": 2734,
+"tables": 62,
+"sectors": 0
+},
+{
+"name": "Philippines",
+"slug": "philippines",
+"iso": "PH",
+"region": "Asia-Pacific",
+"panel": 2812,
+"tables": 62,
+"sectors": 0
+},
+{
+"name": "Singapore",
+"slug": "singapore",
+"iso": "SG",
+"region": "Asia-Pacific",
+"panel": 2689,
+"tables": 62,
+"sectors": 0
+},
+{
+"name": "South Korea",
+"slug": "south-korea",
+"iso": "KR",
+"region": "Asia-Pacific",
+"panel": 2951,
+"tables": 62,
+"sectors": 0
+},
+{
+"name": "Vietnam",
+"slug": "vietnam",
+"iso": "VN",
+"region": "Asia-Pacific",
+"panel": 2903,
+"tables": 62,
+"sectors": 0
+},
+{
+"name": "Egypt",
+"slug": "egypt",
+"iso": "EG",
+"region": "Middle East & Africa",
+"panel": 2418,
+"tables": 62,
+"sectors": 0
+},
+{
+"name": "Nigeria",
+"slug": "nigeria",
+"iso": "NG",
+"region": "Middle East & Africa",
+"panel": 2357,
+"tables": 62,
+"sectors": 0
+},
+{
+"name": "Saudi Arabia",
+"slug": "saudi-arabia",
+"iso": "SA",
+"region": "Middle East & Africa",
+"panel": 2267,
+"tables": 62,
+"sectors": 0
+},
+{
+"name": "South Africa",
+"slug": "south-africa",
+"iso": "ZA",
+"region": "Middle East & Africa",
+"panel": 2891,
+"tables": 62,
+"sectors": 0
+},
+{
+"name": "Turkey",
+"slug": "turkey",
+"iso": "TR",
+"region": "Middle East & Africa",
+"panel": 2534,
+"tables": 62,
+"sectors": 0
+},
+{
+"name": "United Arab Emirates",
+"slug": "united-arab-emirates",
+"iso": "AE",
+"region": "Middle East & Africa",
+"panel": 2146,
+"tables": 62,
+"sectors": 0
+},
+{
+"name": "Argentina",
+"slug": "argentina",
+"iso": "AR",
+"region": "South America",
+"panel": 2762,
+"tables": 62,
+"sectors": 0
+},
+{
+"name": "Brazil",
+"slug": "brazil",
+"iso": "BR",
+"region": "South America",
+"panel": 3149,
+"tables": 62,
+"sectors": 0
+},
+{
+"name": "Colombia",
+"slug": "colombia",
+"iso": "CO",
+"region": "South America",
+"panel": 2486,
+"tables": 62,
+"sectors": 0
+}
+],
+"caregivers": [
+{
+"name": "Canada",
+"slug": "canada",
+"iso": "CA",
+"region": "North America",
+"panel": 15823,
+"tables": 37,
+"sectors": 0
+},
+{
+"name": "Mexico",
+"slug": "mexico",
+"iso": "MX",
+"region": "North America",
+"panel": 12067,
+"tables": 37,
+"sectors": 0
+},
+{
+"name": "United States",
+"slug": "united-states",
+"iso": "US",
+"region": "North America",
+"panel": 29371,
+"tables": 37,
+"sectors": 0
+},
+{
+"name": "Austria",
+"slug": "austria",
+"iso": "AT",
+"region": "Europe",
+"panel": 4126,
+"tables": 37,
+"sectors": 0
+},
+{
+"name": "Belgium",
+"slug": "belgium",
+"iso": "BE",
+"region": "Europe",
+"panel": 11239,
+"tables": 37,
+"sectors": 0
+},
+{
+"name": "Denmark",
+"slug": "denmark",
+"iso": "DK",
+"region": "Europe",
+"panel": 3248,
+"tables": 37,
+"sectors": 0
+},
+{
+"name": "France",
+"slug": "france",
+"iso": "FR",
+"region": "Europe",
+"panel": 17432,
+"tables": 37,
+"sectors": 0
+},
+{
+"name": "Germany",
+"slug": "germany",
+"iso": "DE",
+"region": "Europe",
+"panel": 18706,
+"tables": 37,
+"sectors": 0
+},
+{
+"name": "Ireland",
+"slug": "ireland",
+"iso": "IE",
+"region": "Europe",
+"panel": 9683,
+"tables": 37,
+"sectors": 0
+},
+{
+"name": "Italy",
+"slug": "italy",
+"iso": "IT",
+"region": "Europe",
+"panel": 15371,
+"tables": 37,
+"sectors": 0
+},
+{
+"name": "Netherlands",
+"slug": "netherlands",
+"iso": "NL",
+"region": "Europe",
+"panel": 12418,
+"tables": 37,
+"sectors": 0
+},
+{
+"name": "Norway",
+"slug": "norway",
+"iso": "NO",
+"region": "Europe",
+"panel": 3107,
+"tables": 37,
+"sectors": 0
+},
+{
+"name": "Poland",
+"slug": "poland",
+"iso": "PL",
+"region": "Europe",
+"panel": 14862,
+"tables": 37,
+"sectors": 0
+},
+{
+"name": "Portugal",
+"slug": "portugal",
+"iso": "PT",
+"region": "Europe",
+"panel": 5046,
+"tables": 37,
+"sectors": 0
+},
+{
+"name": "Romania",
+"slug": "romania",
+"iso": "RO",
+"region": "Europe",
+"panel": 5973,
+"tables": 37,
+"sectors": 0
+},
+{
+"name": "Russia",
+"slug": "russia",
+"iso": "RU",
+"region": "Europe",
+"panel": 8294,
+"tables": 37,
+"sectors": 0
+},
+{
+"name": "Spain",
+"slug": "spain",
+"iso": "ES",
+"region": "Europe",
+"panel": 16057,
+"tables": 37,
+"sectors": 0
+},
+{
+"name": "Sweden",
+"slug": "sweden",
+"iso": "SE",
+"region": "Europe",
+"panel": 13294,
+"tables": 37,
+"sectors": 0
+},
+{
+"name": "Switzerland",
+"slug": "switzerland",
+"iso": "CH",
+"region": "Europe",
+"panel": 10912,
+"tables": 37,
+"sectors": 0
+},
+{
+"name": "United Kingdom",
+"slug": "united-kingdom",
+"iso": "GB",
+"region": "Europe",
+"panel": 17584,
+"tables": 37,
+"sectors": 0
+},
+{
+"name": "China",
+"slug": "china",
+"iso": "CN",
+"region": "Asia-Pacific",
+"panel": 16293,
+"tables": 37,
+"sectors": 0
+},
+{
+"name": "India",
+"slug": "india",
+"iso": "IN",
+"region": "Asia-Pacific",
+"panel": 28452,
+"tables": 37,
+"sectors": 0
+},
+{
+"name": "Indonesia",
+"slug": "indonesia",
+"iso": "ID",
+"region": "Asia-Pacific",
+"panel": 12741,
+"tables": 37,
+"sectors": 0
+},
+{
+"name": "Japan",
+"slug": "japan",
+"iso": "JP",
+"region": "Asia-Pacific",
+"panel": 17968,
+"tables": 37,
+"sectors": 0
+},
+{
+"name": "Malaysia",
+"slug": "malaysia",
+"iso": "MY",
+"region": "Asia-Pacific",
+"panel": 10326,
+"tables": 37,
+"sectors": 0
+},
+{
+"name": "Philippines",
+"slug": "philippines",
+"iso": "PH",
+"region": "Asia-Pacific",
+"panel": 11874,
+"tables": 37,
+"sectors": 0
+},
+{
+"name": "Singapore",
+"slug": "singapore",
+"iso": "SG",
+"region": "Asia-Pacific",
+"panel": 9847,
+"tables": 37,
+"sectors": 0
+},
+{
+"name": "South Korea",
+"slug": "south-korea",
+"iso": "KR",
+"region": "Asia-Pacific",
+"panel": 14185,
+"tables": 37,
+"sectors": 0
+},
+{
+"name": "Vietnam",
+"slug": "vietnam",
+"iso": "VN",
+"region": "Asia-Pacific",
+"panel": 13516,
+"tables": 37,
+"sectors": 0
+},
+{
+"name": "Egypt",
+"slug": "egypt",
+"iso": "EG",
+"region": "Middle East & Africa",
+"panel": 5382,
+"tables": 37,
+"sectors": 0
+},
+{
+"name": "Nigeria",
+"slug": "nigeria",
+"iso": "NG",
+"region": "Middle East & Africa",
+"panel": 5715,
+"tables": 37,
+"sectors": 0
+},
+{
+"name": "Saudi Arabia",
+"slug": "saudi-arabia",
+"iso": "SA",
+"region": "Middle East & Africa",
+"panel": 4619,
+"tables": 37,
+"sectors": 0
+},
+{
+"name": "South Africa",
+"slug": "south-africa",
+"iso": "ZA",
+"region": "Middle East & Africa",
+"panel": 13927,
+"tables": 37,
+"sectors": 0
+},
+{
+"name": "Turkey",
+"slug": "turkey",
+"iso": "TR",
+"region": "Middle East & Africa",
+"panel": 6857,
+"tables": 37,
+"sectors": 0
+},
+{
+"name": "United Arab Emirates",
+"slug": "united-arab-emirates",
+"iso": "AE",
+"region": "Middle East & Africa",
+"panel": 3764,
+"tables": 37,
+"sectors": 0
+},
+{
+"name": "Argentina",
+"slug": "argentina",
+"iso": "AR",
+"region": "South America",
+"panel": 10149,
+"tables": 37,
+"sectors": 0
+},
+{
+"name": "Brazil",
+"slug": "brazil",
+"iso": "BR",
+"region": "South America",
+"panel": 16684,
+"tables": 37,
+"sectors": 0
+},
+{
+"name": "Colombia",
+"slug": "colombia",
+"iso": "CO",
+"region": "South America",
+"panel": 6438,
+"tables": 37,
+"sectors": 0
+}
+],
+"patients": [
+{
+"name": "Canada",
+"slug": "canada",
+"iso": "CA",
+"region": "North America",
+"panel": 20194,
+"tables": 54,
+"sectors": 0
+},
+{
+"name": "Mexico",
+"slug": "mexico",
+"iso": "MX",
+"region": "North America",
+"panel": 16975,
+"tables": 54,
+"sectors": 0
+},
+{
+"name": "United States",
+"slug": "united-states",
+"iso": "US",
+"region": "North America",
+"panel": 34528,
+"tables": 54,
+"sectors": 0
+},
+{
+"name": "Austria",
+"slug": "austria",
+"iso": "AT",
+"region": "Europe",
+"panel": 6471,
+"tables": 54,
+"sectors": 0
+},
+{
+"name": "Belgium",
+"slug": "belgium",
+"iso": "BE",
+"region": "Europe",
+"panel": 15894,
+"tables": 54,
+"sectors": 0
+},
+{
+"name": "Denmark",
+"slug": "denmark",
+"iso": "DK",
+"region": "Europe",
+"panel": 5362,
+"tables": 54,
+"sectors": 0
+},
+{
+"name": "France",
+"slug": "france",
+"iso": "FR",
+"region": "Europe",
+"panel": 22615,
+"tables": 54,
+"sectors": 0
+},
+{
+"name": "Germany",
+"slug": "germany",
+"iso": "DE",
+"region": "Europe",
+"panel": 23847,
+"tables": 54,
+"sectors": 0
+},
+{
+"name": "Ireland",
+"slug": "ireland",
+"iso": "IE",
+"region": "Europe",
+"panel": 13917,
+"tables": 54,
+"sectors": 0
+},
+{
+"name": "Italy",
+"slug": "italy",
+"iso": "IT",
+"region": "Europe",
+"panel": 20583,
+"tables": 54,
+"sectors": 0
+},
+{
+"name": "Netherlands",
+"slug": "netherlands",
+"iso": "NL",
+"region": "Europe",
+"panel": 17046,
+"tables": 54,
+"sectors": 0
+},
+{
+"name": "Norway",
+"slug": "norway",
+"iso": "NO",
+"region": "Europe",
+"panel": 5214,
+"tables": 54,
+"sectors": 0
+},
+{
+"name": "Poland",
+"slug": "poland",
+"iso": "PL",
+"region": "Europe",
+"panel": 19372,
+"tables": 54,
+"sectors": 0
+},
+{
+"name": "Portugal",
+"slug": "portugal",
+"iso": "PT",
+"region": "Europe",
+"panel": 8049,
+"tables": 54,
+"sectors": 0
+},
+{
+"name": "Romania",
+"slug": "romania",
+"iso": "RO",
+"region": "Europe",
+"panel": 9157,
+"tables": 54,
+"sectors": 0
+},
+{
+"name": "Russia",
+"slug": "russia",
+"iso": "RU",
+"region": "Europe",
+"panel": 11826,
+"tables": 54,
+"sectors": 0
+},
+{
+"name": "Spain",
+"slug": "spain",
+"iso": "ES",
+"region": "Europe",
+"panel": 21264,
+"tables": 54,
+"sectors": 0
+},
+{
+"name": "Sweden",
+"slug": "sweden",
+"iso": "SE",
+"region": "Europe",
+"panel": 18731,
+"tables": 54,
+"sectors": 0
+},
+{
+"name": "Switzerland",
+"slug": "switzerland",
+"iso": "CH",
+"region": "Europe",
+"panel": 15208,
+"tables": 54,
+"sectors": 0
+},
+{
+"name": "United Kingdom",
+"slug": "united-kingdom",
+"iso": "GB",
+"region": "Europe",
+"panel": 22938,
+"tables": 54,
+"sectors": 0
+},
+{
+"name": "China",
+"slug": "china",
+"iso": "CN",
+"region": "Asia-Pacific",
+"panel": 21846,
+"tables": 54,
+"sectors": 0
+},
+{
+"name": "India",
+"slug": "india",
+"iso": "IN",
+"region": "Asia-Pacific",
+"panel": 33917,
+"tables": 54,
+"sectors": 0
+},
+{
+"name": "Indonesia",
+"slug": "indonesia",
+"iso": "ID",
+"region": "Asia-Pacific",
+"panel": 17384,
+"tables": 54,
+"sectors": 0
+},
+{
+"name": "Japan",
+"slug": "japan",
+"iso": "JP",
+"region": "Asia-Pacific",
+"panel": 23172,
+"tables": 54,
+"sectors": 0
+},
+{
+"name": "Malaysia",
+"slug": "malaysia",
+"iso": "MY",
+"region": "Asia-Pacific",
+"panel": 14759,
+"tables": 54,
+"sectors": 0
+},
+{
+"name": "Philippines",
+"slug": "philippines",
+"iso": "PH",
+"region": "Asia-Pacific",
+"panel": 16413,
+"tables": 54,
+"sectors": 0
+},
+{
+"name": "Singapore",
+"slug": "singapore",
+"iso": "SG",
+"region": "Asia-Pacific",
+"panel": 13562,
+"tables": 54,
+"sectors": 0
+},
+{
+"name": "South Korea",
+"slug": "south-korea",
+"iso": "KR",
+"region": "Asia-Pacific",
+"panel": 19628,
+"tables": 54,
+"sectors": 0
+},
+{
+"name": "Vietnam",
+"slug": "vietnam",
+"iso": "VN",
+"region": "Asia-Pacific",
+"panel": 18297,
+"tables": 54,
+"sectors": 0
+},
+{
+"name": "Egypt",
+"slug": "egypt",
+"iso": "EG",
+"region": "Middle East & Africa",
+"panel": 8736,
+"tables": 54,
+"sectors": 0
+},
+{
+"name": "Nigeria",
+"slug": "nigeria",
+"iso": "NG",
+"region": "Middle East & Africa",
+"panel": 8392,
+"tables": 54,
+"sectors": 0
+},
+{
+"name": "Saudi Arabia",
+"slug": "saudi-arabia",
+"iso": "SA",
+"region": "Middle East & Africa",
+"panel": 7214,
+"tables": 54,
+"sectors": 0
+},
+{
+"name": "South Africa",
+"slug": "south-africa",
+"iso": "ZA",
+"region": "Middle East & Africa",
+"panel": 18043,
+"tables": 54,
+"sectors": 0
+},
+{
+"name": "Turkey",
+"slug": "turkey",
+"iso": "TR",
+"region": "Middle East & Africa",
+"panel": 10483,
+"tables": 54,
+"sectors": 0
+},
+{
+"name": "United Arab Emirates",
+"slug": "united-arab-emirates",
+"iso": "AE",
+"region": "Middle East & Africa",
+"panel": 5928,
+"tables": 54,
+"sectors": 0
+},
+{
+"name": "Argentina",
+"slug": "argentina",
+"iso": "AR",
+"region": "South America",
+"panel": 14326,
+"tables": 54,
+"sectors": 0
+},
+{
+"name": "Brazil",
+"slug": "brazil",
+"iso": "BR",
+"region": "South America",
+"panel": 21709,
+"tables": 54,
+"sectors": 0
+},
+{
+"name": "Colombia",
+"slug": "colombia",
+"iso": "CO",
+"region": "South America",
+"panel": 9684,
+"tables": 54,
+"sectors": 0
+}
+]
+}

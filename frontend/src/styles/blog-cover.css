@@ -1,0 +1,59 @@
+/* ===== Blog covers (build 51) — prefix frb- ===== */
+.frb{display:block;width:100%;height:auto;background:#0A1260}
+.frb *{transform-box:fill-box}
+.frb [class^="frb-"],.frb [class*=" frb-"]{animation-play-state:paused}
+.frb.is-on [class^="frb-"],.frb.is-on [class*=" frb-"]{animation-play-state:running}
+.frb-hue{filter:hue-rotate(var(--h,0deg))}
+.frb-blob{animation:frbBlob 14s ease-in-out infinite alternate;transform-origin:center}
+.frb-blob--2{animation-duration:18s;animation-direction:alternate-reverse}
+@keyframes frbBlob{to{transform:translate(40px,-30px) scale(1.12)}}
+.frb-float{animation:frbFloat 6s ease-in-out infinite}
+@keyframes frbFloat{50%{transform:translateY(-10px)}}
+.frb-bob{animation:frbBob 4.5s ease-in-out infinite;animation-delay:var(--d,0s)}
+@keyframes frbBob{50%{translate:0 -12px}}
+.frb-pulse{animation:frbPulse 2.6s ease-in-out infinite;animation-delay:var(--d,0s);transform-origin:center}
+@keyframes frbPulse{50%{transform:scale(1.18);opacity:.6}}
+.frb-ripple{animation:frbRipple 3.6s ease-out infinite;animation-delay:var(--d,0s);transform-origin:center}
+@keyframes frbRipple{0%{transform:scale(.6);opacity:.8}100%{transform:scale(1.6);opacity:0}}
+.frb-spin{animation:frbSpin 14s linear infinite}
+.frb-spin-r{animation:frbSpin 10s linear infinite reverse}
+.frb-orbit{animation:frbSpin 9s linear infinite}
+@keyframes frbSpin{to{transform:rotate(360deg)}}
+.frb-type{animation:frbType 4s ease-in-out infinite;animation-delay:var(--d,0s);transform-origin:left center}
+@keyframes frbType{0%{transform:scaleX(0)}30%,85%{transform:scaleX(1)}100%{transform:scaleX(1);opacity:.4}}
+.frb-blink{animation:frbBlink 1s steps(2) infinite;animation-delay:var(--d,0s)}
+@keyframes frbBlink{50%{opacity:0}}
+.frb-pop{animation:frbPop 3.2s cubic-bezier(.3,1.5,.5,1) infinite;animation-delay:var(--d,0s);transform-origin:center}
+@keyframes frbPop{0%,100%{scale:1}12%{scale:1.12}24%{scale:1}}
+.frb-draw{stroke-dasharray:900;stroke-dashoffset:900;animation:frbDraw 5s ease-in-out infinite;animation-delay:var(--d,0s)}
+@keyframes frbDraw{40%,80%{stroke-dashoffset:0}100%{stroke-dashoffset:0;opacity:.3}}
+.frb-grow{animation:frbGrow 4s cubic-bezier(.2,.8,.2,1) infinite;animation-delay:var(--d,0s);transform-origin:bottom}
+@keyframes frbGrow{0%{transform:scaleY(.1)}35%,100%{transform:scaleY(1)}}
+.frb-eq{animation:frbEq 1.2s ease-in-out infinite alternate;animation-delay:var(--d,0s);transform-origin:bottom}
+@keyframes frbEq{to{transform:scaleY(.35)}}
+.frb-slide{animation:frbSlide 5s cubic-bezier(.2,.8,.2,1) infinite;animation-delay:var(--d,0s)}
+@keyframes frbSlide{0%{translate:-24px 0;opacity:0}20%,90%{translate:0 0;opacity:1}100%{opacity:.6}}
+.frb-drop{animation:frbDrop 3.6s ease-in infinite;animation-delay:var(--d,0s)}
+@keyframes frbDrop{0%{transform:translateY(0);opacity:0}15%{opacity:1}85%{opacity:1}100%{transform:translateY(340px) scale(.5);opacity:0}}
+.frb-flow{animation:frbFlow 1s linear infinite;animation-delay:var(--d,0s)}
+@keyframes frbFlow{to{stroke-dashoffset:-18}}
+.frb-dot{animation:frbDot 1.2s ease-in-out infinite;animation-delay:var(--d,0s)}
+@keyframes frbDot{50%{transform:translateY(-10px);opacity:.5}}
+.frb-heart{animation:frbHeart 3s ease-in-out infinite;animation-delay:var(--d,0s)}
+@keyframes frbHeart{0%{opacity:0;translate:0 10px}30%,70%{opacity:1}100%{opacity:0;translate:0 -40px}}
+.frb-prog{animation:frbProg 6s linear infinite;transform-origin:left}
+@keyframes frbProg{from{transform:scaleX(0)}}
+.frb-fly{animation:frbFly 4s ease-in-out infinite}
+@keyframes frbFly{0%{transform:translate(-40px,30px);opacity:0}30%,70%{opacity:1}100%{transform:translate(30px,-30px);opacity:0}}
+.frb-stack{animation:frbStack 4.5s cubic-bezier(.3,1.4,.5,1) infinite;animation-delay:var(--d,0s)}
+@keyframes frbStack{0%{transform:translateY(-30px);opacity:0}15%,100%{transform:none;opacity:1}}
+.frb-bar{animation:frbType 5s ease-in-out infinite;transform-origin:left}
+.bcard:hover .frb .frb-motif,.bfeat:hover .frb .frb-motif{transform:scale(1.04);transition:transform .6s cubic-bezier(.2,.8,.2,1)}
+.frb .frb-motif{transition:transform .6s;transform-origin:center}
+
+/* blog cards (base .bcard / .bfeat) — lift, gradient edge, cover zoom */
+.bcard{position:relative;transition:transform .3s cubic-bezier(.2,.8,.2,1),box-shadow .3s!important}
+.bcard:hover{transform:translateY(-6px)}
+.bcard:after{content:"";position:absolute;inset:auto 0 0 0;height:4px;background:linear-gradient(90deg,#1E5BFF,#22D3EE,#F0457E,#2EE6A6,#F4C152);transform:scaleX(0);transform-origin:left;transition:transform .45s}
+.bcard:hover:after{transform:scaleX(1)}
+@media (prefers-reduced-motion:reduce){.frb [class^="frb-"],.frb [class*=" frb-"]{animation:none!important}.frb-draw{stroke-dashoffset:0}}

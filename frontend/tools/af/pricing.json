@@ -1,0 +1,1395 @@
+[
+ {
+  "n": 1,
+  "title": "Accounting & Bookkeeping Services",
+  "pos": "Accurate books, organized finances, and clear monthly reporting.",
+  "rows": [
+   [
+    "Price",
+    "₹2,499/month",
+    "₹5,999/month",
+    "₹11,999/month"
+   ],
+   [
+    "Best for",
+    "Freelancers and microbusinesses",
+    "Startups and SMEs",
+    "Growing businesses"
+   ],
+   [
+    "Transactions",
+    "Up to 75/month",
+    "Up to 250/month",
+    "Up to 600/month"
+   ],
+   [
+    "Sales and purchase entries",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Expense recording",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Bank reconciliation",
+    "1 account",
+    "Up to 3 accounts",
+    "Up to 5 accounts"
+   ],
+   [
+    "General ledger maintenance",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Receivables/payables tracking",
+    "Basic",
+    "Monthly",
+    "Detailed"
+   ],
+   [
+    "Profit & loss report",
+    "Quarterly",
+    "Monthly",
+    "Monthly"
+   ],
+   [
+    "Balance sheet",
+    "Annual",
+    "Quarterly",
+    "Monthly"
+   ],
+   [
+    "Cash-flow summary",
+    "—",
+    "Quarterly",
+    "Monthly"
+   ],
+   [
+    "Financial review meeting",
+    "—",
+    "Quarterly",
+    "Monthly"
+   ],
+   [
+    "Dedicated account contact",
+    "—",
+    "✓",
+    "✓"
+   ],
+   [
+    "Support",
+    "Email",
+    "Email + WhatsApp",
+    "Priority support"
+   ]
+  ],
+  "Key deliverables": "Updated accounting records, reconciliations, financial reports, and a summary of outstanding items.",
+  "Not included": "GST/TDS filings, audit sign-off, accounting software subscriptions, historical backlog cleanup, and inventory reconciliation unless separately agreed."
+ },
+ {
+  "n": 2,
+  "title": "Tax Planning & Advisory",
+  "pos": "Proactive tax planning and structured tax-related decision support.",
+  "rows": [
+   [
+    "Price",
+    "₹2,999/year",
+    "₹7,999/year",
+    "₹19,999/year"
+   ],
+   [
+    "Best for",
+    "Salaried individuals and freelancers",
+    "Professionals and small businesses",
+    "Business owners with complex finances"
+   ],
+   [
+    "Annual tax planning consultation",
+    "1",
+    "2",
+    "4"
+   ],
+   [
+    "Income and deduction review",
+    "Basic",
+    "Detailed",
+    "Comprehensive"
+   ],
+   [
+    "Tax-saving opportunity review",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Tax regime comparison",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Advance tax estimation",
+    "—",
+    "Quarterly",
+    "Quarterly"
+   ],
+   [
+    "Capital gains planning discussion",
+    "—",
+    "Basic",
+    "Detailed"
+   ],
+   [
+    "Business expense deductibility review",
+    "—",
+    "✓",
+    "✓"
+   ],
+   [
+    "Written tax planning summary",
+    "Basic",
+    "Detailed",
+    "Comprehensive"
+   ],
+   [
+    "Support",
+    "Email",
+    "Email + WhatsApp",
+    "Priority"
+   ]
+  ],
+  "Key deliverables": "Tax planning checklist, estimated tax position, applicable deduction review, and recommendations for consideration by the client and qualified tax professional.",
+  "Not included": "ITR filing, litigation, tax notices, representation, and complex international taxation."
+ },
+ {
+  "n": 3,
+  "title": "Income Tax & ITR Filing",
+  "pos": "Straightforward return preparation and filing coordination.",
+  "rows": [
+   [
+    "Price",
+    "₹999/return",
+    "₹2,499/return",
+    "₹5,999/return"
+   ],
+   [
+    "Best for",
+    "Simple salaried returns",
+    "Professionals, freelancers, and eligible capital gains cases",
+    "More complex individual/HUF returns"
+   ],
+   [
+    "Income information review",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Form 16 review",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "AIS/26AS reconciliation",
+    "Basic",
+    "Detailed",
+    "Detailed"
+   ],
+   [
+    "Deduction review",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Capital gains schedules",
+    "—",
+    "Simple cases",
+    "Moderate complexity"
+   ],
+   [
+    "Business/professional income",
+    "—",
+    "Eligible straightforward cases",
+    "Eligible detailed cases"
+   ],
+   [
+    "Tax calculation",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Return preparation and filing support",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "E-verification guidance",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Post-filing acknowledgment",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Support",
+    "Email",
+    "Email + WhatsApp",
+    "Priority"
+   ]
+  ],
+  "Key deliverables": "Prepared return, tax computation, filing acknowledgment, and e-verification guidance.",
+  "Important": "Pricing is per assessment year and per taxpayer. Company/LLP returns, foreign asset reporting, transfer pricing, and complex capital gains require separate quotations."
+ },
+ {
+  "n": 4,
+  "title": "GST Services",
+  "pos": "Reliable GST compliance support with better visibility into return data and input tax credit.",
+  "rows": [
+   [
+    "Price",
+    "₹1,499/month",
+    "₹2,999/month",
+    "₹5,999/month"
+   ],
+   [
+    "Best for",
+    "Small registered businesses",
+    "SMEs",
+    "Higher-volume businesses"
+   ],
+   [
+    "GSTINs included",
+    "1",
+    "1",
+    "1"
+   ],
+   [
+    "Monthly invoice volume",
+    "Up to 50",
+    "Up to 200",
+    "Up to 500"
+   ],
+   [
+    "GSTR-1 preparation and filing support",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "GSTR-3B preparation and filing support",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Purchase data review",
+    "Basic",
+    "Detailed",
+    "Detailed"
+   ],
+   [
+    "GSTR-2B matching",
+    "Basic",
+    "Monthly",
+    "Monthly"
+   ],
+   [
+    "ITC mismatch report",
+    "—",
+    "✓",
+    "✓"
+   ],
+   [
+    "GST liability summary",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Compliance reminders",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "GST reconciliation report",
+    "—",
+    "Quarterly",
+    "Monthly"
+   ],
+   [
+    "Consultation",
+    "—",
+    "Quarterly",
+    "Monthly"
+   ],
+   [
+    "Support",
+    "Email",
+    "Email + WhatsApp",
+    "Priority"
+   ]
+  ],
+  "Key deliverables": "Applicable return workings, filing acknowledgments, reconciliation summaries, and outstanding mismatch reports.",
+  "Not included": "GST registration, annual returns, departmental notices, assessments, refunds, and representation unless quoted separately."
+ },
+ {
+  "n": 5,
+  "title": "TDS Services",
+  "pos": "Organized TDS calculations, records, and periodic compliance support.",
+  "rows": [
+   [
+    "Price",
+    "₹999/month",
+    "₹2,499/month",
+    "₹4,999/month"
+   ],
+   [
+    "Best for",
+    "Small businesses",
+    "Growing employers and SMEs",
+    "Higher-volume deductors"
+   ],
+   [
+    "Deduction records",
+    "Up to 25/month",
+    "Up to 100/month",
+    "Up to 300/month"
+   ],
+   [
+    "TDS calculation review",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Challan preparation assistance",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Quarterly TDS return support",
+    "1 applicable form",
+    "Up to 2 forms",
+    "Up to 3 forms"
+   ],
+   [
+    "Deductee record review",
+    "Basic",
+    "Detailed",
+    "Detailed"
+   ],
+   [
+    "TDS reconciliation",
+    "Quarterly",
+    "Monthly",
+    "Monthly"
+   ],
+   [
+    "Form 16/16A support",
+    "Basic",
+    "✓",
+    "✓"
+   ],
+   [
+    "Correction return assistance",
+    "Extra",
+    "1 simple/year",
+    "2 simple/year"
+   ],
+   [
+    "Compliance reminders",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Support",
+    "Email",
+    "Email + WhatsApp",
+    "Priority"
+   ]
+  ],
+  "Key deliverables": "TDS workings, challan information, applicable quarterly return records, and reconciliation reports.",
+  "Not included": "Tax payments, interest, penalties, complex correction statements, or representation."
+ },
+ {
+  "n": 6,
+  "title": "Payroll Services",
+  "pos": "Structured payroll processing with dependable employee records.",
+  "rows": [
+   [
+    "Price",
+    "₹1,999/month",
+    "₹4,999/month",
+    "₹9,999/month"
+   ],
+   [
+    "Best for",
+    "Small teams",
+    "Growing companies",
+    "Larger teams"
+   ],
+   [
+    "Employees included",
+    "Up to 10",
+    "Up to 30",
+    "Up to 75"
+   ],
+   [
+    "Monthly payroll processing",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Salary calculation",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Payslip generation",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Attendance/leave input review",
+    "Basic",
+    "✓",
+    "✓"
+   ],
+   [
+    "Reimbursement processing",
+    "—",
+    "✓",
+    "✓"
+   ],
+   [
+    "Payroll TDS calculation",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "PF/ESI calculation support",
+    "Where applicable",
+    "✓",
+    "✓"
+   ],
+   [
+    "Payroll reconciliation",
+    "Quarterly",
+    "Monthly",
+    "Monthly"
+   ],
+   [
+    "Payroll MIS",
+    "—",
+    "Monthly",
+    "Detailed monthly"
+   ],
+   [
+    "Dedicated payroll contact",
+    "—",
+    "✓",
+    "✓"
+   ],
+   [
+    "Support",
+    "Email",
+    "Email + WhatsApp",
+    "Priority"
+   ]
+  ],
+  "Key deliverables": "Payroll register, payslips, statutory deduction workings, and payroll summaries.",
+  "Not included": "Salary disbursement, employee benefits administration, PF/ESI return filing, and payroll software subscriptions unless expressly included."
+ },
+ {
+  "n": 7,
+  "title": "Financial Planning & Advisory",
+  "pos": "Practical financial planning that helps management understand performance and plan ahead.",
+  "rows": [
+   [
+    "Price",
+    "₹4,999/month",
+    "₹11,999/month",
+    "₹24,999/month"
+   ],
+   [
+    "Best for",
+    "Small businesses",
+    "Growing SMEs",
+    "Established companies"
+   ],
+   [
+    "Financial health review",
+    "Quarterly",
+    "Monthly",
+    "Monthly"
+   ],
+   [
+    "Budget preparation",
+    "Annual basic",
+    "Annual detailed",
+    "Department-level"
+   ],
+   [
+    "Cash-flow planning",
+    "Quarterly",
+    "Monthly",
+    "Rolling"
+   ],
+   [
+    "Financial KPI tracking",
+    "5 KPIs",
+    "10 KPIs",
+    "Up to 20 KPIs"
+   ],
+   [
+    "Budget vs. actual review",
+    "Quarterly",
+    "Monthly",
+    "Monthly"
+   ],
+   [
+    "Scenario planning",
+    "—",
+    "Basic",
+    "Advanced"
+   ],
+   [
+    "Management report",
+    "Quarterly",
+    "Monthly",
+    "Monthly"
+   ],
+   [
+    "Advisory meetings",
+    "Quarterly",
+    "Monthly",
+    "Twice monthly"
+   ],
+   [
+    "Support",
+    "Email",
+    "Priority email + WhatsApp",
+    "Priority + dedicated contact"
+   ]
+  ],
+  "Key deliverables": "Financial planning reports, budgets, cash-flow projections, KPI summaries, and documented advisory observations.",
+  "Not included": "Accounting operations, regulated investment recommendations, fundraising execution, or transaction advisory."
+ },
+ {
+  "n": 8,
+  "title": "Business Finance Services",
+  "pos": "Financing readiness, cash-flow visibility, and practical business finance support.",
+  "rows": [
+   [
+    "Price",
+    "₹5,999/project",
+    "₹14,999/project",
+    "₹34,999/project"
+   ],
+   [
+    "Best for",
+    "Small businesses",
+    "SMEs seeking financing",
+    "Larger financing projects"
+   ],
+   [
+    "Financial requirement assessment",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Funding requirement estimate",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Cash-flow assessment",
+    "Basic",
+    "Detailed",
+    "Detailed"
+   ],
+   [
+    "Financial statement review",
+    "Basic",
+    "Detailed",
+    "Comprehensive"
+   ],
+   [
+    "Debt service analysis",
+    "—",
+    "✓",
+    "✓"
+   ],
+   [
+    "Financing scenario comparison",
+    "—",
+    "2 scenarios",
+    "Up to 4 scenarios"
+   ],
+   [
+    "Financial documentation checklist",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Lender-ready information pack",
+    "—",
+    "Basic",
+    "Detailed"
+   ],
+   [
+    "Management consultation",
+    "1",
+    "2",
+    "4"
+   ],
+   [
+    "Support period",
+    "15 days",
+    "30 days",
+    "60 days"
+   ]
+  ],
+  "Key deliverables": "Financing requirements summary, financial analysis, relevant projections, and a documentation readiness pack.",
+  "Not included": "Loan approval guarantees, lending, regulated credit intermediation, lender charges, or financing commissions."
+ },
+ {
+  "n": 9,
+  "title": "Startup & SME Accounting",
+  "pos": "A scalable accounting foundation for startups and growing businesses.",
+  "rows": [
+   [
+    "Price",
+    "₹3,999/month",
+    "₹8,999/month",
+    "₹17,999/month"
+   ],
+   [
+    "Best for",
+    "Early-stage startups",
+    "Growing startups and SMEs",
+    "Funded startups and established SMEs"
+   ],
+   [
+    "Monthly transactions",
+    "Up to 100",
+    "Up to 300",
+    "Up to 700"
+   ],
+   [
+    "Bookkeeping",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Bank reconciliation",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Receivables/payables",
+    "Basic",
+    "Detailed",
+    "Detailed"
+   ],
+   [
+    "Monthly financial statements",
+    "Basic P&L",
+    "P&L + balance sheet",
+    "Full management pack"
+   ],
+   [
+    "Cash-flow reporting",
+    "—",
+    "Quarterly",
+    "Monthly"
+   ],
+   [
+    "Startup financial KPIs",
+    "—",
+    "5 KPIs",
+    "Up to 12 KPIs"
+   ],
+   [
+    "Compliance calendar",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Accounting process setup",
+    "Basic",
+    "Standard",
+    "Advanced"
+   ],
+   [
+    "Founder review call",
+    "Quarterly",
+    "Monthly",
+    "Monthly"
+   ],
+   [
+    "Support",
+    "Email",
+    "Email + WhatsApp",
+    "Priority"
+   ]
+  ],
+  "Key deliverables": "Maintained accounts, management reports, reconciliation schedules, and finance-related action items.",
+  "Not included": "GST/TDS return filing, ROC filings, audits, fundraising execution, and software fees unless separately contracted."
+ },
+ {
+  "n": 10,
+  "title": "MIS & Financial Reporting",
+  "pos": "Turn financial data into understandable business reports and dashboards.",
+  "rows": [
+   [
+    "Price",
+    "₹2,999/month",
+    "₹7,999/month",
+    "₹15,999/month"
+   ],
+   [
+    "Best for",
+    "Small businesses",
+    "Growing SMEs",
+    "Multi-department businesses"
+   ],
+   [
+    "Reporting frequency",
+    "Monthly",
+    "Monthly",
+    "Monthly"
+   ],
+   [
+    "Profit & loss report",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Balance sheet summary",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Cash-flow report",
+    "—",
+    "✓",
+    "✓"
+   ],
+   [
+    "KPI dashboard",
+    "5 KPIs",
+    "10 KPIs",
+    "Up to 20 KPIs"
+   ],
+   [
+    "Receivables/payables aging",
+    "—",
+    "✓",
+    "✓"
+   ],
+   [
+    "Budget vs. actual",
+    "—",
+    "✓",
+    "✓"
+   ],
+   [
+    "Department-wise reporting",
+    "—",
+    "—",
+    "Up to 3 departments"
+   ],
+   [
+    "Management commentary",
+    "Basic",
+    "Detailed",
+    "Detailed"
+   ],
+   [
+    "Review meeting",
+    "—",
+    "Monthly",
+    "Twice monthly"
+   ],
+   [
+    "Support",
+    "Email",
+    "Email + WhatsApp",
+    "Priority"
+   ]
+  ],
+  "Key deliverables": "Monthly MIS pack, KPI dashboard, variance observations, and management summaries.",
+  "Not included": "Underlying bookkeeping, transaction corrections, new ERP integrations, and financial statement certification."
+ },
+ {
+  "n": 11,
+  "title": "Audit & Compliance Support",
+  "pos": "Better audit preparation, organized financial records, and improved compliance visibility.",
+  "rows": [
+   [
+    "Price",
+    "₹7,999/project",
+    "₹19,999/project",
+    "₹44,999/project"
+   ],
+   [
+    "Best for",
+    "Small businesses",
+    "SMEs",
+    "Businesses with complex records"
+   ],
+   [
+    "Financial record assessment",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Audit readiness checklist",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Ledger review",
+    "Basic",
+    "Detailed",
+    "Comprehensive"
+   ],
+   [
+    "Bank reconciliation review",
+    "1 account",
+    "Up to 3",
+    "Up to 5"
+   ],
+   [
+    "Supporting schedules",
+    "Basic",
+    "Detailed",
+    "Detailed"
+   ],
+   [
+    "Documentation gap report",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Compliance calendar review",
+    "—",
+    "✓",
+    "✓"
+   ],
+   [
+    "Internal control documentation",
+    "—",
+    "Basic",
+    "Detailed"
+   ],
+   [
+    "Audit query tracker",
+    "—",
+    "✓",
+    "✓"
+   ],
+   [
+    "Management consultation",
+    "1",
+    "2",
+    "4"
+   ],
+   [
+    "Support period",
+    "15 days",
+    "30 days",
+    "60 days"
+   ]
+  ],
+  "Key deliverables": "Audit readiness checklist, reconciliation observations, documentation gap report, and action tracker.",
+  "Not included": "Statutory audit, audit opinions, certifications, tax representation, or assurance engagements."
+ },
+ {
+  "n": 12,
+  "title": "Virtual CFO Services",
+  "pos": "Senior financial leadership support without the cost of a full-time CFO.",
+  "rows": [
+   [
+    "Price",
+    "₹19,999/month",
+    "₹39,999/month",
+    "₹79,999/month"
+   ],
+   [
+    "Best for",
+    "Early-stage startups",
+    "Growing SMEs",
+    "Scaling businesses"
+   ],
+   [
+    "CFO advisory time",
+    "Up to 4 hours",
+    "Up to 8 hours",
+    "Up to 16 hours"
+   ],
+   [
+    "Monthly MIS review",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Cash-flow monitoring",
+    "Monthly",
+    "Fortnightly",
+    "Weekly"
+   ],
+   [
+    "Budget vs. actual",
+    "Monthly",
+    "Monthly",
+    "Monthly"
+   ],
+   [
+    "Rolling cash forecast",
+    "Basic",
+    "13-week",
+    "13-week"
+   ],
+   [
+    "Annual budgeting",
+    "Basic",
+    "Detailed",
+    "Department-level"
+   ],
+   [
+    "Working capital review",
+    "Quarterly",
+    "Monthly",
+    "Monthly"
+   ],
+   [
+    "Financial KPI dashboard",
+    "5 KPIs",
+    "12 KPIs",
+    "Up to 20 KPIs"
+   ],
+   [
+    "Financial modeling",
+    "—",
+    "Basic",
+    "Advanced"
+   ],
+   [
+    "Board/investor reporting support",
+    "—",
+    "Quarterly",
+    "Monthly"
+   ],
+   [
+    "Leadership meetings",
+    "1/month",
+    "2/month",
+    "4/month"
+   ],
+   [
+    "Support",
+    "Email",
+    "Priority + WhatsApp",
+    "Dedicated contact + priority"
+   ]
+  ],
+  "Key deliverables": "CFO review notes, MIS commentary, financial forecasts, management recommendations, and action plans.",
+  "Not included": "Day-to-day bookkeeping, statutory audit, regulated investment advice, and transaction execution.",
+  "Positioning note": "Essential is a limited-hours advisory product, not a fully outsourced CFO department. The higher tiers should be delivered by suitably experienced senior finance professionals."
+ },
+ {
+  "n": 13,
+  "title": "Corporate Finance Advisory",
+  "pos": "Structured financial analysis for capital structure, valuation, and strategic corporate decisions.",
+  "rows": [
+   [
+    "Price",
+    "₹14,999/project",
+    "₹39,999/project",
+    "₹99,999/project"
+   ],
+   [
+    "Best for",
+    "Small businesses",
+    "Growing SMEs",
+    "Complex corporate projects"
+   ],
+   [
+    "Corporate finance assessment",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Financial statement analysis",
+    "Basic",
+    "Detailed",
+    "Comprehensive"
+   ],
+   [
+    "Capital structure analysis",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Debt/equity scenario comparison",
+    "2 scenarios",
+    "3 scenarios",
+    "Up to 5 scenarios"
+   ],
+   [
+    "Financial modeling",
+    "Basic",
+    "Detailed",
+    "Advanced"
+   ],
+   [
+    "Cash-flow assessment",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Valuation scenario analysis",
+    "—",
+    "Illustrative",
+    "Detailed analytical support"
+   ],
+   [
+    "Financial risk review",
+    "Basic",
+    "Detailed",
+    "Comprehensive"
+   ],
+   [
+    "Management presentation",
+    "Summary",
+    "Detailed",
+    "Executive presentation"
+   ],
+   [
+    "Advisory meetings",
+    "1",
+    "3",
+    "5"
+   ],
+   [
+    "Support period",
+    "15 days",
+    "45 days",
+    "90 days"
+   ]
+  ],
+  "Key deliverables": "Corporate finance assessment, financial model, capital structure observations, and management presentation.",
+  "Not included": "Certified valuation, securities placement, fundraising success fees, regulated transaction services, or legal advice."
+ },
+ {
+  "n": 14,
+  "title": "Investment Planning",
+  "pos": "Business investment feasibility and capital allocation analysis.",
+  "rows": [
+   [
+    "Price",
+    "₹4,999/project",
+    "₹14,999/project",
+    "₹34,999/project"
+   ],
+   [
+    "Best for",
+    "Small investment decisions",
+    "SME investment projects",
+    "Complex expansion projects"
+   ],
+   [
+    "Investment objective review",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Capital requirement estimate",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Cash-flow model",
+    "Basic",
+    "Detailed",
+    "Detailed"
+   ],
+   [
+    "NPV/IRR/payback calculations",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Investment risk assessment",
+    "Basic",
+    "Detailed",
+    "Comprehensive"
+   ],
+   [
+    "Scenario analysis",
+    "2 scenarios",
+    "3 scenarios",
+    "Up to 5 scenarios"
+   ],
+   [
+    "Sensitivity analysis",
+    "—",
+    "✓",
+    "✓"
+   ],
+   [
+    "Liquidity assessment",
+    "—",
+    "✓",
+    "✓"
+   ],
+   [
+    "Investment appraisal report",
+    "Summary",
+    "Detailed",
+    "Comprehensive"
+   ],
+   [
+    "Consultation meetings",
+    "1",
+    "2",
+    "4"
+   ],
+   [
+    "Support period",
+    "15 days",
+    "30 days",
+    "60 days"
+   ]
+  ],
+  "Key deliverables": "Investment appraisal report, financial calculations, scenario comparison, and documented assumptions.",
+  "Not included": "Personalized securities recommendations, portfolio management, investment product distribution, or guaranteed returns."
+ },
+ {
+  "n": 15,
+  "title": "Due Diligence & Financial Analysis",
+  "pos": "Financial clarity and risk visibility before significant business decisions or transactions.",
+  "rows": [
+   [
+    "Price",
+    "₹14,999/project",
+    "₹39,999/project",
+    "₹99,999/project"
+   ],
+   [
+    "Best for",
+    "Small financial reviews",
+    "SME transactions",
+    "Complex transaction preparation"
+   ],
+   [
+    "Historical financial periods",
+    "1 year",
+    "Up to 2 years",
+    "Up to 3 years"
+   ],
+   [
+    "Financial statement review",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Revenue and expense analysis",
+    "Basic",
+    "Detailed",
+    "Detailed"
+   ],
+   [
+    "Profitability assessment",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Quality of earnings analysis",
+    "—",
+    "Preliminary",
+    "Detailed analytical support"
+   ],
+   [
+    "Working capital analysis",
+    "Basic",
+    "Detailed",
+    "Detailed"
+   ],
+   [
+    "Net debt review",
+    "—",
+    "✓",
+    "✓"
+   ],
+   [
+    "Cash-flow assessment",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Financial risk register",
+    "Basic",
+    "Detailed",
+    "Detailed"
+   ],
+   [
+    "Financial findings report",
+    "Summary",
+    "Detailed",
+    "Comprehensive"
+   ],
+   [
+    "Management meetings",
+    "1",
+    "2",
+    "4"
+   ],
+   [
+    "Support period",
+    "15 days",
+    "45 days",
+    "90 days"
+   ]
+  ],
+  "Key deliverables": "Financial analysis report, supporting schedules, risk observations, and management discussion.",
+  "Not included": "Independent assurance, statutory audit, certified valuation, legal due diligence, or regulated transaction services."
+ },
+ {
+  "n": 16,
+  "title": "Accounting & Finance Consulting",
+  "pos": "Practical consulting to improve accounting workflows, financial reporting, and finance operations.",
+  "rows": [
+   [
+    "Price",
+    "₹5,999/project",
+    "₹17,999/project",
+    "₹44,999/project"
+   ],
+   [
+    "Best for",
+    "Small businesses",
+    "Growing SMEs",
+    "Businesses undertaking finance improvements"
+   ],
+   [
+    "Accounting process assessment",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "General ledger review",
+    "Basic",
+    "Detailed",
+    "Comprehensive"
+   ],
+   [
+    "AP/AR workflow review",
+    "—",
+    "✓",
+    "✓"
+   ],
+   [
+    "Reconciliation process review",
+    "✓",
+    "✓",
+    "✓"
+   ],
+   [
+    "Financial reporting review",
+    "Basic",
+    "Detailed",
+    "Detailed"
+   ],
+   [
+    "Cash-flow process assessment",
+    "—",
+    "✓",
+    "✓"
+   ],
+   [
+    "Internal control gap identification",
+    "—",
+    "Basic",
+    "Detailed"
+   ],
+   [
+    "Accounting software assessment",
+    "—",
+    "✓",
+    "✓"
+   ],
+   [
+    "Process improvement roadmap",
+    "Basic",
+    "Detailed",
+    "Comprehensive"
+   ],
+   [
+    "Implementation guidance",
+    "—",
+    "Up to 2 hours",
+    "Up to 6 hours"
+   ],
+   [
+    "Consultation meetings",
+    "1",
+    "2",
+    "4"
+   ],
+   [
+    "Support period",
+    "15 days",
+    "30 days",
+    "60 days"
+   ]
+  ],
+  "Key deliverables": "Current-state assessment, process improvement recommendations, workflow documentation, and implementation roadmap.",
+  "Not included": "Software licensing, full ERP implementation, daily accounting operations, and independent audit or certification."
+ }
+]

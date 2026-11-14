@@ -1,0 +1,50 @@
+1	Survei langsung
+2	Seberapa besar kemungkinan Anda merekomendasikan merek ini?
+3	Selesai
+4	Seret untuk memutar
+5	Bersponsor
+6	tren naik
+7	Terekonsiliasi
+8	Penjualan
+9	Pembelian
+10	Kas · Pajak · Laba
+11	Arahkan. Pindai.
+12	Tetap terhubung.
+13	Semua kanal di satu tempat: Frequent Research, tiga panel riset kami, dan Sampledge — situs web, profil media sosial, dan dukungan WhatsApp, masing-masing dengan kode QR sendiri.
+14	merek
+15	nomor WhatsApp
+16	Kontak langsung
+17	# kanal.
+18	Cukup sekali pindai.
+19	Ikuti perusahaan di balik panel — berita riset, insight, kehidupan tim, dan pengumuman, kini juga di Threads.
+20	Situs resmi
+21	Buka situs
+22	Buka
+23	Chat
+24	# · Panel riset
+25	# · Produk kami
+26	Pindai dan mulai.
+27	Alat DIY manajemen proyek & manajemen sampel
+28	Rencanakan proyek, kelola sampel, dan pantau fieldwork sendiri — ikuti Sampledge di semua kanal atau chat dengan dukungan di WhatsApp.
+29	Kunjungi sampledge.com
+30	Dukungan WhatsApp Sampledge
+31	# · Kontak langsung
+32	Bicara dengan kami.
+33	Atau temukan kami.
+34	Chat dengan tim Frequent Research
+35	Temukan kami & beri ulasan
+36	Buka di Google
+37	Semua panel kami
+38	Buka hub panel
+39	Mulai chat
+40	Setiap kode dibuat dari tautan resmi dan diperiksa dengan pemindai QR sebelum dipublikasikan. Satu nomor WhatsApp, +# # #, melayani semua panel dan Sampledge.
+41	Lompat ke merek
+42	Percakapan dan kabar singkat
+43	Pengalaman Anda dapat memperbaiki layanan kesehatan.
+44	Ubah opini Anda menjadi hadiah.
+45	Bagikan pendapat Anda. Dapatkan hadiah setiap kali.
+46	Tenaga kesehatan, pendamping pasien, dan pasien
+47	Konsumen dan profesional bisnis
+48	# · Frequent Research
+49	Dukungan WhatsApp
+50	Kunjungi

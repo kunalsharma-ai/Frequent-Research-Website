@@ -1,0 +1,114 @@
+"""Build 65 update 18: dotted world map for Industries & Case Studies.
+Input: world-atlas 2.0.2 (Natural Earth, public domain; npm tarball unpacked to $WA, default /tmp/claude-0/geo/package).
+Output: src/assets/images/in18/world-dots.webp (transparent, white dots) and src/data/Map18.jsx (IN18_MAP: ISO -> [x%, y%])."""
+import json, os, re, sys
+import numpy as np
+from PIL import Image, ImageDraw
+
+WA = os.environ.get("WA", "/tmp/claude-0/geo/package")
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+LAT_T, LAT_B = 80.0, -56.0
+
+def arcs_of(topo):
+    sc, tr = topo["transform"]["scale"], topo["transform"]["translate"]
+    out = []
+    for arc in topo["arcs"]:
+        x = y = 0; pts = []
+        for dx, dy in arc:
+            x += dx; y += dy
+            pts.append((x * sc[0] + tr[0], y * sc[1] + tr[1]))
+        out.append(pts)
+    return out
+
+def rings(geom, arcs):
+    def ring(ix):
+        pts = []
+        for a in ix:
+            seg = arcs[a] if a >= 0 else arcs[~a][::-1]
+            pts.extend(seg if not pts else seg[1:])
+        return np.array(pts)
+    polys = geom["arcs"] if geom["type"] == "MultiPolygon" else [geom["arcs"]] if geom["type"] == "Polygon" else []
+    return [[ring(r) for r in p] for p in polys]
+
+def inside(px, py, poly):
+    x, y = poly[:, 0], poly[:, 1]
+    x2, y2 = np.roll(x, -1), np.roll(y, -1)
+    res = np.zeros(px.shape, bool)
+    for i in range(len(x)):
+        c = ((y[i] > py) != (y2[i] > py)) & (px < (x2[i] - x[i]) * (py - y[i]) / (y2[i] - y[i] + 1e-12) + x[i])
+        res ^= c
+    return res
+
+def proj(lon, lat):
+    return (lon + 180) / 360 * 100, (LAT_T - lat) / (LAT_T - LAT_B) * 100
+
+# land dots
+land = json.load(open(os.path.join(WA, "land-110m.json")))
+A = arcs_of(land)
+step = 1.6
+lons = np.arange(-180 + step / 2, 180, step)
+lats = np.arange(LAT_T - step / 2, LAT_B, -step)
+LON, LAT = np.meshgrid(lons, lats)
+mask = np.zeros(LON.shape, bool)
+for g in land["objects"]["land"]["geometries"]:
+    for p in rings(g, A):
+        outer = p[0]
+        if outer[:, 1].max() < LAT_B or outer[:, 1].min() > LAT_T:
+            continue
+        bb = (LON >= outer[:, 0].min()) & (LON <= outer[:, 0].max()) & (LAT >= outer[:, 1].min()) & (LAT <= outer[:, 1].max())
+        if not bb.any():
+            continue
+        m = np.zeros(LON.shape, bool)
+        m[bb] = inside(LON[bb], LAT[bb], outer)
+        for h in p[1:]:
+            m[bb] &= ~inside(LON[bb], LAT[bb], h)
+        mask |= m
+W = 2400
+H = int(W * (LAT_T - LAT_B) / 360)
+img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+d = ImageDraw.Draw(img)
+r = W / len(lons) * 0.30
+for (iy, ix) in zip(*np.nonzero(mask)):
+    x, y = proj(LON[iy, ix], LAT[iy, ix])
+    cx, cy = x / 100 * W, y / 100 * H
+    d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=(255, 255, 255, 255))
+os.makedirs(os.path.join(ROOT, "src/assets/images/in18"), exist_ok=True)
+img.save(os.path.join(ROOT, "src/assets/images/in18/world-dots.webp"), "WEBP", quality=88)
+print("dots", int(mask.sum()), W, H)
+
+# country label points: centroid of the largest polygon
+cty = json.load(open(os.path.join(WA, "countries-50m.json")))
+CA = arcs_of(cty)
+pos = {}
+for g in cty["objects"]["countries"]["geometries"]:
+    best = None
+    for p in rings(g, CA):
+        o = p[0]
+        a = 0.5 * np.abs(np.dot(o[:, 0], np.roll(o[:, 1], 1)) - np.dot(o[:, 1], np.roll(o[:, 0], 1)))
+        if best is None or a > best[0]:
+            best = (a, o)
+    if best is not None:
+        pos[g["properties"]["name"]] = (float(best[1][:, 0].mean()), float(best[1][:, 1].mean()))
+reach = open(os.path.join(ROOT, "src/data/Reach18.jsx")).read()
+data = json.loads(re.search(r"const R18_DATA = (\{.*\});", reach).group(1))
+alias = {"United States": "United States of America", "Czech Republic": "Czechia", "Hong Kong": "Hong Kong", "United Arab Emirates": "United Arab Emirates", "South Korea": "South Korea", "Russia": "Russia", "Taiwan": "Taiwan", "Vietnam": "Vietnam"}
+fixed = {"SG": (103.82, 1.35), "HK": (114.17, 22.32), "US": (-98.5, 39.5), "FR": (2.4, 46.6), "NO": (9.0, 61.0), "CA": (-100.0, 56.0), "RU": (60.0, 58.0), "MY": (102.0, 4.0), "ID": (113.0, -1.5), "IN": (79.0, 22.0), "CN": (103.0, 35.0), "AU": (134.0, -25.0), "NZ": (172.5, -41.5), "JP": (138.5, 36.5), "GB": (-2.0, 53.5), "IT": (12.5, 42.8), "DK": (9.5, 56.0), "CL": (-71.0, -33.0), "MA": (-6.5, 32.0), "PH": (122.0, 12.5)}
+out = {}
+for _, cs in data["regions"]:
+    for name, iso, slug, hc in cs:
+        if iso in fixed:
+            lon, lat = fixed[iso]
+        else:
+            k = alias.get(name, name)
+            if k not in pos:
+                sys.exit("no position for " + name)
+            lon, lat = pos[k]
+        x, y = proj(lon, lat)
+        out[iso] = [round(x, 2), round(y, 2)]
+lon, lat = fixed["MA"]
+out["MA"] = [round(v, 2) for v in proj(lon, lat)]
+open(os.path.join(ROOT, "src/data/Map18.jsx"), "w").write(
+    "/* Build 65 update 18 — generated by tools/map18/make_map.py (Natural Earth via world-atlas 2.0.2, public domain).\n"
+    "   Country marker positions on src/assets/images/in18/world-dots.webp, in % of its width / height (lat 80..-56). */\n"
+    "const IN18_MAP = " + json.dumps(out, separators=(",", ":")) + ";\n")
+print("countries", len(out))
