@@ -341,6 +341,8 @@ function fixHead(h, r, seo) {
   let nh = head;
   // title (home) and description
   if (r === '/') nh = nh.replace(/<title>[^<]*<\/title>/, () => `<title>${escAttr(seo.HOME_TITLE)}</title>`);
+  // build 83.3: every other title at most 60 characters (same rule as the app, seoText.js fitTitle)
+  else nh = nh.replace(/<title>([^<]*)<\/title>/, (m, v) => `<title>${escAttr(seo.fitTitle(decode(v)))}</title>`);
   const fitAll = (name, attr) => {
     nh = nh.replace(new RegExp(`<meta ${attr}="${name}" content="([^"]*)"`), (m, v) => {
       const d = (name === 'description' && r && seo.DESC_BY_PATH[r]) || seo.fitDesc(decode(v));

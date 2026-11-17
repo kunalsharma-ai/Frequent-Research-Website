@@ -36,3 +36,40 @@ export function fitDesc(d, max = 160) {
   const w = d.slice(0, max - 1).replace(/\s+\S*$/, "").replace(/[,;:]$/, "");
   return w + "…";
 }
+
+// build 83.3 (SEO): page titles of at most 60 characters (Google shows about 60; SEOptimer asks for 50-60).
+// "Main | Section | Frequent Research" keeps, in this order of preference: main + brand, main + section, main.
+// A main part that is still too long keeps the part before its ":" subtitle, or else whole words that end before
+// a trailing "for / in / of …" phrase. The home title is chosen by hand (HOME_TITLE) and is already 60.
+const BRAND = "Frequent Research";
+const SMALL = /\s+(and|for|of|to|in|with|at|on|by|from|across|among|into|the|a|an|&)$/i;
+const tidy = (s) => {
+  let p;
+  do { p = s; s = s.replace(/[\s,;:&|·–—-]+$/, "").replace(SMALL, ""); } while (s !== p);
+  return s.trim();
+};
+function cutWords(s, max) {
+  let w = s.slice(0, max + 1);
+  if (w.length > max) w = w.replace(/\s+\S*$/, "");
+  w = tidy(w);
+  // end before the last "for / in / of …" phrase that the cut broke off, when enough is left
+  const m = w.match(/^(.*\S)\s+(for|in|of|with|at|on|across|among|from)\s+\S.*$/i);
+  if (m && m[1].length >= 28) w = tidy(m[1]);
+  return w;
+}
+export function fitTitle(t, max = 60) {
+  t = String(t || "").replace(/\s+/g, " ").trim();
+  if (t.length <= max) return t;
+  const seg = t.split(/\s+[|·]\s+|\s+[–—]\s+(?=Frequent Research$)/).map((x) => x.trim()).filter(Boolean);
+  const branded = seg.length > 1 && seg[seg.length - 1] === BRAND;
+  if (branded) seg.pop();
+  const main = seg[0], rest = seg.slice(1);
+  const tries = [];
+  if (branded) tries.push(main + " | " + BRAND);
+  for (let k = rest.length; k > 0; k--) tries.push([main, ...rest.slice(0, k)].join(" | "));
+  tries.push(main);
+  for (const x of tries) if (x.length <= max) return x;
+  const head = main.split(/\s*:\s+|\s+[–—]\s+/)[0];
+  if (head !== main && head.length >= 20 && head.length <= max) return branded && (head + " | " + BRAND).length <= max ? head + " | " + BRAND : head;
+  return cutWords(main, max);
+}
