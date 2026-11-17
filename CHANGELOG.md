@@ -1,5 +1,12 @@
 # Frequent Research website: change log
 
+## 2026-11-17 · Build 83.3: Google Business Profile, 60-character titles, Meta Pixel
+
+- LocalBusiness / Organization schema link the Google Business Profile "Frequent Research Fieldwork Solutions Pvt. Ltd".
+- Every page title is at most 60 characters (`src/app/seoText.js` fitTitle, build and app).
+- Meta Pixel 1070404625443177 on every page, with a PageView on each page change inside the site
+  (`scripts/meta-pixel.cjs`, a step of `npm run prerender`). `public/llms.txt` regenerated with the new titles.
+
 ## 2026-11-17 · Build 83.2: deploy the SEO fixes (SEOptimer audit of 17 Nov still C+)
 
 - The 17 Nov audit is identical to the 14 Nov one: the live site still serves a ready-built website from before the
