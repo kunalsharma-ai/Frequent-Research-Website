@@ -40,6 +40,8 @@ FROM site-${FRONTEND_MODE} AS site
 # ---- the web server ---------------------------------------------------------------------------------------------
 FROM nginx:1.29-alpine
 ENV BACKEND_URL=http://backend:8787
+# build 83.1: the site's own http -> https / www redirect is off unless this is on (see nginx/default.conf.template)
+ENV FR_FORCE_HTTPS=off
 COPY nginx/default.conf.template /etc/nginx/templates/default.conf.template
 COPY nginx/security-headers.conf /etc/nginx/snippets/security-headers.conf
 COPY --from=site /app/dist /usr/share/nginx/html
