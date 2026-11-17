@@ -1,6 +1,6 @@
 import * as ee from 'react';
 import { HeroH1 } from './shared/HeroH1.jsx';
-import { HOME_TITLE, DESC_BY_PATH, fitDesc } from './seoText.js';
+import { HOME_TITLE, DESC_BY_PATH, fitDesc, fitTitle } from './seoText.js';
 import { Link, Navigate, Route, Routes, useLocation } from 'react-router-dom';
 import { HomePage } from './home/HomePage.jsx';
 import { SiteHeader } from './SiteHeader.jsx';
@@ -50,6 +50,16 @@ const CQ5_Page = fullPage("CQ5_Page");
 
 function WhatsAppButton() {
   return <FRW_WhatsApp />;
+}
+// build 83.3 (SEO): whichever part of the site sets document.title, a title over 60 characters is shortened with
+// the same rule as the built pages (seoText.js fitTitle), so visitors and search engines see the same title.
+if (typeof document !== "undefined" && typeof MutationObserver !== "undefined") {
+  const fit = () => {
+    const t = document.title, f = fitTitle(t);
+    if (f !== t) document.title = f;
+  };
+  fit();
+  new MutationObserver(fit).observe(document.head, { childList: true, subtree: true, characterData: true });
 }
 // Sets the page title ("<title> | Frequent Research") and, when given, the meta description.
 // build 82.7 (SEO): the home title is 60 characters and a description is at most 160 (app/seoText.js)

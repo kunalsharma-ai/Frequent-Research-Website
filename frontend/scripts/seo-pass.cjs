@@ -43,6 +43,11 @@ const SOCIAL = [
 ];
 const PHONE = '+91-81782-00573';
 const ADDRESS = { '@type': 'PostalAddress', streetAddress: 'Mangolpur Kalan', addressLocality: 'New Delhi', addressRegion: 'Delhi', postalCode: '110085', addressCountry: 'IN' };
+// build 83.3: the Google Business Profile (Kunal, 17 Nov 2026), so Google ties the profile to this website.
+// The name is the profile's own; address and phone above are the site's contact details and must match the profile.
+const GBP_NAME = 'Frequent Research Fieldwork Solutions Pvt. Ltd';
+const GBP_URL = 'https://share.google/ppiacRxwOHLz5RZ8R';
+const GBP_MAP = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(GBP_NAME + ', Mangolpur Kalan, New Delhi 110085');
 const OG_IMAGE = ORIGIN + '/og/frequent-research-og.jpg';
 const LOGO = ORIGIN + '/frequent-research-logo.png';
 const ORG_ID = ORIGIN + '/#organization';
@@ -51,22 +56,23 @@ const ORG_GRAPH = {
   '@graph': [
     {
       '@type': 'Organization', '@id': ORG_ID, name: 'Frequent Research', legalName: 'Fieldwork Solutions Pvt. Ltd.',
-      alternateName: 'Frequent Research Fieldwork Solutions Private Limited', url: ORIGIN + '/',
+      alternateName: [GBP_NAME, 'Frequent Research Fieldwork Solutions Private Limited'], url: ORIGIN + '/',
       logo: { '@type': 'ImageObject', url: LOGO, width: 600, height: 200 }, image: OG_IMAGE,
       slogan: 'Insights • Analytics • Growth. We serve the quality you expect.',
       description: 'Market research, digital marketing, IT & development and accounts & finance under one roof.',
       telephone: PHONE, address: ADDRESS,
       contactPoint: [{ '@type': 'ContactPoint', telephone: PHONE, contactType: 'customer service', areaServed: 'Worldwide', availableLanguage: ['English', 'Hindi'] }],
-      sameAs: SOCIAL.map((s) => s[1]),
+      sameAs: [...SOCIAL.map((s) => s[1]), GBP_URL],
     },
     { '@type': 'WebSite', '@id': ORIGIN + '/#website', url: ORIGIN + '/', name: 'Frequent Research', inLanguage: 'en', publisher: { '@id': ORG_ID } },
   ],
 };
 const LOCAL = {
-  '@context': 'https://schema.org', '@type': 'ProfessionalService', '@id': ORIGIN + '/#localbusiness', name: 'Frequent Research',
+  '@context': 'https://schema.org', '@type': 'ProfessionalService', '@id': ORIGIN + '/#localbusiness', name: GBP_NAME,
+  alternateName: 'Frequent Research', legalName: 'Fieldwork Solutions Pvt. Ltd.',
   description: 'Market research, digital marketing, IT & development and accounts & finance company in New Delhi, India.',
   url: ORIGIN + '/', image: OG_IMAGE, logo: LOGO, telephone: PHONE, address: ADDRESS, areaServed: 'Worldwide',
-  parentOrganization: { '@id': ORG_ID }, sameAs: SOCIAL.map((s) => s[1]),
+  hasMap: GBP_MAP, parentOrganization: { '@id': ORG_ID }, sameAs: [GBP_URL, ...SOCIAL.map((s) => s[1])],
 };
 const LOCAL_PAGES = new Set(['/', '/about-us', '/lets-talk', '/connect', '/our-reach']);
 // search-engine robots get the full page at once (the first-screen copy is for people; vite/boot.js has the same test)
@@ -335,6 +341,8 @@ function fixHead(h, r, seo) {
   let nh = head;
   // title (home) and description
   if (r === '/') nh = nh.replace(/<title>[^<]*<\/title>/, () => `<title>${escAttr(seo.HOME_TITLE)}</title>`);
+  // build 83.3: every other title at most 60 characters (same rule as the app, seoText.js fitTitle)
+  else nh = nh.replace(/<title>([^<]*)<\/title>/, (m, v) => `<title>${escAttr(seo.fitTitle(decode(v)))}</title>`);
   const fitAll = (name, attr) => {
     nh = nh.replace(new RegExp(`<meta ${attr}="${name}" content="([^"]*)"`), (m, v) => {
       const d = (name === 'description' && r && seo.DESC_BY_PATH[r]) || seo.fitDesc(decode(v));
