@@ -1,5 +1,14 @@
 # Frequent Research website: change log
 
+## 2026-11-17 · Build 83.2: deploy the SEO fixes (SEOptimer audit of 17 Nov still C+)
+
+- The 17 Nov audit is identical to the 14 Nov one: the live site still serves a ready-built website from before the
+  82.7 SEO pass, because `docker compose build frontend` (ready mode) copies the server's `frontend/dist/`, which is
+  not in git. A fresh build of main passes every on-page item (title 60, description 148, one H1, ~2,330 words,
+  all pictures with alt and size, no inline styles, social links, LocalBusiness schema).
+- `frontend/Dockerfile`: ready mode refuses a `dist/` without the 82.7 SEO mark (override `ALLOW_OLD_DIST=1`).
+- `docs/go-live/23-SEO-AUDIT-17-NOV.md`: cause, deploy steps, items outside the website files.
+
 ## 2026-11-14 · Build 82.7: SEO for an A+ SEOptimer audit
 
 Kunal (14 Nov): the SEOptimer audit of www.frequentresearch.com gave C+ with 23 recommendations; fix every SEO item.
