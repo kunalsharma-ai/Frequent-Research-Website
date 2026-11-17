@@ -1,0 +1,24 @@
+/* Build 83: gallery photos aligned (Kunal, 16 Nov: "Gallery photos alignment not good at website").
+   Before: a fixed 4-column grid with fixed row heights cropped every photo to the same box from its centre (heads cut
+   off in portraits), "dense" filling moved photos out of order and left gaps, and a short last row sat on the left.
+   Now: justified rows. Every card keeps its photo's own shape (--ar, measured when the photo loads, clamped to
+   0.62–2.2), each row fills the full width with one even height, the last row is not stretched, one or two photos
+   sit centred, and what stays in view of a cropped photo follows the admin's focus point (top / face / centre …).
+   "Show whole photo" (fit: contain) puts the full picture on a soft blurred copy of itself. Loaded after gallery25.css. */
+.gx83-grid{display:flex!important;flex-wrap:wrap;align-items:flex-start;gap:clamp(10px,1.3vw,16px);grid-auto-rows:auto!important}
+.gx83-grid::after{content:"";flex:999 1 0;min-width:0}
+.gx83-grid.is-few{justify-content:center}
+.gx83-grid.is-few::after{display:none}
+.gx83-grid .gx83-card{--row:clamp(170px,19vw,260px);flex:calc(var(--ar) * 100) 1 calc(var(--ar) * var(--row));aspect-ratio:var(--ar);min-width:0;max-width:100%;grid-row:auto!important;grid-column:auto!important}
+.gx83-grid.is-few .gx83-card{flex:0 1 calc(var(--ar) * 320px)}
+.gx83-grid .gx83-card.is-big{--row:clamp(220px,26vw,360px)}
+.gx83-grid .gx83-card .gx25-card__btn{height:100%}
+.gx83-card .gx25-card__media img,.gx83-card .gx25-card__media video{object-fit:cover}
+.gx83-card.is-contain .gx25-card__media{background:var(--bgimg) center/cover no-repeat}
+.gx83-card.is-contain .gx25-card__media::before{content:"";position:absolute;inset:0;-webkit-backdrop-filter:blur(18px) brightness(.8);backdrop-filter:blur(18px) brightness(.8)}
+.gx83-card.is-contain .gx25-card__media img{position:relative;object-fit:contain}
+@media (max-width:760px){
+  .gx83-grid .gx83-card{--row:clamp(110px,30vw,170px)}
+  .gx83-grid{gap:8px}
+  .gx83-grid.is-few .gx83-card{flex:1 1 100%}
+}

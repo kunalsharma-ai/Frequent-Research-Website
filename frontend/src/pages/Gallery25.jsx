@@ -10,6 +10,7 @@
    youtu.be, shorts, live), Vimeo, and direct video files (mp4, webm). Videos play inside the page.
    An empty section shows a designed "coming soon" frame, never a broken box. Loops animate transform/opacity only. */
 import * as ee from 'react';
+import '../styles/gallery83.css'; // build 83: justified photo grid
 import * as ci from 'react-dom';
 import { HmLink } from '../app/shared/HomeShared.jsx';
 import { usePageMeta } from '../app/SiteApp.jsx';
@@ -236,7 +237,11 @@ function GX25_Art({ k, big }) {
 }
 
 /* ---------- small pieces ---------- */
-function GX25_Thumb({ it, eager }) {
+/* build 83: each photo keeps its own shape in a justified grid (styles/gallery83.css); onRatio reports the photo's
+   width / height once it has loaded, and the admin's focus point (it.focus) decides what stays in view */
+const gx83Focus = (f) => ({ top: "50% 12%", bottom: "50% 88%", left: "15% 50%", right: "85% 50%", center: "50% 50%", face: "50% 28%" }[String(f || "").toLowerCase()] || (/^\d{1,3}% \d{1,3}%$/.test(String(f || "")) ? f : "50% 32%"));
+const gx83Clamp = (r) => Math.max(0.62, Math.min(2.2, r || 4 / 3));
+function GX25_Thumb({ it, eager, onRatio }) {
   const [bad, setBad] = ee.useState(false);
   const src = it.media.thumb || it.media.src;
   if (!src || bad)
@@ -245,18 +250,21 @@ function GX25_Thumb({ it, eager }) {
         <K5_I n={it.media.video ? "play" : "spark"} s={34} />
       </span>
     );
-  if (it.media.kind === "file" && !it.media.thumb) return <video className="gx25-vthumb" src={it.media.src + "#t=0.5"} muted playsInline preload="metadata" aria-hidden="true" tabIndex={-1} />;
-  return <img src={src} alt={it.title || it.caption || ""} loading={eager ? "eager" : "lazy"} decoding="async" referrerPolicy="no-referrer" onError={() => setBad(true)} />;
+  if (it.media.kind === "file" && !it.media.thumb) return <video className="gx25-vthumb" src={it.media.src + "#t=0.5"} muted playsInline preload="metadata" aria-hidden="true" tabIndex={-1} style={{ objectPosition: gx83Focus(it.focus) }} onLoadedMetadata={(e) => onRatio && !it.media.video && e.currentTarget.videoWidth && onRatio(e.currentTarget.videoWidth / e.currentTarget.videoHeight)} />;
+  return <img src={src} alt={it.title || it.caption || ""} loading={eager ? "eager" : "lazy"} decoding="async" referrerPolicy="no-referrer" onError={() => setBad(true)} style={{ objectPosition: gx83Focus(it.focus) }} onLoad={(e) => onRatio && !it.media.video && e.currentTarget.naturalWidth && onRatio(e.currentTarget.naturalWidth / e.currentTarget.naturalHeight)} />;
 }
 
 function GX25_Card({ s, it, i, onOpen }) {
   const big = i === 0 && it.featured;
   const label = (it.media.video ? "Play video: " : "Open photo: ") + (it.title || it.caption || s.t);
+  /* build 83: the card takes the photo's own shape (videos 16:9, Shorts 9:16) */
+  const [ar, setAr] = ee.useState(() => (+it.ratio > 0 ? +it.ratio : it.media.video ? (it.media.vertical ? 9 / 16 : 16 / 9) : 4 / 3));
+  const fit = it.fit === "contain";
   return (
-    <li className={"gx25-card" + (big ? " is-big" : "") + (it.media.vertical ? " is-tall" : "")} style={{ "--i": i % GX25_PAGE }}>
+    <li className={"gx25-card gx83-card" + (big ? " is-big" : "") + (it.media.vertical ? " is-tall" : "") + (fit ? " is-contain" : "")} style={{ "--i": i % GX25_PAGE, "--ar": gx83Clamp(ar), "--bgimg": fit && it.media.thumb ? `url("${String(it.media.thumb).replace(/"/g, "")}")` : undefined }}>
       <button type="button" className="gx25-card__btn" onClick={() => (onOpen(i), k5Sfx("tap"))} aria-label={label}>
         <span className="gx25-card__media">
-          <GX25_Thumb it={it} eager={i < 3} />
+          <GX25_Thumb it={it} eager={i < 3} onRatio={(r) => !(+it.ratio > 0) && Math.abs(r - ar) > 0.02 && setAr(r)} />
         </span>
         {it.media.video ? (
           <span className="gx25-card__play" aria-hidden="true">
@@ -462,7 +470,7 @@ function GX25_Section({ s, list, idx }) {
                 ))}
               </div>
             ) : null}
-            <ul className="gx25-grid" role="list">
+            <ul className={"gx25-grid gx83-grid" + (vis.length < 3 ? " is-few" : "")} role="list">
               {vis.map((it, i) => (
                 <GX25_Card key={it.id} s={s} it={it} i={i} onOpen={setOpen} />
               ))}
