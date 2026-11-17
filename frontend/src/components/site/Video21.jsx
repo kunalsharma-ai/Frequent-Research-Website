@@ -9,6 +9,9 @@
 import * as ee from 'react';
 import { useLocation } from 'react-router-dom';
 import { PV_Theatre, pvForPath } from './PageVideo69.jsx';
+/* build 83: every page opens its own Studio 83 design (PageVideo83.jsx, loaded on the first press) */
+let pv83Mod = null;
+const pv83Load = () => (pv83Mod ? Promise.resolve(pv83Mod) : import('./PageVideo83.jsx').then((m) => (pv83Mod = m)));
 
 function VD21_Logo({ s = 26 }) {
   return (
@@ -23,9 +26,18 @@ function VD21_Button() {
   const loc = useLocation();
   const [open, setOpen] = ee.useState(null);
   const show = () => {
-    const l = pvForPath(loc.pathname);
-    if (l.length) setOpen(l);
-    else window.open("https://www.youtube.com/@frequentresearch", "_blank", "noopener");
+    pv83Load()
+      .then((m) => {
+        const l = m.pv83ForPath(loc.pathname);
+        if (l.length) setOpen({ list: l, Theatre: m.PV83_Theatre });
+        else throw new Error("none");
+      })
+      .catch(() => {
+        /* build 70 behaviour if the new window cannot load */
+        const l = pvForPath(loc.pathname);
+        if (l.length) setOpen({ list: l, Theatre: PV_Theatre });
+        else window.open("https://www.youtube.com/@frequentresearch", "_blank", "noopener");
+      });
   };
   ee.useEffect(() => setOpen(null), [loc.pathname]);
   ee.useEffect(() => {
@@ -55,7 +67,7 @@ function VD21_Button() {
           Watch this page's video
         </span>
       </button>
-      {open ? <PV_Theatre list={open} onClose={() => setOpen(null)} /> : null}
+      {open ? <open.Theatre list={open.list} onClose={() => setOpen(null)} /> : null}
     </>
   );
 }

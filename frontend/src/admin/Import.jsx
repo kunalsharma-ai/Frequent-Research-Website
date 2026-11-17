@@ -36,7 +36,9 @@ function parseCsv(text) {
 const xml = (s) => new DOMParser().parseFromString(s, "application/xml");
 function parseXlsx(buf) {
   const z = unzipSync(new Uint8Array(buf));
-  const shared = z["xl/sharedStrings.xml"] ? [...xml(strFromU8(z["xl/sharedStrings.xml"])).getElementsByTagName("si")].map((si) => [...si.getElementsByTagName("t")].map((t) => t.textContent).join("")) : [];
+  // build 83: phonetic guides (<rPh>) are not part of the cell's text, and Excel's _xHHHH_ escapes are decoded
+  const unx = (s) => String(s).replace(/_x([0-9a-f]{4})_/gi, (m, h) => { const c = parseInt(h, 16); return c === 13 ? "" : String.fromCharCode(c); });
+  const shared = z["xl/sharedStrings.xml"] ? [...xml(strFromU8(z["xl/sharedStrings.xml"])).getElementsByTagName("si")].map((si) => unx([...si.getElementsByTagName("t")].filter((t) => !(t.parentNode && t.parentNode.nodeName === "rPh")).map((t) => t.textContent).join(""))) : [];
   const sheetName = Object.keys(z).filter((k) => /^xl\/worksheets\/sheet\d+\.xml$/.test(k)).sort((a, b) => parseInt(a.match(/\d+/)) - parseInt(b.match(/\d+/)))[0];
   if (!sheetName) throw new Error("This Excel file has no sheet.");
   const col = (ref) => { let n = 0; for (const ch of ref.replace(/\d+/g, "")) n = n * 26 + ch.charCodeAt(0) - 64; return n - 1; };
@@ -45,7 +47,7 @@ function parseXlsx(buf) {
     const row = [];
     for (const c of r.getElementsByTagName("c")) {
       const t = c.getAttribute("t"), v = c.getElementsByTagName("v")[0], is = c.getElementsByTagName("is")[0];
-      row[col(c.getAttribute("r") || "A")] = t === "s" ? shared[+(v && v.textContent)] || "" : t === "inlineStr" ? (is ? is.textContent : "") : v ? v.textContent : "";
+      row[col(c.getAttribute("r") || "A")] = t === "s" ? shared[+(v && v.textContent)] || "" : t === "inlineStr" ? (is ? unx(is.textContent) : "") : v ? v.textContent : "";
     }
     out.push(Array.from(row, (x) => (x == null ? "" : x)));
   }
@@ -140,6 +142,7 @@ function ImportBox({ onClose, folder = "misc" }) {
   const t = target;
   const [files, setFiles] = ee.useState([]), [read, setRead] = ee.useState(null), [map, setMap] = ee.useState({}), [mode, setMode] = ee.useState("add");
   const [msg, setMsg] = ee.useState(null), [busy, setBusy] = ee.useState(false), [done, setDone] = ee.useState([]), [over, setOver] = ee.useState(false);
+  const [opt, setOpt] = ee.useState({}); // build 83: a section's own import choices (t.options), e.g. the service of a testimonials file
   const fields = t && t.sample ? Object.keys(t.sample).filter((k) => !/^_/.test(k)) : t && t.fields ? t.fields : [];
   const pick = async (list) => {
     list = [...list]; if (!list.length) return;
@@ -148,7 +151,7 @@ function ImportBox({ onClose, folder = "misc" }) {
       const r = await admReadFile(list[0]);
       if (list.length > 1 || r.kind === "media") { setRead({ kind: "media", from: list.length > 1 ? list.length + " files" : r.from }); return; }
       setRead(r);
-      if (r.kind === "table") setMap(Object.fromEntries(fields.map((f) => [f, guess(f, r.cols)])));
+      if (r.kind === "table") setMap(Object.fromEntries(fields.map((f) => [f, ((t && t.guess) || guess)(f, r.cols)]))); // build 83: a section can match columns its own way
     } catch (e) { setMsg({ err: "This file cannot be read: " + e.message }); }
   };
   const items = !read ? [] : read.kind === "table" ? read.items.map((row) => {
@@ -160,7 +163,7 @@ function ImportBox({ onClose, folder = "misc" }) {
   const apply = async () => {
     setBusy(true); setMsg(null);
     try {
-      const r = await t.apply(items, mode, read.kind);
+      const r = await t.apply(items, mode, read.kind, opt);
       setMsg({ ok: (r && r.message) || `${items.length} item${items.length === 1 ? "" : "s"} added. Check them, then press Save.` }); setTimeout(onClose, 1400);
     } catch (e) { setMsg({ err: e.message }); } finally { setBusy(false); }
   };
@@ -187,6 +190,11 @@ function ImportBox({ onClose, folder = "misc" }) {
           <div className="adm784-imp__map">
             <h3>Match the columns</h3>
             <div className="adm784-imp__grid">{fields.map((f) => <label key={f}><span>{f === "id" || f === "slug" ? f + " (made by itself if empty)" : f}</span><select className="adm-in" value={map[f] || ""} onChange={(e) => setMap({ ...map, [f]: e.target.value })}><option value="">(leave empty)</option>{read.cols.map((c) => <option key={c} value={c}>{c}</option>)}</select></label>)}</div>
+          </div>
+        )}
+        {read && read.kind === "table" && t && Array.isArray(t.options) && t.options.length > 0 && (
+          <div className="adm784-imp__map">
+            <div className="adm784-imp__grid">{t.options.map((o) => <label key={o.key}><span>{o.label}</span><select className="adm-in" value={opt[o.key] || ""} onChange={(e) => setOpt({ ...opt, [o.key]: e.target.value })}>{o.choices.map(([v, l]) => <option key={v} value={v}>{l}</option>)}</select></label>)}</div>
           </div>
         )}
         {read && read.kind !== "media" && (

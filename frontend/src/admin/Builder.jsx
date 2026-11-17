@@ -29,7 +29,8 @@ function useSitePages() {
       import("../app/pages/PrivacyPage.jsx").catch(() => ({})),
       admGet("custom-pages").catch(() => []),
       admLoadSiteIndex(),
-    ]).then(([site, prod, ind, legal, custom, index]) => {
+      import("../data/sitePages83.js").catch(() => ({})),
+    ]).then(([site, prod, ind, legal, custom, index, sp83]) => {
       if (dead) return;
       const g = [];
       g.push(["Header & footer", [["*", "Header and footer (every page)"]]]);
@@ -60,6 +61,18 @@ function useSitePages() {
         }
         if (other.length) g.push(["Other pages", other.sort((a, b) => a[0].localeCompare(b[0]))]);
       }
+      // build 83: every page of the site from data/sitePages83.js (panel countries, blog posts, case-study industries …),
+      // also when the build's page list is not there
+      try {
+        const known = new Set(g.flatMap(([, l]) => l.map((x) => x[0])));
+        for (const p of sp83.sp83Pages ? sp83.sp83Pages() : []) {
+          if (known.has(p.path)) continue;
+          known.add(p.path);
+          let grp = g.find((x) => x[0] === p.group);
+          if (!grp) { grp = [p.group, []]; g.push(grp); }
+          grp[1].push([p.path, p.name]);
+        }
+      } catch (e) {}
       const c = Array.isArray(custom) ? custom.filter(isObj) : [];
       if (c.length) g.push(["New pages (made here)", c.map((x) => [x.path, x.title || x.path])]);
       setPages(g);
@@ -351,7 +364,8 @@ const textChanged = (maps, path, t) => { const pg = maps.texts[path]; return (is
 
 function Pages({ go }) {
   const groups = useSitePages();
-  const [sel, setSel] = ee.useState(null);
+  // build 83: "All website pages" opens a page here with ?page=/address
+  const [sel, setSel] = ee.useState(() => { try { const p = new URLSearchParams(location.search).get("page"); return p ? [p, p] : null; } catch (e) { return null; } });
   const [q, setQ] = ee.useState("");
   if (!groups) return <section className="adm-sec"><h1>Pages & sections</h1><p className="adm-muted">Loading…</p></section>;
   return (
