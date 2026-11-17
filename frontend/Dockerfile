@@ -17,11 +17,19 @@ ARG FRONTEND_MODE=ready
 # ---- ready: copy the ready-built website ------------------------------------------------------------------------
 FROM alpine:3.22 AS site-ready
 WORKDIR /app
+# build 83.2: refuse a dist/ made before the 82.7 SEO pass (see the check below); 1 = deploy it anyway
+ARG ALLOW_OLD_DIST=0
 COPY . /src
 RUN if [ ! -f /src/dist/index.html ]; then \
       echo "frontend/dist/ is missing: this folder has no ready-built website."; \
       echo "Use the go-live package (frequent-research-GO-LIVE-*.zip) or build from source: FRONTEND_MODE=build docker compose build frontend"; \
       exit 1; fi \
+ && if ! grep -q '<!--fr-seo-82.7-->' /src/dist/index.html; then \
+      echo "frontend/dist/ is an OLD website build: it was made before the build 82.7 SEO pass (no <!--fr-seo-82.7--> mark in dist/index.html)."; \
+      echo "dist/ is not in git, so 'git pull' never updates it, and deploying it brings back the old SEOptimer results (68-character title, 3 H1s, 173 words, 55 pictures without alt)."; \
+      echo "Replace frontend/dist/ with the current ready-built website (docs/go-live/23-SEO-AUDIT-17-NOV.md), or build from source: FRONTEND_MODE=build docker compose build frontend"; \
+      echo "To deploy this old build anyway: docker compose build --build-arg ALLOW_OLD_DIST=1 frontend"; \
+      if [ "$ALLOW_OLD_DIST" != "1" ]; then exit 1; fi; fi \
  && mv /src/dist /app/dist && rm -rf /src && echo "using the ready-built website: $(find /app/dist -name index.html | wc -l) pages"
 
 # ---- build: build the website from source -----------------------------------------------------------------------
