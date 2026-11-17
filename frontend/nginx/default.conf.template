@@ -32,6 +32,12 @@ server {
   set $fr_https "";
   if ($http_x_forwarded_proto = "http") { set $fr_https "go"; }
   if ($host = "frequentresearch.com") { set $fr_https "go"; }
+  # build 83.1: this redirect is OFF unless FR_FORCE_HTTPS=on. When the proxy in front ends HTTPS but tells the site
+  # "X-Forwarded-Proto: http" (or sends the host without www), the site sent every page to its own address again, in an
+  # endless 301 loop (Kunal, 17 Nov). The proxy in front does the http -> https and www redirect (docs/go-live/21-SEO.md);
+  # set FR_FORCE_HTTPS=on only once the proxy sends "X-Forwarded-Proto: https" and the www host.
+  set $fr_force_https "${FR_FORCE_HTTPS}";
+  if ($fr_force_https != "on") { set $fr_https ""; }
   if ($fr_https = "go") { return 301 https://www.frequentresearch.com$request_uri; }
 
   # hidden files and backups are never served
