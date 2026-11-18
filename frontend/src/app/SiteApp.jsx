@@ -1,6 +1,6 @@
 import * as ee from 'react';
 import { HeroH1 } from './shared/HeroH1.jsx';
-import { HOME_TITLE, DESC_BY_PATH, fitDesc, fitTitle } from './seoText.js';
+import { HOME_TITLE, DESC_BY_PATH, fitDesc, fitTitle, fillDesc } from './seoText.js';
 import { Link, Navigate, Route, Routes, useLocation } from 'react-router-dom';
 import { HomePage } from './home/HomePage.jsx';
 import { SiteHeader } from './SiteHeader.jsx';
@@ -54,19 +54,24 @@ function WhatsAppButton() {
 // build 83.3 (SEO): whichever part of the site sets document.title, a title over 60 characters is shortened with
 // the same rule as the built pages (seoText.js fitTitle), so visitors and search engines see the same title.
 if (typeof document !== "undefined" && typeof MutationObserver !== "undefined") {
+  // build 83.4: titles of 50-60 characters where possible, descriptions of 120-160 (seoText.js, same as the build)
   const fit = () => {
-    const t = document.title, f = fitTitle(t);
+    const path = location.pathname;
+    const t = document.title, f = path === "/" ? t : fitTitle(t, 60, path);
     if (f !== t) document.title = f;
+    const m = document.querySelector('meta[name="description"]');
+    const c = m && m.getAttribute("content"), g = c && fillDesc(fitDesc(c), path);
+    if (m && g && g !== c) m.setAttribute("content", g);
   };
   fit();
-  new MutationObserver(fit).observe(document.head, { childList: true, subtree: true, characterData: true });
+  new MutationObserver(fit).observe(document.head, { childList: true, subtree: true, characterData: true, attributes: true, attributeFilter: ["content"] });
 }
 // Sets the page title ("<title> | Frequent Research") and, when given, the meta description.
 // build 82.7 (SEO): the home title is 60 characters and a description is at most 160 (app/seoText.js)
 function usePageMeta(title, description) {
   ee.useEffect(() => {
     document.title = title ? `${title} | Frequent Research` : HOME_TITLE;
-    const d = DESC_BY_PATH[location.pathname.replace(/\/+$/, "") || "/"] || (description && fitDesc(description));
+    const d = DESC_BY_PATH[location.pathname.replace(/\/+$/, "") || "/"] || (description && fillDesc(fitDesc(description), location.pathname));
     if (d) document.querySelector('meta[name="description"]')?.setAttribute("content", d);
   }, [title, description]);
 }
