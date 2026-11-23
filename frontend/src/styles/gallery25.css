@@ -152,8 +152,9 @@ html[data-theme="dark"] body .gx25{--gx-ink:#EEF1FF;--gx-sub:#B4BCDB;--gx-bg:#07
 .gx25-lb__nav--prev .k5-i{transform:rotate(180deg)}
 .gx25-lb__stage{position:relative;display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:10px;min-height:0}
 .gx25-lb__fig{display:grid;grid-template-rows:minmax(0,1fr) auto;justify-items:center;gap:10px;height:100%;min-height:0;margin:0;animation:gx25Pop .45s cubic-bezier(.2,.8,.2,1) both}
-.gx25-lb__media{display:grid;place-items:center;width:100%;height:100%;min-height:0}
-.gx25-lb__media img{max-width:100%;max-height:100%;object-fit:contain;border-radius:14px}
+.gx25-lb__media{display:flex;align-items:center;justify-content:center;width:100%;height:100%;min-height:0;min-width:0;overflow:hidden}
+/* build 83.5: a photo is never taller than the screen (100vh) nor its frame, keeps its shape and sits in the middle both ways */
+.gx25-lb__media img{display:block;flex:none;width:auto;height:auto;max-width:100%;max-height:min(100%,100vh);margin:auto;object-fit:contain;object-position:center;border-radius:14px}
 .gx25-lb__media iframe,.gx25-lb__fig.is-video .gx25-lb__media video{display:block;width:min(100%,calc((94vh - 200px) * 16 / 9));aspect-ratio:16/9;height:auto;max-height:100%;border:0;border-radius:14px;background:#000}
 .gx25-lb__fig.is-vert .gx25-lb__media iframe,.gx25-lb__fig.is-video.is-vert .gx25-lb__media video{width:auto;height:min(calc(94vh - 200px),calc((100vw - 40px) * 16 / 9));max-width:100%;aspect-ratio:9/16}
 .gx25-lb__fig figcaption{display:grid;gap:3px;max-width:70ch;text-align:center;font:500 .92rem/1.45 Inter,sans-serif;color:#C9D0EE}
