@@ -84,6 +84,28 @@ unchanged; the celebration banner still stays 10 seconds.
   screen; reduce-motion respected; main script +0.3 KB. Left out of the search-engine copy (`prerender.cjs`).
 - Docs: `docs/go-live/22-WATCH-THIS-PAGE-VIDEO.md`. GO-LIVE package: the 82.7 finished website with the new
   scripts and data (first-screen copies and search-engine pages are unchanged, so they were not rebuilt).
+## Merged from the GitHub main branch (17–18 Nov, numbered there as builds 83 to 83.3)
+
+These came from a separate line of work on GitHub and are merged into this release. Two overlaps were joined:
+the Meta Pixel is added once (the build 82.9 loader in `index.html`, same Pixel ID), so `scripts/meta-pixel.cjs` is no
+longer a step of `npm run prerender` (running both would count every page view twice); and the red YouTube button opens
+the Studio 83 window with the same video as the bottom "Watch this page" section.
+
+### 2026-11-17 · GitHub build 83.3: Google Business Profile, 60-character titles, Meta Pixel
+
+- LocalBusiness / Organization schema link the Google Business Profile "Frequent Research Fieldwork Solutions Pvt. Ltd".
+- Every page title is at most 60 characters (`src/app/seoText.js` fitTitle, build and app).
+- Meta Pixel 1070404625443177 on every page, with a PageView on each page change inside the site
+  (`scripts/meta-pixel.cjs`, a step of `npm run prerender`). `public/llms.txt` regenerated with the new titles.
+
+### 2026-11-17 · GitHub build 83.2: deploy the SEO fixes (SEOptimer audit of 17 Nov still C+)
+
+- The 17 Nov audit is identical to the 14 Nov one: the live site still serves a ready-built website from before the
+  82.7 SEO pass, because `docker compose build frontend` (ready mode) copies the server's `frontend/dist/`, which is
+  not in git. A fresh build of main passes every on-page item (title 60, description 148, one H1, ~2,330 words,
+  all pictures with alt and size, no inline styles, social links, LocalBusiness schema).
+- `frontend/Dockerfile`: ready mode refuses a `dist/` without the 82.7 SEO mark (override `ALLOW_OLD_DIST=1`).
+- `docs/go-live/23-SEO-AUDIT-17-NOV.md`: cause, deploy steps, items outside the website files.
 
 ## 2026-11-14 · Build 82.7: SEO for an A+ SEOptimer audit
 

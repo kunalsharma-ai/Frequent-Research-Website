@@ -1,0 +1,32 @@
+/* Build 83: super admin additions (gallery tools, page-video studio, all pages directory). */
+/* build 83: gallery photo tools (admin/Gallery83.jsx) */
+.adm83-gl{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:14px;align-items:start;margin:0 0 12px}
+.adm83-gl__pv{display:flex;gap:8px;align-items:flex-start}
+.adm83-gl__pv figure{position:relative;margin:0;flex:1 1 0;max-height:160px;border-radius:10px;overflow:hidden;background:#0b1437;cursor:crosshair}
+.adm83-gl__pv img{width:100%;height:100%;display:block}
+.adm83-gl__pv figcaption{position:absolute;left:6px;bottom:6px;padding:2px 7px;border-radius:9px;background:rgba(0,0,0,.55);color:#fff;font-size:.68rem}
+.adm83-gl__ctl{display:grid;gap:10px}
+.adm83-gl__ctl label{display:grid;gap:4px;font-weight:600}
+.adm83-bulk{margin:10px 0;padding:10px 12px;border-radius:12px;border:1px dashed var(--a-line,#c9d2f2)}
+@media (max-width:760px){.adm83-gl{grid-template-columns:1fr}}
+
+/* page-video studio (admin/PageVideos83.jsx) */
+.adm83-one{display:grid;gap:12px}
+.adm83-pv{position:relative;width:100%;aspect-ratio:1280/720;overflow:hidden;border-radius:16px;background:#0b0f2e}
+.adm83-pv__in{width:1280px;transform-origin:0 0;transform:scale(var(--k,.6));position:absolute;left:0;top:0}
+.adm83-pv .pv83.is-inline{border-radius:0;min-height:720px}
+.adm83-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:4px 14px;margin-top:10px}
+.adm83-col{display:inline-grid;justify-items:center;gap:2px}
+.adm83-col input{width:38px;height:30px;padding:0;border:0;background:none}
+.adm83-pack{display:inline-flex;align-items:center;gap:6px;padding:5px 10px;border-radius:999px;background:var(--a-soft,#eef1ff);font-weight:600}
+.adm83-pack button{border:0;background:none;cursor:pointer}
+/* all website pages (admin/AllPages83.jsx) */
+.adm83-ap table{width:100%;border-collapse:collapse}
+.adm83-ap th,.adm83-ap td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--a-line,#e3e7f5);vertical-align:middle}
+.adm83-ap td small{display:block;color:var(--a-mut,#667)}
+.adm83-ap .adm-row{flex-wrap:wrap;gap:6px}
+.adm83-ap h2{margin:22px 0 6px}
+
+/* the live preview sits inside the admin, whose ".adm h2" rule (font, margin, colour) would restyle the page's headline */
+html .adm .pv83 h2.pv83-h,html.adm-mode .adm .pv83 h2.pv83-h{margin:18px 0 14px;font:800 clamp(2.2rem,4.6vw,4.2rem)/1.02 var(--df);color:var(--ink)}
+html .adm .pv83.pv83-font--serif h2.pv83-h,html.adm-mode .adm .pv83.pv83-font--serif h2.pv83-h,html .adm .pv83-font--serif h2.pv83-h{font-weight:400;font-size:clamp(2.6rem,5.4vw,5rem)}

@@ -108,7 +108,8 @@ const EXTRACT = (origin) => {
       else if (!/^(https?:|mailto:|tel:)/.test(href)) return inner();
       const c = inner() || (n.getAttribute('aria-label') ? e(n.getAttribute('aria-label')) : ''); return c.trim() ? `<a href="${ea(href)}">${c}</a>` : ''; // build 82.7: icon links (social profiles) keep their label
     }
-    if (KEEP.has(t)) { const c = inner(); if (!c.trim() && t !== 'TD' && t !== 'TH') return ''; const tg = t.toLowerCase(); return `<${tg}>${c}</${tg}>`; }
+    // build 83.4: a heading drawn letter by letter (aria-hidden letters, e.g. the panel-book country name) keeps its aria-label
+    if (KEEP.has(t)) { let c = inner(); if (!c.trim() && /^H[1-6]$/.test(t) && n.getAttribute('aria-label')) c = e(n.getAttribute('aria-label')); if (!c.trim() && t !== 'TD' && t !== 'TH') return ''; const tg = t.toLowerCase(); return `<${tg}>${c}</${tg}>`; }
     const c = inner();
     return BLOCK.has(t) && t !== 'SPAN' && t !== 'SMALL' && c.trim() ? ' ' + c + ' ' : c;
   };

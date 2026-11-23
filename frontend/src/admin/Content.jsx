@@ -6,6 +6,8 @@
 import * as ee from 'react';
 import { CMS_DEFAULTS, CMS_IDS } from '../app/cms.jsx';
 import { useAdmImportTarget } from './Import.jsx';
+import { tm83Column, tm83Import, tm83Name } from './testimonialImport83.js';
+import { AdmGalleryBulk, AdmGalleryLook } from './Gallery83.jsx';
 import { admApi, admClone, admDel, admGet, admPut, admSame, admWhen } from './api.jsx';
 import { AdmBtn, AdmCard, AdmField, AdmStatus, AdmUploadBtn, AdmValue, admIsObj, admTitleOf, blankLike } from './Fields.jsx';
 
@@ -74,7 +76,24 @@ function ListEditor({ ckey, title, intro, folder = "misc", photos }) {
   ee.useEffect(() => { load().catch((e) => setMsg({ err: e.message })); }, [ckey]);
   // build 78.4: Import from a file: sheet rows or a Word document become new items (or replace the list); Save makes it live
   const sample = def[0] || (items && items[0] && items[0].v) || { [idKey]: "", title: "", description: "" };
-  useAdmImportTarget(items ? { label: title, folder, sample, blank: () => blankLike(sample),
+  // build 83: testimonials have their own import (admin/testimonialImport83.js): names kept as typed, duplicates
+  // skipped instead of renamed, any spelling of the service understood, a service for files without that column
+  const TM = ckey === "testimonials";
+  const tmSample = { name: "", company: "", designation: "", role: "", country: "", quote: "", rating: "", vertical: "", services: [], date: "" };
+  const itemsRef = ee.useRef(items); itemsRef.current = items;
+  const tmTarget = items && TM ? { label: title, folder, sample: tmSample, blank: () => blankLike(tmSample), guess: tm83Column,
+    options: [{ key: "service", label: "Service for rows that do not name one", choices: [["", "Market research (default)"], ["market-research", "Market research"], ["digital-marketing", "Digital marketing"], ["it-development", "IT & development"], ["accounts-finance", "Accounts & finance"]] }],
+    apply: (rows, mode, kind, opt) => {
+      const keep = mode === "replace" ? [] : (itemsRef.current || []).map((x) => x.v);
+      const r = tm83Import(rows, keep, { service: (opt && opt.service) || "" });
+      if (!r.add.length && !r.skipped) throw new Error("No rows with a client name and a review." + (r.notes.length ? " " + r.notes.slice(0, 3).join(" ") : ""));
+      setItems((cur) => {
+        const add = r.add.map((v) => ({ v, hidden: false, added: true }));
+        return mode === "replace" ? [...add, ...cur.filter((x) => !x.added).map((x) => ({ ...x, hidden: true }))] : [...add, ...cur];
+      });
+      return { message: `${r.add.length} testimonial${r.add.length === 1 ? "" : "s"} added at the top${r.skipped ? `, ${r.skipped} already in the list (skipped)` : ""}${r.fixed ? `, ${r.fixed} name${r.fixed === 1 ? "" : "s"} cleaned` : ""}${r.notes.length ? ", " + r.notes.length + " row(s) without a name or review left out" : ""}. Client names are kept exactly as in the file. Check them, then press Save.` };
+    } } : null;
+  useAdmImportTarget(tmTarget || (items ? { label: title, folder, sample, blank: () => blankLike(sample),
     apply: (rows, mode) => {
       const slug = (s) => String(s || "").toLowerCase().normalize("NFKD").replace(/[^\w\s-]/g, "").trim().replace(/\s+/g, "-").slice(0, 60);
       const fresh = rows.filter(isObj).map((v, i) => { v = { ...v }; if (!v[idKey]) v[idKey] = idKey === "name" ? v.title || "Item " + (i + 1) : slug(v.title || v.name || v.heading) || "item-" + Date.now().toString(36) + i; return { v, hidden: false, added: true }; });
@@ -85,7 +104,7 @@ function ListEditor({ ckey, title, intro, folder = "misc", photos }) {
         return mode === "replace" ? [...add, ...cur.filter((x) => !x.added).map((x) => ({ ...x, hidden: true }))] : [...add, ...cur];
       });
       return { message: `${fresh.length} item${fresh.length === 1 ? "" : "s"} added at the top${mode === "replace" ? " (the old ones are hidden)" : ""}. Check them, then press Save.` };
-    } } : null, [ckey, !!items]);
+    } } : null), [ckey, !!items]);
   if (!items) return <section className="adm-sec"><h1>{title}</h1><AdmStatus s={msg} /><p className="adm-muted">Loading…</p></section>;
   const upd = (i, patch) => setItems(items.map((x, j) => (j === i ? { ...x, ...patch } : x)));
   const move = (i, d) => { const n = [...items]; const j = i + d; if (j < 0 || j >= n.length) return; [n[i], n[j]] = [n[j], n[i]]; setItems(n); };
@@ -125,6 +144,11 @@ function ListEditor({ ckey, title, intro, folder = "misc", photos }) {
     <section className="adm-sec">
       <header className="adm-sec__h"><h1>{title}</h1><AdmBtn kind="primary" onClick={add}>+ Add new</AdmBtn></header>
       {intro && <p className="adm-muted">{intro}</p>}
+      {TM && (() => {
+        // build 83: names the old import changed ("Rahul Mehta-k3f") can be put back in one go
+        const bad = items.filter((x) => x.added && x.v && typeof x.v.name === "string" && tm83Name(x.v.name) !== x.v.name);
+        return bad.length ? <div className="adm-panel adm-row"><span>{bad.length} client name{bad.length === 1 ? "" : "s"} still carr{bad.length === 1 ? "ies" : "y"} the extra code an earlier import added (e.g. “{bad[0].v.name}”).</span><AdmBtn small kind="primary" onClick={() => setItems(items.map((x) => (bad.includes(x) ? { ...x, v: { ...x.v, name: tm83Name(x.v.name) } } : x)))}>Remove it from {bad.length === 1 ? "this name" : "these names"}</AdmBtn></div> : null;
+      })()}
       <div className="adm-filters"><input className="adm-in" placeholder={"Search " + items.length + " items…"} value={q} onChange={(e) => setQ(e.target.value)} /></div>
       <div className="adm-items">
         {shown.map(([x, i]) => (
@@ -330,7 +354,8 @@ function Gallery() {
   return (
     <section className="adm-sec">
       <header className="adm-sec__h"><h1>Gallery</h1></header>
-      <p className="adm-muted">Photos and videos on the Gallery page, in three sections. Upload a photo, or paste an https:// link (a video link from YouTube or a direct .mp4).</p>
+      <p className="adm-muted">Photos and videos on the Gallery page, in three sections. Upload a photo, or paste an https:// link (a video link from YouTube or a direct .mp4). Build 83: every photo keeps its own shape on the website; open a photo to choose what stays in view, or to show the whole photo.</p>
+      <AdmGalleryBulk sections={G_SECTIONS} onAdd={(section, list) => setG({ items: [...list.map((p, i) => ({ id: "g" + Date.now().toString(36) + i, section, type: "photo", url: p.url, thumb: "", title: p.title || "", caption: "", album: "", person: "", date: new Date().toISOString().slice(0, 10), featured: false, show: true, ...(p.ratio ? { ratio: p.ratio } : {}) })), ...g.items] })} />
       <div className="adm-row">
         {G_SECTIONS.map(([k, l]) => <span key={k} className="adm-row">
           <AdmUploadBtn folder="gallery" onDone={(u) => add(k, "photo", u)}>+ {l} photo</AdmUploadBtn>
@@ -342,6 +367,7 @@ function Gallery() {
           <div className="adm-items">
             {g.items.map((x, i) => [x, i]).filter(([x]) => x.section === k).map(([x, i]) => (
               <AdmCard key={x.id || i} title={x.title || x.caption || x.url || "New item"} sub={x.type + (x.show === false ? " · hidden" : "")} actions={<AdmBtn small kind="danger" onClick={() => setG({ items: g.items.filter((_, j) => j !== i) })}>Remove</AdmBtn>}>
+                <AdmGalleryLook x={x} onChange={(v) => setG({ items: g.items.map((y, j) => (j === i ? v : y)) })} />
                 <AdmValue value={x} folder="gallery" onChange={(v) => setG({ items: g.items.map((y, j) => (j === i ? v : y)) })} />
               </AdmCard>
             ))}

@@ -101,6 +101,16 @@ async function pvPageVideo(path) {
     const e = main ? { ...main, url: av.url } : { id: "page", page: av.title || "This page", path, match: "exact", url: av.url, template: "spotlight", title: av.title || "", lede: av.description || "", points: [], cta: { label: "", to: "" } };
     return { list: [e, ...others], video: av, api };
   }
+  // build 83.3 merge: no video from the API, so the page's Studio 83 entry decides (the same one the red button opens)
+  try {
+    const m = await import('../../data/PageVideos83.js');
+    const l = m.pv83ForPath(path);
+    const e83 = l.find((e) => !e.section) || l[0];
+    if (e83) {
+      const v = e83.video;
+      return { list: main ? [main, ...others] : [], video: v && v.kind === "yt" ? { url: "https://youtu.be/" + v.id, title: "", description: e83.lede || "" } : null, api };
+    }
+  } catch (err) {}
   return { list: main ? [main, ...others] : [], video: main ? { url: main.url, title: "", description: main.lede || "" } : null, api };
 }
 
