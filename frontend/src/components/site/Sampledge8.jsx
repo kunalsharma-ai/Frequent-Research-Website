@@ -13,7 +13,8 @@
  * Content: PR5_LIST / PR5_X (Sampledge65.jsx) and PR5_D (SampledgeDetails65.jsx, from the Sampledge website build).
  */
 import { useAuto82, A82Bar } from '../../design82/auto82.jsx';
-import { ScMark } from '../../design83/sampconnect/ScMark.jsx';
+import { ScMark, ScLogo } from '../../design83/sampconnect/ScMark.jsx';
+import scChatImg from '../../assets/images/sampconnect/chat.webp';
 import { ScSpot } from '../../design83/sampconnect/ScSpot.jsx';
 import * as ee from 'react';
 import { PpL } from '../dm/shared.jsx';
@@ -37,7 +38,34 @@ function sx8Split(t) {
   const k = Math.max(1, w.length - 2);
   return [w.slice(0, k).join(" "), w.slice(k).join(" ")];
 }
-const SX8_IC = { sampcode: "spark", sampbidx: "file", samptrek: "layers", sampaudience: "target", sampforce: "bars", talk2tax: "coin", sampcrew: "users" };
+/* build 83.4 (Kunal, 23 Nov): SampConnect is the eighth tab of the home product switcher (only here: the orbits and menus
+   keep the seven planets of PR5_LIST). Its words come from the SampConnect page (design83/sampconnect/sc-data.js). */
+const SX8_SC = {
+  id: "sampconnect", short: "SampConnect", name: "SampConnect", cat: "Private workspace for research teams",
+  c1: "#0F6B4F", c2: "#F5B83D", c3: "#8FE0B6",
+  tag: "Your team, connected. Privately.",
+  pos: "SampConnect brings chat, video meetings, private AI, approvals and the Sampledge suite together in one self-hosted, offline-first workspace.",
+  flow: ["Chat", "Meet", "Ask AI", "Approve", "Deliver"],
+};
+const SX8_SC_D = {
+  pains: [["Team chat, calls and client messages spread across outside apps"], ["Research data leaving your own servers"], ["Work stopping when the network drops"]],
+  outs: [["Self-hosted, video and AI included"], ["0 bytes to third-party clouds"], ["Works offline, syncs on reconnect"]],
+};
+const sx8HomeList = () => [...PR5_LIST, SX8_SC];
+const SX8_Mark = ({ q }) => (q.id === "sampconnect" ? <ScMark s={28} /> : <PR5_Logo p={q} v="mark" still />);
+function SX8_Sc() {
+  return (
+    <div className="sx8-sc sx8-sc--sampconnect">
+      <img className="sx8sc-img" src={scChatImg} alt="" width="1600" height="1111" loading="lazy" decoding="async" />
+      <span className="sx8-chip sx8sc-a">Live captions · DE → EN</span>
+      <span className="sx8-chip sx8-chip--ok sx8sc-b">
+        <FRK_I n="check" s={12} sw={3} /> Approved in chat
+      </span>
+      <span className="sx8-chip sx8sc-c">Private AI · on your servers</span>
+    </div>
+  );
+}
+const SX8_IC = { sampconnect: "chat", sampcode: "spark", sampbidx: "file", samptrek: "layers", sampaudience: "target", sampforce: "bars", talk2tax: "coin", sampcrew: "users" };
 
 /* ---------- menu ---------- */
 function SX8_Menu() {
@@ -362,13 +390,13 @@ function SX8_Crew() {
   );
 }
 function SX8_Scene({ id }) {
-  const S = { sampcode: SX8_Zapx, sampbidx: SX8_Bidzo, samptrek: SX8_Projexa, sampaudience: SX8_Sampleon, sampforce: SX8_Dealflow, talk2tax: SX8_Talk2tax, sampcrew: SX8_Crew }[id];
+  const S = { sampcode: SX8_Zapx, sampbidx: SX8_Bidzo, samptrek: SX8_Projexa, sampaudience: SX8_Sampleon, sampforce: SX8_Dealflow, talk2tax: SX8_Talk2tax, sampcrew: SX8_Crew, sampconnect: SX8_Sc }[id];
   return S ? <S /> : null;
 }
 
 /* ---------- home switcher ---------- */
 function SX8_Home() {
-  const L = sx8List();
+  const L = sx8HomeList();
   const [k, setK] = ee.useState(0);
   const [ref, inV] = frkIn(0.12);
   const tabs = ee.useRef([]);
@@ -376,7 +404,7 @@ function SX8_Home() {
   const auto = useAuto82(L.length, k, setK, inV, 6500);
   if (!L.length) return null;
   const p = L[k];
-  const D = sx8D(p.id);
+  const D = p.id === "sampconnect" ? SX8_SC_D : sx8D(p.id);
   const pick = (i) => {
     if (i === k) return;
     setK(i);
@@ -408,9 +436,9 @@ function SX8_Home() {
             <i className="sx8-live" /> Built in-house by Sampledge
           </span>
           <h2 id="sx8-h">
-            Seven products. <em>One connected ecosystem.</em>
+            Eight products. <em>One connected ecosystem.</em>
           </h2>
-          <p>Survey programming, bidding, research projects, sample, sales, finance and HR: each product built for one job, all designed to work together.</p>
+          <p>Survey programming, bidding, research projects, sample, sales, finance, HR and team workspace: each product built for one job, all designed to work together.</p>
         </header>
         <div className="sx8-tabs" role="tablist" aria-label="Sampledge products" onKeyDown={onKey} style={{ "--n": L.length, "--i": k }} {...auto.bind}>
           <span className="sx8-tabs__pill" aria-hidden="true" />
@@ -429,7 +457,7 @@ function SX8_Home() {
               onClick={() => pick(i)}
             >
               <span className="sx8-tabs__mk" aria-hidden="true">
-                <PR5_Logo p={q} v="mark" still />
+                <SX8_Mark q={q} />
               </span>
               <span className="sx8-tabs__t">{q.short}</span>
               {i === k ? <A82Bar run={auto.run} ms={auto.ms} k={k} /> : null}
@@ -439,7 +467,7 @@ function SX8_Home() {
         <div className="sx8__stage" key={p.id} role="tabpanel" id="sx8-panel" aria-labelledby={"sx8-tab-" + p.id}>
           <div className="sx8__copy">
             <span className="sx8__logo">
-              <PR5_Logo p={p} tone="dark" h={54} />
+              {p.id === "sampconnect" ? <ScLogo h={44} dark /> : <PR5_Logo p={p} tone="dark" h={54} />}
             </span>
             <span className="sx8__cat">
               <FRK_I n={SX8_IC[p.id] || "layers"} s={13} /> {p.cat}
@@ -510,7 +538,7 @@ function SX8_Home() {
               if (!q) return null;
               return (
                 <button key={id} type="button" className="sx8-links__it" style={sx8Vars(q)} title={how} onClick={() => pick(L.indexOf(q))}>
-                  <PR5_Logo p={q} v="mark" still />
+                  <SX8_Mark q={q} />
                   {q.short}
                 </button>
               );

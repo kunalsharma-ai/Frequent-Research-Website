@@ -1,6 +1,6 @@
 {
   "name": "frequent-research-frontend",
-  "version": "83.3.0",
+  "version": "83.4.0",
   "private": true,
   "type": "module",
   "description": "Frequent Research website: React app built with Vite. Talks to the Express backend in ../backend through /api.",

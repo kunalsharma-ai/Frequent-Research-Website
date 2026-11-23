@@ -1,5 +1,13 @@
 # Frequent Research website: change log
 
+## 2026-11-23 · Build 83.4: SampConnect in the home product switcher
+
+Kunal (23 Nov). Built on 83.3. Full detail: `docs/go-live/28-BUILD-83.4.md`.
+
+- The home page "Seven products. One connected ecosystem." switcher is now "Eight products": SampConnect is the eighth
+  tab, with its logo, what it fixes, its five steps, a moving SampConnect screen and links to its page and sampledge.com.
+  Menus and the planet orbits keep the seven product planets.
+
 ## 2026-11-22 · Build 83.3: equal round floating buttons, SampConnect pop-up to Sampledge
 
 Kunal (22 Nov). Built on 83.2. Full detail: `docs/go-live/27-BUILD-83.3.md`.
