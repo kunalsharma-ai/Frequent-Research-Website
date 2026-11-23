@@ -64,7 +64,7 @@ const server = http.createServer((q, r) => {
   const page = await browser.newPage(kind === 'p' ? { viewport: { width: 412, height: 823 }, isMobile: true, hasTouch: true, deviceScaleFactor: 1, colorScheme: 'light' } : { viewport: { width: 1350, height: 940 }, deviceScaleFactor: 1, colorScheme: 'light' });
   // no celebration on the copy (the real banner comes with the site), no intro
   await page.route('**/data/celebrations*', (r) => r.fulfill({ status: 200, contentType: 'application/json', body: '{"events":[]}' }));
-  await page.addInitScript(() => { window.__FR_INTRO = false; try { localStorage.clear(); } catch (e) {} });
+  await page.addInitScript(() => { window.__FR_INTRO = false; window.__FR_SHELL_SNAP = true; try { localStorage.clear(); } catch (e) {} });
   await page.goto(base + route + '?fr-nolite', { waitUntil: 'load' });
   await page.waitForSelector('#root > header', { timeout: 30000 });
   await page.waitForSelector('#root > main > *', { timeout: 30000 });
