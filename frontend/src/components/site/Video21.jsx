@@ -8,7 +8,7 @@
  */
 import * as ee from 'react';
 import { useLocation } from 'react-router-dom';
-import { PV_Theatre, pvForPath } from './PageVideo69.jsx';
+import { PV_Theatre, pvApi, pvPageVideo, pvYt } from './PageVideo69.jsx';
 /* build 83: every page opens its own Studio 83 design (PageVideo83.jsx, loaded on the first press) */
 let pv83Mod = null;
 const pv83Load = () => (pv83Mod ? Promise.resolve(pv83Mod) : import('./PageVideo83.jsx').then((m) => (pv83Mod = m)));
@@ -25,21 +25,34 @@ function VD21_Button() {
   /* build 70: the button plays this page's own video (components/site/PageVideo69.jsx, set in the super admin) */
   const loc = useLocation();
   const [open, setOpen] = ee.useState(null);
+  /* build 83.2: the same video as the "Watch this page" section at the bottom (pvPageVideo, one source for both) */
   const show = () => {
-    pv83Load()
-      .then((m) => {
-        const l = m.pv83ForPath(loc.pathname);
-        if (l.length) setOpen({ list: l, Theatre: m.PV83_Theatre });
-        else throw new Error("none");
-      })
-      .catch(() => {
-        /* build 70 behaviour if the new window cannot load */
-        const l = pvForPath(loc.pathname);
-        if (l.length) setOpen({ list: l, Theatre: PV_Theatre });
-        else window.open("https://www.youtube.com/@frequentresearch", "_blank", "noopener");
-      });
+    // build 83.3 merge: the Studio 83 window, playing the video pvPageVideo picked (the one the bottom section plays)
+    const path = loc.pathname;
+    Promise.all([pvPageVideo(path).catch(() => null), pv83Load().catch(() => null)]).then(([r, m]) => {
+      const url = r && r.video && r.video.url;
+      const y = url ? pvYt(url) : null;
+      if (m) {
+        const l = m.pv83ForPath(path);
+        const i = Math.max(0, l.findIndex((e) => !e.section));
+        if (l.length) {
+          let main = l[i];
+          if (y) main = { ...main, url: "https://youtu.be/" + y.id, video: { kind: "yt", id: y.id, start: y.start || 0, tall: !!y.tall } };
+          setOpen({ list: [main, ...l.filter((_, k) => k !== i)], Theatre: m.PV83_Theatre });
+          return;
+        }
+      }
+      // build 70 window if Studio 83 cannot load; no video set at all: the channel (same tab, a new tab would be blocked after the wait)
+      if (r && r.list.length && r.list[0].url) setOpen({ list: r.list, Theatre: PV_Theatre });
+      else window.location.assign("https://www.youtube.com/@frequentresearch");
+    });
   };
   ee.useEffect(() => setOpen(null), [loc.pathname]);
+  // ask early (once per page, shared with the bottom section) so the pop-up opens at once
+  ee.useEffect(() => {
+    const t = setTimeout(() => (window.requestIdleCallback ? requestIdleCallback(() => pvApi(loc.pathname)) : pvApi(loc.pathname)), 4000);
+    return () => clearTimeout(t);
+  }, [loc.pathname]);
   ee.useEffect(() => {
     const o = () => show();
     window.addEventListener("fr-watch-open", o);

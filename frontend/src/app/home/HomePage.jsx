@@ -20,11 +20,9 @@ import { BlogCover } from '../../components/site/BlogCover.jsx';
 import { usePageMeta } from '../SiteApp.jsx';
 import { navGo } from '../nav.jsx';
 import { K5_HomeYears } from '../../components/site/Kit65.jsx';
-import { OB82_Section } from '../../design82/Ob82.jsx';
 import { CA82_Section } from '../../design82/Ca82.jsx';
 import { GV8_Home } from '../../components/site/Gov8.jsx';
 import { FRX_HomeProducts } from '../../components/site/Products.jsx';
-import { FRE_Earn } from '../../components/site/Earn.jsx';
 import { FR_Testi } from '../../components/site/LiveReviews.jsx';
 import { HomeHero79 } from '../../design79/HomeHero79.jsx';
 
@@ -286,9 +284,6 @@ function HomePage() {
         <HM_Panels />
       </HM_Later>
       <HM_Later>
-        <FRE_Earn />
-      </HM_Later>
-      <HM_Later>
         <HM_Why />
       </HM_Later>
       <HM_Later>
@@ -296,9 +291,6 @@ function HomePage() {
       </HM_Later>
       <HM_Later>
         <FR_Testi />
-      </HM_Later>
-      <HM_Later>
-        <OB82_Section />
       </HM_Later>
       <HM_Later>
         <section className="section section--tint" aria-labelledby="ins-title">

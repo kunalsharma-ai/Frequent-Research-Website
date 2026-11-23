@@ -375,13 +375,15 @@ function shellScript(S) {
     'css=function(id,t){if(!t)return;var s=d.createElement("style");s.id=id;s.textContent=t;d.head.appendChild(s)},' +
     'frag=function(h){var t=d.createElement("template");t.innerHTML=h;return t.content};' +
     'if(ph)r.insertBefore(frag(S.p),r.firstChild);else{css("fr-lite-css-d",S.dc);r.insertBefore(frag(S.d),r.firstChild)}' +
+    // build 82.9: the first screen of a Sampledge product site is drawn in its own shadow root, as on the real page
+    'var SR=[d];r.querySelectorAll("[data-fr-shell] [data-fr-sr]").forEach(function(h){try{var s=h.shadowRoot||h.attachShadow({mode:"open"});s.innerHTML=h.getAttribute("data-fr-sr");SR.push(s)}catch(e){}h.removeAttribute("data-fr-sr")});' +
     'if(dk)css(ph?"fr-lite-css-pk":"fr-lite-css-dk",ph?S.pk:S.dk);css("fr-lite-css-s",ph?S.ps:S.ds);' +
     // the text copy for search engines: without what the first-screen copy already shows, out of focus and screen readers
     // (it comes after this script in the page, so this waits until the page has been read)
     'var tc=function(){var pr=r.querySelector(".prerender"),h1=pr&&pr.querySelector("h1");if(!pr)return;pr.inert=true;if(r.querySelector("[data-fr-shell] h1")){var hd=pr.querySelector("header");if(hd)hd.remove();if(h1){var b=h1;while(b.parentNode&&b.parentNode!==pr&&b.parentNode.tagName!=="MAIN")b=b.parentNode;b.remove()}}};if(d.readyState==="loading")d.addEventListener("DOMContentLoaded",tc);else tc();' +
     // links get their ?type=… part back as soon as the visitor touches the page
     'var lk=function(){d.querySelectorAll("[data-fr-href]").forEach(function(a){a.setAttribute("href",a.getAttribute("data-fr-href"));a.removeAttribute("data-fr-href")})};["pointerdown","touchstart","keydown","focusin"].forEach(function(n){addEventListener(n,lk,{capture:true,passive:true})});' +
-    'var im=function(){d.querySelectorAll("[data-fr-src]").forEach(function(i){if(i.hasAttribute("data-fr-srcset"))i.srcset=i.getAttribute("data-fr-srcset");var a=i.getAttribute("data-fr-alt"),w=i.getAttribute("data-fr-w");i.addEventListener("load",function(){if(a){i.alt=a;i.setAttribute("aria-hidden","true")}if(w){i.setAttribute("width",w);i.setAttribute("height",i.getAttribute("data-fr-h"))}},{once:true});i.src=i.getAttribute("data-fr-src")})};' +
+    'var im=function(){SR.forEach(function(x){x.querySelectorAll("[data-fr-src]").forEach(function(i){if(i.hasAttribute("data-fr-srcset"))i.srcset=i.getAttribute("data-fr-srcset");var a=i.getAttribute("data-fr-alt"),w=i.getAttribute("data-fr-w");i.addEventListener("load",function(){if(a){i.alt=a;i.setAttribute("aria-hidden","true")}if(w){i.setAttribute("width",w);i.setAttribute("height",i.getAttribute("data-fr-h"))}},{once:true});i.src=i.getAttribute("data-fr-src")})})};' +
     'var go=function(){requestAnimationFrame(function(){setTimeout(im,0)})};if(d.readyState==="complete")go();else addEventListener("load",go)})()</script>';
 }
 

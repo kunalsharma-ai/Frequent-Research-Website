@@ -1,4 +1,6 @@
 // Build 83.3: Meta (Facebook) Pixel on every page (Kunal, 17 Nov 2026; Pixel ID 1070404625443177).
+// Merged 23 Nov: NOT a step of `npm run prerender` any more. The build 82.9 loader in index.html sends the same Pixel ID
+// (and page changes); running both would count every page view twice. Kept only for reference.
 // Usage: node scripts/meta-pixel.cjs dist   (part of `npm run prerender`, before compress.cjs; safe to run twice)
 //
 // Puts Meta's standard Pixel code at the end of the <head> of every page (not /admin), so audit

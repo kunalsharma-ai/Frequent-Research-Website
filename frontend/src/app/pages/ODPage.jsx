@@ -1222,14 +1222,14 @@ function OD_Page({ a, n }) {
               <li>
                 <Link to="/portals/turn2opinion">
                   <strong>Turn2Opinion.com</strong>
-                  <span>Consumers and business professionals</span>
+                  <span>Consumers, business professionals and teens</span>
                   <RC_I n="arrow" s={16} />
                 </Link>
               </li>
               <li>
                 <Link to="/portals/myfrequentrewards">
                   <strong>MyFrequentRewards.com</strong>
-                  <span>Consumer and business research community</span>
+                  <span>Consumer, business and teen research community</span>
                   <RC_I n="arrow" s={16} />
                 </Link>
               </li>

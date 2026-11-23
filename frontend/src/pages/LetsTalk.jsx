@@ -14,7 +14,6 @@ import { usePageMeta } from '../app/SiteApp.jsx';
 import { PpL, dmMeta } from '../components/dm/shared.jsx';
 import { FRK_I, frkIn, frkReduce } from '../components/site/FrKit.jsx';
 import { FRL_Mark } from '../components/site/Logos13.jsx';
-import { OB82_Section } from '../design82/Ob82.jsx';
 
 const LT_INTENTS = [
   ["quote", "Request a quote", "file", "#1E5BFF", "#22D3EE"],
@@ -273,7 +272,6 @@ function LT_Page() {
         </div>
       </section>
 
-      <OB82_Section id="lt-onboarding" tight />
 
       <section ref={ref2} className={"lt-next" + (v2 ? " is-in" : "")} aria-labelledby="lt-next-h">
         <div className="container">

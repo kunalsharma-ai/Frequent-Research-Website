@@ -1,5 +1,5 @@
 import * as ee from 'react';
-import { HeroH1 } from '../shared/HeroH1.jsx';
+import { PortalHero829 } from '../../design82/Portal829.jsx';
 import { Link } from 'react-router-dom';
 import { PORTALS } from '../data/site.jsx';
 import { RC_I, RC_P, RC_Reveal, RC_useInView } from '../shared/Reveal.jsx';
@@ -167,114 +167,6 @@ function MHO_Join({ cls = "btn btn--primary btn--lg", children }) {
       {children || "Join MyHealthOpinions Free"} <span aria-hidden="true">↗</span>
       <span className="sr-only">{" (opens in a new tab)"}</span>
     </a>
-  );
-}
-function MHO_HeroArt() {
-  const [ref, v] = RC_useInView(0.2);
-  const N = [
-    ["Physician", 90, 80, "steth"],
-    ["Nurse", 330, 64, "heart"],
-    ["Pharmacist", 440, 200, "pill"],
-    ["Patient", 330, 348, "user"],
-    ["Caregiver", 90, 332, "users"],
-  ];
-  return (
-    <div className={"mho-art" + (v ? " is-in" : "")} ref={ref}>
-      <svg
-        viewBox="0 0 540 440"
-        className="mho-art__svg"
-        role="img"
-        aria-label="Illustration: physicians, nurses, pharmacists, patients and caregivers connect to research, which turns their experience into healthcare insight"
-      >
-        <defs>
-          {ee.createElement(
-            "radialGradient",
-            {
-              id: "mhoHub",
-              cx: ".4",
-              cy: ".35",
-              r: ".8",
-            },
-            <stop offset="0" stopColor="#1E5BFF" />,
-            <stop offset="1" stopColor="#0B22A8" />,
-          )}
-        </defs>
-        <circle cx="250" cy="210" r="168" className="mho-art__orbit" />
-        <circle cx="250" cy="210" r="118" className="mho-art__orbit mho-art__orbit--in" />
-        {N.map(([t, x, y], i) => (
-          <path
-            key={t}
-            d={`M${x} ${y} Q ${(x + 250) / 2 + (i % 2 ? 30 : -30)} ${(y + 210) / 2} 250 210`}
-            className="mho-art__link"
-            style={{
-              "--i": i,
-            }}
-          />
-        ))}
-        {N.map(([t, x, y], i) => (
-          <circle
-            key={"d" + t}
-            r="4"
-            className="mho-art__dot"
-            style={{
-              offsetPath: `path('M${x} ${y} Q ${(x + 250) / 2 + (i % 2 ? 30 : -30)} ${(y + 210) / 2} 250 210')`,
-              "--i": i,
-            }}
-          />
-        ))}
-        <g className="mho-art__hub">
-          <circle cx="250" cy="210" r="62" fill="url(#mhoHub)" />
-          <circle cx="250" cy="210" r="62" className="mho-art__pulse" />
-          <path
-            d="M218 214h14l7-16 9 30 8-22 5 8h22"
-            fill="none"
-            stroke="#fff"
-            strokeWidth="4"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            className="mho-art__ecg"
-          />
-          <text x="250" y="246" textAnchor="middle" className="mho-art__hubt">
-            Research
-          </text>
-        </g>
-        {N.map(([t, x, y, ic], i) => (
-          <g
-            key={"n" + t}
-            className="mho-art__node"
-            style={{
-              "--i": i,
-            }}
-          >
-            <circle cx={x} cy={y} r="34" className="mho-art__nc" />
-            <g transform={`translate(${x - 12} ${y - 14})`} className="mho-art__ic">
-              {(RC_P[ic] || []).map((d, k) =>
-                typeof d === "string" ? <path key={k} d={d} /> : <circle key={k} cx={d[1]} cy={d[2]} r={d[3]} />,
-              )}
-            </g>
-            <rect x={x - 46} y={y + 40} width="92" height="24" rx="12" className="mho-art__tag" />
-            <text x={x} y={y + 56} textAnchor="middle" className="mho-art__tt">
-              {t}
-            </text>
-          </g>
-        ))}
-      </svg>
-      <div className="mho-art__card mho-art__card--a" aria-hidden="true">
-        <RC_I n="clipboard" s={16} />
-        <span>Online survey</span>
-      </div>
-      <div className="mho-art__card mho-art__card--b" aria-hidden="true">
-        <RC_I n="chat2" s={16} />
-        <span>Interview</span>
-      </div>
-      <div className="mho-art__card mho-art__card--c" aria-hidden="true">
-        <RC_I n="bulb" s={16} />
-        <span>Healthcare insight</span>
-        <i />
-        <i />
-        <i />
-      </div>
-    </div>
   );
 }
 function MHO_Categories() {
@@ -576,48 +468,7 @@ function MHO_Page({ p }) {
   const [qRef, qIn] = RC_useInView(0.25);
   return (
     <div className="mho rc">
-      <section className="mho-hero">
-        <div className="container mho-hero__in">
-          <div className="mho-hero__copy">
-            <nav className="crumbs mho-crumbs" aria-label="Breadcrumb">
-              <Link to="/">Home</Link>
-              <span>
-                <Link to="/portals">Portals</Link>
-              </span>
-              <span>
-                <span aria-current="page">MyHealthOpinions</span>
-              </span>
-            </nav>
-            <div className="mho-brand">
-              <Logo p={p} size="md" />
-              <span className="mho-brand__by">by Frequent Research</span>
-            </div>
-            <HeroH1>Healthcare Professionals, Patients & Caregivers Research Panel</HeroH1>
-            <p className="mho-hero__lead">
-              MyHealthOpinions is Frequent Research's healthcare research panel for healthcare professionals, patients
-              and caregivers. Members share their experience of treatments, products and care, helping healthcare
-              organisations understand real needs while being rewarded for eligible research participation.
-            </p>
-            <div className="mho-ctas">
-              <MHO_Join />
-              <Link className="btn btn--ghost btn--lg mho-btn-ghost" to={MHO_FEAS}>
-                Researchers: Request Feasibility
-              </Link>
-            </div>
-            <ul className="mho-chips" aria-label="Who can join">
-              {p.audiences.map((a, i) => (
-                <li key={a}>
-                  <RC_I n={["steth", "pill", "user", "users"][i] || "check"} s={15} />
-                  {a
-                    .replace("Physicians & specialists", "Physicians & Specialists")
-                    .replace("Nurses, pharmacists & allied HCPs", "Nurses, Pharmacists & Allied HCPs")}
-                </li>
-              ))}
-            </ul>
-          </div>
-          <MHO_HeroArt />
-        </div>
-      </section>
+      <PortalHero829 p={p} Logo={Logo} join={<MHO_Join />} extra={<Link className="btn btn--ghost btn--lg mho-btn-ghost" to={MHO_FEAS}>Researchers: Request Feasibility</Link>} />
       <nav className="rc-subnav od-subnav mho-subnav" aria-label="On this page">
         <div className="container rc-subnav__in">
           {nav.map(([id, t]) => (

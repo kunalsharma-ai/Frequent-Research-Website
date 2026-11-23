@@ -1616,7 +1616,7 @@ function QLT_Page({ a, n }) {
               [
                 "target",
                 "Specialised recruitment",
-                "Consumers, professionals, B2B decision-makers, healthcare professionals, patients, caregivers, experts and specialised audiences.",
+                "Consumers, professionals, teens (with parental consent), B2B decision-makers, healthcare professionals, patients, caregivers, experts and specialised audiences.",
               ],
               [
                 "shield",

@@ -307,7 +307,7 @@ function AB21_Reach() {
           <h2 id="ab21-reach-h" className="ab17-h2">
             55 countries. <em>Five regions. One standard.</em>
           </h2>
-          <p className="ab17-sub">Consumers, business professionals and healthcare professionals, profiled by sector, industry, department and 1,108 job titles.</p>
+          <p className="ab17-sub">Consumers, business professionals, teens (with parental consent) and healthcare professionals, profiled by sector, industry, department and 1,108 job titles.</p>
           <HmLink to="/our-reach" className="ab21-btn ab21-btn--a">
             Explore Our reach <AB17_I n="arrow" s={16} />
           </HmLink>

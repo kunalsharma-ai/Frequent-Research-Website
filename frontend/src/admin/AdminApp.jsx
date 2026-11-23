@@ -34,7 +34,7 @@ if (typeof document !== "undefined" && !document.getElementById("adm78-css")) { 
 const NAV = [
   ["Overview", [["", "Dashboard", "◧"], ["visits", "Visits", "◷"], ["activity", "Activity", "☰"]]],
   // build 82: the two onboarding portals (every submission, MSAs / agreements, documents, renewals, the form fields)
-  ["Onboarding", [["client-onboarding", "New client onboarding", "🤝"], ["vendor-onboarding", "New vendor onboarding", "🏭"], ["onboarding-links", "Onboarding links on the site", "🔗"]]],
+  ["Onboarding", [["client-onboarding", "New client onboarding", "🤝"], ["vendor-onboarding", "New vendor onboarding", "🏭"]]],
   ["Inbox", [["leads", "Leads", "✉"], ["contacts", "Contacts & form counts", "◉"], ["chat", "Live chat", "💬"], ["reviews", "Reviews", "★"]]],
   // build 78: pages, sections and menus
   ["Pages", [
@@ -121,7 +121,7 @@ function section(id, go) {
     case "ai": return <AdmAi go={go} />;
     case "client-onboarding": return <AdmOnboarding kind="client" go={go} />;
     case "vendor-onboarding": return <AdmOnboarding kind="vendor" go={go} />;
-    case "onboarding-links": return <AdmObjectEditor ckey="onboarding-links" base={OB82_DEF} title="Onboarding links on the site" intro="The two cards that send new clients and new vendors to their onboarding forms (home page, Let's Talk, Scan & Connect) and the two footer links. Change the form address (url), the texts, the time and the steps shown." />;
+    case "onboarding-links": return <AdmObjectEditor ckey="onboarding-links" base={OB82_DEF} title="Onboarding links on the site" intro="The two cards that send new clients and new vendors to their onboarding forms (home page, Let's Talk, Scan & Connect) and the two footer links. To take a form off the whole website, set its “show” to No and save (set it back to Yes to bring it back). Change the form address (url), the texts, the time and the steps shown." />;
     case "api": return <AdmApis />;
     case "keys": return <AdmKeys />;
     case "files": return <AdmFiles />;

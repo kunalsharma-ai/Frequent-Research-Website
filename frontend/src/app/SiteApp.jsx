@@ -10,6 +10,9 @@ import { RV_Prompt } from '../components/site/ReviewPrompt.jsx';
 import { FR_Footer } from '../components/site/Footer.jsx';
 import { fullPage } from './full.js';
 import { cmsCustomPage } from './cms78.jsx';
+import { pvPageVideo, pvYt } from '../components/site/PageVideo69.jsx';
+import { FRQ_Icon, FRQ_SOCIAL } from '../pages/Connect.jsx';
+const W828_KIT = { pvPageVideo, pvYt, FRQ_Icon, FRQ_SOCIAL };
 
 // build 78: pages the super admin created (app/cmsBlocks.jsx, loaded only when such a page is opened)
 const CmsPage = ee.lazy(() => import('./cmsBlocks.jsx').then((m) => ({ default: m.CmsPage })));
@@ -48,6 +51,37 @@ const PR5_Page = fullPage("PR5_Page");
 const PR5_Product = fullPage("PR5_Product");
 const CQ5_Page = fullPage("CQ5_Page");
 
+// build 82.8 (Kunal, 21 Nov): "Watch this whole page in one video" at the bottom of every page (design82/Watch828.jsx).
+// Its script and data load only after the page has finished loading and the visitor is near the bottom.
+const Watch828 = ee.lazy(() => import('../design82/Watch828.jsx').then((m) => ({ default: m.Watch828 })));
+function WatchSlot() {
+  const { pathname } = useLocation();
+  const ref = ee.useRef(null);
+  const [ready, setReady] = ee.useState(false);
+  const [on, setOn] = ee.useState(false);
+  ee.useEffect(() => {
+    const go = () => setTimeout(() => setReady(true), 1500);
+    if (document.readyState === "complete") go();
+    else window.addEventListener("load", go, { once: true });
+  }, []);
+  ee.useEffect(() => {
+    if (!ready || on || !ref.current) return;
+    if (!window.IntersectionObserver) return setOn(true);
+    const io = new IntersectionObserver(([e]) => e.isIntersecting && (setOn(true), io.disconnect()), { rootMargin: "1400px 0px" });
+    io.observe(ref.current);
+    return () => io.disconnect();
+  }, [ready, on]);
+  const path = (pathname.replace(/\/+$/, "") || "/").toLowerCase();
+  return (
+    <div ref={ref} className="w828-host">
+      {on ? (
+        <ee.Suspense fallback={null}>
+          <Watch828 path={path} key={path} kit={W828_KIT} />
+        </ee.Suspense>
+      ) : null}
+    </div>
+  );
+}
 function WhatsAppButton() {
   return <FRW_WhatsApp />;
 }
@@ -179,6 +213,7 @@ function SiteApp() {
           </Routes>
         </ee.Suspense>
       </main>
+      <WatchSlot />
       <FR_Footer />
       <WhatsAppButton />
       <RV_Prompt />

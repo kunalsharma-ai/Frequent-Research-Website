@@ -28,6 +28,8 @@ const headTop = src.slice(0, src.indexOf('</head>'));
 const keep = [];
 // the Google tag (GTM-TDDKS62) stays first in <head> on every page
 { const m = headTop.match(/<!-- Google tag \(GTM-[\s\S]*?<script async src="https:\/\/www\.googletagmanager\.com\/gtm\.js\?id=GTM-[A-Z0-9]+"><\/script>\s*<script>[\s\S]*?<\/script>/); if (m) keep.push(m[0]); else throw new Error('Google tag not found in dist/index.html'); }
+// build 82.9: the Meta Pixel loader comes right after the Google tag on every page
+{ const m = headTop.match(/<!-- Meta Pixel[\s\S]*?<script id="fr-pixel">[\s\S]*?<\/script>/); if (m) keep.push(m[0]); }
 for (const re of [/<meta charset[^>]*>/, /<meta name="viewport"[^>]*>/]) { const m = headTop.match(re); if (m) keep.push(m[0]); }
 { const m = headTop.match(/<script>window\.__FR_DARK=[^<]*<\/script>\s*<script id="fr-boot">[\s\S]*?<\/script>\s*<style id="fr-boot-css">[\s\S]*?<\/style>/); if (m) keep.push(m[0]); else throw new Error('boot script not found in dist/index.html'); }
 for (const re of [/<meta name="theme-color"[^>]*>/, /<link rel="icon"[^>]*>/]) { const m = headTop.match(re); if (m) keep.push(m[0]); }
@@ -93,7 +95,7 @@ const EXTRACT = (origin) => {
     if (n.nodeType !== 1) return '';
     const t = n.tagName;
     if (SKIP.has(t) || n.hidden || (n.getAttribute('aria-hidden') === 'true' && !n.hasAttribute('data-pr-keep')) || n.classList.contains('pp-sr') || n.classList.contains('sr-only')) return '';
-    if (n.closest && n.closest('.rv-ov,.rv-dlg,.chat,.cc-pop,.fc,.fg-ov,.rv-fab,.fq-bar,.hi-pop,.cb22,.sp22')) return '';
+    if (n.closest && n.closest('.rv-ov,.rv-dlg,.chat,.cc-pop,.fc,.fg-ov,.rv-fab,.fq-bar,.hi-pop,.cb22,.sp22,.w828')) return ''; // build 82.8: the watch-this-page section is the same on every page
     // build 79: a page's old hero, hidden under the new one (design79/s79.css), stays out, so the page keeps one H1
     if (n.matches('.h79-swap + * > :first-child:is(section, header)')) return '';
     const inner = () => [...n.childNodes].map(walk).join('');
@@ -138,7 +140,9 @@ const EXTRACT = (origin) => {
   // third-party requests are not needed to render content (and may be unreachable on build machines)
   await ctx.route(/^https?:\/\/(?!127\.0\.0\.1)/, (r) => r.abort());
   const norm = (h) => { let p = h.replace(/^#/, '').split('?')[0].split('#')[0]; if (!p.startsWith('/')) p = '/' + p; return p.length > 1 ? p.replace(/\/+$/, '') : '/'; };
-  const queue = ['/'], seen = new Set(queue), done = [], skipped = [], retried = new Set();
+  // build 82.9: FR_PRE_ONLY=/a,/b renders only those pages (no link following, sitemap and robots.txt left as they are)
+  const ONLY = (process.env.FR_PRE_ONLY || '').split(',').filter(Boolean);
+  const queue = ONLY.length ? [...ONLY] : ['/'], seen = new Set(queue), done = [], skipped = [], retried = new Set();
   let active = 0;
   const worker = async () => {
     let pg = await ctx.newPage();
@@ -166,7 +170,7 @@ const EXTRACT = (origin) => {
       if (!r.desc) r.desc = SITE.desc;
       if (r.ogTitle === SITE.ogTitle && route !== '/') r.ogTitle = r.title;
       if (r.ogDesc === SITE.ogDesc && route !== '/') r.ogDesc = r.desc;
-      for (const l of r.links) { const p = norm(l); if (!seen.has(p)) { seen.add(p); queue.push(p); } }
+      if (!ONLY.length) for (const l of r.links) { const p = norm(l); if (!seen.has(p)) { seen.add(p); queue.push(p); } }
       if (/not found/i.test(r.title) || /not found/i.test(r.h1) || errs.length) { skipped.push([route, r.title, errs[0] || '']); return; }
       const url = ORIGIN + (route === '/' ? '/' : route);
       const file = path.join(outDir, route === '/' ? 'index.html' : route.slice(1) + '/index.html');
@@ -189,6 +193,7 @@ const EXTRACT = (origin) => {
   for (const d of done) fs.writeFileSync(d.file, d.html);
 
   // ---------- 4. sitemap, robots, server rules ----------
+  if (ONLY.length) { console.log('search-engine pages: ' + done.length + ' of ' + ONLY.length + ' (FR_PRE_ONLY), skipped ' + JSON.stringify(skipped)); return; }
   done.sort((a, b) => a.route.localeCompare(b.route));
   // 404 page: the app shell (it shows its own "not found" view), served with HTTP 404 and noindex
   fs.writeFileSync(path.join(outDir, '404.html'), pageHtml({ title: 'Page not found | Frequent Research', desc: SITE.desc, url: ORIGIN + '/', noindex: true, ld: [] }, '<div class="prerender"><h1>Page not found</h1><p><a href="/">Go to the Frequent Research home page</a></p></div>'));

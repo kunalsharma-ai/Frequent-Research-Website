@@ -17,8 +17,6 @@ const NAMED = [
   [/(^|\/)ldr-manish/i, "Manish Arora"],
   [/(^|\/)ldr-sachin/i, "Sachin Gupta"],
   [/(^|\/)ldr-devashish/i, "Devashish Roy"],
-  [/(^|\/)client-/i, "New client onboarding"],
-  [/(^|\/)vendor-/i, "New vendor onboarding"],
   [/(^|\/)(iso|cert)/i, "Certification badge"],
   [/(^|\/)qr|frequent-research-qr/i, "QR code"],
   [/(^|\/)esomar/i, "ESOMAR member badge"],

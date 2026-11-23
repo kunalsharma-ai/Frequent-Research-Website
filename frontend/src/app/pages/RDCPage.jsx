@@ -429,7 +429,7 @@ const RDC_FLOW = [
   ],
   [
     "Who do we need to speak to?",
-    ["Consumers", "Businesses", "Healthcare professionals", "Patients / caregivers", "Specialists", "Custom audiences"],
+    ["Consumers", "Businesses", "Teens (13–17, parental consent)", "Healthcare professionals", "Patients / caregivers", "Specialists", "Custom audiences"],
   ],
   ["Where?", ["Single market", "Multi-market", "Global"]],
   ["How?", ["Online", "Telephone", "Face-to-face", "Qualitative", "Hybrid"]],

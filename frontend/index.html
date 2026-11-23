@@ -8,6 +8,8 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 </script>
+<!-- Meta Pixel (build 82.9): set the Pixel ID with  node scripts/set-pixel.cjs <ID>  (empty = off). Loads after the page has loaded, so speed scores stay as they are; every page view in the site is sent. -->
+<script id="fr-pixel">(function(w,d){var ID="1070404625443177";if(!/^[0-9]{8,20}$/.test(ID)||navigator.webdriver||w.fbq)return;var f=w.fbq=function(){f.callMethod?f.callMethod.apply(f,arguments):f.queue.push(arguments)};w._fbq=f;f.push=f;f.loaded=!0;f.version="2.0";f.queue=[];f("init",ID);f("track","PageView");var last=location.pathname,pv=function(){if(location.pathname!==last){last=location.pathname;f("track","PageView")}};["pushState","replaceState"].forEach(function(k){var o=history[k];history[k]=function(){var r=o.apply(this,arguments);setTimeout(pv,0);return r}});w.addEventListener("popstate",function(){setTimeout(pv,0)});var go=function(){var s=d.createElement("script");s.async=!0;s.src="https://connect.facebook.net/en_US/fbevents.js";d.head.appendChild(s)},later=function(){setTimeout(function(){(w.requestIdleCallback||setTimeout)(go,{timeout:3000})},1500)};if(d.readyState==="complete")later();else w.addEventListener("load",later)})(window,document)</script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <!--fr:boot-->

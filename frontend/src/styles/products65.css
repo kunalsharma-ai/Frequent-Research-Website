@@ -239,3 +239,5 @@ html[data-theme=dark] .pr5-feats__list li svg{color:color-mix(in srgb,var(--p1) 
 .mega__products .frx-menu--all strong{display:block;font:800 1rem/1.2 Manrope,sans-serif;color:#0B1437}
 @media (max-width:860px){.frx-all__dots{width:90px;height:64px;gap:4px;padding:8px}.frx-all__dots i{width:14px;height:14px}}
 @media (prefers-reduced-motion:reduce){.frx-all__dots i{animation:none}}
+/* build 83.1: keep the 3-line height while Manrope loads (desktop layout shift 0.13 -> 0) */
+@media (min-width:901px){.pr5-hero__h{min-height:3.12em}}

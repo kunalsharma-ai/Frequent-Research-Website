@@ -6,11 +6,14 @@ import { CtaSection, PageHero } from '../shared/CoreParts.jsx';
 import { PanelMark } from './VerticalPage.jsx';
 import { PANELS_URL, portalJoinUrl } from './PortalPage.jsx';
 import { usePageMeta } from '../SiteApp.jsx';
+import { Panel83Css, Consent83, Quality83, Compare83 } from '../../design83/Panel83.jsx';
+
+const FR83 = { slug: 'portals', name: 'Frequent Research' };
 
 function PortalsPage() {
   usePageMeta(
     "Our Research Panels",
-    "Turn2Opinion, MyFrequentRewards and MyHealthOpinions: Frequent Research’s consumer, business and healthcare research panels.",
+    "Turn2Opinion, MyFrequentRewards and MyHealthOpinions: research panels for consumers, professionals, teens 13–17 (with a parent’s permission) and healthcare.",
   );
   return (
     <>
@@ -22,7 +25,7 @@ function PortalsPage() {
           },
         ],
         intro:
-          "Three communities, run by Frequent Research, where consumers, business professionals, healthcare professionals, patients and caregivers share their opinions and get rewarded for it.",
+          "Three communities, run by Frequent Research, where consumers, business professionals, teens (13 to 17, with a parent’s permission), healthcare professionals, patients and caregivers share their opinions and get rewarded for it.",
         children: (
           <div className="page-hero__ctas">
             <a className="btn btn--light btn--lg" href="#panels">
@@ -82,6 +85,9 @@ function PortalsPage() {
           </div>
         </div>
       </section>
+      <Panel83Css />
+      <Compare83 p={FR83} />
+      <Consent83 p={FR83} />
       <section className="section section--tint">
         <div className="container split">
           <h2 className="split__title">For researchers and brands</h2>
@@ -107,39 +113,7 @@ function PortalsPage() {
           </div>
         </div>
       </section>
-      <section className="section">
-        <div className="container">
-          <div className="section__head">
-            <h2>How our panels protect quality</h2>
-          </div>
-          <div className="reasons">
-            <div className="reason">
-              <h3>Verified sign-ups</h3>
-              <p>Email and phone verification, and professional verification for healthcare members.</p>
-            </div>
-            <div className="reason">
-              <h3>Detailed profiling</h3>
-              <p>Members complete profile surveys so invitations reach the right people.</p>
-            </div>
-            <div className="reason">
-              <h3>Quality scoring</h3>
-              <p>Response behaviour is scored, and low-quality or duplicate members are removed.</p>
-            </div>
-            <div className="reason">
-              <h3>Fair rewards</h3>
-              <p>Clear thresholds and reliable payouts keep members engaged and honest.</p>
-            </div>
-            <div className="reason">
-              <h3>Privacy & consent</h3>
-              <p>Members choose what they share, and data is used only for research.</p>
-            </div>
-            <div className="reason">
-              <h3>One company behind it</h3>
-              <p>All three panels are run by Frequent Research Fieldwork Solutions Pvt. Ltd.</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Quality83 p={FR83} />
       {l.jsx(CtaSection, {
         title: "Need respondents for your next study?",
         primary: {

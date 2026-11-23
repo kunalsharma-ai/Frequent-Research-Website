@@ -22,7 +22,7 @@ const FRE_AUD = {
     ic: "heart",
     tag: "For everyday shoppers, users and households",
     motto: ["Your opinion ", "pays."],
-    sub: "Answer short surveys from your phone or laptop and get rewarded for every opinion you share.",
+    sub: "Answer short surveys from your phone or laptop and get rewarded for eligible surveys you complete.",
     perks: [
       ["clock", "Surveys that fit your day"],
       ["trophy", "Rewards for completed surveys"],
@@ -45,6 +45,24 @@ const FRE_AUD = {
     ],
     panels: ["turn2opinion", "myfrequentrewards"],
     note: { turn2opinion: "For business professionals", myfrequentrewards: "For business professionals" },
+  },
+  /* build 82.9 (Kunal, 21 Nov 2026): the Teen panel, ages 13 to 17 with a parent or guardian's permission */
+  teen: {
+    k: "Teens",
+    tab: "Teen",
+    ic: "star",
+    tag: "For teens aged 13 to 17, with a parent or guardian’s permission",
+    motto: ["Big opinions. ", "Safe space."],
+    sub: "Short, age-appropriate surveys about games, music, apps, snacks and creators. A parent or guardian says yes first, then you do, and only then do surveys unlock.",
+    perks: [
+      ["shield", "Parent or guardian permission first"],
+      ["target", "Age-appropriate topics only"],
+      ["trophy", "Points for eligible surveys, with a guardian-managed payout where required"],
+    ],
+    panels: ["turn2opinion", "myfrequentrewards"],
+    note: { turn2opinion: "Teen panel · ages 13–17", myfrequentrewards: "Teens · ages 13–17" },
+    join: { turn2opinion: "https://www.turn2opinion.com/teen/", myfrequentrewards: "https://www.myfrequentrewards.com/paid-surveys-for-teens" },
+    steps: ["Teen signs up (13–17)", "Parent says yes and is verified", "Teen says yes too", "Take teen surveys"],
   },
   hcp: {
     k: "Health Professionals",
@@ -183,7 +201,32 @@ function FRE_VisPatient() {
     </div>
   );
 }
+function FRE_VisTeen() {
+  return (
+    <div className="fe-vis fe-vis--n" aria-hidden="true">
+      <div className="fe-teen">
+        <span className="fe-teen__ring" />
+        <span className="fe-teen__card">
+          <small>Teen survey · 4 min</small>
+          <b>Which game cover would you click?</b>
+          <span className="fe-teen__opts">
+            {["A", "B", "C"].map((t, i) => (
+              <i key={t} className={i === 2 ? "is-pick" : ""} style={{ "--i": i }}>{t}</i>
+            ))}
+          </span>
+        </span>
+        <span className="fe-teen__ok">
+          <FRK_I n="shield" s={15} /> Parent said yes
+        </span>
+      </div>
+      {["🎮", "🎧", "📱", "👟", "🍿", "📚"].map((t, i) => (
+        <b key={i} className="fe-teen__em" style={{ "--i": i }}>{t}</b>
+      ))}
+    </div>
+  );
+}
 function FRE_Visual({ aud }) {
+  if (aud === "teen") return <FRE_VisTeen />;
   if (aud === "hcp") return <FRE_VisHcp />;
   if (aud === "caregiver") return <FRE_VisCare />;
   if (aud === "patient") return <FRE_VisPatient />;
@@ -260,7 +303,7 @@ function FRE_Earn() {
   const A = FRE_AUD[aud];
   const all = fePanels();
   const panels = A.panels.map((s) => all.find((p) => p.slug === s)).filter(Boolean);
-  const steps = (all[0] && Array.isArray(all[0].steps) ? all[0].steps : []).slice(0, 4);
+  const steps = A.steps ? A.steps.map((t) => ({ t })) : (all[0] && Array.isArray(all[0].steps) ? all[0].steps : []).slice(0, 4);
   return (
     <section ref={ref} className={"fe fe--" + aud + (inV ? " is-in" : "")} aria-labelledby="fe-h">
       <div className="fe__bg" aria-hidden="true">
@@ -324,7 +367,7 @@ function FRE_Earn() {
               <small>{(A.note && A.note[p.slug]) || p.audience}</small>
               <p>{p.tagline}</p>
               <span className="fe-panels__act">
-                <a className="fe-join" href={p.joinUrl || p.url} target="_blank" rel="noopener noreferrer">
+                <a className="fe-join" href={(A.join && A.join[p.slug]) || p.joinUrl || p.url} target="_blank" rel="noopener noreferrer">
                   Join free <FRK_I n="arrow" s={14} />
                   <span className="frk-sr"> (opens {p.name} in a new tab)</span>
                 </a>

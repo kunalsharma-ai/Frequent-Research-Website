@@ -1,6 +1,6 @@
 {
   "name": "frequent-research-frontend",
-  "version": "82.7.0",
+  "version": "83.3.0",
   "private": true,
   "type": "module",
   "description": "Frequent Research website: React app built with Vite. Talks to the Express backend in ../backend through /api.",
@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "prerender": "node scripts/step.cjs 1 'search-engine pages (10-20 min)' && node scripts/prerender.cjs dist --origin https://www.frequentresearch.com && node scripts/step.cjs 2 'chat knowledge base' && node scripts/build-chat-kb.cjs dist public/data dist/data && node scripts/step.cjs 3 'llms.txt' && node scripts/make-llms.cjs dist --origin https://www.frequentresearch.com && node scripts/step.cjs 4 'first-screen copies of every page (60-90 min, the longest step)' && node scripts/phone-shell.cjs dist && node scripts/step.cjs 4b 'SEO pass (5-10 min)' && node scripts/seo-pass.cjs dist --origin https://www.frequentresearch.com && node scripts/step.cjs 5 'admin page index (10-20 min)' && node scripts/site-index.cjs dist && node scripts/step.cjs 5b 'Meta Pixel' && node scripts/meta-pixel.cjs dist && node scripts/step.cjs 6 'compressed copies' && node scripts/compress.cjs dist && node scripts/step.cjs done 'website ready in dist/'",
+    "prerender": "node scripts/step.cjs 1 'search-engine pages (10-20 min)' && node scripts/prerender.cjs dist --origin https://www.frequentresearch.com && node scripts/step.cjs 2 'chat knowledge base' && node scripts/build-chat-kb.cjs dist public/data dist/data && node scripts/step.cjs 3 'llms.txt' && node scripts/make-llms.cjs dist --origin https://www.frequentresearch.com && node scripts/step.cjs 4 'first-screen copies of every page (60-90 min, the longest step)' && node scripts/phone-shell.cjs dist && node scripts/step.cjs 4b 'SEO pass (5-10 min)' && node scripts/seo-pass.cjs dist --origin https://www.frequentresearch.com && node scripts/step.cjs 4c 'AI catalogs (1 min)' && node scripts/ai-catalog.cjs dist --origin https://www.frequentresearch.com && node scripts/step.cjs 5 'admin page index (10-20 min)' && node scripts/site-index.cjs dist && node scripts/step.cjs 6 'compressed copies' && node scripts/compress.cjs dist && node scripts/step.cjs done 'website ready in dist/'",
     "release": "vite build && npm run prerender",
     "admin-demo": "npm run preview-file && node scripts/make-admin-demo.cjs",
     "preview": "vite preview",

@@ -108,6 +108,7 @@ Key facts:
 - [SampAudience: Ask the world. Hear back.](https://www.frequentresearch.com/products/sampaudience)
 - [SampBidx: Paste the spec. Win the study.](https://www.frequentresearch.com/products/sampbidx)
 - [SampCode: Write. Run. Ship.](https://www.frequentresearch.com/products/sampcode)
+- [SampConnect: The private workspace for global research teams](https://www.frequentresearch.com/products/sampconnect)
 - [SampCrew: People, simplified.](https://www.frequentresearch.com/products/sampcrew)
 - [SampForce: Sell. Close. Grow.](https://www.frequentresearch.com/products/sampforce)
 - [SampTrek: Keep every project on track.](https://www.frequentresearch.com/products/sampledge)
@@ -117,9 +118,9 @@ Key facts:
 ## Research panels
 
 - [Our Research Panels](https://www.frequentresearch.com/portals)
-- [MyFrequentRewards | Consumer & Business Research Panel](https://www.frequentresearch.com/portals/myfrequentrewards)
+- [MyFrequentRewards | Consumer, Business & Teen Research Panel](https://www.frequentresearch.com/portals/myfrequentrewards)
 - [Healthcare Research Panel for HCPs | MyHealthOpinions](https://www.frequentresearch.com/portals/myhealthopinions)
-- [Turn2Opinion | Consumer and Business Research Panel](https://www.frequentresearch.com/portals/turn2opinion)
+- [Turn2Opinion | Consumer, Business & Teen Research Panel](https://www.frequentresearch.com/portals/turn2opinion)
 
 ## Government & public-sector research
 

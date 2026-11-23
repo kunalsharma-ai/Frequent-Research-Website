@@ -75,6 +75,45 @@ function pvForPath(path) {
   return home ? [home] : [];
 }
 
+/* Build 83.2 (Kunal, 22 Nov): ONE video per page for the red YouTube button and the "Watch this page" section at the
+   bottom, so both always play exactly the same video. Order: the super admin's Page video component
+   (GET /api/v1/page-videos?page=…), then the page's entry in Super admin → Page videos. Section videos (e.g. the
+   mission video on About us) stay as "Also on this page" in the pop-up. One request per page (cached). */
+const pvApiCache = new Map();
+function pvApi(path) {
+  const p = pvNorm(path);
+  if (!pvApiCache.has(p)) {
+    pvApiCache.set(p, typeof fetch === "undefined" ? Promise.resolve(null) : fetch("/api/v1/page-videos?page=" + encodeURIComponent(p), { credentials: "omit" })
+      .then((r) => (r.ok && /json/.test(r.headers.get("content-type") || "") ? r.json() : null))
+      .catch(() => null));
+  }
+  return pvApiCache.get(p);
+}
+function pvMainOf(list) { return list.find((e) => !e.section) || list[0] || null; }
+/* → { list: [entry to play, …others on the page], video: { url, title, description } | null, api } */
+async function pvPageVideo(path) {
+  const api = await pvApi(path);
+  const all = pvForPath(path);
+  const main = pvMainOf(all);
+  const others = all.filter((e) => e !== main);
+  const av = api && api.video && api.video.url && pvYt(api.video.url) ? api.video : null;
+  if (av) {
+    const e = main ? { ...main, url: av.url } : { id: "page", page: av.title || "This page", path, match: "exact", url: av.url, template: "spotlight", title: av.title || "", lede: av.description || "", points: [], cta: { label: "", to: "" } };
+    return { list: [e, ...others], video: av, api };
+  }
+  // build 83.3 merge: no video from the API, so the page's Studio 83 entry decides (the same one the red button opens)
+  try {
+    const m = await import('../../data/PageVideos83.js');
+    const l = m.pv83ForPath(path);
+    const e83 = l.find((e) => !e.section) || l[0];
+    if (e83) {
+      const v = e83.video;
+      return { list: main ? [main, ...others] : [], video: v && v.kind === "yt" ? { url: "https://youtu.be/" + v.id, title: "", description: e83.lede || "" } : null, api };
+    }
+  } catch (err) {}
+  return { list: main ? [main, ...others] : [], video: main ? { url: main.url, title: "", description: main.lede || "" } : null, api };
+}
+
 function PV_Logo({ s = 26 }) {
   return (
     <svg viewBox="0 0 28 20" width={s} height={(s * 20) / 28} aria-hidden="true" focusable="false">
@@ -438,6 +477,11 @@ function PV_Info({ t, e, onClose, others, onPick }) {
         <a className="pv-btn pv-btn--yt" href={PV_CHANNEL} target="_blank" rel="noopener noreferrer">
           <PV_Logo s={20} /> Subscribe
         </a>
+        {onClose ? (
+          <button type="button" className="pv-btn pv-btn--yt pv-btn--here" onClick={() => { onClose(); const h = document.querySelector(".w828-host"); h && setTimeout(() => h.scrollIntoView({ behavior: "smooth", block: "start" }), 60); }}>
+            ↓ Same video at the bottom of this page
+          </button>
+        ) : null}
       </div>
       {others.length ? (
         <div className="pv-more">
@@ -537,4 +581,4 @@ function PV_Theatre({ list, onClose }) {
   return ci && ci.createPortal ? ci.createPortal(node, document.body) : node;
 }
 
-export { PV_Logo, PV_SCENES, PV_Theatre, pvForPath, pvYt };
+export { PV_Logo, PV_SCENES, PV_Theatre, pvApi, pvForPath, pvPageVideo, pvYt };

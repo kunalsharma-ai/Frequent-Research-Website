@@ -1,9 +1,19 @@
-# Frequent Research website, build 82.7: go-live pack (start here)
+# Frequent Research website, build 82.9: go-live pack (start here)
 
-**Build 82.7 (14 November 2026) is the version to launch.** Developers: start with
-**`20-DEVELOPER-GO-LIVE-STEP-BY-STEP.md`** and the file **`frequent-research-GO-LIVE-build82.7.zip`**. It is a React + Vite
+**Build 82.9 (21 November 2026) is the version to launch.** Developers: start with
+**`20-DEVELOPER-GO-LIVE-STEP-BY-STEP.md`** and the file **`frequent-research-GO-LIVE-build82.9.zip`**. It is a React + Vite
 frontend and an Express + MongoDB backend in Node 24 containers (plus MongoDB), with the super admin panel at `/admin`.
-Everything you need is in this folder and next to it in `build82.7/`. What the recent builds added:
+Everything you need is in this folder and next to it in `build82.9/`. What the recent builds added:
+
+- **Build 82.9:** logo R fixed in dark mode, a switch to take the new client / vendor onboarding forms off the
+  website, first screens for the Sampledge product pages (phone 95–99), AI catalogs, the Meta Pixel loader, the teen panel
+  across the site and new portal heroes. See `23-BUILD-82.9.md`.
+
+- **Build 82.8: "Watch this page in one video" on every page.** Just above the footer of all 995 pages: an
+  animated section that presents the page's YouTube video in its own design, asks visitors to watch it to the end,
+  and to like, subscribe, follow and share (share sheet on phones; WhatsApp, LinkedIn, Facebook, X, e-mail, copy
+  link on computers). Every page has its own backdrop, headline animation, font, 3D object, action cards and
+  wording. Loads only near the bottom, so speed and SEO stay the same. Details: `22-WATCH-THIS-PAGE-VIDEO.md`.
 
 - **Build 82.7: SEO for an A+ SEOptimer audit.** One H1 per page, the whole page text readable to search engines
   and audit robots, alt text and sizes on every picture, local business and organisation structured data, a share

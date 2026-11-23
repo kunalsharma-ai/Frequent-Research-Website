@@ -46,7 +46,7 @@ const FRQ_PROFILES = [
       { k: "facebook", name: "Facebook", handle: "myhealthopinions", url: "https://www.facebook.com/myhealthopinions/", qr: "__QR:myhealthopinions-facebook__" },
       { k: "whatsapp", name: "WhatsApp support", handle: "+91 81782 00573", url: FRQ_WA, qr: "__QR:myhealthopinions-whatsapp__" },
     ] },
-  { slug: "turn2opinion", id: "t2o", name: "Turn2Opinion", who: "Consumers and business professionals", tag: "Turn your opinion into rewards.", c1: "#1E5BFF", c2: "#22D3EE", c0: "#071A4A", site: "https://www.turn2opinion.com/", siteQr: "__QR:panel-turn2opinion__",
+  { slug: "turn2opinion", id: "t2o", name: "Turn2Opinion", who: "Consumers, business professionals and teens 13–17", tag: "Turn your opinion into rewards.", c1: "#1E5BFF", c2: "#22D3EE", c0: "#071A4A", site: "https://www.turn2opinion.com/", siteQr: "__QR:panel-turn2opinion__",
     links: [
       { k: "youtube", name: "YouTube", handle: "@Turn2Opinion", url: "https://www.youtube.com/@Turn2Opinion", qr: "__QR:turn2opinion-youtube__" },
       { k: "instagram", name: "Instagram", handle: "@turn2opinion", url: "https://www.instagram.com/turn2opinion/", qr: "__QR:turn2opinion-instagram__" },
@@ -54,7 +54,7 @@ const FRQ_PROFILES = [
       { k: "facebook", name: "Facebook", handle: "tryturn2opinion", url: "https://www.facebook.com/tryturn2opinion", qr: "__QR:turn2opinion-facebook__" },
       { k: "whatsapp", name: "WhatsApp support", handle: "+91 81782 00573", url: FRQ_WA, qr: "__QR:turn2opinion-whatsapp__" },
     ] },
-  { slug: "myfrequentrewards", id: "mfr", name: "MyFrequentRewards", who: "Consumers and business professionals", tag: "Share your views. Earn every time.", c1: "#F59E0B", c2: "#F0457E", c0: "#3A1A03", site: "https://www.myfrequentrewards.com/", siteQr: "__QR:panel-myfrequentrewards__",
+  { slug: "myfrequentrewards", id: "mfr", name: "MyFrequentRewards", who: "Consumers, business professionals and teens 13–17", tag: "Share your views. Earn every time.", c1: "#F59E0B", c2: "#F0457E", c0: "#3A1A03", site: "https://www.myfrequentrewards.com/", siteQr: "__QR:panel-myfrequentrewards__",
     links: [
       { k: "youtube", name: "YouTube", handle: "@MyFrequentRewards", url: "https://www.youtube.com/@MyFrequentRewards", qr: "__QR:myfrequentrewards-youtube__" },
       { k: "instagram", name: "Instagram", handle: "@myfrequentrewards", url: "https://www.instagram.com/myfrequentrewards/", qr: "__QR:myfrequentrewards-instagram__" },
