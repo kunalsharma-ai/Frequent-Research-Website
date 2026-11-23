@@ -331,3 +331,12 @@ html.sx19-on{overflow:hidden}
 .sx19-btn:hover{transform:translateY(-2px)}
 .sx19-btn--ghost{background:rgba(255,255,255,.08);box-shadow:inset 0 0 0 1px rgba(255,255,255,.25)}
 @media (prefers-reduced-motion:reduce){.sx19 *{animation:none!important}html.sx19-on main{transition:none}}
+/* build 83.4: SampConnect tab of the home product switcher (Sampledge8.jsx SX8_Sc) */
+.sx8-sc--sampconnect{overflow:hidden}
+.sx8sc-img{position:absolute;inset:6% 6% auto;width:88%;height:auto;aspect-ratio:1600/1111;border-radius:14px;box-shadow:0 24px 50px -20px rgba(0,0,0,.7),0 0 0 1px rgba(143,224,182,.25);animation:sx8scIn .7s cubic-bezier(.2,.8,.2,1) both}
+.sx8sc-a{left:4%;bottom:16%;animation:sx8scChip 4.5s ease-in-out .3s infinite both}
+.sx8sc-b{right:4%;top:14%;animation:sx8scChip 4.5s ease-in-out 1.2s infinite both}
+.sx8sc-c{right:8%;bottom:5%;color:#FDE7B0;border-color:rgba(245,184,61,.45);animation:sx8scChip 4.5s ease-in-out 2.1s infinite both}
+@keyframes sx8scIn{from{opacity:0;transform:translateY(16px) scale(.97)}}
+@keyframes sx8scChip{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@media (prefers-reduced-motion:reduce){.sx8sc-img,.sx8sc-a,.sx8sc-b,.sx8sc-c{animation:none}}
