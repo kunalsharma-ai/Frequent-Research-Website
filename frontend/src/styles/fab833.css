@@ -1,0 +1,28 @@
+/* build 83.3: Rate & review, WhatsApp and live chat are three equal round icons (64 px) in one column,
+   same right edge, same gap. Their words show as a small bubble on hover / keyboard focus.
+   Loaded last (main.jsx) so it wins over chat-v51.css, floaters.css, site-reviews.css and perf.css.
+   Phones (720 px and below) keep the bottom dock (design58.css), so nothing here applies there. */
+@media (min-width:721px){
+  html body .fc-launch,html body a.fw,html body .rv-fab{right:24px;width:64px;height:64px;margin:0}
+  html body .fc-launch{bottom:calc(24px + env(safe-area-inset-bottom,0px));display:grid;place-items:center;gap:0;padding:0;border-radius:50%}
+  html body a.fw{bottom:calc(104px + env(safe-area-inset-bottom,0px));display:grid;place-items:center;gap:0}
+  html body .rv-fab{bottom:calc(184px + env(safe-area-inset-bottom,0px))}
+  /* the round faces */
+  html body .fc-launch__orb{width:54px;height:54px}
+  html body .fc-launch__orb img,html body .fc-launch__orb svg{max-width:38px}
+  html body .fw__orb{width:64px;height:64px}
+  html body .fc-launch__badge{left:auto;right:-4px;top:-4px}
+  /* words become hover bubbles, to the left of the circle, all styled alike */
+  html body .fc-launch__t{position:absolute;right:calc(100% + 10px);top:50%;padding:8px 14px;border-radius:14px;background:#fff;color:#0B1A6B;
+    box-shadow:0 14px 30px -14px rgba(13,20,64,.45),0 0 0 1px rgba(59,43,217,.22);white-space:nowrap;opacity:0;pointer-events:none;
+    transform:translate(10px,-50%);transition:opacity .25s,transform .3s cubic-bezier(.2,.8,.2,1)}
+  html body .fc-launch__t b{color:#0B1A6B}
+  html body .fc-launch__t small{color:#46508A}
+  html body .fc-launch:hover .fc-launch__t,html body .fc-launch:focus-visible .fc-launch__t{opacity:1;transform:translate(0,-50%)}
+  html body .fw__label{position:absolute;right:calc(100% + 10px);top:50%;transform:translate(10px,-50%)}
+  html body a.fw:hover .fw__label,html body a.fw:focus-visible .fw__label{transform:translate(0,-50%)}
+  html body .fc-launch.is-open{padding:0}
+}
+html[data-theme="dark"] body .fc-launch__t{background:#141B3D;color:#fff;box-shadow:0 14px 30px -14px rgba(0,0,0,.7),0 0 0 1px rgba(255,255,255,.14)}
+html[data-theme="dark"] body .fc-launch__t b{color:#fff}
+html[data-theme="dark"] body .fc-launch__t small{color:#C9D0F5}

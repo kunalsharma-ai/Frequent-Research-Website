@@ -761,11 +761,12 @@ const PORTALS = cmsList("portals", [
       support: "support@turn2opinion.com",
       accent: "research",
       monogram: "T2O",
-      audience: "Consumer & Business Research Panel",
-      audiences: ["Consumers", "Business professionals", "Decision-makers"],
+      audience: "Consumer, Business & Teen Research Panel",
+      audiences: ["Consumers", "Business professionals", "Decision-makers", "Teens 13–17 (with parent permission)"],
+      teen: { url: "https://www.turn2opinion.com/teen/", name: "Turn2Opinion Teen panel" },
       tagline: "Share your opinion. Shape better products. Get rewarded.",
       intro:
-        "Turn2Opinion is Frequent Research’s online community of consumers and business people. Members take part in surveys for brands, agencies, governments and institutions, and are rewarded for every opinion they share.",
+        "Turn2Opinion is Frequent Research’s online community of consumers, business people and, through its Teen panel, teens aged 13 to 17 with a parent or guardian’s permission. Members take part in surveys for brands, agencies, governments and institutions, and eligible, completed surveys earn rewards.",
       steps: [
         {
           t: "Sign up free",
@@ -805,6 +806,10 @@ const PORTALS = cmsList("portals", [
           t: "Profile-matched invitations",
           d: "A complete profile means more surveys that fit you.",
         },
+        {
+          t: "Teen panel, ages 13–17",
+          d: "Age-appropriate surveys for teens, opened only after a parent or guardian says yes.",
+        },
       ],
       rewards: ["PayPal", "Gift vouchers, including Amazon", "Direct account transfer (where available)"],
       topics: [
@@ -832,6 +837,10 @@ const PORTALS = cmsList("portals", [
           label: "Member FAQ",
           href: "https://www.turn2opinion.com/faq",
         },
+        {
+          label: "Teen panel (13–17)",
+          href: "https://www.turn2opinion.com/teen/",
+        },
       ],
       faqs: [
         {
@@ -840,7 +849,11 @@ const PORTALS = cmsList("portals", [
         },
         {
           q: "Who can join Turn2Opinion?",
-          a: "Consumers and business professionals with a valid email address and contact number. Some surveys are only open to certain profiles, such as job role or location.",
+          a: "Consumers and business professionals aged 18 or over with a valid email address and contact number, and teens aged 13 to 17 through the Teen panel with a parent or guardian’s permission. Some surveys are only open to certain profiles, such as job role or location.",
+        },
+        {
+          q: "Can teenagers join Turn2Opinion?",
+          a: "Yes. Teens aged 13 to 17 can join the Teen panel. A date of birth from 13 to 17 switches the sign-up to the teen route, a parent or legal guardian gives permission by email, and only then can the teen set a password and take age-appropriate surveys. Under 13 cannot join.",
         },
         {
           q: "How do I get more surveys?",
@@ -860,11 +873,12 @@ const PORTALS = cmsList("portals", [
       support: "support@myfrequentrewards.com",
       accent: "digital",
       monogram: "MFR",
-      audience: "Consumer & Business Research Panel",
-      audiences: ["Consumers", "Business professionals", "Members in 95+ countries"],
+      audience: "Consumer, Business & Teen Research Panel",
+      audiences: ["Consumers", "Business professionals", "Teens 13–17 (with parent permission)", "Members in 95+ countries"],
+      teen: { url: "https://www.myfrequentrewards.com/paid-surveys-for-teens", name: "MyFrequentRewards Teens" },
       tagline: "A worldwide survey community with a low reward threshold.",
       intro:
-        "MyFrequentRewards is Frequent Research’s worldwide consumer and business community. Members receive survey invitations matched to their profile and earn reward points they can redeem from a low threshold.",
+        "MyFrequentRewards is Frequent Research’s worldwide community of consumers, business professionals and teens aged 13 to 17 (with a parent or guardian’s permission). Members receive survey invitations matched to their profile and earn reward points they can redeem from a low threshold.",
       steps: [
         {
           t: "Register free",
@@ -912,6 +926,10 @@ const PORTALS = cmsList("portals", [
           t: "Secure & confidential",
           d: "Your information is protected and never sold.",
         },
+        {
+          t: "Teens 13–17 welcome",
+          d: "A parent or guardian says yes first; teens then get age-appropriate surveys and points.",
+        },
       ],
       rewards: ["PayPal", "UPI", "Direct bank transfer", "Gift vouchers"],
       topics: [
@@ -939,6 +957,10 @@ const PORTALS = cmsList("portals", [
         {
           q: "Which countries can join?",
           a: "Members from more than 95 countries can register free.",
+        },
+        {
+          q: "Can teenagers join MyFrequentRewards?",
+          a: "Yes, from age 13 to 17 with a parent or legal guardian’s permission. The parent says yes by email, completes a short onboarding and consent form, and then the teen gets a link to set a password. The teen gives their own yes too. Teen surveys are age-appropriate, and where required rewards go through a verified guardian-managed payout. Under 13 cannot join.",
         },
       ],
     },

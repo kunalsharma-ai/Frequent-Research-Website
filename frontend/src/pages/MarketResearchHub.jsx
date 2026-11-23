@@ -18,7 +18,7 @@ const MRH_FORM = "mrh-consult";
 
 const MRH_GROUPS = [
   ["Frame the decision", "compass", ["Research Consultancy", "Research Design Cycle"], "Start with the question worth answering."],
-  ["Reach the right people", "users", ["Consumer Panel", "Business Panel", "Healthcare Panel"], "Profiled consumers, verified decision-makers, healthcare professionals and patients."],
+  ["Reach the right people", "users", ["Consumer Panel", "Business Panel", "Healthcare Panel"], "Profiled consumers, verified decision-makers, teens with parental consent, healthcare professionals and patients."],
   ["Collect it well", "chat", ["Online Data Collection", "CATI — Computer-Assisted Telephone Interviewing", "Offline Data Collection"], "Online, telephone or face to face — whichever reaches the audience best."],
   ["Choose the method", "branch", ["Qualitative Research", "Quantitative Research"], "The why behind behaviour, and the numbers that size it."],
   ["Turn data into decisions", "bars", ["Data Processing & Analytics", "Reporting & Insights"], "Clean, analysed data and a story that recommends a next step."],

@@ -13,7 +13,7 @@
 .fe--professional .fe__bg i:first-child{background:linear-gradient(90deg,#fff 1px,transparent 1px) 0 0/34px 34px,linear-gradient(#fff 1px,transparent 1px) 0 0/34px 34px;opacity:.07}
 .fe__head{display:grid;justify-items:center;gap:16px;margin-bottom:34px;text-align:center}
 .fe__kick{display:inline-flex;align-items:center;gap:8px;padding:7px 14px;border-radius:999px;background:rgba(255,255,255,.12);box-shadow:inset 0 0 0 1px rgba(255,255,255,.22);color:var(--ink);font:800 .74rem var(--display);letter-spacing:.12em;text-transform:uppercase}
-.fe-switch{--n:5;--i:0;position:relative;display:grid;grid-template-columns:repeat(var(--n),minmax(0,1fr));width:min(860px,100%);padding:5px;border-radius:999px;background:rgba(0,0,0,.28);box-shadow:inset 0 0 0 1px rgba(255,255,255,.18)}
+.fe-switch{--n:5;--i:0;position:relative;display:grid;grid-template-columns:repeat(var(--n),minmax(0,1fr));width:min(980px,100%);padding:5px;border-radius:999px;background:rgba(0,0,0,.28);box-shadow:inset 0 0 0 1px rgba(255,255,255,.18)}
 .fe-switch__pill{position:absolute;top:5px;bottom:5px;left:5px;width:calc((100% - 10px)/var(--n));transform:translateX(calc(var(--i)*100%));border-radius:999px;background:linear-gradient(110deg,var(--a),var(--b));box-shadow:0 10px 24px -10px var(--a);transition:transform .55s cubic-bezier(.3,1.4,.5,1),background .6s}
 .fe-switch button{position:relative;z-index:1;display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 10px;border:0;border-radius:999px;background:none;color:rgba(255,255,255,.75);font:800 .92rem var(--display);cursor:pointer;white-space:nowrap}
 .fe-switch button.is-on{color:#fff}
@@ -125,3 +125,25 @@
 .fe-shield{position:absolute;left:4%;bottom:8%;display:inline-flex;align-items:center;gap:8px;padding:10px 16px;border-radius:999px;background:#fff;color:#06223F;font:800 .84rem var(--display);box-shadow:0 18px 30px -14px #000;animation:feBob 3.4s ease-in-out infinite reverse}
 .fe-shield .frk-i{color:var(--a)}
 @media (max-width:560px){.fe-care{transform:scale(.8)}.fe-note{display:none}.fe-role:nth-of-type(3){display:none}}
+
+/* build 82.9: Teen panel (ages 13 to 17, with a parent's permission) */
+.fe--teen{--a:#FF4FD8;--b:#7C3AED;--deep:#1A0838;--ink:#FFE4FB}
+.fe--teen .fe__bg i:first-child{background:radial-gradient(circle,#fff 1.2px,transparent 1.6px) 0 0/18px 18px,radial-gradient(circle,#FF4FD8 1px,transparent 1.5px) 9px 9px/18px 18px;opacity:.1}
+.fe-vis--n{position:relative;min-height:340px;display:grid;place-items:center}
+.fe-teen{position:relative;display:grid;place-items:center;width:300px;height:300px}
+.fe-teen__ring{position:absolute;inset:0;border-radius:50%;background:conic-gradient(from 0deg,#FF4FD8,#7C3AED,#22D3EE,#FFB020,#FF4FD8);-webkit-mask:radial-gradient(circle,transparent 62%,#000 63%);mask:radial-gradient(circle,transparent 62%,#000 63%);animation:feTeenSpin 8s linear infinite;opacity:.85}
+@keyframes feTeenSpin{to{transform:rotate(360deg)}}
+.fe-teen__card{position:relative;display:grid;gap:8px;width:220px;padding:16px;border-radius:20px;background:#fff;color:#1A0838;box-shadow:0 24px 50px -20px #000;transform:rotate(-4deg);animation:feTeenTilt 5s ease-in-out infinite}
+@keyframes feTeenTilt{50%{transform:rotate(3deg) translateY(-6px)}}
+.fe-teen__card small{font:700 .7rem var(--body);letter-spacing:.08em;text-transform:uppercase;color:#7C3AED}
+.fe-teen__card b{font:800 1rem/1.3 var(--display)}
+.fe-teen__opts{display:flex;gap:8px}
+.fe-teen__opts i{flex:1;height:54px;border-radius:12px;display:grid;place-items:center;font:800 1.1rem var(--display);font-style:normal;background:linear-gradient(135deg,#F3E8FF,#FCE7F3);color:#7C3AED;animation:feTeenOpt 4s ease-in-out calc(var(--i) * .2s) infinite}
+.fe-teen__opts i.is-pick{animation:feTeenPick 4s ease-in-out infinite}
+@keyframes feTeenOpt{50%{transform:translateY(-3px)}}
+@keyframes feTeenPick{0%,40%{background:linear-gradient(135deg,#F3E8FF,#FCE7F3);color:#7C3AED;transform:none}55%,100%{background:linear-gradient(135deg,#FF4FD8,#7C3AED);color:#fff;transform:scale(1.08)}}
+.fe-teen__ok{position:absolute;z-index:2;bottom:18px;right:-24px;display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border-radius:999px;background:#22C55E;color:#04210F;font:800 .78rem var(--display);box-shadow:0 12px 26px -10px #22C55E;animation:feTeenOk 4s ease-in-out infinite}
+@keyframes feTeenOk{0%,45%{opacity:0;transform:translateY(10px) scale(.8)}55%,100%{opacity:1;transform:none}}
+.fe-teen__em{position:absolute;left:50%;top:50%;font-size:26px;font-weight:400;transform:rotate(calc(var(--i) * 60deg)) translateX(170px) rotate(calc(var(--i) * -60deg));animation:feTeenEm 14s linear infinite}
+@keyframes feTeenEm{to{transform:rotate(calc(var(--i) * 60deg + 360deg)) translateX(170px) rotate(calc(var(--i) * -60deg - 360deg))}}
+@media (max-width:560px){.fe-teen{transform:scale(.82)}.fe-teen__em{display:none}}

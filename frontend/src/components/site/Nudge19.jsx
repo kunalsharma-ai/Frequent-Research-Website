@@ -2,6 +2,7 @@
  * Build 65 update 19 — Sampledge product pages: after the reader has scrolled a while (about two screens), the page
  * blurs and a pop-up invites them to the product's page on sampledge.com (Kunal, 1 Nov 2026). Once per product per
  * browser session; Esc, the backdrop or "Keep reading" closes it. Prefix SX19_, styles in sampledge8.css (sx19-).
+ * Build 83.2+: SampConnect uses it too (p.logo = its own logo, since it is not in the product list).
  * While it is open the page's own animations pause, so the blur costs one paint, not one per frame.
  */
 import * as ee from 'react';
@@ -60,7 +61,7 @@ function SX19_Nudge({ p }) {
         <button type="button" className="sx19-x" onClick={() => setOpen(false)} aria-label="Close">
           ×
         </button>
-        <span className="sx19-logo"><PR5_Logo p={p} tone="dark" h={70} /></span>
+        <span className="sx19-logo">{p.logo || <PR5_Logo p={p} tone="dark" h={70} />}</span>
         <span className="sx19-kick">Enjoying {p.short}?</span>
         <h2 id="sx19-h" className="sx19-h">
           Ready to start? <em>Visit sampledge.com</em>

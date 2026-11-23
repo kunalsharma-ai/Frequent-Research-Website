@@ -47,8 +47,8 @@ const AB5_ORBIT = [
 
 /* ── products & communities ───────────────────────────────────────────────────────── */
 const AB5_PANELS = [
-  { n: "Turn2Opinion", u: "https://www.turn2opinion.com/", img: () => FRK_LOGO_T2O, d: "Consumers & business professionals", y: "2017" },
-  { n: "MyFrequentRewards", u: "https://www.myfrequentrewards.com/", img: () => FRK_LOGO_MFR, d: "Consumers & business professionals", y: "2017" },
+  { n: "Turn2Opinion", u: "https://www.turn2opinion.com/", img: () => FRK_LOGO_T2O, d: "Consumers, professionals & teens", y: "2017" },
+  { n: "MyFrequentRewards", u: "https://www.myfrequentrewards.com/", img: () => FRK_LOGO_MFR, d: "Consumers, professionals & teens", y: "2017" },
   { n: "MyHealthOpinions", u: "https://www.myhealthopinions.com/", img: () => FRK_LOGO_MHO, d: "Healthcare professionals, patients & caregivers", y: "2018" },
 ];
 

@@ -109,6 +109,8 @@ import './design80/k80d.css';
 import './design81/hx81.css';
 import './design82/x82.css';
 import './styles/admin.css';
+// build 83.3: equal round floating buttons (last, so it wins)
+import './styles/fab833.css';
 // Build 74: the home page needs only the modules below (and what they import); the rest of the site is in full.jsx,
 // loaded by app/full.js (before the first render on any other page).
 import './app/cms.jsx';

@@ -11,6 +11,7 @@ import { cmsData } from '../app/cms.jsx';
 
 const OB82_DEF = {
   client: {
+    show: true, // build 82.9: No = the client card and footer link disappear from the whole website
     url: "https://newclient.frequentresearch.com",
     kicker: "New client",
     title: "Start your client onboarding",
@@ -20,6 +21,7 @@ const OB82_DEF = {
     steps: ["Company", "Address & Tax", "Contacts", "Commercial", "Documents", "Review & Terms", "Sign Agreement"],
   },
   vendor: {
+    show: true, // build 82.9: No = the vendor card and footer link disappear from the whole website
     url: "https://vendors.frequentresearch.com",
     kicker: "New vendor or partner",
     title: "Register as a vendor",
@@ -30,6 +32,8 @@ const OB82_DEF = {
   },
 };
 const OB82 = cmsData("onboarding-links", OB82_DEF);
+// build 82.9 (Kunal, 21 Nov): each form can be taken off the whole website in the super admin (show: No)
+const ob82On = (k) => !!(OB82[k] && OB82[k].show !== false && OB82[k].url);
 const ob82Host = (u) => {
   try {
     return new URL(u).host;
@@ -87,6 +91,8 @@ function OB82_Card({ kind, d, run }) {
 
 function OB82_Section({ id = "onboarding", tight }) {
   const [ref, v] = RC_useInView(0.15);
+  const kinds = ["client", "vendor"].filter(ob82On);
+  if (!kinds.length) return null;
   return (
     <section ref={ref} id={id} className={"ob82" + (v ? " is-in" : "") + (tight ? " ob82--tight" : "")} aria-labelledby={id + "-h"}>
       <div className="ob82__bg" aria-hidden="true">
@@ -104,17 +110,18 @@ function OB82_Section({ id = "onboarding", tight }) {
             Start working with <span className="ob82__grad">Frequent Research</span>
           </h2>
           <p>
-            New clients and new vendors complete their details in one secure online form. It takes a few minutes, and our
+            {kinds.length === 2 ? "New clients and new vendors complete" : kinds[0] === "client" ? "New clients complete" : "New vendors complete"} their details in one secure online form. It takes a few minutes, and our
             team picks it up straight away.
           </p>
         </div>
-        <div className="ob82__grid">
-          <OB82_Card kind="client" d={OB82.client} run={v} />
-          <OB82_Card kind="vendor" d={OB82.vendor} run={v} />
+        <div className="ob82__grid" style={kinds.length === 1 ? { gridTemplateColumns: "minmax(0,1fr)", maxWidth: 640, marginInline: "auto" } : undefined}>
+          {kinds.map((k) => (
+            <OB82_Card key={k} kind={k} d={OB82[k]} run={v} />
+          ))}
         </div>
       </div>
     </section>
   );
 }
 
-export { OB82, OB82_DEF, OB82_Section };
+export { OB82, OB82_DEF, OB82_Section, ob82On };

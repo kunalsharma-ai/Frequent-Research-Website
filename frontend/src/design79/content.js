@@ -25,7 +25,7 @@ export const D79 = cmsData("design79", {
     worldsText: "Every platform has its own specialists, its own tools and its own way of working, joined up by one project lead who speaks for all four.",
     reachKicker: "Our reach",
     reachTitle: "Real people. Real markets. Real answers.",
-    reachText: "Consumers, business professionals and healthcare experts from our own communities and vetted partners, with quality checks at every step.",
+    reachText: "Consumers, business professionals, teens (with parental consent) and healthcare experts from our own communities and vetted partners, with quality checks at every step.",
     panelsKicker: "Our own communities",
     panelsTitle: "The panels behind the data",
     industriesKicker: "Industries",

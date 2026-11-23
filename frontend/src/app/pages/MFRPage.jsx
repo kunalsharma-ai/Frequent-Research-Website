@@ -1,5 +1,6 @@
 import * as ee from 'react';
-import { HeroH1 } from '../shared/HeroH1.jsx';
+import { PortalHero829 } from '../../design82/Portal829.jsx';
+import { Panel83Css, TeenGuide83, Consent83, Quality83, Compare83, Faq83, faqAll } from '../../design83/Panel83.jsx';
 import { Link } from 'react-router-dom';
 import { PORTALS } from '../data/site.jsx';
 import { RC_I, RC_P, RC_Reveal, RC_useInView } from '../shared/Reveal.jsx';
@@ -11,6 +12,7 @@ const MFR_FEAS = "/lets-talk?type=audience";
 const MFR_STRIP = [
   ["users", "Consumers"],
   ["brief", "Business professionals"],
+  ["star", "Teens 13–17, with parent permission"],
   ["clipboard", "Market research participants"],
   ["target", "Profile-matched survey invitations"],
   ["award", "Reward-based participation"],
@@ -193,117 +195,6 @@ function MFR_Join({ p, cls = "btn btn--primary btn--lg", children }) {
     </a>
   );
 }
-function MFR_HeroArt() {
-  const [ref, v] = RC_useInView(0.2);
-  return (
-    <div
-      className={"mfr-art" + (v ? " is-in" : "")}
-      ref={ref}
-      role="img"
-      aria-label="Illustration: a member profile is matched to a research invitation, the member takes part in a survey, and eligible participation earns reward points"
-    >
-      <svg className="mfr-art__path" viewBox="0 0 520 440" aria-hidden="true" preserveAspectRatio="none">
-        <path d="M150 92 C 330 92 360 150 360 186 C 360 230 150 220 150 270 C 150 320 330 330 360 360" />
-        {[0, 1, 2].map((i) => (
-          <circle
-            key={i}
-            r="5"
-            className="mfr-art__dot"
-            style={{
-              offsetPath:
-                "path('M150 92 C 330 92 360 150 360 186 C 360 230 150 220 150 270 C 150 320 330 330 360 360')",
-              "--i": i,
-            }}
-          />
-        ))}
-      </svg>
-      <div
-        className="mfr-card mfr-card--profile"
-        style={{
-          "--i": 0,
-        }}
-        aria-hidden="true"
-      >
-        <span className="mfr-card__k">Member profile</span>
-        <div className="mfr-card__row">
-          <span className="mfr-av" />
-          <div>
-            <i className="mfr-ln" />
-            <i className="mfr-ln mfr-ln--s" />
-          </div>
-        </div>
-        <div className="mfr-card__chips">
-          <b>Consumer</b>
-          <b>Business</b>
-          <b>Interests</b>
-        </div>
-      </div>
-      <div
-        className="mfr-card mfr-card--invite"
-        style={{
-          "--i": 1,
-        }}
-        aria-hidden="true"
-      >
-        <span className="mfr-card__ic">
-          <RC_I n="mail" s={18} />
-        </span>
-        <div>
-          <span className="mfr-card__k">Research invitation</span>
-          <i className="mfr-ln" />
-        </div>
-        <span className="mfr-card__ping" />
-      </div>
-      <div
-        className="mfr-card mfr-card--survey"
-        style={{
-          "--i": 2,
-        }}
-        aria-hidden="true"
-      >
-        <span className="mfr-card__k">Survey participation</span>
-        {[0, 1].map((q) => (
-          <div key={q} className="mfr-q">
-            <i className="mfr-ln" />
-            <div>
-              {[0, 1, 2, 3].map((o) => (
-                <span
-                  key={o}
-                  className={o === (q ? 2 : 1) ? "is-on" : ""}
-                  style={{
-                    "--q": q,
-                  }}
-                />
-              ))}
-            </div>
-          </div>
-        ))}
-        <div className="mfr-prog">
-          <span />
-        </div>
-      </div>
-      <div
-        className="mfr-card mfr-card--reward"
-        style={{
-          "--i": 3,
-        }}
-        aria-hidden="true"
-      >
-        <svg viewBox="0 0 60 60">
-          <circle cx="30" cy="30" r="24" className="mfr-ring" />
-          <circle cx="30" cy="30" r="24" className="mfr-ring mfr-ring--on" />
-        </svg>
-        <div>
-          <span className="mfr-card__k">Reward points</span>
-          <strong>Eligible rewards</strong>
-        </div>
-        <span className="mfr-card__gift">
-          <RC_I n="gift" s={18} />
-        </span>
-      </div>
-    </div>
-  );
-}
 function MFR_Page({ p }) {
   const Faq = FaqList,
     Logo = PanelMark;
@@ -311,10 +202,11 @@ function MFR_Page({ p }) {
   const others = PORTALS.filter((x) => x.slug !== p.slug);
   const nav = [
     ["mfr-overview", "Overview"],
+    ["mfr-teen", "Teen Panel"],
     ["mfr-how", "How It Works"],
-    ["mfr-matching", "Matching"],
     ["mfr-rewards", "Rewards"],
     ["mfr-quality", "Quality"],
+    ["mfr-consent", "Consent"],
     ["mfr-privacy", "Privacy"],
     ["mfr-researchers", "For Researchers"],
     ["mfr-faq", "FAQ"],
@@ -372,9 +264,9 @@ function MFR_Page({ p }) {
   ee.useEffect(() => {
     window.scrollTo(0, 0);
     const url = "https://www.frequentresearch.com/portals/myfrequentrewards";
-    const title = "MyFrequentRewards | Consumer & Business Research Panel";
+    const title = "MyFrequentRewards | Consumer, Business & Teen Research Panel";
     const desc =
-      "Join MyFrequentRewards, Frequent Research's consumer and business research community. Take part in relevant studies and earn eligible rewards.";
+      "Join MyFrequentRewards, Frequent Research's consumer, business and teen (13–17, with parent permission) research community. Take part in studies and earn rewards.";
     const added = [];
     const meta = (attr, key, val) => {
       let el = document.head.querySelector(`meta[${attr}="${key}"]`);
@@ -449,7 +341,7 @@ function MFR_Page({ p }) {
       {
         "@context": "https://schema.org",
         "@type": "FAQPage",
-        mainEntity: faqs.map((f) => ({
+        mainEntity: faqAll(p, faqs).map((f) => ({
           "@type": "Question",
           name: f.q,
           acceptedAnswer: {
@@ -492,44 +384,8 @@ function MFR_Page({ p }) {
   const [fRef, fIn] = RC_useInView(0.2);
   return (
     <div className="mho t2o mfr rc">
-      <section className="mho-hero mfr-hero">
-        <div className="container mho-hero__in">
-          <div className="mho-hero__copy">
-            <nav className="crumbs mho-crumbs" aria-label="Breadcrumb">
-              <Link to="/">Home</Link>
-              <span>
-                <Link to="/portals">Portals</Link>
-              </span>
-              <span>
-                <span aria-current="page">MyFrequentRewards</span>
-              </span>
-            </nav>
-            <div className="mho-brand">
-              <Logo p={p} size="md" />
-              <span className="mho-brand__by">by Frequent Research</span>
-            </div>
-            <HeroH1 className="t2o-h1">
-              {"MyFrequentRewards "}
-              <span>Consumer & Business Research Panel</span>
-            </HeroH1>
-            <p className="t2o-claim">Share your opinions. Participate in research. Earn eligible rewards.</p>
-            <p className="mho-hero__lead">
-              MyFrequentRewards is Frequent Research's consumer and business research community. Share your opinions,
-              take part in relevant market research and earn eligible rewards, with research opportunities matched to
-              your profile.
-            </p>
-            <div className="mho-ctas">
-              <MFR_Join p={p} />
-            </div>
-            <p className="mfr-hero__res">
-              <RC_I n="brief" s={15} />
-              {"Researchers: "}
-              <Link to={MFR_FEAS}>Request audience feasibility</Link>
-            </p>
-          </div>
-          <MFR_HeroArt />
-        </div>
-      </section>
+      <Panel83Css />
+      <PortalHero829 p={p} Logo={Logo} join={<MFR_Join p={p} />} extra={<Link className="btn btn--ghost btn--lg mho-btn-ghost" to={MFR_FEAS}>Researchers: Request feasibility</Link>} />
       <nav className="rc-subnav od-subnav mho-subnav" aria-label="On this page">
         <div className="container rc-subnav__in">
           {nav.map(([id, t]) => (
@@ -592,6 +448,7 @@ function MFR_Page({ p }) {
           </ol>
         </div>
       </section>
+      <TeenGuide83 p={p} />
       <section className="mho-sec mho-sec--soft" id="mfr-how">
         <div className="container">
           <div className="mho-head">
@@ -797,19 +654,7 @@ function MFR_Page({ p }) {
             <h2>Built for Reliable Research Participation</h2>
             <p>Quality checks protect the value of every member's opinion and the research that depends on it.</p>
           </div>
-          <ol className={"mho-qflow mfr-qflow" + (qIn ? " is-in" : "")} ref={qRef}>
-            {MFR_QPIPE.map((t, i) => (
-              <li
-                key={t}
-                style={{
-                  "--i": i,
-                }}
-              >
-                <span>{i + 1}</span>
-                {t}
-              </li>
-            ))}
-          </ol>
+          <Quality83 p={p} bare />
           <ul className="mfr-prac">
             {MFR_QPRAC.map((x) => (
               <li key={x}>
@@ -820,6 +665,7 @@ function MFR_Page({ p }) {
           </ul>
         </div>
       </section>
+      <Consent83 p={p} />
       <section className="mho-sec mho-sec--ink" id="mfr-privacy">
         <div className="container t2o-priv">
           <div>
@@ -874,7 +720,7 @@ function MFR_Page({ p }) {
             <h2>Two Communities. One Research Platform.</h2>
             <p>
               MyFrequentRewards brings consumers and business professionals together in one worldwide research
-              community. These are audience categories, not a guarantee of study availability.
+              community, and now welcomes teens aged 13 to 17 with a parent or guardian’s permission. These are audience categories, not a guarantee of study availability.
             </p>
           </div>
           <div className="mfr-two">
@@ -923,7 +769,7 @@ function MFR_Page({ p }) {
               <span className="mho-k mho-k--light">For researchers & brands</span>
               <h2 id="mfr-res-h">For Researchers, Brands & Organizations</h2>
               <p className="mho-lead mho-lead--light">
-                Need to reach consumers or business professionals for your next research project? Frequent Research can
+                Need to reach consumers, business professionals or teens (with parental consent) for your next research project? Frequent Research can
                 help assess audience feasibility and connect research teams with relevant panel communities.
               </p>
               <ul className="mfr-res__feat">
@@ -1006,18 +852,13 @@ function MFR_Page({ p }) {
           </div>
         </div>
       </section>
-      <section className="section section--tint" id="mfr-faq">
-        <div className="container split">
-          <h2 className="split__title">MyFrequentRewards member FAQ</h2>
-          <div className="split__body">
-            <Faq items={faqs} />
+      <Faq83 p={p} Faq={Faq} general={faqs} after={
             <p className="mho-note">
               {"Questions about your account? Email "}
               <a href={"mailto:" + p.support}>{p.support}</a>.
             </p>
-          </div>
-        </div>
-      </section>
+          } />
+      <Compare83 p={p} />
       <section className="mho-sec">
         <div className="container">
           <div className="mho-head">
@@ -1051,7 +892,7 @@ function MFR_Page({ p }) {
             <Link to={MFR_FEAS}>Request audience feasibility</Link>
           </p>
           <p className="mfr-cta__s">
-            {"MyFrequentRewards \xB7 Consumer & Business Research Panel \xB7 "}
+            {"MyFrequentRewards \xB7 Consumer, Business & Teen Research Panel \xB7 "}
             <a href={"mailto:" + p.support}>{p.support}</a>
           </p>
         </div>

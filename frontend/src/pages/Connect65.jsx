@@ -16,7 +16,6 @@ import { dmMeta } from '../components/dm/shared.jsx';
 import { FRK_I, FRK_LOGO_MFR, FRK_LOGO_MHO, FRK_LOGO_SAM_WHITE, FRK_LOGO_T2O } from '../components/site/FrKit.jsx';
 import { K5_Count, K5_Sec, K5_Words, k5Reduce, k5Sfx } from '../components/site/Kit65.jsx';
 import { FRL_Plate } from '../components/site/Logos13.jsx';
-import { OB82_Section } from '../design82/Ob82.jsx';
 import { FRQ_DIRECT, FRQ_Icon, FRQ_PCOL, FRQ_PROFILES, FRQ_SAMPLEDGE, FRQ_SOCIAL, cqHost, frqFile } from './Connect.jsx';
 
 const CQ5_FR_SITE = { k: "web", name: "Official website", handle: "frequentresearch.com", url: "https://www.frequentresearch.com/", qr: "__QR:site-frequentresearch__" };
@@ -365,7 +364,6 @@ function CQ5_Page() {
           </p>
         </div>
       </K5_Sec>
-      <OB82_Section id="cq5-onboarding" tight />
     </div>
   );
 }

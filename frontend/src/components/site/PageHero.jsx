@@ -98,7 +98,7 @@ function PH_ArtPortals() {
       {Array.from({ length: 10 }, (_, k) => (
         <i key={k} className="ph-portals__dot" style={{ "--k": k }} />
       ))}
-      {["Consumers", "Professionals", "HCPs"].map((t, k) => (
+      {["Consumers", "Professionals", "Teens", "HCPs"].map((t, k) => (
         <em key={t} className="ph-portals__tag" style={{ "--k": k }}>
           + {t}
         </em>

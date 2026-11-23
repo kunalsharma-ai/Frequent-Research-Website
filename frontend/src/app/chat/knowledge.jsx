@@ -246,7 +246,7 @@ addAnswer(
     "gift voucher",
     "paypal",
   ],
-  "You can join our research panels for free and get rewarded for sharing your opinion: Turn2Opinion and MyFrequentRewards for consumers and business professionals, and MyHealthOpinions for healthcare professionals, patients and caregivers.",
+  "You can join our research panels for free and get rewarded for sharing your opinion: Turn2Opinion and MyFrequentRewards for consumers, business professionals and teens aged 13 to 17 (teens join the Teen panel with a parent or guardian’s permission), and MyHealthOpinions for healthcare professionals, patients and caregivers.",
   PORTALS.map((t) => ({
     label: t.name,
     to: `/portals/${t.slug}`,

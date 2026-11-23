@@ -1,5 +1,6 @@
 import * as ee from 'react';
-import { HeroH1 } from '../shared/HeroH1.jsx';
+import { PortalHero829 } from '../../design82/Portal829.jsx';
+import { Panel83Css, TeenGuide83, Consent83, Quality83, Compare83, Faq83, faqAll } from '../../design83/Panel83.jsx';
 import { Link } from 'react-router-dom';
 import { PORTALS } from '../data/site.jsx';
 import { RC_I, RC_P, RC_Reveal, RC_useInView } from '../shared/Reveal.jsx';
@@ -12,6 +13,7 @@ const T2O_FEAS = "/lets-talk?type=audience";
 const T2O_TRUST = [
   ["users", "Consumer Voices", "Reach people across everyday categories and experiences."],
   ["brief", "Business Professionals", "Connect with professionals and decision-makers relevant to research."],
+  ["star", "Teen Panel, 13–17", "Teens join with a parent or guardian’s permission and get age-appropriate surveys."],
   ["clipboard", "Research Participation", "Take part in surveys across a range of market-research topics."],
   [
     "gift",
@@ -218,159 +220,6 @@ function T2O_Join({ p, cls = "btn btn--primary btn--lg", children }) {
     </a>
   );
 }
-function T2O_HeroArt() {
-  const [ref, v] = RC_useInView(0.2);
-  const P = (x, y, c, brief) => (
-    <g>
-      <circle cx={x} cy={y} r="26" fill="#fff" stroke="#C9D6FB" strokeWidth="1.5" />
-      <circle cx={x} cy={y - 7} r="8" fill={c} />
-      <path d={`M${x - 13} ${y + 15}a13 11 0 0 1 26 0`} fill={c} />
-      {brief && (
-        <rect x={x + 12} y={y + 8} width="14" height="10" rx="2" fill="#F5A524" stroke="#fff" strokeWidth="1.5" />
-      )}
-    </g>
-  );
-  return (
-    <div className={"t2o-art" + (v ? " is-in" : "")} ref={ref}>
-      <svg
-        viewBox="0 0 560 420"
-        className="t2o-art__svg"
-        role="img"
-        aria-label="Illustration: consumers and business professionals share opinions through surveys, research turns them into better decisions, and eligible participants receive rewards"
-      >
-        <path d="M70 210 C 150 210 150 120 250 120 S 360 210 440 210" className="t2o-art__path" />
-        <path d="M70 210 C 150 210 150 300 250 300 S 360 210 440 210" className="t2o-art__path t2o-art__path--b" />
-        {[0, 1, 2].map((i) => (
-          <circle
-            key={i}
-            r="4.5"
-            className="t2o-art__dot"
-            style={{
-              offsetPath: "path('M70 210 C 150 210 150 120 250 120 S 360 210 440 210')",
-              "--i": i,
-            }}
-          />
-        ))}
-        {[0, 1].map((i) => (
-          <circle
-            key={"b" + i}
-            r="4.5"
-            className="t2o-art__dot t2o-art__dot--b"
-            style={{
-              offsetPath: "path('M70 210 C 150 210 150 300 250 300 S 360 210 440 210')",
-              "--i": i + 0.5,
-            }}
-          />
-        ))}
-        <g
-          className="t2o-art__grp"
-          style={{
-            "--i": 0,
-          }}
-        >
-          {P(52, 132, "#1E5BFF")}
-          {P(108, 186, "#0E9C88", true)}
-          {P(46, 242, "#F5A524")}
-          {P(104, 292, "#5A3FE0", true)}
-          <text x="76" y="350" textAnchor="middle" className="t2o-art__lab">
-            People
-          </text>
-        </g>
-        <g
-          className="t2o-art__grp"
-          style={{
-            "--i": 1,
-          }}
-        >
-          <rect x="184" y="64" width="132" height="44" rx="16" className="t2o-art__bub" />
-          <path d="M204 108l-4 14 16-14z" className="t2o-art__bub" />
-          <rect x="200" y="80" width="80" height="7" rx="3.5" fill="#fff" opacity=".85" />
-          <rect x="200" y="92" width="52" height="6" rx="3" fill="#fff" opacity=".5" />
-          <text x="250" y="56" textAnchor="middle" className="t2o-art__lab">
-            Opinions
-          </text>
-        </g>
-        <g
-          className="t2o-art__grp"
-          style={{
-            "--i": 2,
-          }}
-        >
-          <rect x="190" y="248" width="120" height="104" rx="14" className="t2o-art__card" />
-          {[0, 1, 2].map((r) => (
-            <g key={r}>
-              <rect x="204" y={264 + r * 26} width="56" height="6" rx="3" fill="#C9D6FB" />
-              {[0, 1, 2].map((c) => (
-                <circle
-                  key={c}
-                  cx={206 + c * 16}
-                  cy={280 + r * 26}
-                  r="5"
-                  fill="none"
-                  stroke="#9DB7FF"
-                  strokeWidth="1.5"
-                />
-              ))}
-              <circle
-                cx={206 + ((r + 1) % 3) * 16}
-                cy={280 + r * 26}
-                r="3"
-                className="t2o-art__pick"
-                style={{
-                  "--r": r,
-                }}
-              />
-            </g>
-          ))}
-          <text x="250" y="374" textAnchor="middle" className="t2o-art__lab">
-            Research
-          </text>
-        </g>
-        <g
-          className="t2o-art__grp"
-          style={{
-            "--i": 3,
-          }}
-        >
-          <circle cx="440" cy="210" r="46" className="t2o-art__hub" />
-          <path
-            d="M422 210l12 12 24-26"
-            fill="none"
-            stroke="#fff"
-            strokeWidth="6"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            className="t2o-art__tick"
-          />
-          <circle cx="440" cy="210" r="46" className="t2o-art__ring" />
-          <text x="440" y="280" textAnchor="middle" className="t2o-art__lab">
-            Better decisions
-          </text>
-        </g>
-        <g
-          className="t2o-art__grp t2o-art__gift"
-          style={{
-            "--i": 4,
-          }}
-        >
-          <rect x="492" y="100" width="44" height="34" rx="6" fill="#F5A524" />
-          <rect x="488" y="92" width="52" height="12" rx="4" fill="#F7B84B" />
-          <rect x="510" y="92" width="8" height="42" fill="#fff" opacity=".85" />
-          <text x="514" y="156" textAnchor="middle" className="t2o-art__lab t2o-art__lab--s">
-            Rewards
-          </text>
-          <path
-            d="M476 180 C 490 160 500 160 508 140"
-            fill="none"
-            stroke="#F5A524"
-            strokeWidth="2"
-            strokeDasharray="4 5"
-          />
-        </g>
-      </svg>
-    </div>
-  );
-}
 function T2O_Page({ p }) {
   const Faq = FaqList,
     Logo = PanelMark;
@@ -379,9 +228,10 @@ function T2O_Page({ p }) {
   const L = Object.fromEntries((p.links || []).map((x) => [x.label, x.href]));
   const nav = [
     ["t2o-overview", "Overview"],
+    ["t2o-teen", "Teen Panel"],
     ["t2o-how", "How It Works"],
-    ["t2o-matching", "Matching"],
     ["t2o-quality", "Quality"],
+    ["t2o-consent", "Consent"],
     ["t2o-privacy", "Privacy"],
     ["t2o-rewards", "Rewards"],
     ["t2o-researchers", "For Researchers"],
@@ -394,7 +244,7 @@ function T2O_Page({ p }) {
     },
     {
       q: "Who can join Turn2Opinion?",
-      a: "Consumers and business professionals who meet the registration requirements, including a valid email address and contact number. Some surveys are only open to certain profiles, such as job role or location.",
+      a: "Consumers and business professionals aged 18 or over who meet the registration requirements, including a valid email address and contact number, and teens aged 13 to 17 through the Teen panel with a parent or guardian’s permission. Some surveys are only open to certain profiles, such as job role or location.",
     },
     {
       q: "How do I get more survey opportunities?",
@@ -436,9 +286,9 @@ function T2O_Page({ p }) {
   ee.useEffect(() => {
     window.scrollTo(0, 0);
     const url = "https://www.frequentresearch.com/portals/turn2opinion";
-    const title = "Turn2Opinion | Consumer and Business Research Panel";
+    const title = "Turn2Opinion | Consumer, Business & Teen Research Panel";
     const desc =
-      "Join Turn2Opinion free: a consumer and business research panel where members take part in market research surveys and earn rewards for eligible participation.";
+      "Join Turn2Opinion free: a consumer, business and teen (13–17, with parent permission) research panel. Take part in market research surveys and earn rewards.";
     const added = [];
     const meta = (attr, key, val) => {
       let el = document.head.querySelector(`meta[${attr}="${key}"]`);
@@ -505,7 +355,7 @@ function T2O_Page({ p }) {
       {
         "@context": "https://schema.org",
         "@type": "FAQPage",
-        mainEntity: faqs.map((f) => ({
+        mainEntity: faqAll(p, faqs).map((f) => ({
           "@type": "Question",
           name: f.q,
           acceptedAnswer: {
@@ -551,54 +401,8 @@ function T2O_Page({ p }) {
   );
   return (
     <div className="mho t2o rc">
-      <section className="mho-hero t2o-hero">
-        <div className="container mho-hero__in">
-          <div className="mho-hero__copy">
-            <nav className="crumbs mho-crumbs" aria-label="Breadcrumb">
-              <Link to="/">Home</Link>
-              <span>
-                <Link to="/portals">Portals</Link>
-              </span>
-              <span>
-                <span aria-current="page">Turn2Opinion</span>
-              </span>
-            </nav>
-            <div className="mho-brand">
-              <Logo p={p} size="md" />
-              <span className="mho-brand__by">by Frequent Research</span>
-            </div>
-            <HeroH1 className="t2o-h1">
-              {"Turn2Opinion "}
-              <span>Consumer & Business Research Panel</span>
-            </HeroH1>
-            <p className="t2o-claim">Share your opinion. Shape better products. Get rewarded.</p>
-            <p className="mho-hero__lead">
-              Turn2Opinion is Frequent Research's online community of consumers and business professionals. Members take
-              part in market research surveys for brands, agencies, governments and institutions, and receive rewards
-              for eligible participation.
-            </p>
-            <div className="mho-ctas">
-              <T2O_Join p={p} />
-              <Link className="btn btn--ghost btn--lg mho-btn-ghost" to={T2O_FEAS}>
-                Researchers: Request Feasibility
-              </Link>
-            </div>
-            <ul className="mho-chips" aria-label="Who can join">
-              {[
-                ["users", "Consumers"],
-                ["brief", "Business Professionals"],
-                ["crown", "Decision-Makers"],
-              ].map(([ic, t]) => (
-                <li key={t}>
-                  <RC_I n={RC_P[ic] ? ic : "user"} s={15} />
-                  {t}
-                </li>
-              ))}
-            </ul>
-          </div>
-          <T2O_HeroArt />
-        </div>
-      </section>
+      <Panel83Css />
+      <PortalHero829 p={p} Logo={Logo} join={<T2O_Join p={p} />} extra={<Link className="btn btn--ghost btn--lg mho-btn-ghost" to={T2O_FEAS}>Researchers: Request Feasibility</Link>} />
       <nav className="rc-subnav od-subnav mho-subnav" aria-label="On this page">
         <div className="container rc-subnav__in">
           {nav.map(([id, t]) => (
@@ -611,7 +415,7 @@ function T2O_Page({ p }) {
       <section className="t2o-trust" aria-labelledby="t2o-trust-h">
         <div className="container">
           <h2 id="t2o-trust-h" className="t2o-trust__h">
-            Built for Consumer & Business Research
+            Built for Consumer, Business & Teen Research
           </h2>
           <ul>
             {T2O_TRUST.map(([ic, t, d]) => (
@@ -667,6 +471,7 @@ function T2O_Page({ p }) {
           </ol>
         </div>
       </section>
+      <TeenGuide83 p={p} />
       <section className="mho-sec mho-sec--soft">
         <div className="container">
           <div className="mho-head">
@@ -902,19 +707,7 @@ function T2O_Page({ p }) {
               registration to the review of survey responses.
             </p>
           </div>
-          <ol className={"mho-qflow t2o-qflow" + (qIn ? " is-in" : "")} ref={qRef}>
-            {T2O_QPIPE.map((t, i) => (
-              <li
-                key={t}
-                style={{
-                  "--i": i,
-                }}
-              >
-                <span>{i + 1}</span>
-                {t}
-              </li>
-            ))}
-          </ol>
+          <Quality83 p={p} bare />
           <div className="t2o-q">
             <div>
               <h3>Multiple Layers of Quality Protection</h3>
@@ -957,6 +750,7 @@ function T2O_Page({ p }) {
           </div>
         </div>
       </section>
+      <Consent83 p={p} />
       <section className="mho-sec mho-sec--ink" id="t2o-privacy">
         <div className="container t2o-priv">
           <div>
@@ -1161,20 +955,15 @@ function T2O_Page({ p }) {
           </div>
         </div>
       </section>
-      <section className="section section--tint" id="t2o-faq">
-        <div className="container split">
-          <h2 className="split__title">Turn2Opinion member FAQ</h2>
-          <div className="split__body">
-            <Faq items={faqs} />
+      <Faq83 p={p} Faq={Faq} general={faqs} after={
             <p className="mho-note">
               {"More answers in the "}
               <Ext href={L["Member FAQ"]}>Member FAQ</Ext>
               {". Technical problem? Email "}
               <a href={"mailto:" + p.support}>{p.support}</a>.
             </p>
-          </div>
-        </div>
-      </section>
+          } />
+      <Compare83 p={p} />
       <section className="mho-sec">
         <div className="container">
           <div className="mho-head">

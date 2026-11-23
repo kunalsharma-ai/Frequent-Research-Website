@@ -1,5 +1,90 @@
 # Frequent Research website: change log
 
+## 2026-11-22 · Build 83.3: equal round floating buttons, SampConnect pop-up to Sampledge
+
+Kunal (22 Nov). Built on 83.2. Full detail: `docs/go-live/27-BUILD-83.3.md`.
+
+- Rate & review, WhatsApp and live chat are now three equal 64 px round icons in one straight column (same right edge,
+  same gap). Their words show as a small bubble on hover. Phones keep the bottom dock. File: `frontend/src/styles/fab833.css`.
+- SampConnect page: after about two screens of scrolling, the same pop-up as the other Sampledge products appears, with the
+  SampConnect logo and a button to sampledge.com (once per visit).
+- Footer: the SampConnect and YouTube cards (added in 83.1) are removed (Kunal, 23 Nov).
+
+## 2026-11-22 · Build 83.2: onboarding removed, SampConnect redesigned, one video per page
+
+Kunal (22 Nov). Built on 83.1. Full detail: `docs/go-live/26-BUILD-83.2.md`.
+
+- New client and new vendor onboarding forms, cards and links removed from the whole website (home, Let's talk, Connect,
+  footer); super admin menu entry "Onboarding links on the site" removed.
+- SampConnect page redesigned: the showcase's 3D globe hero (three.js, loaded after the page) and a moving visual in every section.
+- The red YouTube button and the bottom "Watch this page" section now play exactly the same video (one source).
+
+## 2026-11-21 · Build 83.1: SampConnect product page, new footer, panel sections removed
+
+Kunal's brief "Complete Website Redesign, Product Integration & Performance Optimization". Built on 83.
+Full detail: `docs/go-live/25-BUILD-83.1.md`.
+
+- New `/products/sampconnect` page from the SampConnect showcase (rebuilt in the site design, 30 real screens).
+- SampConnect replaces "All 7 together" in the Products menu; spotlight on Products and home.
+- Footer: SampConnect logo card and YouTube card. The SampConnect page video is set in the super admin (no URL in code).
+- Consumers/Professionals/Teens cards, "who takes part" blocks, menu entry and home panel switcher removed (Portals kept).
+
+## 2026-11-21 · Build 83: Consumers, Professionals and Teens as three equal panel categories
+
+Kunal's brief "Complete Website Redesign & Team Panel Integration" ("Team" = Teen panel, confirmed). Built on 82.9.
+Full detail and the list of gaps to confirm: `docs/go-live/24-BUILD-83.md`.
+
+- Turn2Opinion and MyFrequentRewards: three equal category cards, full Teen panel guide (12 steps, required vs
+  optional, if it does not complete, privacy, rewards), consent and responsibilities, quality per stage, 6-tab FAQ,
+  T2O vs MFR comparison. Information only: no registration screens; links go to the existing teen pages.
+- Portals page, 9 market research service pages ("who takes part"), header Portals menu and footer links.
+- Wording aligned with the MINOR-2026.10 terms (guardian-managed payout "where required", privacy wording).
+
+## 2026-11-21 · Build 82.9: logo fix, onboarding switch, speed, AI catalogs, Meta Pixel, teen panel, new portal heroes
+
+Kunal (21 Nov). Built on build 82.8. Full detail: `docs/go-live/23-BUILD-82.9.md`.
+
+- **Logo:** the broken leg of the silver "R" in the dark-mode logo files is restored (design, letters and colours
+  unchanged, still transparent, no plate).
+- **Onboarding forms switch:** super admin → Onboarding links on the site → client / vendor → show: No takes that
+  form's card and footer link off the whole website.
+- **Speed:** the 7 Sampledge product pages get a ready-made first screen like every other page (their shadow-root
+  product hero is copied too). Phone 27 → 95–99, desktop 50 → 99.
+- **AI catalogs:** `/catalog.json`, `/llms-full.txt`, AI section in `/llms.txt`, AI robots named in `/robots.txt`,
+  schema.org OfferCatalog on home, All services, team pages and Products (`scripts/ai-catalog.cjs`).
+- **Meta Pixel:** loader on every page right after the Google tag, PageView on every page and in-site page change,
+  loads after the page; off until the ID is set with `node scripts/set-pixel.cjs <ID> dist`.
+- **Google tag GTM-TDDKS62:** checked, once per page, right after `<head>`.
+- **Teen panel (13–17, parent or guardian permission):** information only, linking to the existing Turn2Opinion and
+  MyFrequentRewards teen pages. It is added to the panel data, the portal pages (a new Teen panel section with the 6-step process and
+  safeguards, plus hero, FAQs, features and titles), a new Teen tab in "Join our research panels", the Portals page, and the
+  about, reach, market research, data collection, quality and Scan & Connect pages, and to the chat assistant. No sign-up screens were built.
+- **Portal heroes:** new full-width moving heroes for Turn2Opinion ("opinion engine"), MyFrequentRewards ("reward
+  vault") and MyHealthOpinions ("pulse of care"), each with its own palette, type and headline animation
+  (`src/design82/Portal829.jsx`).
+
+## 2026-11-21 · Build 82.8: "Watch this page in one video" at the bottom of every page
+
+Kunal (21 Nov): at the bottom of each page, present the page's YouTube video, persuade visitors to watch the whole
+video for clarity, and ask them to like, follow, subscribe and share; a separate, attractive and different design on
+every page, with animated headline, 3D graphics, HD pictures, icons, moving elements and varied colours and fonts.
+Built on build 82.7. Everything above the new section (design, animations, logo, PageSpeed approach, SEO, one H1) is
+unchanged; the celebration banner still stays 10 seconds.
+
+- **New section on all 995 pages** (`src/design82/Watch828.jsx`, `watch828.css`), just above the footer: YouTube
+  pill, animated headline naming the page, why-watch line and three reasons, a moving 3D object, the page's video in
+  its own Page video component design (HD YouTube cover, plays in place), "Watch the full video on YouTube" and
+  "Subscribe to our channel" buttons, "watch it to the end" line, and four action cards: Like, Subscribe, Follow
+  (LinkedIn, Facebook, Instagram, X), Share (phone share sheet, or WhatsApp, LinkedIn, Facebook, X, e-mail, copy link).
+- **Unique design per page:** 12 backdrops × 8 headline animations × 5 fonts × 6 action decks × 8 3D objects × 10
+  wordings, coloured with the page's palette; no two pages share a combination (`scripts/make-watch-data.cjs` →
+  `public/data/pv/`). The player inside is the page's own unique design from 82.5/82.6.
+- **Video:** the Page video component's video for the page (super admin), else the page's red YouTube button video.
+- **Speed:** loads 1.5 s after page load and only near the bottom; loops are transform/opacity only and pause off
+  screen; reduce-motion respected; main script +0.3 KB. Left out of the search-engine copy (`prerender.cjs`).
+- Docs: `docs/go-live/22-WATCH-THIS-PAGE-VIDEO.md`. GO-LIVE package: the 82.7 finished website with the new
+  scripts and data (first-screen copies and search-engine pages are unchanged, so they were not rebuilt).
+
 ## 2026-11-14 · Build 82.7: SEO for an A+ SEOptimer audit
 
 Kunal (14 Nov): the SEOptimer audit of www.frequentresearch.com gave C+ with 23 recommendations; fix every SEO item.

@@ -72,7 +72,7 @@ function RC19_Hero() {
             </span>
           </HeroH1>
           <p className="rc19-lead">
-            Our own panels of consumers, business professionals and healthcare professionals span {all.length} countries in five regions, profiled by sector, industry, department and {rc19Fmt(D.titles)} job titles.
+            Our own panels of consumers, business professionals, teens (with parental consent) and healthcare professionals span {all.length} countries in five regions, profiled by sector, industry, department and {rc19Fmt(D.titles)} job titles.
           </p>
           <div className="ab17-ctas">
             <a href="#rc19-c1" className="ab17-btn ab17-btn--glow">
@@ -281,7 +281,7 @@ function RC19_Cta() {
 }
 
 function RC19_Page() {
-  dmMeta("/our-reach", "Our Reach | 55 countries, 5 regions, 58 industries, 1,108 job titles — Frequent Research", "Frequent Research's own panels reach consumers, business professionals and healthcare professionals in 55 countries across five regions, profiled by 8 sectors, 58 industries, 34 departments and 1,108 job titles.");
+  dmMeta("/our-reach", "Our Reach | 55 countries, 5 regions, 58 industries, 1,108 job titles — Frequent Research", "Frequent Research's own panels reach consumers, business professionals, teens (with parental consent) and healthcare professionals in 55 countries across five regions, profiled by 8 sectors, 58 industries, 34 departments and 1,108 job titles.");
   const D = rc19D();
   const [reg, setReg] = ee.useState(null);
   const nI = INDUSTRIES.length;

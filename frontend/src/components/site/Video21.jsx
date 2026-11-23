@@ -8,7 +8,7 @@
  */
 import * as ee from 'react';
 import { useLocation } from 'react-router-dom';
-import { PV_Theatre, pvForPath } from './PageVideo69.jsx';
+import { PV_Theatre, pvApi, pvPageVideo } from './PageVideo69.jsx';
 
 function VD21_Logo({ s = 26 }) {
   return (
@@ -22,12 +22,20 @@ function VD21_Button() {
   /* build 70: the button plays this page's own video (components/site/PageVideo69.jsx, set in the super admin) */
   const loc = useLocation();
   const [open, setOpen] = ee.useState(null);
+  /* build 83.2: the same video as the "Watch this page" section at the bottom (pvPageVideo, one source for both) */
   const show = () => {
-    const l = pvForPath(loc.pathname);
-    if (l.length) setOpen(l);
-    else window.open("https://www.youtube.com/@frequentresearch", "_blank", "noopener");
+    // no video set for this page at all: go to the channel (same tab, since a new tab would be blocked after the wait)
+    pvPageVideo(loc.pathname).then((r) => {
+      if (r.list.length && r.list[0].url) setOpen(r.list);
+      else window.location.assign("https://www.youtube.com/@frequentresearch");
+    });
   };
   ee.useEffect(() => setOpen(null), [loc.pathname]);
+  // ask early (once per page, shared with the bottom section) so the pop-up opens at once
+  ee.useEffect(() => {
+    const t = setTimeout(() => (window.requestIdleCallback ? requestIdleCallback(() => pvApi(loc.pathname)) : pvApi(loc.pathname)), 4000);
+    return () => clearTimeout(t);
+  }, [loc.pathname]);
   ee.useEffect(() => {
     const o = () => show();
     window.addEventListener("fr-watch-open", o);

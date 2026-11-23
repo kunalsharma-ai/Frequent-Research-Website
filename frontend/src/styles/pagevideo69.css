@@ -483,3 +483,4 @@
   .pv-word{font-size:5rem}
 }
 @media (prefers-reduced-motion:reduce){.pv-word{display:none!important}}
+.pv-btn--here{background:transparent;border:1.5px solid currentColor;color:inherit;cursor:pointer}

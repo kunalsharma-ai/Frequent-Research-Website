@@ -43,7 +43,7 @@ const HZ_IC = { "market-research": "lens", "digital-marketing": "rocket", "it-de
 
 const HZ_SLIDES = [
   { k: "all", tag: "One brief. Four engines. Real growth.", motto: () => "Research it. Market it. Build it. Balance it.", flow: ["Research", "Market", "Build", "Balance"] },
-  { k: "mr", slug: "market-research", tag: "Every market. Every mindset. Measured.", motto: (n) => `Real voices from ${n} countries — consumers, professionals and doctors.`, flow: ["Design", "Fieldwork", "Insights"] },
+  { k: "mr", slug: "market-research", tag: "Every market. Every mindset. Measured.", motto: (n) => `Real voices from ${n} countries — consumers, professionals, teens and doctors.`, flow: ["Design", "Fieldwork", "Insights"] },
   { k: "dm", slug: "digital-marketing", tag: "Be impossible to scroll past.", motto: () => "Strategy, creative and media that get you seen, clicked and chosen.", flow: ["Attract", "Engage", "Convert"] },
   { k: "it", slug: "it-development", tag: "We engineer what's next.", motto: () => "Websites, apps, SaaS and AI — built secure, built to scale.", flow: ["Plan", "Build", "Launch"] },
   { k: "af", slug: "accounts-finance", tag: "Clarity in every number.", motto: () => "Books, tax, compliance and CFO thinking — handled.", flow: ["Record", "Comply", "Advise"] },

@@ -13,9 +13,10 @@ const fs = require('fs'), path = require('path'), http = require('http');
 const { chromium } = require('playwright');
 const outDir = path.resolve(process.argv[2] || 'dist');
 // build 80.1 (Kunal, 11 Nov 2026: "every page incl. blogs"): every page gets its own first-screen copy, not only home.
-// Left out: the admin, the 404 page and the 7 Sampledge product sites (drawn inside a shadow root, see ProductSite.jsx).
+// Left out: the admin and the 404 page. Build 82.9: the 7 Sampledge product sites (drawn inside a shadow root, see
+// ProductSite.jsx) get a copy too: their shadow root's first screen is kept in data-fr-sr and attached by fr-sh.
 // FR_SHELL_ONLY=/a,/b limits the run to those pages (for testing).
-const SKIP = /^\/(admin|404)(\/|$)|^\/products\/(sampcode|sampbidx|samptrek|sampaudience|sampforce|talk2tax|sampcrew)$/;
+const SKIP = /^\/(admin|404)(\/|$)/;
 const MARK = /<!--fr-shell-->[\s\S]*?<!--\/fr-shell-->\n?/g;
 const PRE = /<script id="fr-pre">window\.__FR_PRE_TAGS=(\[(?:[^\]"]|"(?:[^"\\]|\\.)*")*\]);[\s\S]*?<\/script>/;
 // the page as it was before this script (so it can run twice); restore the asset tags it moved
@@ -68,8 +69,8 @@ const server = http.createServer((q, r) => {
   await page.waitForSelector('#root > header', { timeout: 30000 });
   await page.waitForSelector('#root > main > *', { timeout: 30000 });
   await page.waitForTimeout(route === '/' ? 3500 : 1800);
-  // a Sampledge product site (drawn inside a shadow root) cannot be copied: such a page starts as before
-  if (await page.$('#root .pz-host')) throw new Error('product site, left as it is');
+  // a Sampledge product site (drawn inside a shadow root): wait until its first screen is drawn there
+  if (await page.$('#root .pz-host')) await page.waitForFunction(() => { const r = document.querySelector('#root .pz-host'); return r && r.shadowRoot && r.shadowRoot.querySelector('.pz-root'); }, null, { timeout: 30000 }).then(() => page.waitForTimeout(1500));
   await page.evaluate(() => window.scrollTo(0, 0));
   await page.waitForTimeout(400);
   // 1. mark what the copy keeps and the buttons to tap again later, then copy it
@@ -91,6 +92,27 @@ const server = http.createServer((q, r) => {
   const shell = await page.evaluate((KIND) => {
     const root = document.getElementById('root'), vh = innerHeight;
     document.querySelectorAll('.cb22-wrap').forEach((e) => e.remove());
+    // build 82.9: shadow roots (Sampledge product sites): their first screen as markup, kept in data-fr-sr on the copy
+    const hosts = [...root.querySelectorAll('.pz-host')].filter((h) => h.shadowRoot);
+    hosts.forEach((h, i) => h.setAttribute('data-fr-sri', String(i)));
+    const shadowHTML = (h) => {
+      const sr = h.shadowRoot, marked = [];
+      for (const e of sr.querySelectorAll('*')) {
+        if (e.tagName === 'STYLE') continue;
+        const b = e.getBoundingClientRect();
+        if (getComputedStyle(e).display === 'none' || (b.top > vh + 40 && b.height > 0)) { e.setAttribute('data-frx', ''); marked.push(e); }
+      }
+      let o = '<style>*,*::before,*::after{animation-play-state:paused!important;transition:none!important}[data-fr-end],[data-fr-end]::before,[data-fr-end]::after{animation:none!important}</style>';
+      for (const c of sr.children) {
+        if (c.matches('script, [data-frx]')) continue;
+        const n = c.cloneNode(true);
+        n.querySelectorAll('[data-frx], script, canvas, video, iframe, audio, object, embed').forEach((e) => e.remove());
+        n.querySelectorAll('img').forEach((i) => { i.removeAttribute('loading'); if (!i.getAttribute('src') || i.getAttribute('src').startsWith('data:')) return; i.setAttribute('data-fr-src', i.getAttribute('src')); i.removeAttribute('src'); if (i.hasAttribute('srcset')) { i.setAttribute('data-fr-srcset', i.getAttribute('srcset')); i.removeAttribute('srcset'); } });
+        o += n.outerHTML;
+      }
+      marked.forEach((e) => e.removeAttribute('data-frx'));
+      return o.replace(/ data-fr-end=""/g, ' data-fr-end');
+    };
     const kids = [...root.children].filter((e) => {
       if (e.matches('footer, .drawer, .prerender, [aria-hidden="true"]')) return false;
       if (e.tagName === 'MAIN') return true;
@@ -153,7 +175,8 @@ const server = http.createServer((q, r) => {
         [k, ...k.querySelectorAll('*')].filter((b) => b.matches('button, [role="tab"], [role="button"], input, select, textarea, summary')).forEach((b) => b.setAttribute('data-fr-q', path(b)));
         node = k.cloneNode(true);
       }
-      node.querySelectorAll('[data-frx], script, canvas, video, iframe, audio, object, embed, .cb22-wrap').forEach((e) => e.remove());
+      node.querySelectorAll('[data-frx], script, canvas, video, iframe, audio, object, embed, .cb22-wrap, style[data-fr-own]').forEach((e) => e.remove());
+      node.querySelectorAll('[data-fr-sri]').forEach((c) => { const h = hosts[+c.getAttribute('data-fr-sri')]; c.removeAttribute('data-fr-sri'); c.setAttribute('data-fr-sr', shadowHTML(h)); });
       // pictures other than the logo come in once the page has loaded and been drawn (the first paint does not wait)
       node.querySelectorAll('img').forEach((i) => { i.removeAttribute('loading'); if (i.matches('.fx-static') || !i.getAttribute('src') || i.getAttribute('src').startsWith('data:')) return; i.setAttribute('data-fr-src', i.getAttribute('src')); i.removeAttribute('src'); if (i.hasAttribute('srcset')) { i.setAttribute('data-fr-srcset', i.getAttribute('srcset')); i.removeAttribute('srcset'); } });
       // pictures with their own animation styles (the product marks): the copy is still, so their keyframes go
@@ -172,6 +195,7 @@ const server = http.createServer((q, r) => {
     document.querySelectorAll('[data-fr-q]').forEach((e) => e.removeAttribute('data-fr-q'));
     document.querySelectorAll('[data-frx]').forEach((e) => e.removeAttribute('data-frx'));
     document.querySelectorAll('[data-fr-end]').forEach((e) => e.removeAttribute('data-fr-end'));
+    hosts.forEach((h) => { h.removeAttribute('data-fr-sri'); h.shadowRoot.querySelectorAll('[data-fr-end]').forEach((e) => e.removeAttribute('data-fr-end')); });
     return out.join('').replace(/ data-frk=""/g, '');
   }, kind);
 

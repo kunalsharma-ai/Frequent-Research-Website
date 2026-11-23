@@ -9,6 +9,7 @@
  * Every product badge links to the Sampledge website.
  */
 import * as ee from 'react';
+import { ScSpot } from '../design83/sampconnect/ScSpot.jsx';
 import { HeroH1 } from '../app/shared/HeroH1.jsx';
 import { useParams, useSearchParams } from 'react-router-dom';
 import { usePageMeta } from '../app/SiteApp.jsx';
@@ -432,10 +433,11 @@ function PR5_Page() {
     const t = setTimeout(() => ppGo("pr5-" + want)(), 350);
     return () => clearTimeout(t);
   }, [want]);
-  usePageMeta("Products", "Sampledge products: SampCode survey programming, SampBidx research bidding, SampTrek research projects and fieldwork, SampAudience research audiences, SampForce revenue platform, Talk2Tax accounting and tax, and SampCrew HR and workforce.");
+  usePageMeta("Products", "Sampledge products: SampConnect private workspace, SampCode survey programming, SampBidx research bidding, SampTrek research projects and fieldwork, SampAudience research audiences, SampForce revenue platform, Talk2Tax accounting and tax, and SampCrew HR and workforce.");
   return (
     <div className="pr5">
       <PR5_Hero />
+      <div className="container"><ScSpot /></div>
       <PR5_Rail list={PR5_LIST} />
       {PR5_LIST.map((p, i) => (
         <PR5_Sec key={p.id} p={p} i={i} />
@@ -445,6 +447,8 @@ function PR5_Page() {
   );
 }
 
+/* build 83.1: SampConnect, the new Sampledge workspace (design83/sampconnect), loaded on its own */
+const SC83_Page = ee.lazy(() => import('../design83/sampconnect/SampConnect83.jsx').then((m) => ({ default: m.SampConnect83 })));
 function PR5_Product() {
   const { product } = useParams();
   /* build 68: the old product addresses open the product that replaced them */
@@ -453,6 +457,7 @@ function PR5_Product() {
     if (id !== product) try { history.replaceState(history.state, "", location.href.replace("/products/" + product, "/products/" + id)); } catch (e) {}
   }, [id, product]);
   const p = pr5ById(id);
+  if (id === "sampconnect") return <ee.Suspense fallback={<div className="pr5-wait" style={{ minHeight: "100vh" }} />}><SC83_Page /></ee.Suspense>;
   return p && !PR5_OWN_SITE.has(p.id) ? (
     <PR5_One p={p} key={p.id} />
   ) : p ? (

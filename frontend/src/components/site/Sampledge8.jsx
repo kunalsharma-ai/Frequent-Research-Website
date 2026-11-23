@@ -13,6 +13,8 @@
  * Content: PR5_LIST / PR5_X (Sampledge65.jsx) and PR5_D (SampledgeDetails65.jsx, from the Sampledge website build).
  */
 import { useAuto82, A82Bar } from '../../design82/auto82.jsx';
+import { ScMark } from '../../design83/sampconnect/ScMark.jsx';
+import { ScSpot } from '../../design83/sampconnect/ScSpot.jsx';
 import * as ee from 'react';
 import { PpL } from '../dm/shared.jsx';
 import { FRK_I, FRK_SamLogo, frkIn } from './FrKit.jsx';
@@ -87,15 +89,15 @@ function SX8_Menu() {
             </PpL>
           </li>
         ))}
-        <li style={{ "--i": L.length }} className="sx9-grid__more">
-          <PpL to="/products" className="sx9-pc sx9-pc--more">
+        <li style={{ "--i": L.length }} className="sx9-grid__more sx9-grid__sc">
+          <PpL to="/products/sampconnect" className="sx9-pc sx9-pc--more sx9-pc--sc">
             <span className="sx9-pc__tile" aria-hidden="true">
-              <FRK_I n="layers" s={22} />
+              <ScMark s={26} />
             </span>
             <span className="sx9-pc__txt">
-              <b>All {L.length} together</b>
-              <small>The Sampledge ecosystem</small>
-              <em>Compare all seven side by side.</em>
+              <b>SampConnect <i className="sx9-new">New</i></b>
+              <small>Private workspace for research teams</small>
+              <em>Chat, video, AI and approvals on your own servers.</em>
             </span>
             <span className="sx9-pc__go" aria-hidden="true">
               <FRK_I n="arrow" s={14} />
@@ -515,6 +517,7 @@ function SX8_Home() {
             })}
           </div>
         )}
+        <ScSpot />
       </div>
     </section>
   );
@@ -535,6 +538,15 @@ function SX8_FootList() {
           </PpL>
         </li>
       ))}
+      <li className="sx8-ft--sc">
+        <PpL to="/products/sampconnect" className="sx8-ft__a">
+          <ScMark s={30} tile />
+          <span>
+            <b>SampConnect</b>
+            <small>Private workspace for research teams</small>
+          </span>
+        </PpL>
+      </li>
     </ul>
   );
 }

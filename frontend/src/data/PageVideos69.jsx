@@ -168,7 +168,7 @@ const PV_BUILTIN = [
     eyebrow: "MyFrequentRewards",
     title: "Your opinions,",
     em: "rewarded.",
-    lede: "A worldwide survey community with a low reward threshold, for consumers and business professionals.",
+    lede: "A worldwide survey community with a low reward threshold, for consumers, business professionals and teens aged 13 to 17.",
     points: ["Join the community", "Answer surveys", "Redeem your rewards"],
     cta: { label: "Join MyFrequentRewards", to: "https://www.myfrequentrewards.com/" },
   }),
@@ -217,6 +217,8 @@ const PV_BUILTIN = [
   v("sampforce", "SampForce", "/products/sampforce", { template: "funnel", family: "dm", tone: 0, eyebrow: "SampForce", title: "Sell. Close.", em: "Grow.", lede: "AI-native revenue platform: CRM, outreach, automation and AI agents.", points: ["Capture", "Engage", "Close", "Grow"], cta: { label: "Visit sampledge.com", to: "https://sampledge.com" } }),
   v("talk2tax", "Talk2Tax", "/products/talk2tax", { template: "taxform", family: "af", tone: 1, flip: true, eyebrow: "Talk2Tax", title: "Talk. File.", em: "Relax.", lede: "AI-native accounting, tax and finance: ask your books anything.", points: ["Books", "India tax", "Ask", "Plan"], cta: { label: "Visit sampledge.com", to: "https://sampledge.com" } }),
   v("sampcrew", "SampCrew", "/products/sampcrew", { template: "payslip", family: "dm", tone: 2, eyebrow: "SampCrew", title: "People,", em: "simplified.", lede: "AI-native HR and workforce platform: hire, pay, schedule and grow your people.", points: ["People", "Pay", "Hire & grow", "Understand"], cta: { label: "Visit sampledge.com", to: "https://sampledge.com" } }),
+  // build 83.1: SampConnect. url stays empty here; the video is set in Super admin → Page videos
+  v("sampconnect", "SampConnect", "/products/sampconnect", { template: "chat", family: "it", tone: 1, flip: true, eyebrow: "SampConnect", title: "Every conversation.", em: "On your servers.", lede: "Private chat, video, AI and approvals for global research teams, with the Sampledge suite built in.", points: ["Chat", "Calls", "Private AI", "Approvals"], cta: { label: "Explore SampConnect", to: "/products/sampconnect" } }),
   v("reviews", "Rates & reviews", "/rates-reviews", { template: "bubbles", eyebrow: "Reviews", title: "What clients", em: "say about us.", lede: "Real reviews from real clients.", points: ["Rate us", "Read reviews", "Share your experience"], cta: { label: "Write a review", to: "/rates-reviews" } }),
 ];
 

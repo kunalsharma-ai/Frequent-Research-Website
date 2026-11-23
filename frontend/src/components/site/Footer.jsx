@@ -17,7 +17,6 @@ import { FRL_FR } from './Logos13.jsx';
 import { useFullPart } from '../../app/full.js';
 import { FRQ_Follow } from '../../pages/Connect.jsx';
 import { cmsList } from '../../app/cms.jsx';
-import { OB82 } from '../../design82/Ob82.jsx';
 import { cmsLogo, cmsMenuExtra } from '../../app/cms78.jsx';
 
 /* build 78: the footer's link lists can be changed in the super admin (Header & footer menus) */
@@ -43,8 +42,6 @@ const FT_START = cmsList("footer-start", pair([
   ["/lets-talk?type=feasibility", "Request Research Feasibility"],
   ["/lets-talk?type=audience", "Request Audience Feasibility"],
   ["/lets-talk?type=demo", "Request a Sampledge Demo"],
-  [OB82.client.url, "New client onboarding"],
-  [OB82.vendor.url, "New vendor onboarding"],
 ]), "to");
 const FT_LEGAL = cmsList("footer-legal", pair([
   ["/privacy-policy", "Privacy Policy"],
@@ -223,6 +220,7 @@ function FR_Footer() {
           <div className="ft-col ft-col--plain ft-follow"><FRQ_Follow /></div>
         </div>
 
+        {/* build 83.3 (Kunal, 23 Nov): the SampConnect and YouTube footer cards were removed */}
         <div className="ft-trust">
           <div>
             <h3>Certified &amp; accountable</h3>

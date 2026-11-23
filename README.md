@@ -1,4 +1,4 @@
-# Frequent Research website (build 82.7)
+# Frequent Research website (build 82.9)
 
 Two separate applications, each with its own `package.json`, its own `node_modules` and its own container. There is
 no root `package.json`, no npm/Node workspaces and no Turborepo. Both run on **Node 24 LTS** (`.nvmrc`).
@@ -10,6 +10,8 @@ no root `package.json`, no npm/Node workspaces and no Turborepo. Both run on **N
 | `frontend/src/admin/` | The super admin panel, served by the website at `/admin` (guide: `docs/go-live/10-SUPER-ADMIN.md`) | | |
 | `backend/src/lib/auth.js`, `lib/access.js`, `routes/users.js`, `tools/admin.js`, `frontend/src/admin/Access.jsx`, `Look.jsx` | Build 78.3: admin accounts, roles and page-by-page access, approvals, the first Super Admin command, the panel's look (`docs/go-live/13-ACCESS-AND-ROLES.md`) | | |
 | `backend/src/routes/marketing.js`, `social.js`, `integrations.js`, `lib/ai.js`, `lib/mailtpl.js` | Build 78: email templates, automations and newsletters, social posting, the AI writer and SampCrew. Each needs its own keys in `.env` (`docs/go-live/12-MARKETING-AND-KEYS.md`); without them they wait and say what is missing | | |
+| `frontend/src/design82/Portal829.jsx`, `frontend/scripts/ai-catalog.cjs`, `frontend/scripts/set-pixel.cjs` | Build 82.9: portal heroes and teen panel section, AI catalogs, Meta Pixel (`docs/go-live/23-BUILD-82.9.md`) | | |
+| `frontend/src/design82/Watch828.jsx`, `frontend/scripts/make-watch-data.cjs` | Build 82.8: "Watch this page in one video" section at the bottom of every page (`docs/go-live/22-WATCH-THIS-PAGE-VIDEO.md`) | | |
 | `frontend/scripts/seo-pass.cjs`, `frontend/src/app/seoText.js`, `frontend/src/app/altText.js` | Build 82.7: SEO pass (one H1, text for robots, alt text, structured data, share picture; `docs/go-live/21-SEO.md`) | | |
 | `backend/src/routes/pageVideos.js`, `lib/pageTemplates.js`, `public/fr-page-video.js`, `frontend/src/admin/WebVideos.jsx` | Build 82.5–82.6: Page video component: a showcase video design for every page, the player, admin screen and API (`docs/go-live/19-PAGE-VIDEO-COMPONENT.md`) | | |
 | `docker-compose.yml` | Starts the frontend, backend and MongoDB containers together | | |

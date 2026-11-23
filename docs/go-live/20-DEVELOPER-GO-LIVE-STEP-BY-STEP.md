@@ -1,4 +1,4 @@
-# 20 · Developer go-live, step by step (build 82.7)
+# 20 · Developer go-live, step by step (build 82.9)
 
 The simplest way to put the website **and** the super admin live. Follow the steps in order; each one says what you
 should see. Total time with the go-live package: about 15 minutes.
@@ -12,7 +12,7 @@ could also really freeze, because Docker gives it only 64 MB of shared memory.
 
 Fixed in build 82.5:
 
-1. **No build on the server any more.** The go-live package (`frequent-research-GO-LIVE-build82.7.zip`) contains the
+1. **No build on the server any more.** The go-live package (`frequent-research-GO-LIVE-build82.9.zip`) contains the
    finished website in `frontend/dist/`. The server only copies it into nginx: the frontend container is ready in
    1–2 minutes. No Node, no browser, no 4 GB of memory needed. This is the default (`FRONTEND_MODE=ready`).
 2. If you do build from source (`FRONTEND_MODE=build`): every step prints a banner (`==== step 4 of 6: … ====`) and
@@ -25,13 +25,14 @@ Fixed in build 82.5:
 - A Linux server with Docker 24+ and Docker Compose v2 (`docker compose version`), 2 CPU, 4 GB memory, 20 GB disk.
 - The domain `www.frequentresearch.com` pointing to the server, and HTTPS in front (your load balancer, Cloudflare,
   or a reverse proxy such as Caddy/nginx on the host). The website container listens on port `8080` (`WEB_PORT`).
-- The file `frequent-research-GO-LIVE-build82.7.zip`.
+- The file `frequent-research-GO-LIVE-build82.9.zip`.
 
 ## Step 1 · Unpack
 
 ```bash
 mkdir -p /srv/frequent-research && cd /srv/frequent-research
-unzip frequent-research-GO-LIVE-build82.7.zip
+unzip frequent-research-GO-LIVE-build82.9.zip
+cd frequent-research-build82.9   # the package's top folder
 ls frontend/dist/index.html      # must exist: this is the ready-built website
 ```
 
@@ -90,6 +91,24 @@ In the website's page template, where the video should appear:
 ```
 
 Add videos in Super admin › Pages › Page video component. Details: `19-PAGE-VIDEO-COMPONENT.md`.
+
+## Step 6b · Meta Pixel (build 82.9, when Kunal sends the Pixel ID)
+
+The Pixel loader is already on every page and does nothing until the ID is set. Before Step 3 (or then run
+`docker compose up -d --build` again):
+
+```bash
+cd frontend
+node scripts/set-pixel.cjs 123456789012345 dist   # your Pixel ID from Meta Events Manager
+node scripts/compress.cjs dist
+```
+
+Check with the Meta Pixel Helper extension or Events Manager › Test events. Details: `23-BUILD-82.9.md`.
+
+## Step 6c · Turning the onboarding forms off (build 82.9)
+
+Super admin › Onboarding links on the site › client or vendor › show: **No** › Save. The card and footer link go from
+every page at once; set Yes to bring them back.
 
 ## Step 7 · Backups
 
