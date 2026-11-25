@@ -11,6 +11,9 @@ const STATUS = ["new", "contacted", "qualified", "won", "lost", "spam"];
 // build 78.3: the type of request, and who follows it up
 const CATEGORY = { service: "Service enquiry", rfq: "RFQ / quote", partnership: "Partnership", contact: "General contact", download: "Download", chat: "Live chat", careers: "Job application", other: "Other" };
 let ASSIGNEES = {};
+// download forms (FRG_Gate) send `resource` as an object { type, key, title }; React cannot render an object as a child,
+// so every lead field shown as text goes through leadText
+const leadText = (v) => (v == null ? "" : typeof v === "object" ? (Array.isArray(v) ? v.map(leadText).filter(Boolean).join(", ") : String(v.title || v.name || v.key || v.type || "")) : String(v));
 const assignees = (kind) => (ASSIGNEES[kind] = ASSIGNEES[kind] || admApi("/admin/leads/assignees?kind=" + (kind === "careers" ? "careers" : "")).catch(() => ({ admins: [], canAssign: false })));
 
 function useLoad(fn, deps, every = 0) {
@@ -61,7 +64,7 @@ function Dashboard({ go }) {
             <div className="adm-panel"><h2>Most visited pages</h2><Rank rows={s.visits.pages.map((p) => [p.path, p.n])} empty="No visits yet." /></div>
             <div className="adm-panel"><h2>Where visitors came from</h2><Rank rows={s.visits.referrers.map((p) => [p.ref, p.n])} empty="No referring sites yet." /></div>
             <div className="adm-panel"><h2>Leads by type</h2><Rank rows={s.leads.byKind.map((p) => [KIND[p.kind] || p.kind, p.n])} empty="No leads in this period." /></div>
-            <div className="adm-panel"><h2>Most requested downloads</h2><Rank rows={s.leads.resources.map((p) => [p.name, p.n])} empty="No downloads in this period." /></div>
+            <div className="adm-panel"><h2>Most requested downloads</h2><Rank rows={s.leads.resources.map((p) => [leadText(p.name), p.n])} empty="No downloads in this period." /></div>
           </div>
         </>
       )}
@@ -162,8 +165,8 @@ function Leads() {
       <div className="adm-table"><table><thead><tr><th>Received</th><th>Type</th><th>Name</th><th>Email</th><th>Company</th><th>Country</th><th>About</th><th>Assigned</th><th>Status</th></tr></thead><tbody>
         {(d ? d.leads : []).map((l) => (
           <tr key={l.id} className={(open === l.id ? "is-on " : "") + (!l.status || l.status === "new" ? "is-new" : "")} onClick={() => setOpen(l.id)} tabIndex={0} onKeyDown={(e) => e.key === "Enter" && setOpen(l.id)}>
-            <td>{admWhen(l.at)}</td><td>{CATEGORY[l.category] || KIND[l.kind] || l.kind}</td><td>{l.name || [l.first, l.last].filter(Boolean).join(" ")}</td><td>{l.email}</td><td>{l.company}</td><td>{l.country}</td>
-            <td className="adm-clip">{l.resource || l.title || l.service || l.department || l.type || l.message}</td><td>{l.assigneeName || "—"}</td><td><span className={"adm-pill adm-pill--" + (l.status || "new")}>{admLabel(l.status || "new")}</span></td>
+            <td>{admWhen(l.at)}</td><td>{CATEGORY[l.category] || KIND[l.kind] || leadText(l.kind)}</td><td>{leadText(l.name) || [l.first, l.last].map(leadText).filter(Boolean).join(" ")}</td><td>{leadText(l.email)}</td><td>{leadText(l.company)}</td><td>{leadText(l.country)}</td>
+            <td className="adm-clip">{[l.resource, l.title, l.service, l.department, l.type, l.message].map(leadText).find(Boolean)}</td><td>{l.assigneeName || "—"}</td><td><span className={"adm-pill adm-pill--" + (l.status || "new")}>{admLabel(l.status || "new")}</span></td>
           </tr>
         ))}
         {d && !d.leads.length && <tr><td colSpan={9} className="adm-muted">No leads match.</td></tr>}

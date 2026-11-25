@@ -104,4 +104,6 @@
 .sc-spot__go:hover{transform:translateY(-2px)}
 @media (max-width:900px){.sc-spot{grid-template-columns:1fr}.sc-spot__go{justify-self:start}}
 .sx8-ft--sc .sx8-ft__a{border-color:rgba(245,184,61,.45)!important}
-
+/* build 83.5: the footer content is up to 1400px wide, so the large "FrequentResearch" word fits without being cut off */
+.ft>.container{max-width:1400px}
+@media (min-width:1280px){.ft>.container{width:min(1400px,100% - 40px)}}
