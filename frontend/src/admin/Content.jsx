@@ -388,7 +388,7 @@ function Pdfs() {
   ee.useEffect(() => {
     load().catch((e) => setMsg({ err: e.message }));
     // names visitors downloaded (from the download forms), to pick from
-    admApi("/admin/leads?limit=500").then((j) => setNames([...new Set(j.leads.map((l) => l.resource || l.title).filter(Boolean))].sort())).catch(() => {});
+    admApi("/admin/leads?limit=500").then((j) => setNames([...new Set(j.leads.map((l) => { const r = l.resource || l.title; return r && typeof r === "object" ? r.title || r.key || "" : r; }).filter((x) => typeof x === "string" && x))].sort())).catch(() => {});
   }, []);
   if (!map) return <section className="adm-sec"><h1>PDF documents</h1><p className="adm-muted">Loading…</p></section>;
   const rows = Object.entries(map);

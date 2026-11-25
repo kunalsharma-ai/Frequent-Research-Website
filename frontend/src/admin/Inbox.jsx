@@ -106,8 +106,8 @@ function LeadDetail({ id, onChange, onClose }) {
   const show = (v) => (v == null || v === "" ? "—" : typeof v === "object" ? JSON.stringify(v, null, 1) : String(v));
   return (
     <aside className="adm-drawer" aria-label="Lead details">
-      <header><h2>{l.name || [l.first, l.last].filter(Boolean).join(" ") || l.email}</h2><AdmBtn kind="ghost" onClick={onClose}>Close ✕</AdmBtn></header>
-      <p className="adm-muted">{KIND[l.kind] || l.kind} · {admWhen(l.at)}</p>
+      <header><h2>{leadText(l.name) || [l.first, l.last].map(leadText).filter(Boolean).join(" ") || leadText(l.email)}</h2><AdmBtn kind="ghost" onClick={onClose}>Close ✕</AdmBtn></header>
+      <p className="adm-muted">{KIND[l.kind] || leadText(l.kind)} · {admWhen(l.at)}</p>
       <div className="adm-row">
         <AdmField label="Status"><select className="adm-in" value={l.status || "new"} onChange={(e) => save({ status: e.target.value })}>{STATUS.map((s) => <option key={s} value={s}>{admLabel(s)}</option>)}</select></AdmField>
         <AdmField label="Type"><select className="adm-in" value={l.category || ""} onChange={(e) => save({ category: e.target.value })}>{!l.category && <option value="">—</option>}{Object.entries(CATEGORY).map(([k, v]) => <option key={k} value={k}>{v}</option>)}</select></AdmField>
