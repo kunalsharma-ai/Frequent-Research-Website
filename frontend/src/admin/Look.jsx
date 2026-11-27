@@ -124,7 +124,7 @@ const MOOD = {
   settings: "content", contact: "content", team: "people", testimonials: "content", blogs: "content", cards: "content", cases: "content", products: "content", portals: "content",
   careers: "people", downloads: "content", certifications: "content", associations: "content", af: "content", panels: "content", pdfs: "content", forms: "website", videos: "website", celebrations: "content", gallery: "content",
   emails: "marketing", automations: "marketing", newsletters: "marketing", social: "marketing", ai: "marketing",
-  api: "system", keys: "system", files: "system", content: "system",
+  api: "system", sampforce: "system", keys: "system", files: "system", content: "system",
   approvals: "access", users: "access", roles: "access", account: "access",
 };
 const admMood = (sec) => MOOD[sec] || "overview";

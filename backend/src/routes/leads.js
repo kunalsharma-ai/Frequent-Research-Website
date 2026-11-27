@@ -17,6 +17,7 @@ import { mailReady, sendMail } from '../lib/mailer.js';
 import { escapeRe } from './admin.js';
 import { onLead } from './marketing.js';
 import { sendToSampcrew } from './integrations.js';
+import { sfEmit, sfLead } from './sampforce.js';
 
 const KINDS = ['enquiry', 'download', 'case-study-download', 'resource-download'];
 export const LEAD_STATUS = ['new', 'contacted', 'qualified', 'won', 'lost', 'spam'];
@@ -40,6 +41,8 @@ export async function saveLead(req, kind, body, extra = {}) {
   // build 78: contact list, automatic emails (reply, team alert, follow-ups) and, for careers, SampCrew
   onLead(lead).catch(() => {});
   if (kind === 'careers') sendToSampcrew(lead).catch((e) => console.error('[sampcrew]', e.message));
+  // Sampforce (sales app): the lead goes out on the signed webhook when one is set (routes/sampforce.js)
+  sfEmit(kind === 'careers' ? 'careers.created' : 'lead.created', sfLead(lead));
   return lead;
 }
 
@@ -100,7 +103,7 @@ const COLS = ['at', 'kind', 'category', 'status', 'assigneeName', 'type', 'name'
 
 // build 78.3: enquiry types for follow-up, and who may see which leads (Business: enquiries; HR: careers applications)
 export const CATEGORIES = ['service', 'rfq', 'partnership', 'contact', 'download', 'chat', 'careers', 'other'];
-const categoryOf = (l) => l.category || (l.kind === 'careers' ? 'careers' : /download|case-study|panel/.test(l.kind || '') ? 'download' : /chat/.test(l.kind || '') ? 'chat' : /partner/i.test(String(l.service || l.type || '')) ? 'partnership' : /quote|rfq|proposal/i.test(String(l.type || l.message || '').slice(0, 300)) ? 'rfq' : l.kind === 'contact' ? 'contact' : 'service');
+export const categoryOf = (l) => l.category || (l.kind === 'careers' ? 'careers' : /download|case-study|panel/.test(l.kind || '') ? 'download' : /chat/.test(l.kind || '') ? 'chat' : /partner/i.test(String(l.service || l.type || '')) ? 'partnership' : /quote|rfq|proposal/i.test(String(l.type || l.message || '').slice(0, 300)) ? 'rfq' : l.kind === 'contact' ? 'contact' : 'service');
 async function kindScope(req) {
   const u = req.admin.user;
   const [enq, car] = await Promise.all([can(u, 'enquiries', 'view'), can(u, 'careers', 'view')]);
@@ -175,6 +178,7 @@ leadsRouter.patch('/admin/leads/:id', requireAdmin, ah(async (req, res) => {
   const r = await col('leads').updateOne({ _id: String(req.params.id) }, { $set: set });
   if (!r.matchedCount) return res.status(404).json({ ok: false });
   await audit(req, 'update-lead', req.params.id, set);
+  col('leads').findOne({ _id: String(req.params.id) }).then((x) => x && sfEmit('lead.updated', sfLead(x))).catch(() => {});
   if (assignee && assignee._id !== req.admin.user._id && mailReady()) sendMail({ to: assignee.email, subject: 'A lead was assigned to you: ' + String(l.name || l.email || l.kind).slice(0, 60), text: `${req.admin.user.name} assigned you a ${l.kind} from ${l.name || ''} <${l.email || ''}>.\n\n${config.publicUrl}/admin/leads` }).catch(() => {});
   res.json({ ok: true });
 }));

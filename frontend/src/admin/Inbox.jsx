@@ -91,7 +91,7 @@ function Visits() {
 }
 
 /* ---------------------------------------------------------------- leads */
-const SKIP_F = new Set(["id", "kind", "status", "at", "note", "updated", "ip", "ua", "cv", "extra", "hr", "mail"]);
+const SKIP_F = new Set(["id", "kind", "status", "at", "note", "updated", "ip", "ua", "cv", "extra", "hr", "mail", "sampforce"]);
 function LeadDetail({ id, onChange, onClose }) {
   const [st, reload] = useLoad(() => admApi("/admin/leads/" + id).then((j) => j.lead), [id]);
   const [note, setNote] = ee.useState(null);
@@ -124,6 +124,13 @@ function LeadDetail({ id, onChange, onClose }) {
           <h3>SampCrew (HR)</h3>
           <p className="adm-muted">{l.hr ? (l.hr.ok ? "Sent to SampCrew" + (l.hr.id ? " as " + l.hr.id : "") + " on " + admWhen(l.hr.sent) + "." : "Not sent: " + (l.hr.error || "SampCrew did not answer") + ".") + (l.hr.stage ? " Stage: " + l.hr.stage + (l.hr.note ? " (" + l.hr.note + ")" : "") + "." : "") : "Not sent yet."}</p>
           <AdmBtn small onClick={async () => { try { await admApi("/admin/integrations/sampcrew/send/" + id, { body: {} }); setMsg({ ok: "Sent to SampCrew." }); } catch (e) { setMsg({ err: e.message }); } reload(); }}>{l.hr && l.hr.ok ? "Send again" : "Send to SampCrew"}</AdmBtn>
+        </div>
+      )}
+      {l.sampforce && (
+        <div className="adm-panel">
+          <h3>Sampforce (sales)</h3>
+          <p className="adm-muted">{[l.sampforce.sampforceId && "Sampforce id " + l.sampforce.sampforceId, l.sampforce.stage && "Stage: " + l.sampforce.stage, l.sampforce.owner && "Owner: " + l.sampforce.owner, l.sampforce.updated && "Updated " + admWhen(l.sampforce.updated)].filter(Boolean).join(" · ")}{l.sampforce.url && <> · <a href={l.sampforce.url} target="_blank" rel="noreferrer">Open in Sampforce</a></>}</p>
+          {l.sampforce.note && <pre>{l.sampforce.note}</pre>}
         </div>
       )}
       {l.extra && typeof l.extra === "object" && Object.keys(l.extra).length > 0 && (<>

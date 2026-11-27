@@ -24,6 +24,7 @@ import ADM783_CSS from '../styles/admin783.css?inline';
 import { AdmHome } from './Dash.jsx';
 import { AdmAreaHero } from './Areas.jsx';
 import { AdmApis } from './Api.jsx';
+import { AdmSampforce } from './Sampforce.jsx';
 import { AdmOnboarding } from './Onboarding.jsx';
 import { OB82_DEF } from '../design82/Ob82.jsx';
 import { AdmWebVideos } from './WebVideos.jsx';
@@ -49,7 +50,7 @@ const NAV = [
     ["videos", "Page videos", "▶"], ["videos-classic", "Page videos (classic list)", "▷"], ["celebrations", "Celebration calendar", "✦"], ["gallery", "Gallery", "▣"],
   ]],
   ["Marketing", [["emails", "Email templates", "✉"], ["automations", "Email automations", "⟳"], ["newsletters", "Newsletters", "📰"], ["social", "Social media", "📣"], ["ai", "AI assistant", "✨"]]],
-  ["System", [["api", "API", "⇄"], ["keys", "Connections & keys", "🔑"], ["files", "Files", "🗂"], ["content", "All content", "{ }"]]],
+  ["System", [["api", "API", "⇄"], ["sampforce", "Sampforce (sales)", "⇆"], ["keys", "Connections & keys", "🔑"], ["files", "Files", "🗂"], ["content", "All content", "{ }"]]],
   // build 78.3
   ["Access", [["approvals", "Approvals", "✓"], ["users", "Admins", "👤"], ["roles", "Roles & rights", "⚿"], ["account", "My account", "☺"]]],
 ];
@@ -63,7 +64,7 @@ const AREA = {
   af: "products", panels: "panels", pdfs: "products", forms: "forms", videos: "pages", celebrations: "settings", gallery: "company",
   emails: "marketing", automations: "marketing", newsletters: "marketing", social: "marketing", ai: "marketing",
   "client-onboarding": "onboarding", "vendor-onboarding": "onboarding", "onboarding-links": "company",
-  api: "integrations", keys: "integrations", files: "media", users: "users", roles: "users",
+  api: "integrations", sampforce: "integrations", keys: "integrations", files: "media", users: "users", roles: "users",
 };
 const ALWAYS = new Set(["", "approvals", "account", "content"]);
 const allowed = (me, id) => ALWAYS.has(id) || (!!me && [].concat(AREA[id] || "users").some((m) => admCan(me, m, "view") || admCan(me, m, "edit")));
@@ -123,6 +124,7 @@ function section(id, go) {
     case "vendor-onboarding": return <AdmOnboarding kind="vendor" go={go} />;
     case "onboarding-links": return <AdmObjectEditor ckey="onboarding-links" base={OB82_DEF} title="Onboarding links on the site" intro="The two cards that send new clients and new vendors to their onboarding forms (home page, Let's Talk, Scan & Connect) and the two footer links. To take a form off the whole website, set its “show” to No and save (set it back to Yes to bring it back). Change the form address (url), the texts, the time and the steps shown." />;
     case "api": return <AdmApis />;
+    case "sampforce": return <AdmSampforce />;
     case "keys": return <AdmKeys />;
     case "files": return <AdmFiles />;
     case "content": return <AdmAllContent />;
