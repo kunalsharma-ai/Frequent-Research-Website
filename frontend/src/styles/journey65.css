@@ -100,7 +100,7 @@ html[data-theme=dark] .oj5-meant small{color:color-mix(in srgb,var(--c2) 55%,#ff
 .oj5-cert i{height:6px;border-radius:3px;background:#EDE9FE}.oj5-cert i+i{width:70%}
 .oj5-cert__stamp{position:absolute;right:14px;bottom:14px;font:800 .72rem/1 Manrope,sans-serif;color:#DC2626;border:2px solid #DC2626;padding:6px 8px;border-radius:8px;transform:rotate(-14deg)}
 .oj5-logos{position:absolute;right:8%;bottom:12%;display:grid;gap:12px;width:44%}
-.oj5-logos span{display:grid;place-items:center;padding:12px;border-radius:14px;background:#fff;box-shadow:0 16px 30px rgba(0,0,0,.3);animation:oj5Pop .8s var(--k5-spring) both;animation-delay:calc(var(--j) * .3s + .4s)}
+.oj5-logos>span{display:grid;place-items:center;padding:12px;border-radius:14px;background:#fff;box-shadow:0 16px 30px rgba(0,0,0,.3);animation:oj5Pop .8s var(--k5-spring) both;animation-delay:calc(var(--j) * .3s + .4s)}
 .oj5-logos img{max-width:100%;max-height:40px}
 @keyframes oj5Pop{from{opacity:0;transform:scale(.4) translateY(40px)}}
 .oj5-ecg{position:absolute;left:0;right:0;top:30%;width:100%;height:30%}
@@ -162,5 +162,5 @@ html[data-theme=dark] .oj5-today{background:linear-gradient(180deg,#1A0F2A,#0A0E
 
 @media (max-width:1100px){.oj5-sky__grid{grid-template-columns:repeat(3,1fr)}.oj5-today__grid{grid-template-columns:repeat(2,1fr)}}
 @media (max-width:900px){.oj5-ch__in{grid-template-columns:1fr}.oj5-ch.is-alt .oj5-ch__copy{order:0}.oj5-lanes__ticks{grid-template-columns:120px repeat(var(--span),1fr);font-size:.6rem}.oj5-lanes li{grid-template-columns:120px 1fr}.oj5-lane__name{font-size:.76rem}.oj5-lane__bar b{display:none}.oj5-rail{overflow-x:auto;justify-content:flex-start;top:64px}}
-@media (max-width:600px){.oj5-sky__grid,.oj5-today__grid{grid-template-columns:1fr 1fr}.oj5-lanes__ticks span:nth-child(even){visibility:hidden}.oj5-lanes__chart{padding:14px}.oj5-ch__art{aspect-ratio:1/1}}
+@media (max-width:600px){.oj5-today__grid{grid-template-columns:1fr 1fr}.oj5-sky__grid{grid-template-columns:1fr}.oj5-logos{justify-items:end}.oj5-logos .frl-plate{--h:30px!important}.oj5-lanes__ticks span:nth-child(even){visibility:hidden}.oj5-lanes__chart{padding:14px}.oj5-ch__art{aspect-ratio:1/1}}
 @media (prefers-reduced-motion:reduce){.oj5 *{animation:none!important;transition:none!important}.oj5-warp__ring{opacity:.4}}

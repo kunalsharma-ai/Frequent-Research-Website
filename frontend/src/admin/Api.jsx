@@ -111,7 +111,7 @@ const API = [
     ["GET", "/admin/mail/templates", "Email templates", "marketing view"], ["PUT", "/admin/mail/templates", "Save email templates", "marketing edit"],
     ["POST", "/admin/mail/preview", "Preview an email", "marketing view"], ["POST", "/admin/mail/test", "Send a test email", "marketing edit"],
     ["GET", "/admin/mail/automations", "Automatic emails", "marketing view"], ["PUT", "/admin/mail/automations", "Save automatic emails", "marketing publish"],
-    ["GET", "/admin/mail/queue", "Sending queue", "marketing view"], ["POST", "/admin/mail/queue/retry", "Retry failed emails", "marketing publish"],
+    ["GET", "/admin/mail/queue", "Sending queue", "marketing view"], ["POST", "/admin/mail/queue/retry", "Retry failed emails", "marketing publish"], ["POST", "/admin/mail/queue/cancel", "Stop every queued email", "marketing publish"], ["POST", "/admin/mail/queue/:id/cancel", "Stop one queued email", "marketing publish"], ["POST", "/admin/mail/queue/:id/send", "Send one email now", "marketing publish"],
     ["GET", "/admin/campaigns", "Newsletters", "marketing view"], ["POST", "/admin/campaigns", "New newsletter", "marketing create"], ["POST", "/admin/campaigns/:id/send", "Send (also cancel, count)", "marketing publish"],
     ["GET", "/admin/social/status", "Which platforms are connected", "marketing view"], ["GET", "/admin/social/posts", "Social posts", "marketing view"],
     ["POST", "/admin/social/posts", "New social post", "marketing create"], ["POST", "/admin/social/posts/:id/publish", "Post now (also approve)", "marketing publish"],

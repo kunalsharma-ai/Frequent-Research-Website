@@ -221,7 +221,7 @@ html.adm-mode[data-adm-theme=dark] .adm783-serp b{color:#9FC0FF}
 .adm-pill.adm783-st--deactivated,.adm-pill.adm783-d--archived,.adm-pill.adm783-d--draft{background:#ECEEF5;color:#56628A}
 
 /* ===== build 78.4: animated dashboard, profile and screens ===== */
-.adm784{display:flex;flex-direction:column;gap:18px;max-width:1320px}
+.adm784{display:flex;flex-direction:column;gap:18px;max-width:none}
 .adm784-hero{position:relative;overflow:hidden;isolation:isolate;display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);align-items:center;gap:12px;min-height:260px;padding:28px clamp(18px,3vw,36px);border-radius:26px;color:#fff;background:linear-gradient(120deg,var(--mood3,#0B1437) 0%,color-mix(in srgb,var(--mood,#2F6BFF) 45%,var(--mood3,#0B1437)) 45%,var(--mood,#2F6BFF) 85%,var(--mood2,#6D4AFF) 120%);box-shadow:0 30px 70px -40px var(--mood3,rgba(11,20,55,.9));transition:background .6s}
 .adm784-hero__bg{position:absolute;inset:0;z-index:-1;pointer-events:none}
 .adm784-hero__bg i{position:absolute;border-radius:50%;filter:blur(30px);opacity:.55;animation:adm783Float 12s ease-in-out infinite alternate}
@@ -323,7 +323,7 @@ html.adm-mode[data-adm-theme=dark] .adm783-serp b{color:#9FC0FF}
 .adm784-more{margin-top:12px;display:inline-flex;align-items:center;gap:4px;border:0;background:none;color:var(--mood);font:700 .85rem Inter,sans-serif;cursor:pointer;padding:0}
 
 /* my account */
-.adm784-acc{display:flex;flex-direction:column;gap:16px;max-width:1180px}
+.adm784-acc{display:flex;flex-direction:column;gap:16px;max-width:none}
 .adm784-profile{position:relative;overflow:hidden;isolation:isolate;display:flex;align-items:center;gap:22px;padding:26px;border-radius:26px;color:#fff;background:linear-gradient(120deg,var(--mood3,#0B1437),color-mix(in srgb,var(--mood,#1C2F86) 70%,var(--mood3,#0B1437)) 55%,var(--mood2,#6D4AFF))}
 .adm784-profile__bg{position:absolute;inset:0;z-index:-1}
 .adm784-profile__bg i{position:absolute;border-radius:50%;filter:blur(30px);opacity:.5;animation:adm783Float 12s ease-in-out infinite alternate}

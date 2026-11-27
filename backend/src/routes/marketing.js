@@ -16,6 +16,7 @@
 //   GET/PUT /api/v1/admin/mail/automations
 //   GET  /api/v1/admin/campaigns ; POST (create) ; PUT /:id ; POST /:id/send { at? } ; POST /:id/cancel ; DELETE /:id
 //   GET  /api/v1/admin/mail/queue                ?status=   ;  POST /admin/mail/queue/retry
+//   POST /api/v1/admin/mail/queue/cancel         stop every queued email ; POST /admin/mail/queue/:id/cancel ; POST /admin/mail/queue/:id/send (send now)
 import crypto from 'node:crypto';
 import { Router } from 'express';
 import { config } from '../config.js';
@@ -148,6 +149,26 @@ async function startCampaign(c, at) {
   return rows.length;
 }
 
+// one email from the queue: sent, skipped (unsubscribed) or tried again later; returns the new status
+async function sendOne(q, tpls, mailSet) {
+  try {
+    if (q.marketing) { const c = await col('contacts').findOne({ _id: q.to }); if (!c || c.subscribed === false) { await col('mail_queue').updateOne({ _id: q._id }, { $set: { status: 'skipped', reason: 'unsubscribed' } }); return 'skipped'; } }
+    const t = q.inline || tpls.find((x) => x.id === q.template);
+    if (!t) throw new Error('template ' + q.template + ' not found');
+    const pixel = `${config.publicUrl}/api/v1/mail/o/${q._id}.gif`;
+    const r = renderTemplate(t, { ...q.vars, unsubscribe: q.marketing ? unsubUrl(q.to) : '' }, { pixel, logo: mailSet.logo });
+    const headers = q.marketing ? { 'List-Unsubscribe': `<${unsubUrl(q.to)}>`, 'List-Unsubscribe-Post': 'List-Unsubscribe=One-Click' } : {};
+    const s = await sendMail({ to: q.to, subject: r.subject, html: r.html, text: r.text, headers });
+    await col('mail_queue').updateOne({ _id: q._id }, { $set: { status: 'sent', sent: new Date(), providerId: s.id || '', subject: r.subject } });
+    await col('contacts').updateOne({ _id: q.to }, { $set: { lastMail: new Date() }, $inc: { mails: 1 } });
+    return 'sent';
+  } catch (e) {
+    const tries = (q.tries || 0) + 1, status = tries >= 3 ? 'failed' : 'queued';
+    await col('mail_queue').updateOne({ _id: q._id }, { $set: { status, error: String(e.message).slice(0, 300), sendAt: new Date(Date.now() + tries * 10 * 60e3) }, $inc: { tries: 1 } });
+    return status;
+  }
+}
+
 let working = false;
 async function workQueue() {
   if (working || !mailReady()) return;
@@ -156,22 +177,7 @@ async function workQueue() {
     const due = await col('mail_queue').find({ status: 'queued', sendAt: { $lte: new Date() } }).sort({ sendAt: 1 }).limit(Math.ceil(config.mail.perMinute / 4)).toArray();
     const tpls = due.length ? await getTemplates() : [];
     const mailSet = (await getContent('mail-settings')) || {};
-    for (const q of due) {
-      try {
-        if (q.marketing) { const c = await col('contacts').findOne({ _id: q.to }); if (!c || c.subscribed === false) { await col('mail_queue').updateOne({ _id: q._id }, { $set: { status: 'skipped', reason: 'unsubscribed' } }); continue; } }
-        const t = q.inline || tpls.find((x) => x.id === q.template);
-        if (!t) throw new Error('template ' + q.template + ' not found');
-        const pixel = `${config.publicUrl}/api/v1/mail/o/${q._id}.gif`;
-        const r = renderTemplate(t, { ...q.vars, unsubscribe: q.marketing ? unsubUrl(q.to) : '' }, { pixel, logo: mailSet.logo });
-        const headers = q.marketing ? { 'List-Unsubscribe': `<${unsubUrl(q.to)}>`, 'List-Unsubscribe-Post': 'List-Unsubscribe=One-Click' } : {};
-        const s = await sendMail({ to: q.to, subject: r.subject, html: r.html, text: r.text, headers });
-        await col('mail_queue').updateOne({ _id: q._id }, { $set: { status: 'sent', sent: new Date(), providerId: s.id || '', subject: r.subject } });
-        await col('contacts').updateOne({ _id: q.to }, { $set: { lastMail: new Date() }, $inc: { mails: 1 } });
-      } catch (e) {
-        const tries = (q.tries || 0) + 1;
-        await col('mail_queue').updateOne({ _id: q._id }, { $set: { status: tries >= 3 ? 'failed' : 'queued', error: String(e.message).slice(0, 300), sendAt: new Date(Date.now() + tries * 10 * 60e3) }, $inc: { tries: 1 } });
-      }
-    }
+    for (const q of due) await sendOne(q, tpls, mailSet);
     // campaigns that have nothing left to send are done
     const sending = await col('campaigns').find({ status: 'sending' }).toArray();
     for (const c of sending) if (!(await col('mail_queue').countDocuments({ campaign: c._id, status: 'queued' }))) await col('campaigns').updateOne({ _id: c._id }, { $set: { status: 'sent', finished: new Date() } });
@@ -407,4 +413,27 @@ marketingRouter.get('/admin/mail/queue', requireAdmin, ah(async (req, res) => {
 marketingRouter.post('/admin/mail/queue/retry', requireAdmin, ah(async (req, res) => {
   const r = await col('mail_queue').updateMany({ status: 'failed' }, { $set: { status: 'queued', tries: 0, sendAt: new Date() } });
   res.json({ ok: true, n: r.modifiedCount });
+}));
+// GitHub #11: stop queued emails, and send any email by hand
+marketingRouter.post('/admin/mail/queue/cancel', requireAdmin, ah(async (req, res) => {
+  const r = await col('mail_queue').updateMany({ status: 'queued' }, { $set: { status: 'cancelled', cancelled: new Date() } });
+  await audit(req, 'cancel-mail', 'all queued', { n: r.modifiedCount });
+  res.json({ ok: true, n: r.modifiedCount });
+}));
+marketingRouter.post('/admin/mail/queue/:id/cancel', requireAdmin, ah(async (req, res) => {
+  const id = String(req.params.id);
+  const r = await col('mail_queue').updateOne({ _id: id, status: 'queued' }, { $set: { status: 'cancelled', cancelled: new Date() } });
+  if (!r.modifiedCount) return res.status(409).json({ ok: false, error: 'This email is not waiting in the queue any more.' });
+  await audit(req, 'cancel-mail', id);
+  res.json({ ok: true });
+}));
+marketingRouter.post('/admin/mail/queue/:id/send', requireAdmin, rateLimit('msend', 120, 3600e3), ah(async (req, res) => {
+  const id = String(req.params.id);
+  if (!mailReady()) return res.status(503).json({ ok: false, error: 'Email sending is not set up yet (Settings › Connections).' });
+  // claim the email so the background worker does not send it at the same time
+  const q = await col('mail_queue').findOneAndUpdate({ _id: id, status: { $in: ['queued', 'cancelled', 'failed'] } }, { $set: { status: 'sending', tries: 0 } }, { returnDocument: 'after' });
+  if (!q) return res.status(409).json({ ok: false, error: 'This email was already sent or is being sent.' });
+  const status = await sendOne(q, await getTemplates(), (await getContent('mail-settings')) || {});
+  await audit(req, 'send-mail', id, { status });
+  res.json({ ok: status === 'sent', status, error: status === 'sent' ? undefined : 'Not sent; see the note in the email log.' });
 }));

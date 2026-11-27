@@ -97,4 +97,13 @@ const admNum = (n) => (n == null ? "0" : Number(n).toLocaleString());
 const admClone = (x) => (x === undefined ? undefined : JSON.parse(JSON.stringify(x)));
 const admSame = (a, b) => JSON.stringify(a) === JSON.stringify(b);
 
-export { admApi, admCan, admClone, admDel, admDownload, admForget, admGet, admMe, admNum, admOnSignOut, admOnStepUp, admOptimise, admPut, admReplace, admSame, admUpload, admWhen, setTok as admSetToken, tok as admToken };
+/* GitHub #15/#16: country code -> "🇮🇳 India" for the Visits and Activity tables */
+let admRegions = null;
+const admCountry = (cc) => {
+  if (!cc || !/^[A-Z]{2}$/.test(cc)) return "—";
+  try { admRegions = admRegions || new Intl.DisplayNames(["en"], { type: "region" }); } catch { admRegions = false; }
+  const flag = String.fromCodePoint(...[...cc].map((c) => 127397 + c.charCodeAt(0)));
+  return flag + " " + ((admRegions && admRegions.of(cc)) || cc);
+};
+
+export { admApi, admCan, admClone, admCountry, admDel, admDownload, admForget, admGet, admMe, admNum, admOnSignOut, admOnStepUp, admOptimise, admPut, admReplace, admSame, admUpload, admWhen, setTok as admSetToken, tok as admToken };

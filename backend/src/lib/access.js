@@ -41,6 +41,7 @@ const RULES = [
   ['POST', /^\/admin\/mail\/preview$/, 'marketing', 'view'],
   ['POST', /^\/admin\/mail\/test$/, 'marketing', 'edit'],
   ['POST', /^\/admin\/mail\/queue\/retry$/, 'marketing', 'publish'],
+  ['POST', /^\/admin\/mail\/queue\/(cancel|[^/]+\/(cancel|send))$/, 'marketing', 'publish'],
   ['GET', /^\/admin\/campaigns$/, 'marketing', 'view'],
   ['POST', /^\/admin\/campaigns$/, 'marketing', 'create'],
   ['PUT', /^\/admin\/campaigns\/[^/]+$/, 'marketing', 'edit'],

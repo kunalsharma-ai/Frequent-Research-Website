@@ -1,6 +1,7 @@
 import crypto from 'node:crypto';
 import { config } from '../config.js';
 import { col, dbReady } from '../db.js';
+import { ipFields } from './geo.js';
 
 // plain text: no control characters, no tags, single spaces, at most `max` characters
 export const clean = (v, max) => (typeof v === 'string' ? v.replace(/[\u0000-\u001F\u007F-\u009F]/g, ' ').replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim().slice(0, max) : '');
@@ -56,7 +57,7 @@ export async function audit(req, action, target, detail = {}) {
   try {
     const u = req.admin && req.admin.user;
     const actor = u ? { id: u._id, email: u.email, name: u.name, role: u.role } : req.actor || null;
-    await col('audit').insertOne({ at: new Date(), action, target: String(target || '').slice(0, 200), detail, actor, ip: hashIp(req.ip), ua: clean(req.headers['user-agent'], 200) });
+    await col('audit').insertOne({ at: new Date(), action, target: String(target || '').slice(0, 200), detail, actor, ip: hashIp(req.ip), ...ipFields(req), ua: clean(req.headers['user-agent'], 200) });
   } catch (e) { console.error('[audit]', e.message); }
 }
 

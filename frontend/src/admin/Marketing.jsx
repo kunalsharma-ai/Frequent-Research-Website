@@ -294,9 +294,14 @@ function Campaigns({ go }) {
       </tbody></table></div>
       <details className="adm-panel">
         <summary><b>Email log (last 50)</b></summary>
-        <div className="adm-row"><AdmBtn small onClick={async () => { const r = await admApi("/admin/mail/queue/retry", { body: {} }); setMsg({ ok: admNum(r.n) + " failed emails will be tried again." }); reloadQ(); }}>Try failed emails again</AdmBtn></div>
-        <div className="adm-table"><table><thead><tr><th>When</th><th>To</th><th>Template</th><th>Status</th><th>Note</th></tr></thead><tbody>
-          {((queue.data && queue.data.rows) || []).map((r) => <tr key={r.id}><td>{admWhen(r.sent || r.sendAt || r.created)}</td><td>{r.to}</td><td>{r.template}</td><td>{r.status}{r.opened ? " · opened" : ""}</td><td className="adm-clip">{r.error || r.reason || ""}</td></tr>)}
+        <div className="adm-row"><AdmBtn small onClick={async () => { const r = await admApi("/admin/mail/queue/retry", { body: {} }); setMsg({ ok: admNum(r.n) + " failed emails will be tried again." }); reloadQ(); }}>Try failed emails again</AdmBtn>
+          <AdmBtn small kind="danger" onClick={async () => { if (!confirm("Stop every email that is waiting in the queue? You can still send any of them by hand later.")) return; try { const r = await admApi("/admin/mail/queue/cancel", { body: {} }); setMsg({ ok: admNum(r.n) + " queued emails stopped." }); } catch (e) { setMsg({ err: e.message }); } reloadQ(); }}>Stop all queued emails</AdmBtn></div>
+        <div className="adm-table"><table><thead><tr><th>When</th><th>To</th><th>Template</th><th>Status</th><th>Note</th><th /></tr></thead><tbody>
+          {((queue.data && queue.data.rows) || []).map((r) => <tr key={r.id}><td>{admWhen(r.sent || r.sendAt || r.created)}</td><td>{r.to}</td><td>{r.template}</td><td>{r.status}{r.opened ? " · opened" : ""}</td><td className="adm-clip">{r.error || r.reason || ""}</td>
+            <td><div className="adm-row">
+              {r.status === "queued" && <AdmBtn small kind="ghost" onClick={async () => { try { await admApi("/admin/mail/queue/" + r.id + "/cancel", { body: {} }); setMsg({ ok: "Email to " + r.to + " stopped." }); } catch (e) { setMsg({ err: e.message }); } reloadQ(); }}>Cancel</AdmBtn>}
+              {["queued", "cancelled", "failed"].includes(r.status) && <AdmBtn small onClick={async () => { try { await admApi("/admin/mail/queue/" + r.id + "/send", { body: {} }); setMsg({ ok: "Email sent to " + r.to + "." }); } catch (e) { setMsg({ err: e.message }); } reloadQ(); }}>Send now</AdmBtn>}
+            </div></td></tr>)}
         </tbody></table></div>
       </details>
     </section>

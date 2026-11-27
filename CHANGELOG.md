@@ -1,5 +1,28 @@
 # Frequent Research website: change log
 
+## 2026-11-27 · Open GitHub issues #11, #15–#24
+
+Built on 83.4 (+ PR #25). Design and animations unchanged apart from what each issue asks for.
+
+- #22 Our Journey: the Turn2Opinion and MyFrequentRewards logos in the "two panels launch" card are no longer covered by
+  white boxes (a `.oj5-logos span` rule hit every span inside the logo plates; now `.oj5-logos>span`).
+- #23 Our Journey: "Three communities. Seven Sampledge products." shows one card per row on phones (≤600 px).
+- #21 Rates & reviews hero: "average" wraps under the stars instead of running out of its card.
+- #18 Home testimonials: the vertical ticker runs about 1.5× slower (46 s → 70 s, 54 s → 82 s).
+- #20 Our reach: flag and job-title tickers run 1.5× slower (only on /our-reach; About keeps its speed).
+- #19 Panel books: the profiled consumers / professionals number is no longer clipped in the hero (first column sizes
+  to the number; commas no longer cut by the line box) or on country pages (big card is full width on phones and the
+  number scales to its card).
+- #24 Country panel books: column charts (household and personal income) use one shared baseline (CSS subgrid), so long
+  labels no longer push bars up.
+- #17 Super admin: pages use the full width (the 1180 px / 1320 px caps are gone).
+- #15, #16 Super admin Visits and Activity: new IP address and Country columns. The IP is stored sealed (AES-256-GCM,
+  DATA_KEY) and opened only for admins; the country comes from the CDN header (Cloudflare CF-IPCountry, CloudFront,
+  Vercel, App Engine, Fastly, or X-Country-Code from nginx). Rows recorded before this change show "—".
+- #11 Super admin Newsletters › Email log: "Cancel" and "Send now" on each email, and "Stop all queued emails".
+  New API: POST /admin/mail/queue/cancel, /admin/mail/queue/:id/cancel, /admin/mail/queue/:id/send (marketing publish).
+- #12, #13, #14 were already fixed by PR #10 and PR #25.
+
 ## 2026-11-23 · Build 83.4: SampConnect in the home product switcher
 
 Kunal (23 Nov). Built on 83.3. Full detail: `docs/go-live/28-BUILD-83.4.md`.

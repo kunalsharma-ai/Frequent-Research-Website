@@ -19,7 +19,7 @@ html.adm-mode *{cursor:auto}
 .adm-side .adm-btn{margin-top:auto;color:#DCE2F5;border-color:rgba(255,255,255,.25)}
 .adm-burger{display:none}
 .adm-main{padding:24px clamp(16px,3vw,40px) 80px;min-width:0}
-.adm-sec{max-width:1180px}
+.adm-sec{max-width:none}
 .adm-sec--wide{max-width:none}
 .adm-sec__h{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-bottom:8px}
 .adm-sec__h h1{margin:0 auto 0 0;font:800 1.6rem/1.2 Manrope,sans-serif;color:#0B1437}
