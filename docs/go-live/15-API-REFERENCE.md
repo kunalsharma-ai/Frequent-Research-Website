@@ -54,6 +54,12 @@ access) must include; the Super Admin has all. Without the right: `403`.
 Form rules: CAPTCHA, hidden `website` bot trap, 20 leads per connection per hour, valid email.
 `LEAD_WEBHOOK` (or the same key in Connections & keys) also sends every lead to a CRM.
 
+**Sampforce (sales app)**, with an API key from System › Sampforce (`Authorization: Bearer sfk_…`), full guide in
+29-SAMPFORCE-API.md: `GET /sampforce/ping`, `GET /sampforce/forms`, `GET /sampforce/leads` (`?type=&category=&status=&formKey=&email=&q=&since=&until=&updatedSince=&order=&limit=&cursor=`),
+`GET|PATCH /sampforce/leads/:id`, `GET /sampforce/contacts`, `GET /sampforce/contacts/:email`, `GET /sampforce/reviews`,
+`GET /sampforce/reviews/:id`. Admin: `GET /admin/sampforce`, `POST /admin/sampforce/keys`, `DELETE /admin/sampforce/keys/:id`
+(both with the code), `POST /admin/sampforce/test|outbox/retry|backfill` (integrations configure).
+
 ## 3. Admin endpoints
 
 ### Account, setup and access

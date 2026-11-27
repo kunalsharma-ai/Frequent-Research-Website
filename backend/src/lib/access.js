@@ -62,6 +62,11 @@ const RULES = [
   ['GET', /^\/admin\/integrations$/, ['integrations', 'users'], 'view'],
   ['GET', /^\/admin\/system$/, 'integrations', 'view'],
   ['PUT', /^\/admin\/integrations\/keys$/, 'integrations', 'configure'],
+  // Sampforce (sales app): API keys for Sampforce and the webhook deliveries; making or revoking a key asks for the code
+  ['GET', /^\/admin\/sampforce$/, 'integrations', 'view'],
+  ['POST', /^\/admin\/sampforce\/keys$/, 'integrations', 'configure', true],
+  ['DELETE', /^\/admin\/sampforce\/keys\/[^/]+$/, 'integrations', 'configure', true],
+  ['POST', /^\/admin\/sampforce\/(test|outbox\/retry|backfill)$/, 'integrations', 'configure'],
   ['POST', /^\/admin\/integrations\/sampcrew\/send\/[^/]+$/, 'careers', 'edit'],
   ['PUT', /^\/admin\/celebrations$/, 'settings', 'publish'],
   ['PUT', /^\/admin\/gallery$/, 'company', 'publish'],

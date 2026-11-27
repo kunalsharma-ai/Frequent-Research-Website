@@ -44,7 +44,7 @@ const TIPS = {
   emails: "Email templates in the Frequent Research style.", automations: "Emails that go out by themselves after a form.",
   newsletters: "Newsletters to your contact lists.", social: "Plan and post to Facebook, Instagram, LinkedIn and X.", ai: "Draft blogs, emails and posts with AI.",
   api: "Every Frequent Research API: live status, what each one does, and Try it.",
-  keys: "Email, AI, social media and SampCrew keys, saved encrypted.", files: "Pictures, logos, videos and documents.", content: "Every content key, for experts.",
+  sampforce: "Every lead and enquiry to the Sampforce sales app: API keys and webhook.", keys: "Email, AI, social media and SampCrew keys, saved encrypted.", files: "Pictures, logos, videos and documents.", content: "Every content key, for experts.",
   approvals: "Changes waiting for review, and their history.", users: "Invite admins, change roles, suspend or reset access.", roles: "What each role may do, area by area.",
 };
 

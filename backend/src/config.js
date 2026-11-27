@@ -37,6 +37,13 @@ export function integrationsFrom(env) {
     },
     // build 82: the client and vendor onboarding portals sign their deliveries with this shared secret
     onboarding: { secret: env.ONBOARDING_SECRET || '' },
+    // Sampforce (sales app): every website lead is pushed to this https:// address, signed with the secret
+    // (routes/sampforce.js). Sampforce can also pull leads with an API key made in the super admin (System › Sampforce).
+    sampforce: {
+      webhookUrl: /^https:\/\//.test(env.SAMPFORCE_WEBHOOK_URL || '') ? env.SAMPFORCE_WEBHOOK_URL : '',
+      webhookSecret: env.SAMPFORCE_WEBHOOK_SECRET || '',
+      events: (env.SAMPFORCE_WEBHOOK_EVENTS || '').split(/[,; ]+/).map((e) => e.trim()).filter(Boolean),
+    },
     sampcrew: {
       url: /^https:\/\//.test(env.SAMPCREW_API_URL || '') ? env.SAMPCREW_API_URL.replace(/\/+$/, '') : '',
       key: env.SAMPCREW_API_KEY || '',

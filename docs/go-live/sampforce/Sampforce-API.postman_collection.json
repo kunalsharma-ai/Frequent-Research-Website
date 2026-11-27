@@ -1,0 +1,338 @@
+{
+  "info": {
+    "name": "Website leads for Sampforce (API v1)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": "Every lead, enquiry, download form, chat lead, contact and review from the website. Guide: docs/go-live/29-SAMPFORCE-API.md. Set the variables baseUrl and apiKey."
+  },
+  "auth": {
+    "type": "bearer",
+    "bearer": [
+      {
+        "key": "token",
+        "value": "{{apiKey}}",
+        "type": "string"
+      }
+    ]
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "https://www.frequentresearch.com/api/v1/sampforce"
+    },
+    {
+      "key": "apiKey",
+      "value": "sfk_paste_your_key_here"
+    },
+    {
+      "key": "leadId",
+      "value": "l_3f9a2c71b0de"
+    }
+  ],
+  "item": [
+    {
+      "name": "Ping (check the key)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/ping",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "ping"
+          ]
+        },
+        "description": ""
+      }
+    },
+    {
+      "name": "Forms and counts",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/forms",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "forms"
+          ]
+        },
+        "description": ""
+      }
+    },
+    {
+      "name": "Leads: first page (oldest first)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/leads?limit=100",
+          "query": [
+            {
+              "key": "limit",
+              "value": "100"
+            }
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "leads"
+          ]
+        },
+        "description": ""
+      }
+    },
+    {
+      "name": "Leads: next page",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/leads?limit=100&cursor=<nextCursor>",
+          "query": [
+            {
+              "key": "limit",
+              "value": "100"
+            },
+            {
+              "key": "cursor",
+              "value": "<nextCursor>"
+            }
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "leads"
+          ]
+        },
+        "description": ""
+      }
+    },
+    {
+      "name": "Leads: changed since (sync)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/leads?updatedSince=2026-11-27T00:00:00Z&limit=500",
+          "query": [
+            {
+              "key": "updatedSince",
+              "value": "2026-11-27T00:00:00Z"
+            },
+            {
+              "key": "limit",
+              "value": "500"
+            }
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "leads"
+          ]
+        },
+        "description": ""
+      }
+    },
+    {
+      "name": "Leads: new enquiries this month",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/leads?type=enquiry&status=new&since=2026-11-01",
+          "query": [
+            {
+              "key": "type",
+              "value": "enquiry"
+            },
+            {
+              "key": "status",
+              "value": "new"
+            },
+            {
+              "key": "since",
+              "value": "2026-11-01"
+            }
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "leads"
+          ]
+        },
+        "description": ""
+      }
+    },
+    {
+      "name": "Leads: downloads",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/leads?category=download",
+          "query": [
+            {
+              "key": "category",
+              "value": "download"
+            }
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "leads"
+          ]
+        },
+        "description": ""
+      }
+    },
+    {
+      "name": "Leads: search",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/leads?q=acme&order=desc",
+          "query": [
+            {
+              "key": "q",
+              "value": "acme"
+            },
+            {
+              "key": "order",
+              "value": "desc"
+            }
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "leads"
+          ]
+        },
+        "description": ""
+      }
+    },
+    {
+      "name": "Lead: one",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/leads/{{leadId}}",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "leads",
+            "{{leadId}}"
+          ]
+        },
+        "description": ""
+      }
+    },
+    {
+      "name": "Lead: send status back",
+      "request": {
+        "method": "PATCH",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/leads/{{leadId}}",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "leads",
+            "{{leadId}}"
+          ]
+        },
+        "description": "",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"status\": \"qualified\",\n  \"stage\": \"Proposal sent\",\n  \"owner\": \"Riya Sharma\",\n  \"sampforceId\": \"SF-10023\",\n  \"url\": \"https://app.sampforce.com/leads/SF-10023\",\n  \"note\": \"Call booked for Monday\"\n}"
+        }
+      }
+    },
+    {
+      "name": "Contacts: newsletter sign-ups",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/contacts?subscribed=true&limit=100",
+          "query": [
+            {
+              "key": "subscribed",
+              "value": "true"
+            },
+            {
+              "key": "limit",
+              "value": "100"
+            }
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "contacts"
+          ]
+        },
+        "description": ""
+      }
+    },
+    {
+      "name": "Contact: one",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/contacts/nia@example.com",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "contacts",
+            "nia@example.com"
+          ]
+        },
+        "description": ""
+      }
+    },
+    {
+      "name": "Reviews",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/reviews?status=published",
+          "query": [
+            {
+              "key": "status",
+              "value": "published"
+            }
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "reviews"
+          ]
+        },
+        "description": ""
+      }
+    }
+  ]
+}

@@ -23,6 +23,7 @@ export const KEY_LIST = [
   ['SOCIAL_WEBHOOK', true, 'Social media'],
   ['SAMPCREW_API_URL', false, 'SampCrew'], ['SAMPCREW_API_KEY', true, 'SampCrew'], ['SAMPCREW_WEBHOOK_SECRET', true, 'SampCrew'],
   ['LEAD_WEBHOOK', true, 'CRM'],
+  ['SAMPFORCE_WEBHOOK_URL', true, 'Sampforce'], ['SAMPFORCE_WEBHOOK_SECRET', true, 'Sampforce'], ['SAMPFORCE_WEBHOOK_EVENTS', false, 'Sampforce'],
   ['ONBOARDING_SECRET', true, 'Onboarding portals'],
 ];
 const META = new Map(KEY_LIST.map(([k, s, g]) => [k, { secret: s, group: g }]));
@@ -31,7 +32,7 @@ export const isKey = (k) => META.has(k);
 // non-secret values are checked so a typo cannot break sending
 const CHECK = {
   PUBLIC_URL: /^https?:\/\/[^\s/]+$/, MAIL_PROVIDER: /^(smtp|resend|sendgrid|brevo|off)$/i, SMTP_PORT: /^\d{2,5}$/, SMTP_SECURE: /^[01]$/, MAIL_PER_MINUTE: /^\d{1,4}$/,
-  SAMPCREW_API_URL: /^https:\/\/\S+$/, SOCIAL_WEBHOOK: /^https:\/\/\S+$/, LEAD_WEBHOOK: /^https:\/\/\S+$/, AI_MODEL: /^[a-z0-9][a-z0-9.\-[\]]{1,80}$/i,
+  SAMPCREW_API_URL: /^https:\/\/\S+$/, SOCIAL_WEBHOOK: /^https:\/\/\S+$/, LEAD_WEBHOOK: /^https:\/\/\S+$/, SAMPFORCE_WEBHOOK_URL: /^https:\/\/\S+$/, SAMPFORCE_WEBHOOK_EVENTS: /^[a-z.*]+([ ,;]+[a-z.*]+)*$/, AI_MODEL: /^[a-z0-9][a-z0-9.\-[\]]{1,80}$/i,
 };
 export function checkValue(k, v) {
   if (typeof v !== 'string') return 'must be text';

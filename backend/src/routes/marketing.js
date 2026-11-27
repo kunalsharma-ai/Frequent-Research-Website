@@ -26,6 +26,7 @@ import { ah, audit, clean, EMAIL, newId, rateLimit, requireAdmin, toCsv } from '
 import { mailReady, mailStatus, sendMail } from '../lib/mailer.js';
 import { BUILTIN_TEMPLATES, DESIGNS, renderTemplate, replyFor } from '../lib/mailtpl.js';
 import { escapeRe } from './admin.js';
+import { sfContact, sfEmit } from './sampforce.js';
 
 export const marketingRouter = Router();
 
@@ -220,7 +221,7 @@ marketingRouter.post('/newsletter', rateLimit('nl', 10, 3600e3), ah(async (req, 
   if (b.consent !== true && b.consent !== 'true' && b.consent !== 'on') return res.status(422).json({ ok: false, error: 'Please tick the box to agree to receive our emails.' });
   const before = await col('contacts').findOne({ _id: email });
   const c = await upsertContact({ email, name: clean(b.name, 120), service: clean(b.topic, 120) }, { subscribe: true, source: 'newsletter' });
-  if (!before || !before.subscribed) await onSubscribe(c);
+  if (!before || !before.subscribed) { await onSubscribe(c); if (c) sfEmit('newsletter.subscribed', sfContact(c)); }
   res.json({ ok: true, message: 'Thank you! Please look out for our next newsletter.' });
 }));
 

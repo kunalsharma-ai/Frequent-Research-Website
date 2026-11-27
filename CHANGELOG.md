@@ -1,5 +1,21 @@
 # Frequent Research website: change log
 
+## 2026-11-27 · Sampforce API: every website lead for the sales app
+
+Website design and animations unchanged; backend and super admin only.
+
+- New API for Sampforce (`/api/v1/sampforce/…`): every enquiry, download form, case study / resource download, live chat
+  lead, contact (newsletter sign-ups) and review, with filters, paging (`cursor`) and an `updatedSince` sync; one lead by
+  id; `PATCH` sends status, stage, owner and the Sampforce id back (shown on the lead in Leads). Careers only with the
+  `careers:read` right. Visitor IPs and browser details are never sent.
+- API keys made in the super admin, **System › Sampforce (sales)**: shown once, stored as a hash, rights per key,
+  optional IP list and expiry, revoke in one click; making / revoking asks for the authenticator code.
+- Optional push: signed webhook (`SAMPFORCE_WEBHOOK_URL`, `SAMPFORCE_WEBHOOK_SECRET`, `SAMPFORCE_WEBHOOK_EVENTS` in
+  Connections & keys) for `lead.created`, `lead.updated`, `newsletter.subscribed`, `review.created` (`careers.created`
+  when listed), with retries for 8 tries, a delivery list, Send a test, Send failed ones again, Send older leads.
+- Guide for the Sampforce developers: `docs/go-live/29-SAMPFORCE-API.md` and a Postman collection in
+  `docs/go-live/sampforce/`. Tests: `backend/test/sampforce.test.js`.
+
 ## 2026-11-27 · Open GitHub issues #11, #15–#24
 
 Built on 83.4 (+ PR #25). Design and animations unchanged apart from what each issue asks for.

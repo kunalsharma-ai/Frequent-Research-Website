@@ -17,6 +17,7 @@ import { mailStatus } from '../lib/mailer.js';
 import { socialStatus } from './social.js';
 import { canSave, checkValue, isKey, keyStatus, saveKeys } from '../lib/keystore.js';
 import { requireStepUpMw } from './users.js';
+import { sfWebhookReady } from './sampforce.js';
 
 export const integrationsRouter = Router();
 
@@ -35,7 +36,7 @@ integrationsRouter.post('/admin/ai/write', requireAdmin, rateLimit('ai', 120, 36
 const SC = () => config.sampcrew;
 export const sampcrewReady = () => !!(SC().url && SC().key);
 const cvSig = (id, exp) => crypto.createHmac('sha256', config.secret + '|cv').update(id + '.' + exp).digest('hex');
-const cvLink = (id) => { const exp = Date.now() + 7 * 86400e3; return `${config.publicUrl}/api/v1/integrations/sampcrew/cv/${id}?exp=${exp}&sig=${cvSig(id, exp)}`; };
+export const cvLink = (id) => { const exp = Date.now() + 7 * 86400e3; return `${config.publicUrl}/api/v1/integrations/sampcrew/cv/${id}?exp=${exp}&sig=${cvSig(id, exp)}`; };
 
 // a careers application goes to SampCrew as a candidate: POST {SAMPCREW_API_URL}/candidates (Bearer SAMPCREW_API_KEY)
 export async function sendToSampcrew(lead) {
@@ -107,6 +108,7 @@ integrationsRouter.get('/admin/integrations', requireAdmin, ah(async (req, res) 
     social: socialStatus(),
     sampcrew: { ready: sampcrewReady(), webhook: !!SC().webhookSecret, url: SC().url ? SC().url.replace(/^(https:\/\/[^/]+).*/, '$1/…') : '' },
     leadWebhook: !!config.leadWebhook,
+    sampforce: { webhook: sfWebhookReady() },
     canSave: canSave(),
     keys: keyStatus(),
   });

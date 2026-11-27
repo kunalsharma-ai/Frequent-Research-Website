@@ -122,6 +122,12 @@ const API = [
   ["Connections and keys", "#4A5FB0", [
     ["GET", "/admin/integrations", "What is connected; every key (secrets: last 4 characters)", "integrations view"],
     ["PUT", "/admin/integrations/keys", "Save keys (encrypted); null removes", "integrations configure", 1, { values: { AI_MODEL: "claude-opus-5-5" } }],
+    ["GET", "/admin/sampforce", "Sampforce: API keys, webhook status, last deliveries", "integrations view"],
+    ["POST", "/admin/sampforce/keys", "Make a Sampforce API key (shown once)", "integrations configure", 1, { name: "Sampforce production", scopes: ["leads:read", "contacts:read", "reviews:read", "leads:write"] }],
+    ["DELETE", "/admin/sampforce/keys/:id", "Revoke a Sampforce API key", "integrations configure", 1],
+    ["POST", "/admin/sampforce/test", "Send a signed test to the Sampforce webhook", "integrations configure"],
+    ["POST", "/admin/sampforce/outbox/retry", "Send failed webhook deliveries again ({ id } for one)", "integrations configure", 0, {}],
+    ["POST", "/admin/sampforce/backfill", "Send older leads to the Sampforce webhook", "integrations configure", 0, { since: "2026-11-01" }],
     ["POST", "/admin/integrations/sampcrew/send/:id", "Send an application to SampCrew again", "careers edit"],
   ]],
 ];

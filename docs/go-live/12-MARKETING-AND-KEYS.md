@@ -97,6 +97,7 @@ The stage then shows on the lead in Leads.
 | Key | What it does |
 |---|---|
 | `LEAD_WEBHOOK` | As before: an `https://` address (CRM, Zapier) that also gets every lead as JSON |
+| `SAMPFORCE_WEBHOOK_URL`, `SAMPFORCE_WEBHOOK_SECRET` | Sampforce (sales app): every new lead is pushed here, signed. Optional `SAMPFORCE_WEBHOOK_EVENTS`. API keys for Sampforce to pull leads: System › Sampforce. Guide: 29-SAMPFORCE-API.md |
 | `WORKERS` | `0` stops background sending (only for a second backend container or tests). Default on |
 
 ## Short list for Kunal

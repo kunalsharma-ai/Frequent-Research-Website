@@ -14,6 +14,7 @@ import { integrationsRouter } from './routes/integrations.js';
 import { usersRouter } from './routes/users.js';
 import { onboardingRouter } from './routes/onboarding.js';
 import { pageVideosRouter } from './routes/pageVideos.js';
+import { sampforceRouter } from './routes/sampforce.js';
 import { guard } from './lib/access.js';
 import { rateLimit } from './lib/util.js';
 
@@ -56,7 +57,7 @@ export function createApp() {
   // build 78: integrations first (its /admin/chats/export must win over chat's /admin/chats/:id)
   // build 78.3: every /admin request passes the permission guard first (lib/access.js)
   api.use(guard);
-  api.use(usersRouter, onboardingRouter, pageVideosRouter, adminRouter, integrationsRouter, marketingRouter, socialRouter, reviewsRouter, leadsRouter, contentRouter, filesRouter, chatRouter, trackRouter);
+  api.use(usersRouter, sampforceRouter, onboardingRouter, pageVideosRouter, adminRouter, integrationsRouter, marketingRouter, socialRouter, reviewsRouter, leadsRouter, contentRouter, filesRouter, chatRouter, trackRouter);
   api.use((req, res) => res.status(404).json({ ok: false, error: 'Not found' }));
 
   app.use('/api/v1', api);

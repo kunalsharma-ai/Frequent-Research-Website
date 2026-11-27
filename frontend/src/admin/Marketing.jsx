@@ -533,6 +533,7 @@ function Keys() {
         <Row l="AI assistant" ok={d.ai.ready} note={d.ai.ready ? "Model " + d.ai.model : "Needs ANTHROPIC_API_KEY"} />
         {PLAT.map(([k, l]) => <Row key={k} l={l} ok={!!d.social[k]} note={d.social[k] ? "" : "Needs " + PLAT_KEYS[k]} />)}
         <Row l="SampCrew (careers to HR)" ok={d.sampcrew.ready} note={d.sampcrew.ready ? d.sampcrew.url + (d.sampcrew.webhook ? " · stage updates on" : " · add SAMPCREW_WEBHOOK_SECRET for stage updates") : "Needs SAMPCREW_API_URL and SAMPCREW_API_KEY"} />
+        <Row l="Sampforce webhook (every lead to sales)" ok={!!(d.sampforce && d.sampforce.webhook)} note="Optional: SAMPFORCE_WEBHOOK_URL and SAMPFORCE_WEBHOOK_SECRET. API keys: System › Sampforce" />
         <Row l="CRM webhook (every lead)" ok={d.leadWebhook} note="Optional: LEAD_WEBHOOK" />
       </tbody></table></div>
       <p className="adm-muted">SampCrew sends stage updates to <code>{(d.publicUrl || "") + "/api/v1/integrations/sampcrew/webhook"}</code> signed with SAMPCREW_WEBHOOK_SECRET (header X-SampCrew-Signature).</p>

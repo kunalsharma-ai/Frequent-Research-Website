@@ -50,6 +50,11 @@ export async function connectDb(uri = config.mongoUri, name = config.mongoDb) {
     col('content_drafts').createIndex({ key: 1, author: 1 }),
     col('audit').createIndex({ 'actor.email': 1, at: -1 }),
     col('leads').createIndex({ assignee: 1, at: -1 }),
+    // Sampforce: API keys (hash only) and webhook deliveries (kept 30 days)
+    col('leads').createIndex({ updated: 1 }, { sparse: true }),
+    col('sampforce_keys').createIndex({ hash: 1 }, { unique: true }),
+    col('sampforce_outbox').createIndex({ status: 1, nextAt: 1 }),
+    col('sampforce_outbox').createIndex({ created: 1 }, { expireAfterSeconds: 30 * 86400 }),
     // build 82: client & vendor onboarding submissions (_id = the portal reference FR-MSA-… / FR-VEN-…)
     col('onboarding').createIndex({ kind: 1, received: -1 }),
     col('onboarding').createIndex({ kind: 1, status: 1 }),

@@ -6,6 +6,7 @@ import { createApp } from './app.js';
 import { loadKeys, watchKeys } from './lib/keystore.js';
 import { startMailWorkers } from './routes/marketing.js';
 import { startSocialWorker } from './routes/social.js';
+import { startSampforceWorker } from './routes/sampforce.js';
 
 if (config.secretIsRandom) console.warn('[api] REVIEW_SECRET is not set: using a random key for this run only.');
 if (process.env.ADMIN_TOKEN || process.env.ADMIN_USER) console.warn('[api] ADMIN_USER / ADMIN_TOKEN are no longer used (build 78.3): admins sign in with their own accounts. Make the first Super Admin with: npm run admin -- create-super-admin --email you@frequentresearch.com --name "Your Name"');
@@ -28,7 +29,7 @@ const server = createApp().listen(config.port, () => {
 });
 
 // build 78: emails (automations, newsletters) and scheduled social posts are sent in the background
-if (config.workers) { startMailWorkers(); startSocialWorker(); }
+if (config.workers) { startMailWorkers(); startSocialWorker(); startSampforceWorker(); }
 
 // Docker sends SIGTERM on stop: finish open requests, then exit
 for (const sig of ['SIGTERM', 'SIGINT']) process.on(sig, () => { server.close(() => closeDb().finally(() => process.exit(0))); setTimeout(() => process.exit(0), 5000).unref(); });

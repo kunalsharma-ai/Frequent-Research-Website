@@ -12,6 +12,7 @@ import { col } from '../db.js';
 import { captcha, verifyCaptcha } from '../lib/captcha.js';
 import { ah, audit, clean, NAME, EMAIL, hashIp, newId, rateLimit, requireAdmin } from '../lib/util.js';
 import { escapeRe } from './admin.js';
+import { sfEmit, sfReview } from './sampforce.js';
 
 const SERVICES = ['market-research', 'digital-marketing', 'it-development', 'accounts-finance'];
 const BAD = /\b(viagra|casino|crypto ?giveaway|porn|xxx|loan offer|bitcoin doubler|fuck|shit|bitch|cunt)\b/i;
@@ -56,6 +57,7 @@ reviewsRouter.post('/reviews', rateLimit('rv', 4, 3600e3, 'Too many reviews from
   const status = config.publishMode === 'manual' || flagged ? 'pending' : 'published';
   const r = { _id: newId('r_'), status, first, last, email, phone: clean(b.phone, 20), countryCode: clean(b.countryCode, 6), company, designation, country, services, rating, review, date: new Date(), ip: hashIp(req.ip), page: clean(b.page, 300) };
   await col('reviews').insertOne(r);
+  sfEmit('review.created', sfReview(r));
   console.log(`[reviews] ${r._id} ${status} ${rating}★ ${services.join(',')} ${country}`);
   res.status(201).json({ ok: true, status, review: status === 'published' ? pub(r) : null });
 }));
