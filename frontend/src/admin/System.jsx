@@ -2,7 +2,7 @@
  * Super admin panel: media library, activity log and "All content" (every saved item as data, with its history).
  */
 import * as ee from 'react';
-import { admApi, admDel, admGet, admNum, admPut, admReplace, admWhen } from './api.jsx';
+import { admApi, admCountry, admDel, admGet, admNum, admPut, admReplace, admWhen } from './api.jsx';
 import { AdmBtn, AdmStatus, AdmUploadBtn } from './Fields.jsx';
 import { admUseLoad } from './Inbox.jsx';
 
@@ -59,8 +59,8 @@ function Activity() {
       <header className="adm-sec__h"><h1>Activity</h1></header>
       <p className="adm-muted">Every change made in this panel and every sign-in, newest first (kept for 3 years).</p>
       <div className="adm-filters"><input className="adm-in" placeholder="Search…" value={q} onChange={(e) => { setSkip(0); setQ(e.target.value); }} /></div>
-      <div className="adm-table"><table><thead><tr><th>When</th><th>What</th><th>Item</th><th>Details</th><th>Device</th></tr></thead><tbody>
-        {(d ? d.rows : []).map((r) => <tr key={r.id} className={r.action === "login-failed" ? "is-warn" : ""}><td>{admWhen(r.at)}</td><td>{ACT[r.action] || r.action}</td><td className="adm-clip">{r.target}</td><td className="adm-clip"><code>{r.detail && Object.keys(r.detail).length ? JSON.stringify(r.detail) : ""}</code></td><td className="adm-clip" title={r.ua}>{r.ip}</td></tr>)}
+      <div className="adm-table"><table><thead><tr><th>When</th><th>What</th><th>Item</th><th>Details</th><th>IP address</th><th>Country</th><th>Device</th></tr></thead><tbody>
+        {(d ? d.rows : []).map((r) => <tr key={r.id} className={r.action === "login-failed" ? "is-warn" : ""}><td>{admWhen(r.at)}</td><td>{ACT[r.action] || r.action}</td><td className="adm-clip">{r.target}</td><td className="adm-clip"><code>{r.detail && Object.keys(r.detail).length ? JSON.stringify(r.detail) : ""}</code></td><td><code>{r.ipAddress || "—"}</code></td><td>{admCountry(r.country)}</td><td className="adm-clip" title={r.ua}>{r.ip}</td></tr>)}
       </tbody></table></div>
       {d && <div className="adm-pager"><span>{admNum(d.total)} entries</span><AdmBtn small disabled={!skip} onClick={() => setSkip(Math.max(0, skip - 100))}>← Newer</AdmBtn><AdmBtn small disabled={skip + 100 >= d.total} onClick={() => setSkip(skip + 100)}>Older →</AdmBtn></div>}
     </section>

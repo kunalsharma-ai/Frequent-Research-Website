@@ -146,3 +146,20 @@ test('extra form fields are kept (also when they arrive as a JSON string) and ke
   assert.deepEqual(l.extra, { 'Budget (Rs_)': '5 lakh', Size: 'a, b' });
   assert.equal(l.formKey, 'diwali-offer');
 });
+
+test('queued emails can be stopped one by one or all at once (GitHub #11)', async () => {
+  const mk = (id) => ({ _id: id, to: 'queue@example.com', template: 'welcome-newsletter', vars: {}, status: 'queued', tries: 0, created: new Date(), sendAt: new Date(Date.now() + 3600e3) });
+  await col('mail_queue').insertMany([mk('q_t1'), mk('q_t2'), mk('q_t3')]);
+  assert.equal((await req('POST', '/api/v1/admin/mail/queue/q_t1/cancel', {}, admin)).status, 200);
+  assert.equal((await col('mail_queue').findOne({ _id: 'q_t1' })).status, 'cancelled');
+  assert.equal((await req('POST', '/api/v1/admin/mail/queue/q_t1/cancel', {}, admin)).status, 409);
+  const all = await j(req('POST', '/api/v1/admin/mail/queue/cancel', {}, admin));
+  assert.ok(all.n >= 2);
+  assert.equal(await col('mail_queue').countDocuments({ _id: { $in: ['q_t2', 'q_t3'] }, status: 'cancelled' }), 2);
+  // no email provider is set in tests, so "send now" says so and leaves the email as it was
+  const s = await req('POST', '/api/v1/admin/mail/queue/q_t2/send', {}, admin);
+  assert.equal(s.status, 503);
+  assert.equal((await col('mail_queue').findOne({ _id: 'q_t2' })).status, 'cancelled');
+  assert.equal((await req('POST', '/api/v1/admin/mail/queue/q_t2/cancel', {})).status, 401);
+});
+

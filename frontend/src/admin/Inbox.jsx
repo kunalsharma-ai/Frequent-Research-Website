@@ -3,7 +3,7 @@
  * Live chat (answer visitors in their chat window) and Reviews.
  */
 import * as ee from 'react';
-import { admApi, admDownload, admNum, admWhen } from './api.jsx';
+import { admApi, admCountry, admDownload, admNum, admWhen } from './api.jsx';
 import { AdmBtn, AdmField, AdmStatus, admLabel } from './Fields.jsx';
 
 const KIND = { enquiry: "Enquiry", download: "Download", "case-study-download": "Case study download", "resource-download": "Resource download", careers: "Careers application", chat: "Live chat" };
@@ -82,9 +82,9 @@ function Visits() {
       <header className="adm-sec__h"><h1>Visits</h1>
         <select className="adm-in adm-in--auto" value={days} onChange={(e) => setDays(+e.target.value)}>{[1, 7, 30, 90].map((d) => <option key={d} value={d}>Last {d} days</option>)}</select>
       </header>
-      <p className="adm-muted">Every page view, newest first (no cookies; visitors are counted by an anonymous code). {st.data && admNum(st.data.total) + " page views."}</p>
-      <div className="adm-table"><table><thead><tr><th>When</th><th>Page</th><th>From</th><th>Device</th><th>Visitor</th></tr></thead><tbody>
-        {(st.data ? st.data.visits : []).map((v, i) => <tr key={i}><td>{admWhen(v.at)}</td><td><a href={v.path} target="_blank" rel="noreferrer">{v.path}</a></td><td>{v.ref || "—"}</td><td>{v.mobile ? "Phone" : "Computer"}</td><td><code>{v.ip}</code></td></tr>)}
+      <p className="adm-muted">Every page view, newest first (no cookies; visitors are counted by an anonymous code; IP address and country show for views recorded since this update; older views show —). {st.data && admNum(st.data.total) + " page views."}</p>
+      <div className="adm-table"><table><thead><tr><th>When</th><th>Page</th><th>From</th><th>Device</th><th>IP address</th><th>Country</th><th>Visitor</th></tr></thead><tbody>
+        {(st.data ? st.data.visits : []).map((v, i) => <tr key={i}><td>{admWhen(v.at)}</td><td><a href={v.path} target="_blank" rel="noreferrer">{v.path}</a></td><td>{v.ref || "—"}</td><td>{v.mobile ? "Phone" : "Computer"}</td><td><code>{v.ipAddress || "—"}</code></td><td>{admCountry(v.country)}</td><td><code>{v.ip}</code></td></tr>)}
       </tbody></table></div>
     </section>
   );

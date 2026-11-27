@@ -7,6 +7,7 @@ import { Router } from 'express';
 import { col } from '../db.js';
 import { ah, page, requireAdmin, clean } from '../lib/util.js';
 import { can } from '../lib/auth.js';
+import { ipOpen } from '../lib/geo.js';
 
 export const adminRouter = Router();
 
@@ -32,7 +33,7 @@ adminRouter.get('/admin/audit', requireAdmin, ah(async (req, res) => {
   if (req.query.actor) { const a = clean(req.query.actor, 160); f[a.includes('@') ? 'actor.email' : 'actor.id'] = a.toLowerCase().includes('@') ? a.toLowerCase() : a; }
   if (req.query.action) f.action = { $regex: '^' + escapeRe(clean(req.query.action, 40)) };
   const [rows, total] = await Promise.all([col('audit').find(f).sort({ at: -1 }).skip(skip).limit(limit).toArray(), col('audit').countDocuments(f)]);
-  res.json({ ok: true, total, rows: rows.map(({ _id, ...r }) => ({ id: String(_id), ...r })) });
+  res.json({ ok: true, total, rows: rows.map(({ _id, ipAddr, ...r }) => ({ id: String(_id), ...r, ipAddress: ipOpen(ipAddr) })) });
 }));
 
 export const escapeRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');

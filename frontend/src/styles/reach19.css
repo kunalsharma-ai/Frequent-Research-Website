@@ -139,3 +139,9 @@
   .rc19-rail{top:64px}
 }
 @media (prefers-reduced-motion:reduce){.rc19 *{animation:none!important}}
+/* GitHub #20: tickers on /our-reach run 1.5x slower (About page keeps its own speed) */
+.rc19 .ab18-river__run{animation-duration:120s}
+.rc19 .ab18-river__row--1 .ab18-river__run{animation-duration:143s}
+.rc19 .ab18-tr__run{animation-duration:105s}
+.rc19 .ab18-tr__row--1 .ab18-tr__run{animation-duration:126s}
+.rc19 .ab18-tr__row--2 .ab18-tr__run{animation-duration:150s}

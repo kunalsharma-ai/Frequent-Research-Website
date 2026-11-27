@@ -148,6 +148,20 @@ test('page views are counted for the dashboard', async () => {
   assert.equal(s.series.length, 7);
 });
 
+test('admin visits and activity show the IP address and country (GitHub #15, #16)', async () => {
+  assert.equal((await fetch(B + '/api/v1/track', { method: 'POST', headers: { 'content-type': 'text/plain', 'x-forwarded-for': '203.0.113.9', 'cf-ipcountry': 'IN' }, body: JSON.stringify({ path: '/ip-test' }) })).status, 204);
+  const v = await json(fetch(B + '/api/v1/admin/visits?path=/ip-test', { headers: admin }));
+  assert.equal(v.visits[0].ipAddress, '203.0.113.9');
+  assert.equal(v.visits[0].country, 'IN');
+  assert.equal(v.visits[0].ipAddr, undefined);
+  const { col } = await import('../src/db.js');
+  const raw = await col('visits').findOne({ path: '/ip-test' });
+  assert.ok(raw.ipAddr.length > 20 && !raw.ipAddr.includes('203.0.113.9'), 'the address is stored sealed');
+  const a = await json(fetch(B + '/api/v1/admin/audit?limit=5', { headers: admin }));
+  assert.ok(a.rows.length);
+  assert.ok('ipAddress' in a.rows[0] && typeof a.rows[0].ipAddress === 'string');
+});
+
 test('health check reports the database', async () => {
   assert.deepEqual(await json(fetch(B + '/healthz')), { ok: true, db: true });
 });

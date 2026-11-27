@@ -379,7 +379,7 @@ function PC5_Glance({ kind, entry, tables, meta }) {
             <span className="pc5-bento__ic">
               <PC5_I n={PC5_KINDS[kind].icon} s={26} />
             </span>
-            <b>
+            <b style={{ "--n": pc5Num(entry.panel || 0).length }}>
               <K5_Count to={entry.panel || 0} fmt={pc5Num} />
             </b>
             <span>profiled {PC5_KINDS[kind].who} in {entry.name}</span>
