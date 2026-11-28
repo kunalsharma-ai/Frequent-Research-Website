@@ -22,6 +22,13 @@ in the queue, social posts wait as drafts, careers applications wait for SampCre
 
 Never put a key in a message, an email or a document. Only in the panel's Connections & keys, or in `.env` on the server.
 
+**GitHub #28 (Nov 2026): what still has to be in `.env`.** Every email, AI, social media, SampCrew, CRM and Sampforce
+setting above, and also `PUBLISH_MODE`, `LEADS`, `FB_GRAPH_VERSION` and `LINKEDIN_VERSION`, can be set in the panel.
+Only the start-up secrets stay in `.env`, on purpose: `MONGODB_URI` (the panel needs the database to start),
+`REVIEW_SECRET` / `KEYS_SECRET` (they encrypt the keys saved in the panel) and `DATA_KEY` / `DATA_KEY_OLD` (they encrypt
+onboarding documents and visitor IP addresses in the database). Keeping an encryption key in the same database it
+protects would let anyone with a copy of the database read everything, so these never move to the panel.
+
 ## 1. Website address (needed by all of the below)
 
 | Key | Example | Why |
@@ -98,6 +105,9 @@ The stage then shows on the lead in Leads.
 |---|---|
 | `LEAD_WEBHOOK` | As before: an `https://` address (CRM, Zapier) that also gets every lead as JSON |
 | `SAMPFORCE_WEBHOOK_URL`, `SAMPFORCE_WEBHOOK_SECRET` | Sampforce (sales app): every new lead is pushed here, signed. Optional `SAMPFORCE_WEBHOOK_EVENTS`. API keys for Sampforce to pull leads: System › Sampforce. Guide: 29-SAMPFORCE-API.md |
+| `PUBLISH_MODE` | `auto` (default): new reviews go live at once; `manual`: they wait for approval. Panel: Connections & keys › Site |
+| `LEADS` | `on` (default): this server saves the website forms; `off`: another service answers those paths. Panel: Site |
+| `FB_GRAPH_VERSION`, `LINKEDIN_VERSION` | Optional API versions for Facebook/Instagram (default `v21.0`) and LinkedIn (default `202505`). Panel: Social media |
 | `WORKERS` | `0` stops background sending (only for a second backend container or tests). Default on |
 
 ## Short list for Kunal

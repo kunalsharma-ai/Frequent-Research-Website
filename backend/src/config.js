@@ -8,6 +8,9 @@ const env = process.env;
 export function integrationsFrom(env) {
   return {
     leadWebhook: /^https:\/\//.test(env.LEAD_WEBHOOK || '') ? env.LEAD_WEBHOOK : '',
+    // GitHub #28: these can be changed in the admin panel too (Connections & keys › Site)
+    publishMode: (env.PUBLISH_MODE || 'auto').toLowerCase() === 'manual' ? 'manual' : 'auto',
+    leads: (env.LEADS || 'on').toLowerCase() !== 'off',
     // ---- build 78: email, newsletters, social media, AI and SampCrew. Everything is optional: a feature without its
     // keys stays visible in the admin panel with a "not connected" note and does nothing else.
     publicUrl: (env.PUBLIC_URL || 'https://www.frequentresearch.com').replace(/\/+$/, ''),
@@ -34,6 +37,8 @@ export function integrationsFrom(env) {
       x: { key: env.X_API_KEY || '', secret: env.X_API_SECRET || '', token: env.X_ACCESS_TOKEN || '', tokenSecret: env.X_ACCESS_SECRET || '' },
       // any other platform (YouTube, Pinterest, Threads, WhatsApp channel …) through Zapier / Make / Buffer: an https:// hook
       webhook: /^https:\/\//.test(env.SOCIAL_WEBHOOK || '') ? env.SOCIAL_WEBHOOK : '',
+      graphVersion: /^v\d{1,2}\.\d$/.test(env.FB_GRAPH_VERSION || '') ? env.FB_GRAPH_VERSION : 'v21.0',
+      linkedinVersion: /^\d{6}$/.test(env.LINKEDIN_VERSION || '') ? env.LINKEDIN_VERSION : '202505',
     },
     // build 82: the client and vendor onboarding portals sign their deliveries with this shared secret
     onboarding: { secret: env.ONBOARDING_SECRET || '' },
@@ -65,10 +70,8 @@ export const config = {
   // before going live; the panel shows a warning while the defaults are in use.
   // build 78.3: no shared admin password any more. Admin emails must be on these domains (comma list; * = any)
   adminDomains: (env.ADMIN_EMAIL_DOMAINS || 'frequentresearch.com').toLowerCase().split(/[,; ]+/).filter(Boolean),
-  publishMode: (env.PUBLISH_MODE || 'auto').toLowerCase() === 'manual' ? 'manual' : 'auto',
   // number of proxies in front of this server (the frontend nginx counts as one); used for the client IP
   trustProxy: env.TRUST_PROXY === undefined ? 1 : /^\d+$/.test(env.TRUST_PROXY) ? +env.TRUST_PROXY : env.TRUST_PROXY === 'true',
-  leads: (env.LEADS || 'on').toLowerCase() !== 'off',
   // largest upload the super admin can send (photos, PDFs, logos), in MB
   uploadMb: Math.max(1, +(env.UPLOAD_MB || 20)),
   // DEV=1: form endpoints only log to the console and the chat answers with a stub (local testing)

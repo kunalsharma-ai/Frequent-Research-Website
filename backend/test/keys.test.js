@@ -67,6 +67,21 @@ test('keys: saved encrypted, never shown, win over .env, can be removed', async 
   assert.equal(config.mail.smtp.pass, 'mailbox-password-xyz');
 });
 
+test('review publishing, leads switch and social API versions are set from the panel, encryption keys are not (GitHub #28)', async () => {
+  await fresh(sup);
+  assert.equal(config.publishMode, 'auto');
+  assert.equal((await put(sup.headers, { PUBLISH_MODE: 'sometimes' })).status, 422);
+  assert.equal((await put(sup.headers, { PUBLISH_MODE: 'manual', LEADS: 'off', FB_GRAPH_VERSION: 'v22.0', LINKEDIN_VERSION: '202511' })).status, 200);
+  assert.equal(config.publishMode, 'manual');
+  assert.equal(config.leads, false);
+  assert.equal(config.social.graphVersion, 'v22.0');
+  assert.equal(config.social.linkedinVersion, '202511');
+  // the keys that encrypt the database stay in .env only
+  for (const k of ['DATA_KEY', 'DATA_KEY_OLD', 'KEYS_SECRET', 'REVIEW_SECRET']) assert.equal((await put(sup.headers, { [k]: 'x'.repeat(40) })).status, 400);
+  await put(sup.headers, { PUBLISH_MODE: null, LEADS: null, FB_GRAPH_VERSION: null, LINKEDIN_VERSION: null });
+  assert.equal(config.publishMode, 'auto'); assert.equal(config.leads, true); assert.equal(config.social.graphVersion, 'v21.0');
+});
+
 test('every admin can add and remove their own photo', async () => {
   const webp = 'data:image/webp;base64,' + Buffer.concat([Buffer.from('RIFF'), Buffer.alloc(4), Buffer.from('WEBPVP8 '), Buffer.alloc(40)]).toString('base64');
   const send = (h, photo, method = 'PUT') => fetch(B + '/api/v1/admin/account/photo', { method, headers: { 'content-type': 'application/json', ...h }, body: method === 'PUT' ? JSON.stringify({ photo }) : undefined });

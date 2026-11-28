@@ -21,7 +21,8 @@ import { aiReady, aiWrite } from '../lib/ai.js';
 
 export const socialRouter = Router();
 const S = () => config.social;
-const GRAPH = 'https://graph.facebook.com/' + (process.env.FB_GRAPH_VERSION || 'v21.0');
+// version from Connections & keys (FB_GRAPH_VERSION) or .env, read on every call so a change applies without a restart
+const graph = () => 'https://graph.facebook.com/' + S().graphVersion;
 export const PLATFORMS = ['facebook', 'instagram', 'linkedin', 'x', 'webhook'];
 export const socialStatus = () => ({
   facebook: !!(S().facebook.pageId && S().facebook.token),
@@ -53,23 +54,23 @@ function xAuth(method, url) {
 const ADAPTERS = {
   async facebook(p, text) {
     const { pageId, token } = S().facebook;
-    if (p.image) return { id: (await call(`${GRAPH}/${pageId}/photos`, { method: 'POST', body: form({ url: abs(p.image), caption: text + (p.link ? '\n' + abs(p.link) : ''), access_token: token }) })).post_id };
-    if (p.video) return { id: (await call(`${GRAPH}/${pageId}/videos`, { method: 'POST', body: form({ file_url: abs(p.video), description: text, access_token: token }) })).id };
-    return { id: (await call(`${GRAPH}/${pageId}/feed`, { method: 'POST', body: form({ message: text, link: abs(p.link), access_token: token }) })).id };
+    if (p.image) return { id: (await call(`${graph()}/${pageId}/photos`, { method: 'POST', body: form({ url: abs(p.image), caption: text + (p.link ? '\n' + abs(p.link) : ''), access_token: token }) })).post_id };
+    if (p.video) return { id: (await call(`${graph()}/${pageId}/videos`, { method: 'POST', body: form({ file_url: abs(p.video), description: text, access_token: token }) })).id };
+    return { id: (await call(`${graph()}/${pageId}/feed`, { method: 'POST', body: form({ message: text, link: abs(p.link), access_token: token }) })).id };
   },
   async instagram(p, text) {
     const { userId, token } = S().instagram;
     if (!p.image && !p.video) throw new Error('Instagram needs a picture or a video');
-    const c = await call(`${GRAPH}/${userId}/media`, { method: 'POST', body: form(p.video ? { media_type: 'REELS', video_url: abs(p.video), caption: text, access_token: token } : { image_url: abs(p.image), caption: text, access_token: token }) });
+    const c = await call(`${graph()}/${userId}/media`, { method: 'POST', body: form(p.video ? { media_type: 'REELS', video_url: abs(p.video), caption: text, access_token: token } : { image_url: abs(p.image), caption: text, access_token: token }) });
     // videos take a while to process: wait up to about 2 minutes
-    for (let i = 0; p.video && i < 24; i++) { const s = await call(`${GRAPH}/${c.id}?fields=status_code&access_token=${encodeURIComponent(token)}`, {}); if (s.status_code === 'FINISHED') break; if (s.status_code === 'ERROR') throw new Error('Instagram could not process the video'); await new Promise((r) => setTimeout(r, 5000)); }
-    return { id: (await call(`${GRAPH}/${userId}/media_publish`, { method: 'POST', body: form({ creation_id: c.id, access_token: token }) })).id };
+    for (let i = 0; p.video && i < 24; i++) { const s = await call(`${graph()}/${c.id}?fields=status_code&access_token=${encodeURIComponent(token)}`, {}); if (s.status_code === 'FINISHED') break; if (s.status_code === 'ERROR') throw new Error('Instagram could not process the video'); await new Promise((r) => setTimeout(r, 5000)); }
+    return { id: (await call(`${graph()}/${userId}/media_publish`, { method: 'POST', body: form({ creation_id: c.id, access_token: token }) })).id };
   },
   async linkedin(p, text) {
     const { author, token } = S().linkedin;
     const body = { author, commentary: text, visibility: 'PUBLIC', distribution: { feedDistribution: 'MAIN_FEED', targetEntities: [], thirdPartyDistributionChannels: [] }, lifecycleState: 'PUBLISHED', isReshareDisabledByAuthor: false };
     if (p.link) body.content = { article: { source: abs(p.link), title: clean(p.title || text, 200) } };
-    const r = await fetch('https://api.linkedin.com/rest/posts', { method: 'POST', headers: { Authorization: 'Bearer ' + token, 'Content-Type': 'application/json', 'LinkedIn-Version': process.env.LINKEDIN_VERSION || '202505', 'X-Restli-Protocol-Version': '2.0.0' }, body: JSON.stringify(body), signal: AbortSignal.timeout(30000) });
+    const r = await fetch('https://api.linkedin.com/rest/posts', { method: 'POST', headers: { Authorization: 'Bearer ' + token, 'Content-Type': 'application/json', 'LinkedIn-Version': S().linkedinVersion, 'X-Restli-Protocol-Version': '2.0.0' }, body: JSON.stringify(body), signal: AbortSignal.timeout(30000) });
     if (!r.ok) throw new Error(`${r.status} ${(await r.text()).slice(0, 200)}`);
     return { id: r.headers.get('x-restli-id') || '' };
   },
