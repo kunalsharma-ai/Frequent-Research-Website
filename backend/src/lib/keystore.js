@@ -12,7 +12,7 @@ import { col, dbReady } from '../db.js';
 
 // [name, secret?, group]
 export const KEY_LIST = [
-  ['PUBLIC_URL', false, 'Site'],
+  ['PUBLIC_URL', false, 'Site'], ['PUBLISH_MODE', false, 'Site'], ['LEADS', false, 'Site'],
   ['MAIL_PROVIDER', false, 'Email'], ['MAIL_FROM', false, 'Email'], ['MAIL_REPLY_TO', false, 'Email'], ['MAIL_NOTIFY', false, 'Email'],
   ['SMTP_HOST', false, 'Email'], ['SMTP_PORT', false, 'Email'], ['SMTP_SECURE', false, 'Email'], ['SMTP_USER', false, 'Email'], ['SMTP_PASS', true, 'Email'],
   ['RESEND_API_KEY', true, 'Email'], ['SENDGRID_API_KEY', true, 'Email'], ['BREVO_API_KEY', true, 'Email'], ['MAIL_PER_MINUTE', false, 'Email'],
@@ -20,7 +20,7 @@ export const KEY_LIST = [
   ['FB_PAGE_ID', false, 'Social media'], ['FB_PAGE_TOKEN', true, 'Social media'], ['IG_USER_ID', false, 'Social media'], ['IG_TOKEN', true, 'Social media'],
   ['LINKEDIN_AUTHOR_URN', false, 'Social media'], ['LINKEDIN_TOKEN', true, 'Social media'],
   ['X_API_KEY', true, 'Social media'], ['X_API_SECRET', true, 'Social media'], ['X_ACCESS_TOKEN', true, 'Social media'], ['X_ACCESS_SECRET', true, 'Social media'],
-  ['SOCIAL_WEBHOOK', true, 'Social media'],
+  ['SOCIAL_WEBHOOK', true, 'Social media'], ['FB_GRAPH_VERSION', false, 'Social media'], ['LINKEDIN_VERSION', false, 'Social media'],
   ['SAMPCREW_API_URL', false, 'SampCrew'], ['SAMPCREW_API_KEY', true, 'SampCrew'], ['SAMPCREW_WEBHOOK_SECRET', true, 'SampCrew'],
   ['LEAD_WEBHOOK', true, 'CRM'],
   ['SAMPFORCE_WEBHOOK_URL', true, 'Sampforce'], ['SAMPFORCE_WEBHOOK_SECRET', true, 'Sampforce'], ['SAMPFORCE_WEBHOOK_EVENTS', false, 'Sampforce'],
@@ -31,7 +31,7 @@ export const isKey = (k) => META.has(k);
 
 // non-secret values are checked so a typo cannot break sending
 const CHECK = {
-  PUBLIC_URL: /^https?:\/\/[^\s/]+$/, MAIL_PROVIDER: /^(smtp|resend|sendgrid|brevo|off)$/i, SMTP_PORT: /^\d{2,5}$/, SMTP_SECURE: /^[01]$/, MAIL_PER_MINUTE: /^\d{1,4}$/,
+  PUBLIC_URL: /^https?:\/\/[^\s/]+$/, PUBLISH_MODE: /^(auto|manual)$/i, LEADS: /^(on|off)$/i, FB_GRAPH_VERSION: /^v\d{1,2}\.\d$/, LINKEDIN_VERSION: /^\d{6}$/, MAIL_PROVIDER: /^(smtp|resend|sendgrid|brevo|off)$/i, SMTP_PORT: /^\d{2,5}$/, SMTP_SECURE: /^[01]$/, MAIL_PER_MINUTE: /^\d{1,4}$/,
   SAMPCREW_API_URL: /^https:\/\/\S+$/, SOCIAL_WEBHOOK: /^https:\/\/\S+$/, LEAD_WEBHOOK: /^https:\/\/\S+$/, SAMPFORCE_WEBHOOK_URL: /^https:\/\/\S+$/, SAMPFORCE_WEBHOOK_EVENTS: /^[a-z.*]+([ ,;]+[a-z.*]+)*$/, AI_MODEL: /^[a-z0-9][a-z0-9.\-[\]]{1,80}$/i,
 };
 export function checkValue(k, v) {

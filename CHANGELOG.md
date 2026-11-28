@@ -1,5 +1,13 @@
 # Frequent Research website: change log
 
+## 2026-11-28 · GitHub #28: server settings editable in the super admin
+
+- `PUBLISH_MODE`, `LEADS`, `FB_GRAPH_VERSION` and `LINKEDIN_VERSION` join the other email, AI, social, SampCrew and CRM
+  keys under System › Connections & keys: saved in the database, live at once, no restart.
+- Only the start-up secrets stay in `.env` on purpose: `MONGODB_URI`, `REVIEW_SECRET`, `KEYS_SECRET`, `DATA_KEY` /
+  `DATA_KEY_OLD` (they encrypt what the database holds). Doc: `docs/go-live/12-MARKETING-AND-KEYS.md`.
+- "Not connected" notes in the panel now point to Connections & keys instead of "edit .env and restart".
+
 ## 2026-11-27 · Sampforce API: every website lead for the sales app
 
 Website design and animations unchanged; backend and super admin only.

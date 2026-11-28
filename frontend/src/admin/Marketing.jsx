@@ -14,7 +14,7 @@ import { AdmFieldInput as FieldInput } from './Builder.jsx';
 
 const Kpi = ({ n, l }) => <div className="adm-kpi"><b>{n}</b><span>{l}</span></div>;
 const NotReady = ({ what, keys, go }) => (
-  <p className="adm-status is-err adm78-warn">{what} is not connected yet, so nothing is sent: add {keys} to the server's .env file and restart the backend. {go && <a href="#" onClick={(e) => { e.preventDefault(); go("keys"); }}>See Connections & keys</a>}</p>
+  <p className="adm-status is-err adm78-warn">{what} is not connected yet, so nothing is sent: add {keys} under Connections & keys (works at once, no restart). {go && <a href="#" onClick={(e) => { e.preventDefault(); go("keys"); }}>See Connections & keys</a>}</p>
 );
 
 /* ======================================================================================== Contacts */
@@ -472,6 +472,8 @@ function Ai({ go }) {
 /* ======================================================================================== Connections & keys */
 const KEY_HELP = {
   PUBLIC_URL: "The site address used in emails (https://www.frequentresearch.com)",
+  PUBLISH_MODE: "auto: new reviews go live at once; manual: they wait for approval", LEADS: "on: this server saves the website forms; off: another service answers them",
+  FB_GRAPH_VERSION: "Optional: Facebook Graph API version (default v21.0)", LINKEDIN_VERSION: "Optional: LinkedIn API version, YYYYMM (default 202505)",
   MAIL_PROVIDER: "smtp, resend, sendgrid or brevo (found by itself from the keys below)", MAIL_FROM: "Sender, e.g. Frequent Research <hello@frequentresearch.com>", MAIL_REPLY_TO: "Where replies go", MAIL_NOTIFY: "Team addresses alerted about every lead (comma separated)",
   SMTP_HOST: "e.g. smtp.office365.com or smtp.gmail.com", SMTP_PORT: "587 or 465", SMTP_USER: "Mailbox user", SMTP_PASS: "Mailbox or app password",
   RESEND_API_KEY: "Resend.com key (instead of SMTP)", SENDGRID_API_KEY: "SendGrid key (instead of SMTP)", BREVO_API_KEY: "Brevo key (instead of SMTP)",
@@ -526,7 +528,7 @@ function Keys() {
   return (
     <section className="adm-sec">
       <header className="adm-sec__h"><h1>Connections & keys</h1></header>
-      <p className="adm-muted">Type each key here: it is saved in the database, secrets encrypted (AES-256), and works at once, no restart. A key saved here wins over the same name in the server's .env file; Remove goes back to the .env value. Secrets are never shown again, only their last 4 characters. Saving asks for your authenticator code. Step-by-step help for every key: go-live guide 12-MARKETING-AND-KEYS.md.</p>
+      <p className="adm-muted">Type each key here: it is saved in the database, secrets encrypted (AES-256), and works at once, no restart. A key saved here wins over the same name in the server's .env file; Remove goes back to the .env value. Secrets are never shown again, only their last 4 characters. Saving asks for your authenticator code. Step-by-step help for every key: go-live guide 12-MARKETING-AND-KEYS.md. Only the start-up secrets stay in the .env file: MONGODB_URI, REVIEW_SECRET, KEYS_SECRET and DATA_KEY / DATA_KEY_OLD. They unlock what is saved here, so keeping them in the same database would let anyone with a copy of the database read every key.</p>
       {d.canSave === false && <AdmStatus s={{ err: "Keys cannot be saved yet: the server needs KEYS_SECRET (or REVIEW_SECRET) in its .env. It encrypts the saved keys." }} />}
       <div className="adm-table"><table><tbody>
         <Row l="Email" ok={d.mail.ready} note={d.mail.ready ? "Provider: " + d.mail.provider + (d.mail.from ? " · from " + d.mail.from : "") : "Needs MAIL_FROM and SMTP_… or RESEND_API_KEY / SENDGRID_API_KEY / BREVO_API_KEY"} />
